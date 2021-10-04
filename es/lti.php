@@ -103,9 +103,10 @@ $string['createdon'] = 'Creado en';
 $string['curllibrarymissing'] = 'La biblioteca PHP cURL necesaria para la herramienta externa.';
 $string['custom'] = 'Parámetros personalizados';
 $string['custom_config'] = 'Utilizando la herramienta de configuración personalizada.';
-$string['custom_help'] = 'Los parámetros personalizados son ajustes utilizados por el proveedor de la herramienta. Por ejemplo, un parámetro personalizado puede ser utilizado para mostrar un recurso específico.
+$string['custom_help'] = 'Los parámetros personalizados son configuraciones utilizadas por el proveedor de herramientas. Por ejemplo, se puede utilizar un parámetro personalizado para mostrar
+un recurso específico del proveedor. Cada parámetro debe introducirse en una línea separada usando un formato de "nombre=valor"; por ejemplo, "capítulo=3".
 
-Es seguro dejar este campo sin cambios, salvo indicación del proveedor de la herramienta.';
+Es seguro dejar este campo sin cambios a menos que lo indique el proveedor de la herramienta.';
 $string['custominstr'] = 'Parámetros personalizados';
 $string['debuglaunch'] = 'Opción de depuración';
 $string['debuglaunchoff'] = 'Inicio normal';
@@ -348,6 +349,17 @@ junto con la clave de consumidor del proveedor de herramientas.
 
 Herramientas que no requieren una comunicación segura de Moodle y no brindan servicios adicionales (como informes de calificaciones)
 puede que no requieran un secreto compartido.';
+$string['password_help'] = 'Para herramientas preconfiguradas no es necesario introducir aquí un secreto compartido ya que éste será
+proporcionado como parte del proceso de configuración.
+
+Este campo debe introducirse si se crea un enlace a un proveedor de herramientas que aún no está configurado.
+Si el proveedor de herramientas se va a utilizar más de una vez en este curso, es una buena idea añadir una configuración de herramientas del curso.
+
+El secreto compartido se puede considerar como una contraseña que se utiliza para autenticar el acceso a la herramienta. Debe ser proporcionado
+junto con la clave de consumidor del proveedor de herramientas.
+
+Las herramientas que no requieren una comunicación segura de Moodle y no brindan servicios adicionales (como informes de calificaciones)
+puede que no requieran un secreto compartido.';
 $string['pending'] = 'Pendiente';
 $string['pluginadministration'] = 'Administración de herramientas externas';
 $string['pluginname'] = 'Herramienta Externa';
@@ -383,35 +395,78 @@ $string['privacy:metadata:userid'] = 'El ID del usuario que accede al consumidor
 $string['privacy:metadata:useridnumber'] = 'El número ID del usuario que accede al consumidor LTI';
 $string['privacy:metadata:username'] = 'El nombre de usuario del usuario que accede al consumidor LTI';
 $string['publickey'] = 'Clave pública';
+$string['publickey_help'] = 'La clave pública (en formato PEM) proporcionada por la herramienta para permitir la verificación de firmas de mensajes entrantes y solicitudes de servicio.';
 $string['publickeyset'] = 'Conjunto de claves públicas';
+$string['publickeyset_help'] = 'Conjunto de claves públicas desde donde este sitio recuperará la clave pública de la herramienta para permitir que se verifiquen las firmas de los mensajes entrantes y las solicitudes de servicio.';
 $string['quickgrade'] = 'Permitir calificación rápida';
+$string['quickgrade_help'] = 'Si está habilitado, se pueden calificar varias herramientas en una página. Añada calificaciones y comentarios y luego haga clic en el botón "Guardar todos mis comentarios" para guardar todos los cambios para esa página.';
 $string['redirect'] = 'Serás redirigido en unos segundos. Si no eres redirigido, presiona el botón.';
 $string['redirectionuris'] = 'URI(s) de redirección';
+$string['redirectionuris_help'] = 'Una lista de URIs (uno por línea) que utiliza la herramienta al realizar solicitudes de autorización. Al menos uno debe estar registrado antes de que se pueda enviar un mensaje correctamente a la herramienta.';
 $string['register'] = 'Registro';
+$string['register_warning'] = 'La página de registro parece tardar un poco en abrirse. Si no aparece, verifique que introdujo la URL correcta en los ajustes de configuración. Si Moodle está usando https, asegúrese de que la herramienta que está configurando admita https y de que está usando https en la URL.';
 $string['registertype'] = 'Configurar una nueva herramienta externa de registro';
 $string['registration_options'] = 'Opciones de registro';
 $string['registrationname'] = 'Nombre del proveedor de la herramienta';
 $string['registrationname_help'] = 'Inserta el nombre del proveedor de la herramienta que está siendo registrado.';
 $string['registrationurl'] = 'URL de registo';
+$string['registrationurl_help'] = 'La URL de registro debe estar disponible en el proveedor de la herramienta así como la ubicación a la que se deben enviar las solicitudes de registro.';
 $string['reject'] = 'Rechazar';
 $string['rejected'] = 'Rechazado';
 $string['resource'] = 'Recurso';
 $string['resourcekey'] = 'Clave de cliente';
 $string['resourcekey_admin'] = 'Clave de cliente';
+$string['resourcekey_admin_help'] = 'La clave del consumidor se puede considerar como un nombre de usuario que se utiliza para autenticar el acceso a la herramienta.
+El proveedor de la herramienta puede utilizarla para identificar de forma única el sitio Moodle desde el que los usuarios inician la herramienta.
+
+La clave del consumidor debe ser proporcionada por el proveedor de la herramienta. El método para obtener una clave de consumidor varía entre
+proveedores de herramientas. Puede ser un proceso automatizado o puede requerir de un diálogo con el proveedor de la herramienta.
+
+Las herramientas que no requieren una comunicación segura de Moodle y no brindan servicios adicionales (como informes de calificaciones)
+puede que no requieran una clave de recurso.';
+$string['resourcekey_help'] = 'Para herramientas preconfiguradas, no es necesario introducir una clave de recurso aquí, ya que la clave de consumidor será
+proporcionada como parte del proceso de configuración.
+
+Este campo debe introducirse si se crea un enlace a un proveedor de herramientas que aún no está configurado.
+Si el proveedor de herramientas se va a utilizar más de una vez en este curso, es una buena idea añadir una configuración de herramientas del curso.
+
+La clave del consumidor se puede considerar como un nombre de usuario que se utiliza para autenticar el acceso a la herramienta.
+El proveedor de la herramienta puede utilizarla para identificar de forma única el sitio Moodle desde el que los usuarios inician la herramienta.
+
+La clave del consumidor debe ser proporcionada por el proveedor de la herramienta. El método para obtener una clave de consumidor varía entre
+proveedores de herramientas. Puede ser un proceso automatizado o puede requerir de un diálogo con el proveedor de la herramienta.
+
+Las herramientas que no requieren una comunicación segura de Moodle y no brindan servicios adicionales (como informes de calificaciones)
+puede que no requieran una clave de recurso.';
 $string['resourceurl'] = 'URL del recurso';
 $string['return_to_course'] = 'Haz clic <a href="{$a->link}" target="_top">aquí</a> para volver al curso.';
 $string['saveallfeedback'] = 'Guardar toda mi retroalimentación';
 $string['search:activity'] = 'Herramienta externa - información de actividad';
 $string['secure_icon_url'] = 'URL de icono seguro';
+$string['secure_icon_url_help'] = 'Similar a la URL del icono, pero se usa cuando se accede al sitio de forma segura a través de SSL. Este campo es para evitar que el navegador muestre una advertencia sobre una imagen insegura.';
 $string['secure_launch_url'] = 'URL de herramienta segura';
+$string['secure_launch_url_help'] = 'Similar a la URL de la herramienta, pero se usa en lugar de la URL de la herramienta si se requiere alta seguridad. Moodle utilizará la URL segura de la herramienta en lugar de la URL de la herramienta si se accede al sitio de Moodle a través de SSL, o si la configuración de la herramienta está configurada para que siempre se inicie a través de SSL.
+
+La URL de la herramienta también se puede configurar en una dirección https para forzar el lanzamiento a través de SSL, y este campo puede dejarse en blanco.';
 $string['selectcontent'] = 'Seleccionar contenido';
 $string['send'] = 'Enviar';
 $string['services'] = 'Servicios';
+$string['services_help'] = 'Selecciona los servicios que desea ofrecer al proveedor de herramientas. Se puede seleccionar más de un servicio.';
 $string['setupoptions'] = 'Opciones de configuración';
 $string['share_email'] = 'Compartir el e-mail del usuario con la herramienta';
 $string['share_email_admin'] = 'Compartir el e-mail del usuario con la herramienta';
+$string['share_email_admin_help'] = 'Especifica si la dirección de correo electrónico del usuario que inicia la herramienta se compartirá con el proveedor de la herramienta.
+El proveedor de la herramienta puede necesitar las direcciones de correo electrónico del lanzador para distinguir a los usuarios con el mismo nombre en la interfaz de usuario o enviar correos electrónicos
+a los usuarios en función de las acciones dentro de la herramienta.';
+$string['share_email_help'] = 'Especifica si la dirección de correo electrónico del usuario que inicia la herramienta se compartirá con el proveedor de la herramienta.
+
+El proveedor de la herramienta puede necesitar las direcciones de correo electrónico del lanzador para distinguir a los usuarios con el mismo nombre o enviar correos electrónicos a los usuarios según las acciones dentro de la herramienta.
+
+Tenga en cuenta que esta configuración puede anularse en la configuración de la herramienta.';
 $string['share_name'] = 'Compartir el nombre del usuario con la herramienta';
 $string['share_name_admin'] = 'Compartir el nombre del usuario con la herramienta';
+$string['share_name_admin_help'] = 'Especifica si el nombre completo del usuario que inicia la herramienta debe compartirse con el proveedor de la herramienta.
+El proveedor de la herramienta puede necesitar los nombres de los lanzadores para mostrar información significativa dentro de la herramienta.';
 $string['share_name_help'] = 'Especifica si el nombre completo del usuario que lanza la herramienta debería ser compartido con el proveedor de la herramienta.
 
 El proveedor de la herramienta puede necesitar el nombre de la persona que la lanza para mostrar información de utilidad dentro de la propia herramienta.
@@ -464,6 +519,15 @@ $string['tooldetailspublickeyseturl'] = 'URL del conjunto de claves públicas';
 $string['toolisbeingused'] = 'Esta herramienta ha sido usada {$a} veces';
 $string['toolisnotbeingused'] = 'Esta herramienta aún no ha sido usada';
 $string['toolproxy'] = 'Registros de herramienta externa';
+$string['toolproxy_help'] = 'Los registros de herramientas externas permiten a los administradores del sitio de Moodle configurar herramientas externas desde un proxy de herramienta obtenido de un proveedor de herramientas compatible con LTI 2.0. Una URL de registro proporcionada por el proveedor de la herramienta es todo lo que se necesita para iniciar el proceso. Las capacidades y servicios ofrecidos al proveedor de herramientas se seleccionan al configurar un nuevo registro.
+
+Los registros de herramientas enumerados en esta página se dividen en cuatro categorías:
+
+* **Configurado** - Estos registros de herramientas se han configurado pero el proceso de registro aún no se ha iniciado.
+* **Pendiente** - El proceso de registro para estos registros de herramientas se ha iniciado pero no se ha completado. Abra y guarde la configuración para moverla otra vez a la categoría \'Configurado\'.
+* **Aceptado** - Estos registros de herramientas han sido aprobados; los recursos especificados en el proxy de la herramienta aparecerán en la página de herramientas preconfiguradas
+con un estado inicial de \'Pendiente\'.
+* **Rechazado** - Estos registros de herramientas son los que fueron rechazados durante el proceso de registro. Abra y guarde la configuración para moverla otra vez a la categoría \'Configurado\' para que se pueda reiniciar el proceso de registro.';
 $string['toolproxyregistration'] = 'Registro de herramienta externa';
 $string['toolregistration'] = 'Registro de herramienta externa';
 $string['toolsetup'] = 'Registro de herramienta externa';

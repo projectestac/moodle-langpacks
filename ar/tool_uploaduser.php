@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowdeletes'] = 'اسمح بالحذف';
-$string['allowrenames'] = 'اسمح بإعادة التسمية';
+$string['allowrenames'] = 'السماح بإعادة التسمية';
 $string['allowsuspends'] = 'السماح بتعليق وتفعيل الحسابات';
 $string['assignedsysrole'] = 'دور النظام المُعيَّن {$a}';
 $string['clidefault'] = 'الافتراضي:';

@@ -35,6 +35,7 @@ $string['cfg_loginflow_authcode_desc'] = 'عبر اللجوء إلى هذا ال
 $string['cfg_loginflow_rocreds'] = 'منح كلمة مرور حساب مالك المورد';
 $string['cfg_logoutendpoint_key'] = 'نهاية النهاية لتسجيل الخروج';
 $string['cfg_opname_key'] = 'اسم المزود';
+$string['cfg_userrestrictions_desc'] = 'إسمح فقط للمستخدمين الذين يلبون تقييدات معينة بتسجيل الدخول. <br /><b>كيفية استعمال تقييدات المستخدمين: </b> <ul><li>أدخل نمط <a href="https://en.wikipedia.org/wiki/Regular_expression">تعبير إعتيادي</a> يطابق اسم المستخدم لمن تريد السماح له.</li><li>أدخل نمطًا واحدًا لكل سطر</li><li>إذا أدخلت أنماطًا متعددة، سيتم السماح للمستخدم إذا لبى أي منها.</li><li>ينبغي إسباق الحرف "/" بالحرف "\\".</li><li>إذا لم تقم بإدخال أي تقييدات أعلاه، سيكون كل المستخدمين الذين بإمكانهم تسجيل الدخول في مزود اتصال OpenID مقبولين من جهة مودل.</li><li>أي مستخدم لا يتطابق حسابه مع أي من الأنماط المدخلة سيتم منعه من تسجيل الدخول باستعمال اتصال OpenID.</li></ul>';
 $string['errorauthdisconnectemptypassword'] = 'لا يمكن لكلمة المرور أن تكون فارغة';
 $string['errorjwtunsupportedalg'] = 'JWS Alg أو JWE غير مدعومة';
 $string['event_debug'] = 'رسالة تصحيح الخطأ';

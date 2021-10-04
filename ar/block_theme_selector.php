@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['createwindow'] = 'إنشاء نافذة';
 $string['theme_selector:addinstance'] = 'إضافة كتلة جديدة من منتقي المظاهر';
-$string['theme_selector:myaddinstance'] = 'إضافة كتلة جديدة من منتقي المظاهر إلى دفة القيادة';
+$string['theme_selector:myaddinstance'] = 'إضافة كتلة جديدة من منتقي المظاهر إلى لوحة التحكم';
 $string['urlswitch_desc'] = 'التبديل باستعمال عنوان الرابط، يتطلب ضبط إعداد نواة المظهر المسمى \'allowthemechangeonurl\'.';
 $string['urlswitchurlwarning'] = 'إن إعداد نواة المظهر المسمى \'allowthemechangeonurl\' بحاجة إلى ضبط.';
 $string['urlswitchwarning'] = 'إعداد تبديل عنوان الرابط غير مهيأ، تحقق من تنصيب الكتلة.';

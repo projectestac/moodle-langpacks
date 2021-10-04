@@ -39,6 +39,7 @@ $string['enteralt'] = 'Beschreibung für jemanden, der das Bild nicht sehen kann
 $string['enterurl'] = 'URL eingeben';
 $string['height'] = 'Höhe';
 $string['imageproperties'] = 'Bildeigenschaften';
+$string['imageurlrequired'] = 'Ein Bild muss eine URL haben.';
 $string['pluginname'] = 'Bild einfügen oder bearbeiten';
 $string['presentation'] = 'Beschreibung nicht notwendig';
 $string['presentationoraltrequired'] = 'Bilder müssen eine Beschreibung haben, wenn nicht \'Beschreibung nicht notwendig\' markiert sind.';

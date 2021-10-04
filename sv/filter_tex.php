@@ -36,5 +36,5 @@ $string['pathdvisvgm'] = 'Sökväg för <i>dvisvgm</i>-fil';
 $string['pathlatex'] = 'Sökväg för <i>latex</i> binär';
 $string['pathmimetex'] = 'Sökväg för <i>mimetex</i>-fil';
 $string['pathmimetexdesc'] = 'Moodle kommer att använda den egna minetex-filen såvida inte en annan sökväg anges.';
-$string['privacy:metadata'] = 'Pluginmodulen TeX-notation lagrar ingen personlig information.';
+$string['privacy:metadata'] = 'Pluginmodulen TeX-notation lagrar ingen personinformation.';
 $string['source'] = 'TeX-källa';

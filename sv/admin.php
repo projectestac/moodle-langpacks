@@ -185,7 +185,7 @@ $string['configallowswitch'] = 'Välj vilka roller en användare får byta till,
 $string['configallowthemechangeonurl'] = 'Om aktiverad, kan temat ändras genom att lägga till antingen:<br />?theme=temanamn till alla Moodle URL (tex: minmoodlesite.com/?theme=afterburner ) eller <br />&theme=temanamn till valfri intern Moodle URL (tex: minmoodlesite.com/kurs/vy.php?id=2&theme=afterburner ).';
 $string['configallowuserblockhiding'] = 'Vill du att användare själva ska kunna välja att dölja/visa ytterkolumnerna (sidoblocken) på hela webbplatsen? Den här egenskapen använder Javascript och cookies för att komma ihåg statusen på varje ihopfällt block och detta påverkar bara det användaren själv ser.';
 $string['configallowusermailcharset'] = 'Om du aktiverar detta så kommer varje deltagare på den här webbplatsen att kunna ange sin egen teckenuppsättning för e-post.';
-$string['configallowuserswitchrolestheycantassign'] = 'Som standard krävs <code>moodle/role:assign</code> för att användare ska kunna byta roller. Om du aktiverar den här inställningen tas det här kravet bort och resulterar i att de roller som finns i "Byt roll till"-rullgardinsmenyn bestäms av inställningar i tabellen "Tillåt rolltilldelningar". Det rekommenderas att inställningarna i tabellen "Tillåt rolltilldelningar" inte tillåter användare att byta till en roll med fler funktioner än deras befintliga roll.';
+$string['configallowuserswitchrolestheycantassign'] = 'Som standard krävs <code>moodle/role:assign</code> för att användare ska kunna byta roller. Om du aktiverar den här inställningen tas det här kravet bort och resulterar i att de roller som finns i "Byt roll till"-listrutan bestäms av inställningar i tabellen "Tillåt rolltilldelningar". Det rekommenderas att inställningarna i tabellen "Tillåt rolltilldelningar" inte tillåter användare att byta till en roll med fler funktioner än deras befintliga roll.';
 $string['configallowuserthemes'] = 'Om du aktiverar detta så kommer det att bli möjligt för användare att ställa in sina egna teman. Teman för användare är giltiga över teman för webbplatsen (men inte över teman för kurser).';
 $string['configallowview'] = 'Välj vilka roller en användare kommer att se, kunna filtrera efter etc. baserat på vilka roller de redan har.';
 $string['configallusersaresitestudents'] = 'För aktiviteter på webbplatsens förstasida; bör ALLA användare betraktas som studenter?  Om du svarar "Ja" får alla bekräftade användarkonton delta som deltagare i dessa aktiviteter.  Om du svarar "Nej" kommer endast användare som redan är deltagare i minst en kurs att kunna delta i dessa aktiviteter på förstasidan. Endast administratörer och särskilt tilldelade lärare kan fungera som lärare för dessa aktiviteter på förstasidan.';
@@ -256,7 +256,7 @@ $string['configemaildkimselector'] = 'DKIM-väljaren är godtycklig och din/dina
 $string['configemailfromvia'] = 'Lägg till via-information i avsnittet "Från" i utgående e-post. Detta informerar mottagaren varifrån detta e-postmeddelande kom ifrån och hjälper också till att bekämpa mottagare som av misstag svarar på no-reply e-postadresser.';
 $string['configemailheaders'] = 'Omodifierade e-post headers som ska läggas till ordagrant till all utgående e-post.';
 $string['configemailsubjectprefix'] = 'Text som ska läggas som prefix i ämnesraden för all utgående e-post.';
-$string['configenableactivitychooser'] = 'Aktivitetsväljaren är en dialogruta med en kort beskrivning av varje aktivitet och resurs. Om den är inaktiverad visas istället separata resurs- och aktivitetsrullgardinsmenyer.';
+$string['configenableactivitychooser'] = 'Aktivitetsväljaren är en dialogruta med en kort beskrivning av varje aktivitet och resurs. Om den är inaktiverad visas istället separata resurs- och aktivitetslistrutor.';
 $string['configenableanalytics'] = 'Analysmodeller, såsom \'Elever som riskerar att hoppa av\', eller  \'Kommande aktiviteter som förfaller\' kan generera förutsägelser, skicka aviseringar om nya insikter samt erbjuda vidare åtgärder, som t.ex. skicka meddelanden till användare.';
 $string['configenableblogs'] = 'Detta alternativ ger alla användare av webbplatsen tillgång till en egen blogg.';
 $string['configenablecalendarexport'] = 'Aktivera export av och prenumeration på kalendrar.';
@@ -296,8 +296,8 @@ $string['configgradeexport'] = 'Välj vilka exportformat för betygsbok som är 
 $string['confighiddenuserfields'] = 'Välj vilka användarfält du önskar dölja för andra användare än kurslärare/administratörer. Detta kommer att öka elevernas integritet. Håll CTRL-tangenten för att markera flera fält.';
 $string['configidnumber'] = 'Den här valmöjligheten specificerar följande: (a)Användarnas ska inte alls behöva ange ID-nummer (b) Användarna kan ange ID-nummer eller avstå från det (c) Användarna måste ange ID-nummer. Om användaren anger sitt ID-nummer så visas det i dennes Presentation.';
 $string['configintro'] = 'På denna sida kan du ange ett antal konfigurationsvariabler som hjälper Moodle att fungera tillfredställande på din server. Bekymra dig inte så mycket om det - standardvalen brukar fungera bra och du kan alltid återvända senare till denna sida för att ändra inställningarna.';
-$string['configintroadmin'] = 'På den här sidan kan du konfigurera ditt konto som administratör. Som administratör har du fullständig kontroll över webbapplikationen. Se till att du har ett säkert användarnamn och lösenord liksom en giltig e-postadress. Du kan skapa fler konton för administratörer senare.';
-$string['configintrosite'] = 'Den här sidan låter dig konfigurera första sidan på webbapplikationen och namnet på den här nya webbplatsen. Du kan komma tillbaka hit senare och ändra på inställningarna. Länken hit heter \'Webbplatsinställningar\'.';
+$string['configintroadmin'] = 'På den här sidan kan du konfigurera webbplatsens administratörskonto. En administratör har fullständig kontroll över webbplatsen. Se till att du anger ett säkert användarnamn och lösenord liksom en giltig e-postadress. Du kan skapa ytterligare administratörskonton senare.';
+$string['configintrosite'] = 'På den här sidan kan du konfigurera förstasidan och namnet på den nya webbplatsen. Du kan komma tillbaka hit senare och ändra dessa inställningar. Använd administrationsmenyerna.';
 $string['configiplookup'] = 'När du klickar på en IP-adress (som t.ex. 34.12.222.93), som i loggarna så kommer du att få se en karta med en kvalificerad gissning om var denna IP finns geografiskt. Det finns olika pluginmoduler för det här som du kan välja bland, vart och ett har sina för- och nackdelar.';
 $string['configkeeptagnamecase'] = 'Markera för att behålla stora och små bokstäver så som de skrevs in av användaren';
 $string['configlang'] = 'Välj ett standardspråk för hela webbplatsen. Användare kan åsidosätta den här inställningen med hjälp av språkmenyn eller inställningen i sin personliga profil.';
@@ -863,7 +863,7 @@ $string['misc'] = 'Övrigt';
 $string['mlbackendsettings'] = 'Serverinställningar för maskininlärning';
 $string['mnetrestore_extusers'] = '<strong>OBS!</strong> Den här säkerhetskopian innehåller fjärranvändarkonton i ett nätverk för Moodle och de kommer att återställas som e n del av processen.';
 $string['mnetrestore_extusers_admin'] = '<strong>OBS:</strong> Denna säkerhetskopia verkar komma från en annan Moodle installation och innehåller användarkonton från  utanförliggande Moodlenätverk. Återställningen kommer att försöka matcha Moodle nätverksvärdar för alla skapade användare. De som inte matchar automatiskt kopplas till intern verifiering (istället för Mnet). Återställningsloggen kommer att informera dig om detta.';
-$string['mnetrestore_extusers_mismatch'] = '<strong>OBS!</strong> Den här säkerhetskopian kommer uppenbarligen från en annan installation av Moodle och innehåller fjärranvändarkonton i ett nätverk för Moodle som kanske inte går att återställa. Den här operationen stödjs inte. Om du är säker på att den var skapad på den här installationen av Moodle, eller om du kan säkerställa att alla de nödvändiga värdarna i nätverket för Moodle är konfigurerade så kan du ändå försöka fullfölja återställandet.';
+$string['mnetrestore_extusers_mismatch'] = '<strong>OBS!</strong> Den här säkerhetskopian verkar komma från en annan Moodleinstallation och innehåller externa Moodlekonton som kanske inte går att återställa. Den här operationen stödjs inte. Om du är säker på att den var skapad av den här Moodleinstallationen, eller om du kan säkerställa att alla de nödvändiga värdarna i Moodlenätverket är konfigurerade kan du ändå försöka genomföra återställningen.';
 $string['mnetrestore_extusers_noadmin'] = '<strong>OBS!</strong> Denna säkerhetskopia verkar komma från en annan Moodle-installation och innehåller användarkonton från externa Moodlenätverk. Det är inte tillåtet att utföra denna typ av återställning. Kontakta administratören av webbplatsen eller,alternativt, återställ denna kurs utan någon användarinformation (moduler, filer ...)';
 $string['mnetrestore_extusers_switchuserauth'] = 'Remote Moodle Network-användare {$a->username} (som kommer från {$a->mnethosturl}) bytte till lokal {$a->auth} autentiserad användare.';
 $string['mobilenotconfiguredwarning'] = 'Moodle-appen är inte aktiverad.';
@@ -1115,7 +1115,7 @@ $string['registration_help'] = 'Genom att registrera dig får du:
 * Säkerhetsnotiser
 * Möjlighet att på din webbplats aktivera pushnotiser till mobilappen
 * Möjlighet att bidra till den gemensamma statistiken över Moodle-användningen i världen.';
-$string['registrationwarning'] = 'Din webbplats är inte registrerad.';
+$string['registrationwarning'] = 'Din webbplats är inte registrerad ännu.';
 $string['registrationwarningcontactadmin'] = 'Din webbplats är inte registrerad ännu. Kontakta administratören.';
 $string['releasenoteslink'] = 'För information om den här versionen av Moodle, se <a target="_blank" href="{$a}">Viktig information</a>';
 $string['rememberuserlicensepref'] = 'Kom ihåg användarens licensinställningar';
@@ -1237,7 +1237,7 @@ $string['sitemailcharset'] = 'Teckenuppsättning';
 $string['sitemaintenance'] = 'Webbplatsen genomgår underhållsarbete och är för närvarande otillgänglig';
 $string['sitemaintenancemode'] = 'Underhållsläge';
 $string['sitemaintenanceoff'] = 'Underhållsläget har inaktiverats och platsen körs normalt igen';
-$string['sitemaintenanceon'] = 'Din webbplats är f.n. i ett läge för underhåll. (bara adminstratörer kan logga in eller använda platsen).';
+$string['sitemaintenanceon'] = 'Din webbplats är för närvarande i underhållsläge (enbart adminstratörer kan logga in eller använda webbplatsen).';
 $string['sitemaintenanceoncli'] = 'Webbplatsen är för närvarande i CLI- underhållsläge och inloggning är därför inte tillåten.';
 $string['sitemaintenancetitle'] = 'Underhåll pågår för {$a}';
 $string['sitemaintenancewarning'] = 'Din webbplats är för närvarande i underhållsläge (endast administratörer kan logga in). För att återställa denna webbplats till normal drift, <a href ="maintenance.php">Inaktivera underhållsläge</a>.';
@@ -1284,7 +1284,7 @@ $string['stickyblocks'] = 'Permantenta block';
 $string['stickyblockscourseview'] = 'Kurssida';
 $string['stickyblocksduplicatenotice'] = 'Om något av de block som Du lägger till här redan finns på en specifik sida så kommer detta att resultera i att det blir ytterligare en kopia.<br />Bara det markerade blocket kommer att vara låst för redigering, kopian kommer att vara redigeringsbar.';
 $string['stickyblocksmymoodle'] = 'Mitt Moodle';
-$string['stickyblockspagetype'] = 'Typ av sida som ska konfigureras';
+$string['stickyblockspagetype'] = 'Sidtyp att konfigurera';
 $string['strictformsrequired'] = 'Strikt validering av obligatoriska fält';
 $string['stripalltitletags'] = 'Ta bort HTML-taggar från alla namn på aktiviteter';
 $string['supportcontact'] = 'Supportkontakt';

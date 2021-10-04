@@ -33,6 +33,6 @@ $string['enterid'] = 'Insira um ID';
 $string['enterurl'] = 'Insira o URL';
 $string['link'] = 'Hiperligação';
 $string['openinnewwindow'] = 'Abrir numa nova janela';
-$string['pluginname'] = 'LinkAdv';
+$string['pluginname'] = 'Hiperligação avançada';
 $string['privacy:metadata'] = 'O módulo atto_linkadv não armazena quaisquer dados pessoais.';
 $string['unlink'] = 'Remover hiperligação';

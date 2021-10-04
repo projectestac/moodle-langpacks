@@ -542,10 +542,14 @@ $string['postbymailsuccess_html'] = 'Je antwoord <a href="{$a->discussionurl}">{
 $string['postbyuser'] = '{$a->post} door {$a->user}';
 $string['postincontext'] = 'Bekijk dit bericht in zijn context';
 $string['postisprivatereply'] = 'Dit is een privé-antwoord. Het is niet zichtbaar voor andere deelnemers.';
+$string['postmailinfo'] = 'Dit is een kopie van een bericht dat op de {$a} website is toegevoegd.
+
+Klik op deze link om jouw antwoord via de website toe te voegen:';
 $string['postmailinfolink'] = 'Dit is een kopie van een bericht, gepost in {$a->coursename}.
 
 Klik op volgende link om te antwoorden: {$a->replylink}';
 $string['postmailnow'] = '<p>Dit bericht zal onmiddellijk verstuurd worden naar iedereen die e-mail van dit forum wil.</p>';
+$string['postmailreply'] = 'Klik op deze link om te reageren: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Vooral Separate Knowing';
 $string['postrating2'] = 'Separate en Connected Knowing';

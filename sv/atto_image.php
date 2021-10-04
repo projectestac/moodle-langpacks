@@ -39,6 +39,7 @@ $string['enteralt'] = 'Beskriv bilden för någon som inte kan se den.';
 $string['enterurl'] = 'Infoga URL';
 $string['height'] = 'Höjd';
 $string['imageproperties'] = 'Bildegenskaper';
+$string['imageurlrequired'] = 'En bild måste ha en URL';
 $string['pluginname'] = 'Infoga eller redigera bild';
 $string['presentation'] = 'Enbart i illustrativt syfte';
 $string['presentationoraltrequired'] = 'En bild måste ha en beskrivning förutom när det är markerat att den inte behövs.';

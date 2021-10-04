@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['eventgradereportviewed'] = 'تقرير نظرة عامة على التقديرات تمت معاينته';
 $string['gradesoverview'] = 'نظرة عامة على التقديرات';
 $string['overview:view'] = 'معاينة تقرير النظرة العامة';
-$string['pluginname'] = 'نظرة عامة على التقرير';
+$string['pluginname'] = 'تقرير النظرة العامة';
 $string['privacy:metadata'] = 'تقرير النظرة العامة على التقديرات يظهر فقط بيانات مخزونة في مواضع أخرى.';

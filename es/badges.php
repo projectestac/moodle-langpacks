@@ -118,7 +118,7 @@ $string['backpackemail_help'] = 'La dirección de correo electrónico asociada a
 $string['backpackemailverificationpending'] = 'Verificación pendiente';
 $string['backpackemailverifyemailbody'] = 'Hola,
 
-Se solicitó una nueva conexión a tu mochila de insignias desde \'{$ a-> sitename}\' usando tu dirección de correo electrónico.
+Se solicitó una nueva conexión a tu mochila de insignias desde \'{$a-> sitename}\' usando tu dirección de correo electrónico.
 
 Para confirmar y activar la conexión a su mochila, vaya a
 

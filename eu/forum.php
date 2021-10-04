@@ -534,11 +534,13 @@ $string['postbymailsuccess'] = '"{$a->subject}" gaia duen mezuari emandako erant
 $string['postbymailsuccess_html'] = '<a href="{$a->discussionurl}">"{$a->subject}"</a> gaia duen mezuari emandako erantzuna ondo publikatu da.';
 $string['postbyuser'] = '{$a->user}-(r)en {$a->post}';
 $string['postincontext'] = 'Ikusi mezu hau bere testuinguruan';
-$string['postisprivatereply'] = 'Hau erantzun pribatu bat da. Beste erabiltzaileek ezin dute ikusi.';
+$string['postisprivatereply'] = 'Hau erantzun pribatu bat da. Soilik zuretzako eta edonoren erantzun pribatuak ikusteko baimena dutenentzako egongo da ikusgai, hala nola irakasleak edo kudeatzaileak.';
+$string['postmailinfo'] = 'Hau {$a} helbidean argitaratutako mezu baten kopia da.';
 $string['postmailinfolink'] = 'Hau {$a->coursename} ikastaroan argitaratutako mezu baten kopia da.
 
 Erantzuteko egin klik esteka honetan: {$a->replylink}';
 $string['postmailnow'] = '<p>Mezu hau forora harpidetutako partaide guztiei berehala bidaliko zaie.</p>';
+$string['postmailreply'] = 'Erantzuteko, egin klik esteka honetan: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Batez ere banatutako jakintza';
 $string['postrating2'] = 'Banatuta eta lotuta';

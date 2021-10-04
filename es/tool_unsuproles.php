@@ -30,3 +30,4 @@ $string['contextlevel'] = 'Nivel de contexto';
 $string['count'] = 'Contar';
 $string['noprolbems'] = 'No se han encontrado asignaciones de rol no permitidas';
 $string['pluginname'] = 'Asignaciones de rol no permitidas';
+$string['privacy:metadata'] = 'El complemento de asignaciones de funciones no admitidas no almacena ningún dato personal.';

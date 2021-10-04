@@ -911,7 +911,7 @@ $string['formatplain'] = 'Текстовый формат';
 $string['formattext'] = 'Выбирать формат автоматически ';
 $string['forumpreferences'] = 'Настройки форума';
 $string['framesetinfo'] = 'Этот  документ содержит:';
-$string['from'] = 'с';
+$string['from'] = 'От';
 $string['frontpagecategorycombo'] = 'Комбинированный список';
 $string['frontpagecategorynames'] = 'Список категорий';
 $string['frontpagecourselist'] = 'Список курсов';
@@ -1645,7 +1645,7 @@ $string['privacy:metadata:upgrade_log:type'] = 'Тип записи журнал
 $string['privacy:metadata:upgrade_log:userid'] = 'Пользователь, запустивший обновление.';
 $string['privacy:metadata:upgrade_log:version'] = 'Старая версия плагина.';
 $string['private_files_handler'] = 'Сохраняет файлы, прикрепленные к сообщениям электронной почты, в область личных файлов пользователя.';
-$string['private_files_handler_name'] = 'Отправка файлов по электронной почте в область личных файлов';
+$string['private_files_handler_name'] = 'Отправка файлов из электронной почты в область личных файлов';
 $string['privatefiles'] = 'Личные файлы';
 $string['privatefilesmanage'] = 'Управление личными файлами';
 $string['proceed'] = 'Перейти';
@@ -2223,11 +2223,11 @@ $string['weeklyoutline'] = 'Календарный план';
 $string['weeks'] = 'нед.';
 $string['weekshow'] = 'Показать эту неделю {$a}';
 $string['welcometocourse'] = 'Добро пожаловать в {$a}';
-$string['welcometocoursetext'] = 'Добро пожаловать на курс «{$a->coursename}»!
+$string['welcometocoursetext'] = 'Добро пожаловать в курс «{$a->coursename}»!
 
-Если Вы еще не сделали этого, отредактируйте страницу своего профиля, чтобы мы могли узнать о Вас побольше:
+Если Вы еще не сделали этого, то отредактируйте свой профиль так, чтобы мы узнали больше о Вас:
 
-{$a->profileurl}';
+  {$a->profileurl}';
 $string['whatforlink'] = 'Что Вы хотите сделать с ссылкой?';
 $string['whatforpage'] = 'Что Вы хотите сделать с текстом?';
 $string['whatisyourage'] = 'Сколько вам лет?';

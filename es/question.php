@@ -401,9 +401,9 @@ $string['questionaffected'] = '<a href="{$a->qurl}">La pregunta "{$a->name}" ({$
 $string['questionbank'] = 'Banco de preguntas';
 $string['questionbehaviouradminsetting'] = 'Configuraciones del comportamiento de preguntas';
 $string['questionbehavioursdisabled'] = 'Comportamiento de preguntas a deshabilitar';
-$string['questionbehavioursdisabledexplained'] = 'Teclee una lista (separada por comas)  de comportamientos que no desea que aparezcan en el menú desplegable';
+$string['questionbehavioursdisabledexplained'] = 'Introduzca una lista separada por comas de los comportamientos que no desea que aparezcan en el menú desplegable.';
 $string['questionbehavioursorder'] = 'Orden del comportamiento de preguntas';
-$string['questionbehavioursorderexplained'] = 'Teclee una lista (separada por comas)  de comportamientos en el orden que quiere que aparezcan en el menú desplegable';
+$string['questionbehavioursorderexplained'] = 'Introduzca una lista de comportamientos separados por comas en el orden en que desea que aparezcan en el menú desplegable.';
 $string['questioncategory'] = 'Categoría de pregunta';
 $string['questioncatsfor'] = 'Categorías de pregunta para \'{$a}\'';
 $string['questiondoesnotexist'] = 'Esta pregunta no existe.';

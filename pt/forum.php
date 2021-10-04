@@ -538,11 +538,13 @@ $string['postbymailsuccess'] = 'A sua resposta "{$a->subject}" foi publicada com
 $string['postbymailsuccess_html'] = 'A sua resposta <a href="{$a->discussionurl}">{$a->subject}</a> foi publicada com sucesso.';
 $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Ver esta mensagem no contexto';
-$string['postisprivatereply'] = 'Esta mensagem foi enviada em privado e não está visível para os outros participantes.';
+$string['postisprivatereply'] = 'Esta mensagem é uma resposta privada. Só está visível para si e para qualquer utilizador com a capacidade de visualizar respostas privadas, como por exemplo, professores ou gestores.';
+$string['postmailinfo'] = 'Esta é uma cópia de uma mensagem publicada em {$a}';
 $string['postmailinfolink'] = 'Esta é uma cópia de uma mensagem publicada na disciplina {$a->coursename}.
 
 Para responder à mensagem clique na seguinte hiperligação: {$a->replylink}';
 $string['postmailnow'] = '<p>Esta mensagem será enviada imediatamente a todos os subscritores do fórum.</p>';
+$string['postmailreply'] = 'Para responder, clique nesta hiperligação: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Contribui principalmente para a aprendizagem INDIVIDUAL';
 $string['postrating2'] = 'Aprendizagem Individual e Coletiva por igual';

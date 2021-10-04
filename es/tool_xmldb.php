@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Real';
+$string['addpersistent'] = 'Agregar campos persistentes obligatorios';
 $string['aftertable'] = 'Después de la tabla:';
 $string['back'] = 'Atrás';
 $string['backtomainview'] = 'Volver al principal';
@@ -51,12 +52,19 @@ $string['confirmcheckforeignkeys'] = 'Esta funcionalidad buscará posibles viola
 $string['confirmcheckindexes'] = 'Esta funcionalidad buscará potenciales índices ausentes en su servidor Moodle, generando (no ejecutando) automáticamente los comandos SQL necesarios para mantener todo actualizado. Una vez generados, puede copiar los comandos y ejecutarlos con seguridad con su interfaz SQL favorita.<br /><br />
 Es muy recomendable ejecutar la última versión disponible de Moodle (1.8, 1.9, 2.x ...) antes de llevar a cabo la búsqueda de los índices ausentes.<br /><br />
 Esta funcionalidad no ejecuta ninguna acción contra la BD (simplemente lee en ella), de modo que puede ejecutarse con seguridad en cualquier momento.';
+$string['confirmcheckoraclesemantics'] = 'Esta funcionalidad buscará <a href="https://tracker.moodle.org/browse/MDL-29322">columnas Oracle varchar2 usando semántica BYTE</a> en su servidor Moodle, generando (¡pero no ejecutándose!) automáticamente las sentencias SQL necesarias para que todas las columnas se conviertan para usar semántica CHAR en su lugar (mejor para compatibilidad entre bases de datos y mayor longitud máxima de contenido).
+
+Una vez generadas, puede copiar dichas declaraciones y ejecutarlas de forma segura con su interfaz SQL favorita (no olvide hacer una copia de seguridad de sus datos antes de hacerlo).
+
+Se recomienda encarecidamente ejecutar la última (+ versión) disponible de su versión de Moodle antes de ejecutar la búsqueda de la semántica de BYTE.
+
+Esta funcionalidad no realiza ninguna acción contra la base de datos (solo la lee), por lo que se puede ejecutar de forma segura en cualquier momento.';
 $string['confirmdeletefield'] = '¿Está totalmente seguro que quiere eliminar el campo:';
-$string['confirmdeleteindex'] = '¿Está totalmente seguro que quiere eliminar el índice:';
-$string['confirmdeletekey'] = '¿Está totalmente seguro que quiere eliminar la clave:';
-$string['confirmdeletetable'] = '¿Está totalmente seguro que quiere eliminar la tabla:';
-$string['confirmdeletexmlfile'] = '¿Está totalmente seguro que quiere eliminar el archivo:';
-$string['confirmrevertchanges'] = '¿Está totalmente seguro que quiere revertir los cambios realizados sobre:';
+$string['confirmdeleteindex'] = '¿Está totalmente seguro de que quiere eliminar el índice:';
+$string['confirmdeletekey'] = '¿Está totalmente seguro de que quiere eliminar la clave:';
+$string['confirmdeletetable'] = '¿Está totalmente seguro de que quiere eliminar la tabla:';
+$string['confirmdeletexmlfile'] = '¿Está totalmente seguro de que quiere eliminar el archivo:';
+$string['confirmrevertchanges'] = '¿Está totalmente seguro de que quiere revertir los cambios realizados sobre:';
 $string['create'] = 'Crear';
 $string['createtable'] = 'Crear tabla:';
 $string['defaultincorrect'] = 'Valor por defecto incorrecto';
@@ -88,7 +96,7 @@ $string['edit_table_save'] = 'Guardar tabla';
 $string['edit_xml_file'] = 'Editar archivo XML';
 $string['enumvaluesincorrect'] = 'Valores incorrectos para el campo enum';
 $string['expected'] = 'Esperado';
-$string['extensionrequired'] = 'Lo sentimos - la extensión PHP \'{$a}\' es necesaria para esta acción. Por favor, instale la extensión si desea utilizar esta función.';
+$string['extensionrequired'] = 'Lo sentimos, la extensión de PHP \'{$a}\' es necesaria para esta acción. Instale la extensión si desea utilizar esta función.';
 $string['extraindexesfound'] = 'Se encontraron índices adicionales';
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nombre del campo vacío';
@@ -118,7 +126,7 @@ $string['integerincorrectlength'] = 'Longitud incorrecta del campo integer';
 $string['key'] = 'Clave';
 $string['keynameempty'] = 'El nombre clave no puede estar vacío.';
 $string['keys'] = 'Claves';
-$string['listreservedwords'] = 'Lista de palabras reservadas<br/>(se utiliza para mantener <a href="http://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">XMLDB_reserved_words</a> actualizado)';
+$string['listreservedwords'] = 'Lista de palabras reservadas <br />(utilizada para mantener <a href="https://docs.moodle.org/en/XMLDB_reserved_words" target="_blank">palabras reservadas de XMLDB </a> actualizadas)';
 $string['load'] = 'Cargar';
 $string['main_view'] = 'Vista principal';
 $string['masterprimaryuniqueordernomatch'] = 'Los campos de la clave externa deben aparecer en el mismo orden en que se enumeran en la CLAVE ÚNICA de la tabla de referencia.';
@@ -146,8 +154,8 @@ $string['numberincorrectdecimals'] = 'Número incorrecto de decimales en el camp
 $string['numberincorrectlength'] = 'Longitud incorrecta para campo numérico';
 $string['numberincorrectwholepart'] = 'Parte entera del número demasiado grande para el campo numérico';
 $string['pendingchanges'] = 'Nota: Ha realizado cambios en este archivo. Se pueden guardar en cualquier momento.';
-$string['pendingchangescannotbesaved'] = 'Hay cambios en este archivo pero no se puede guardar. Compruebe que el directorio y el "install.xml" que hay dentro tienen permisos de escritura para el servidor web.';
-$string['pendingchangescannotbesavedreload'] = 'Hay cambios en este archivo pero no se pueden guardar. Compruebe que el directorio y el archivo "install.xml" que hay en su interior tienen permisos de escritura para el servidor web. A continuación, vuelva a cargar esta página y ya podrá guardar los cambios.';
+$string['pendingchangescannotbesaved'] = '¡Hay cambios en este archivo pero no se pueden guardar! Verifique que tanto el directorio como el archivo "install.xml" dentro de él tengan permisos de escritura para el servidor web.';
+$string['pendingchangescannotbesavedreload'] = '¡Hay cambios en este archivo pero no se pueden guardar! Verifique que tanto el directorio como el archivo "install.xml" dentro de él tengan permisos de escritura para el servidor web. Luego, vuelva a cargar esta página y debería poder guardar esos cambios.';
 $string['persistentfieldscomplete'] = 'Se han añadido los siguientes campos:';
 $string['persistentfieldsconfirm'] = 'Quiere añadir los siguientes campos:';
 $string['persistentfieldsexist'] = 'Los siguientes campos ya existen:';
@@ -193,8 +201,11 @@ $string['wrongints'] = 'Se han encontrado enteros erróneos';
 $string['wronglengthforenum'] = 'Longitud incorrecta del campo enum';
 $string['wrongnumberofreffields'] = 'Número incorrecto de campos de referencia';
 $string['wrongoraclesemantics'] = 'Se ha encontrado semántica incorrecta de Oracle BYTE';
-$string['wrongreservedwords'] = 'Palabras reservadas en uso<br />(note que los nombres de la tabla no son importantes si se usa $CFG->prefix)';
+$string['wrongreservedwords'] = 'Palabras reservadas utilizadas actualmente <br /> (tenga en cuenta que los nombres de las tablas no son importantes si se usa el prefijo $CFG->)';
 $string['yesextraindexesfound'] = 'Se encontraron los siguientes índices adicionales.';
-$string['yesmissingindexesfound'] = 'En su BD se han encontrado algunos índices ausentes. Aquí puede ver los detalles, así como los comandos SQL a ejecutar con su interfaz SQL favorita para crearlos.<br /><br /> Una vez que lo haya hecho, es muy recomendable que ejecute de nuevo esta utilidad para comprobar que no se encuentran más índices ausentes.';
+$string['yesmissingindexesfound'] = '<p>Se han detectado que faltan algunos índices en su base de datos. Aquí están sus detalles y las instrucciones SQL necesarias para ser ejecutadas con su interfaz SQL favorita para crear todos. ¡Recuerde hacer antes una copia de seguridad de sus datos!</p>
+<p>Después de hacer eso, es muy recomendable ejecutar esta utilidad de nuevo para verificar que no se encuentren más índices que falten.</p>';
 $string['yeswrongdefaultsfound'] = 'En su base de datos se han encontrado algunos valores por defecto inconsistentes. Aquí se presentan los detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más valores por defecto inconsistentes.';
 $string['yeswrongintsfound'] = 'Se han encontrado algunos enteros erróneos en su BD. Aquí se presentan los detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más enteros erróneos.';
+$string['yeswrongoraclesemanticsfound'] = '<p>Se han encontrado algunas columnas de Oracle que utilizan semántica BYTE en su base de datos. Aquí están sus detalles y las declaraciones SQL necesarias para ser ejecutadas con su interfaz SQL favorita para convertirlas todas. ¡Recuerde hacer una copia de seguridad de sus datos antes!</p>
+<p>Después de hacer eso, es muy recomendable ejecutar esta utilidad nuevamente para verificar que no se encuentren más semánticas incorrectas.</p>';

@@ -87,6 +87,6 @@ $string['privacy:metadata:overviewviewpreference'] = 'Inställning för hur bloc
 $string['privacy:request:preference:set'] = 'Värdet för denna inställning \'{$a->name}\' var \'{$a->value}\'';
 $string['removefromfavourites'] = 'Ta bort kursen från favoriter';
 $string['shortname'] = 'Kortnamn';
-$string['show'] = 'Visa denna kurs';
+$string['show'] = 'Visa';
 $string['summary'] = 'Sammanfattning';
 $string['title'] = 'Kursnamn';

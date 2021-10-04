@@ -62,6 +62,7 @@ $string['answer'] = 'الإجابة';
 $string['answered'] = 'مجاب عليه';
 $string['availableplaces'] = 'المواضع المتاحة: {$a->available} of {$a->maxanswers}';
 $string['backtoresponses'] = '<< عودة إلى الاستجابات';
+$string['banusernames'] = 'إمنع أسماء المستخدمين';
 $string['beforebookedtext_help'] = 'إتركه فارغاً لاستعمال النص الافتراضي للموقع. يمكنك استعمال ما تشاء من العناصر النائبة الآتية في النص:
 <ul>
 <li>{status}</li>

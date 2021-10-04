@@ -38,19 +38,49 @@ $string['cachedef_subscriptiondata'] = 'Esto almacena la información de la susc
 $string['clickheretolaunchtheapp'] = 'Haga clic aquí si la aplicación no se abre automáticamente.';
 $string['configmobilecssurl'] = 'Archivo CSS para personalizar su interfaz de aplicaciones móviles.';
 $string['customlangstrings'] = 'Cadenas personalizadas del idioma';
+$string['customlangstrings_desc'] = 'Las palabras y frases que se muestran en la aplicación se pueden personalizar aquí. Introduzca cada cadena de idioma personalizado en una nueva línea con formato: identificador de cadena, cadena de idioma personalizado y código de idioma, separados por caracteres de barra vertical (tubería). Por ejemplo:
+<pre>
+mm.user.student | Learner | en
+mm.user.student | Aprendiz | es
+</pre>
+Para obtener una lista completa de identificadores de cadena, consulte la documentación.';
 $string['custommenuitems'] = 'Elementos de menú personalizados';
+$string['custommenuitems_desc'] = 'Se pueden añadir elementos adicionales al menú principal de la aplicación especificándolos aquí. Introduzca cada elemento del menú personalizado en una nueva línea con formato: texto del elemento, URL del enlace, método de apertura del enlace y código de idioma (opcional, para mostrar el elemento a los usuarios del idioma especificado solamente), separados por caracteres de barra vertical (tubería).
+
+Los métodos de apertura de enlaces son: app (para vincular a una actividad compatible con la aplicación), inappbrowser (para abrir un enlace en un navegador sin salir de la aplicación), browser (para abrir el enlace en el navegador predeterminado del dispositivo fuera de la aplicación) y embedded (para mostrar el enlace en un iframe en una nueva página de la aplicación).
+
+Cuando a los elementos les falta una traducción para un idioma determinado, utilizarán otros idiomas como respaldo, a menos que se añada "_only" al código de idioma.
+
+Por ejemplo:
+<pre>
+Ayuda de la aplicación | https://someurl.xyz/help | inappbrowser
+Mis calificaciones | https://someurl.xyz/local/mygrades/index.php | embedded | es
+Mis calificaciones | https://someurl.xyz/local/mygrades/index.php | embedded | es
+Solo verá esto en inglés | https://someurl.xyz/english | browser | en_only
+</pre>';
 $string['darkmode'] = 'Modo oscuro';
 $string['disabledfeatures'] = 'Características deshabilitadas';
+$string['disabledfeatures_desc'] = 'Seleccione aquí las funciones que desea deshabilitar en la aplicación móvil para su sitio. Tenga en cuenta que algunas de las funciones enumeradas aquí ya podrían estar deshabilitadas a través de la configuración de otro sitio. Tendrá que cerrar la sesión y volver a iniciarla en la aplicación para ver los cambios.';
+$string['displayerrorswarning'] = 'La visualización de mensajes de depuración (debugdisplay) está habilitada. Debería estar desactivado.';
 $string['downloadcourse'] = 'Descargar curso';
 $string['downloadcourses'] = 'Descargar cursos';
 $string['enablesmartappbanners'] = 'Habilitar banners de aplicación';
+$string['enablesmartappbanners_desc'] = 'Si está habilitado, se mostrará un banner que promociona la aplicación móvil al acceder al sitio utilizando un navegador móvil.';
+$string['filetypeexclusionlist'] = 'Lista de exclusión de tipo de archivo';
+$string['filetypeexclusionlist_desc'] = 'Seleccione todos los tipos de archivos que no se deben usar en un dispositivo móvil. Dichos archivos se enumerarán en el curso y después, si un usuario intenta abrirlos, se mostrará un aviso advirtiendo de que el tipo de archivo no está diseñado para su uso en un dispositivo móvil. El usuario puede cancelar o ignorar la advertencia y abrir el archivo de todos modos.';
+$string['filetypeexclusionlistplaceholder'] = 'Lista de exclusión de tipo de archivo móvil';
+$string['forcedurlscheme'] = 'Si desea permitir que solo se abra su aplicación de marca personalizada a través de una ventana del navegador, especifique aquí su esquema de URL. Si desea permitir solo la aplicación oficial, establezca el valor predeterminado. Deje el campo vacío si desea permitir cualquier aplicación.';
 $string['forcedurlscheme_key'] = 'Esquema de URL';
 $string['forcelogout'] = 'Forzar cierre de sesión';
+$string['forcelogout_desc'] = 'Si está habilitada, la opción de la aplicación \'Cambiar sitio\' se reemplaza por \'Cerrar sesión\'. Esto da como resultado que el usuario se desconecte por completo. Luego, deben volver a introducir su contraseña la próxima vez que deseen acceder al sitio.';
 $string['getmoodleonyourmobile'] = 'Descargar la app para dispositivos móviles';
 $string['h5poffline'] = 'Ver contenido H5P fuera de línea';
 $string['httpsrequired'] = 'HTTPS requerido';
+$string['insecurealgorithmwarning'] = 'Parece que el certificado HTTPS usa un algoritmo inseguro para firmar (SHA-1). Intente actualizar el certificado.';
 $string['invalidcertificatechainwarning'] = 'Parece que la cadena de certificados no es válida.';
 $string['invalidcertificateexpiredatewarning'] = 'Parece que el certificado HTTPS del sitio ha expirado.';
+$string['invalidcertificatestartdatewarning'] = 'Parece que el certificado HTTPS para este sitio aún no es válido (tiene una fecha de inicio en el futuro).';
+$string['invalidprivatetoken'] = 'Token privado no válido. El token no debe estar vacío ni pasar a través del parámetro GET.';
 $string['invaliduserquotawarning'] = 'La cuota del usuario (userquota) está configurada a un número inválido. Debería de configurarse a un número válido (un valor entero) en las Configuraciones de seguridad del sitio.';
 $string['iosappid'] = 'Identificador único de la aplicación iOS';
 $string['iosappid_desc'] = 'Esta configuración puede dejarse como predeterminada a menos que tenga una aplicación iOS personalizada.';
@@ -114,5 +144,8 @@ $string['subscriptionexpiration'] = 'Fecha de caducidad';
 $string['subscriptionfeaturenotapplied'] = 'Esta característica está configurada en su sitio pero no se incluye dentro del plan de la aplicación Moodle. Por lo tanto, la configuración no tendrá ningún efecto.';
 $string['subscriptionfeatures'] = 'Características de suscripción';
 $string['subscriptionlimitsurpassed'] = 'Se superó el límite de suscripción';
+$string['subscriptionregister'] = 'Para obtener detalles de los distintos planes de aplicaciones y para acceder a las estadísticas de uso de la aplicación Moodle, visite el <a href="{$a}" target="_blank">Portal de aplicaciones de Moodle</a>.';
+$string['subscriptionsseemore'] = 'Nota: La información que se muestra no se actualiza en tiempo real. Es posible que deba cerrar la sesión y volver a iniciarla para ver las actualizaciones. Para obtener información sobre cómo actualizar su plan de aplicaciones, inicie sesión en el <a href="{$a}" target="_blank">Portal de aplicaciones de Moodle</a>.';
 $string['typeoflogin'] = 'Tipo de inicio de sesión';
+$string['typeoflogin_desc'] = 'Si el sitio utiliza un método de autenticación SSO, seleccione a través de una ventana del navegador o mediante un navegador integrado. Un navegador integrado proporciona una mejor experiencia de usuario, aunque no funciona con todos los complementos de SSO.';
 $string['viewqrcode'] = 'Ver código QR';

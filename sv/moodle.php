@@ -104,7 +104,7 @@ $string['adminhelpmanagefilters'] = 'Välj textfilter och relaterade inställnin
 $string['adminhelpmanagemodules'] = 'Administrera installerade moduler och deras inställningar';
 $string['adminhelpmanageroles'] = 'Skapa och definiera roller som kan tillämpas för användare';
 $string['adminhelpmymoodle'] = 'Konfigurera Mitt Moodle-blocket för användare.';
-$string['adminhelpreports'] = 'Rangordning av kurser enligt olika kriterier';
+$string['adminhelpreports'] = 'Rapporter på webbplatsnivå';
 $string['adminhelpsitefiles'] = 'För att publicera allmänna filer eller ladda upp externa säkerhetskopior';
 $string['adminhelpsitesettings'] = 'Definiera hur förstasidan på webbplatsen ser ut';
 $string['adminhelpstickyblocks'] = 'Konfigurera fasta block som gäller för hela Moodle';
@@ -314,7 +314,7 @@ $string['contentexport_modulesummary'] = 'Den här sidan är en del av innehåll
 $string['contentexport_viewfilename'] = 'Visa filen {$a}';
 $string['continue'] = 'Fortsätt';
 $string['continuetocourse'] = 'Klicka här för få tillträde till din kurs.';
-$string['convertingwikitomarkdown'] = 'Konverterar Wiki till Markdown';
+$string['convertingwikitomarkdown'] = 'Konverterar Wiki till Markdown-format';
 $string['cookiesenabled'] = 'Du måste tillåta <em>Cookies</em> i din webbläsare';
 $string['cookiesenabled_help'] = 'Två cookies används på denna webbplats:
 
@@ -531,7 +531,7 @@ $string['deletecheckwarning'] = 'Du håller på att ta bort dessa filer.';
 $string['deletecommentbyon'] = 'Ta bort kommentarer gjorda av {$a->user} på {$a->time}';
 $string['deletecompletely'] = 'Ta bort helt';
 $string['deletecourse'] = 'Ta bort en kurs';
-$string['deletecoursecheck'] = 'Är du säker på att du vill ta bort hela denna kurs och alla data som den innehåller?';
+$string['deletecoursecheck'] = 'Är du säker på att du helt vill ta bort denna kurs och alla data den innehåller?';
 $string['deleted'] = 'Borttaget';
 $string['deletedactivity'] = 'Tog bort {$a}';
 $string['deletedcourse'] = '{$a} har tagits bort helt';
@@ -641,7 +641,7 @@ $string['emailagain'] = 'E-post (igen)';
 $string['emailalreadysent'] = 'Ett meddelande om lösenordsåterställning har redan skickats. Vänligen kontrollera din epost.';
 $string['emailcharset'] = 'Teckenuppsättning för e-post';
 $string['emailconfirm'] = 'Bekräfta Ditt konto';
-$string['emailconfirmation'] = 'Hej {$a->firstname},
+$string['emailconfirmation'] = 'Hej,
 
 Någon (antagligen du) har använt din e-postadress för att beställa ett nytt konto på: \'{$a->sitename}\'.
 
@@ -957,7 +957,7 @@ $string['format_help'] = 'Kursformatet bestämmer kurssidans layout.
 * Veckoformat - Kurssidan är organiserad i veckoavsnitt, med den första veckan som börjar på kursens startdatum';
 $string['formathtml'] = 'HTML-format';
 $string['formatmarkdown'] = 'Markdown format';
-$string['formatplain'] = 'Ren text';
+$string['formatplain'] = 'Oformaterad text';
 $string['formattext'] = 'Autoformat för Moodle';
 $string['forumpreferences'] = 'Foruminställningar';
 $string['framesetinfo'] = 'Det här dokumentet i ramverksformat innehåller:';
@@ -1266,7 +1266,7 @@ hela webbsajten som administratören har angivit.</p>
 <p>Du kan ytterligare begränsa denna storlek genom
 inställningarna för varje aktivitetsmodul.</p>';
 $string['maxnumberweeks'] = 'Maximalt antal sektioner';
-$string['maxnumberweeks_desc'] = 'Det maximala värdet i rullgardinsmenyn för antalet sektioner (endast applicerbart på vissa kursformat).';
+$string['maxnumberweeks_desc'] = 'Det maximala värdet i listrutan "Antal sektioner" (gäller endast för vissa kursformat).';
 $string['maxnumcoursesincombo'] = 'Bläddra <a href="{$a->link}">{$a->numberofcourses} kurser</a>';
 $string['maxsectionslimit'] = 'Kan inte skapa ny sektion eftersom detta skulle överskrida det maximala antalet tillåtna sektioner ({$a}) för denna kurs.';
 $string['maxsize'] = 'Max storlek: {$a}';
@@ -1569,7 +1569,7 @@ $string['originalpath'] = 'Original sökväg';
 $string['orphanedactivitiesinsectionno'] = 'Föräldralösa aktiviteter (sektion {$a})';
 $string['other'] = 'Annat';
 $string['outline'] = 'Disposition';
-$string['outlinereport'] = 'Översiktlig rapport';
+$string['outlinereport'] = 'Översiktsrapport';
 $string['page'] = 'Sida';
 $string['pagea'] = 'Sida {$a}';
 $string['pagedcontentnavigation'] = 'Sidvis navigering';
@@ -1586,7 +1586,7 @@ $string['participants'] = 'Deltagare';
 $string['participantscount'] = 'Antal deltagare: {$a}';
 $string['participantslist'] = 'Deltagarlistan';
 $string['participationratio'] = 'Omfattning av deltagande';
-$string['participationreport'] = 'Rapport om deltagande';
+$string['participationreport'] = 'Deltaganderapport';
 $string['password'] = 'Lösenord';
 $string['passwordchanged'] = 'Lösenordet har ändrats.';
 $string['passwordconfirmchange'] = 'Bekräfta ändring av lösenord';
@@ -1603,7 +1603,7 @@ $string['passwordsenttext'] = '<p>Vi har skickat ett e-postbrev till din adress:
    <p><b>Läs e-postmeddelandet för att se ditt nya lösenord</b></p>
    <p>Detta lösenord har skapats automatiskt och om du vill kan du<br />
    <a href="{$a->link}">ändra lösenordet</a>  till något som är lättare att komma ihåg.</p>';
-$string['passwordset'] = 'Ditt lösenord har satts.';
+$string['passwordset'] = 'Ditt lösenord har uppdaterats.';
 $string['path'] = 'Sökväg';
 $string['pathnotexists'] = 'Sökvägen finns inte på din server!';
 $string['pathslasherror'] = 'Sökvägar kan inte avslutas med snedstreck (\'/\' eller \'\\\')';
@@ -1722,7 +1722,7 @@ $string['quotausage'] = 'Du har använt {$a->used} av totalt {$a->total}';
 $string['readinginfofrombackup'] = 'Läser från säkerhetskopia';
 $string['readme'] = 'LAESMIG';
 $string['recentactivity'] = 'Aktuell aktivitet';
-$string['recentactivityreport'] = 'Full rapport över senaste aktiviteter...';
+$string['recentactivityreport'] = 'Fullständig rapport över senaste aktiviteter...';
 $string['recipientslist'] = 'Förteckning över mottagare.';
 $string['recommended'] = 'Rekommenderade';
 $string['recreatedcategory'] = 'Kategorin {$a} har återskapats.';
@@ -1970,7 +1970,7 @@ $string['showperpage'] = 'Visa {$a} per sida';
 $string['showpopoverwindow'] = 'Visa popover-fönster';
 $string['showrecent'] = 'Visa senaste aktivitet';
 $string['showreports'] = 'Visa aktivitetsrapporter';
-$string['showreports_help'] = '<p>Varje aktiv deltagare f&aring;r se rapporter &ouml;ver de egna aktiviteterna i den aktuella kursen. Det finns b&aring;de listor &ouml;ver deltagarens bidrag och detaljerade loggar &ouml;ver n&auml;r deltagaren har kopplat upp sig.</p> <p>(Distans)l&auml;rare kan alltid f&aring; tillg&aring;ng till dessa rapporter genom att anv&auml;nda knappen \'&ouml;gat\' (visa) p&aring; varje deltagares profilsida.</p> <p>Studenternas tillg&aring;ng till sina egna rapporter kontrolleras av (distans)l&auml;raren via en inst&auml;llning f&ouml;r kursen. F&ouml;r en del kurser kan detta vara ett anv&auml;ndbart verktyg f&ouml;r att f&aring; studenterna att reflektera &ouml;ver sina insatser och hur de framst&aring;r i denna (p&aring; sitt s&auml;tt) offentliga milj&ouml;. Det &auml;r dock kanske inte alltid n&ouml;dv&auml;ndigt.</p> <p>En annan anledning till att inaktivera detta &auml;r att rapporten kan komma att belasta servern i on&ouml;dan. F&ouml;r kurser med m&aring;nga deltagare eller kurser som varar l&auml;nge kan det vara effektivare att inaktivera denna funktion.</p>';
+$string['showreports_help'] = 'Aktivitetsrapporter är tillgängliga för varje deltagare som visar sin aktivitet i kursen. Förutom listor över deras bidrag, till exempel foruminlägg eller inlämningsuppgifter, innehåller dessa rapporter också åtkomstloggar. Den här inställningen avgör om en deltagare kan visa sina egna aktivitetsrapporter via sin profilsida.';
 $string['showsettings'] = 'Visa inställningar';
 $string['showtheselogs'] = 'Visa dessa loggar';
 $string['showthishelpinlanguage'] = 'Visa denna hjälp på språket: {$a}';

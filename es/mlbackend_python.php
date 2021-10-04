@@ -44,5 +44,6 @@ $string['securedesc'] = 'Si utilizar HTTP o HTTPS.';
 $string['serversettingsinfo'] = 'Si está habilitado \'Utilizar un servidor\', se mostrarán los ajustes del servidor.';
 $string['tensorboardinfo'] = 'Ejecutar';
 $string['username'] = 'Nombre de usuario';
+$string['usernamedesc'] = 'Cadena de caracteres utilizada como nombre de usuario para comunicarse entre el servidor Moodle y el servidor Python.';
 $string['useserver'] = 'Utilizar un servidor';
 $string['useserverdesc'] = 'El paquete Python de backend de aprendizaje automático no está instalado en el servidor web, sino en un servidor diferente.';

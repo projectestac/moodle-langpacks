@@ -25,14 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['adhoc'] = 'Ad hoc';
+$string['adhocempty'] = 'La cola de tareas Ad hoc está vacía';
+$string['adhocqueueold'] = 'La tarea más antigua es {$a->age}, que es más de {$a->max}';
+$string['adhocqueuesize'] = 'La cola de tareas Ad hoc tiene {$a} tareas';
+$string['adhoctaskid'] = 'ID de tarea Ad hoc: {$a}';
+$string['adhoctasks'] = 'Tareas Ad hoc';
 $string['asap'] = 'Tan pronto como sea posible';
 $string['backtoscheduledtasks'] = 'Regresar a trabajos agendados';
 $string['blocking'] = 'Bloqueando';
 $string['cannotfindthepathtothecli'] = 'No se puede encontrar la ruta hacia el ejecutable de PHP CLI, por lo que se abortó la ejecución del trabajo. Configure la "Ruta hacia PHP CLI" en "Administración del sitio / Servidor / Rutas del sistema"';
+$string['checkadhocqueue'] = 'Cola de tareas Ad hoc';
+$string['checkcronrunning'] = 'Cron en ejecución';
+$string['checkmaxfaildelay'] = 'Retardo máximo en fallos de tareas';
 $string['classname'] = 'Nombre de clase';
 $string['clearfaildelay_confirm'] = '¿Está seguro de querer borrar el retraso por fallo para el quehacer \'{$a}\'? Después de borrar el retraso, el quehacer correrá de acuerdo a su propia agenda.';
 $string['component'] = 'Componente';
 $string['corecomponent'] = 'Núcleo';
+$string['crondisabled'] = 'El cron está deshabilitado. No se iniciarán nuevas tareas. El sistema no funcionará correctamente hasta que se vuelva a activar.';
 $string['cronok'] = 'El cron se está ejecutando frecuentemente';
 $string['default'] = 'Por defecto';
 $string['defaultx'] = 'Por defecto: {$a}';

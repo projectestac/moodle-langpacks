@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['backtothequiz'] = 'عودة إلى الاختبار';
+$string['privacy:metadata'] = 'إن ملحق نمط السؤال، سماحية الخطأ لا يخزن أي بيانات شخصية.';

@@ -461,7 +461,7 @@ $string['requiresubmissionstatement_help'] = 'Gli studenti saranno obbligati ad 
 $string['revealidentities'] = 'Rivela l\'identità degli studenti';
 $string['revealidentitiesconfirm'] = 'Sei sicuro di rivelare l\'identità degli studenti? L\'operazione non può essere annullata. Dopo aver rivelato l\'identità degli studenti, le valutazioni saranno trasferite nel registro valutatore.';
 $string['reverttodefaults'] = 'Riporta tutti i valori del compito al loro default';
-$string['reverttodraft'] = 'Riporta le consegne allo stato di bozza.';
+$string['reverttodraft'] = 'Riporta la consegna allo stato di bozza.';
 $string['reverttodraftforstudent'] = 'Riporta le consegne allo stato di bozza per lo student: (id={$a->id}, nome={$a->fullname}).';
 $string['reverttodraftshort'] = 'Riporta a bozze le consegne';
 $string['reviewed'] = 'Rivisto';

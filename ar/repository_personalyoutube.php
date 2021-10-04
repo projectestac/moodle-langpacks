@@ -25,4 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configplugin'] = 'تهيئة مستودع يوتيوب الشخصي';
+$string['personalyoutube:view'] = 'معاينة مستودع يوتيوب الشخصي';
+$string['pluginname'] = 'يوتيوب الشخصي';
+$string['pluginname_help'] = 'رفع ونشر فيديوهات يوتيوب الشخصية';
 $string['privacy:metadata:repository_personalyoutube'] = 'إن ملحق مستودع يوتيوب الشخصي لا يخزن أي بيانات شخصية، ولكنه ينقل بيانات المستخدمين من مودل إلى نظام خارجي.';
+$string['privacy:metadata:repository_personalyoutube:email'] = 'البريد الالكتروني لمستخدم مستودع يوتيوب الشخصي';
+$string['privacy:metadata:repository_personalyoutube:searchtext'] = 'نص استعلام البحث لمستخدم مستودع يوتيوب الشخصي';

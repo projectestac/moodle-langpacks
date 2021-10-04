@@ -28,10 +28,18 @@ defined('MOODLE_INTERNAL') || die();
 $string['accuracy'] = 'Precisión';
 $string['accuracyandbonus'] = 'Precisión + Bono';
 $string['assumingcertainty'] = 'No ha seleccionado un grado de certeza. Asumiendo: {$a}.';
+$string['averagecbmmark'] = 'Puntuación promedio CBM';
+$string['basemark'] = 'Puntuación base {$a}';
+$string['breakdownbycertainty'] = 'Desglose por certeza';
+$string['cbmbonus'] = 'Bono CBM';
+$string['cbmgradeexplanation'] = 'Para CBM (Marca Basada en Certeza), la calificación de arriba se muestra relativa al máximo para todas las correctas en C=1.';
+$string['cbmgrades'] = 'Calificaciones CBM (Marca Basada en Certeza)';
 $string['cbmgrades_help'] = 'Con Puntuación Basado en Certeza = PBC (Certainty Based Marking = CBM) el tener todas las preguntas correctas con C=1 (baja certeza) da una puntuación de 100%. Las calificaciones pueden ser tan altas como del 300% si todas las preguntas fueran correctas y con C=3 (alta certeza). Los prejuicios (mostrar confianza en respuestas erroneas) hacen que las calificaciones bajen mucho más de lo que lo harían respuestas equivocadas que se reconozcan como de poca confianza. Esto podría inclusive llegar a calificaciones globales negativas.
 
 **Precisión** es el % de correctas, ignorando la certeza, pero ponderando para la puntuación máxima de cada pregunta. El poder distiguir exitosamente las respuestas más confiables de las menos confiables da una mejor calificación que si se eligira la misma certeza para cada pregunta. Esto se refleja en el **Bono PBC**. **Precisión** + **Bono PBC** es una mejor medida del conocimiento que la mera **Precisión**. Los prejuicios pueden conducir a un bono negativo; una advertencia para revisar con cuidado qué es lo que si se sabe contra lo que no se sabe.';
+$string['cbmmark'] = 'Puntuación CBM {$a}';
 $string['certainty'] = 'Certeza';
+$string['certainty-1'] = 'Ni idea';
 $string['certainty1'] = 'C=1 (No está seguro: <67%)';
 $string['certainty2'] = 'C=2 (Seguro a medias: >67%)';
 $string['certainty3'] = 'C=3 (Bastante seguro: >80%)';
@@ -59,4 +67,6 @@ $string['overconfident'] = 'demasiado seguro';
 $string['pluginname'] = 'Retroalimentación diferida con CBM';
 $string['privacy:metadata'] = 'El complemento de comentarios diferidos con comportamiento de preguntas de CBM no almacena ningún dato personal.';
 $string['slightlyoverconfident'] = 'un poco demasiado confiado';
+$string['slightlyunderconfident'] = 'un poco bajo en confianza';
+$string['underconfident'] = 'bajo en confianza';
 $string['weightx'] = 'Peso {$a}';

@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['eventlegacylogged'] = 'Evento heredado registrado';
 $string['loglegacy'] = 'Registrar datos heredados';
+$string['loglegacy_help'] = 'Este complemento guarda los datos de registro en la tabla de registro heredada (mdl_log). Esta funcionalidad ha sido reemplazada por complementos de registro más nuevos, ricos y eficientes, por lo que solo debe ejecutar este complemento si tiene informes personalizados antiguos que consultan directamente la tabla de registro anterior. Escribir en los registros heredados aumentará la carga, por lo que se recomienda que desactive este complemento por razones de rendimiento cuando no sea necesario.';
 $string['pluginname'] = 'Log heredado';
 $string['pluginname_desc'] = 'Un plugin de log que guarde las entradas del log en la tabla de log heredada.';
 $string['privacy:metadata:log'] = 'Una colección de eventos pasados';

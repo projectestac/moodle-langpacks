@@ -43,7 +43,7 @@ $string['deleteinstanceconfirm'] = 'あなたは登録方法「 {$a->name} 」�
 本当に続けてもよろしいですか?';
 $string['deleteinstanceconfirmself'] = 'あなたがこのコースにアクセスできるインスタンス「 {$a->name} 」を本当に削除してもよろしいですか? 続ける場合、あなたはこのコースにアクセスできなくなります。';
 $string['deleteinstancenousersconfirm'] = 'あなたは登録方法「 {$a->name} 」を削除しようとしています。本当に続けてもよろしいですか?';
-$string['disableinstanceconfirmself'] = 'あなたがこのコースにアクセスできるインスタンス「 {$a->name} 」を本当に無効にしてもよろしいですか? 続ける場合、あなたはこのコースにアクセスできなくなります。';
+$string['disableinstanceconfirmself'] = 'あなたがこのコースにアクセスできる根拠となる設定項目「 {$a->name} 」を本当に無効化してもよろしいですか? 無効化した場合、あなたはこのコースにアクセスできなくなる可能性があります。';
 $string['durationdays'] = '{$a} 日';
 $string['editenrolment'] = '登録を編集する';
 $string['edituserenrolment'] = '{$a} の登録を編集する';

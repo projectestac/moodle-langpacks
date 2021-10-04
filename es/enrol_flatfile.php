@@ -32,6 +32,7 @@ $string['filelockedmail'] = 'El fichero de texto empleado en matriculaciones bas
 $string['filelockedmailsubject'] = 'Error importante: Archivo de matriculación';
 $string['flatfile:manage'] = 'Gestionar manualmente la matriculación de usuario';
 $string['flatfile:unenrol'] = 'Dar de baja usuarios del curso manualmente';
+$string['flatfileenrolments'] = 'Inscripciones de archivos planos (CSV)';
 $string['flatfilesync'] = 'Sincronización de fichero plano de matrículas';
 $string['location'] = 'Ubicación del archivo';
 $string['location_desc'] = 'Especifique la ruta completa al archivo de matriculaciones. El archivo se borra automáticamente después del proceso.';
@@ -63,6 +64,8 @@ Será similar algo así:
    del, student, 17, CF101
    add, student, 21, CF101, 1091115000, 1091215000
 </pre>';
+$string['privacy:metadata:enrol_flatfile'] = 'El complemento de inscripción de archivos planos (CSV) puede almacenar datos personales relacionados con inscripciones futuras en la tabla enrol_flatfile.';
+$string['privacy:metadata:enrol_flatfile:action'] = 'La acción de inscripción esperada en la fecha indicada.';
 $string['privacy:metadata:enrol_flatfile:courseid'] = 'El ID del curso con el que está asociada la matrícula';
 $string['privacy:metadata:enrol_flatfile:roleid'] = 'El ID del rol para asignar o desasignar';
 $string['privacy:metadata:enrol_flatfile:timeend'] = 'El momento en el que finaliza la matrícula';

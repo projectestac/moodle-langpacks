@@ -28,6 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['acceptedfiletypes'] = 'Onartutako fitxategi motak';
 $string['acceptedfiletypes_help'] = 'Baimendutako fitxategi motak murriztu daitezke fitxategi-luzapenen zerrenda bat sartuta. Eremua hutsik badago, fitxategi mota guztiak onartuko dira.';
 $string['allowattachments'] = 'Baimendu eranskinak';
+$string['answerfiles'] = 'Erantzunaren fitxategiak';
+$string['answertext'] = 'Erantzunaren testua';
 $string['attachedfiles'] = 'Eranskinak: {$a}';
 $string['attachmentsoptional'] = 'Eranskinak aukerakoak dira';
 $string['attachmentsrequired'] = 'Eranskinak beharrezkoak dira';

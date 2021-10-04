@@ -238,6 +238,7 @@ $string['externalurl'] = 'URL externa';
 $string['externalurl_desc'] = 'Si se utiliza un libro de calificaciones externo, la URL debería indicarse aquí.';
 $string['extracreditvalue'] = 'Valor de crédito extra para {$a}';
 $string['extracreditwarning'] = 'Nota: Si se adscribe un crédito extra a todos los ítems de una categoría, se eliminarán del cálculo de la calificación, por lo que no existirá una puntuación total';
+$string['fail'] = 'Suspenso';
 $string['feedback'] = 'Retroalimentación';
 $string['feedback_help'] = '<p>Comentarios añadidos por el profesor a la calificación. Pueden ser extensos, personalizados o un simple código que se refiere a un sistema de retroalimentación interno.</p>';
 $string['feedbackadd'] = 'Agregar retroalimentación';
@@ -415,6 +416,15 @@ $string['importcsv_help'] = 'Es posible importar calificaciones desde un archivo
 
 Se puede obtener un archivo con el formato correcto exportando previamente alguna calificación. El archivo puede ser editado y guardado como CSV.';
 $string['importcustom'] = 'Importar como resultados personalizados (sólo este curso)';
+$string['importdata'] = 'Datos';
+$string['importdata_help'] = 'Las calificaciones se pueden pegar directamente desde una hoja de cálculo de OpenDocument o Excel con el siguiente formato:
+
+* Al menos una columna debe contener datos de identidad del usuario: nombre de usuario, dirección de correo electrónico o número de identificación (ID).
+* Otras columnas deben tener encabezados como para actividades existentes o elementos de calificación.
+
+Se puede obtener una hoja de cálculo con el formato correcto exportando primero algunas calificaciones. La hoja de cálculo se puede editar para añadir más calificaciones y guardar.
+
+Seleccione y copie las columnas que desea importar de la hoja de cálculo y luego péguelas en este campo.';
 $string['importerror'] = 'Ha ocurrido un error: este script no se ha invocado con los parámetros correctos.';
 $string['importfailed'] = 'Importación fallida. No se han importado datos.';
 $string['importfeedback'] = 'Importar retroalimentación';
@@ -620,6 +630,7 @@ $string['overridesitedefaultgradedisplaytype_help'] = '<p>Marque esta casilla de
    en letra y los límites de su elección.</p>';
 $string['overrideweightofa'] = 'Sobrescribir los pesos de {$a}';
 $string['parentcategory'] = 'Categoría padre';
+$string['pass'] = 'Aprobado';
 $string['pctoftotalgrade'] = '% de la calificación total';
 $string['percent'] = 'Porcentaje';
 $string['percentage'] = 'Porcentaje';
@@ -692,11 +703,9 @@ $string['quickgrading_help'] = 'Si se habilita, cuando se activa la edición, ap
 Observe que cuando edita una calificación dentro del informe del calificador, se activa un indicador de sobreescritura que indica que esta calificación ya no podrá ser cambiada desde la actividad misma.';
 $string['range'] = 'Rango';
 $string['rangedecimals'] = 'Rango de puntos decimales';
-$string['rangedecimals_help'] = 'El número de puntos decimales a mostrar para rango';
+$string['rangedecimals_help'] = 'El número de posiciones decimales que se mostrarán para el rango.';
 $string['rangesdecimalpoints'] = 'Decimales en los rangos';
-$string['rangesdecimalpoints_help'] = '<p>Especifica el número de puntos decimales que se visualizaran para cada
-   rango. Esta opción puede ser anulada por cada ítem de calificación de
-   manera individual.</p>';
+$string['rangesdecimalpoints_help'] = 'Esta configuración determina la cantidad de lugares decimales que se mostrarán para cada rango o si se usa (hereda) la configuración general de lugares decimales para la categoría o elemento de calificación.';
 $string['rangesdisplaytype'] = 'Tipo de visualización del rango';
 $string['rangesdisplaytype_help'] = '<p>Especifica como visualizar los rangos. Sí Heredar es seleccionada,
    el tipo de visualización para cada columna es usado.</p>';
@@ -754,7 +763,7 @@ $string['showanalysisicon'] = 'Mostrar icono de análisis de calificaciones';
 $string['showanalysisicon_desc'] = 'Si se muestra por omisión el icono de análisis de calificaciones. Si el módulo lo permite, el icono de análisis de calificaciones enlazara a una página con una explicación más detallada de la calificación y la forma en la que se obtuvo.';
 $string['showanalysisicon_help'] = 'Si se muestra por omisión el icono de análisis de calificaciones. Si el módulo lo permite, el icono de análisis de calificaciones enlazara a una página con una explicación más detallada de la calificación y la forma en la que se obtuvo.';
 $string['showaverage'] = 'Mostrar promedio';
-$string['showaverage_help'] = '¿Mostrar la columna de promedio? Los estudiantes pueden estar capacitados para estimar las calificaciones de otros estudiantes si el promedio es calculado a partir de un pequeño número de calificaciones. Por motivos de rendimiento el promedio es aproximado si depende de elementos ocultos.';
+$string['showaverage_help'] = 'Si mostrar una columna promedio. Tenga en cuenta que los participantes pueden estimar las calificaciones de otros si el promedio se calcula a partir de una pequeña cantidad de calificaciones. Por motivos de rendimiento, el promedio es aproximado si depende de elementos ocultos.';
 $string['showaverages'] = 'Mostrar promedios de columna';
 $string['showaverages_help'] = 'Muestra las medias de las columnas en el informe del calificador.';
 $string['showcalculations'] = 'Mostrar cálculos';
@@ -764,9 +773,9 @@ $string['showcontributiontocoursetotal_help'] = 'Se muestra una columna que indi
 $string['showeyecons'] = 'Mostrar iconos \'mostrar/ocultar\'';
 $string['showeyecons_help'] = 'Mostrar o no un icono de \'mostrar/ocultar\' junto a cada calificación (controlando que el usuario pueda verlo).';
 $string['showfeedback'] = 'Mostrar retroalimentación';
-$string['showfeedback_help'] = '¿Mostrar la columna de retroalimentación?';
+$string['showfeedback_help'] = 'Si mostrar una columna para retroalimentación.';
 $string['showgrade'] = 'Mostrar calificaciones';
-$string['showgrade_help'] = '¿Mostrar la columna de calificaciones?';
+$string['showgrade_help'] = 'Si mostrar una columna para calificaciones.';
 $string['showgroups'] = 'Mostrar grupos';
 $string['showhiddenitems'] = 'Mostrar ítems ocultos';
 $string['showhiddenitems_help'] = 'Si estan totalmente ocultos los elementos de calificación  o si los nombres de los elementos de calificación ocultos son visibles para los estudiantes.
@@ -779,7 +788,7 @@ $string['showingaggregatesonly'] = 'Mostrar solo agregaciones';
 $string['showingfullmode'] = 'Mostrando vista completa';
 $string['showinggradesonly'] = 'Mostrando solo las calificaciones';
 $string['showlettergrade'] = 'Mostrar calificaciones con letras';
-$string['showlettergrade_help'] = '¿Mostrar la columna de calificaciones con letras?';
+$string['showlettergrade_help'] = 'Si mostrar una columna para calificaciones con letras.';
 $string['showlocks'] = 'Mostrar bloqueos';
 $string['showlocks_help'] = 'Mostrar o no un icono de \'bloquear/desbloquear\' junto a cada calificación.';
 $string['shownohidden'] = 'No mostrar';
@@ -789,17 +798,17 @@ $string['shownumberofgrades_help'] = 'Muestra el número de calificaciones que s
 $string['showonlyactiveenrol'] = 'Mostrar solamente matriculaciones activas';
 $string['showonlyactiveenrol_help'] = 'Este ajuste determina si sólo los usuarios activos serán visibles en el informe del libro de calificaciones. Si se activa, los usuarios suspendidos no se mostrarán en el libro de calificaciones.';
 $string['showpercentage'] = 'Mostrar porcentaje';
-$string['showpercentage_help'] = '¿Mostrar el porcentaje de cada ítem de calificación.?';
+$string['showpercentage_help'] = 'Si mostrar el valor porcentual de cada elemento de calificación.';
 $string['showquickfeedback'] = 'Mostrar retroalimentación rápida';
 $string['showquickfeedback_help'] = 'Si se habilita, cuando se activa la edición, aparece una caja con bordes punteados para introducir texto para cada calificación, lo que permite introducir comentarios para varias calificaciones al mismo tiempo. Los cambios son guardados y resaltados cuando se hace clic en el botón para actualizar.
 
 Observe que cuando edita un comentario de retroalimentación dentro del informe del calificador, se activa un indicador de sobreescritura que indica que ese comentario ya no podrá ser cambiado desde la actividad misma.';
 $string['showrange'] = 'Mostrar rangos';
-$string['showrange_help'] = '¿Mostrar la columna de rangos?';
+$string['showrange_help'] = 'Si mostrar una columna para el rango.';
 $string['showranges'] = 'Mostrar rangos';
 $string['showranges_help'] = 'Muestra una fila que contiene el rango de calificaciones posibles para cada ítem en el informe del calificador.';
 $string['showrank'] = 'Mostrar ranking';
-$string['showrank_help'] = '¿Mostrar la posición del estudiante en relación con el resto de la clase para cada elemento de calificación?';
+$string['showrank_help'] = 'Si mostrar la posición del alumno en relación con el resto de la clase para cada elemento de calificación.';
 $string['showuserimage'] = 'Mostrar imágenes de perfil del usuario';
 $string['showuserimage_help'] = 'Mostrar o no la imagen del perfil del usuario junto a su nombre en el informe del calificador.';
 $string['showverbose'] = 'Mostrar {$a->category} {$a->itemmodule} {$a->itemname}';

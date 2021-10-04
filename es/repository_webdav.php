@@ -29,6 +29,7 @@ $string['configplugin'] = 'Configuración WebDAV';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
 $string['pluginname'] = 'Repositorio WebDAV';
+$string['privacy:metadata'] = 'El complemento del repositorio de WebDAV no almacena ningún dato personal, pero sí se transmiten desde Moodle al sistema remoto.';
 $string['webdav'] = 'WebDAV';
 $string['webdav:view'] = 'Ver repositorio WebDAB';
 $string['webdav_password'] = 'Contraseña del servidor WebDAB';

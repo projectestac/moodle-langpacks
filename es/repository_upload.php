@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configplugin'] = 'Configuración para \'plugin\' de subida';
 $string['pluginname'] = 'Subir un archivo';
 $string['pluginname_help'] = 'Subir un archivo a Moodle';
+$string['privacy:metadata'] = 'El complemento para cargar un repositorio de archivos no almacena ni transmite ningún dato personal.';
 $string['upload:view'] = 'Usar subida en selector de archivos';
 $string['upload_error_cant_write'] = 'No se pudo escribir el archivo en el disco';
 $string['upload_error_extension'] = 'Una extensión de PHP detuvo la subida del archivo';

@@ -134,6 +134,6 @@ $string['details'] = 'Detaljer';
 $string['eventreportviewed'] = 'Visade säkerhetsrapport';
 $string['issue'] = 'Problem';
 $string['pluginname'] = 'Säkerhetsöversikt';
-$string['privacy:metadata'] = 'Pluginmodulen Säkerhetsöversikt lagrar ingen personlig information.';
+$string['privacy:metadata'] = 'Pluginmodulen Säkerhetsöversikt lagrar ingen personinformation.';
 $string['security:view'] = 'Visa säkerhetsrapport';
 $string['timewarning'] = 'Databearbetningen kan ta tid, ha tålamod...';

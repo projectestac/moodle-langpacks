@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allow'] = 'Utilice este servicio para recuperar información de los miembros según la configuración de privacidad';
 $string['ltiservice_memberships'] = 'Aprovisionamiento de roles y nombres de IMS LTI';
+$string['ltiservice_memberships_help'] = 'Permitir que la herramienta recupere la información de los miembros del curso mediante el servicio de aprovisionamiento de roles y nombres de IMS LTI. Se aplicarán las configuraciones de privacidad. Para las solicitudes de nivel de curso, estas se basarán en los ajustes de configuración de la herramienta. Si desea enviar siempre dichos datos, no delegue la elección a los profesores. Las solicitudes de nivel de enlace siempre utilizarán la configuración de privacidad que se aplica al enlace.';
 $string['notallow'] = 'No utilice este servicio';
 $string['pluginname'] = 'Servicio LTI de suministro de roles y nombres';
 $string['privacy:metadata:email'] = 'El correo electrónico del usuario que utiliza el consumidor LTI.';

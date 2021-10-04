@@ -105,7 +105,7 @@ $string['loggedoffdescription'] = 'När jag inte är inloggad på Moodle';
 $string['managemessageoutputs'] = 'Standardinställningar för notiser';
 $string['message'] = 'Meddelande';
 $string['messagecontactrequest'] = '{$a->user} har skickat en kontaktförfrågan. Gå till sidan för <a href="{$a->url}">kontaktförfrågningar</a> för att svara på denna förfrågan.';
-$string['messagecontactrequestsnotification'] = '{$a} vill bli tillagd som kontakt';
+$string['messagecontactrequestsnotification'] = '{$a} vill bli tillagd som kontakt.';
 $string['messagecontactrequestsnotificationsubject'] = 'Kontaktförfrågan från {$a}';
 $string['messagecontactrequestsubject'] = '{$a->sitename}: Kontaktförfrågan från {$a->user}';
 $string['messagecontentaudio'] = 'Ljud';

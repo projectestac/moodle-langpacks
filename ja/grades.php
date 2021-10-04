@@ -228,6 +228,7 @@ $string['externalurl'] = '外部URL';
 $string['externalurl_desc'] = '外部評定表が使用されます。ここでURLを指定してください。';
 $string['extracreditvalue'] = '{$a} の追加点';
 $string['extracreditwarning'] = '注意: カテゴリ内のすべての評定項目を追加点扱いにすることにより、評定の計算から評定項目を効果的に除外することができます。これにより合計評点は計算されません。';
+$string['fail'] = '不合格';
 $string['feedback'] = 'フィードバック';
 $string['feedback_help'] = 'この設定を有効にした場合、評定に関するコメントすべてが追加されます。';
 $string['feedbackadd'] = 'フィードバックを追加する';
@@ -407,6 +408,15 @@ $string['importcsv_help'] = '以下のフォーマットのCSVファイルを使
 
 正しいフォーマットのファイルは最初に評定をエクスポートすることにより取得することができます。そのファイルを編集して、CSVファイルとして保存することができます。';
 $string['importcustom'] = 'カスタムアウトカムとしてインポートする (このコースのみ)';
+$string['importdata'] = '日付';
+$string['importdata_help'] = '評定はOpenDocumentまたはExcelスプレッドシートから直接貼り付けることができます。
+
+* 少なくとも1つの列にはユーザ名、メールアドレス、IDナンバー等のユーザ識別データを含む必要があります。
+* その他の列には既存の活動または評定項目に応じた見出しを付ける必要があります。
+
+最初に正しいフォーマットのスプレッドシートはいくつかの評定をエクスポートして入手できます。次にスプレッドシートを編集して成績を追加および保存できます。
+
+あなたがスプレッドシートからインポートしたい列を選択およびコピーしてこのフィールドに貼り付けてください。';
 $string['importerror'] = 'エラーが発生しました。このスクリプトは適正なパラメータでコールされていません。';
 $string['importfailed'] = 'インポートに失敗しました。データはインポートされませんでした。';
 $string['importfeedback'] = 'フィードバックをインポートする';
@@ -600,6 +610,7 @@ $string['overridesitedefaultgradedisplaytype'] = 'サイトデフォルトをオ
 $string['overridesitedefaultgradedisplaytype_help'] = 'この設定を有効にした場合、サイトデフォルトではなく、コースの評定文字および境界が設定されます。';
 $string['overrideweightofa'] = '{$a} の加重をオーバーライドする';
 $string['parentcategory'] = '親カテゴリ';
+$string['pass'] = '合格';
 $string['pctoftotalgrade'] = '評点合計の%';
 $string['percent'] = 'パーセント';
 $string['percentage'] = 'パーセンテージ';

@@ -41,6 +41,6 @@ $string['privacy:metadata:assignmentid'] = 'مُعرَّف الواجب';
 $string['privacy:metadata:commentpurpose'] = 'نص التعليق';
 $string['privacy:metadata:critdescpurpose'] = 'وصف المعيار الذي يعود عليه التعليق';
 $string['privacy:metadata:criterionpurpose'] = 'اسم المعيار الذي يعود عليه التعليق';
-$string['privacy:metadata:gradepurpose'] = 'مُعرَّف العلامة المرتبطة بالإفادة';
+$string['privacy:metadata:gradepurpose'] = 'مُعرَّف الدرجة المرتبطة بالإفادة';
 $string['privacy:path'] = 'الإفادة المنظمة';
 $string['structured:manageowncriteriasets'] = 'إدارة مجموعات معاييره المحفوظة';

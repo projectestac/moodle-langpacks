@@ -114,3 +114,4 @@ $string['testplansize_3'] = 'L ({$a->users} usuarios, {$a->loops} bucles y {$a->
 $string['testplansize_4'] = 'XL ({$a->users} usuarios, {$a->loops} bucles y {$a->rampup} periodo de despliegue)';
 $string['testplansize_5'] = 'XXL ({$a->users} usuarios, {$a->loops} bucles y {$a->rampup} periodo de despliegue)';
 $string['updateuserspassword'] = 'Actualizar la contraseña de los usuarios del curso';
+$string['updateuserspassword_help'] = 'JMeter necesita iniciar sesión como los usuarios del curso, puede establecer la contraseña de los usuarios usando $CFG->tool_generator_users_password en el archivo config.php; esta configuración actualiza la contraseña del usuario del curso de acuerdo con $CFG->tool_generator_users_password. Puede ser útil en caso de que esté utilizando un curso no generado por tool_generator o si no se configuró $CFG->tool_generator_users_password cuando creó los cursos de prueba.';

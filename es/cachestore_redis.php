@@ -32,6 +32,9 @@ $string['password'] = 'Contraseña';
 $string['password_help'] = 'Esto establece la contraseña del servidor Redis.';
 $string['pluginname'] = 'Redis';
 $string['prefix'] = 'Prefijo de clave';
+$string['prefix_help'] = 'Este prefijo se usa para todos los nombres de clave en el servidor Redis.
+* Si solo tiene una instancia de Moodle usando este servidor, puede dejar este valor predeterminado.
+* Debido a las restricciones de longitud de la clave, se permite un máximo de 5 caracteres.';
 $string['prefixinvalid'] = 'Prefijo no válido. Sólo puede utilizar a-z A-Z 0-9-_.';
 $string['privacy:metadata:redis'] = 'El complemento de almacenamiento en caché de Redis almacena datos brevemente como parte de su funcionalidad de almacenamiento en caché. Estos datos se almacenan en un servidor de Redis donde los datos se eliminan con regularidad.';
 $string['privacy:metadata:redis:data'] = 'Los diferentes datos almacenados en caché';
@@ -46,4 +49,8 @@ $string['test_serializer_desc'] = 'Serializador para utilizar en las pruebas.';
 $string['test_server'] = 'Servidor de pruebas';
 $string['test_server_desc'] = 'Servidor Redis para utilizar en las pruebas.';
 $string['usecompressor'] = 'Utilizar compresor';
+$string['usecompressor_help'] = 'Especifica el compresor que se utilizará después de la serialización. Se realiza a nivel de API de Moodle Cache, no a nivel de php-redis.';
 $string['useserializer'] = 'Utilizar serializador';
+$string['useserializer_help'] = 'Especifica el serializador que se utilizará para la serialización.
+Los serializadores válidos son Redis::SERIALIZER_PHP o Redis::SERIALIZER_IGBINARY.
+Este último es compatible solo cuando phpredis está configurado con la opción --enable-redis-igbinary y la extensión igbinary está cargada.';

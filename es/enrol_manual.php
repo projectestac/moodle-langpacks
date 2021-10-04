@@ -69,6 +69,7 @@ $string['privacy:metadata'] = 'El complemento de matrícula manual no almacena n
 $string['selectcohorts'] = 'Seleccionar cohortes';
 $string['selection'] = 'Selección';
 $string['selectusers'] = 'Seleccionar usuarios';
+$string['sendexpirynotificationstask'] = 'Tarea de envío de notificaciones de caducidad de inscripción manual';
 $string['status'] = 'Habilita matriculación manual';
 $string['status_desc'] = 'Permitir la matriculación manual de usuarios. Esta opción normalmente debería estar habilitada.';
 $string['status_help'] = 'Esta configuración determina si los usuarios pueden ser matriculados de forma manual por un usuario con los permisos adecuados, como un profesor, mediante un enlace situado en la configuración de la administración del curso.';

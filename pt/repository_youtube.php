@@ -30,7 +30,7 @@ $string['apikey'] = 'Chave API';
 $string['configplugin'] = 'Configurar repositório "YouTube"';
 $string['information'] = 'Obter uma <a href="https://developers.google.com/youtube/v3/getting-started">chave da API do Google</a> para o seu Moodle.';
 $string['pluginname'] = 'Vídeos do YouTube';
-$string['privacy:metadata:repository_youtube'] = 'O módulo repositório vídeos do Youtube não armazena quaisquer dados pessoais, mas transmite dados do utilizador do Moodle para o sistema remoto.';
+$string['privacy:metadata:repository_youtube'] = 'O módulo repositório Youtube (vídeos) não armazena quaisquer dados pessoais, mas transmite dados do utilizador do Moodle para o sistema remoto.';
 $string['privacy:metadata:repository_youtube:searchtext'] = 'Pesquisa de texto no repositório Youtube do utilizador.';
 $string['search'] = 'Procurar vídeos';
 $string['sortby'] = 'Ordenar por';

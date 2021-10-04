@@ -546,11 +546,13 @@ $string['postbymailsuccess'] = 'Ditt inlägg med ämnet "{$a->subject}" har publ
 $string['postbymailsuccess_html'] = 'Ditt svar <a href="{$a->discussionurl}">{$a->subject}</a> skickades.';
 $string['postbyuser'] = '{$a->post} av {$a->user}';
 $string['postincontext'] = 'Se detta inlägg i sitt sammanhang';
-$string['postisprivatereply'] = 'Detta är ett privat svar. Det är inte synligt för andra deltagare.';
+$string['postisprivatereply'] = 'Detta är ett privat svar. Det är endast synligt för dig och användare som har behörighet att se privata svar, som t.ex. lärare och chefer.';
+$string['postmailinfo'] = 'Detta är en kopia av ett inlägg i "{$a}"-forumet.';
 $string['postmailinfolink'] = 'Detta är en kopia av ett meddelande i   {$a->coursename}.
 
 Klicka på länken för att svara: {$a->replylink}';
 $string['postmailnow'] = '<p>Det här inlägget kommer omedelbart att skicka med e-post till alla som prenumererar på forumet.</p>';
+$string['postmailreply'] = 'Klicka på den här länken för att svara: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = 'Mestadels separat lärande';
 $string['postrating2'] = 'Separat och anslutet';

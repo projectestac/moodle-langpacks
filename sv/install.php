@@ -41,8 +41,8 @@ $string['cliadminemail'] = 'Ny admin e-postadress';
 $string['cliadminpassword'] = 'Nytt lösenord för användare med rättigheter som administratör';
 $string['cliadminusername'] = 'Användarnamn för administratörskonto';
 $string['clialreadyconfigured'] = 'Filen <em>config.php</em> finns redan. Använd <code>admin/cli/install_database.php</code> för att installera Moodle på denna server.';
-$string['clialreadyinstalled'] = 'Filen config.php finns redan. Vänligen använd admin/cli/upgrade.php om Du vill uppgradera Din webbplats.';
-$string['cliinstallfinished'] = 'Installationen fullföljde framgångsrikt. ';
+$string['clialreadyinstalled'] = 'Filen <code>config.php</code> finns redan. Vänligen använd <code>admin/cli/upgrade.php</code> om du vill uppgradera Moodle på den här webbplatsen.';
+$string['cliinstallfinished'] = 'Installationen slutfördes.';
 $string['cliinstallheader'] = 'Kommandoradsbaserat installationsprogram för Moodle {$a}';
 $string['climustagreelicense'] = 'I oövervakat läge måste du godkänna licensvillkoren genom att ange <code>--agree-license</code> växeln.';
 $string['cliskipdatabase'] = 'Hoppar över databasinstallation.';
@@ -189,10 +189,11 @@ $string['phpversionhelp'] = '<p>Moodle kräver minst PHP-version 5.6.5 eller 7.1
 $string['releasenoteslink'] = 'För information om den här versionen av Moodle, läs viktig information vid {$a}';
 $string['safemode'] = 'Felsäkert läge';
 $string['safemodeerror'] = 'Moodle kan få problem om \'säkert läge\' (safe mode) är aktiverat';
-$string['safemodehelp'] = '<p>Moodle kan få ett antal problem om \'säkert
-läge\' är aktiverat. Systemet kommer t ex troligtvis inte att kunna skapa nya filer.</p>
-<p>Säkert läge är normalt sett bara aktiverat hos mycket försiktiga webbvärdar(t ex webbhotell) så Du kanske helt enkelt måste hitta ett annat webbhotell för Din webbplats med Moodle.</p>
-<p>Du kan försöka att fortsätta installationen om Du vill, men bli inte förvånad om det dyker upp ett och annat problem längre fram.</p>';
+$string['safemodehelp'] = '<p>Moodle kan uppvisa en mängd olika problem om säkert läge är påslaget. Sannolikt kommer det t.ex. inte vara tillåtet att skapa filer.</p>
+
+<p>Säkert läge är vanligtvis endast aktiverat av paranoida offentliga webbhotell, så du kan eventuellt behöva hitta en ny webbplatsleverantör.</p>
+
+<p>Du kan försöka fortsätta med installationen om du vill, men du kan förvänta dig problem framöver.</p>';
 $string['sessionautostart'] = 'Automatisk sessionsstart';
 $string['sessionautostarterror'] = 'De här bör vara inställt till \'off\'.';
 $string['sessionautostarthelp'] = '<p>Moodle kräver stöd för sessioner och kommer inte att fungera utan det.</p>

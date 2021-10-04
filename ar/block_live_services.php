@@ -38,6 +38,7 @@ $string['calendarUntitled'] = 'حدث بدون عنوان';
 $string['configuationErrorMissingAppId'] = 'لم تتم تهيئة ملحق خدمات مايكروسوفت المباشرة لكتلة مودل بشكل صحيح. لم يتم وضع مُعرَّف التطبيق أو المفتاح. يرجى التواصل مع المشرف على نظامك.';
 $string['emailManyMessages'] = 'الرسائل الجديدة';
 $string['emailNoMessages'] = 'لا توجد رسائل جديدة';
+$string['emailToTooltip'] = 'الفصل ما بين الأسماء المتعددة بفوارز منقوطة';
 $string['emailUntitled'] = 'رسالة بدون عنوان';
 $string['faqPageIntro'] = 'جد إجابات عن الأسئلة كثيرة التكرار بشأن إعداد مُعرَّف Windows Live™ ، عبر استعمال حسابك في Windows Live ID لتسجيل الدخول في مودل واستعمال خدماته.';
 $string['faqWLIDQ3'] = 'كيف يمكنني تغيير كلمة مرور مُعرَّف Windows Live الخاص بي؟';

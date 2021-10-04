@@ -34,3 +34,4 @@ $string['privacy:metadata:quickom_meeting_participants:name'] = 'اسم المش
 $string['quickomurl'] = 'عنوان رابط صفحة Quickom الرئيسية';
 $string['showdescription'] = 'عَرض الوصف في صفحة المساق';
 $string['title'] = 'العنوان';
+$string['usepersonalmeeting'] = 'مُعرَّف المستخدم الشخصي للصف المباشر {$a}';

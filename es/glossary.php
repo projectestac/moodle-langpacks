@@ -173,7 +173,7 @@ $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'Completo con autor';
 $string['displayformatfullwithoutauthor'] = 'Completo sin autor';
 $string['displayformats'] = 'Formatos de visualización';
-$string['displayformatssetup'] = 'Ajustar formatos de visualización';
+$string['displayformatssetup'] = 'Configuración de formatos de visualización';
 $string['duplicatecategory'] = 'Categoría duplicada';
 $string['duplicateentry'] = 'Entrada duplicada';
 $string['editalways'] = 'Permitir editar siempre';
@@ -247,7 +247,7 @@ $string['fullmatch_help'] = 'Esta variable define si el enlace automático se ha
 <p>Por ejemplo, si está habilitada, la entrada "casa" no se enlazará automáticamente
 con la palabra "casamiento".</p>';
 $string['glossary:addinstance'] = 'Añadir un nuevo glosario';
-$string['glossary:approve'] = 'Aprobar entradas pendientes';
+$string['glossary:approve'] = 'Aprobar y deshacer entradas aprobadas';
 $string['glossary:comment'] = 'Crear comentarios';
 $string['glossary:export'] = 'Exportar entradas';
 $string['glossary:exportentry'] = 'Exportar una sola entrada';
@@ -262,7 +262,7 @@ $string['glossary:viewallratings'] = 'Ver todas las valoraciones emitidas por la
 $string['glossary:viewanyrating'] = 'Ver el total de valoraciones que alguien recibió';
 $string['glossary:viewrating'] = 'Ver la valoración total recibida';
 $string['glossary:write'] = 'Crear nuevas entradas';
-$string['glossaryleveldefaultsettings'] = 'Ajustes por defecto del nivel de glosario';
+$string['glossaryleveldefaultsettings'] = 'Configuración predeterminada del nivel de glosario';
 $string['glossarytype'] = 'Tipo de glosario';
 $string['glossarytype_help'] = 'Un glosario principal es un glosario en el que se pueden importar entradas de glosarios secundarios. Solo puede haber un glosario principal en cada curso. Si no se necesita importar entradas entre glosarios, todos los glosarios en el curso pueden ser de tipo secundario.';
 $string['guestnoedit'] = 'Los invitados no pueden editar glosarios';

@@ -535,11 +535,13 @@ $string['postbymailsuccess'] = 'あなたの返信「 {$a->subject} 」は正常
 $string['postbymailsuccess_html'] = 'あなたの返信「 <a href="{$a->discussionurl}">{$a->subject}</a> 」は正常に投稿されました。';
 $string['postbyuser'] = '{$a->post} by {$a->user}';
 $string['postincontext'] = 'この投稿をコンテクスト内に表示する';
-$string['postisprivatereply'] = 'この投稿はプライベートなため他の参加者は閲覧できません。';
+$string['postisprivatereply'] = 'これはプライベートな返信です。あなたおよびプライベートな返信を閲覧できる権限を持つ人 (先生またはマネージャ等) のみ閲覧できます。';
+$string['postmailinfo'] = 'これはウェブサイト {$a} に投稿されたメッセージのコピーです。';
 $string['postmailinfolink'] = 'これは {$a->coursename} に投稿されたメッセージのコピーです。
 
 返信するにはこのリンクをクリックしてください: {$a->replylink}';
 $string['postmailnow'] = '<p>この投稿はすべてのフォーラム購読者にすぐに送信されます。</p>';
+$string['postmailreply'] = '返信するにはこのリンクをクリックしてください: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
 $string['postrating1'] = '主に分離認識の傾向がある';
 $string['postrating2'] = '分離認識と関連認識を同等に持っている';

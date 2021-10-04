@@ -39,6 +39,7 @@ $string['invalidassignmentid'] = 'L\'ID de la tasca no és vàlid';
 $string['invalidcourseid'] = 'Aquest no és un ID de curs vàlid';
 $string['invalidinstance'] = 'Aquesta no és una instància vàlida';
 $string['mediacontent'] = 'URL o codi d\'incrustació *';
+$string['resume_enddate'] = 'Data de finalització';
 $string['selectall'] = 'Selecciona-ho tot';
 $string['showsummary'] = '(mostra el resum)';
 $string['type'] = 'Tipus';

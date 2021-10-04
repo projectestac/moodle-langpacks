@@ -232,6 +232,7 @@ $string['externalurl'] = 'Kanpoko URLa';
 $string['externalurl_desc'] = 'Kanpoko kalifikazio-liburua erabiliz gero, hemen zehaztu behar da URLa.';
 $string['extracreditvalue'] = 'Aparteko kreditu-balioa {$a}rako';
 $string['extracreditwarning'] = 'Oharra: Kategoriko elementu guztiak krediturik gabe uzten badira, notaren kalkuluan ez dira kontuan hartuko eta, ondorioz, puntuazio orokorrik ez da izango';
+$string['fail'] = 'Gainditu gabe';
 $string['feedback'] = 'Feedbacka';
 $string['feedback_help'] = 'Laukitxo honek aukera ematen du gahitutako kalifikazioari buruzko oharrak idazteko.';
 $string['feedbackadd'] = 'Gehitu feedbacka';
@@ -411,6 +412,15 @@ $string['importcsv_help'] = 'Kalifikazioak CSV fitxategiak erabiliz inporta dait
 
 Formatu egokia duen fitxategi bat lortu daiteke aurretik kalifikazio batzuk esportatuta. Fitxategi hori gero editatu eta CSV formatuarekin gorde daiteke.';
 $string['importcustom'] = 'Inportatu pertsonalizatutako ikaste-emaitza bezala (ikastaro honetan baino ez)';
+$string['importdata'] = 'Datuak';
+$string['importdata_help'] = 'Kalifikazioak OpenDocument edo Excel kalkulu-orrietatik zuzenean itsatsi daitezke hurrengo formatua jarraituta:
+
+* Gutxienez erabiltzailearen identitate-datuak dituen zutabe bat egon behar da - erabiltzaile-izena, helbide elektronikoa edo ID zenbakia.
+* Beste zutabeek goiburuak izan behar dituzte, bai existitzen diren jarduerenak baita kalifikazio-elementuenak ere.
+
+Formatu egokia duen kalkulu-orri bat lortu daiteke kalifikazio batzuk esportatuta. Ondoren kalkulu-orria editatu dezakezu kalifikazio gehiago gehitu eta gordeta.
+
+Aukeratu eta kopiatu itzazu kalkulu-orritik inportatu nahi dituzun zutabeak eta ondoren itsatsi itzazu eremu honetan.';
 $string['importerror'] = 'Errorea gertatu da, script honi ez zaio deitu parametro egokiekin.';
 $string['importfailed'] = 'Inportatzeak huts egin du. Ez da daturik inportatu.';
 $string['importfeedback'] = 'Inportatu feedbacka';
@@ -604,6 +614,7 @@ $string['overridesitedefaultgradedisplaytype'] = 'Baliogabetu gunearen lehentsit
 $string['overridesitedefaultgradedisplaytype_help'] = 'Markatuz gero, ikastaroko kalifikazio-letrak eta mugak ezarri daitezke, gunean lehenetsitakoak erabili beharrean.';
 $string['overrideweightofa'] = 'Baliogabetu {$a}-(r)en pisua';
 $string['parentcategory'] = 'Goragoko kategoria';
+$string['pass'] = 'Gaindituta';
 $string['pctoftotalgrade'] = '% kalifikazio orokorretik';
 $string['percent'] = 'Portzentajea';
 $string['percentage'] = 'Ehunekoa';

@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['completionsubmit'] = 'Студент должен представить ответ на задание, чтобы выполнить его';
 $string['format'] = 'Формат';

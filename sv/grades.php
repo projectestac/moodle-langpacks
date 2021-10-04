@@ -261,6 +261,7 @@ $string['externalurl'] = 'Extern URL';
 $string['externalurl_desc'] = 'Om en extern betygsbok specificerats, ange webbadressen här.';
 $string['extracreditvalue'] = 'Värde för extra tillägg för {$a}';
 $string['extracreditwarning'] = 'OBS! Om Du ställer in alla enheter i en kategori till \'Extra tillgodoräknande\' så kommer det att effektivt ta bort dem från beräkningen av betyg. Detta eftersom det inte kommer att bli någon totalsumma för poäng.';
+$string['fail'] = 'Ej godkänd';
 $string['feedback'] = 'Återkoppling';
 $string['feedback_help'] = '<p>Detta är anteckningar som läraren lägger till betyget. Det kan vara omfattande, individualiserad återkoppling eller en enkel kod som hänvisar till ett internt system för återkoppling.</p>';
 $string['feedbackadd'] = 'Lägg till återkoppling';
@@ -282,7 +283,7 @@ $string['forceon'] = 'Tvinga: På';
 $string['forelementtypes'] = 'för den markerade {$a}';
 $string['forstudents'] = 'För studenter';
 $string['full'] = 'Fullständig';
-$string['fullmode'] = 'Fullständig vy';
+$string['fullmode'] = 'Växla till fullständig vy';
 $string['generalsettings'] = 'Generella inställningar';
 $string['grade'] = 'Betyg';
 $string['grade_help'] = 'Betyget som ska tilldelas studenten för sitt arbete.';
@@ -398,7 +399,7 @@ $string['gradeweighthelp'] = 'Hjälp angående viktning av betyg';
 $string['gradingmodulename'] = 'Betygsätter ({$a})';
 $string['groupavg'] = 'Medelbetyg för grupp';
 $string['hidden'] = 'Dold';
-$string['hidden_help'] = 'Om förbockat döljs betyg för elever. Ett Dölj till datum kan sättas om önskvärt för att visa betyg efter att betygssättningen är fullföljd.';
+$string['hidden_help'] = 'Om markerat döljs betyg för elever. Ett <em>Dölj till</em>-datum kan anges för att publicera betyg efter att betygssättningen är slutförd.';
 $string['hiddenasdate'] = 'Visa datum för dolda betyg';
 $string['hiddenasdate_help'] = 'Om en användare inte kan se dolda betyg visa då datum för inskickning istället för  \'-\'.';
 $string['hiddenuntil'] = 'Dold tills';
@@ -440,6 +441,15 @@ $string['importcsv_help'] = 'Betyg kan importeras via en CSV-fil formaterad enli
 
 En fil med rätt format kan erhållas genom att du först exporterar några betyg. Filen kan sedan redigeras och sparas som en CSV-fil.';
 $string['importcustom'] = 'Importera som standardresultat (endast den här kursen).';
+$string['importdata'] = 'Data';
+$string['importdata_help'] = 'Betyg kan klistras in direkt från ett OpenDocument- eller Excel-kalkylblad formaterat enligt följande:
+
+* Minst en kolumn ska innehålla identiteten för användaren - användarnamn, e-postadress eller ID-nummer.
+* Andra kolumner bör ha rubriker som för befintliga aktiviteter eller resultatobjekt.
+
+Ett korrekt formaterat kalkylblad kan erhållas genom att först exportera några betyg. Kalkylbladet kan sedan redigeras för att lägga till fler betyg och sedan sparas.
+
+Markera och kopiera de kolumner du vill importera från kalkylbladet och klistra sedan in dem i det här fältet.';
 $string['importerror'] = 'Det inträffade ett fel, det här skriptet anropades inte med rätt parametrar.';
 $string['importfailed'] = 'Importen misslyckades. Ingen data importerades.';
 $string['importfeedback'] = 'Importera återkoppling';
@@ -633,6 +643,7 @@ $string['overridesitedefaultgradedisplaytype'] = 'Åsidosätt standardvärdena f
 $string['overridesitedefaultgradedisplaytype_help'] = 'Om markerat kan betygsbokstäver och gränser i kursen anges i stället för standardinställningarna på webbplatsen.';
 $string['overrideweightofa'] = 'Åsidosätt viktning för {$a}';
 $string['parentcategory'] = 'Överliggande kategori';
+$string['pass'] = 'Godkänd';
 $string['pctoftotalgrade'] = '% av sammanlagda betyget/omdömet';
 $string['percent'] = 'Procent';
 $string['percentage'] = 'Procent';
@@ -747,7 +758,7 @@ $string['sepcolon'] = 'Kolon';
 $string['sepcomma'] = 'Komma';
 $string['sepsemicolon'] = 'Semikolon';
 $string['septab'] = 'Tabb';
-$string['setcategories'] = 'Ställ in kategorier';
+$string['setcategories'] = 'Ange kategorier';
 $string['setcategorieserror'] = 'Du måste först ställa in kategorierna för din kurs innan du kan ge dem viktningar.';
 $string['setgradeletters'] = 'Ange betygsbokstäver';
 $string['setpreferences'] = 'Ställ in inställningar';
@@ -821,7 +832,7 @@ $string['sortasc'] = 'Sortera i stigande ordning';
 $string['sortbyfirstname'] = 'Sortera efter förnamn';
 $string['sortbylastname'] = 'Sortera efter efternamn';
 $string['sortdesc'] = 'Sortera i fallande ordning';
-$string['standarddeviation'] = 'Standaravvikelse';
+$string['standarddeviation'] = 'Standardavvikelse';
 $string['stats'] = 'Statistik';
 $string['statslink'] = 'Stats';
 $string['student'] = 'Student';

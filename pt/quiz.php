@@ -161,10 +161,10 @@ $string['cannotwrite'] = 'Não é possível escrever no ficheiro de exportação
 $string['canredoquestions'] = 'Permitir responder novamente durante a tentativa';
 $string['canredoquestions_desc'] = 'Se ativar esta opção, depois de terminar a tentativa de responder a uma pergunta, é exibido o botão \'Tentar outra pergunta como esta\'. Permite que uma pergunta semelhante (selecionada aleatoriamente) seja tentada ou a mesma pergunta novamente, sem que seja enviada toda a tentativa do teste e iniciada outra tentativa. Esta configuração é útil para testes de treino.
 
-Esta configuração apenas afeta as perguntas e os comportamentos das perguntas (como por exemplo: Feedback imediato ou Interativo com múltiplas tentativas) que permitem finalizar a pergunta antes de submeter a tentativa.';
+Esta configuração apenas afeta as perguntas e os comportamentos das perguntas (como por exemplo, Feedback imediato ou Interativo com múltiplas tentativas) que permitem finalizar a pergunta antes de submeter a tentativa.';
 $string['canredoquestions_help'] = 'Se ativar esta opção, depois de terminar a tentativa de responder a uma pergunta, é exibido o botão \'Tentar outra pergunta como esta\'. Permite que uma pergunta semelhante (selecionada aleatoriamente) seja tentada ou a mesma pergunta novamente, sem que seja enviada toda a tentativa do teste e iniciada outra tentativa. Esta configuração é útil para testes de treino.
 
-Esta configuração apenas afeta as perguntas e os comportamentos das perguntas (como por exemplo: Feedback imediato ou Interativo com múltiplas tentativas) que permitem finalizar a pergunta antes de submeter a tentativa.';
+Esta configuração apenas afeta as perguntas e os comportamentos das perguntas (como por exemplo, Feedback imediato ou Interativo com múltiplas tentativas) que permitem finalizar a pergunta antes de submeter a tentativa.';
 $string['canredoquestionsyes'] = 'Sim, permitir a opção de tentar outra pergunta';
 $string['caseno'] = 'Não. Ignorar maiúsculas/minúsculas';
 $string['casesensitive'] = 'Respeitar maiúsculas/minúsculas';

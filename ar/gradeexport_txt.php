@@ -30,4 +30,4 @@ $string['pluginname'] = 'ملف نص عادي';
 $string['privacy:metadata'] = 'إن ملحق تصدير التقديرات بشكل نصي لا يخزن أي بيانات شخصية.';
 $string['timeexported'] = 'آخر ما تم تنزيله من هذا المقرر الدراسي';
 $string['txt:publish'] = 'نشر تصدير التقديرات بصيغة TXT';
-$string['txt:view'] = 'استعمال تصدير العلامة بشكل نص';
+$string['txt:view'] = 'استعمال تصدير الدرجة بشكل نص';

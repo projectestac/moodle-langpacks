@@ -366,6 +366,7 @@ $string['invalidoutcome'] = 'Ikaste-emaitzaren ID ezegokia';
 $string['invalidpagesize'] = 'Orriaren tamaina baliogabea';
 $string['invalidpasswordpolicy'] = 'Pasahitzen politika baliogabea';
 $string['invalidpaymentmethod'] = 'Ordainketa-metodo baliogabea: {$a}';
+$string['invalidpersistenterror'] = 'Errorea: {$a}';
 $string['invalidqueryparam'] = 'ERROREA: kontsultaren parametro kopuru ezegokia. {$a->expected} espero ziren eta {$a->actual} eskuratu dira.';
 $string['invalidratingarea'] = 'Kalifikazioen eremua ez da baliagarria';
 $string['invalidrecord'] = 'Ezin da datuen erregistroa aurkitu datu-basearen {$a} taulan.';

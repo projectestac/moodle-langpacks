@@ -27,7 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addnewepisode'] = 'إضافة حلقة جديدة';
 $string['cannotseeepisode'] = 'ليست لديك صلاحية معاينة هذه الحلقة';
+$string['displayauthor'] = 'عرض أسماء الكُتاب';
 $string['displayauthor_help'] = 'عرض اسم الكاتب لكل حلقة للمستخدمين';
+$string['displayviews'] = 'عرض أسماء المشاهدين';
+$string['displayviews_help'] = 'عرض أسماء المشاهدين وأعداداهم لكل حلقة للمستخدمين';
 $string['episodesperpage'] = 'الحلقات الظاهرة لكل صفحة';
 $string['episodesperpage_help'] = 'هذا الإعداد يتحكم بعدد الحلقات التي سيتم عرضها في صفحة واحدة. إذا كنت تستعمل ملفات وسائط كبيرة، قد ترغب بجعل هذا رقماً صغيراً.';
 $string['eventepisodeapproved'] = 'حلقة تمت الموافقة عليها';

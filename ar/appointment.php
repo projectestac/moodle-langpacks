@@ -32,7 +32,7 @@ $string['calendareventdescriptionbooking'] = 'لقد تم الحجز لك في <
 $string['calendareventdescriptionsession'] = 'لقد أنشأتَ <a href="{$a}">جلسة الموعد</a> هذه.';
 $string['capacity_help'] = '**الاستيعاب** هو عدد المقاعد المتاحة في الجلسة.
 
-عندما تصل جلسة الموعد إلى حد استيعابها، لا تظهر تفاصيل الجلسة في صفحة المساق. ستظهر التفاصيل بلون رمادي في صفحة \'معاينة كل الجلسات\' ولن يعود المتعلم قادرًا على الانضمام إلى الجلسة.
+عندما تصل جلسة الموعد إلى حد استيعابها، لا تظهر تفاصيل الجلسة في صفحة المقرر الدراسي. ستظهر التفاصيل بلون رمادي في صفحة \'معاينة كل الجلسات\' ولن يعود المتعلم قادرًا على الانضمام إلى الجلسة.
 &nbsp;';
 $string['confirmmanageremailaddress'] = 'تأكيد عنوان البريد الالكتروني للمدير';
 $string['confirmmanageremailaddressquestion'] = 'هل لا زال <b>{$a}</b> العنوان البريدي لمديرك؟';
@@ -61,7 +61,7 @@ $string['eventattendancetaken'] = 'حضور جلسة تم أخذه';
 $string['eventattendeesviewed'] = 'حاضرو جلسة تمت معاينتهم';
 $string['eventcancelbooking'] = 'جلسة أُلغي حجزها';
 $string['eventcancelbookingfailed'] = 'جلسة إلغاء حجزها (فشل)';
-$string['eventcourseappointmentviewed'] = 'عيّنات مواعيد مساق شوهدت';
+$string['eventcourseappointmentviewed'] = 'عيّنات مواعيد مقرر دراسي شوهدت';
 $string['eventcoursemoduleviewed'] = 'عيّنة وحدة موعد شوهدت';
 $string['eventdeletesession'] = 'جلسة حُذِفت';
 $string['eventdeletesessionfailed'] = 'جلسة حذفها (فشل)';
@@ -78,7 +78,7 @@ $string['goback'] = 'رجوع';
 $string['late'] = '\\{$a} متأخر';
 $string['location_help'] = '**الموقع** يصف أرجاء الجلسة (المدينة، البلد، المنطقة، إلخ).
 
-**الموقع** يُعرض في صفحة المساق، \'صفحة التسجيل\'، صفحة \'معاينة كل الجلسات\'، وفي كل إشعارات البريد الالكتروني.
+**الموقع** يُعرض في صفحة المقرر الدراسي، \'صفحة التسجيل\'، صفحة \'معاينة كل الجلسات\'، وفي كل إشعارات البريد الالكتروني.
 
 في صفحة \'معاينة كل الجلسات\'، يمكن ترشيح الجلسات المعروضة حسب الموقع.';
 $string['partiallyfull'] = 'مكتمل جزئياً';
@@ -105,7 +105,7 @@ $string['sessiondatetime'] = 'تاريخ/وقت الجلسة';
 $string['sessiondescription'] = 'الوصف';
 $string['sessionfinishtime'] = 'وقت انتهاء الجلسة';
 $string['sessionsdetailstablesummary'] = 'وصف كامل للجلسة الحالية.';
-$string['sessionsoncoursepage'] = 'الجلسات المعروضة في صفحة المساق';
+$string['sessionsoncoursepage'] = 'الجلسات المعروضة في صفحة المقرر الدراسي';
 $string['sessionsoncoursepage_help'] = 'هذا يمثل عدد الجلسات لكل نشاط من أنشطة الموعد التي سيتم إظهارها في صفحة المقرر الدراسي الرئيسية.';
 $string['sessionstartdateandtime'] = '{$a->startdate}، {$a->starttime} - {$a->endtime} (المنطقة الزمنية: {$a->timezone})';
 $string['sessionstartdateandtimewithouttimezone'] = '{$a->startdate}، {$a->starttime} - {$a->endtime}';

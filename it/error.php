@@ -365,6 +365,7 @@ $string['invalidoutcome'] = 'ID obiettivo errato';
 $string['invalidpagesize'] = 'Dimensione pagina non valida';
 $string['invalidpasswordpolicy'] = 'Le regole password non sono valide';
 $string['invalidpaymentmethod'] = 'Metodo di pagamento non valido: {$a}';
+$string['invalidpersistenterror'] = 'Errore: {$a}';
 $string['invalidqueryparam'] = 'ERRORE: numero errato di parametri della query. Parametri attesi {$a->expected}, parametri ricevuti {$a->actual}.';
 $string['invalidratingarea'] = 'Area di valutazione non valida';
 $string['invalidrecord'] = 'Non è possibile trovare il record nella tabella {$a}.';

@@ -50,5 +50,5 @@ $string['privacy:metadata:timelinesortpreference'] = 'Die Sortierpräferenz des 
 $string['sortbycourses'] = 'Sortiert nach Kursen';
 $string['sortbydates'] = 'Sortiert nach Datum';
 $string['timeline'] = 'Zeitleiste';
-$string['timeline:myaddinstance'] = 'Neuen Block \'Zeitleiste\' zum Dashboard hinzufügen';
+$string['timeline:myaddinstance'] = 'Neuen Block \'Zeitleiste\' im Dashboard hinzufügen';
 $string['viewcourse'] = 'Zum Kurs';

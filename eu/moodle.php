@@ -1011,7 +1011,7 @@ $string['hide'] = 'Ezkutatu';
 $string['hideadvancedsettings'] = 'Ezkutatu ezarpena aurreratuak';
 $string['hidechartdata'] = 'Ezkutatu grafikoaren datuak';
 $string['hidefromstudents'] = 'Ezkutatu ikasleei';
-$string['hideoncoursepage'] = 'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe';
+$string['hideoncoursepage'] = 'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe (jarduera sekretua)';
 $string['hidepicture'] = 'Ezkutatu irudia';
 $string['hidepopoverwindow'] = 'Ezkutatu popover leihoa';
 $string['hidesection'] = 'Ezkutatu {$a} atala';
@@ -1291,15 +1291,15 @@ $string['modvisible_help'] = 'Eskuragarritasuna \'Erakutsi ikastaro-orrian\' auk
 
 Eskuragarritasuna \'Ezkutatu ikasleei\' aukeran badago, jarduera edo baliabidea ezkutuan dauden jarduera edo baliabidek ikusteko baimena dutenek ikusi ahalko dute (modu lehenetsian irakasle baimenak dituzten erabiltzaileak).';
 $string['modvisiblehiddensection'] = 'Eskuragarritasuna';
-$string['modvisiblehiddensection_help'] = 'Eskuragarritasuna \'Ezkutatu ikasleei\' aukeran badago, jarduera edo baliabidea ezkutuan dauden jarduera edo baliabidek ikusteko baimena dutenek ikusi ahalko dute (modu lehenetsian irakasle baimenak dituzten erabiltzaileak).
+$string['modvisiblehiddensection_help'] = 'Eskuragarritasuna \'Ezkutatu ikasleei\' aukeran badago, jarduera edo baliabidea soilik ezkutuan dauden jarduera edo baliabideak ikusteko baimena dutenek ikusi ahalko dute (modu lehenetsian irakasle baimenak dituzten erabiltzaileak).
 
-Ikastaroak jarduera edota baliabide asko baditu, hasiera-orria sinplifikatu daiteke \'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe\' eskuragarritasun-aukera erabilita. Kasu horretan irakasleak jarduera edota baliabideetarako esteka beste nonbait jarri beharko ditu, orri batean adibidez. Ezkutuko jarduerak kalifikazio-txostenean eta bestelako txostenetan agertuko dira.';
+Ikastaroak jarduera edota baliabide asko baditu, hasiera-orria sinplifikatu daiteke \'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe\' eskuragarritasun-aukera erabilita. Kasu horretan irakasleak jarduera edo baliabiderako esteka beste nonbait jarri beharko du, orri batean adibidez. Horrelako jarduera sekretuak kalifikazio-txostenean eta bestelako txostenetan agertuko dira.';
 $string['modvisiblewithstealth'] = 'Eskuragarritasuna';
 $string['modvisiblewithstealth_help'] = 'Eskuragarritasuna \'Erakutsi ikastaro-orrian\' aukeran badago, jarduera edo baliabidea ikasleentzat eskuragarri egongo da (bestelako eskuragarritasun baldintzek baimentzen badute).
 
-Eskuragarritasuna \'Ezkutatu ikasleei\' aukeran badago, jarduera edo baliabidea ezkutuan dauden jarduera edo baliabidek ikusteko baimena dutenek ikusi ahalko dute (modu lehenetsian irakasle baimenak dituzten erabiltzaileak).
+Eskuragarritasuna \'Ezkutatu ikasleei\' aukeran badago, jarduera edo baliabidea soilik ezkutuan dauden jarduera edo baliabideak ikusteko baimena dutenek ikusi ahalko dute (modu lehenetsian irakasle baimenak dituzten erabiltzaileak).
 
-Ikastaroak jarduera edota baliabide asko baditu, hasiera-orria sinplifikatu daiteke \'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe\' eskuragarritasun-aukera erabilita. Kasu horretan irakasleak jarduera edota baliabideetarako esteka beste nonbait jarri beharko ditu, orri batean adibidez. Ezkutuko jarduerak kalifikazio-txostenean eta bestelako txostenetan agertuko dira.';
+Ikastaroak jarduera edota baliabide asko baditu, hasiera-orria sinplifikatu daiteke \'Jarri eskuragarri baina ikastaro-orrian erakutsi gabe\' eskuragarritasun-aukera erabilita. Kasu horretan irakasleak jarduera edo baliabiderako esteka beste nonbait jarri beharko du, orri batean adibidez. Horrelako jarduera sekretuak kalifikazio-txostenean eta bestelako txostenetan agertuko dira.';
 $string['month'] = 'Hilabetea';
 $string['months'] = 'Hilabeteak';
 $string['moodledocs'] = 'Moodle Doc-ak';

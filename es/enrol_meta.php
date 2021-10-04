@@ -39,5 +39,6 @@ $string['nosyncroleids'] = 'Roles que no están sincronizados';
 $string['nosyncroleids_desc'] = 'Por defecto, todas las asignaciones de rol a nivel de curso se sincronizan de  cursos-padre a cursos-hijo. Los roles seleccionados aquí no se incluirán en el proceso de sincronización. Los roles actuales se actualizarán en la próxima ejecución del \'cron\'.';
 $string['pluginname'] = 'Meta-enlace de curso';
 $string['pluginname_desc'] = 'La extensión de matriculación meta-enlace sincroniza matrículas y roles entre dos cursos diferentes.';
+$string['privacy:metadata:core_group'] = 'Enroll meta plugin puede crear un nuevo grupo o usar un grupo existente para agregar a todos los participantes del curso vinculado.';
 $string['syncall'] = 'Sincronizar todos los usuarios inscritos';
 $string['syncall_desc'] = 'Si se habilita todos los usuarios matriculados están sincronizados, incluso si no tienen ningún rol en el curso-padre; si está deshabilitado sólo los usuarios que tienen al menos un rol sincronizado se matriculan en el curso-hijo.';

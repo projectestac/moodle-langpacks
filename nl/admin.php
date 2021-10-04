@@ -714,6 +714,7 @@ $string['htmlsettings'] = 'HTML-instellingen';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP Security';
 $string['iconvrequired'] = 'Het installeren van de ICONV-extentie is vereist.';
+$string['igbinary322buggyversion'] = 'De php-igbinary-extensie die op de site is geïnstalleerd, kan leiden tot problemen bij het draaien met PHP 7.2. Het wordt aanbevolen om ofwel te upgraden naar php-igbinary 3.2.5 of later, of om te upgraden naar PHP 7.3 of later.';
 $string['ignore'] = 'Negeer';
 $string['includemoduleuserdata'] = 'Ook gebruikersdata van modules';
 $string['incompatibleblocks'] = 'Niet-compatibele blokken';

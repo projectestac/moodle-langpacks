@@ -38,20 +38,20 @@ $string['approve'] = 'Godkänn';
 $string['approved'] = 'Godkänd';
 $string['areacontent'] = 'Fält';
 $string['ascending'] = 'Stigande';
-$string['asearchtemplate'] = 'Mall för avancerad sökning';
+$string['asearchtemplate'] = 'Avancerad sökmall';
 $string['atmaxentry'] = 'Du har lagt till det maximala antal tillåtna poster!';
 $string['authorfirstname'] = 'Författarens förnamn';
 $string['authorlastname'] = 'Författarens efternamn';
 $string['autogenallforms'] = 'Skapa alla standardmallar';
 $string['autolinkurl'] = 'Autolänk till URLen';
-$string['availablefromdate'] = 'Tillgänglig från';
+$string['availablefromdate'] = 'Tillgänglig fr.o.m.';
 $string['availabletags'] = 'Tillgängliga etiketter';
 $string['availabletags_help'] = '<p align="center"><strong>Tillgängliga etiketter</strong></p>
 <p>Etiketter är platshållare i mallen som kommer att ersättas av fält eller knappar när poster redigeras eller visas.</p>
 <p>Fält har följande format: [[fieldname]]</p>
 <p>Knappar har följande format: ##somebutton##</p>
 <p>Endast de etiketter som finns in listan "Tillgängliga etiketter" kan användas för den aktuella mallen.</p>';
-$string['availabletodate'] = 'Tillgänglig till';
+$string['availabletodate'] = 'Tillgänglig t.o.m.';
 $string['availabletodatevalidation'] = 'Tillgänglig till-datum kan inte vara före tillgänglig-från datum.';
 $string['blank'] = 'Tom';
 $string['buttons'] = 'Åtgärder';
@@ -177,7 +177,7 @@ $string['fieldheightsingleview'] = 'Höjd vid visning av ett enskild post';
 $string['fieldids'] = 'Id för fält';
 $string['fieldmappings'] = 'Fältmappning';
 $string['fieldmappings_help'] = 'Med den här menyn kan du behålla data från den befintliga databasen. Om du vill bevara data i ett fält måste du mappa det till ett nytt fält, där data ska visas. Alla fält kan också lämnas tomma, utan att någon information kopieras till dem. Alla gamla fält som inte mappas till ett nytt kommer att gå förlorade och alla dess data tas bort.
-Du kan bara mappa fält av samma typ, så varje rullgardinsmeny har olika fält i sig. Du måste också vara försiktig så att du inte försöker mappa ett gammalt fält till mer än ett nytt fält.';
+Du kan bara mappa fält av samma typ, så varje listruta har olika fält i sig. Du måste också vara försiktig så att du inte försöker mappa ett gammalt fält till mer än ett nytt fält.';
 $string['fieldname'] = 'Fältnamn';
 $string['fieldnametype'] = '{$a->name} ({$a->type})';
 $string['fieldnotmatched'] = 'Följande fält i din fil saknas i den här databasen:{$a}';
@@ -254,7 +254,7 @@ $string['menuchoose'] = 'Välj...';
 $string['missingdata'] = 'Det måste finnas ett data-ID eller objekt som tilldelas klassen för fältet';
 $string['missingfield'] = 'Programmerarfel: Du måste ange fält och/eller data när du definierar klassen för fältet.';
 $string['modulename'] = 'Databas';
-$string['modulename_help'] = 'Aktiviteten <em>Databas</em> gör det möjligt för deltagarna att skapa, underhålla och söka i en samling databasposter. Poststrukturen definieras av läraren som ett antal fält. Fälttyper inkluderar kryssruta, alternativknappar, rullgardinsmeny, textområde, URL, bild och uppladdad fil.
+$string['modulename_help'] = 'Aktiviteten <em>Databas</em> gör det möjligt för deltagarna att skapa, underhålla och söka i en samling databasposter. Poststrukturen definieras av läraren som ett antal fält. Fälttyper inkluderar kryssruta, alternativknappar, listruta, textfält, URL, bild och uppladdad fil.
 
 Den visuella layouten för information när du listar, visar eller redigerar databasposter kan styras av databasmallar. Databasaktiviteter kan delas mellan kurser som förinställningar och en lärare kan också importera och exportera databasposter.
 
@@ -275,7 +275,7 @@ $string['multimenu'] = 'Meny (välj flera)';
 $string['multipletags'] = 'Det fanns flerfaldiga taggar! Mallen har inte sparats';
 $string['newentry'] = 'Ny post';
 $string['newfield'] = 'Skapa ett nytt fält';
-$string['newfield_help'] = 'Ett fält gör det möjligt att mata in data. Varje post i en databasaktivitet kan ha flera fält av flera typer, till exempel ett datumfält, som gör det möjligt för deltagarna att välja en dag, månad och år på en rullgardinsmeny, ett bildfält, som gör det möjligt för deltagarna att ladda upp en bildfil eller ett kryssrutefält, som gör det möjligt för deltagarna att välja ett eller flera alternativ.
+$string['newfield_help'] = 'Ett fält gör det möjligt att mata in data. Varje post i en databasaktivitet kan ha flera fält av flera typer, till exempel ett datumfält, som gör det möjligt för deltagarna att välja en dag, månad och år i en listruta, ett bildfält som gör det möjligt för deltagarna att ladda upp en bildfil, eller ett kryssrutefält som gör det möjligt för deltagarna att välja ett eller flera alternativ.
 
 Varje fält måste ha ett unikt fältnamn. Fältbeskrivningen är valfri.';
 $string['noaccess'] = 'Du har inte åtkomst till den här sidan';
@@ -380,7 +380,7 @@ $string['singletemplate'] = 'Mall för enskild post';
 $string['subplugintype_datafield'] = 'Fälttyp i databas';
 $string['subplugintype_datafield_plural'] = 'Fälttyper i databas';
 $string['subplugintype_datapreset'] = 'Förinställning';
-$string['subplugintype_datapreset_plural'] = 'Förinställingar';
+$string['subplugintype_datapreset_plural'] = 'Förinställningar';
 $string['tagarea_data_records'] = 'Databasposter';
 $string['tags'] = 'Etiketter';
 $string['tagsdeleted'] = 'Databasetiketter har tagits bort';

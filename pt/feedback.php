@@ -83,7 +83,7 @@ $string['depending_help'] = 'Esta opção permite que uma questão só seja exib
     <li>Adicione as perguntas cuja exibição depende da resposta à pergunta anterior.<br />
     <li>Selecione a pergunta na lista "Dependência de" e indique o valor necessário na caixa de texto "Resposta requerida".</li>
 </ol>
-<strong>Por exemplo:</strong>
+<strong>Exemplo:</strong>
 <ol>
     <li>Questão: Tem um carro? R: sim/não</li>
     <li>Quebra de página</li>

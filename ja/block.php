@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtodock'] = 'これをドックに移動する';
-$string['anypagematchingtheabove'] = '上記に合致するページすべて';
+$string['anypagematchingtheabove'] = '上に合致するページすべて';
 $string['appearsinsubcontexts'] = 'サブコンテクストに表示する';
 $string['assignrolesinblock'] = '{$a} ブロックにロールを割り当てる';
 $string['blocksdrawertoggle'] = 'ブロックドロワを表示/非表示にする';

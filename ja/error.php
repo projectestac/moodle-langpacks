@@ -366,6 +366,7 @@ $string['invalidoutcome'] = '正しくないアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpasswordpolicy'] = '無効なパスワードポリシーです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: {$a}';
+$string['invalidpersistenterror'] = 'エラー: {$a}';
 $string['invalidqueryparam'] = 'エラー: クエリパラメータ数が正しくありません。期待されたパラメータ数 {$a->expected} 件に対して、{$a->actual} 件が渡されています。';
 $string['invalidratingarea'] = '無効な評定エリアです。';
 $string['invalidrecord'] = 'データベーステーブル「 {$a} 」内にデータレコードが見つかりません。';
