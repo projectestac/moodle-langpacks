@@ -538,6 +538,9 @@ $string['postbymailsuccess_html'] = 'A súa resposta <a href="{$a->discussionurl
 $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Ver este comentario en contexto';
 $string['postisprivatereply'] = 'Esta é unha resposta privada. Non é visíbel para outros participantes.';
+$string['postmailinfo'] = 'Isto é unha copia dunha mensaxe comentada no sitio web {$a}.
+
+Para responder, prema nesta ligazón:';
 $string['postmailinfolink'] = 'Esta é unha copia dunha mensaxe publicada en {$a->coursename}.
 
 Para responder prema nesta ligazón: {$a->replylink}';

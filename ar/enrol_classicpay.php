@@ -55,3 +55,5 @@ $string['name'] = 'الاسم';
 $string['th:value'] = 'القيمة';
 $string['value'] = 'القيمة';
 $string['valuemissing'] = 'لا بد من إعطاء قيمة';
+$string['warn:servicepage'] = '<div class="enrol-classicpay-warn">كل إجراء تقوم به في هذه الصفحة سيتم تنفيذه في خدمة classicpay الخاصة بنا.<br/>
+نلفت عنايتك لقراءة التعليقات وفهمها بالكامل قبل المتابعة.</div>';

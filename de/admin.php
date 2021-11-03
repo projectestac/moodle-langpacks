@@ -762,6 +762,7 @@ $string['iplookup'] = 'IP-Adressen-Suche';
 $string['iplookupgeoplugin'] = 'Ortsdaten werden aktuell durch den Dienst <a href="http://www.geoplugin.com">geoPlugin</a> bereitgestellt. Bessere Ergebnisse erhalten Sie mit der Ortsdatenbank \'<a href="http://www.maxmind.com">GeoLite  von MaxMind.com</a>\'.';
 $string['iplookupinfo'] = 'Moodle nutzt zur Lokalisierung von IP-Adressen die Datenbank NetGeo (Internet Geographic Database). Die Datenbank wird nicht gepflegt und liefert leider oft seltsame Daten. Die Installation der freien Datenbank \'MaxMind GeoLite2 City\' wird empfohlen. Die IP-Adressen werden auf einer einfachen Übersichtskarte lokalisiert. Mit einem Googlekonto und einen freien API Key könnten Sie auch interaktive Karten über Google Maps verwenden.';
 $string['iplookupmaxmindnote'] = 'Moodle benutzt zur Darstellung die Ortsdatenbank \'<a href="http://www.maxmind.com">GeoLite2</a>\'.';
+$string['iscustomadminwarnings'] = 'Es wurde festgestellt, dass Ihre Site ein benutzerdefiniertes Administratorverzeichnis verwendet. Diese Funktion wird nicht mehr unterstützt und wird nach Moodle 4.2 entfernt.';
 $string['ishttpswarning'] = 'Ihre Website ist nicht mit HTTPS abgesichert. Es wird dringend empfohlen, die Website auf HTTPS umzuwandeln, um die Sicherheit zu erhöhen und die Integration anderer Systeme zu verbessern.';
 $string['keeptagnamecase'] = 'Schreibweise von Tags beibehalten';
 $string['lang'] = 'Sprache';
@@ -939,7 +940,7 @@ $string['navshowmycoursecategories_help'] = 'Wenn diese Option aktiviert ist, we
 $string['navsortmycourseshiddenlast'] = 'Meine verborgenen Kurse hinten einsortieren';
 $string['navsortmycourseshiddenlast_help'] = 'Diese Option legt fest, dass alle verborgenen Kurse nach den sichtbaren Kursen aufgeführt (für Nutzer/innen, die verborgene Kurse anzeigen können). Andernfalls werden alle Kurse unabhängig von ihrer Sichtbarkeit gemäß der Einstellung "Meine Kurse sortieren" aufgelistet.';
 $string['navsortmycoursessort'] = 'Meine Kurse anordnen';
-$string['navsortmycoursessort_help'] = 'Diese Option legt fest, ob Kurse im Bereich \'Meine Kurse\' gezeigt werden und wie sie angeordnet sind. Zun#chst wird eine alphabetische Sortierung vorgegeben (Einstellungen > Website-Administration > Kurse > Verwaltung).';
+$string['navsortmycoursessort_help'] = 'Diese Option legt fest, ob Kurse im Bereich \'Meine Kurse\' gezeigt werden und wie sie angeordnet sind. Standardmäßig wird eine alphabetische Sortierung vorgegeben (Einstellungen > Website-Administration > Kurse > Verwaltung).';
 $string['never'] = 'Nie';
 $string['neverdeleteruns'] = 'Durchläufe nicht löschen';
 $string['newestdocindexed'] = 'Neuestes Dokument indiziert';

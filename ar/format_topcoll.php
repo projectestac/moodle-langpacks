@@ -27,9 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['coursesectionactivityfurtherinformation'] = 'المعلومات الإضافية لصفحة المساق';
 $string['coursesectionactivityfurtherinformationfeedback'] = 'إظهار معلومات الإفادة';
-$string['coursesectionactivityfurtherinformationfeedbackdesc'] = 'إظهار معلومات الإفادة، مثل حالة التسليم. بالنسبة إلى المعلمين / المشرفين، إظهار عدد التسليمات.';
+$string['coursesectionactivityfurtherinformationfeedbackdesc'] = 'إظهار معلومات الإفادة. بالنسبة إلى المعلمين / المشرفين، إظهار عدد التسليمات.';
 $string['coursesectionactivityfurtherinformationquiz'] = 'إظهار معلومات الاختبار';
-$string['coursesectionactivityfurtherinformationquizdesc'] = 'إظهار معلومات الاختبار، مثل حالة التسليم. بالنسبة إلى المعلمين والمشرفين، إظهار عدد التسليمات.';
+$string['coursesectionactivityfurtherinformationquizdesc'] = 'إظهار معلومات الاختبار. بالنسبة للمعلمين والمشرفين، إظهار عدد التسليمات.';
 $string['default'] = 'الافتراضي - {$a}';
 $string['defaultheadingsub'] = 'الافتراضيات';
 $string['defaulttgbgcolour'] = 'تبديل لون الخلفية';

@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Text';
-$string['pluginname'] = 'Textinmatning';
+$string['pluginname'] = 'Textfält';
 $string['privacy:metadata'] = 'Fältkomponenten Text lagrar ingen personinformation. Den använder tabeller definierade i <code>mod_data</code>.';

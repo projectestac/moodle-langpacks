@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = '¿Una o varias respuestas?';
-$string['answerhowmany_desc'] = 'Si la opción por defecto debe ser una respuesta (p. ej. botón de radio) o respuestas múltiples (p. ej. casillas de verificación)';
-$string['answernumbering'] = '¿Numerar las elecciones?';
+$string['answerhowmany_desc'] = 'Si la opción por defecto debe ser una respuesta (p. ej. botón de opción) o respuestas múltiples (p. ej. casillas de verificación)';
+$string['answernumbering'] = '¿Numerar las opciones?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingIIII'] = 'I., II., III., ...';
@@ -72,7 +72,7 @@ $string['privacy:preference:defaultmark'] = 'La puntuación predeterminada estab
 $string['privacy:preference:penalty'] = 'La penalización por cada intento incorrecto cuando las preguntas se ejecutan utilizando el comportamiento \'Interactivo con múltiples intentos\' o \'Modo adaptativo\'.';
 $string['privacy:preference:showstandardinstruction'] = 'Si muestra instrucción estándar.';
 $string['privacy:preference:shuffleanswers'] = 'Si las respuestas deben mezclarse automáticamente.';
-$string['privacy:preference:single'] = 'Si la respuesta es simple con botones de radio o múltiple con casillas de verificación.';
+$string['privacy:preference:single'] = 'Si la respuesta es simple con botones de opción o múltiple con casillas de verificación.';
 $string['selectmulti'] = 'Seleccione una o más de una:';
 $string['selectone'] = 'Seleccione una:';
 $string['showstandardinstruction'] = 'Mostrar instrucciones estándar';

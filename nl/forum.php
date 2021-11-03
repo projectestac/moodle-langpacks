@@ -541,10 +541,8 @@ $string['postbymailsuccess'] = 'Je antwoord  "{$a->subject}" is gepost op {$a->d
 $string['postbymailsuccess_html'] = 'Je antwoord <a href="{$a->discussionurl}">{$a->subject}</a> is gepost.';
 $string['postbyuser'] = '{$a->post} door {$a->user}';
 $string['postincontext'] = 'Bekijk dit bericht in zijn context';
-$string['postisprivatereply'] = 'Dit is een privé-antwoord. Het is niet zichtbaar voor andere deelnemers.';
-$string['postmailinfo'] = 'Dit is een kopie van een bericht dat op de {$a} website is toegevoegd.
-
-Klik op deze link om jouw antwoord via de website toe te voegen:';
+$string['postisprivatereply'] = 'Dit is een privé-antwoord. Het is enkel zichtbaar voor jou en voor gebruikers die private antwoorden mogen zien, zoals leraren en managers.';
+$string['postmailinfo'] = 'Dit is een kopie van een bericht op {$a}';
 $string['postmailinfolink'] = 'Dit is een kopie van een bericht, gepost in {$a->coursename}.
 
 Klik op volgende link om te antwoorden: {$a->replylink}';

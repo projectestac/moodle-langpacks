@@ -36,6 +36,7 @@ $string['filtershortcodesnotinstalled'] = 'نوصي بتنصيب وتمكين <a
 $string['filterstashnotactive'] = 'لقد تم تنصيب ملحق التنقيح هذا ولكنه غير مُمَكَّن بعد في هذا المقرر الدراسي. قم بزيارة <a href="{$a->activeurl}" target="_blank">هذه الصفحة</a> لتمكينه في هذا المقرر.';
 $string['filterstashnotenabled'] = 'لقد تم تنصيب ملحق التنقيح هذا ولكنه غير <a href="{$a->enableurl}" target="_blank">مُمَكَّن</a> بعد.';
 $string['filterstashnotinstalled'] = 'نوصي بتنصيب وتمكين <a href="{$a->installurl}" target="_blank">ملحق التنقيح للمكدس</a>. إنه يسهل استعمال النُتف ويجعلها أكثر فاعلية. إنه يسمح أيضاً بالمبادلة.';
+$string['filterstashwrongversion'] = 'ملحق المنقح الذي قمت بتنصيبه هو بإصدار سابق ولا يعمل مع المتاجرة. يرجى زيارة <a href="{$a}" target="_blank">هذه الصفحة</a> للحصول على الإصدار الأخير.';
 $string['gaintitle'] = 'عنوان الربح';
 $string['itemname_help'] = 'اسم العنصر، وهو سيُعرض للطلاب.';
 $string['losstitle'] = 'عنوان الخسارة';

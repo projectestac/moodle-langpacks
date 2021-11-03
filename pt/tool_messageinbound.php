@@ -85,7 +85,7 @@ $string['messageprocessingsuccess'] = '{$a->plain}
 
 Se não pretende receber mais notificações, pode editar as suas preferências pessoais de mensagem ao aceder a {$a->messagepreferencesurl} no seu navegador.';
 $string['messageprocessingsuccesshtml'] = '{$a->html}
-<p>If you do not wish to receive these notifications in the future, you can <a href="{$a->messagepreferencesurl}">edit your personal messaging preferences</a>.</p>';
+<p>Se não pretende receber estas notificações, pode <a href="{$a->messagepreferencesurl}">editar as suas preferências de mensagens</a>.</p>';
 $string['messageprovider:invalidrecipienthandler'] = 'Mensagem para confirmar que uma mensagem de entrada veio de si';
 $string['messageprovider:messageprocessingerror'] = 'Aviso quando uma mensagem de entrada não pôde ser processada';
 $string['messageprovider:messageprocessingsuccess'] = 'Confirmação de que a mensagem foi processada com sucesso';

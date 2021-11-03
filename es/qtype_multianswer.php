@@ -37,7 +37,7 @@ $string['layoutmultiple_horizontal'] = 'Fila horizontal de casillas de verificac
 $string['layoutmultiple_vertical'] = 'Columna vertical de casillas de verificación';
 $string['layoutselectinline'] = 'Menú desplegable en línea en el texto';
 $string['layoutundefined'] = 'Esquema indefinido';
-$string['layoutvertical'] = 'Columna vertical de botones';
+$string['layoutvertical'] = 'Columna vertical de botones de opción';
 $string['nooptionsforsubquestion'] = 'Imposible conseguir opciones para la parte de la pregunta # {$a->sub} (question->id={$a->id})';
 $string['noquestions'] = 'La pregunta \'cloze\' (multi-respuesta) "<strong>{$a}</strong>" no contiene ninguna pregunta';
 $string['pleaseananswerallparts'] = 'Por favor, responda a todas las partes de la pregunta.';

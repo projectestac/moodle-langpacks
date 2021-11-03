@@ -44,6 +44,7 @@ $string['iclicker:addinstance'] = 'إضافة كتلة جديدة من i>clicker
 $string['iclicker:myaddinstance'] = 'إضافة كتلة جديدة من i>clicker إلىى صفحة مودل الخاصة بي';
 $string['inst.course.view.students'] = 'معاينة الطلاب';
 $string['inst.courses.table.summary'] = 'يستعرض المساقات المقدمة من قبل هذا المرشد؛ العنوان، رابط إلى قائمة الطلاب';
+$string['inst.no.courses'] = 'بدون مقررات';
 $string['inst.student.name.header'] = 'الاسم';
 $string['inst.students'] = 'الطلاب';
 $string['leaveblanktohide'] = 'أتركه فارغاً لإخفائه';

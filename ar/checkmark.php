@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activateindividuals'] = 'تفعيل الوظيفة الفردية';
 $string['alwaysshowdescription'] = 'إظهار الوصف دائمًا';
+$string['autograde_confirm'] = 'أنت على وشك تحديث التقديرات والإفادات العائدة لـ <strong>{$a}</strong>. التقديرات والإفادات السابقة ستتم الكتابة عليها.';
 $string['autograde_notsupported'] = 'هذا المقياس غير مدعوم من قبل التقييم التلقائي.';
 $string['cantfixevent'] = 'تعذر تثبيت الحدث ذي المُعرَّف {$a->id}، المسمى {$a->name} ({$a->matches}
 من التطابقات).';

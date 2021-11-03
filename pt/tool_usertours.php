@@ -75,18 +75,18 @@ $string['filter_courseformat'] = 'Formato de disciplina';
 $string['filter_courseformat_help'] = 'Mostrar a demonstração numa página que está associada à disciplina selecionada usando o formato da disciplina selecionada.';
 $string['filter_cssselector'] = 'Seletor CSS';
 $string['filter_cssselector_help'] = 'Mostrar a demonstração ao utilizador apenas quando o seletor CSS especificado for encontrado na página.';
-$string['filter_date_account_creation'] = 'Data de criação da conta do utilizador entre';
-$string['filter_date_first_login'] = 'Data do primeiro acesso do utilizador entre';
-$string['filter_date_last_login'] = 'Data do primeiro acesso do utilizador entre';
+$string['filter_date_account_creation'] = 'Data de criação da conta do utilizador há';
+$string['filter_date_first_login'] = 'Data do primeiro acesso do utilizador há';
+$string['filter_date_last_login'] = 'Data do último acesso do utilizador há';
 $string['filter_header'] = 'Filtros da demonstração';
-$string['filter_help'] = 'Selecione as condições sob as quais a demonstração será mostrada. Todos os filtros devem corresponder a uma demonstração a ser mostrada a um utilizador.';
+$string['filter_help'] = 'Selecione as condições que devem existir para que a demonstração seja mostrada. Só quando forem respeitados todos os filtros é que a demonstração é mostrada a um utilizador.';
 $string['filter_role'] = 'Papel';
 $string['filter_role_help'] = 'Uma demonstração pode ser exclusiva para utilizadores com papel selecionado no contexto em que a demonstração é mostrada. Por exemplo, restringir uma demonstração de Painel do utilizador aos utilizadores com o papel de aluno não funcionará se os utilizadores tiverem o papel de aluno numa disciplina (como geralmente é o caso). Uma demonstração de Painel do utilizador só pode ser restrita a utilizadores com um papel de sistema.';
 $string['filter_theme'] = 'Tema';
 $string['filter_theme_help'] = 'Mostrar a demonstração quando o utilizador estiver a usar um dos temas selecionados.';
 $string['importtour'] = 'Importar demonstração';
 $string['left'] = 'Esquerda';
-$string['modifyshippedtourwarning'] = 'Esta é uma demonstração ao utilizador que vem com o Moodle. Quaisquer modificações poderão ser substituídas durante a próxima atualização do site.';
+$string['modifyshippedtourwarning'] = 'Esta demonstração ao utilizador faz parte do código base do Moodle. Quaisquer modificações poderão ser substituídas na próxima atualização do site.';
 $string['movestepdown'] = 'Ir para etapa anterior';
 $string['movestepup'] = 'Ir para etapa seguinte';
 $string['movetourdown'] = 'Mover demonstração para baixo';
@@ -98,7 +98,7 @@ $string['next'] = 'Seguinte';
 $string['nextstep'] = 'Seguinte';
 $string['options_heading'] = 'Opções';
 $string['orphan'] = 'Mostrar se o destino não for encontrado';
-$string['orphan_help'] = 'Mostre a etapa se o destino não for encontrado na página.';
+$string['orphan_help'] = 'Mostrar a etapa se o destino não for encontrado na página.';
 $string['pathmatch'] = 'Aplicar à correspondência do URL';
 $string['pathmatch_help'] = 'As demonstrações serão mostradas em qualquer página cujo URL corresponda a este valor.
 
@@ -106,7 +106,7 @@ Pode usar % como caráter universal para dar significado a qualquer coisa.
 Alguns exemplos de valores:
 
 * /my/% - para corresponder ao Painel do utilizador
-* /course/view.php?id=2 - para corresponder a determinada disciplina
+* /course/view.php?id=2 - para corresponder à disciplina com ID=2
 * /mod/forum/view.php% - para corresponder à lista de discussão do fórum
 * /user/profile.php% - para corresponder à página de perfil do utilizador
 
@@ -222,7 +222,7 @@ $string['tour_activityinfo_activity_student_content'] = 'As datas e as condiçõ
 $string['tour_activityinfo_activity_student_title'] = 'Novo: Informação da atividade';
 $string['tour_activityinfo_activity_teacher_content'] = 'As datas e as condições de conclusão da atividade são mostrada aos alunos em cada página da atividade (e opcionalmente na página da disciplina).
 
-Para atividades que requerem que os alunos marquem manualmente uma atividade como concluída, é mostrado na página da atividade o botão \'Marcar como concluída\'.';
+Para atividades que requerem que os alunos marquem manualmente a atividade como concluída, é mostrado na página da atividade o botão \'Marcar como concluída\'.';
 $string['tour_activityinfo_activity_teacher_title'] = 'Novo: Informação da atividade';
 $string['tour_activityinfo_course_student_content'] = 'As datas e/ou as condições de conclusão da atividade são mostrados na página da disciplina.';
 $string['tour_activityinfo_course_student_title'] = 'Novo: Informação da atividade';

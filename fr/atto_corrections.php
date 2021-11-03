@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Ajouter';
 $string['addmark'] = 'Ajouter un marqueur de correction';
+$string['corrections:canmarkup'] = 'Utiliser le balisage';
 $string['corrtext'] = 'Commentaire';
 $string['corrtype'] = 'Type de correction';
 $string['corrtypes'] = 'Types de correction';

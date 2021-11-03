@@ -563,7 +563,7 @@ $string['teacherongoingwarning'] = 'الدرجة الحالية تُعرض فق�
 $string['teachertimerwarning'] = 'عداد الوقت يعمل فقط مع الطلاب. إختبر العداد عبر تسجيل الدخول بصفة طالب.';
 $string['thatsthecorrectanswer'] = 'هذه إجابة صحيحة';
 $string['thatsthewronganswer'] = 'هذه إجابة خاطئة';
-$string['thefollowingpagesjumptothispage'] = 'الصفحات التالية تقفز إلى هذه الصفحة';
+$string['thefollowingpagesjumptothispage'] = 'الصفحات التالية تنتقل إلى هذه الصفحة';
 $string['thispage'] = 'هذه الصفحة';
 $string['timeisup'] = 'انتهى الوقت';
 $string['timelimit'] = 'محدد الوقت';

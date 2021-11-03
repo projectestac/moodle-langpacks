@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['configtitle'] = 'Titel';
 $string['configtitleblankhides'] = 'Blocktitel (ingen titel om detta är tomt)';
 $string['mentees:addinstance'] = 'Lägg till nytt Lärlingsblock';
-$string['mentees:myaddinstance'] = 'Lägg till nytt Lärlingsblock till Mitt Moodle';
+$string['mentees:myaddinstance'] = 'Lägg till nytt Lärlingsblock till översiktssidan';
 $string['newmenteesblock'] = '(nytt block för lärlingar)';
 $string['pluginname'] = 'Lärlingar';
 $string['privacy:metadata'] = 'Lärlingsblocket visar endast information som lagras på andra platser.';

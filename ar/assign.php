@@ -67,8 +67,8 @@ $string['assign:view'] = 'معاينة الواجب';
 $string['assign:viewblinddetails'] = 'معاينة هويات الطلبة عند تفعيل خيار التصحيح الأعمى';
 $string['assign:viewgrades'] = 'معاينة التقديرات';
 $string['assign:viewownsubmissionsummary'] = 'معاينة ملخص تسليمه';
-$string['assignfeedback'] = 'ملحق الإفادة';
-$string['assignfeedbackpluginname'] = 'ملحق الإفادة';
+$string['assignfeedback'] = 'إضافة الإفادة';
+$string['assignfeedbackpluginname'] = 'إضافة الإفادة';
 $string['assignmentisdue'] = 'فات موعد التسليم';
 $string['assignmentmail'] = '{$a->grader} قد أعطاك إفادة بشأن تسليمك للواجب \'{$a->assignment}\'
 
@@ -231,9 +231,9 @@ $string['feedbackavailabletext'] = '{$a->username} قد أعطى إفادة بش
  يمكن أن ترى تلك الملاحظات مُلحقة بتسليمك للواجب في الرابط التالي:
 
     {$a->url}';
-$string['feedbackplugin'] = 'ملحق الإفادة';
-$string['feedbackpluginforgradebook'] = 'ملحق الإفادة الذي سيضع التعليقات في سجل التقديرات';
-$string['feedbackpluginforgradebook_help'] = 'يمكن لملحق إفادة واحد فقط للواجبات أن يضع الإفادات في سجل التقديرات.';
+$string['feedbackplugin'] = 'إضافة الإفادة';
+$string['feedbackpluginforgradebook'] = 'إضافة الإفادة التي ستضع التعليقات في سجل التقديرات';
+$string['feedbackpluginforgradebook_help'] = 'يمكن لإضافة إفادة واحدة فقط للواجبات أن تضع الإفادات في سجل التقديرات.';
 $string['feedbackplugins'] = 'إضافات الإفادات';
 $string['feedbacksettings'] = 'إعدادات الإفادة';
 $string['feedbacktypes'] = 'أنواع الإفادات';
@@ -569,9 +569,9 @@ $string['submittedearly'] = 'تم تسليم الواجب {$a} باكرًا';
 $string['submittedlate'] = 'تم تسليم الواجب {$a} متأخراً';
 $string['submittedlateshort'] = '{$a} متأخر';
 $string['subpagetitle'] = '{$a->contextname} - {$a->subpage}';
-$string['subplugintype_assignfeedback'] = 'ملحق الإفادة';
+$string['subplugintype_assignfeedback'] = 'إضافة الإفادة';
 $string['subplugintype_assignfeedback_plural'] = 'إضافات الإفادات';
-$string['subplugintype_assignsubmission'] = 'ملحق التسليم';
+$string['subplugintype_assignsubmission'] = 'إضافة التسليم';
 $string['subplugintype_assignsubmission_plural'] = 'إضافات التسليم';
 $string['teamname'] = 'الفريق: {$a}';
 $string['teamsubmission'] = 'الطلبة يُسلِّمون كمجموعات';
@@ -594,7 +594,7 @@ $string['unsavedchanges'] = 'تغييرات غير محفوظة';
 $string['unsavedchangesquestion'] = 'هناك تغييرات غير محفوظة في الدرجات أو الإفادات. هل ترغب في حفظ التغييرات والاستمرار؟';
 $string['updategrade'] = 'تحديث الدرجة';
 $string['updatetable'] = 'إحفظ وحدِّث الجدول';
-$string['upgradenotimplemented'] = 'الترقية غير مطبقة في الملحق ({$a->type} {$a->subtype})';
+$string['upgradenotimplemented'] = 'الترقية غير مطبقة في الإضافة ({$a->type} {$a->subtype})';
 $string['userassignmentdefaults'] = 'إفتراضات الواجب للمستخدم';
 $string['userextensiondate'] = 'تم منح التمديد حتى: {$a}';
 $string['usergrade'] = 'علامة المستخدم';

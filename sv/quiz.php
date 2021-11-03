@@ -891,6 +891,7 @@ $string['scores'] = 'Poäng';
 $string['search:activity'] = 'Kunskapstest - aktivitetsinformation';
 $string['sectionheadingedit'] = 'Redigera rubrik \'{$a}\'';
 $string['sectionheadingremove'] = 'Ta bort rubriken \'{$a}\'';
+$string['sectionnoname'] = 'Namnlöst avsnitt';
 $string['seequestions'] = '(Se frågor)';
 $string['select'] = 'Välj';
 $string['selectall'] = 'Välj alla';

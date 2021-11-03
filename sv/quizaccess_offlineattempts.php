@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allowofflineattempts'] = 'Tillåt att testet görs offline i mobilappen.';
+$string['allowofflineattempts'] = 'Tillåt att kunskapstestet görs offline i mobilappen.';
 $string['allowofflineattempts_help'] = 'Om aktiverat kan en användare av mobilappen ladda ned kunskapstestet och genomföra det offline.
 
 <strong>OBS!</strong> Det är inte möjligt att genomföra ett kunskapstest offline om det har en tidsgräns, kräver en nätverksadress eller använder något annat frågebeteende än <em>Fördröjd återkoppling</em> (med eller utan CBM). CBM = Curriculum Based Measurement';

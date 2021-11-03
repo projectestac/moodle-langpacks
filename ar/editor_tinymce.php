@@ -247,7 +247,7 @@ $string['advlink_dlg:popup_statusbar'] = 'عرض شريط الحالة';
 $string['advlink_dlg:popup_tab'] = 'نافذة منبثقة';
 $string['advlink_dlg:popup_toolbar'] = 'عرض شرط الأدوات';
 $string['advlink_dlg:popup_url'] = 'رابط النافذة المنبثقة';
-$string['advlink_dlg:rel'] = 'العلاقة الصفحة للهدف';
+$string['advlink_dlg:rel'] = 'ربط الصفحة بالمقصد';
 $string['advlink_dlg:rev'] = 'العلاقة الهدف للصفحة';
 $string['advlink_dlg:rtl'] = 'يمين الى يسار';
 $string['advlink_dlg:style'] = 'الأسلوب';
@@ -275,7 +275,7 @@ $string['advlist:upper_alpha'] = 'حرف/رقم كبير';
 $string['advlist:upper_roman'] = 'روماني كبير';
 $string['aria:rich_text_area'] = 'منطقة نص منسق';
 $string['autosave:restore_content'] = 'استعادة المحتوى المحفوظ تلقائياً';
-$string['autosave:unload_msg'] = 'التغييرات التي قمت بها ستفقد ان قمت بالتنقل إلى صفحات أخرى.';
+$string['autosave:unload_msg'] = 'التغييرات التي قمت بها ستفقد إن قمت بالانتقال من هذه الصفحة.';
 $string['autosave:warning_message'] = 'إذا قمت باستعادة المحتوى المحفوظ، ستخسر كل المحتوى المتواجد حالياً في المحرر.
 
 هل أنت متأكد من رغبتك في استعادة المحتوى المحفوظ؟';

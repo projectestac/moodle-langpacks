@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['afterkeysavemsg'] = 'تم توفير مفتاح واجهة برمجة تطبيق Congrea وكلمة السر وحفظهما بنجاح';
+$string['alreadyhave'] = 'لقد قُمتَ مسبقًا بضبط مفتاح واجهة برمجة التطبيق وكلمة السر.';
 $string['askQuestion'] = 'السؤال والجواب';
 $string['attendeerecording'] = 'تسجيل الطلاب';
 $string['blankduration'] = 'إدخال خاطئ!';

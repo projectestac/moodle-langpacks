@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventgradeexported'] = 'تقديرات بصيغة OpenDocument تم تصديرها';
-$string['ods:publish'] = 'نشر علامات OpenDocument المصدرة';
+$string['ods:publish'] = 'نشر تقديرات OpenDocument المصدرة';
 $string['ods:view'] = 'استعمال تصدير التقديرات لـ OpenDocument';
 $string['pluginname'] = 'جدول OpenDocument';
 $string['privacy:metadata'] = 'إن ملحق تصدير التقديرات بشكل جداول OpenDocument لا يخزن أي بيانات شخصية.';

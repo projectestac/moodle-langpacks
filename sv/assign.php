@@ -269,10 +269,10 @@ $string['gradestudent'] = 'Betygssätt elev: (id={$a->id}, fullt namn={$a->fulln
 $string['gradeuser'] = 'Betyg {$a}';
 $string['grading'] = 'Betygssättning';
 $string['gradingchangessaved'] = 'Ändringar i betygssättning sparades';
-$string['gradingduedate'] = 'Påminn mig att bedöma uppgiften senast';
-$string['gradingduedate_help'] = 'Det datum då bedömning av inlämnat material förväntas vara slutfört. Detta datum används för att prioritera notifikationerna på lärarnas <em>Mitt Moodle</em>.';
+$string['gradingduedate'] = 'Påminn mig att betygsätta uppgiften senast';
+$string['gradingduedate_help'] = 'Det datum då bedömning av inlämnat material förväntas vara slutfört. Detta datum används för att prioritera notifikationerna på lärarnas <em>Översikt</em>.';
 $string['gradingdueduedatevalidation'] = '"Påminn mig om att betygsätta senast"-datum kan inte vara tidigare än förfallodatumet.';
-$string['gradingduefromdatevalidation'] = 'Datum för senaste bedömning kan inte ligga före tidigaste inlämningsdatum.';
+$string['gradingduefromdatevalidation'] = 'Datum för påminnelse om betygsättning kan inte ligga före tidigaste inlämningsdatum.';
 $string['gradingmethodpreview'] = 'Kriterium för betygssättning';
 $string['gradingoptions'] = 'Alternativ';
 $string['gradingstatus'] = 'Betygsättningsstatus';

@@ -81,6 +81,7 @@ $string['reportquiz_stats_own_percentage_correct_answers'] = 'نسبة إجاب�
 $string['reportquiz_stats_own_progress'] = 'التقدم الشخصي';
 $string['reportquiz_stats_own_question_attempts_correct'] = 'إجمالي إجاباتك الصحيحة';
 $string['reportquiz_stats_own_question_attempts_incorrect'] = 'إجمالي إجاباتك الخاطئة';
+$string['reportquiz_stats_own_questions_answered'] = 'إجمالي إجاباتك';
 $string['reportquiz_stats_title'] = 'الإحصائيات';
 $string['reportquiz_total_attempt'] = 'وقت تشغيل المستخدم للاختبار';
 $string['reportquiz_total_questions_right'] = 'إجمالي الإجابات الصحيحة';

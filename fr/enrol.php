@@ -166,5 +166,5 @@ $string['unlimitedduration'] = 'Illimité';
 $string['userremovedfromselectiona'] = 'L\'utilisateur « {$a} » a été retiré de la sélection.';
 $string['usersearch'] = 'Recherche';
 $string['withselectedusers'] = 'Pour les utilisateurs sélectionnés';
-$string['youenrolledincourse'] = 'Vous être inscrit au cours.';
+$string['youenrolledincourse'] = 'Vous êtes inscrit au cours.';
 $string['youunenrolledfromcourse'] = 'Vous êtes désinscrit du cours « {$a} ».';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['advanced'] = 'Avançado';
-$string['browserepositories'] = 'Procurar nos repositórios...';
+$string['browserepositories'] = 'Pesquisar nos repositórios...';
 $string['createlink'] = 'Criar hiperligação';
 $string['enterclass'] = 'Insira uma classe';
 $string['enterid'] = 'Insira um ID';

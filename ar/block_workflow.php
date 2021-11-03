@@ -36,6 +36,7 @@ $string['daysbefore'] = '{$a} يومن الأيام قبل';
 $string['defaultstepdescription'] = 'وصف لهذه الخطوة ينبغي وضعه هنا';
 $string['defaultworkflowdescription'] = 'وصف لسير العمل هذا';
 $string['description'] = 'الوصف';
+$string['editstepinstructions'] = 'بعض التوجيهات التي توضح الغرض من هذه الصفحة مع مقدمة عامة عنها. أذكر النصوص البرمجية، ولكن ملفات المساعدة الخاصة بها هي المفترض أن تعطي معلومات أكثر عن كيفية عملها.';
 $string['emailmessage_help'] = 'يمكن استعمال العناصر النائبة الآتية في سطر الموضوع ومتن الرسالة:
 
 * %%workflowname%% - اسم سير العمل.
@@ -65,10 +66,12 @@ $string['invalidmissingvalue'] = 'أمر غير صالح، القيمة مفقو
 $string['invalidobsoletesetting'] = 'تم تحديد قيمة قديمة غير صالحة. إعدادات القيمة هي 0 أو 1.';
 $string['invalidpermission'] = 'تم تحديد صلاحية خاطئة. الصلاحيات الصائبة هي وراثة، سماح، منع، حظر.';
 $string['invalidvisibilitysetting'] = 'تم تحديد خيار إظهار غير صحيح. الخيارات الصحيحة هي مرئي ومخفي. لقد اخترتَ {$a}.';
+$string['managedescription'] = 'في هذه الصفحة يمكنك إنشاء وتحرير مخططات سير العمل وقوالب البريد الالكتروني التي تستعملها.';
 $string['name'] = 'الاسم';
 $string['nameinuse'] = 'الاسم المحدد مستعمل سابقًا. لا بد للأسماء أن تكون فريدة';
 $string['nomorestepsleft'] = 'لقد تم إكمال مخطط سير العمل.';
 $string['notallowedtodothisstep'] = 'ليست لديك صلاحية إجراء تغييرات لهذه الخطوة في الوقت الحاضر';
+$string['noworkflow'] = 'ليس هناك حاليًا سير عمل مُعَيَّن إلى هذه الصفحة';
 $string['overviewtitle'] = 'استعراض سير عمل {$a->workflowname} في {$a->contexttitle}';
 $string['quizclosedate'] = 'تاريخ إغلاق الاختبار';
 $string['quizopendate'] = 'تاريخ فتح الاختبار';

@@ -317,7 +317,7 @@ $string['popupopen'] = 'افتح الحزمة في نافذة جديدة';
 $string['popupsblocked'] = 'يبدو أن النوافذ المنبثقة محظورة ، مما يؤدي إلى إيقاف تشغيل حزمة سكورم.
 يرجى التحقق من إعدادات المتصفح الخاص بك قبل المحاولة مرة أخرى.';
 $string['position_error'] = 'الـ {$a->tag} لا يمكن أن يكون علامة فرعية من  {$a->parent}';
-$string['preferencespage'] = 'تفضيلات لهذه الصفحة فقط';
+$string['preferencespage'] = 'التفضيلات لهذه الصفحة فقط';
 $string['preferencesuser'] = 'تفضيلات لهذا التقرير';
 $string['prev'] = 'السابق';
 $string['privacy:metadata:aicc:data'] = 'البيانات الشخصية التي تم تمريرها من خلال النظام الفرعي AICC/SCORM';

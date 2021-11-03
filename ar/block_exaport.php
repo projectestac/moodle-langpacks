@@ -34,6 +34,7 @@ $string['block_exaport_userquota_body'] = 'العدد الأقصى من البا
 $string['blockcontent'] = 'محتوى الكتلة';
 $string['blocktitle2'] = 'عنوان الكتلة';
 $string['category_up'] = 'عودة إلى التصنيف الأعلى رتبة';
+$string['chooselayout'] = 'حدد الكيفية التي تريد بها وضع الأعمدة في صفحتك.';
 $string['cofigureblock_cvinfo_withfiles'] = 'مع ملفات المرفقات';
 $string['cofigureblock_personalinfo'] = 'إختيار المعلومات الشخصية';
 $string['couldntinsertdesc'] = 'تعذر إدراج الوصف!';

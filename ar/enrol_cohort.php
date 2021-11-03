@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'أضف إلى المجموعة';
 $string['assignrole'] = 'تعيين الدور';
-$string['cohort:config'] = 'تهيئة عينات الأفواج';
+$string['cohort:config'] = 'تهيئة عينات الدفعات';
 $string['cohort:unenrol'] = 'إلغاء انضمام المستخدمين المعلقة حساباتهم';
 $string['creategroup'] = 'أنشئ مجموعة جديدة';
 $string['defaultgroupnametext'] = 'الدفعة {$a->name} {$a->increment}';

@@ -37,7 +37,7 @@ $string['managecohortroles'] = 'تعيين أدوار المستخدم للدف�
 $string['noassignableroles'] = 'لا توجد حالياً أدوار يمكن تعيينها في سياق المستخدم. <a href="../../roles/manage.php">إدارة الأدوار</a>';
 $string['nocohortroleassignmentssaved'] = 'لم يتم حفظ تعيينات دور الدفعة.';
 $string['onecohortroleassignmentsaved'] = 'تم حفظ تعيين دور واحد للدفعة.';
-$string['pluginname'] = 'إدارة أدوار الأفواج';
+$string['pluginname'] = 'إدارة أدوار الدفعات';
 $string['privacy:metadata:tool_cohortroles'] = 'تخزن إضافة إدارة أدوار الدفعة تعيينات أدوار الدفعة للمستخدم';
 $string['privacy:metadata:tool_cohortroles:cohortid'] = 'مُعرَّف الدفعة';
 $string['privacy:metadata:tool_cohortroles:id'] = 'مُعرَّف سجل تعيين دور الدفعة';
@@ -48,7 +48,7 @@ $string['privacy:metadata:tool_cohortroles:userid'] = 'مُعرَّف المست
 $string['privacy:metadata:tool_cohortroles:usermodified'] = 'مُعرَّف المستخدم الذي قام بآخر تعديل في تعيين دور الدفعة';
 $string['removecohortroleassignment'] = 'إزالة تعيين دور الدفعة';
 $string['removecohortroleassignmentconfirm'] = 'هل أنت متأكد من رغبتك في إزالة تعيين دور الدفعة هذا؟ ستتم إزالة هذا الدور لهذا المستخدم في جميع مقررات المستخدم الأخرى.';
-$string['selectcohorts'] = 'إختر الأفواج';
+$string['selectcohorts'] = 'إختر الدفعات';
 $string['selectrole'] = 'إختر الدور';
 $string['selectusers'] = 'حدد المستخدمين لتعيين الدور';
 $string['taskname'] = 'مزامنة تعيينات دور الدفعة';

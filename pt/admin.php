@@ -210,7 +210,7 @@ $string['configcustommenuitems'] = 'Aqui pode configurar um menu personalizado. 
 <pre>
 Disciplinas
 -Todas as disciplinas|/course/
--Procurar disciplina|/course/search.php
+-Pesquisar disciplina|/course/search.php
 -###
 -Desenvolvimento Moodle|https://moodle.org/development
 Moodle.com|http://moodle.com/
@@ -218,7 +218,7 @@ Moodle.com|http://moodle.com/
 $string['configcustomusermenuitems'] = 'Pode configurar os conteúdos do menu do utilizador (exceto a hiperligação de terminar sessão, que é automaticamente adicionada). Cada linha consiste em 1) um identificador de string no formato "langstringname, componentname" ou texto simples, 2) um URL, e 3) um ícone, seja um ícone pix (na pasta pix com a estrutura [subfoldername]/[iconname], por exemplo, i/publish) ou como um URL. Os elementos de cada linha são separados pelo caráter \'|\'. Podem ser usados separadores adicionando uma linha com um ou mais caracteres # onde desejado.';
 $string['configdbsessions'] = 'Se ativar esta opção, a base de dados será usada para guardar a informação sobre as sessões abertas. Tenha em atenção que alterando esta definição irá encerrar todas as sessões de todos os utilizadores (incluindo a sua). Se estiver a utilizar MySQL, certifique-se de que o parâmetro "max_allowed_packet" em my.cnf (ou my.ini) é 4M ou maior. Outros parâmetros podem ser configurados diretamente em config.php. Consulte \'config-dist.php\' para mais informações. Esta opção não estará disponível se especificar "session driver" no ficheiro config.php.';
 $string['configdebug'] = 'Se ativar esta opção, o nível de error_reporting do PHP é aumentado, fazendo com que mais avisos sejam apresentados. Isto só tem utilidade para programadores.';
-$string['configdebugdisplay'] = 'Se ativar esta opção, as mensagens de erro serão mostradas no HTML. Isto é prático, mas quebra os "HTTP Headers", "JavaScript", "cookies" e "XHTML". Se desativar esta opção, as mensagens de erro serão registadas nos logs do servidor, permitindo uma melhor análise de erros. A variável "error_log" do PHP controla para que log vai esta informação.';
+$string['configdebugdisplay'] = 'Se ativar esta opção, as mensagens de erro serão mostradas no HTML. Isto é prático, mas quebra os "HTTP Headers", "JavaScript", "cookies" e "XHTML". Se desativar esta opção, as mensagens de erro serão registadas nos logs do servidor, permitindo uma melhor análise dos erros. A variável "error_log" do PHP controla para que log vai esta informação.';
 $string['configdebugpageinfo'] = 'Se ativar esta opção, será mostrada informação da página no rodapé.';
 $string['configdebugvalidators'] = 'Ative esta configuração se pretender incluir hiperligações para servidores externos de validação no rodapé da página. Pode ser necessário criar uma nova conta de utilizador com o nome de utilizador <strong>w3cvalidator</strong> e disponibilizar o acesso a visitantes. Estas configurações podem permitir acessos não autorizados ao servidor, pelo que não deve ser ativada em sites em produção!';
 $string['configdefaulthomepage'] = 'Define a primeira hiperligação da página inicial para utilizadores autenticados';
@@ -677,7 +677,7 @@ $string['h5pgetcontenttypestask'] = 'Descarregar os tipos de conteúdo H5P dispo
 $string['helpadminseesall'] = 'No calendário do site, os administradores veem e filtram eventos de todos os calendários de disciplinas ou apenas das disciplinas em que estão inscritos? Independentemente da opção escolhida, os administradores poderão sempre gerir eventos do calendário de cada disciplina se acederem à disciplina e depois diretamente ao calendário.';
 $string['helpcalendarcustomexport'] = 'Ativar a opção de exportação de intervalo personalizado de datas nas exportações do calendário. Note que as exportações do calendário devem ser ativadas antes de definir esta opção.';
 $string['helpexportlookahead'] = 'Número de dias futuros a considerar';
-$string['helpexportlookback'] = 'Ao longo de quantos dias antecedentes deve o calendário procurar eventos durante a exportação para a opção de exportação personalizada?';
+$string['helpexportlookback'] = 'Ao longo de quantos dias antecedentes deve o calendário pesquisar eventos durante a exportação para a opção de exportação personalizada?';
 $string['helpforcetimezone'] = 'Esta configuração permite definir se os utilizadores podem escolher individualmente o seu fuso horário ou se este é definido ao nível do sistema para todos os utilizadores.';
 $string['helpshowicalsource'] = 'Se ativar esta opção, o nome da subscrição e respetiva hiperligação serão exibidas nos eventos iCal importados.';
 $string['helpsitemaintenance'] = 'Para atualizações e outras tarefas';
@@ -715,10 +715,11 @@ $string['ipblocked'] = 'Atualmente este site não está disponível.';
 $string['ipblocker'] = 'Restringir IPs';
 $string['ipblockersyntax'] = 'Coloque cada elemento numa linha separada. As entradas válidas são endereços de IP completos (tal como <b>192.168.10.1</b>) que corresponde a um único servidor; ou endereços parciais (tal como <b>192.168</b>) que corresponde a qualquer endereço que comece com aqueles números; ou um registo CIDR (tal como <b>231.54.211.0/20</b>); ou um intervalo de endereços IP (tal como <b>231.3.56.10-20</b>) em que o intervalo se aplica à última parte do endereço. Nomes de domínio de texto (tal como \'exemplo.com\') não são suportados. Linhas em branco e texto após o caráter "#" são ignorados.';
 $string['iplookup'] = 'Localização de endereço IP';
-$string['iplookupgeoplugin'] = '<a href="https://www.geoplugin.com">geoPlugin</a> é usado para procurar informação geográfica. Para obter resultados mais precisos recomenda-se a instalação de uma cópia local da base de dados GeoLite MaxMind.';
+$string['iplookupgeoplugin'] = '<a href="https://www.geoplugin.com">geoPlugin</a> é usado para pesquisar informação geográfica. Para obter resultados mais precisos recomenda-se a instalação de uma cópia local da base de dados GeoLite MaxMind.';
 $string['iplookupinfo'] = 'Por predefinição, o Moodle usa o servidor NetGeo (base de dados geográficos gratuita) para localizar endereços IP. Contudo, esta base de dados deixou de ser atualizada e poderá devolver dados <em>completamente incorretos</em>. É recomendada a instalação de uma cópia local da base de dados (gratuita) GeoLite2 City da MaxMind. <br />
 A localização dos endereços IP é apresentada num mapa simples ou através do Google Maps. Tenha em atenção que é necessário ter uma conta Google e obter uma chave gratuita para a API do Google Maps para ser possível ativar os mapas interativos.';
 $string['iplookupmaxmindnote'] = 'Este produto inclui dados do GeoLite2, criado pela MaxMind, disponível em <a href="https://www.maxmind.com/">http://www.maxmind.com/</a>.';
+$string['iscustomadminwarnings'] = 'Foi detetado que o seu site está a usar uma diretoria de administração personalizada. Esta funcionalidade já não é suportada e será removida após o Moodle 4.2.';
 $string['ishttpswarning'] = 'Foi detetado que o seu site não utiliza o protocolo de segurança HTTPS. É fortemente recomendado que migre o seu site para o protocolo HTTPS de modo a incrementar a segurança e melhorar a integração com outros sistemas.';
 $string['keeptagnamecase'] = 'Manter maiúsculas/minúsculas nas palavras-chave';
 $string['lang'] = 'Idioma predefinido';
@@ -883,7 +884,7 @@ $string['navadduserpostslinks_help'] = 'Se ativar esta opção, serão adicionad
 $string['navcourselimit'] = 'Número máximo de disciplinas';
 $string['navigationupgrade'] = 'Esta atualização cria dois novos blocos de navegação que substituem os seguintes: Administração, Disciplinas, Atividades e Participantes. Se tiverem sido definidas permissões específicas nestes blocos, deve ser verificado se o comportamento pretendido se mantém.';
 $string['navshowallcourses'] = 'Mostrar todas as disciplinas';
-$string['navshowcategories'] = 'Mostrar categorias das disciplinas';
+$string['navshowcategories'] = 'Mostrar categorias de disciplinas';
 $string['navshowfrontpagemods'] = 'Mostrar atividades da página principal na navegação';
 $string['navshowfrontpagemods_help'] = 'Se ativar esta opção, a atividade da página principal será exibida na navegação das Páginas do site';
 $string['navshowfullcoursenames'] = 'Mostrar nome completo das disciplinas';
@@ -1141,8 +1142,8 @@ $string['search'] = 'Pesquisar';
 $string['searchablecourses'] = 'Disciplinas pesquisáveis';
 $string['searchallavailablecourses'] = 'Disciplinas pesquisáveis';
 $string['searchallavailablecourses_desc'] = 'Em algumas situações, o mecanismo de busca pode não funcionar corretamente ao pesquisar num grande número de disciplinas. Defina para pesquisar apenas as disciplinas inscritas, se precisar de restringir o número de disciplinas a pesquisar.';
-$string['searchallavailablecourses_off'] = 'Procurar apenas nas disciplinas inscritas';
-$string['searchallavailablecourses_on'] = 'Procurar em todas as disciplinas que o utilizador pode aceder';
+$string['searchallavailablecourses_off'] = 'Pesquisar apenas nas disciplinas inscritas';
+$string['searchallavailablecourses_on'] = 'Pesquisar em todas as disciplinas que o utilizador pode aceder';
 $string['searchallavailablecoursesdesc'] = 'Se definido para pesquisar apenas em disciplinas inscritas, as informações da disciplina (nome e descrição) e o conteúdo da disciplina serão pesquisadas apenas nas disciplinas em que o utilizador está inscrito. Caso contrário, as informações da disciplina e o conteúdo da disciplina serão pesquisadas em todos as disciplinas que o utilizador pode aceder, como por exemplo, disciplinas com acesso de visitante ativo.';
 $string['searchalldeleted'] = 'Todos os conteúdos indexados foram apagados';
 $string['searchalternatesettings'] = 'Configurações alternativas da pesquisa apenas para consultas';
@@ -1414,7 +1415,7 @@ $string['unsupportedphpversion80'] = 'Versão 8.0 do PHP não é suportada.';
 $string['unsuspenduser'] = 'Ativar contas de utilizadores';
 $string['updateaccounts'] = 'Atualizar contas existentes';
 $string['updateautocheck'] = 'Verificar atualizações automaticamente';
-$string['updateautocheck_desc'] = 'Se ativar esta opção, o seu Moodle irá automaticamente procurar por atualizações para o código Moodle e para os módulos instalados. Se existirem   atualizações disponíveis, será enviada uma notificação ao administrador do site.';
+$string['updateautocheck_desc'] = 'Se ativar esta opção, o seu Moodle irá automaticamente pesquisar por atualizações para o código Moodle e para os módulos instalados. Se existirem atualizações disponíveis, será enviada uma notificação ao administrador do site.';
 $string['updateavailable'] = 'Está disponível uma versão mais recente do Moodle!';
 $string['updateavailable_moreinfo'] = 'Mais info…';
 $string['updateavailable_release'] = 'Moodle {$a}';
@@ -1429,7 +1430,7 @@ $string['updateavailablerecommendation'] = 'É altamente recomendado que atualiz
 $string['updatecomponent'] = 'Atualizar informação';
 $string['updateminmaturity'] = 'Maturidade exigida do código';
 $string['updateminmaturity_desc'] = 'Notificar a existência de atualizações disponíveis apenas se o código disponível tem, pelo menos, o nível de maturidade selecionado. As atualizações dos módulos que não especificam o seu nível de maturidade do código são sempre notificadas independentemente desta configuração.';
-$string['updatenotificationfooter'] = 'O seu site Moodle {$a->siteurl} está configurado para procurar automaticamente por atualizações disponíveis. Está a receber esta mensagem por ser o administrador do site. Pode desativar as verificações automáticas de atualizações disponíveis em "Administração do Site / Servidor / Notificação de atualizações" ou pode personalizar a entrega desta mensagem através da sua página de preferências.';
+$string['updatenotificationfooter'] = 'O seu site Moodle {$a->siteurl} está configurado para pesquisar automaticamente por atualizações disponíveis. Está a receber esta mensagem por ser o administrador do site. Pode desativar as verificações automáticas de atualizações disponíveis em "Administração do Site / Servidor / Notificação de atualizações" ou pode personalizar a entrega desta mensagem através da sua página de preferências.';
 $string['updatenotifications'] = 'Notificação de atualizações';
 $string['updatenotificationsubject'] = 'Existem atualizações disponíveis para o seu Moodle ({$a->siteurl})';
 $string['updatenotifybuilds'] = 'Notificar sobre novas \'builds\'';

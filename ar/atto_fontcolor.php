@@ -32,4 +32,4 @@ $string['color_red'] = 'أحمر';
 $string['color_white'] = 'أبيض';
 $string['color_yellow'] = 'أصفر';
 $string['pluginname'] = 'لون الخط';
-$string['privacy:metadata'] = 'إن ملحق atto_fontcolor لا يخزن أيّ بيانات شخصية.';
+$string['privacy:metadata'] = 'إن إضافة atto_fontcolor لا تخزن أيّ بيانات شخصية.';

@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['backtocourse'] = 'عودة إلى المقرر الدراسي';
+$string['cannotdeletelessontype'] = 'لا يمكنك حذف نوع الدرس هذا لأنه مستعمل في الجلسات أو الاختبارات';
 $string['durationvalidationerror'] = 'الفترة ينبغي أن تكون أكبر من الصفر.';
 $string['emaileditedsessionsubject'] = '{$a->sitename}: تم تحرير الجلسة في {$a->timestart}';
 $string['emailnewsessionsubject'] = '{$a->sitename}: جلسة جديدة في {$a->timestart}';

@@ -32,4 +32,4 @@ $string['color_red'] = 'أحمر';
 $string['color_white'] = 'أبيض';
 $string['color_yellow'] = 'أصفر';
 $string['pluginname'] = 'لون الخلفية';
-$string['privacy:metadata'] = 'إن ملحق atto_backcolor لا يخزن أي بيانات شخصية.';
+$string['privacy:metadata'] = 'إن إضافة atto_backcolor لا تخزن أي بيانات شخصية.';

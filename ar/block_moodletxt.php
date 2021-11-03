@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['adminaccountintropara1'] = 'هذه الصفحة تعرض تفاصيل عن مخدم ConnectTxt المستعمل من قبل moodletxt. لتمكين أو تعطيل الوصول الوارد/الصادر لحساب معين، إعثر على إدخال الحساب في الجدول أدناه، ثم انقر الأيقونة المناسبة. هذا من شأنه تبديل إمكانية الوصول حسبما هو مطلوب.';
 $string['admindescsendreceive'] = 'تستعمل هذه الإعدادات للتحكم بإرسال الرسائل واستلامها ضمن الكتلة، وكيفية تلقي التحديثات والرسائل الواردة.';
 $string['adminheadersendreceive'] = 'إعدادات الإرسال والإستقبال';
 $string['adminlabelaccdesc'] = 'وصف الحساب:';
@@ -40,6 +41,7 @@ $string['adminlabelsetxmlpass'] = 'كلمة مرور دفع XML:';
 $string['adminlabelshowinbound'] = 'إظهار أسماء/أرقام المصدر في صندوق الوارد (الافتراضي)';
 $string['adminselecteventsdisabled'] = 'مُعطل - لم يتم اختيار حساب نشط.';
 $string['adminselectrssexday'] = 'بعد 24 ساعة';
+$string['adminserverintropara1'] = 'هذه الصفحة تعرض تفاصيل عن مخدم ConnectTxt المستعمل من قبل moodletxt';
 $string['alertconfirmdeletemessages'] = 'هل أنت متأكد من رغبتك في حذف الرسائل المحددة؟';
 $string['alertnomessagesselected'] = 'لم تحدد أي رسائل.';
 $string['altsentmessages'] = 'إرسال الرسائل';

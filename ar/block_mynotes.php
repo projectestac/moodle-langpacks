@@ -33,6 +33,7 @@ $string['mynotes:myaddinstance'] = 'إضافة كتلة جديدة من ملاح
 $string['mynotes:post'] = 'إضافة ملاحظة جديدة';
 $string['mynotesperpage'] = 'لكل صفحة';
 $string['mynotesperpage_help'] = 'تحديد عدد ما يُعرض من ملاحظات لكل صفحة';
+$string['mynotessavedundertab'] = 'لهذه الصفحة، سيتم حفظ ملاحظاتك ضمن <strong>التبويب {$a}</strong>.';
 $string['nextpage'] = 'الصفحة التالية >>';
 $string['nopermissiontodelete'] = 'ليست لديك صلاحية حذف هذه الملاحظة';
 $string['previouspage'] = '<< الصفحة السابقة';

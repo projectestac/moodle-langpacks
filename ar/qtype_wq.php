@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['access_provider_enabled'] = 'سيطرة الوصول';
 $string['access_provider_enabled_help'] = 'عند التمكين، يمكن للمستخدمين المصادق عليهم فقط الوصول إلى خدمات Wiris.';
 $string['addingwq'] = 'تجري إضافة سؤال عام لاختبارات Wiris';
+$string['auxiliar_text'] = 'أكتب تحليلاً منطقياً إختياريًا لإجابتك:';
 $string['cachedef_images'] = 'صور اختبارات Wiris.';
 $string['cachedir'] = 'CACHE_DIR:';
 $string['connectionsettings'] = 'إعدادات الاتصال';

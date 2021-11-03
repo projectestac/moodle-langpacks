@@ -887,6 +887,7 @@ $string['scores'] = 'Scores';
 $string['search:activity'] = 'Test – information sur l\'activité';
 $string['sectionheadingedit'] = 'Modifier le titre « {$a} »';
 $string['sectionheadingremove'] = 'Supprimer le titre « {$a} »';
+$string['sectionnoname'] = 'Section sans titre';
 $string['seequestions'] = '(voir les questions)';
 $string['select'] = 'Sélectionner';
 $string['selectall'] = 'Tout sélectionner';

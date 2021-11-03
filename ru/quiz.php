@@ -889,6 +889,7 @@ $string['scores'] = 'Баллы';
 $string['search:activity'] = 'Тест — информация об элементе курса';
 $string['sectionheadingedit'] = 'Редактировать заголовок «{$a}»';
 $string['sectionheadingremove'] = 'Удалить заголовок «{$a}»';
+$string['sectionnoname'] = 'Без названия';
 $string['seequestions'] = '(См. вопросы)';
 $string['select'] = 'Выбор';
 $string['selectall'] = 'Выбрать все';

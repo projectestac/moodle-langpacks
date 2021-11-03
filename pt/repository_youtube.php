@@ -32,7 +32,7 @@ $string['information'] = 'Obter uma <a href="https://developers.google.com/youtu
 $string['pluginname'] = 'Vídeos do YouTube';
 $string['privacy:metadata:repository_youtube'] = 'O módulo repositório Youtube (vídeos) não armazena quaisquer dados pessoais, mas transmite dados do utilizador do Moodle para o sistema remoto.';
 $string['privacy:metadata:repository_youtube:searchtext'] = 'Pesquisa de texto no repositório Youtube do utilizador.';
-$string['search'] = 'Procurar vídeos';
+$string['search'] = 'Pesquisar vídeos';
 $string['sortby'] = 'Ordenar por';
 $string['sortpublished'] = 'Data de publicação';
 $string['sortrating'] = 'Nota';

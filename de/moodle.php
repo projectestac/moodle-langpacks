@@ -1525,6 +1525,7 @@ $string['numyears'] = '{$a} Jahre';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Aktuelles Kennwort';
 $string['olduserdirectory'] = 'Dies ist das <b>alte</b> Nutzerverzeichnis. Es wird nicht weiter verwendet. Die Dateien wurden in das <b>neue </b> Nutzerverzeichnis kopiert. Das alte Verzeichnis kann daher gelöscht werden, wenn der Kopiervorgang erfolgreich war.';
+$string['opensinnewwindow'] = 'In neuem Fenster öffnen';
 $string['optional'] = 'optional';
 $string['options'] = 'Optionen';
 $string['order'] = 'Reihenfolge';

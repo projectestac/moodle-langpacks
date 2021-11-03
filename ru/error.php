@@ -361,6 +361,7 @@ $string['invalidoutcome'] = 'Некорректный id показателя';
 $string['invalidpagesize'] = 'Неверный размер страницы';
 $string['invalidpasswordpolicy'] = 'Некорректная политика паролей';
 $string['invalidpaymentmethod'] = 'Неверный метод оплаты: {$a}';
+$string['invalidpersistenterror'] = 'Ошибка: {$a}';
 $string['invalidqueryparam'] = 'ОШИБКА: неверное количество параметров запроса. Ожидается {$a->expected}, получено {$a->actual}';
 $string['invalidratingarea'] = 'Неверная область рейтинга';
 $string['invalidrecord'] = 'Не удается найти данную запись в таблице {$a} базы данных.';

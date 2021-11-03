@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['accessdenied'] = 'عذرًا، ليست لديك صلاحية الوصول إلى هذه الصفحة.';
 $string['commentonby'] = 'تعليق على المشاركة <u>{$a->title}</u> {$a->date} من قبل <u>{$a->author}</u>';
 $string['commentonbyusers'] = 'التعليق <u>{$a->commenttitle}</u> على المشاركة <u>{$a->posttitle}</u> <br> من قبل <u>{$a->author}</u>';
 $string['deletedblogpost'] = 'مشاركة بلا عنوان.';

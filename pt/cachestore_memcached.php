@@ -30,7 +30,7 @@ $string['bufferwrites_help'] = 'Ativa ou desativa o buffer I/O. Ativar o buffer 
 $string['clustered'] = 'Ativar servidores em cluster';
 $string['clustered_help'] = 'Esta opção é usada para permitir a funcionalidade \'read-one, set-multi\'.
 
-A utilização pretendida consiste em melhorar o armazenamento para as configurações de balanceamento. O armazenamento irá procurar num servidor (normalmente localmente), mas definido para muitos (todos os servidores no load-balance pool). Para caches com uma leitura muito elevada que permitem definir rácios, isto reduz significativamente a sobrecarga na rede.
+A utilização pretendida consiste em melhorar o armazenamento para as configurações de balanceamento. O armazenamento irá pesquisar num servidor (normalmente o servidor local), mas definido para muitos (todos os servidores no load-balance pool). Para caches com uma leitura muito elevada que permitem definir rácios, isto reduz significativamente a sobrecarga na rede.
 
 Quando esta opção está ativada, a lista de servidores acima será usado para procurar.';
 $string['clusteredheader'] = 'Dividir servidores';

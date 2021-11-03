@@ -29,6 +29,7 @@ $string['activated_group'] = 'المجموعة المفعلة';
 $string['activated_groups'] = 'المجموعات المفعلة!';
 $string['alwaysshowdescription'] = 'إظهار الوصف دائمًا';
 $string['cfg_use_size'] = 'استعمل حجم المجموعة';
+$string['copy_refgrades_feedback'] = 'نسخ التقديرات المرجعية والإفادات للمجموعات المحددة لباقي أعضاء المجموعة';
 $string['createinsertgrouping'] = 'إضافة للتجميع';
 $string['deactivated_group'] = 'المجموعة المُعطَّلة';
 $string['deactivated_groups'] = 'المجموعات المُعطَّلة!';

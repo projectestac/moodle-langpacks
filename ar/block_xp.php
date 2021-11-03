@@ -37,6 +37,7 @@ $string['enablelevelupnotif_help'] = 'عند ضبطه على \'نعم\'، سيت
 $string['enablexpgain_help'] = 'عند جعله \'لا\'، لن يحصل أحد على نقاط في المساق. هذا مفيد لتجميد الحصصول على النقاط، أو لتمكينها في وقت معين.
 
 يرجى ملاحظة أن ذلك يمكن التحكم به على مستوى أدق باستعمال الإمكانية _block/xp:earnxp_.';
+$string['errorcontextcoursemismatchforwholesite'] = 'إن رابط صفحة <em>الترقي!</em> هذه لا تتوافق مع التهيئة الحالية للملحق. التهيئة الحالية عندك تعلن بأن <em>الترقي!</em> يُستعمل \'لكل الموقع\'، ولكن هذه الصفحة تتوقع استعماله \'حسب المساق\'. يرجى <a href="{$a->nexturl}">النقر هنا</a> للانتقال إلى الصفحة الصحيحة. إبحث عن الإعداد \'block_xp_context\' إذا أردت تغيير التهيئة الخاصة بك.';
 $string['errorcontextcoursemismatchpercourse'] = 'إن رابط صفحة <em>الترقي!</em> هذه لا تتوافق مع التهيئة الحالية للملحق. التهيئة الحالية عندك تعلن بأن <em>الترقي!</em> يُستعمل \'لكل مقرر\'، ولكن هذه الصفحة تتوقع استعماله على مستوى \'كل الموقع\'. هذا غالباً منشؤه <em>كتلة</em> أضيفت إلى لوحة التحكم أو صفحة الواجهة في أثناء تهيئة مختلفة. ينبغي عليك إزالة الكتلة من الصفحات اللاحقة، واستعمالها من داخل المقررات الدراسية الفردية فقط.';
 $string['errorformvalues'] = 'هناك بعض الأخطاء في قِيَم النموذج، يرجى إصلاحها.';
 $string['errorunknownevent'] = 'خطأ: حدث مجهول';
@@ -45,6 +46,15 @@ $string['eventis'] = 'الحدث هو {$a}';
 $string['eventname'] = 'اسم الحدث';
 $string['eventproperty'] = 'خاصية الحدث';
 $string['eventsrules'] = 'قواعد الحدث';
+$string['eventsrules_help'] = 'هذا الملحق يستعمل الأحداث لمنح النقاط سمة الإجراءات التي على الطلاب القيام بها.
+يمكنك استعمال النموذج أدناه لإضافة القواعد الخاصة بك وتعديل القواعد الافتراضية.
+
+من الموصى به مراجعة صفحة وقوعات الملحق _Log_ page لمعرفة أيّ الأحداث تم تحفيزها عندما يقوم الطلاب بإجراءات في المساق.
+
+موارد إضافية:
+
+- [كيفية احتساب نقاط الخبرة](https://levelup.plus/docs/article/how-are-experience-points-calculated?ref=blockxp_help)
+- [قواعد تشخيص المشاكل](https://levelup.plus/docs/article/event-rule-not-working?ref=blockxp_help)';
 $string['eventtime'] = 'وقت الحدث';
 $string['for1day'] = 'ليوم واحد';
 $string['for3days'] = 'لثلاثة أيام';
@@ -59,6 +69,7 @@ $string['nologsrecordedyet'] = 'لم يتم توثيق سجلات الوقوعا
 $string['participant'] = 'المشارك';
 $string['perpagecolon'] = 'لكل صفحة:';
 $string['privacy:metadata:log:eventname'] = 'اسم الحدث';
+$string['privacy:metadata:prefladderpagesize'] = 'حجم الصفحة المفضل للمستخدم عند معاينة السُّلم';
 $string['privacy:path:logs'] = 'سجلات الوقوعات';
 $string['property:eventname'] = 'اسم الحدث';
 $string['ruleevent'] = 'حدث مُعيَّن';

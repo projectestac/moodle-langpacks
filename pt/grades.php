@@ -521,7 +521,7 @@ Se definir esta configuração como \'Sim\', quaisquer notas existentes já reaj
 
 Por exemplo, se esta configuração for definida como \'Sim\', ao mudar a nota máxima de um item de 10 para 20, isto levaria a que uma nota de 6/10 (60%) fosse ajustada para 12/20 (60%). Se esta configuração for definida como \'Não\', a nota permanecerá inalterada, o que requer um ajuste manual dos itens de avaliação para garantir pontuações corretas.';
 $string['modgradedonotmodify'] = 'Não modificar as notas existentes';
-$string['modgradeerrorbadpoint'] = 'Valor da nota inválido. Deverá indicar um número inteiro entre 1 e {$a}';
+$string['modgradeerrorbadpoint'] = 'Valor da nota inválido. Tem de indicar um número inteiro entre 1 e {$a}';
 $string['modgradeerrorbadscale'] = 'Escala selecionada inválida. Por favor, certifique-se de que seleciona uma escala a partir da seleção abaixo.';
 $string['modgrademaxgrade'] = 'Nota máxima';
 $string['modgraderescalegrades'] = 'Reajustar notas existentes';

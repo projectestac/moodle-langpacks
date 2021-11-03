@@ -79,7 +79,7 @@ $string['address'] = 'العنوان';
 $string['addsections'] = 'أضف شُعباَ';
 $string['addstudent'] = 'أضف طالباً';
 $string['addsubcategory'] = 'إضافة فئة فرعية';
-$string['addteacher'] = 'أضف مدرساً';
+$string['addteacher'] = 'إضافة معلم';
 $string['admin'] = 'مشرف';
 $string['adminhelpaddnewuser'] = 'لإنشاء حساب مستخدم جديد يدويًا';
 $string['adminhelpassignadmins'] = 'المشرفين بإمكانهم فعل كل شيء والتجول في كل مكان على الموقع';
@@ -442,7 +442,7 @@ $string['coursesummary_help'] = 'ملخص المقرر يتم عرضه في قا
 $string['coursetitle'] = 'المقرر: {$a->course}';
 $string['courseupdates'] = 'تحديثات المقررات الدراسية';
 $string['coursevisibility'] = 'إظهار المقرر الدراسي';
-$string['coursevisibility_help'] = 'هذا الإعداد يحدد ما إذا كان المقرر سيظهر في قائمة المقررات الدراسية وما إذا كان الطلاب يمكنهم الوصول إليها. إذا تم اختيار إخفاء المقرر، فسوف يقتصر الوصول إلى المقرر على المستخدمين الذين لديهم القدرة على استعراض المقررات الدراسية المخفية (مثل المدرسين).';
+$string['coursevisibility_help'] = 'هذا الإعداد يحدد ما إذا كان المقرر سيظهر في قائمة المقررات الدراسية وما إذا كان الطلاب يمكنهم الوصول إليها. إذا تم اختيار إخفاء المقرر، فسيقتصر الوصول إليه على المستخدمين الذين لديهم إمكانية معاينة المقررات الدراسية المخفية (مثل المعلمين).';
 $string['create'] = 'إنشاء';
 $string['createaccount'] = 'إنشاء حساب مشترك الجديد';
 $string['createcategory'] = 'إنشاء التصنيف';
@@ -1383,11 +1383,11 @@ $string['newcourse'] = 'مقرر دراسي جديد';
 $string['newpassword'] = 'كلمة المرور الجديدة';
 $string['newpassword_help'] = '.أدخل كلمة مرور جديدة أو اترك الحقل فارغاً للحفاظ على كلمة المرور الحالية';
 $string['newpasswordfromlost'] = 'مُلاحظة:</strong> سيتم أرسال <strong> كلمة مرورك الحالية</strong> ضمن رسالتين البريد الإلكتروني الخاصة بمعالجة إسترجاع كلمات المرور. تأكد من أستلام كلمة مررورك الجديدة قبل الإِسْتِمْرار بهذه الشاشة.';
-$string['newpasswordtext'] = 'مرحبا {$a->firstname},
+$string['newpasswordtext'] = 'مرحبًا {$a->firstname}،
 
-تم إعادة ضبط كلمة المرور الخاصة باشتراكك وتم تخصيص كلمة مرور جديدة مؤقتة.
+تم إعادة ضبط كلمة المرور الخاصة باشتراكك وتم تخصيص كلمة مرور جديدة مؤقتة لك.
 
-معلومات الدخول الحالية الخاصة بك الآن:
+معلومات الدخول الحالية الخاصة بك هي:
 
 اسم المستخدم: {$a->username}
 كلمة المرور: {$a->newpassword}
@@ -1396,11 +1396,10 @@ $string['newpasswordtext'] = 'مرحبا {$a->firstname},
  {$a->link}
 
 في معظم برامج البريد، ينبغي أن يظهر هذا كرابط أزرق اللون
-يمكنك النقر عليه. إذا لم ذلك متأتِّياً، قم بنسخ العنوان ولصقه
+يمكنك النقر عليه. إذا لم يكن ذلك متأتِّياً، قم بنسخ العنوان ولصقه
 في شريط العنوان أعلى نافذة المتصفح.
 
-تحيات من مدير \'{$a->sitename}\'،
-
+تقبل تحيات مدير \'{$a->sitename}\'،
 {$a->signoff}';
 $string['newpicture'] = 'صورة شخصية جديدة';
 $string['newpicture_help'] = 'لإضافة صورة جديدة، استعرض واختر صورةً (بصيغة JPG أو PNG) ثم انقر "تحديث الملف الشخصي". الصورة سَتُقْصُّ إلى  مربّع بحجم 100 × 100 بكسل.';
@@ -1529,6 +1528,7 @@ $string['numyears'] = '{$a} سنوات';
 $string['ok'] = 'تم';
 $string['oldpassword'] = 'كلمة المرور الحالية';
 $string['olduserdirectory'] = 'هذا دليلُ المستخدمين القديمِ، ولَمْ يَعُدْ مطلوب. تستطيع أنْ تَحْذفُه بسلامة. لقد نُسِختْ الملفات التي كان يحتويها إلى دليلِ المستخدمين جديدِ.';
+$string['opensinnewwindow'] = 'يُفتح بنافذة جديدة';
 $string['optional'] = 'اختياري';
 $string['options'] = 'خيارات';
 $string['order'] = 'ترتيب';
@@ -2274,10 +2274,10 @@ $string['wordforstudent'] = 'يشار إلى الطالب بكلمة';
 $string['wordforstudenteg'] = 'مثلا: الطالب، المشترك، الدارس، إلخ';
 $string['wordforstudents'] = 'يشار إلى الطلاب بكلمة';
 $string['wordforstudentseg'] = 'مثلا: الطلاب، المشاركون، الدارسون، إلخ';
-$string['wordforteacher'] = 'يشار إلى المدرس بكلمة';
-$string['wordforteachereg'] = 'مثلا: المدرس، المحاضر، المعلم، إلخ';
-$string['wordforteachers'] = 'يشار إلى المعلمين';
-$string['wordforteacherseg'] = 'مثلا: المدرسون، المحاضرون، المعلمون، إلخ';
+$string['wordforteacher'] = 'يشار إلى المعلم بكلمة';
+$string['wordforteachereg'] = 'مثلاً: المدرس، المحاضر، المعلم، إلخ';
+$string['wordforteachers'] = 'يشار إلى المعلمين بكلمة';
+$string['wordforteacherseg'] = 'مثلاً: المدرسون، المحاضرون، المعلمون، إلخ';
 $string['writingblogsinfo'] = 'أكتب معلومات المدونة';
 $string['writingcategoriesandquestions'] = 'القيام بكتابة الأصناف والاسئله';
 $string['writingcoursedata'] = 'القيام بكتابة معلومات المقرر الدراسي';
@@ -2308,5 +2308,5 @@ $string['youneedtoenrol'] = 'للقيام بهذا العمل يجب أن تكو
 $string['yourlastlogin'] = 'آخر دخول لك كان';
 $string['yourself'] = 'أنت نفسك';
 $string['yourteacher'] = 'صلته بك {$a}';
-$string['yourwordforx'] = 'تسميتك الخاصة لـ \'{$a}\'';
+$string['yourwordforx'] = 'يشار إلى \'{$a}\' بكلمة';
 $string['zippingbackup'] = 'ضغط النسخة الاحتياطيه';

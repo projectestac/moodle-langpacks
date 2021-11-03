@@ -733,6 +733,7 @@ $string['iplookupinfo'] = 'Modu lehenetsian, Moodlek NetGeo (The Internet Geogra
 Gomendagarria da doako GeoLite2 City datu-basearen kopia lokala instalatzea MaxMind-etik.<br />
 IP helbideen kokapena mapa erraz batean edo Google Maps erabilita erakusten da. Mesedez, ohartu mapa interaktiboak gaitzeko Google kontua behar duzula eta Google Maps API giltza doan eskatu.';
 $string['iplookupmaxmindnote'] = 'Produktu honek MaxMind-ek sortutako GeoLite2 datuak barne ditu eta hemendik eskura daitezke: <a href="https://www.maxmind.com/">https://www.maxmind.com/</a>.';
+$string['iscustomadminwarnings'] = 'Zure gunean admin direktorio pertsonalizatua erabiltzen duela antzeman da. Funtzionalitate hau dagoeneko ez da onartzen eta Moodle 4.2 bertsioan kenduko da.';
 $string['ishttpswarning'] = 'Zure gunea HTTPS erabiliz babesturik ez dagoela antzeman dugu. Zure gunea HTTPS erabiltzeko migratzea irmoki gomendatzen da segurtasuna eta beste sistemekiko integrazioak hobetzeko.';
 $string['keeptagnamecase'] = 'Mantendu etiketen izenen jatorrizko \'casing\'-a';
 $string['lang'] = 'Lehenetsitako hizkuntza';

@@ -89,6 +89,7 @@ $string['minteamsize'] = 'الحجم الأدنى للفريق';
 $string['minteamsize_error_form'] = 'ينبغي عليك تحديد {$a} من أعضاء الفريق على الأقل!';
 $string['newvalue'] = 'القيمة الجديدة';
 $string['newvalueallow'] = 'السماح بالقيم الجديدة';
+$string['noaccess'] = 'ليست لديك صلاحية الوصول إلى هذه الصفحة';
 $string['nopermission'] = 'ليست لديك صلاحية معاينة مُدخلات معينة.';
 $string['optionaldescription'] = 'وصف مختصر (اختياري)';
 $string['page-mod-datalynx-x'] = 'أي صفحة لوحدة نشاط datalynx';

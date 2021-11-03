@@ -1509,6 +1509,7 @@ $string['numyears'] = '{$a} jaren';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Huidig wachtwoord';
 $string['olduserdirectory'] = 'Dit is de OUDE gebruikersmap. Deze is niet meer nodig. Je mag hem veilig verwijderen. De bestanden zijn naar de nieuwe gebruikersmap gekopiëerd.';
+$string['opensinnewwindow'] = 'Opent in nieuw venster';
 $string['optional'] = 'niet verplicht';
 $string['options'] = 'opties';
 $string['order'] = 'Volgorde';

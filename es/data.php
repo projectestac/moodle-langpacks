@@ -281,7 +281,7 @@ $string['menuchoose'] = 'Seleccionar...';
 $string['missingdata'] = 'Debe suministrarse la ID de los datos o del objeto a la clase de campo';
 $string['missingfield'] = 'Error del programador: Debe especificar el campo y/o los datos al definir la clase de campo.';
 $string['modulename'] = 'Base de datos';
-$string['modulename_help'] = 'El módulo de actividad de base de datos permite a los participantes crear, mantener y buscar información en un repositorio de registros. La estructura de las entradas la define el profesor según una lista de campos. Los tipos de campo incluyen casilla de verificación, botones de radio, menú desplegable, área de texto, URL, imagen y archivo cargado.
+$string['modulename_help'] = 'El módulo de actividad de base de datos permite a los participantes crear, mantener y buscar información en un repositorio de registros. La estructura de las entradas la define el profesor según una lista de campos. Los tipos de campo incluyen casilla de verificación, botones de opción, menú desplegable, área de texto, URL, imagen y archivo cargado.
 
 La presentación visual de la información al listar, ver o editar las entradas de la base de datos se controla mediante plantillas de base de datos. Las actividades de base de datos pueden ser compartidos entre los cursos como opción preestablecida de manera que un profesor también puede importar y exportar las entradas de base de datos.
 
@@ -359,7 +359,7 @@ $string['privacy:metadata:datafieldnpluginsummary'] = 'Campos para el módulo de
 $string['privacy:metadata:filepurpose'] = 'Fichero adjunto al registro de base de datos';
 $string['privacy:metadata:ratingpurpose'] = 'Calificaciones en registros de base de datos';
 $string['privacy:metadata:tagpurpose'] = 'Etiquetas en registros de base de datos';
-$string['radiobutton'] = 'Botones de radio';
+$string['radiobutton'] = 'Botones de opción';
 $string['recordapproved'] = 'Entrada aprobada';
 $string['recorddeleted'] = 'Entrada eliminada';
 $string['recorddisapproved'] = 'Entrada desaprobada';

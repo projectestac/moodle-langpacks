@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['account_number_desc'] = 'مُعرَّف حسابك في Cvent. (ينبغي أن تتلقى هذه القيمة من Cvent).';
 $string['autocreate_courses_desc'] = 'يمكن إنشاء المساقات تلقائياً (بأرقام المُعرَّفات الصحيحة) إن كانت هناك انضمامات إلى مساق غير موجود بعد في مودل.';
+$string['clicktoseelogafter'] = 'أنقر هنا لمشاهدة طلبات واجهة برمجة التطبيق بعد انتهاء تحميل هذه الصفحة.';
 $string['enrol_daysafter'] = 'الوصول الموسع للمقرر';
 $string['enrol_daysbefore'] = 'الوصول المبكر للمقرر';
 $string['headingcallsremaining'] = 'الاستدعاءات الباقية لواجهة برمجة التطبيق (عند الفحص الأخير)';

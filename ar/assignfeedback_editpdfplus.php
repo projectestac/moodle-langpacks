@@ -43,6 +43,7 @@ $string['delete_model_question'] = 'هل تريد حذف هذا النموذج؟
 $string['deletefeedback'] = 'حذف PDF الإفادة';
 $string['downloadablefilename'] = 'الإفادة.pdf';
 $string['downloadfeedback'] = 'تنزيل الإفادة بصيغة PDF';
+$string['errorpdfpage'] = 'وقع خطأ عند توليد هذه الصفحة.';
 $string['feedback_configuration'] = 'الإفادة: التهيئة';
 $string['generatefeedback'] = 'توليد الإفادة بصيغة PDF';
 $string['gotopage'] = 'إذهب إلى صفحة';

@@ -603,7 +603,7 @@ Para arranxar as preguntas nun número de páxinas, faga clic sobre o botón Rep
 $string['orderingquiz'] = 'Ordenación de paxinación';
 $string['orderingquizx'] = 'Ordenar e paxinar: {$a}';
 $string['outcomesadvanced'] = 'Os resultados son axustes avanzados';
-$string['outof'] = '{$a->grade} alén dun máximo de {$a->maxgrade}';
+$string['outof'] = '{$a->grade} de {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} sobre {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Realimentación total';
