@@ -84,7 +84,6 @@ $string['or'] = 'ou ';
 $string['pluginname'] = 'MathType por WIRIS';
 $string['pluginperformance'] = 'Modo de desempenho da imagem';
 $string['pluginperformance_help'] = 'Especifica se a resposta deve ser JSON em vez de um binário que permite que os pedidos sejam armazenados em cache. Ative o desempenho para usar a resposta JSON.';
-$string['privacy:null_reason'] = 'O filtro MathType por WIRIS não afeta nem armazena dados em si.';
 $string['rendertype'] = 'Tipo de renderização';
 $string['rendertype_help'] = 'Especifica como renderizar as fórmulas.<br>- PHP: o serviço de renderização Wiris é chamado a partir do módulo de filtro.<br>- Cliente: todas as solicitações aos servidores Wiris são feitas a partir do navegador.<br><i>É altamente recomendado deixar a renderização do lado do servidor ativada (PHP), que é definida por predefinição. Só é recomendado ativar a renderização do lado do cliente (Cliente) em ambientes de alta simultaneidade, onde um grande número de utilizadores simultâneos precisa representar várias expressões matemáticas complexas simultaneamente</i>.';
 $string['securitysettings'] = 'Configurações de segurança';

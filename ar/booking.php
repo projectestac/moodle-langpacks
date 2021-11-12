@@ -322,6 +322,7 @@ $string['notifyemaildefaultmessage'] = 'تم تسجيل حجزك
 المساق ذو الصلة يمكن العثور عليه هنا: {$a->courselink}';
 $string['optiondatesmessage'] = 'الجلسة {$a->number}: {$a->date} <br> من: {$a->starttime} <br> إلى: {$a->endtime}';
 $string['otherbookingaddrule'] = 'إضافة قاعدة جديدة';
+$string['pdfroom'] = 'الغرفة:';
 $string['pdfstudentname'] = 'اسم الطالب';
 $string['pdftodaydate'] = 'التاريخ:';
 $string['pollurl_help'] = 'يمكنك استعمال ما تشاء من العناصر النائبة الآتية في النص:

@@ -96,6 +96,7 @@ $string['confirmloosetracks'] = 'Avís: sembla que s\'hagi canviat o modificat e
 $string['contents'] = 'Continguts';
 $string['coursepacket'] = 'Paquet de curs';
 $string['coursestruct'] = 'Estructura del curs';
+$string['crontask'] = 'Processament en segon pla del mòdul SCORM';
 $string['currentwindow'] = 'Finestra actual';
 $string['datadir'] = 'S\'ha produït un error del sistema de fitxers: no s\'ha pogut crear el directori de dades del curs';
 $string['defaultdisplaysettings'] = 'Configuració de pantalla predeterminada';

@@ -102,12 +102,12 @@ $string['limitanswers'] = 'Mugatu baimendutako erantzun kopurua';
 $string['limitanswers_help'] = 'Ezarpen honek talde bakoitza hautatu dezakeen partaide kopurua mugatzeko aukera ematen du. Mugara iristen denean inork gehiagok ezingo du aukera hori hautatu.
 
 Mugak desgaituta badaude aukera bakoitza nahi beste partaidek aukeratu dezakete.';
-$string['maxenrollments'] = 'Gehienezko matrikulazioak';
+$string['maxenrollments'] = 'Gehieneko matrikulazioak';
 $string['maxenrollments_help'] = 'Aukera honek partaide bakoitzaren talde kopurua mugatzea ahalbidetzen du. Mugarik ez jartzeko **0** balio lehenetsia erabili ezazu.';
 $string['members/'] = 'Kideak';
 $string['members/max'] = 'Kideka / Muga';
 $string['modulename'] = 'Talde-aukeraketa';
-$string['modulename_help'] = 'Talde-aukeraketa moduluak ikasleei euren ikastaro barruko taldea hautatzeko aukera ematen du. Irakasleak ikasleek aukeratu dezaketen taldeen zerrenda eta talde bakoitzeko gehienezko kide kopurua zehaztu dezake.';
+$string['modulename_help'] = 'Talde-aukeraketa moduluak ikasleei euren ikastaro barruko taldea hautatzeko aukera ematen du. Irakasleak ikasleek aukeratu dezaketen taldeen zerrenda eta talde bakoitzeko gehieneko kide kopurua zehaztu dezake.';
 $string['modulenameplural'] = 'Talde-aukeraketak';
 $string['moveselectedusersto'] = 'Mugitu aukeratutako erabiltzaileak hona...';
 $string['multipleenrollmentspossible'] = 'Baimendu hainbat taldetan matrikulatzea';

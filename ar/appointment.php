@@ -45,6 +45,7 @@ $string['deletetimeframe'] = 'حذف الإطار الزمني';
 $string['endtime'] = 'وقت الإنهاء';
 $string['error:cancellationsnotallowed'] = 'ليس مسموحًا لك بإلغاء هذا التسجيل.';
 $string['error:cannotconfigurecustomfields'] = 'ليس مسموحًا لك بتعريف الحقول المخصصة.';
+$string['error:emptyvenue'] = 'كان المكان فارغًا.';
 $string['error:eventoccurred'] = 'لا يمكنك إلغاء حدث وقع بالفعل.';
 $string['error:nopermissiontosignup'] = 'ليست لديك صلاحية الاشتراك في جلسة الموعد هذه.';
 $string['error:sessionsplitexceeds'] = 'وقت تقسيم الجلسة يتجاوز مدتها.';
@@ -82,6 +83,7 @@ $string['location_help'] = '**الموقع** يصف أرجاء الجلسة (ا�
 
 في صفحة \'معاينة كل الجلسات\'، يمكن ترشيح الجلسات المعروضة حسب الموقع.';
 $string['partiallyfull'] = 'مكتمل جزئياً';
+$string['place'] = 'الغرفة';
 $string['placeholder:finishtime'] = '[وقت الإنهاء]';
 $string['placeholder:starttime'] = '[وقت البدء]';
 $string['pluginname'] = 'الموعد';
@@ -101,6 +103,7 @@ $string['privacy:metadata:roleid'] = 'مُعرَّف دور المستخدم';
 $string['privacy:metadata:userid'] = 'مُعرَّف المستخدم الذي دخل إلى نشاط الموعد';
 $string['remindermessage_help'] = 'تُرسل هذه الرسالة قبل تاريخ بدء الجلسة بأيام قليلة.';
 $string['reminderperiod'] = 'الأيام قبل إرسال الرسالة';
+$string['room'] = 'الغرفة';
 $string['sessiondatetime'] = 'تاريخ/وقت الجلسة';
 $string['sessiondescription'] = 'الوصف';
 $string['sessionfinishtime'] = 'وقت انتهاء الجلسة';
@@ -112,9 +115,84 @@ $string['sessionstartdateandtimewithouttimezone'] = '{$a->startdate}، {$a->star
 $string['sessionstartfinishdateandtime'] = '{$a->startdate} - {$a->enddate}، {$a->starttime} - {$a->endtime} (المنطقة الزمنية: {$a->timezone})';
 $string['sessionstartfinishdateandtimewithouttimezone'] = '{$a->startdate} - {$a->enddate}، {$a->starttime} - {$a->endtime}';
 $string['sessionstarttime'] = 'وقت بدء الجلسة';
+$string['sessionvenue'] = 'مكان الجلسة';
+$string['setting:defaultcancellationmessagedefault'] = 'هذا إبلاغ لك بأن حجزك في الموعد أدناه قد ألغي:<br><br>
+***الحجز أُلغي***<br><br>
+المشارك:   [firstname] [lastname]<br>
+الموعد:   [appointmentname]<br><br>
+التاريخ/التواريخ:<br>
+[alldates]<br><br>
+الموقع:   [session:location]<br>
+المكان:   [session:venue]<br>
+الغرفة:   [session:room]';
+$string['setting:defaultconfirmationmessagedefault'] = 'هذا تأكيد بأنك قد حجزت في الموعد أدناه:<br><br>
+المشارك:   [firstname] [lastname]<br>
+الموعد:   [appointmentname]<br><br>
+التاريخ/التواريخ:<br>
+[alldates]<br><br>
+الموقع:   [session:location]<br>
+المكان:   [session:venue]<br>
+الغرفة:   [session:room]
+***يرجى حضورك قبل بدء الموعد بعشر دقائق***<br><br>
+لإعادة جدولة حجزك أو إلغائه<br>
+لإعادة جدولة حجزك عليك إلغاء هذا الحجز ومن ثم الحجز في جلسة جديدة أخرى.<br>
+لإلغاء حجزك، عُد إلى صفحة الموعد ومن ثم اختر \'إلغاء\'.<br><br>
+[details]<br><br>
+ستتلقى تذكيرًا قبل [reminderperiod] أيام عمل من هذا الموعد.<br><br>';
 $string['setting:defaultconfirmationsubjectdefault'] = 'تأكيد حجز الموعد: [appointmentname]، [starttime]-[finishtime]، [sessiondate]';
+$string['setting:defaultremindermessagedefault'] = 'هذا تذكير بأنك قد حجزت في الموعد أدناه:<br><br>
+المشارك:   [firstname] [lastname]<br>
+الموعد:   [appointmentname]<br><br>
+التاريخ/التواريخ:<br>
+[alldates]<br><br>
+الموقع:   [session:location]<br>
+المكان:   [session:venue]<br>
+الغرفة:   [session:room]
+***يرجى حضورك قبل بدء الموعد بعشر دقائق***<br><br>
+لإعادة جدولة حجزك أو إلغائه<br>
+لإعادة جدولة حجزك عليك إلغاء هذا الحجز ومن ثم الحجز في جلسة جديدة أخرى.<br>
+لإلغاء حجزك، عُد إلى صفحة الموعد ومن ثم اختر \'إلغاء\'.<br><br>
+[details]';
 $string['setting:defaultremindersubjectdefault'] = 'تذكير حجز الموعد: [appointmentname]، [starttime]-[finishtime]، [sessiondate]';
+$string['setting:defaultrequestinstrmngrdefault'] = 'هذا تبليغ بأن [firstname] [lastname] قد طلب الحجز في الموعد أدناه، وبأنك مُدرج بمثابة قائد الفريق / المدير.
+
+الموعد:   [appointmentname]
+
+التاريخ/التواريخ:
+[alldates]
+
+الموقع:   [session:location]
+المكان:   [session:venue]
+الغرفة:   [session:room]
+
+يرجى اتباع الرابط أدناه للموافقة على الطلب:
+[attendeeslink]#unapproved
+
+
+*** طلب الحجز المقدم من قبل [firstname] [lastname] مبين أدناه ****';
+$string['setting:defaultrequestmessagedefault'] = 'لقد تم إرسال طلبك للحجز في الموعد أدناه إلى مديرك:
+
+المشارك:   [firstname] [lastname]
+الموعد:   [appointmentname]
+
+التاريخ/التواريخ:
+[alldates]
+
+الموقع:   [session:location]
+المكان:   [session:venue]
+الغرفة:   [session:room]';
 $string['setting:defaultrequestsubjectdefault'] = 'طلب حجز الموعد: [appointmentname]، [starttime]-[finishtime]';
+$string['setting:defaultupdatemessagedefault'] = 'هذا تبليغ لك بأن الموعد الذي حجزته أو انضممت إلى قائمة انتظاره قد تغير:<br><br>
+المشارك:   [firstname] [lastname]<br>
+الموعد:   [appointmentname]<br><br>
+التاريخ/التواريخ:<br>
+[alldates]<br><br>
+الموقع:   [session:location]<br>
+المكان:   [session:venue]<br>
+الغرفة:   [session:room]
+***يرجى ملاحظة بأن هذا التبليغ لا يُعد تأكيدًا لحجز الموعد***<br><br>
+لإعادة حجزك أو موضعك في قائمة الانتظار، عُد إلى صفحة الموعد ومن ثم اختر \'إلغاء\'.<br><br>
+[details]<br><br>';
 $string['setting:defaultvalue'] = 'القيمة الافتراضية';
 $string['setting:oneemailperday_caption'] = 'رسالة واحدة في اليوم:';
 $string['setting:possiblevalues'] = 'قائمة القيم الممكنة';
@@ -136,3 +214,7 @@ $string['timestart'] = 'وقت البدء';
 $string['timestart_help'] = 'وقت البدء هو الوقت الذي بدأت فيه الجلسة.';
 $string['unknowntime'] = '(وقت مجهول)';
 $string['upgradeprocessinggrades'] = 'تجري معالجة درجات المواعيد، هذا قد يستغرق وقتاً إذا كانت هناك جلسات عديدة...';
+$string['venue'] = 'المكان';
+$string['venue_help'] = '**المكان** هو البناية التي ستُعقد فيها الجلسة.
+
+يتم عرض **المكان** في صفحة \'التسجيل\'، صفحة \'معاينة كل الجلسات\'، وفي كل إشعارات البريد الالكتروني.';

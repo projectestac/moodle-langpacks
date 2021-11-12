@@ -299,15 +299,15 @@ $string['iptimemissing'] = 'Desblokeatzeko minutu baliogabeak';
 $string['jumpto'] = 'Joan hona';
 $string['keepsearching'] = 'Jarraitu bilatzen';
 $string['marksessionimportcsvhelp'] = 'Formulario honek erabiltzaileen identifikatzaile bat eta egoera bat CSV fitxategi batean igotzea ahalbidetzen dizu - egoeraren eremuak egoeraren akronimoa edo erabiltzaileak bertaratzea gorde zueneko unea izan dezake. Balioa data bat bada sistemak une horretarako eskuragarri dagoen puntuazio altuena esleitzen saiatuko da.';
-$string['maxpossible'] = 'Lortu daitekeen gehienezkoa';
-$string['maxpossible_help'] = 'Erabiltzaile bakoitzak orain arte jaso gabeko saio bakoitzean (iraganekoak zein etorkizunekoak) gehienezko puntuazioa jasoz gero lortu dezakeen puntuazioa erakusten du:
+$string['maxpossible'] = 'Lortu daitekeen gehienekoa';
+$string['maxpossible_help'] = 'Erabiltzaile bakoitzak orain arte jaso gabeko saio bakoitzean (iraganekoak zein etorkizunekoak) gehieneko puntuazioa jasoz gero lortu dezakeen puntuazioa erakusten du:
     <ul>
-    <li><strong>Puntuak</strong>: erabiltzaile bakoitzak saioetan guztira gehienez lortu dezakeen gehienezko puntuazioa.</li>
-    <li><strong>Ehunekoa</strong>: erabiltzaile bakoitzak saioetan guztira gehienez lortu dezakeen gehienezko ehunekoa.</li>
+    <li><strong>Puntuak</strong>: erabiltzaile bakoitzak saioetan guztira gehienez lortu dezakeen gehieneko puntuazioa.</li>
+    <li><strong>Ehunekoa</strong>: erabiltzaile bakoitzak saioetan guztira gehienez lortu dezakeen gehieneko ehunekoa.</li>
     </ul>';
-$string['maxpossiblepercentage'] = 'Lortu daitekeen gehienezko ehunekoa';
-$string['maxpossiblepoints'] = 'Lortu daitezkeen gehienezko puntuak';
-$string['maxwarn'] = 'Gehienezko abisuzko e-posta mezuak';
+$string['maxpossiblepercentage'] = 'Lortu daitekeen gehieneko ehunekoa';
+$string['maxpossiblepoints'] = 'Lortu daitezkeen gehieneko puntuak';
+$string['maxwarn'] = 'Gehieneko abisuzko e-posta mezuak';
 $string['maxwarn_help'] = 'Ohar bat gehienez bidali beharreko aldiak (saio bakoitzeko ohar bakarra bidaltzen da)';
 $string['mergeuser'] = 'Batu erabiltzailea';
 $string['mobilesessionfrom'] = 'Erakutsi azkena baino zaharragoak diren saioak';
@@ -363,14 +363,14 @@ $string['overallsessions_help'] = 'Erakutsi saio guztien estatistikak oraindik e
     <ul>
     <li><strong>Saioak</strong>: saio kopurua osoa.</li>
     <li><strong>Puntuak</strong>: jasotako saioetan oinarrituta lortutako puntuak.</li>
-    <li><strong>Ehunekoa</strong>: saio guztien gehienezko puntuekiko jasotako saioen puntuen ehunekoa.</li>
+    <li><strong>Ehunekoa</strong>: saio guztien gehieneko puntuekiko jasotako saioen puntuen ehunekoa.</li>
     </ul>';
 $string['oversessionstaken'] = 'Jasotako saioekiko';
 $string['oversessionstaken_help'] = 'Erakutsi dagoeneko eman diren saioen estatistikak:
     <ul>
     <li><strong>Saioak</strong>: dagoeneko emandako saioak.</li>
     <li><strong>Points</strong>: jasotako saioetan oinarrituta lortutako puntuak.</li>
-    <li><strong>Percentage</strong>: emandako saio guztien gehienezko puntuekiko jasotako saioen puntuen ehunekoa.</li>
+    <li><strong>Percentage</strong>: emandako saio guztien gehieneko puntuekiko jasotako saioen puntuen ehunekoa.</li>
     </ul>';
 $string['pageof'] = '{$a->page}. orria {$a->numpages}(e)tik';
 $string['participant'] = 'Partaidea';
@@ -620,7 +620,7 @@ $string['variablesupdated'] = 'Aldagaiak ondo eguneratu dira';
 $string['versionforprinting'] = 'Inprimatzeko bertsioa';
 $string['viewmode'] = 'Erakuste modua';
 $string['warnafter'] = 'Jasotako saioak abisuaren aurretik';
-$string['warnafter_help'] = 'Oharrak soilik erakutsiko dira erabiltzaileak gutxienezko saio-kopuru honetan bertaratzea erregistratu duenean.';
+$string['warnafter_help'] = 'Oharrak soilik erakutsiko dira erabiltzaileak gutxieneko saio-kopuru honetan bertaratzea erregistratu duenean.';
 $string['warningdeleted'] = 'Abisua ezabatu da';
 $string['warningdesc'] = 'Jakinarazpen hauek automatikoki gehituko dira bertaratzearen erregistrorako instantzia berrietan. Une berean jakinarazpen bat baino gehiago abiarazten bada, jakinarazpen-atalase baxuena duen jakinarazpena baino ez da bidaliko.';
 $string['warningdesc_course'] = 'Hemen konfiguratutako jakinarazpen-atalaseak absentismoaren txostenari eragiten diote eta ikasleak edo beste batzuk jakinaraztea ahalbidetzen du. Une berean jakinarazpen bat baino gehiago abiarazten bada, jakinarazpen-atalase baxuena duen jakinarazpena baino ez da bidaliko.';

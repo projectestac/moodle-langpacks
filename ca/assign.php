@@ -135,6 +135,7 @@ $string['couldnotconvertsubmission'] = 'No s\'ha pogut convertir la tramesa de l
 $string['couldnotcreatecoursemodule'] = 'No s\'ha pogut crear el mòdul de curs.';
 $string['couldnotcreatenewassignmentinstance'] = 'No s\'ha pogut crear una instància nova de la tasca.';
 $string['couldnotfindassignmenttoupgrade'] = 'No s\'ha pogut trobar una instància antiga de la tasca per actualitzar.';
+$string['crontask'] = 'Processament en segon pla del mòdul de tasques';
 $string['currentassigngrade'] = 'Qualificació actual en la tasca';
 $string['currentattempt'] = 'Aquest és l\'intent {$a}.';
 $string['currentattemptof'] = 'Aquest és l\'intent {$a->attemptnumber} ( {$a->maxattempts} intents permesos ).';

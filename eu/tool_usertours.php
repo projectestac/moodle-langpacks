@@ -43,7 +43,7 @@ $string['confirmtourremovalquestion'] = 'Ziur zaude ibilaldi hau ezabatu nahi du
 $string['confirmtourremovaltitle'] = 'Baieztatu ibilaldia ezabatzea';
 $string['content'] = 'Edukia';
 $string['content_heading'] = 'Edukia';
-$string['content_help'] = 'Urratsa deskribatzen duen edukia gehi daiteke testu-soil gisa, behar izanez gero etiketa eleanitzen barruan (eduki eleanitzaren iragazkiarekin erabiltzeko).
+$string['content_help'] = 'Urratsa deskribatzen duen edukia gehi daiteke testu-soil gisa, behar izanez gero etiketa eleaniztunen barruan (eduki eleaniztunaren iragazkiarekin erabiltzeko).
 
 Bestela, hizkuntza-kate baten IDa sar daiteke identifikatzaile, osagaia formatuan (komaren ostean parentesi edo tarterik gabe).';
 $string['cssselector'] = 'CSS hautatzailea';
@@ -147,7 +147,7 @@ $string['targettype_help'] = 'Urrats bakoitza orriko zati batekin lotuta dago - 
 * CSS selector - jomuga CSSak erabiliz modu zehatzean identifikatzeko
 * Erakutsi orriaren erdian - orriaren ezein zatirekin loturarik ez duen urrats baterako';
 $string['title'] = 'Izenburua';
-$string['title_help'] = 'Urrats baten izenburua gehi daiteke testu-soil gisa, behar izanez gero etiketa eleanitzen barruan (eduki eleanitzaren iragazkiarekin erabiltzeko).
+$string['title_help'] = 'Urrats baten izenburua gehi daiteke testu-soil gisa, behar izanez gero etiketa eleaniztunen barruan (eduki eleaniztunaren iragazkiarekin erabiltzeko).
 
 Bestela, hizkuntza-kate baten IDa sar daiteke identifikatzaile,osagaia formatuan (komaren ostean parentesi edo tarterik gabe).';
 $string['tour1_content_addingblocks'] = 'Izan ere, ondo hausnartu zure orrietan ezein bloke gehitzea nahi duzun. Blokeak ez dira Moodle aplikazioan erakusten, eta beraz orokorrean hobe da ziurtatzea zure gunea blokerik erakutsi gabe ondo funtzionatzen duela.';

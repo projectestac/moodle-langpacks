@@ -431,7 +431,7 @@ $string['movecategoryownparent'] = 'Ezin da \'{$a}\' kategoria goragoko kategori
 $string['movecategoryparentconflict'] = 'Ezin da \'{$a}\' kategoria bere baitako azpikategoria bateko azpikategoria gisa ezarri.';
 $string['mssqlrcsmodemissing'] = 'Datu-basea ez da espero zen READ_COMMITTED_SNAPSHOT modua erabiltzen ari, eta honek emaitza baliogabeetara eraman dezake, batez ere konkurrentzia altuko inguruneetan. Mesedez gaitu ezazu jokaera egokia izateko. Informazio gehiagorako, ikusi dokumentazioko  <a href="https://docs.moodle.org/en/Installing_MSSQL_for_PHP">MSSQL PHPrako instalatzen</a> atala.';
 $string['multiplerecordsfound'] = 'Erregistro anitz aurkitu dira, eta erregistro bakarra espero zen.';
-$string['multiplerestorenotallow'] = 'Ez dira berreskuratze exekuzio anitzak baimentzen!';
+$string['multiplerestorenotallow'] = 'Ez dira berreskuratze exekuzio anizkoitzak baimentzen!';
 $string['mustbeloggedin'] = 'Saioa hasi behar duzu hori egiteko';
 $string['mustbeteacher'] = 'Irakaslea izan behar duzu orri hau ikusteko';
 $string['myisamproblem'] = 'Datu-baseko taulek MyISAM datu-base motorra erabiltzen ari dira, ACIDekin bat datorren motorra erabiltzea gomendatzen da InnoDBren moduko transakzioen sostengu osoa izateko.';
@@ -497,7 +497,7 @@ $string['pluginrequirementsnotmet'] = '"{$a->pluginname}" ({$a->pluginversion}) 
 $string['pluginunsupported'] = '"{$a->pluginname}" pluginak {$a->pluginversion} ez du onartzen Moodleko bertsio hau {$a->moodleversion}. Begiratu ezazu pluginaren informazioa onartzen den bertsioa aurkitzeko.';
 $string['prefixcannotbeempty'] = '<p>Errorea: datu-basearen taularen aurrizkia ezin da hutsik egon ({$a})</p> <p>Guneko kudeatzaileak arazo hau konpondu behar du.</p>';
 $string['prefixtoolong'] = '<p>Errorea: data-baseko taulen aurrizkia luzeegia da ({$a->dbfamily})</p>
-<p>Guneko kudeatzaileak arazoa konpondu behar du. {$a->dbfamily} datu-baseetan tauletako aurrizkien gehienezko luzera {$a->maxlength} karakterekoa da.</p>';
+<p>Guneko kudeatzaileak arazoa konpondu behar du. {$a->dbfamily} datu-baseetan tauletako aurrizkien gehieneko luzera {$a->maxlength} karakterekoa da.</p>';
 $string['privatefilesupload'] = 'Erabiltzailaren gune pribatura fitxategiak zuzenean igotzea ez da dagoeneko onartzen. Fitxategiak zirriborro-gunera igo eta ondoren core_user::add_user_private_files erremintarekin mugitu itzazu';
 $string['processingstops'] = 'Prozesamendua hemen geratu da. Gainontzeko erregistroak ez dira kontuan hartu.';
 $string['protected_cc_not_supported'] = 'Babestutako cartridge-ak ez dira onartzen.';
@@ -615,7 +615,7 @@ $string['usernotrenamedoff'] = 'Ez da erabiltzailearen izena aldatu - berrizenda
 $string['usernotupdatedadmin'] = 'Ezin dira kudeatzailearen kontuak eguneratu';
 $string['usernotupdatederror'] = 'Ez da erabiltzailea eguneratu - errorea';
 $string['usernotupdatednotexists'] = 'Ez da erabiltzailea eguneratu - ez da existitzen';
-$string['userquotalimit'] = 'Fitxategietarako gehienezko kuotara irsitsi zara.';
+$string['userquotalimit'] = 'Fitxategietarako gehieneko kuotara irsitsi zara.';
 $string['userselectortoomany'] = 'user_selector-ek aukeratutako erabiltzaile bat baino gehiago dauzka, nahiz eta multiselect false izan.';
 $string['verifyagedigitalconsentnotpossible'] = 'Sentitzen dugu, une honetan ez da posible onespen-adin digitala egiaztapena.';
 $string['wrongcall'] = 'Script hau gaizki deitu da';

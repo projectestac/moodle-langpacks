@@ -44,7 +44,7 @@ $string['notconfigured'] = '<p class="error">För att använda den här pluginmo
 $string['office365:view'] = 'Visa Microsoft 365-filer';
 $string['onedrivegroup'] = 'Inaktivera Min OneDrive-mapp i filväljaren';
 $string['pluginname'] = 'Microsoft 365-lagring';
-$string['pluginname_help'] = 'Microsoft 365-lagring';
+$string['pluginname_help'] = 'En Microsoft 365-lagringsplats';
 $string['privacy:metadata'] = 'Det här pluginmodulen kommunicerar med Microsoft 365 OneDrive API:t som den aktuella användaren. Alla filer som laddas upp skickas till fjärrservern';
 $string['trendingaround'] = 'Filer som trendar runt mig';
 $string['trendinggroup'] = 'Inaktivera filer som trendar runt mig-mappen i filväljaren';

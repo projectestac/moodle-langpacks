@@ -136,7 +136,7 @@ $string['backpackimport_help'] = 'Efter lyckad anslutning av ryggsäck så kan m
 
 I detta område kan du välja samlingar av märken från din ryggsäck som du vill visa i din profil.';
 $string['backpackneedsupdate'] = 'Ryggsäcken som anslutits till denna profil stämmer inte överens med ryggsäcken på webbplatsen. Du behöver koppla ifrån och ansluta ryggsäcken på nytt.';
-$string['backpackprovider'] = 'Ryggsäcksleverantör';
+$string['backpackprovider'] = 'Ryggsäckstjänsteleverantör';
 $string['backpacksettings'] = 'Ryggsäcksinställningar';
 $string['backpackweburl'] = 'URL till ryggsäck';
 $string['badgedetails'] = 'Märkesdetaljer';

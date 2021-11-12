@@ -196,7 +196,7 @@ $string['modulename_help'] = '<p>
     Galdera amaitzeko epe-muga automatikoa ezar daiteke. Bestela, irakasleak galdera eskuz amaitu eta hurrengora pasa daiteke.
 </p>';
 $string['modulenameplural'] = 'Jazz Galdetegiak';
-$string['multichoice_options'] = 'Erantzun anitzeko aukerak';
+$string['multichoice_options'] = 'Erantzun anizkoitzeko aukerak';
 $string['next'] = 'Hurrengoa';
 $string['no_attempts_found'] = 'Ez da saiakerarik aurkitu.';
 $string['no_session'] = 'Ez dago saio irekirik';

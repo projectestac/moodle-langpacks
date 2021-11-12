@@ -100,7 +100,7 @@ $string['availability'] = 'التوقيتات';
 $string['backtoassignment'] = 'عودة إلى الواجب';
 $string['batchoperationconfirmaddattempt'] = 'السماح بمحاولة أخرى للتسليمات المُحدَّدة؟';
 $string['batchoperationconfirmdownloadselected'] = 'أتريد تنزيل التسليمات المختارة؟';
-$string['batchoperationconfirmgrantextension'] = 'تمديد المنحة لجميع التسليمات المُختارة';
+$string['batchoperationconfirmgrantextension'] = 'أتريد منح تمديد لكل التسليمات المُحددة؟';
 $string['batchoperationconfirmlock'] = 'أتريد تأمين كل التسليمات المحددة؟';
 $string['batchoperationconfirmremovesubmission'] = 'أتريد إزالة التسليمات المحددة؟';
 $string['batchoperationconfirmreverttodraft'] = 'تحويل جميع التسليمات المُختارة إلى مسودات؟';
@@ -359,6 +359,7 @@ $string['multipleteams_desc'] = 'الواجب يتطلب التسليم في م�
 $string['multipleteamsgrader'] = 'عضو في أكثر من مجموعة، لذلك يتعذر تقديم تسليمات.';
 $string['mysubmission'] = 'تسليمي:';
 $string['newsubmissions'] = 'واجبات تم تسليمها';
+$string['nextuser'] = 'المستخدم التالي';
 $string['noattempt'] = 'لا توجد محاولات';
 $string['noclose'] = 'لا تاريخ إغلاق';
 $string['nofiles'] = 'لا ملفات.';
@@ -391,7 +392,7 @@ $string['offline'] = 'التسليمات عبر الاتصال بالإنترن�
 $string['open'] = 'إفتح';
 $string['outlinegrade'] = 'الدرج: {$a}';
 $string['outof'] = '{$a->current} من أصل {$a->total}';
-$string['overdue'] = '<font color="red">فات موعد تسليم الواجب منذ: {$a}</font>';
+$string['overdue'] = 'فات موعد تسليم الواجب منذ: {$a}';
 $string['override'] = 'تجاوز';
 $string['overridedeletegroupsure'] = 'هل أنت متأكد من رغبتك في حذف التجاوز للمجموعة {$a}؟';
 $string['overridedeleteusersure'] = 'هل أنت متأكد من رغبتك في حذف التجاوز للمستخدم {$a}؟';
@@ -411,6 +412,7 @@ $string['preventsubmissionnotingroup_help'] = 'عند تمكينه، سيكون 
 $string['preventsubmissions'] = 'إمنع المستخدم من تقديم المزيد من التسليمات لهذا الواجب.';
 $string['preventsubmissionsshort'] = 'إمنع تغييرات التسليم';
 $string['previous'] = 'السابق';
+$string['previoususer'] = 'المستخدم السابق';
 $string['privacy:attemptpath'] = 'المحاولة {$a}';
 $string['privacy:blindmarkingidentifier'] = 'المُعرَّف المستعمل للتسليمات غير المشخصنة';
 $string['privacy:gradepath'] = 'الدرجة';
