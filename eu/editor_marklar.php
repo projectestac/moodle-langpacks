@@ -29,6 +29,15 @@ $string['insertimage'] = 'Txertatu irudia';
 $string['insertlink'] = 'Txertatu fitxategia';
 $string['pluginname'] = 'Marklar';
 $string['preferences'] = 'Marklar editorearen hobespenak';
+$string['preferencesformat'] = 'Marklar erabilita editatuko diren testu-formatu gehigarriak';
+$string['preferencesformat_help'] = 'Marklar-ek berez onartzen ditu Markdown formatua duten testuak. Beste formatuetan dauden testuak editatzeko ere erabili daiteke. Aukeratu itzazu beste testu-formatu guztiak horiek ere Marklar-ekin editatu nahi badituzu.
+
+Modu lehenetsian, Marklar Moodleko formatu automatikoa eta testu-lauko formatua duten eremuetan erabiltzen da. HTML formatua editatzeko bestelako testu-editorea (Atto edo TinyMCE esaterako) erabiliko da.';
 $string['previewloading'] = 'Aurrebista kargatzen...';
 $string['previewoff'] = 'Editatu';
 $string['previewon'] = 'Aurrebista';
+$string['privacy:export:preferences:format'] = 'Marklar {$a->format} sintaxia duten testuak editatzeko erabili nahi duzun ala ez.';
+$string['syntax-format0'] = '<p>Moodleko formatu automatikoak testua modu normalean idazteko aukera ematen du, testu-lauko e-mail bat idazten ariko bazina bezala. Lerro-jauziak mantentzen dira. Nahi izanez gero HTML kodea txertatzeko aukera ere badaukazu eta aplikatu egingo da.</p>';
+$string['syntaxloading'] = 'Sintaxi laguntzailea kargatzen...';
+$string['syntaxoff'] = 'Ezkutatu sintaxia';
+$string['syntaxon'] = 'Erakutsi sintaxia';

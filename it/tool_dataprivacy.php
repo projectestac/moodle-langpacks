@@ -141,6 +141,7 @@ $string['emailsalutation'] = 'Gentile {$a},';
 $string['errorcannotrequestdeleteforother'] = 'Non sei autorizzato a richiedere l\'eliminazione dei dati di questo utente.';
 $string['errorcannotrequestdeleteforself'] = 'Non sei autorizzato a richiedere l\'eliminazione dei tuoi dati.';
 $string['errorcontexthasunexpiredchildren'] = 'Il contesto "{$a}" ha sotto-contesti che non sono scaduti. nessun contesto è stato contrassegnato per l\'eliminazione.';
+$string['errorinvalidrequestcomments'] = 'Il campo commenti può contenere solo testo semplice.';
 $string['errorinvalidrequestcreationmethod'] = 'Il metodo di creazione della richiesta non è valido';
 $string['errorinvalidrequeststatus'] = 'Stato della richiesta non valido';
 $string['errorinvalidrequesttype'] = 'Tipo di richiesta non valido';

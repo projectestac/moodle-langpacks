@@ -119,8 +119,8 @@ $string['unenrol'] = 'ユーザを登録解除する';
 $string['unenrolselfconfirm'] = '本当にコース「 {$a} 」からあなたを登録解除してもよろしいですか?';
 $string['unenroluser'] = '本当に「 {$a->user} 」をコース「 {$a->course} 」から登録解除してもよろしいですか?';
 $string['unenrolusers'] = 'ユーザを登録解除する';
-$string['usepasswordpolicy'] = 'パスワードポリシーを使用する';
-$string['usepasswordpolicy_desc'] = '登録キーに標準パスワードポリシーを適用します。';
+$string['usepasswordpolicy'] = 'パスワードポリシを使用する';
+$string['usepasswordpolicy_desc'] = '登録キーに標準パスワードポリシを適用します。';
 $string['welcometocourse'] = '{$a} へようこそ';
 $string['welcometocoursetext'] = '{$a->coursename} へようこそ!
 

@@ -593,6 +593,7 @@ $string['outcomescoursecustom'] = '使用されているカスタムアウトカ
 $string['outcomescoursenotused'] = '使用されていない標準アウトカム';
 $string['outcomescourseused'] = '使用されている標準アウトカム (削除不可)';
 $string['outcomescustom'] = 'カスタムアウトカム';
+$string['outcomesdisabled'] = 'アウトカムは有効にされていません。';
 $string['outcomeshortname'] = '省略名';
 $string['outcomesstandard'] = '標準アウトカム';
 $string['outcomesstandardavailable'] = '利用可能な標準アウトカム';

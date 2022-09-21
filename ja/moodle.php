@@ -313,15 +313,15 @@ $string['contentexport_viewfilename'] = 'ファイル {$a} を表示する';
 $string['continue'] = '続ける';
 $string['continuetocourse'] = 'あなたのコースに入るにはここをクリックしてください';
 $string['convertingwikitomarkdown'] = 'WikiをMarkdownに変換する';
-$string['cookiesenabled'] = 'あなたのブラウザのクッキーを有効にしてください。';
-$string['cookiesenabled_help'] = 'このサイトでは2種類のクッキーが使用されます:
+$string['cookiesenabled'] = 'あなたのブラウザのクッキを有効にしてください。';
+$string['cookiesenabled_help'] = 'このサイトでは2種類のクッキが使用されます:
 
-重要なクッキーはセッションクッキーで通常MoodleSessionと呼ばれます。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキー有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキーは破棄されます。
+重要なクッキはセッションクッキで通常MoodleSessionと呼ばれます。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキ有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキは破棄されます。
 
-もう1つのクッキーは純粋に便宜的な理由で使用され、通常MOODLEIDのように呼ばれます。このクッキーはあなたのユーザ名をブラウザに憶えさせるために使用されます。これはあなたがサイトへ戻った場合、ログインページのユーザ名が初めから入力されていることを意味します。このクッキーは拒否しても安全です - あなたはログイン時にユーザ名を毎回入力する必要があります。';
-$string['cookiesenabledonlysession'] = 'あなたのブラウザのクッキーを有効にしてください。';
-$string['cookiesenabledonlysession_help'] = 'このサイトでは通常MoodleSessionと呼ばれるセッションクッキーを使用します。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキー有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキーは破棄されます。';
-$string['cookiesnotenabled'] = '残念ですが、あなたのブラウザではクッキーが有効にされていません。';
+もう1つのクッキは純粋に便宜的な理由で使用され、通常MOODLEIDのように呼ばれます。このクッキはあなたのユーザ名をブラウザに憶えさせるために使用されます。これはあなたがサイトへ戻った場合、ログインページのユーザ名が初めから入力されていることを意味します。このクッキは拒否しても安全です - あなたはログイン時にユーザ名を毎回入力する必要があります。';
+$string['cookiesenabledonlysession'] = 'あなたのブラウザのクッキを有効にしてください。';
+$string['cookiesenabledonlysession_help'] = 'このサイトでは通常MoodleSessionと呼ばれるセッションクッキを使用します。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキ有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキは破棄されます。';
+$string['cookiesnotenabled'] = '残念ですが、あなたのブラウザではクッキが有効にされていません。';
 $string['copy'] = 'コピー';
 $string['copyasnoun'] = 'コピー';
 $string['copycourse'] = 'コースをコピーする';
@@ -387,7 +387,7 @@ $string['courseinfo'] = 'コース情報';
 $string['courselegacyfiles'] = 'レガシーコースファイル';
 $string['courselegacyfiles_help'] = 'コースファイルエリアはMoodle 1.9およびそれ以前のバージョンのために下位互換性を確保します。このファイルエリアのファイルすべてには (あなたがリンクするかどうかにかかわらず) コース参加者すべてがアクセスできます。また、これらのファイルがMoodle内のどこで使用されているか知る手段がありません。
 
-あなたがこのファイルエリアをコースファイルの保存に使用する場合、多くのプライバシーおよびセキュリティ問題に自分を晒すことになります。同時にバックアップおよびコースインポートのファイル喪失、常にコンテンツの共有および再利用を経験することになります。そのため、あなたが何をしているのか本当に理解している場合以外、このエリアの使用はお勧めできません。';
+あなたがこのファイルエリアをコースファイルの保存に使用する場合、多くのプライバシおよびセキュリティ問題に自分を晒すことになります。同時にバックアップおよびコースインポートのファイル喪失、常にコンテンツの共有および再利用を経験することになります。そのため、あなたが何をしているのか本当に理解している場合以外、このエリアの使用はお勧めできません。';
 $string['courselegacyfilesofcourse'] = 'レガシーコースファイル: {$a}';
 $string['coursenotaccessible'] = 'このコースはパブリックアクセスを許可していません。';
 $string['courseoverview'] = 'コース概要';
@@ -830,7 +830,7 @@ $string['eventuserinfofielddeleted'] = 'ユーザプロファイルフィール�
 $string['eventuserinfofieldupdated'] = 'ユーザプロファイルフィールドが更新されました。';
 $string['eventuserlistviewed'] = 'ユーザ一覧が閲覧されました。';
 $string['eventuserloggedout'] = 'ユーザがログアウトしました。';
-$string['eventuserpasswordpolicyfailed'] = 'ユーザパスワードがパスワードポリシーに合致しませんでした。';
+$string['eventuserpasswordpolicyfailed'] = 'ユーザパスワードがパスワードポリシに合致しませんでした。';
 $string['eventuserpasswordupdated'] = 'ユーザパスワードが更新されました。';
 $string['eventuserprofileviewed'] = 'ユーザプロファイルが閲覧されました。';
 $string['eventuserupdated'] = 'ユーザが更新されました。';
@@ -888,9 +888,9 @@ $string['forcepasswordchange_help'] = 'この設定を有効にした場合、�
 $string['forcepasswordchangecheckfull'] = '本当に {$a} にパスワードの変更を強制してもよろしいですか?';
 $string['forcepasswordchangenot'] = '{$a} のパスワード変更を強制できませんでした。';
 $string['forcepasswordchangenotice'] = '続けるにはパスワードを変更してください。';
-$string['forcepasswordresetfailurenotice'] = 'あなたの現在のパスワードは設定されたパスワードポリシーに合致しないようになりました。サポートが必要な場合、あなたのMoodle管理者にご連絡ください。
+$string['forcepasswordresetfailurenotice'] = 'あなたの現在のパスワードは設定されたパスワードポリシに合致しないようになりました。サポートが必要な場合、あなたのMoodle管理者にご連絡ください。
 {$a}';
-$string['forcepasswordresetnotice'] = 'あなたの現在のパスワードは設定されたパスワードポリシーに合致しないようになりました。ログインするにはあなたのパスワードをリセットする必要があります。
+$string['forcepasswordresetnotice'] = 'あなたの現在のパスワードは設定されたパスワードポリシに合致しないようになりました。ログインするにはあなたのパスワードをリセットする必要があります。
 {$a}';
 $string['forcetheme'] = 'テーマを強制する';
 $string['forgotaccount'] = 'パスワードを忘れましたか?';
@@ -1075,7 +1075,7 @@ $string['indicator:anywriteincourse_help'] = 'この指標はすべてのコー�
 $string['indicator:completeduserprofile'] = 'ユーザプロファイル完了';
 $string['indicator:completeduserprofile_help'] = 'この指標は学生がユーザプロファイルを完了したことを示します。';
 $string['indicator:completeduserprofiledef'] = 'ユーザプロファイル完了';
-$string['indicator:completeduserprofiledef_help'] = 'サイトポリシーに同意してユーザが次のフィールドを入力した場合: 所属組織, 部署, 住所, 都道府県, 国, URL';
+$string['indicator:completeduserprofiledef_help'] = 'サイトポリシに同意してユーザが次のフィールドを入力した場合: 所属組織, 部署, 住所, 都道府県, 国, URL';
 $string['indicator:completionenabled'] = '完了トラッキング有効';
 $string['indicator:completionenabled_help'] = 'この指標はこのコースで完了トラッキングが有効にされたことを示します。';
 $string['indicator:nostudent'] = '学生登録';
@@ -1526,7 +1526,7 @@ $string['passwordforgotten'] = 'パスワード喪失';
 $string['passwordforgotteninstructions'] = '最初に、あなたの詳細情報がユーザデータベースに登録されている必要があります。あなたの「ユーザ名」<strong>または</strong>登録に使用した「メールアドレス」をテキストボックスに入力してください。両方を入力する必要はありません。';
 $string['passwordforgotteninstructions2'] = 'パスワードをリセットするにはあなたのユーザ名またはメールアドレスを以下に入力してください。データベース内であなたを探すことができた場合、再度アクセスするための手順を記載したメールをあなたのメールアドレス宛に送信します。';
 $string['passwordnohelp'] = 'あなたのパスワードを探すためのヘルプは利用できません。Moodle管理者にご連絡ください。';
-$string['passwordpolicynomatch'] = 'あなたの現在のパスワードはパスワードポリシーに合致しないようになりました。
+$string['passwordpolicynomatch'] = 'あなたの現在のパスワードはパスワードポリシに合致しないようになりました。
 {$a}';
 $string['passwordrecovery'] = 'はい、ログイン情報を教えてください';
 $string['passwordsdiffer'] = 'パスワードが正しくありません。';
@@ -1762,7 +1762,7 @@ $string['rssarticles'] = '最近の記事のRSS数';
 $string['rsserror'] = 'RSSデータの読み込み中にエラーが発生しました。';
 $string['rsserrorauth'] = 'あなたのRSSリンクには有効な認証トークンが含まれていません。';
 $string['rsserrorguest'] = 'このフィードはデータへのアクセスにゲストアクセスを使用しますが、データを読むためのパーミッションがありません。このフィードのオリジナルロケーション (URL) に有効なユーザでアクセスした後、新しいRSSリンクを取得してください。';
-$string['rsskeyshelp'] = '<p>セキュリティおよびプライバシーを保証するため、RSSフィードURLにはユーザを識別するための特別なトークンを含みます。これにより、RSSフィード経由でアクセスできないMoodleエリアにユーザがアクセスすることを防ぎます。</p><p>このトークンはMoodleがRSSフィードを生成する場所にあなたが初回アクセスした時点で自動的に作成されます。RSSフィードトークンに問題が漏洩したと思われる場合、あなたはリセットリンクをクリックすることで新しいトークンをリクエストすることができます。この場合、あなたの現在のRSSフィードURLが無効になることに留意してください。</p>';
+$string['rsskeyshelp'] = '<p>セキュリティおよびプライバシを保証するため、RSSフィードURLにはユーザを識別するための特別なトークンを含みます。これにより、RSSフィード経由でアクセスできないMoodleエリアにユーザがアクセスすることを防ぎます。</p><p>このトークンはMoodleがRSSフィードを生成する場所にあなたが初回アクセスした時点で自動的に作成されます。RSSフィードトークンに問題が漏洩したと思われる場合、あなたはリセットリンクをクリックすることで新しいトークンをリクエストすることができます。この場合、あなたの現在のRSSフィードURLが無効になることに留意してください。</p>';
 $string['rsstype'] = 'この活動のRSSフィード';
 $string['save'] = '保存';
 $string['saveandnext'] = '保存して次を表示する';
