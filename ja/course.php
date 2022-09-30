@@ -112,8 +112,8 @@ $string['studentsatriskinfomessage'] = '{$a->userfirstname} さん
 
 <p>{$a->coursename} コースの学生にリスクがあることが確認されました。</p>';
 $string['submitsearch'] = '検索を送信する';
-$string['target:coursecompetencies'] = 'コースに割り当てられたコンピテンシーに到達できないリスクのある学生';
-$string['target:coursecompetencies_help'] = 'このターゲットは学生がコースに割り当てられたコンピテンシーに到達できないリスクがあるかどうか説明します。このターゲットはコースに割り当てられたすべてのコンピテンシーはコース終了日までに到達されるべきだと考えます。';
+$string['target:coursecompetencies'] = 'コースに割り当てられたコンピテンシに到達できないリスクのある学生';
+$string['target:coursecompetencies_help'] = 'このターゲットは学生がコースに割り当てられたコンピテンシに到達できないリスクがあるかどうか説明します。このターゲットはコースに割り当てられたすべてのコンピテンシはコース終了日までに到達されるべきだと考えます。';
 $string['target:coursecompletion'] = 'コース完了条件を満たさないリスクのある学生';
 $string['target:coursecompletion_help'] = 'このターゲットは学生がコース完了条件を満たさないリスクがあると考えられているかどうか説明します。';
 $string['target:coursedropout'] = '脱落リスクのある学生';
@@ -129,8 +129,8 @@ $string['target:norecentaccessesinfo'] = '次の学生は設定された分析�
 $string['target:noteachingactivity'] = '開始していないリスクのあるコース';
 $string['target:noteachingactivity_help'] = 'このターゲットは次週開始する予定のコースに教育活動があるかどうか説明します。';
 $string['target:noteachingactivityinfo'] = '数日で開始される予定の次のコースに教師または学生が登録されていないため、開始しないリスクがあります。';
-$string['targetlabelstudentcompetenciesno'] = 'コースに割り当てられたコンピテンシーに到達できる可能性のある学生';
-$string['targetlabelstudentcompetenciesyes'] = 'コースに割り当てられたコンピテンシーに到達できないリスクのある学生';
+$string['targetlabelstudentcompetenciesno'] = 'コースに割り当てられたコンピテンシに到達できる可能性のある学生';
+$string['targetlabelstudentcompetenciesyes'] = 'コースに割り当てられたコンピテンシに到達できないリスクのある学生';
 $string['targetlabelstudentcompletionno'] = 'コース完了条件に合致する可能性のある学生';
 $string['targetlabelstudentcompletionyes'] = 'コース完了条件に合致しないリスクのある学生';
 $string['targetlabelstudentdropoutno'] = 'リスクなし';

@@ -84,10 +84,10 @@ $string['check_openprofiles_details'] = 'ユーザプロファイルを公開し
 $string['check_openprofiles_error'] = 'ログインなしで誰でもユーザプロファイルを閲覧できます。';
 $string['check_openprofiles_name'] = 'ユーザプロファイルを公開する';
 $string['check_openprofiles_ok'] = 'ユーザプロファイルを閲覧するにはログインが必要です。';
-$string['check_passwordpolicy_details'] = '<p>パスワードの推測は不正アクセスを取得するための頻繁に使われる簡単な方法であるため、パスワードポリシの設定をお勧めします。ユーザがパスワードを記憶できなかったり、忘れたり、書き留めたりすることがありますので必要条件を厳格にしすぎないでください。</p>';
-$string['check_passwordpolicy_error'] = 'パスワードポリシが設定されていません。';
-$string['check_passwordpolicy_name'] = 'パスワードポリシ';
-$string['check_passwordpolicy_ok'] = 'パスワードポリシが有効にされています。';
+$string['check_passwordpolicy_details'] = '<p>パスワードの推測は不正アクセスを取得するための頻繁に使われる簡単な方法であるため、パスワードポリシーの設定をお勧めします。ユーザがパスワードを記憶できなかったり、忘れたり、書き留めたりすることがありますので必要条件を厳格にしすぎないでください。</p>';
+$string['check_passwordpolicy_error'] = 'パスワードポリシーが設定されていません。';
+$string['check_passwordpolicy_name'] = 'パスワードポリシー';
+$string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
 $string['check_preventexecpath_details'] = '<p>管理画面による実行可能パス設定を許可することにより権限昇格の可能性が生じます。</p>これはconfig.phpで次のように強制されるべきです:</p><p><code>$CFG->preventexecpath = true;</code></p>';
 $string['check_preventexecpath_name'] = '実行可能パス';
 $string['check_preventexecpath_ok'] = '実行可能パスはconfig.phpのみで設定することができます。';

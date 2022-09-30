@@ -309,7 +309,7 @@ $string['importformatnotimplement'] = '申し訳ございません、このフ�
 $string['incorrectext'] = 'ファイルの拡張子が正しくありません。';
 $string['inplaceeditableerror'] = '更新プロセッサのコールにエラーが発生しました。';
 $string['installproblem'] = '通常、インストール中にエラーが発生した場合、エラーから回復することはできません。あなたがインストールを再開するには新しいデータベースを作成するか、異なるデータベース接頭辞 (prefix) を使用する必要があります。';
-$string['internalauthpassworderror'] = 'パスワードが入力されていないか、内部認証パスワードポリシが正しくありません。';
+$string['internalauthpassworderror'] = 'パスワードが入力されていないか、内部認証パスワードポリシーが正しくありません。';
 $string['invalidaccess'] = 'このページは正しくアクセスされていません。';
 $string['invalidaccessparameter'] = '無効なアクセスパラメータです。';
 $string['invalidaction'] = '無効なアクションパラメータです。';
@@ -364,7 +364,7 @@ $string['invalidnum'] = '無効な数値です。';
 $string['invalidnumkey'] = '$conditions配列には数字キーを含むことができません。コードを修正してください!';
 $string['invalidoutcome'] = '正しくないアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
-$string['invalidpasswordpolicy'] = '無効なパスワードポリシです。';
+$string['invalidpasswordpolicy'] = '無効なパスワードポリシーです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: {$a}';
 $string['invalidpersistenterror'] = 'エラー: {$a}';
 $string['invalidqueryparam'] = 'エラー: クエリパラメータ数が正しくありません。期待されたパラメータ数 {$a->expected} 件に対して、{$a->actual} 件が渡されています。';
@@ -539,7 +539,7 @@ $string['sessionipnomatch2'] = '<p>申し訳ございません、あなたのIP�
 <p>続ける場合、このページをリフレッシュするため、F5キーを押してください。</p>';
 $string['sessionwaiterr'] = 'セッションロックを待っている間にタイムアウトしました。<br />あなたの現在のリクエスト終了を待って、後ほど再度お試しください。';
 $string['shortnametaken'] = '省略名がすでに別のコース ({$a}) で使用されています。';
-$string['sitepolicynotagreed'] = 'サイトポリシに同意されていません: <a href="{$a}">サイトポリシを開くにはここをクリックしてください。</a>';
+$string['sitepolicynotagreed'] = 'サイトポリシーに同意されていません: <a href="{$a}">サイトポリシーを開くにはここをクリックしてください。</a>';
 $string['socksnotsupported'] = 'PHP4ではSOCKS5プロキシはサポートされていません。';
 $string['spellcheckernotconf'] = 'スペルチェッカが設定されていません。';
 $string['sslonlyaccess'] = '申し訳ございません、セキュリティ上の理由から、httpsアクセスのみ許可されています。';

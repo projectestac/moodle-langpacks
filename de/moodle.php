@@ -1896,7 +1896,7 @@ $string['settings'] = 'Einstellungen';
 $string['shortname'] = 'Kurzbezeichnung';
 $string['shortnamecollisionwarning'] = '[*] = Diese Kurzbezeichnung wird bereits für einen anderen Kurs genutzt. Bitte ändern Sie den Eintrag.';
 $string['shortnamecourse'] = 'Kurzer Kursname';
-$string['shortnamecourse_help'] = 'Der kurze Kursname wird an verschiedenen Stellen genutzt, an denen der vollständige Kursname nicht passen würde (z.B. in der Navigation oder in der Betreffzeile von E-Mails).';
+$string['shortnamecourse_help'] = 'Der kurze Kursname wird an verschiedenen Stellen verwendet, an denen der vollständige Kursname nicht passen würde (z.B. in der Navigation oder im Betreff von E-Mails).';
 $string['shortnametaken'] = 'Diese Kurzbezeichnung wird bereits für einen anderen Kurs ({$a}) verwendet.';
 $string['shortnameuser'] = 'Nutzername (kurz)';
 $string['shortsitename'] = 'Kurzbezeichnung';
