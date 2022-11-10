@@ -1385,7 +1385,7 @@ Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de end
 
 Cumprimentos do(a) administrador(a) da plataforma de e-learning  \'{$a->sitename}\',{$a->signoff}';
 $string['newpicture'] = 'Nova foto';
-$string['newpicture_help'] = 'Para adicionar uma nova foto, procure e selecione uma imagem (formato JPG ou PNG) e clique em "Atualizar Perfil". A imagem será recortada na forma de um quadrado e redimensionada para 100x100 píxeis.';
+$string['newpicture_help'] = 'Para adicionar uma nova foto, procure e selecione uma imagem (formato JPG ou PNG) e clique em "Atualizar perfil". A imagem será recortada na forma de um quadrado e redimensionada para 100x100 píxeis.';
 $string['newpictureusernotsetup'] = 'A imagem de perfil só pode ser adicionada depois de guardar todas as informações de perfil obrigatórias.';
 $string['newsectionname'] = 'Novo nome para a secção {$a}';
 $string['newsitem'] = 'notícia';
@@ -2140,7 +2140,7 @@ $string['update'] = 'Atualizar';
 $string['updated'] = '{$a} foi atualizado(a)';
 $string['updatemymoodleoff'] = 'Terminar personalização desta página';
 $string['updatemymoodleon'] = 'Personalizar esta página';
-$string['updatemyprofile'] = 'Atualizar Perfil';
+$string['updatemyprofile'] = 'Atualizar perfil';
 $string['updatesevery'] = 'Atualizações a cada {$a} segundos';
 $string['updatethis'] = 'Atualizar {$a}';
 $string['updatethiscourse'] = 'Atualizar esta disciplina';

@@ -36,5 +36,30 @@ $string['answermulti'] = 'Antwortzahl für Teil {$a->part}';
 $string['answerno'] = 'Teil {$a}';
 $string['answersingle'] = 'Antwort';
 $string['answertype'] = 'Antworttyp';
+$string['answertype_help'] = 'Es gibt vier Antworttypen.
+
+Zahlen, numerische und numerische Formelantworten erfordern eine Zahl oder eine Liste von Zahlen als Antwort.
+
+Die Antworten auf algebraische Formeln erfordern eine Zeichenkette oder eine Liste von Zeichenketten als Antwort.
+
+Für die verschiedenen Antworttypen gelten unterschiedliche Einschränkungen bei der Eingabe der Antworten, so dass die Schüler wissen müssen, wie sie einzugeben sind. Die Formatprüfung im Fragencode wird bei der Eingabe darauf hinweisen, wenn die Antwort in einem falschen Format eingegeben wurde. Bitte lesen Sie die Dokumentation für Detail';
+$string['answerunitmulti'] = 'Einheit für Teil {$a->part}';
+$string['answerunitsingle'] = 'Einheit';
 $string['correctansweris'] = 'Eine mögliche Antwort ist: {$a}';
+$string['otherrule'] = 'Andere Regeln';
+$string['otherrule_help'] = 'Hier können Fragenautor/innen zusätzliche Umrechnungsregeln für andere akzeptierte Basiseinheiten festlegen. Lesen Sie bitte die Dokumentation für die erweiterten Verwendungsmöglichkeiten.';
+$string['partiallycorrectfeedback'] = 'Für jede teilweise richtige Antwort';
+$string['partiallycorrectfeedback_help'] = 'Dieses Feedback wird den Teilnehmer/innen gezeigt, die in diesem Teil nicht die Höchstpunktzahl erreicht haben. Es kann globale und lokale Variablen enthalten, die durch deren Werte ersetzt werden.';
+$string['placeholder'] = 'Name des Platzhalters';
+$string['pleaseputananswer'] = 'Tragen Sie bitte I n jedes Eingabefeld eine Antwort ein.';
+$string['pluginnameadding'] = 'Hinzufügen einer Formulas-Frage';
+$string['pluginnameediting'] = 'Bearbeiten einer Formulas-Frage';
+$string['postunit'] = 'Einheit';
+$string['questiontext'] = 'Fragentext';
+$string['relerror'] = 'Realtiver Fehler';
+$string['renew'] = 'Update';
+$string['unit'] = 'Einheit';
+$string['vars1'] = 'Lokale Variablen';
+$string['varsglobal'] = 'Globale Variablen';
+$string['varsrandom'] = 'Zufallsvariablen';
 $string['yougotnright'] = 'Sie haben {$a->num} Teile dieser Aufgabe korrekt beantwortet.';

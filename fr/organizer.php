@@ -126,6 +126,7 @@ Date: {$a->date} à {$a->time}
 Système de messagerie Moodle';
 $string['assign_title'] = 'Attribuer le rendez-vous';
 $string['assignsuccess'] = 'Le créneau a été attribué avec succès et le-s particiant-s a/ont été notifié-s.';
+$string['assignsuccessnotsent'] = 'AVERTISSEMENT : le créneau a été attribué avec succès MAIS le ou les particiants N\'ont PAS été notifiés.';
 $string['atlocation'] = 'à';
 $string['availability'] = 'Disponibilité';
 $string['availablefrom'] = 'Les demandes seront possibles à partir de';
@@ -137,10 +138,14 @@ $string['btn_add'] = 'Ajouter de nouveaux créneaux';
 $string['btn_assign'] = 'Attribuer un créneau';
 $string['btn_comment'] = 'Modifier le commentaire';
 $string['btn_delete'] = 'Supprimer les créneaux sélectionnés';
+$string['btn_deletesingle'] = 'Supprimer ce créneau';
 $string['btn_edit'] = 'Modifier les créneaux sélectionnés';
+$string['btn_editsingle'] = 'Modifier ce créneau';
 $string['btn_eval'] = 'Noter les créneaux sélectionnés';
 $string['btn_eval_short'] = 'Noter';
+$string['btn_evalsingle'] = 'Finaliser ce créneau';
 $string['btn_print'] = 'Imprimer les créneaux sélectionnés';
+$string['btn_printsingle'] = 'Imprimer ce créneau';
 $string['btn_queue'] = 'Mettre en attente';
 $string['btn_reeval'] = 'Réévaluer';
 $string['btn_register'] = 'M\'inscrire';
@@ -148,6 +153,7 @@ $string['btn_remind'] = 'Envoyer un rappel';
 $string['btn_reregister'] = 'Me réinscrire';
 $string['btn_save'] = 'Enregistrer le commentaire';
 $string['btn_send'] = 'Envoyer';
+$string['btn_sendall'] = 'Envoyer un rappel à tous les participants sans rendez-vous';
 $string['btn_start'] = 'Commencer';
 $string['btn_unqueue'] = 'Retirer de la liste d\'attente';
 $string['btn_unregister'] = 'Désinscrire';
@@ -440,8 +446,10 @@ $string['infobox_organizer_expired'] = 'Cet agenda a expiré le {$a->date} à {$
 $string['infobox_organizer_expires'] = 'Cet agenda expirera le {$a->date} à {$a->time}';
 $string['infobox_organizer_never_expires'] = 'Cet agenda n\'a pas de date d\'expiration.';
 $string['infobox_showfreeslots'] = 'Ne montrer que les créneaux disponibles';
+$string['infobox_showhiddenslots'] = 'Montrer aussi les créneaux cachés<br/>';
 $string['infobox_showlegend'] = 'Montrer la légende';
 $string['infobox_showmyslotsonly'] = 'Ne montrer que mes créneaux';
+$string['infobox_showregistrationsonly'] = 'Monter uniquement les créneaux réservés';
 $string['infobox_showslots'] = 'Monter les créneaux passés';
 $string['infobox_slotoverview_title'] = 'Aperçu du créneau';
 $string['infobox_title'] = 'Boite d\'info';
@@ -609,6 +617,18 @@ $string['reg_status_slot_not_attended'] = 'Ne s\'est pas présenté';
 $string['reg_status_slot_not_attended_reapp'] = 'Ne s\'est pas présenté, réinscription autorisée';
 $string['reg_status_slot_past_deadline'] = 'Créneau échu';
 $string['reg_status_slot_pending'] = 'Créneau à évaluer';
+$string['register_notify_teacher:reregister:fullmessage'] = 'Bonjour {$a->receivername},
+
+{$a->sendername} s\'est réinscrit sur le nouveau créneau du {$a->date} à {$a->time}.
+
+--- Ceci est un message généré par un automate, merci de ne pas y répondre. Pour plus de renseignement, contacter {$a->sendername} ---';
+$string['register_notify_teacher:reregister:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - {$a->sendername} s\'est réinscrit';
+$string['register_reminder_student:fullmessage'] = 'Bonjour {$a->receivername},
+
+Tu dois t\'inscrire sur un créneau pour "{$a->organizername}".
+Regarde bien les liens ci-après pour t\'inscrire !
+--- Ceci est un message généré par un automate, merci de ne pas y répondre. Pour plus de renseignement, contacter un organisateur ---';
+$string['register_reminder_student:subject'] = 'Il est encore temps de t\'inscrire pour "{$a->organizername}"';
 $string['relative_deadline_before'] = 'avant le rendez-vous';
 $string['relative_deadline_now'] = 'Dès maintenant';
 $string['relativedeadline'] = 'Échéance relative';
@@ -624,10 +644,21 @@ $string['sec_pl'] = 'secs';
 $string['select_all_slots'] = 'Sélectionner tous les créneaux visibles';
 $string['selectedgrouplist'] = 'Groupes séleectionnés';
 $string['selectedslots'] = 'Créneaux sélectionnés';
+$string['singleslotcommands'] = 'les actions rapides : cliquer sur une image de la colonne pour agir sur le créneau correspondant';
+$string['singleslotprintfield'] = 'Champ de profil';
+$string['singleslotprintfield0'] = 'Champ de profil';
+$string['singleslotprintfields'] = 'Champs de profil utilisateur à inclure dans les informations';
 $string['slot_anonymous'] = 'Créneau anonyme';
 $string['slot_slotvisible'] = 'Les membres ne sont visibles que s\'ils sont dans leur propre créneau.';
 $string['slot_visible'] = 'Membres du créneau toujours visibles';
 $string['slotassignedby'] = 'Créneau attribué par';
+$string['slotdeleted_notify_student:fullmessage'] = 'Bonjour {$a->receivername},
+
+Votre rendez-vous {$a->sendername} ({$a->courseid} {$a->coursefullname}) du {$a->date} a été annulé.
+
+Les organisateurs du cours vous demandent de réinscrire dans n\'importe quel créneau disponible dans l\'agenda de prise de rendez-vous {$a->organizername}. Vous trouverez le lien vers celui-ci en bas de ce courriel.
+
+--- Ceci est un message généré par un automate, merci de ne pas y répondre. Pour plus de renseignement, contacter un organisateur ---';
 $string['slotdetails'] = 'Détails du créneau';
 $string['slotfrom'] = 'de';
 $string['slotlistempty'] = 'Aucun créneau trouvé';
@@ -685,6 +716,7 @@ $string['title_edit'] = 'Modifier les créneaux sélectionnés';
 $string['title_eval'] = 'Evaluer les créneaux sélectionnés';
 $string['title_print'] = 'Imprimier les créneaux';
 $string['totalslots'] = 'de {$a->starttime} à {$a->endtime}, {$a->duration} {$a->unit} chacun, {$a->totalslots} créneau-x au total';
+$string['trainerid'] = 'Organisateur(s)';
 $string['unavailableslot'] = 'Ce créneau est disponible à partir de';
 $string['unknown'] = 'Inconnu';
 $string['visibility'] = 'Visibilité des membres - préréglages';
@@ -696,3 +728,4 @@ $string['warning_groupingid'] = 'Mode groupe activé. Vous devez sélectionner u
 $string['warninggroupmode'] = 'Vous devez activer le mode groupe et sélectionner un groupement pour créer un agenda de groupe!';
 $string['warningtext1'] = 'Les créneaux sélectionnés contiennent des valeurs différentes pour ce champ!';
 $string['warningtext2'] = 'ATTENTION! Le contenu de ce champ a été modifié!';
+$string['with'] = 'avec';

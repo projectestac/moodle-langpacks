@@ -26,16 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_oidcdescription'] = 'Le plug-in OpenID Connect fournit une fonctionnalité d\'authentification unique à l\'aide de fournisseurs d\'identité configurables.';
-$string['cfg_authendpoint_desc'] = 'L\'URI du point de terminaison d\'autorisation de votre fournisseur d\'identité à utiliser.';
-$string['cfg_authendpoint_key'] = 'Point de terminaison d\'autorisation';
 $string['cfg_autoappend_desc'] = 'Ajouter automatiquement cette chaîne lors de la connexion des utilisateurs à l\'aide de la méthode d\'authentification « Informations d\'identification du mot de passe du propriétaire de la ressource ». Ceci est utile lorsque votre fournisseur d\'identité requiert un domaine commun, mais ne veut pas obliger les utilisateurs à le saisir lors de la connexion. Par exemple, si l\'utilisateur OpenID Connect complet est « james@example.com » et que vous saisissez « @example.com » ici, l\'utilisateur n\'aura qu\'à saisir « james » comme nom d\'utilisateur. <br /><b>Remarque :</b> Dans le cas où des noms d\'utilisateurs en conflit existent - c\'est-à-dire qu\'un utilisateur Moodle existe avec le même nom, la priorité du plugin d\'authentification est utilisée pour déterminer quel utilisateur l\'emporte.';
 $string['cfg_autoappend_key'] = 'Ajout automatique';
-$string['cfg_cleanupoidctokens_desc'] = 'Si vos utilisateurs rencontrent des problèmes pour se connecter à l\'aide de leur compte Microsoft 365, essayez de nettoyer les jetons OpenID Connect. Cela supprime les jetons parasites et incomplets qui peuvent provoquer des erreurs. AVERTISSEMENT : Cela peut interrompre les connexions en cours, il est donc préférable de le faire hors des périodes d\'utilisation.';
-$string['cfg_cleanupoidctokens_key'] = 'Nettoyer les jetons de connexion OpenID';
-$string['cfg_clientid_desc'] = 'Votre identifiant client enregistré chez le fournisseur d\'identité';
-$string['cfg_clientid_key'] = 'Identifiant client';
-$string['cfg_clientsecret_desc'] = 'Votre secret client enregistré chez le fournisseur d\'identité. Chez certains fournisseurs, il est également appelé clé.';
-$string['cfg_clientsecret_key'] = 'Secret client';
 $string['cfg_customicon_desc'] = 'Si vous souhaitez utiliser votre propre icône, téléchargez-la ici. Cela remplace toute icône choisie ci-dessus. <br /><br /><b>Remarques sur l\'utilisation des icônes personnalisées :</b><ul><li>Cette image ne sera <b>pas</b> redimensionnée sur la page de connexion, nous vous recommandons donc de télécharger un image ne dépassant pas 35 x 35 pixels.</li><li>Si vous avez téléchargé une icône personnalisée et souhaitez revenir à l\'une des icônes du répertoire, cliquez sur l\'icône personnalisée dans la case ci-dessus, puis cliquez sur « Supprimer », puis sur « OK », puis cliquez sur « Enregistrer les modifications » au bas de ce formulaire. L\'icône du répertoire sélectionné apparaîtra maintenant sur la page de connexion Moodle.</li></ul>';
 $string['cfg_customicon_key'] = 'Icône personnalisée';
 $string['cfg_debugmode_desc'] = 'En cas d\'activation, les informations seront enregistrées dans le journal Moodle pour aider à identifier les problèmes.';
@@ -78,10 +70,6 @@ $string['cfg_loginflow_rocreds'] = 'Octroi des identifiants de mot de passe du p
 $string['cfg_loginflow_rocreds_desc'] = 'En utilisant ce flux, l\'utilisateur entre son nom d\'utilisateur et son mot de passe dans le formulaire de connexion Moodle comme il le ferait avec une connexion manuelle. Cela autorisera l\'utilisateur avec fournisseur d\'identité, mais ne créera pas de session sur le site du fournisseur d\'identité. Par exemple, si vous utilisez Microsoft 365 avec OpenID Connect, l\'utilisateur sera connecté à Moodle mais pas aux applications Web Microsoft 365. L\'utilisation de la demande d\'autorisation est recommandée si vous souhaitez que les utilisateurs soient connectés à la fois à Moodle et au fournisseur d\'identité. Notez que tous les fournisseurs d\'identité ne prennent pas en charge ce flux. Cette option ne doit être utilisée que lorsque d\'autres types d\'octroi d\'autorisation ne sont pas disponibles.';
 $string['cfg_logoutendpoint_desc'] = 'L\'URI du point de terminaison de déconnexion de votre fournisseur d\'identité à utiliser.';
 $string['cfg_logoutendpoint_key'] = 'Point de terminaison de déconnexion';
-$string['cfg_oidcresource_desc'] = 'La ressource OpenID Connect pour laquelle envoyer la demande.';
-$string['cfg_oidcresource_key'] = 'Ressource';
-$string['cfg_oidcscope_desc'] = 'La portée OIDC à utiliser.';
-$string['cfg_oidcscope_key'] = 'Portée';
 $string['cfg_opname_desc'] = 'Il s\'agit d\'une étiquette destinée à l\'utilisateur final qui identifie le type d\'informations d\'identification que l\'utilisateur doit utiliser pour se connecter. Cette étiquette est utilisée dans toutes les parties de ce plugin destinées aux utilisateurs pour identifier votre fournisseur.';
 $string['cfg_opname_key'] = 'Nom du fournisseur';
 $string['cfg_redirecturi_desc'] = 'Il s\'agit de l\'URI à enregistrer en tant qu\' « URI de redirection ». Votre fournisseur d\'identité OpenID Connect doit le demander lors de l\'enregistrement de Moodle en tant que client. <br /><b>REMARQUE :</b> Vous devez entrer ceci dans votre fournisseur OpenID Connect *exactement* tel qu\'il apparaît ici. Toute différence empêchera les connexions à l\'aide d\'OpenID Connect.';
@@ -90,10 +78,6 @@ $string['cfg_signoffintegration_desc'] = 'Si activé, lorsqu\'un utilisateur de 
 
 Notez que l\'URL du site Moodle ({$a}) doit être ajoutée en tant qu\'URI de redirection dans l\'application Azure créée pour l\'intégration de Moodle dans Office 365.';
 $string['cfg_signoffintegration_key'] = 'Déconnexion unique';
-$string['cfg_tokenendpoint_desc'] = 'L\'URI du point de terminaison du jeton de votre fournisseur d\'identité à utiliser.';
-$string['cfg_tokenendpoint_key'] = 'Point de terminaison du jeton';
-$string['cfg_tools'] = 'Outils';
-$string['cfg_userrestrictioncasesensitive_desc'] = 'Cela contrôle si l\'option « /i » dans l\'expression régulière est utilisée dans la correspondance de restriction utilisateur.<br/>Si elle est activée, toutes les vérifications de restriction utilisateur seront effectuées comme sensibles à la casse. Notez que si cette option est désactivée, tous les motifs sur les majuscules seront ignorés.';
 $string['cfg_userrestrictions_desc'] = 'Autoriser uniquement les utilisateurs qui répondent à certaines restrictions à se connecter. <br /><b>Comment utiliser les restrictions d\'utilisateur : </b> <ul><li>Entrez une <a href="https://en.wikipedia.org/wiki/Regular_expression">expression régulière</a > modèle qui correspond aux noms d\'utilisateur des utilisateurs que vous souhaitez autoriser.</li><li>Entrez un modèle par ligne</li><li>Si vous entrez plusieurs modèles, un utilisateur sera autorisé s\'il correspond à N\'IMPORTE QUEL modèle. </li><li>Le caractère "/" doit être échappé avec "\\".</li><li>Si vous n\'entrez aucune restriction ci-dessus, tous les utilisateurs pouvant se connecter au fournisseur OpenID Connect seront accepté par Moodle.</li><li>Tout utilisateur qui ne correspond à aucun des modèles saisis ne pourra pas se connecter à l\'aide d\'OpenID Connect.</li></ul>';
 $string['cfg_userrestrictions_key'] = 'Restrictions utilisateurs';
 $string['cfg_userrestrictionscasesensitive_key'] = 'Restrictions utilisateur sensibles à la casse';
@@ -110,8 +94,6 @@ $string['errorauthgeneral'] = 'Un problème est survenu lors de votre connexion.
 $string['errorauthinvalididtoken'] = 'Identifiant de jeton non valide reçu.';
 $string['errorauthloginfailednouser'] = 'Connexion non valide : utilisateur introuvable dans Moodle. Si ce site a le paramètre « authpreventaccountcreation » activé, cela peut signifier que vous avez besoin d\'un administrateur pour vous créer un compte d\'abord.';
 $string['errorauthnoauthcode'] = 'Aucun code d\'autorisation n\'a été reçu du serveur d\'identité. Les journaux d\'erreurs peuvent contenir plus d\'informations.';
-$string['errorauthnocreds'] = 'Veuillez configurer les informations d\'identification du client OpenID Connect.';
-$string['errorauthnoendpoints'] = 'Veuillez configurer les informations d\'identification du client OpenID Connect.';
 $string['errorauthnohttpclient'] = 'Veuillez définir un client HTTP.';
 $string['errorauthnoidtoken'] = 'OpenID Connect id_token non reçu.';
 $string['errorauthunknownstate'] = 'État inconnu.';

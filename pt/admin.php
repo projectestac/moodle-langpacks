@@ -331,7 +331,7 @@ $string['configoverride'] = 'Definido em config.php';
 $string['configpasswordpolicy'] = 'Se ativar esta opção, as senhas dos utilizadores terão de cumprir a política de senhas especificada nas configurações abaixo. A ativação da política de senhas não afetará os utilizadores já existentes até que decidam ou precisem de alterar a senha ou a configuração \'Verificar senha ao autenticar\' está ativada.';
 $string['configpasswordpolicycheckonlogin'] = 'Se ativar esta opção, as senhas dos utilizadores serão verificadas em relação à política de senha sempre que os utilizadores se autenticarem no site. Se a verificação falhar, o utilizador terá que alterar a sua senha antes de continuar.
 É útil ativar esta configuração depois de atualizar a política de senha.';
-$string['configpasswordresettime'] = 'Esta configuração especifica quanto tempo o utilizador tem para validar um pedido de reposição de senha antes que esta expire. Normalmente, 30 minutos é um intervalo adequado.';
+$string['configpasswordresettime'] = 'Esta configuração especifica quanto tempo o utilizador tem para validar um pedido de reposição de senha antes que este expire. Normalmente, 30 minutos é um intervalo adequado.';
 $string['configpathtodu'] = 'Caminho para o programa <strong>du</strong>. Provavelmente algo como \'/usr/bin/du\'. Se indicar um valor, as páginas que exibem conteúdos de pastas com muitos ficheiros irão ser processadas com maior rapidez.';
 $string['configpathtophp'] = 'Caminho para a CLI do PHP. Provavelmente algo como \'/usr/bin/php\'. Se for indicado, os scripts cron podem ser executados a partir da interface web de administração.';
 $string['configperfdebug'] = 'Se ativar esta opção, será mostrada informação sobre desempenho no rodapé do tema standard do Moodle.';

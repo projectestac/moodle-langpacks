@@ -387,7 +387,7 @@ $string['numberofdraftsubmissions'] = 'المسودات';
 $string['numberofparticipants'] = 'المشاركون';
 $string['numberofsubmissionsneedgrading'] = 'بحاجة للتقييم';
 $string['numberofsubmittedassignments'] = 'مسلمة';
-$string['numberofteams'] = 'المجموعات';
+$string['numberofteams'] = 'مجموعات';
 $string['offline'] = 'التسليمات عبر الاتصال بالإنترنت غير مطلوبة';
 $string['open'] = 'إفتح';
 $string['outlinegrade'] = 'الدرج: {$a}';
@@ -406,7 +406,7 @@ $string['page-mod-assign-x'] = 'أي صفحة لوحدة الواجب';
 $string['paramtimeremaining'] = '{$a} باقية';
 $string['participant'] = 'المشارك';
 $string['pluginadministration'] = 'إدارة الواجب';
-$string['pluginname'] = 'الواجب';
+$string['pluginname'] = 'واجب';
 $string['preventsubmissionnotingroup'] = 'يتطلب قيام المجموعة بتقديم التسليم';
 $string['preventsubmissionnotingroup_help'] = 'عند تمكينه، سيكون المستخدمون اللامنتمون إلى أي مجموعة غير قادرين على تقديم تسليمات.';
 $string['preventsubmissions'] = 'إمنع المستخدم من تقديم المزيد من التسليمات لهذا الواجب.';
@@ -560,7 +560,7 @@ $string['submissionstatus_reopened'] = 'أُعيد فتحه';
 $string['submissionstatus_submitted'] = 'مسلمة للتقييم';
 $string['submissionstatusheading'] = 'حالة التسليم';
 $string['submissionsummary'] = '{$a->status}. آخر تعديل في {$a->timemodified}';
-$string['submissionteam'] = 'المجموعة';
+$string['submissionteam'] = 'مجموعة';
 $string['submissiontypes'] = 'أنواع التسليم';
 $string['submitaction'] = 'تسليم';
 $string['submitassignment'] = 'تسليم الواجب';
@@ -581,7 +581,7 @@ $string['teamsubmission_help'] = 'عند تمكينه، سيتم تقسيم ال
 $string['teamsubmissiongroupingid'] = 'التجميع لمجموعات الطلبة';
 $string['teamsubmissiongroupingid_help'] = 'هذا هي التجميع التي سيستعمله الواجب للعثور على المجموعات في حالة التسليم كمجموعات. إذا لم تتم تهيئته، سيتم استعمال المجموعات الافتراضية.';
 $string['textinstructions'] = 'تعليمات التسليم';
-$string['timemodified'] = 'آخر تعديل';
+$string['timemodified'] = 'اخر تعدبل';
 $string['timeremaining'] = 'الزمن المتبقي';
 $string['timeremainingcolon'] = 'الزمن المتبقي: {$a}';
 $string['togglezoom'] = 'تكبير/تصغير المنطقة';
@@ -620,7 +620,7 @@ $string['viewgradingformforstudent'] = 'معاينة صفحة التقييم ل�
 $string['viewownsubmissionform'] = 'معاينة صفحة تسليم الوظيفة الشخصية';
 $string['viewownsubmissionstatus'] = 'معاينة صفحة حالة التسليم الشخصية';
 $string['viewrevealidentitiesconfirm'] = 'معاينة صفحة تأكيد كشف هويات الطلاب.';
-$string['viewsubmission'] = 'معاينة التسليم';
+$string['viewsubmission'] = 'عرض التسليمات';
 $string['viewsubmissionforuser'] = 'معاينة التسليم للمستخدم: {$a}';
 $string['viewsubmissiongradingtable'] = 'معاينة جدول تقييم التسليم.';
 $string['viewsummary'] = 'معاينة الملخص';

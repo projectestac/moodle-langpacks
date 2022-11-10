@@ -90,6 +90,6 @@ $string['updatecourses_desc'] = 'Bei Aktivierung kann das IMS Enterprise Einschr
 $string['updateusers'] = 'Nutzeraccounts aktualisieren, falls dies in IMS Daten festgelegt ist';
 $string['updateusers_desc'] = 'Bei Aktivierung können IMS Enterprise Enschreibungs-Daten Veränderungen in Nutzer Accounts festlegen (wenn die "recstatus"-Markierung durch \'2\' ein Update signalisiert).';
 $string['usecapitafix'] = 'Haken setzen, wenn "Großbuchstaben" verwendet werden (XML-Format ist fehlerhaft)';
-$string['usecapitafix_desc'] = 'Nur für Nutzende des Teilnehmendenverwaltungssystem CAPITA: Der XML Output von Capita enthält einen Fehler. Bei Verwendung von Capita sollte diese Einstellung deaktiviert sein.';
+$string['usecapitafix_desc'] = 'Es wurde festgestellt, dass das von Capita erstellte Datensystem für Teilnehmer/innen einen kleinen Fehler in seiner XML-Ausgabe aufweist. Wenn Sie Capita verwenden, sollten Sie diese Einstellung aktivieren - andernfalls lassen Sie sie deaktiviert.';
 $string['usersettings'] = 'Nutzerdateneinstellungen';
 $string['zeroisnotruncation'] = '0 bedeutet nicht abschneiden';

@@ -52,6 +52,7 @@ $string['attendance:canbelisted'] = 'Verschijnt in het rooster';
 $string['attendance:changeattendances'] = 'Wijzig aanwezigheid';
 $string['attendance:changepreferences'] = 'Wijzig voorkeuren';
 $string['attendance:export'] = 'Exporteer rapporten';
+$string['attendance:import'] = 'Sessies importeren uit bestand (CSV)';
 $string['attendance:manageattendances'] = 'Beheer aanwezigheid';
 $string['attendance:managetemporaryusers'] = 'Beheer tijdelijke gebruikers';
 $string['attendance:takeattendances'] = 'Neem aanwezigheid op';
@@ -63,6 +64,7 @@ $string['attendance_already_submitted'] = 'Je aanwezigheid is al geregistreerd.'
 $string['attendance_no_status'] = 'Er is geen geldige status aanwezig - je wil misschien later de aanwezigheid registreren.';
 $string['attendancedata'] = 'Aanwezigheids gegevens';
 $string['attendancefile'] = 'Aanwezigheidsbestand (CSV format)';
+$string['attendancefile_help'] = 'Het bestand moet een CSV-bestand zijn met een regel die de koppen bevat en velden om de gebruiker te identificeren en het tijdstip waarop aanwezigheid geregistreerd werd, bijv. (email, scantime) of (username,time)';
 $string['attendanceforthecourse'] = 'Aanwezigheid voor de cursus';
 $string['attendancegrade'] = 'Aanwezigheidscijfer';
 $string['attendancenotset'] = 'Je moet de aanwezigheid opnemen';
@@ -81,6 +83,7 @@ $string['automark'] = 'Automatisch markeren';
 $string['automarkall'] = 'Ja';
 $string['automarkclose'] = 'Instellen op niet gemarkeerd aan het einde van de sessie';
 $string['automarktask'] = 'Controleren op aanwezigheidssessies die automatisch markeren vereisen';
+$string['automarkuseempty'] = 'Afhandelen beschikbaarheid automatisch markeren';
 $string['autorecorded'] = 'automatisch opgenomen door systeem';
 $string['averageattendance'] = 'Gemiddelde aanwezigheid';
 $string['averageattendancegraded'] = 'Gemiddelde aanwezigheid';
@@ -110,12 +113,11 @@ $string['countofselected'] = 'Aantal geselecteerd.';
 $string['course'] = 'Cursus';
 $string['coursesummary'] = 'Cursus samenvattingsrapportage';
 $string['createmultiplesessions'] = 'Creëer meerdere sessies';
-$string['createmultiplesessions_help'] = 'Deze functie geeft je de mogelijkheid om in één makkelijke stap.
+$string['createmultiplesessions_help'] = 'Met deze functie kun je in een keer meerdere sessies aanmaken . De sessies beginnen op de datum van de basissessie en lopen door tot de datum \'Herhaal tot\' is bereikt.
 <ul>
-<li><strong>Sessie Start datum</strong> : Selecteer de start datum van uw cursus (de eerste lesdag).</li>
-<li><strong>Sessie Eind datum</strong> : Selecteer de einddatum van de cursus (laatste lesdag).</li>
-<li><strong>Sessie dagen</strong> : Selecteerd de dagen van de week waarop de lessen plaatsvinden (bv Maandag, Woensdag, Vrijdag).</li>
-<li><strong>Frequentie</strong> : De herhalingstijd van de lessen. 1; elke week, 2; om de week 3; elke 3e week, etc</li>
+<li><strong>Herhaal op</strong>: Selecteer de dag(en) van de week waarop je bijeenkomst plaatsvindt (bijvoorbeeld Maandag/Woensdag/Vrijdag).</li>
+<li><strong>Herhaal iedere</strong>:Hiermee kun je de frequentie instellen. Als je bijeenkomst iedere week plaatsvindt, kies je 1; Als dat om de week is, kies je 2; Als dat om de 2 weken is, kies je 3.</li>
+<li><strong>Herhaal tot</strong>: Selecteer de laatste dag van de reeks bijeenkomsten (de laatste dag dat je aanwezigheid wilt bijhouden).</li>
 </ul>';
 $string['createonesession'] = 'Creëer één sessie voor de cursus';
 $string['csvdelimiter'] = 'CSV scheidingsteken';
@@ -131,6 +133,7 @@ $string['defaultview'] = 'Standaard weergave bij login';
 $string['defaultwarnings'] = 'Standaard waarschuwingsset';
 $string['defaultwarningsettings'] = 'Standaard waarschuwingsinstellingen';
 $string['delete'] = 'Verwijderen';
+$string['deletehiddensessions'] = 'Verwijder alle verborgen sessies';
 $string['deletelogs'] = 'Verwijder aanwezigheids-gegevens';
 $string['deleteselected'] = 'Verwijder geselecteerde';
 $string['deletesession'] = 'Verwijder sessie';
@@ -173,6 +176,7 @@ $string['emailsubject'] = 'E-mail onderwerp';
 $string['emailsubject_default'] = 'Aanwezigheidswaarschuwing';
 $string['emailsubject_help'] = 'Wanneer een waarschuwing wordt gestuurd naar een student, wordt het e-mail onderwerp gebruikt dat in dit veld staat.';
 $string['emailuser'] = 'E-mail gebruiker';
+$string['emailuser_help'] = 'Indien aangevinkt wordt er een waarschuwing naar de leerling gestuurd.';
 $string['emptyacronym'] = 'Lege acroniemen zijn niet toegestaan. Status record niet aangepast.';
 $string['emptydescription'] = 'Lege beschrijvingen zijn niet toegestaan. Status record niet aangepast.';
 $string['enablecalendar'] = 'Kalendergebeurtenissen aanmaken';
@@ -219,7 +223,10 @@ $string['includenottaken'] = 'Inclusief niet genoteerde sessies';
 $string['includeremarks'] = 'Inclusief opmerkingen';
 $string['indetail'] = 'Details';
 $string['invalidaction'] = 'Je moet een actie selecteren';
-$string['invalidsessionenddate'] = 'De einddatum van de sessies kan niet liggen voor de startdatum';
+$string['invalidimportfile'] = 'Ongeldig bestandsformaat.';
+$string['invalidsessionenddate'] = 'Deze datum kan niet eerder zijn dan de datum van de sessie';
+$string['invalidstatus'] = 'Je hebt een ongeldige status geselecteerd, probeer het opnieuw';
+$string['iptimemissing'] = 'Ongeldig aantal minuten tot vrijgeven';
 $string['jumpto'] = 'Spring naar';
 $string['maxpossiblepercentage'] = 'Maximaal haalbare percentage';
 $string['maxpossiblepoints'] = 'Maximaal haalbare punten';

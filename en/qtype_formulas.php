@@ -38,8 +38,8 @@ defines the number of answer fields for this part.
 <pre class="prettyprint">123<br>[1, 0, 0, 1]<br>a<br>[1, a, b]<br>"exp(-a t)"<br>["vx t","vy t - 0.5 a t^2"]</pre>';
 $string['answercombinedunitmulti'] = 'Answer and unit for part {$a->part}';
 $string['answercombinedunitsingle'] = 'Answer and unit';
-$string['answercoordinatemulti'] = 'Answer for part {$a->part} and coordinate {$a->numanswer}';
-$string['answercoordinatesingle'] = 'Answer for coordinate {$a->numanswer}';
+$string['answercoordinatemulti'] = 'Answer field {$a->numanswer} for part {$a->part}';
+$string['answercoordinatesingle'] = 'Answer field {$a->numanswer}';
 $string['answermark'] = 'Part\'s mark*';
 $string['answermark_help'] = '**Required**.
 The mark for the answer of this part, which should be a number greater than 0.
@@ -130,6 +130,7 @@ $string['functiontakesatleasttwo'] = 'The function {$a} must have at least two a
 $string['functiontakesnoargs'] = 'The function {$a} does not take any arguments';
 $string['functiontakesonearg'] = 'The function {$a} must have exactly one argument';
 $string['functiontakesoneortwoargs'] = 'The function {$a} must have either one or two arguments';
+$string['functiontakesthreeargs'] = 'The function {$a} must have exactly three arguments';
 $string['functiontakestwoargs'] = 'The function {$a} must have exactly two arguments';
 $string['globaloptions'] = '[Global] -';
 $string['globalvarshdr'] = 'Variables';
@@ -205,9 +206,9 @@ $string['subqtext_help'] = 'Part text and answer fields places can be specified 
 
 <pre class="prettyprint">{_0}<br>{_1}<br>{_2}<br>...<br>{_u}</pre>
 
-The <tt> {_0}, {_1}, {_2} </tt> are the input fields for coordinates and <tt> {_u} </tt> is the input field for unit.
+The <tt> {_0}, {_1}, {_2} </tt> are the different input fields for values and <tt> {_u} </tt> is the input field for unit.
 
-All missing fields are automatically appended at the end of the part\'s text. A special case is that if <tt> {_0}, {_u} </tt> are specified consecutively, and there is only one coordinate and unit, i.e. <tt> {_0}{_u} </tt>, they will be combined into a single long input answer field for both answer and unit.';
+All missing fields are automatically appended at the end of the part\'s text. A special case is that if <tt> {_0}, {_u} </tt> are specified consecutively, and there is only one answer field and unit, i.e. <tt> {_0}{_u} </tt>, they will be combined into a single long input answer field for both answer and unit.';
 $string['unit'] = 'Unit';
 $string['unitpenalty'] = 'Deduction for wrong unit (0-1)*';
 $string['unitpenalty_help'] = 'This option specify the mark you want to penalize the student for a wrong unit.

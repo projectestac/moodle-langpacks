@@ -253,6 +253,9 @@ $string['menu'] = 'Menü';
 $string['menuchoose'] = 'Auswählen ...';
 $string['missingdata'] = 'Daten-ID bzw. Datenobjekt müssen zur Feldklasse passen';
 $string['missingfield'] = 'Programmierfehler: Sie müssen Feld und Daten angeben, wenn Sie eine Feldklasse definieren.';
+$string['missingfieldtype'] = 'Feldtyp für {$a->name} nicht gefunden';
+$string['missingfieldtypeimport'] = 'Die folgenden Felder wurden nicht importiert, da die zugehörigen Feldtypen nicht installiert sind:';
+$string['missingfieldtypes'] = 'Für die folgenden Felder sind die zugehörigen Feldtypen nicht installiert. Die Felder werden beim Hinzufügen oder Bearbeiten von Einträgen nicht in die Formulare aufgenommen. Die Beschriftungen werden möglicherweise weiterhin auf dem Formular angezeigt. Aktualisieren Sie daher bitte "Vorlage hinzufügen" entsprechend:';
 $string['modulename'] = 'Datenbank';
 $string['modulename_help'] = 'Die Datenbank ermöglicht es den Teilnehmer/innen, gemeinsam eine Sammlung von Einträgen zu erstellen, zu pflegen und zu durchsuchen.
 
@@ -392,6 +395,7 @@ $string['timemodified'] = 'Zuletzt geändert';
 $string['todatabase'] = 'in diese Datenbank';
 $string['type'] = 'Feld-Typ';
 $string['undefinedprocessactionmethod'] = 'In Data_Preset wurde keine Verarbeitungsmethode definiert für: "{$a}".';
+$string['unknown'] = 'Unbekanntes Feld';
 $string['unsupportedexport'] = '({$a->fieldtype}) kann nicht exportiert werden';
 $string['unsupportedfields'] = 'Nichtunterstützte Felder';
 $string['unsupportedfieldslist'] = 'Folgenden Felder können nicht exportiert werden:';

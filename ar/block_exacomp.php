@@ -85,7 +85,6 @@ $string['privacy:metadata:block_exacompexampvisibility'] = 'أمثلة على ا
 $string['privacy:metadata:block_exacompexampvisibility:studentid'] = 'الطالب';
 $string['privacy:metadata:block_exacompexternaltrainer:studentid'] = 'الطالب';
 $string['privacy:metadata:block_exacompprofilesettings:userid'] = 'الطالب';
-$string['privacy:metadata:block_exacompschedule:end'] = 'وقت الإنهاء';
 $string['privacy:metadata:block_exacompschedule:start'] = 'وقت البدء';
 $string['privacy:metadata:block_exacompschedule:studentid'] = 'الطالب';
 $string['privacy:metadata:block_exacompschedule:timecreated'] = 'وقت إنشاء السجل';

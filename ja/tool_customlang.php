@@ -49,6 +49,7 @@ $string['customlang:export'] = 'ローカル翻訳をエクスポートする';
 $string['customlang:view'] = 'ローカル翻訳を表示する';
 $string['export'] = 'カスタムストリングをエクスポートする';
 $string['exportfilter'] = 'エクスポートするコンポーネントを選択する';
+$string['exportzipfilename'] = 'customlang-export-{$a->lang}.zip';
 $string['filter'] = 'フィルタ設定';
 $string['filtercomponent'] = 'ストリングを表示するコンポーネント';
 $string['filtercustomized'] = 'カスタマイズのみ';
