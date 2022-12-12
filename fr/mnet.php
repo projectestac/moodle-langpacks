@@ -90,7 +90,7 @@ $string['hideremote'] = 'Cacher les utilisateurs distants';
 $string['host'] = 'Serveur';
 $string['hostcoursenotfound'] = 'Le serveur ou le cours n\'a pas été trouvé';
 $string['hostdeleted'] = 'Serveur supprimé';
-$string['hostexists'] = 'Un enregistrement d\'un serveur de ce nom existe déjà (peut-être déjà supprimé). <a href="{$a}">Cliquez ici</a> pour modifier cet enregistrement.';
+$string['hostexists'] = 'Un enregistrement d\'un serveur de ce nom existe déjà (peut-être déjà supprimé). <a href="{$a}">Cliquer ici</a> pour modifier cet enregistrement.';
 $string['hostlist'] = 'Liste des serveurs en réseau';
 $string['hostname'] = 'Nom d\'hôte';
 $string['hostnamehelp'] = 'Le nom de domaine complet (FQDN) du serveur distant, par exemple www.exemple.fr';

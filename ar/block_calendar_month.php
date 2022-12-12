@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['calendar_month:addinstance'] = 'إضافة كتلة تقويم جديدة';
 $string['calendar_month:myaddinstance'] = 'إضافة كتلة تقويم جديدة إلى لوحة التحكم';
-$string['pluginname'] = 'تقويم';
+$string['pluginname'] = 'التقويم';
 $string['privacy:metadata'] = 'كتلة التقويم تظهر فقط بيانات التقويم الموجودة.';

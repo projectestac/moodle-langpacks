@@ -67,7 +67,7 @@ $string['correctness'] = 'Critério de avaliação*';
 $string['correctness_help'] = '**Obrigatório**. Pode escolher qualquer erro relativo ou erro absoluto com um intervalo de erro. O erro relativo não pode ser usado para o tipo de resposta algébrica.
 Para uma definição precisa do erro relativo e do erro absoluto, quando há mais de um campo de resposta, consulte a documentação.';
 $string['correctnessexpert'] = 'Especialista';
-$string['correctnesssimple'] = 'Simples';
+$string['correctnesssimple'] = 'Modo simplificado';
 $string['defaultanswermark'] = 'Nota predefinida da parte';
 $string['defaultanswermark_desc'] = 'Nota predefinida da parte para novas partes de pergunta';
 $string['defaultanswertype'] = 'Tipo de resposta predefinido';
@@ -123,7 +123,6 @@ $string['functiontakesonearg'] = 'A função {$a} deve ter exatamente um argumen
 $string['functiontakesoneortwoargs'] = 'A função {$a} deve ter um ou dois argumentos';
 $string['functiontakesthreeargs'] = 'A função {$a} deve ter exatamente três argumentos';
 $string['functiontakestwoargs'] = 'A função {$a} deve ter exatamente dois argumentos';
-$string['globaloptions'] = '[Global] -&nbsp;';
 $string['globalvarshdr'] = 'Variáves';
 $string['illegalformulasyntax'] = 'Sintaxe de fórmula incorreta que começa com \'{$a}\'';
 $string['incorrectfeedback'] = 'Para qualquer resposta incorreta';
@@ -166,8 +165,9 @@ Além disso, <tt>/</tt> pode ser usado para o expoente inverso. Qualquer permuta
 Os alunos devem usar o mesmo formato de entrada. Por exemplo,
 
 <pre class="prettyprint">1 m<br>0.1 m^2<br>20 m s^(-1)<br>400 kg m/s<br>100 kW</pre>';
+$string['previewerror'] = 'Nenhuma visualização disponível. Verifique a sua definição de variáveis aleatórias, variáveis globais, variáveis locais das partes e respostas. Mensagem de erro original:';
 $string['privacy:metadata'] = 'O módulo de tipo de pergunta Fórmulas não armazena qualquer dado pessoal.';
-$string['qtextpreview'] = 'Pré-visualizar usando o conjunto de dados';
+$string['qtextpreview'] = 'Pré-visualizar';
 $string['questiontext'] = 'Texto da pergunta';
 $string['questiontext_help'] = 'Além do texto normal da pergunta, também pode usar variáveis globais e marcadores de espaços de resposta.
 
@@ -183,7 +183,7 @@ $string['ruleid_help'] = 'Este tipo de pergunta possui um sistema integrado de c
 O básico são as regras das "Unidades do SI" que irão converter unidades padrão como por exemplo, unidade para comprimento, km, m, cm e mm. Esta opção não tem efeito se nenhuma unidade tiver sido usada.';
 $string['settingusepopup'] = 'Usar dicas de ajuda';
 $string['settingusepopup_desc'] = 'Mostrar a resposta correta e comentários numa dica de ajuda';
-$string['subqoptions'] = 'Opções extra';
+$string['subqoptions'] = 'Configurações da unidade';
 $string['subqtext'] = 'Texto da parte';
 $string['subqtext_help'] = 'Os campos de texto e os campos de resposta podem ser especificados aqui. Os marcadores de espaços de resposta (espaços reservados) que podem ser usados para especificar locais de campos de resposta são:
 

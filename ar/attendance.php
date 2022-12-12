@@ -485,6 +485,7 @@ $string['sessionduplicate'] = 'توجد جلسة مكررة في المقرر ا
 $string['sessionexist'] = 'لم تتم إضافة الجلسة (موجودة مسبقاً)!';
 $string['sessiongenerated'] = 'تم توليد جلسة واحدة بنجاح';
 $string['sessions'] = 'الجلسات';
+$string['sessionsallcourses'] = 'كل المساقات';
 $string['sessionscompleted'] = 'الجلسات المأخوذة';
 $string['sessionsgenerated'] = '{$a} من الجلسات تم توليدها بنجاح';
 $string['sessionsids'] = 'مُعرَّفات الجلسات:';

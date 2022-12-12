@@ -410,7 +410,7 @@ $string['uploadrecords_help'] = 'Os registos podem ser carregados via ficheiro d
 * Cada registo é uma linha com uma série de dados separados pelo separador selecionado
 *O primeiro registo contém uma lista com os nomes dos campos, definindo assim o formato do resto do ficheiro
 
-O delimitador dos valores dos campos é um carácter que marca o início e fim do valor de cada campo. Em geral pode deixar indefinido.';
+O delimitador dos valores dos campos é um caráter que marca o início e fim do valor de cada campo. Em geral pode deixar indefinido.';
 $string['uploadrecords_link'] = 'mod/data/import';
 $string['url'] = 'URL';
 $string['usedate'] = 'Incluir na pesquisa.';

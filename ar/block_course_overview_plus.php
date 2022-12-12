@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'ar', version '3.11'.
+ * Strings for component 'block_course_overview_plus', language 'ar', version '3.11'.
  *
- * @package     datafield_textarea
+ * @package     block_course_overview_plus
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,8 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'منطقة النص';
-$string['maxbytes'] = 'الحد الأقصى لحجم الملف المضمن (بالبايت)';
-$string['maxbytes_desc'] = 'إذا وضعت صفر فسوف يكون غير محدود بشكل افتراضي';
-$string['pluginname'] = 'مساحة النص';
-$string['privacy:metadata'] = 'إن مُكون حقل منطقة النص لا يخزن أي بيانات شخصية، بل يستعمل الجداول المعرفة في mod_data.';
+$string['all'] = 'الكل';

@@ -34,6 +34,8 @@ $string['enabled'] = 'Planet eStream Submissions enabled';
 $string['enabled_help'] = 'If enabled, students are able to submit upload video/audio files for assessment via Planet eStream when using the text editor plugins.';
 $string['forcesubmit'] = 'Force Submission';
 $string['forcesubmit_help'] = 'Force users to complete the submission process. Some schools create assignments where submission of a Planet eStream item is optional, and this setting should thus remain off.';
+$string['helptext'] = 'Help Text';
+$string['helptext_help'] = 'Add optional text above the plugin window to assist users.';
 $string['nosubmission'] = 'Nothing has yet been submitted';
 $string['notyetconfigured'] = 'Sorry, the Planet eStream Assignment Submission Plugin is not yet configured.';
 $string['pluginname'] = 'Planet eStream Submission Plugin';
@@ -52,7 +54,7 @@ $string['settingsusemail'] = 'Use Email Address for Authentication';
 $string['settingsusemail_help'] = 'By default, the Planet eStream plugins will use the username for authentication. Tick this box to instead use the user email address.';
 $string['shortname'] = 'Video/Audio Submission';
 $string['upload'] = 'Upload a Video or Audio file';
-$string['upload_help'] = 'Click the Browse button, select a video or audio file to upload, then click Upload.<br />Once uploaded, the file will be available after having been processed by the system.  Please note that larger uploads require more processing time and may take some time to display on the system.<br />';
+$string['upload_help'] = '';
 $string['uploadfailed'] = 'Upload Failed<br /><br />Please refresh the page and try again';
 $string['uploadok'] = 'File Upload Complete<br /><br />WARNING: The Submission is NOT yet complete!<br /><br />To finish submission,
 please click &apos;Save changes&apos; below to save.';

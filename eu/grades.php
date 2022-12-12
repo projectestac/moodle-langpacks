@@ -279,7 +279,7 @@ $string['gradecategoryonmodform_help'] = 'Ezarpen honek zehazten du jarduera hon
 $string['gradecategorysettings'] = 'Kalifikazio-kategorien ezarpenak';
 $string['gradedisplay'] = 'Kalifikazioa erakutsi';
 $string['gradedisplaytype'] = 'Kalifikazioa erakusteko modua';
-$string['gradedisplaytype_help'] = 'Ezarpen honek adierazten du nola erakusten diren kalifikazioak kalifikatzaile eta erabiltzailearen txostenetan.
+$string['gradedisplaytype_help'] = 'Ezarpen honek adierazten du nola erakusten diren kalifikazioak kalifikazio-liburuan eta erabiltzaile-txostenetan.
 
 * Benetakoa - Oraingo kalifikazio balore-eskalak
 * Ehunekoa - Gehieneko eta gutxieneko kalifikazioekiko
@@ -799,7 +799,7 @@ $string['showverbose'] = 'Erakutsi {$a->category} {$a->itemmodule} {$a->itemname
 $string['showweight'] = 'Erakutsi ponderazioak';
 $string['showweight_help'] = 'Kalifikazio-pisuaren zutabea erakutsiko den edo ez';
 $string['simpleview'] = 'Banakako ikuspegia';
-$string['singleview'] = 'Ikuspegi sinplea ondokoarentzat: {$a}';
+$string['singleview'] = 'Banakako ikuspegia ondokoarentzat: {$a}';
 $string['sitewide'] = 'Gune osoa';
 $string['sort'] = 'ordenatu';
 $string['sortasc'] = 'Ordenatu behetik gora';

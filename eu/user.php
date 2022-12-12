@@ -150,5 +150,5 @@ $string['privacy:profileimagespath'] = 'Profileko irudiak';
 $string['privacy:sessionpath'] = 'Saioaren datuak';
 $string['selectfiltertype'] = 'Aukeratu';
 $string['target:upcomingactivitiesdue'] = 'Datozen jarduera-amaierak';
-$string['target:upcomingactivitiesdue_help'] = 'Helburu honek datozen jarduera-amaierentzako gogorarazpenak sortzen ditu.';
+$string['target:upcomingactivitiesdue_help'] = 'Helburu honek datozen jarduera-amaierentzako ohartarazpenak sortzen ditu.';
 $string['target:upcomingactivitiesdueinfo'] = 'Aurreikuspen guztietako programatutako jarduerak hemen erakusten dira. Ikasle hauek aurreikuspen hauek zuzenean jaso dituzte.';
