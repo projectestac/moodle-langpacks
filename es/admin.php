@@ -97,7 +97,7 @@ $string['blockediplist'] = 'Lista de IPs bloqueadas';
 $string['blockinstances'] = 'Instancias';
 $string['blockmultiple'] = 'Múltiple';
 $string['blockprotect'] = 'Proteger instancias';
-$string['blockprotect_help'] = 'Si bloquea un determinado tipo de bloque, entonces nadie será capaz de añadir o eliminar instancias. (Usted puede, por supuesto, desbloquear de nuevo si necesita editar alguno.)
+$string['blockprotect_help'] = 'Si bloquea un determinado tipo de bloque, entonces nadie será capaz de añadir o eliminar instancias (puede, por supuesto, desbloquear de nuevo si necesita editar alguno).
 
 Con ello se pretende proteger los bloques de la misma manera que navegación y ajustes, que son muy difíciles de recuperar en caso de eliminarse.';
 $string['blocksettings'] = 'Gestionar bloques';
@@ -165,7 +165,7 @@ $string['computedfromlogs'] = 'Calculado a partir de los registros desde {$a}.';
 $string['condifmodeditdefaults'] = 'Los valores por defecto se utilizan en el formulario de configuración cuando se crea una nueva actividad o recurso.';
 $string['confeditorhidebuttons'] = 'Seleccione los botones que podrían ser ocultados en el editor HTML.';
 $string['configallcountrycodes'] = 'Esta es la lista de países que pueden ser seleccionadas en varios lugares, por ejemplo, en el perfil de un usuario. Si está en blanco (por defecto) se utilizará la lista de \'countries.php\' en el paquete de idioma Inglés estándar. Esta es la lista de la norma ISO 3166-1. De lo contrario, puede especificar una lista separada por comas de los códigos, por ejemplo, "GB, FR, ES. Si se agregan nuevos códigos, no estándar aquí, tendrá que añadirlos a countries.php en \'en\' y su paquete de idioma.';
-$string['configallowassign'] = 'Puede permitir a las personas que tienen los roles de la izquierda asignar algunos de los roles de la columna a otras personas';
+$string['configallowassign'] = 'Para cada rol en la columna de la izquierda, seleccione los roles que pueden asignar a otras personas.';
 $string['configallowattachments'] = 'Al habilitar esta opción permitirá que se pueden enviar archivos adjuntos con los mensajes de correo electrónico generados por diversas funcionalidades dentro del sitio, como blogs, foros, o insignias';
 $string['configallowblockstodock'] = 'Si se activa y está soportado por el tema seleccionado, los usuarios pueden optar por mover los bloques a una barra lateral \'dock\' especial';
 $string['configallowcategorythemes'] = 'Si activa esta opción, los temas pueden ajustarse al nivel de la categoría. Esto afectará a todas las categorías y cursos de nivel inferior (\'hijos\') a menos que tengan especificado su propio tema. ATENCIÓN: Habilitar esta opción puede afectar al rendimiento.';
@@ -178,14 +178,14 @@ $string['configallowemojipickerincompatible'] = 'La configuración actual de su 
 $string['configallowguestmymoodle'] = 'Si se habilita, los invitados podrán acceder al Área Personal, de lo contrario los invitados serán redirigidos a la página principal del sitio.';
 $string['configallowobjectembed'] = 'Como medida de seguridad por defecto, los usuarios normales no podrán incrustar en el código HTML objetos multimedia (e.g., Flash) dentro del texto utilizando las marcas explícitas EMBED y OBJECT (si bien podrá hacerse con seguridad utilizando el filtro mediaplugins). Active la opción si desea permitir dichas marcas.';
 $string['configallowoverride'] = 'Puede permitir a las personas que tengan los roles de la izquierda anular algunos de los roles de la columna';
-$string['configallowoverride2'] = 'Seleccione qué rol(es) puede(n) ser invalidado(s) por cada rol de la columna izquierda.<br />Tenga en cuenta que estos ajustes sólo se aplican a los usuarios que tienen la capacidad \'moodle/role:override\' o \'moodle/role:safeoverride\'.';
-$string['configallowswitch'] = 'Seleccione a qué roles puede cambiar un usuario, de entre los roles que ya tiene asignados. Además de una entrada en esta tabla el usuario debe tener también la capacidad moodle/role:switchroles para poder cambiar de rol.<br />Tenga en cuenta que solamente es posible cambiar hacia roles que tienen la capacidad moodle/course:view, y que no tengan la capacidad moodle/site:doanything, por lo que algunas columnas en esta tabla están deshabilitadas.';
+$string['configallowoverride2'] = 'Para cada rol en la columna de la izquierda, seleccione qué roles pueden establecer anulaciones.<br />Los usuarios también deben tener la capacidad moodle/role:override o moodle/role:safeoverride.';
+$string['configallowswitch'] = 'Para cada rol en la columna de la izquierda, seleccione a qué roles pueden cambiar.<br />Los usuarios también deben tener la capacidad moodle/role:switchroles.';
 $string['configallowthemechangeonurl'] = 'Si está activado, el tema gráfico se puede cambiar mediante la adición de <br/>?theme=nombredeltema a cualquier URL de Moodle (ej: misitiomoodle.com/?theme=afterburner) o <br/>&theme=nombredeltema a cualquier URL interna de Moodle (ej: misitiomoodle.com/course/view.php?id=2&theme=afterburner)';
 $string['configallowuserblockhiding'] = '¿Desea que los usuarios puedan mostrar u ocultar bloques laterales en el sitio? Esta opción usa Javascript y \'cookies\' para recordar el estado de cada bloque colapsable, y sólo afecta al modo en que cada usuario ve la información.';
 $string['configallowusermailcharset'] = 'Si habilita esta opción, todos los usuarios del sitio podrán especificar su propio juego de caracteres para escribir emails.';
 $string['configallowuserswitchrolestheycantassign'] = 'Por defecto es necesario tener el permiso moodle/role:assign para cambiar roles. Habilitando este ajuste se elimina este requisito de manera que que los roles disponibles en el menú desplegable "Cambiar rol a" estén determinados únicamente por los ajustes de la tabla "Permitir asignación de roles". Se recomienda que los ajustes de la tabla "Permitir asignación de roles" no den  permisos a los usuarios para cambiarse a un rol con más capacidades que las de su rol actual.';
 $string['configallowuserthemes'] = 'Si se activa esta opción, los usuarios podrán elegir sus propios temas. Los temas de los usuarios anulan los temas del sitio (pero no los temas del curso)';
-$string['configallowview'] = 'Seleccionar qué roles podrá ver un usuario, podrá filtrar por, etc. basado en los roles que ya tienen.';
+$string['configallowview'] = 'Para cada rol en la columna de la izquierda, seleccione los roles que pueden ver, buscar y filtrar.';
 $string['configallusersaresitestudents'] = 'En lo que concierne a las actividades de la página principal del sitio, ¿deberían todos los usuarios ser considerados como estudiantes? Si la respuesta es "Sí", cualquier usuario con cuenta confirmada podrá participar como estudiante en tales actividades. Si la respuesta es "No", sólo los usuarios que ya participan en al menos un curso podrán tomar parte en las actividades de la página principal. Sólo los administradores y profesores especialmente asignados pueden actuar como profesores en las actividades de la página principal.';
 $string['configauthenticationplugins'] = 'Por favor, seleccione los \'plugins\' de identificación que desea utilizar y dispóngalos en orden de fallo.';
 $string['configautolang'] = 'Detectar idioma por defecto desde el ajuste del navegador. Si está deshabilitado, se utiliza el idioma por defecto del sitio.';
@@ -208,7 +208,7 @@ $string['configcourseswithsummarieslimit'] = 'El número máximo de cursos que s
 $string['configcronclionly'] = 'Ejecutar el programador de tareas cron desde un navegador web puede exponer información privilegiada a usuarios anónimos. Por ello se recomienda ejecutar cron solamente desde la línea de comandos o establecer una contraseña en cron para el acceso remoto.';
 $string['configcronremotepassword'] = 'Esto significa que el script cron.php no podrá ejecutarse desde un navegador web sin suministrar la contraseña, usando el siguiente formato para la URL:<pre> https://sitiomoodle.ejemplo.com/admin/cron.php?password=contraseniasecreta</pre> Si se deja vacío, no se solicitará una contraseña.';
 $string['configcurlcache'] = 'Tiempo de vigencia (en segundos) de la caché cURL.';
-$string['configcustommenuitems'] = 'Aquí se puede configurar un menú personalizado. Ingrese cada elemento del menú en una nueva línea con formato: texto del menú, una URL de enlace (opcional, no para un elemento del menú superior con subelementos), un título de información sobre herramientas (opcional) y un código de idioma o una lista de códigos separados por comas ( opcional, para mostrar la línea a los usuarios del idioma especificado solamente), separados por caracteres de barra. Las líneas que comienzan con un guión aparecerán como elementos de menú en el menú de nivel superior anterior y ### forma un divisor. Por ejemplo:
+$string['configcustommenuitems'] = 'Aquí se puede configurar un menú personalizado. Ingrese cada elemento del menú en una nueva línea con formato: texto del menú, una URL de enlace (opcional, no para un elemento del menú superior con subelementos), un título de información sobre herramientas (opcional) y un código de idioma o una lista de códigos separados por comas ( opcional, para mostrar la línea a los usuarios del idioma especificado solamente), separados por caracteres de barra. Las líneas que comienzan con un guion aparecerán como elementos de menú en el menú de nivel superior anterior y ### forma un divisor. Por ejemplo:
 <pre>
 Cursos
 -Todos los cursos|/curso/
@@ -224,7 +224,7 @@ $string['configdebug'] = 'Si activa esta opción, se incrementará el error_repo
 $string['configdebugdisplay'] = 'Si activa esta opción, el informe de errores irá a la página HTML. Es práctico pero rompe XHTML, JS, \'cookies\' y cabeceras HTTP en general. Si deshabilita esta opción, se enviarán las salidas a los registros del servidor, permitiendo una mejor depuración. El parámetro de configuración de PHP <b>error_log</b>controla a qué registro va el error.';
 $string['configdebugpageinfo'] = 'Habilítelo si desea que la información de la página aparezca en el pie de página.';
 $string['configdebugvalidators'] = 'Activar si quiere disponer de enlaces a servidores externos de validación a pie de página. Es posible que necesite crear un nuevo usuario con nombre de usuario <em>w3cvalidator</em>, y permitir el acceso de invitados. Estos cambios pueden facilitar el acceso no autorizado al servidor, ¡no lo hago en los sitios de producción!';
-$string['configdefaulthomepage'] = 'Determina el primer enlace en la navegación para usuarios identificados';
+$string['configdefaulthomepage'] = '¿A qué página deben ser redirigidos los usuarios después de iniciar la sesión en el sitio? La configuración también determina el primer enlace en la navegación para los usuarios de temas basados en Classic.';
 $string['configdefaultrequestcategory'] = 'Los cursos que sean solicitados por usuarios con capacidad para solicitar nuevos cursos en el ámbito del sistema serán ubicados en esta categoría, a menos que los usuarios puedan seleccionar una categoría diferente.';
 $string['configdefaultrequestedcategory'] = 'Categoría por defecto en la que incluir los cursos solicitados, en el caso de que sean aprobados.';
 $string['configdefaultuserroleid'] = 'A todos los usuarios identificados se les asignarán los permisos del rol que usted especifique aquí, en el nivel del sitio, ADEMÁS de cualesquiera otros roles que puedan tener. El rol por defecto es el de Usuario identificado. Advierta que esto no entrará en conflicto con otros roles que tengan a menos que prohiba permisos. Simplemente asegura que todos los usuarios tengan permisos que no son asignables a nivel de curso (e.g., enviar entradas al blog, gestionar su propio calendario, etc.).';
@@ -267,7 +267,7 @@ $string['configextramemorylimit'] = 'Algunas secuencias de comandos como búsque
 $string['configfilterall'] = 'Filtrar todas las cadenas, incluyendo cabeceras, títulos, barra de navegación, etc. Esto resulta muy útil cuando se usa el filtro multi-idioma; de otro modo, únicamente se ocasionará una sobrecarga en el sitio para obtener escasas ganancias.';
 $string['configfiltermatchoneperpage'] = 'Los filtros de enlace automático sólo generarán un enlace único al primer ejemplo de texto coincidente que se encuentre en la página completa, pasando por alto el resto.';
 $string['configfiltermatchonepertext'] = 'Los filtros de enlace automáticos solo generarán un enlace único para la primera instancia de texto coincidente que se encuentre en cada elemento de texto de la página. Todos los demás se ignoran. Esta configuración no tiene ningún efecto si la opción "Filtrar coincidencia una vez por página" está habilitada.';
-$string['configfilternavigationwithsystemcontext'] = 'El uso normal del filtrado está vinculado al contexto en el que se usa (por ejemplo, el contexto del curso), pero para la navegación del sitio, hacer que todo se filtre explícitamente con el contexto del sitio puede generar mejoras en el rendimiento cuando se usa el filtrado de "contenido y encabezados".';
+$string['configfilternavigationwithsystemcontext'] = 'El uso normal del filtrado está ligado al contexto en el que se utiliza (por ejemplo, el contexto del curso), pero para la navegación del sitio, hacer explícitamente que todo se filtre con el contexto del sitio puede producir mejoras de rendimiento cuando se utiliza el filtrado de "contenido y encabezados".';
 $string['configfilteruploadedfiles'] = 'Esta opción posibilita que Moodle procese con los filtros todos los archivos HTML y de texto subidos antes de mostrarlos.';
 $string['configforcelogin'] = 'Normalmente la página principal del sitio y las listas de los cursos (pero no los cursos) pueden ser leídos por cualquier visitante sin necesidad de identificarse. Si desea forzar a los visitantes a identificarse antes de acceder a CUALQUIER CONTENIDO debería activar esta opción.';
 $string['configforceloginforprofiles'] = 'Esta opción obliga a los usuarios a acceder al sitio con cuentas válidas (no como invitados) antes de poder ver las páginas de los perfiles de usuario. Si deshabilita esta opción puede darse el caso de que algunos usuarios publiquen anuncios (spam) u otro contenido inapropiado en sus perfiles y este contenido será visible para todo el mundo.';
@@ -284,7 +284,7 @@ $string['configgradebookroles'] = 'Esta opción le permite controlar quién apar
 $string['configgradeexport'] = 'Elija qué formatos de exportación del libro de calificaciones constituyen su método principal para exportar calificaciones. Los conectores elegidos ajustarán y usarán un campo ("últimos exportados") para cada calificación. Por ejemplo, esto podría dar como resultado que los registros exportados se identificaran como "nuevos" o "actualizados". Si no está seguro de cómo hacer esto, no marque nada.';
 $string['confighiddenuserfields'] = 'Para aumentar la privacidad de los estudiantes, seleccione qué campos de información sobre el usuario desea ocultar a otros usuarios distintos de los profesores del curso o los administradores. Mantenga pulsada la tecla CTRL para seleccionar varios campos.
 
-Por favor, cuide los datos personales de los usuarios y considere IMPORTANTE tener la precaución de  no escribir ni permitir el acceso no-autorizado a "datos personales sensibles" (estado de salud, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, orígen racial o étnico, preferencia sexual, ...) que pudieran causarle responsabilidades o riesgos innecesarios a Usted y a la Institución.';
+Por favor, cuide los datos personales de los usuarios y considere IMPORTANTE tener la precaución de  no escribir ni permitir el acceso no-autorizado a "datos personales sensibles" (estado de salud, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, orígen racial o étnico, preferencia sexual, ...) que pudieran causarle responsabilidades o riesgos innecesarios a usted y a la Institución.';
 $string['configidnumber'] = 'Esta opción especifica si (a) No se pide a los usuarios un número de ID, (b) Se les pide un número de ID pero pueden dejarlo en blanco o (c) Se les pide un número de ID y no pueden dejarlo en blanco. En caso afirmativo, el número de ID del Usuario se muestra en su Perfil.';
 $string['configintro'] = 'En esta página puede especificar un número de variables de configuración que ayudan a Moodle a trabajar adecuadamente en su servidor. Que esto no le preocupe demasiado: los valores por defecto funcionarán bien y, en todo caso, siempre podrá volver a esta página y cambiar los ajustes.';
 $string['configintroadmin'] = 'En esta página debería configurar su cuenta de administrador principal, que le dará un control absoluto sobre el sitio. Asegúrese de que usa un nombre de usuario y contraseña seguros, así como una dirección de correo electrónico válida. Más adelante podrá crear más cuentas de administrador.';
@@ -336,7 +336,7 @@ $string['configpasswordresettime'] = 'Especifica de cuánto tiempo se dispone pa
 $string['configpathtodu'] = 'Ruta a du (probablemente algo parecido a /usr/bin/du). Si escribe esto, las páginas que muestran el contenido del directorio se ejecutarán mucho más rápidamente cuando los directorios contengan muchos archivos.';
 $string['configpathtophp'] = 'Ruta al CLI de PHP. Probablemente algo similar a /usr/bin/php. Si introduce esto, los scripts de cron podrán ser ejecutados desde el interfaz web de administración.';
 $string['configperfdebug'] = 'Si activa esta opción, aparecerá la información sobre el rendimiento en el pie de página del tema estándar.';
-$string['configprofileroles'] = 'Lista de roles que son visibles en los perfiles de usuario y en la página de participación.';
+$string['configprofileroles'] = 'Roles listados en los perfiles de usuario y en la página de los participantes..';
 $string['configprofilesforenrolledusersonly'] = 'Para prevenir el abuso de los creadores de spam, se ocultan las descripciones del perfil de los usuarios que aún no están matriculados en ningún curso. Los usuarios nuevos deben matricularse en al menos un curso antes de que puedan agregar la descripción del perfil.';
 $string['configprotectusernames'] = 'Por defecto, forget_password.php no muestra ninguna indicación que permita adivinar nombres de usuario o direcciones de email.';
 $string['configproxybypass'] = 'Lista separada por comas de los nombres de host (parciales) o direcciones IP que deberían saltar el proxy (por ejemplo, 192.168., .mydomain.com)';
@@ -401,7 +401,7 @@ $string['configsupportpage'] = 'Esta dirección web se publicará a los usuarios
 $string['configtempdatafoldercleanup'] = 'Eliminar ficheros de datos temporales de la carpeta de datos que sean más viejos que la fecha seleccionada.';
 $string['configthemedesignermode'] = 'Habitualmente todas las imágenes del tema y hojas de estilo se almacenan en caché en los navegadores y en el servidor durante un tiempo muy largo, para mejorar el rendimiento. Si va a rediseñar los temas o desarrollar código, es probable que desee activar este modo para que no se guarden versiones en la caché. Advertencia: esto hará que su sitio sea más lento para todos los usuarios mientras esté activado. Opcionalmente también puede restablecer la caché manualmente desde la página del selector de temas.';
 $string['configthemelist'] = 'Deje esta opción en blanco para permitir que se utilice cualquier tema válido. Si quiere acortar el menú de temas, puede especificar una lista de nombres separados por comas (¡No use espacios!). Por ejemplo: standard,orangewhite';
-$string['configtimezone'] = 'Esta es la zona horaria por defecto para mostrar fechas -cada usuario puede cambiar esta opción en su perfil-. Las tareas del cron y otras configuraciones del servidor están especificadas en esta zona horaria. Usted debe cambiar este ajuste si se muestra como "Zona horaria inválida".';
+$string['configtimezone'] = 'Esta es la zona horaria por defecto para mostrar fechas -cada usuario puede cambiar esta opción en su perfil-. Las tareas del cron y otras configuraciones del servidor están especificadas en esta zona horaria. Debe cambiar este ajuste si se muestra como "Zona horaria inválida".';
 $string['configuseblogassociations'] = '¿Deberían los usuarios poder organizar su blog asociando entradas con los cursos y con los módulos de curso?';
 $string['configuseexternalyui'] = 'En lugar de usar archivos locales, usar archivos disponibles en línea en servidores de Yahoo. ADVERTENCIA: esto requiere una conexión de internet, de otro modo, AJAX no funcionará en el sitio. Esta configuración no es compatible con sitios que usan https.';
 $string['configuserquota'] = 'El número máximo de bytes que un usuario puede almacenar en sus carpetas de archivos privados. {$a->bytes} bytes == {$a->displaysize}';
@@ -440,7 +440,7 @@ $string['courselistshortnames_desc'] = 'Si está activado, en las listas de curs
 $string['coursemgmt'] = 'Administrar cursos y categorías';
 $string['courseoverview'] = 'Vista general del curso';
 $string['courserequestnotify'] = 'Notificación de solicitud de curso';
-$string['courserequestnotifyemail'] = 'El usuario {$a->user} ha solicitado un nuevo curso en {$a->link}';
+$string['courserequestnotifyemail'] = '{$a->user} ha solicitado un nuevo curso <a href="{$a->link}">{$a->link}</a>';
 $string['courserequests'] = 'Solicitudes de cursos';
 $string['courserequestspending'] = 'Solicitudes de curso pendientes';
 $string['courses'] = 'Cursos';
@@ -477,7 +477,7 @@ $string['custommenu'] = 'Menú personalizado';
 $string['custommenuitems'] = 'Ítems del menú personalizado';
 $string['customusermenuitems'] = 'Items del menú de usuario';
 $string['datarootsecurityerror'] = '<p><strong>¡ADVERTENCIA DE SEGURIDAD!</strong></p><p>Su directorio dataroot está en una ubicación errónea y está expuesto a la web. Esto significa que cualquiera desde cualquier lugar puede acceder a todos sus archivos privados y que algunos de ellos podrían ser usados por un cracker para obtener acceso no autorizado al sitio.</p>
-<p>Usted <em>debe</em> cambiar el directorio dataroot ({$a}) a una nueva ubicación fuera de su directorio web público y actualizar el correspondiente ajuste de <code>$CFG->dataroot</code> en su config.php.</p>';
+<p><em>Debe</em> cambiar el directorio dataroot ({$a}) a una nueva ubicación fuera de su directorio web público y actualizar el correspondiente ajuste de <code>$CFG->dataroot</code> en su config.php.</p>';
 $string['datarootsecuritywarning'] = 'La configuración de su sitio podría no ser segura. Por favor, asegúrese de que su directorio raíz ({$a}) no es accesible directamente vía web.';
 $string['dbsessions'] = 'Usar la base de datos para información de la sesión';
 $string['debug'] = 'Mensajes de depuración';
@@ -637,6 +637,7 @@ $string['filestoredinhelp'] = 'Dónde se almacenará el archivo';
 $string['filterall'] = 'Filtrar todas las cadenas';
 $string['filtermatchoneperpage'] = 'Filtrar una coincidencia por página';
 $string['filtermatchonepertext'] = 'Filtrar una coincidencia por texto';
+$string['filternavigationwithsystemcontext'] = 'Filtrar la navegación con el contexto del sistema';
 $string['filters'] = 'Filtros';
 $string['filtersettings'] = 'Gestionar filtros';
 $string['filtersettingsgeneral'] = 'Ajustes generales de filtro';
@@ -648,7 +649,7 @@ $string['forceloginforprofileimage'] = 'Forzar a los usuarios a identificarse pa
 $string['forceloginforprofileimage_help'] = 'Si está habilitado, los usuarios deben identificarse para ver las imágenes de perfil de usuarios.  La imagen de usuario predefinida se utilizará en todos las notificaciones electrónicas.';
 $string['forceloginforprofiles'] = 'Forzar a los usuarios a iniciar sesión para ver los perfiles';
 $string['forcetimezone'] = 'Forzar zona horaria';
-$string['formatuninstallwithcourses'] = 'Hay {$a->count} cursos que usan {$a->format}. Sus formatos serán cambiados a {$a->defaultformat} (el formato por defecto para este sitio). Algunos datos específicos de este formato se pueden perder. ¿Está Usted seguro de querer hacerlo?';
+$string['formatuninstallwithcourses'] = 'Hay {$a->count} cursos que usan {$a->format}. Sus formatos serán cambiados a {$a->defaultformat} (el formato por defecto para este sitio). Algunos datos específicos de este formato se pueden perder. ¿Está usted seguro de querer hacerlo?';
 $string['frontpage'] = 'Página Principal';
 $string['frontpagebackup'] = 'Copia de seguridad de la página principal';
 $string['frontpagedefaultrole'] = 'Rol por defecto en la página principal';
@@ -1218,7 +1219,7 @@ $string['settingmemorylimit'] = 'Memoria insuficiente, defina un valor mayor de 
 $string['settingsafemode'] = 'Moodle no es totalmente compatible con el modo seguro, por favor, pida al administrador del servidor que lo desactive. La ejecución de Moodle en modo seguro no es compatible, se producirán diversos problemas si lo hace.';
 $string['setupsearchengine'] = 'Configurar el motor de búsqueda';
 $string['showcommentscount'] = 'Mostrar número de comentarios';
-$string['showdetails'] = 'Mosrtrar detalles';
+$string['showdetails'] = 'Mostrar detalles';
 $string['showuseridentity'] = 'Mostrar identidad de usuario';
 $string['showuseridentity_desc'] = 'Al seleccionar o buscar usuarios, y al mostrar listas de usuarios, estos campos pueden mostrarse además de sus nombres completos. Los campos solo se muestran a los usuarios que tienen la capacidad moodle/site:viewuseridentity; por defecto, profesores y administradores. (Esta opción tiene más sentido si elige uno o dos campos que son obligatorios en su institución).
 
@@ -1411,12 +1412,13 @@ $string['unsupporteddbfilepertable'] = 'Para el soporte completo de UTF-8 en MyS
 $string['unsupporteddblargeprefix'] = 'Para el soporte completo de UTF-8 en MySQL y MariaDB se requiere cambiar la opción de MySQL \'innodb_large_prefix\' a \'ON\'. Mira la documentación para más detalles.';
 $string['unsupporteddbstorageengine'] = 'El motor de almacenamiento de base de datos que se utiliza ya no es compatible.';
 $string['unsupporteddbtablerowformat'] = 'Su base de datos tiene tablas utilizando el formato de fichero Antelope. Se le recomienda convertir las tablas al formato de fichero Barracuda. Revise la documentación <a href="https://docs.moodle.org/29/en/Administration_via_command_line">Administración mediante línea de comandos</a> para detalles de la herramienta para convertir tablas InnoDB a Barracuda.';
-$string['unsupportedphpversion7'] = 'La versión 7 de PHP no está soportada.';
-$string['unsupportedphpversion71'] = 'PHP versión 7.1 no es compatible.';
-$string['unsupportedphpversion72'] = 'Versión 7.2 de PHP no soportada.';
-$string['unsupportedphpversion73'] = 'La versión 7.3 de PHP no está soportada.';
-$string['unsupportedphpversion74'] = 'La versión 7.4 de PHP, no está soportada.';
-$string['unsupportedphpversion80'] = 'La versión de PHP 8.0 no está soportada.';
+$string['unsupportedphpversion7'] = 'La versión 7 de PHP y superiores no soportadas.';
+$string['unsupportedphpversion71'] = 'PHP versión 7.1 y superiores no compatibles.';
+$string['unsupportedphpversion72'] = 'Versión 7.2 de PHP y superiores no soportadas.';
+$string['unsupportedphpversion73'] = 'La versión 7.3 de PHP y superiores no soportadas.';
+$string['unsupportedphpversion74'] = 'La versión 7.4 de PHP y superiores no soportadas.';
+$string['unsupportedphpversion80'] = 'La versión de PHP 8.0 y superiores no soportadas.';
+$string['unsupportedphpversion81'] = 'Versión de PHP 8.1 y superiores no soportadas.';
 $string['unsuspenduser'] = 'Activar cuenta de usuario';
 $string['updateaccounts'] = 'Actualizar cuentas existentes';
 $string['updateautocheck'] = 'Compruebe automáticamente las actualizaciones disponibles';

@@ -144,9 +144,7 @@ $string['backpacksettings'] = 'Configuraciones de mochila';
 $string['backpackweburl'] = 'URL de mochila';
 $string['badgedetails'] = 'Detalles de la insignia';
 $string['badgeimage'] = 'Imagen';
-$string['badgeimage_help'] = 'Esta es una imagen que se utilizará cuando se emite esta insignia.
-
-Para agregar una nueva imagen, busque y seleccione una imagen (en formato JPG o PNG) y luego haga clic en "Guardar cambios". La imagen se recorta y cambia de tamaño para ajustarse a los requisitos de la imagen de la insignia.';
+$string['badgeimage_help'] = 'La imagen debe tener un tamaño mínimo de 300 x 300 píxeles. Se mostrará como 300 x 300 píxeles en la página de la insignia y 100 x 100 píxeles en la página del perfil del usuario.';
 $string['badgeprivacysetting'] = 'Configuración de privacidad de la insignia';
 $string['badgeprivacysetting_help'] = 'Las insignias que usted gane se pueden mostrar en su página de perfil de cuenta. Este ajuste le permite mostrar automáticamente las insignias recientemente ganadas.
 
@@ -160,10 +158,10 @@ Observación: Con fines de verificación de los receptores, evite cambiar este a
 $string['badgesdisabled'] = 'Las insignias no están habilitados en este sitio.';
 $string['badgesearned'] = 'Número de insignias conseguidas: {$a}';
 $string['badgesettings'] = 'Configuración de las insignias';
-$string['badgestatus_0'] = 'No disponible para los usuarios';
-$string['badgestatus_1'] = 'Disponible para los usuarios';
-$string['badgestatus_2'] = 'No disponible para los usuarios';
-$string['badgestatus_3'] = 'Disponible para los usuarios';
+$string['badgestatus_0'] = 'No disponible';
+$string['badgestatus_1'] = 'Disponible';
+$string['badgestatus_2'] = 'No disponible para los usuarios (criterios bloqueados)';
+$string['badgestatus_3'] = 'Disponible para los usuarios (criterios bloqueados)';
 $string['badgestatus_4'] = 'Archivado';
 $string['badgestoearn'] = 'Número de insignias disponibles: {$a}';
 $string['badgesview'] = 'Insignias de curso';

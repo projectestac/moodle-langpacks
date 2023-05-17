@@ -32,7 +32,7 @@ $string['configframesize'] = 'Quando uma página Web ou um ficheiro é exibido n
 $string['configrolesinparams'] = 'Se ativar esta opção, os nomes dos papéis locais serão incluídos na listagem das variáveis de parâmetro disponíveis.';
 $string['configsecretphrase'] = 'Esta frase secreta é usada para produzir um código encriptado que pode ser enviado para alguns servidores como parâmetro. O código  encriptado é produzido por um valor md5 do endereço IP do utilizador atual concatenado com a sua frase secreta. Isto é, código = md5(IP.frasesecreta). Tenha em atenção que não é fiável porque o endereço IP pode mudar e muitas vezes é partilhado por diferentes computadores.';
 $string['contentheader'] = 'Conteúdo';
-$string['createurl'] = 'Criar um url';
+$string['createurl'] = 'Criar um URL';
 $string['displayoptions'] = 'Opções de visualização disponíveis';
 $string['displayselect'] = 'Modo de exibição';
 $string['displayselect_help'] = 'Esta configuração, em conjunto com o tipo de ficheiro e possibilidades do navegador, determina a forma como é exibido o ficheiro. As opções podem ser:

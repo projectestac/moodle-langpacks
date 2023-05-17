@@ -178,6 +178,9 @@ $string['entrypage_help'] = '¿Se mostrará a los estudiantes una página inicia
 Una página de entrada se mostrará siempre al profesor con el fin de facilitar el acceso a los informes y editar las páginas de preguntas.';
 $string['entrypagehdr'] = 'Página de entrada';
 $string['entrytext'] = 'Texto de la página de entrada';
+$string['event_report_viewed'] = 'Informe de HotPot visto';
+$string['event_report_viewed_description'] = 'El usuario con ID "{$a->userid}" vió un informe con intentos en la actividad "hotpot" con ID de curso "{$a->cmid}"';
+$string['event_report_viewed_explanation'] = 'Un usuario acaba de ver un informe de intentos en una actividad HotPot';
 $string['exit_areyouok'] = '¡Hola!, ¿aún está ahí?';
 $string['exit_attemptscore'] = 'Su puntuación de este intento fue {$a}';
 $string['exit_course'] = 'Curso';
@@ -400,6 +403,7 @@ $string['percent'] = 'Porcentaje';
 $string['pluginadministration'] = 'Administración de HotPot';
 $string['pluginname'] = 'Hot Potatoes Quiz';
 $string['pressoktocontinue'] = 'Presione OK para cotinuar, o Cancelar para permanecer en la página actual.';
+$string['privacy:metadata:hotpot_attempts:clickreportid'] = 'El ID del informe de acciones que indica el ID de la acción del usuario';
 $string['questionshort'] = 'Q-{$a}';
 $string['quizname_help'] = 'texto de ayuda para el nombre del cuestionario';
 $string['quizzes'] = 'Preguntas';

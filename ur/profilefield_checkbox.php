@@ -26,3 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'چیک باکس';
+$string['privacy:metadata:profilefield_checkbox:data'] = 'چیک باکس صارف پروفائل فیلڈ صارف ڈیٹا';
+$string['privacy:metadata:profilefield_checkbox:dataformat'] = 'چیک باکس صارف پروفائل فیلڈ صارف ڈیٹا کا فارمیٹ';
+$string['privacy:metadata:profilefield_checkbox:fieldid'] = 'پروفائل فیلڈ کی آئی ڈی';
+$string['privacy:metadata:profilefield_checkbox:tableexplanation'] = 'اضافی پروفائل ڈیٹا';
+$string['privacy:metadata:profilefield_checkbox:userid'] = 'صارف کی  آئی ڈی جس کا ڈیٹا چیک باکس صارف پروفائل فیلڈ کے ذریعے محفوظ کیا جاتا ہے';

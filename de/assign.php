@@ -114,12 +114,12 @@ $string['batchoperationconfirmdownloadselected'] = 'Ausgewählte Abgaben herunte
 $string['batchoperationconfirmgrantextension'] = 'Abgabeende für die ausgewählten Abgaben verlängern?';
 $string['batchoperationconfirmlock'] = 'Ausgewählte Abgaben sperren?';
 $string['batchoperationconfirmremovesubmission'] = 'Ausgewählte Abgaben entfernen?';
-$string['batchoperationconfirmreverttodraft'] = 'Ausgewählte Abgaben in den Entwurfsmodus zurücksetzen?';
+$string['batchoperationconfirmreverttodraft'] = 'Ausgewählte Abgaben in den Entwurfsstatus zurücksetzen?';
 $string['batchoperationconfirmsetmarkingallocation'] = 'Bewerterzuordnung für alle ausgewählten Einreichungen setzen?';
 $string['batchoperationconfirmsetmarkingworkflowstate'] = 'Bewertungsworkflow-Status für alle ausgewählten Einreichungen setzen?';
 $string['batchoperationconfirmunlock'] = 'Ausgewählte Abgaben freigeben?';
 $string['batchoperationlock'] = 'Abgaben sperren';
-$string['batchoperationreverttodraft'] = 'Abgaben in den Entwurfsmodus zurücksetzen';
+$string['batchoperationreverttodraft'] = 'Abgaben in den Entwurfsstatus zurücksetzen';
 $string['batchoperationsdescription'] = 'Mit Auswahl ...';
 $string['batchoperationunlock'] = 'Abgaben freigeben';
 $string['batchsetallocatedmarker'] = 'Bewerter/in für {$a} ausgewählte Nutzer festlegen.';
@@ -265,7 +265,7 @@ $string['gradeitem:submissions'] = 'Einreichungen';
 $string['gradelocked'] = 'Diese Bewertung ist gesperrt oder wurde im Bewertungsbereich überschrieben.';
 $string['gradeoutof'] = 'Bewertung (max. {$a})';
 $string['gradeoutofhelp'] = 'Bewertung';
-$string['gradeoutofhelp_help'] = 'Geben Sie hier die Bewertung für die Aufgabenlösung ein. Es können Dezimalwerte eingetragen werden.';
+$string['gradeoutofhelp_help'] = 'Geben Sie hier die Bewertung für die Aufgabenlösung ein. Es können auch Nachkommastellen eingetragen werden.';
 $string['gradersubmissionupdatedhtml'] = '{$a->username} hat die Aufgabe <i>\'{$a->assignment}\'</i> bearbeitet und am {$a->timeupdated} hochgeladen. <br /><br />
 Die Abgabe ist <a href="{$a->url}">auf der Website verfügbar</a>.';
 $string['gradersubmissionupdatedsmall'] = '{$a->username} hat die eingereichte Lösung zur Aufgabe \'{$a->assignment}\' aktualisiert.';
@@ -466,9 +466,9 @@ $string['requiresubmissionstatement_help'] = 'Teilnehmer/innen müssen die Erkl�
 $string['revealidentities'] = 'Identität der Teilnehmer/innen aufdecken';
 $string['revealidentitiesconfirm'] = 'Möchten Sie wirklich die Identität von Teilnehmer/innen für diese Aufgabe aufgedecken? Die Einstellung kann nicht zurückgesetzt werden. Sobald die Identität aufgedeckt ist, werden die Bewertungen in der Bewertungsübersicht angezeigt.';
 $string['reverttodefaults'] = 'Aufgabeneinstellungen zurücksetzen';
-$string['reverttodraft'] = 'Abgabe in den Entwurfsmodus zurücksetzen';
-$string['reverttodraftforstudent'] = 'Den Status der Lösung auf Entwurf zurücksetzen für (id={$a->id}, Name={$a->fullname}). Danach ist eine Bearbeitung wieder möglich.';
-$string['reverttodraftshort'] = 'Abgabe in den Entwurfsmodus zurücksetzen';
+$string['reverttodraft'] = 'Abgabe in den Entwurfsstatus zurücksetzen';
+$string['reverttodraftforstudent'] = 'Abgabe der Person in der Entwurfsstatus zurücksetzen (id={$a->id}, Name={$a->fullname}).';
+$string['reverttodraftshort'] = 'Abgabe in den Entwurfsstatus zurücksetzen';
 $string['reviewed'] = 'Nachgeprüft';
 $string['save'] = 'Speichern';
 $string['saveallquickgradingchanges'] = 'Bewertungsänderungen sichern';
@@ -510,7 +510,7 @@ $string['submissioncopiedtext'] = 'Sie haben Ihre bisherige Aufgabenlösung für
 Sie können den Status der Aufgabenlösung sehen unter
     {$a->url}';
 $string['submissiondrafts'] = 'Abgabetaste muss gedrückt werden';
-$string['submissiondrafts_help'] = 'Diese Option legt fest, dass Teilnehmer/innen die Taste zum Abgeben klicken müssen, um ihre Einreichung als fertig zu deklarieren. Auf diese Weise können Aufgabenlösungen zunächst als Entwurf hinterlegt und weiterhin überarbeitet werden.
+$string['submissiondrafts_help'] = 'Diese Option legt fest, dass Teilnehmer/innen die Taste zum Abgeben klicken müssen, um ihre Einreichung als fertig zu deklarieren. Auf diese Weise können Aufgabenlösungen zunächst als Entwurf gespeichert und weiterhin überarbeitet werden.
 
 Wenn diese Einstellung von "Nein" in "Ja" geändert wird und Teilnehmer/innen bereits Entwürfe eingereicht haben, gelten diese Einreichungen als endgültig.';
 $string['submissioneditable'] = 'Teilnehmer/innen können die eingereichte Lösung bearbeiten';

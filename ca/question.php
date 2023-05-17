@@ -187,6 +187,7 @@ $string['filesareacourse'] = 'l\'àrea de fitxers del curs';
 $string['filesareasite'] = 'l\'àrea de fitxers del lloc';
 $string['filestomove'] = 'Voleu copiar o moure els fitxers a {$a}?';
 $string['fillincorrect'] = 'Emplena amb les respostes correctes';
+$string['filterbytags'] = 'Filtra per etiquetes...';
 $string['firsttry'] = 'Primer intent';
 $string['flagged'] = 'Marcada';
 $string['flagthisquestion'] = 'Marca aquesta pregunta';

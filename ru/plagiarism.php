@@ -31,5 +31,5 @@ $string['configplagiarismplugins'] = 'Выберите плагин антипл
 $string['enableplagiarism'] = 'Включить плагины антиплагиата';
 $string['manageplagiarism'] = 'Управление плагинами антиплагиата';
 $string['nopluginsinstalled'] = 'Плагины антиплагиата не установлены';
-$string['plagiarism'] = 'Предотвращение плагиата';
+$string['plagiarism'] = 'Выявление плагиата';
 $string['privacy:metadata:plagiarism'] = 'Подсистема антиплагиата работает как канал, передавая запросы от плагинов разным плагинам антиплагиата.';

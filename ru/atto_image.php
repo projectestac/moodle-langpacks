@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['alignment'] = 'Выравнивание';
 $string['alignment_bottom'] = 'По нижнему краю';
 $string['alignment_left'] = 'Слева';
-$string['alignment_middle'] = 'Посередине';
+$string['alignment_middle'] = 'По середине';
 $string['alignment_right'] = 'Справа';
 $string['alignment_top'] = 'По верхнему краю';
 $string['browserepositories'] = 'Выбрать из хранилища...';

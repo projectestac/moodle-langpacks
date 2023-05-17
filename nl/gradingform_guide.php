@@ -66,7 +66,7 @@ $string['err_scoreisnegative'] = 'De score, gegeven aan \'{$a->criterianame}\' i
 $string['err_shortnametoolong'] = 'Criteriumnaam moet minder dan 256 tekens zijn';
 $string['gradingof'] = '{$a} beoordeling';
 $string['guide'] = 'Beoordelingsgids';
-$string['guidemappingexplained'] = 'WAARSCHUWING: je beoordelingshulp heeft een maximumcijfer van <b>{$a->maxscore} punten</b> maar het maximumcijfer van je activeit is {$a->modulegrade}. Het maximumcijfer van je beoordelingshulp zal geschaald worden naar het maximumcijfer van de activiteitsmodule.<br />
+$string['guidemappingexplained'] = 'WAARSCHUWING: je beoordelingshulp heeft een maximumcijfer van <b>{$a->maxscore} punten</b> maar het maximumcijfer van je activiteit is {$a->modulegrade}. Het maximumcijfer van je beoordelingshulp zal geschaald worden naar het maximumcijfer van de activiteitsmodule.<br />
 Tussenresultaten zullen geconverteerd en afgerond worden.';
 $string['guidenotcompleted'] = 'Geef een geldig cijfer voor elk criterium';
 $string['guideoptions'] = 'Opties beoordelingshulp';

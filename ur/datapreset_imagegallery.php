@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['modulename'] = 'تصویر خانہ';
+$string['pluginname'] = 'تصویر خانہ';
+$string['privacy:metadata'] = 'تصویری خانہ پلگ ان کوئی ذاتی ڈیٹا ذخیرہ نہیں کرتا ہے۔';

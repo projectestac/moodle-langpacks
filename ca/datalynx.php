@@ -28,3 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['export'] = 'Exporta';
 $string['multiexport'] = 'Exporta';
 $string['optionaldescription'] = 'Descripció breu (opcional)';
+$string['student'] = 'Estudiant';
+$string['view'] = 'visualitza';

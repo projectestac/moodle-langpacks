@@ -713,6 +713,7 @@ $string['htmlsettings'] = 'Impostazioni HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Sicurezza HTTP';
 $string['iconvrequired'] = 'È necessario installare l\'estensione ICONV.';
+$string['igbinary322buggyversion'] = 'L\'estensione php-igbinary installata sul sito può causare problemi quando viene eseguita con PHP 7.2. Si consiglia di aggiornare a php-igbinary 3.2.5 o successivo, o in alternativa di aggiornare a PHP 7.3 o successivo.';
 $string['ignore'] = 'Ignora';
 $string['includemoduleuserdata'] = 'Includi i dati utente presenti nei moduli';
 $string['incompatibleblocks'] = 'Blocchi non compatibili';
@@ -870,6 +871,8 @@ $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> Questo file d
 $string['mnetrestore_extusers_noadmin'] = '<strong>Nota:</strong> Questo file di backup sembra essere stato generato da un\'altra installazione di Moodle e contiene account di utenti Moodle Network. Non sei autorizzato ad eseguire questo tipo di ripristino. Contatta l\'amministratore del sito oppure ripristina il corso senza informazioni sugli utenti (moduli, file...)';
 $string['mnetrestore_extusers_switchuserauth'] = 'Il metodo di autenticazione dell\'utente remoto {$a->username} (proveniente da {$a->mnethosturl}) è stato cambiato in autenticazione {$a->auth} locale.';
 $string['mobilenotconfiguredwarning'] = 'L\'app Moodle Mobile non è abilitata.';
+$string['modassignmentinuse'] = 'Il sito utilizza ancora il plugin Compito 2.2. Prima di effettuare l\'aggiornamento, è necessario 1) eseguire il backup delle attività Compito 2.2 che si desidera conservare e ripristinarle come attività Compito e 2) eliminare tutti i dati del Compito 2.2 dal database.';
+$string['modassignmentsubpluginsexist'] = 'Assignment 2.2. subplugins may be present. The mod/assignment folder and all of its subplugins need to be removed before upgrading.';
 $string['modchooserdefault'] = 'Usa il selettore attività di default';
 $string['modeditdefaults'] = 'Valori di default dell\'attività';
 $string['modsettings'] = 'Gestione attività';
@@ -935,8 +938,8 @@ $string['notifyloginthreshold'] = 'Soglia per l\'invio di avvisi tramite email';
 $string['notloggedinroleid'] = 'Ruolo per i visitatori';
 $string['numberofmissingstrings'] = 'Numero stringhe mancanti: {$a}';
 $string['numberofstrings'] = 'Totale stringhe: {$a->strings}<br />Mancanti: {$a->missing} ({$a->missingpercent}&nbsp;%)';
-$string['oauthrefreshtokenexpired'] = 'Il token di rinnovo per i servizi OAuth {$a->issuer} sul tuo sito {$a->siteurl} è scaduto. Questo limiterà la funzionalità dei plugin che utilizzano questo servizio. Per risolvere il problema, visita la pagina di configurazione dei Servizi OAuth 2 e clicca sull\'icona "Collega ad un account di sistema" nella riga della tabella per questo servizio. Assicurati di fare login ogni volta con lo stesso account di servizio per il sistema OAuth.';
-$string['oauthrefreshtokenexpiredshort'] = 'Il token di rinnovo è scaduto per {$a->issuer} sul tuo sito {$a->siteurl}.';
+$string['oauthrefreshtokenexpired'] = 'Il token di rinnovo per i servizi OAuth {$a->issuer} sul sito {$a->siteurl} è scaduto. Questo limiterà la funzionalità dei plugin che utilizzano questo servizio. Per risolvere il problema, visitare la pagina di configurazione dei Servizi OAuth 2 e cliccare sull\'icona "Collega ad un account di sistema" nella riga della tabella per questo servizio. Assicurarsi di fare login ogni volta con lo stesso account di servizio per il sistema OAuth.';
+$string['oauthrefreshtokenexpiredshort'] = 'Il token di rinnovo è scaduto per {$a->issuer} sul sito {$a->siteurl}.';
 $string['onlynoreply'] = 'Solo se da indirizzo no-reply';
 $string['opcacherecommended'] = 'La cache PHP opcode migliora le prestazioni e riduce la memoria utilizzata. L\'estensione OPcache è sia consigliata sia supportata.';
 $string['opensslrecommended'] = 'È fortemente raccomandata l\'installazione della libreria opzionale OpenSSL -- questa abilita la funzionalità Moodle Networking.';
@@ -1119,7 +1122,7 @@ $string['registration_help'] = 'Registrando il sito:
 * sarà possibile attivare notifiche push per l\'app mobile
 * sarà possibile contribuire alle statistiche di Moodle sulla comunità mondiale degli utilizzatori';
 $string['registrationwarning'] = 'Se lo desideri puoi registrare il sito.';
-$string['registrationwarningcontactadmin'] = 'Il sito non è registrato. Per favore avverti l\'amministratore.';
+$string['registrationwarningcontactadmin'] = 'Il sito non è registrato. Nel caso si desideri registrarlo, per favore avvertire l\'amministratore.';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, si prega di consultare le <a target="_blank" href="{$a}">Note di rilascio</a> in linea';
 $string['rememberuserlicensepref'] = 'Ricorda licenza scelta dall\'utente';
 $string['rememberuserlicensepref_help'] = 'Consente di conservare l\'ultima licenza scelta dall\'utente durante il caricamento di file, riproponendola al successivo caricamento. In assenza di impostazione, sarà proposta la licenza di default del sito.';

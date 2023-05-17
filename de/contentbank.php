@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['author'] = 'Autor/in';
 $string['close'] = 'Schließen';
 $string['contentbank'] = 'Inhaltsspeicher';
-$string['contentbankpreferences'] = 'Einstellungen zum Inhaltsspeicher';
+$string['contentbankpreferences'] = 'Inhaltsspeicher einstellen';
 $string['contentdeleted'] = 'Der Inhalt wurde gelöscht.';
 $string['contentname'] = 'Dateiname';
 $string['contentnotdeleted'] = 'Beim Versuch, den Inhalt zu löschen, ist ein Fehler aufgetreten.';

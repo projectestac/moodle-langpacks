@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Ненумерованный список';
+$string['pluginname'] = 'Маркированный список';
 $string['privacy:metadata'] = 'Плагин atto_unorderedlist не хранит никаких персональных данных.';

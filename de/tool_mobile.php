@@ -122,12 +122,12 @@ $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'Dat
 $string['qrcodedisabled'] = 'Zugriff über QR-Code deaktiviert';
 $string['qrcodeformobileappaccess'] = 'QR-Code für den Zugriff mit der mobilen App';
 $string['qrcodeformobileapploginabout'] = 'Scannen Sie den QR-Code mit Ihrer mobilen App und Sie werden automatisch angemeldet. Der QR-Code läuft in {$a} Minuten ab.';
-$string['qrcodeformobileappurlabout'] = 'Scannen Sie den QR-Code mit Ihrer mobilen App, um die Website-URL einzugeben.';
+$string['qrcodeformobileappurlabout'] = 'Scannen Sie den QR-Code mit Ihrer mobilen App, um die Website-URL einzugeben.<br><br>';
 $string['qrcodetype'] = 'QR-Code-Zugriff';
-$string['qrcodetype_desc'] = 'Für Nutzer/innen der mobilen App kann ein QR-Code zum Scannen bereitgestellt werden. Der QR-Code kann verwendet werden, um die Website-URL einzugeben oder um die Person automatisch anzumelden, ohne einen Anmeldenamen oder ein Kennwort eingeben zu müssen.';
+$string['qrcodetype_desc'] = 'Für die Nutzung der mobilen App kann ein QR-Code bereitgestellt werden. Der QR-Code erlaubt es, die Website-URL einzugeben oder um die betreffende Person automatisch anzumelden, ohne einen Anmeldenamen oder ein Kennwort eingeben zu müssen.';
 $string['qrcodetypelogin'] = 'QR-Code mit automatischer Anmeldung';
 $string['qrcodetypeurl'] = 'QR-Code mit Website-URL';
-$string['qrsiteadminsnotallowed'] = 'Aus Sicherheitsgründen ist eine Anmeldung über QR-Code  für Administrator/innen nicht zulässig oder wenn Sie als andere Person angemeldet sind.';
+$string['qrsiteadminsnotallowed'] = 'Aus Sicherheitsgründen können Sie sich nicht über einen QR-Code anmelden, wenn Sie Administrator/in sind oder sich als andere Person angemeldet haben.';
 $string['readingthisemailgettheapp'] = 'Lesen Sie dies in einer E-Mail? <a href="{$a}">Laden Sie die mobile App und empfangen Sie alle Mitteilungen auf Ihrem mobilen Endgerät</a>.';
 $string['remoteaddons'] = 'Remote Add-ons';
 $string['responsivemainmenuitems'] = 'Responsive Menüelemente';

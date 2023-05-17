@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (exclòs l\'HTML) es considera massa llarg. Els missatges que es mostren a la pàgina principal del lloc, a les pàgines d\'un curs amb format social o als perfils d\'usuari s\'escurcen fins a un tall natural en algun punt entre els valors forumanon_shortpost i forumanon_longpost.';
+$string['edit'] = 'Edita';
 $string['forumanon:viewdiscussion'] = 'Visualitza els debats';
 $string['intronews'] = 'Anuncis i notícies generals';
 $string['namenews_help'] = 'El fòrum de notícies és un fòrum especial per a anuncis que es crea automàticament amb el curs. Cada curs pot tenir només un fòrum de notícies. Els administradors i els professors són els únics que poden escriure notícies en aquest fòrum. El bloc «Darreres notícies» mostrarà els debats recents d\'aquest fòrum.';

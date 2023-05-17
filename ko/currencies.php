@@ -183,5 +183,5 @@ $string['XOF'] = 'CFA 프랑 BCEAO';
 $string['XPF'] = 'CFP 프랑';
 $string['YER'] = '예멘 리알';
 $string['ZAR'] = '렌드 (남아공)';
-$string['ZMK'] = '크와차 (잠비아)';
+$string['ZMW'] = '크와차 (잠비아)';
 $string['ZWL'] = '짐바브웨 달러';

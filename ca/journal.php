@@ -26,3 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['daysavailable'] = 'Dies disponible';
+$string['modulename'] = '';
+$string['modulenameplural'] = '';
+$string['pluginname'] = '';

@@ -58,6 +58,7 @@ $string['cutpastemozilla'] = 'Leider können Sie mit diesem Editor die gewohnten
 $string['delete'] = 'Löschen';
 $string['editors'] = 'Texteditoren';
 $string['editorsettings'] = 'Übersicht';
+$string['editorxformat'] = 'Format {$a}';
 $string['enterurlfirst'] = 'Sie müssen zuerst eine URL eingeben.';
 $string['filebrowser'] = 'Dateiauswahl';
 $string['findwhat'] = 'Finden';

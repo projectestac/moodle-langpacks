@@ -467,7 +467,7 @@ $string['importmax10error'] = 'Hay un error en la pregunta. Usted no puede tener
 $string['importmaxerror'] = 'Hay un error en la pregunta.
 Hay demasiadas respuestas.';
 $string['importquestions'] = 'Importar preguntas de un archivo';
-$string['inactiveoverridehelp'] = '* El estudiante no tiene el rol o el grupo correctos para intentar resolver el cuestionario';
+$string['inactiveoverridehelp'] = '* Esta anulación está inactiva porque el acceso del usuario a la actividad está restringido. Esto puede ser por asignación de rol o grupo, por otras restricciones de acceso, o porque la actividad esté oculta.';
 $string['incorrect'] = 'Incorrecta';
 $string['indicator:cognitivedepth'] = 'Cuestionario cognitivo';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Cuestionario.';

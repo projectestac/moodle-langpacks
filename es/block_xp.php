@@ -131,7 +131,21 @@ $string['property:crud'] = 'Evento CRUD';
 $string['property:eventname'] = 'Nombre del evento';
 $string['property:target'] = 'Meta del evento';
 $string['rank'] = 'Ranking';
+$string['reallydeleteuserstate'] = 'Borrar un usuario solamente es útil para borrarlo del tablero. Para otros casos, recomendamos poner sus puntos a 0 en vez de borrarlo. Borrar usuarios no afecta su posibilidad de ganar puntos en el futuro.
+
+Importante: Cuando se usa _¡Sube de nivel!_ para todo el sitio, borrarlos hará que desaparezcan del informe, en cuyo caso usted no podrá volver a darles puntos. Sin embargo, si está usando _¡Sube de nivel!_ por curso, el estudiante aún podrá aparecer en el informe si aún está matriculado.
+
+¿Seguro que quiere borrar los puntos de este usuario?';
+$string['reallydeleteuserstateandlogs'] = 'Borrar un usuario lo elimina del tablero y borra todos los registros asociados.
+
+Borrar registros puede permitir a un usuario volver a ganar puntos por acciones previas. Si su intención es sólo resetear sus puntos, recomendamos poner sus puntos a 0 en vez de borrar. Borrar un usuario no afecta su capacidad de ganar puntos en el futuro.
+
+Importante: Cuando se usa _¡Sube de nivel!_ para todo el sitio, borrarlos hará que desaparezcan del informe, en cuyo caso usted no podrá volver a darles puntos. Sin embargo, si está usando _¡Sube de nivel!_ por curso, el estudiante aún podrá aparecer en el informe si aún está matriculado.
+
+¿Seguro que quiere borrar los puntos y registros de este usuario?';
 $string['reallyresetdata'] = '¿Realmente desea reiniciar los niveles y puntos de experiencia de todos en este curso?';
+$string['reportisempty'] = 'El informe está vacío. Los estudiantes aún tienen que ganar puntos.';
+$string['reportisemptyenrolstudents'] = 'El informe está vacío. ¿Hay estudiantes matriculados en este curso?';
 $string['resetcoursedata'] = 'Reiniciar datos del curso';
 $string['rule'] = 'Regla';
 $string['rule:contains'] = 'contiene';
@@ -155,7 +169,9 @@ $string['rulesformhelp'] = '<p>Este plugin hace uso de EVENTOS para otorgar punt
 </li>
 </ul>
 </p>';
+$string['taskusagereport'] = 'Informe de uso';
 $string['updateandpreview'] = 'Subir y previsualizar';
+$string['usagereport'] = 'Compartir informe de uso';
 $string['usealgo'] = 'Usar el algoritmo';
 $string['usecustomlevelbadges'] = 'Usar insignias de nivel personalizadas';
 $string['usecustomlevelbadges_help'] = 'Cuando configura a SI, debe proporcionar una imagen para cada nivel.';
@@ -166,6 +182,7 @@ $string['when'] = 'Cuando';
 $string['xp'] = 'Puntos de experiencia';
 $string['xp:addinstance'] = 'Agregar un nuevo bloque XP (experiencia)';
 $string['xp:earnxp'] = 'Ganar puntos de experiencia';
+$string['xp:viewreport'] = 'Ver el informe';
 $string['xpgaindisabled'] = 'Ganancia XP (experiencia) deshabilitada';
 $string['xprequired'] = 'XP (experiencia) requerida';
 $string['youreachedlevela'] = '¡Alcanzó el nivel {$a}!';

@@ -83,13 +83,13 @@ $string['selectfromcohort'] = 'Selecionar utilizadores do Grupo global';
 $string['systemcohorts'] = 'Grupos globais do sistema';
 $string['unknowncohort'] = 'Grupo global desconhecido ({$a})!';
 $string['uploadcohorts'] = 'Carregar Grupos globais';
-$string['uploadcohorts_help'] = 'Os  grupos globais podem ser carregados via ficheiro de texto. O ficheiro deve ter o seguinte formato:
+$string['uploadcohorts_help'] = 'Os  Grupos globais podem ser carregados via ficheiro de texto. O ficheiro deve ter o seguinte formato:
 
 * Cada linha do ficheiro contém um registo
 * Cada registo é uma linha com uma série de dados separados pelo separador selecionado
 * O primeiro registo contém uma lista de campos que definem o formato do resto do ficheiro
 * O campo \'name\' é obrigatório
-*Os campos opcionais são idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
+* Os campos opcionais são: idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
 $string['uploadedcohorts'] = 'Carregar {$a} Grupos globais';
 $string['useradded'] = 'Adicionar utilizador ao Grupo global \'{$a}\'';
 $string['visible'] = 'Visível';

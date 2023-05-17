@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['perioddescription'] = 'Descripció';
+$string['reports'] = 'Informes';
 $string['showall'] = 'Mostra-ho tot';

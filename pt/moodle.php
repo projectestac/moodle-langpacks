@@ -650,7 +650,7 @@ Para confirmar a sua nova conta, clique em:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se necessitar de ajuda, contacte o administrador do site,
 {$a->admin}';
@@ -700,7 +700,7 @@ Para mudar a sua senha, aceda a:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se necessitar de ajuda, contacte o administrador da plataforma,
 {$a->admin}';
@@ -727,7 +727,7 @@ Para confirmar este pedido e receber a nova senha por e-mail, aceda ao seguinte 
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se necessitar de ajuda, contacte o administrador da plataforma,
 {$a->admin}';
@@ -1035,7 +1035,7 @@ $string['htmleditor'] = 'Usar o editor HTML';
 $string['htmleditoravailable'] = 'O editor HTML está disponível';
 $string['htmleditordisabled'] = 'O editor HTML foi desativado no seu perfil do utilizador';
 $string['htmleditordisabledadmin'] = 'O administrador desativou o editor HTML neste site';
-$string['htmleditordisabledbrowser'] = 'O editor HTML não está disponível por não ser compatível com o seu navegador.';
+$string['htmleditordisabledbrowser'] = 'O editor HTML não está disponível por não ser compatível com o seu navegador web.';
 $string['htmlfilesonly'] = 'Só ficheiros HTML';
 $string['htmlformat'] = 'Formato HTML';
 $string['icon'] = 'Ícone';
@@ -1381,7 +1381,7 @@ Os seus dados de acesso atuais são:
 
 Por favor, visite esta página, para modificar a sua senha: {$a->link}
 
-Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador.
+Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador web.
 
 Cumprimentos do(a) administrador(a) da plataforma de e-learning  \'{$a->sitename}\',{$a->signoff}';
 $string['newpicture'] = 'Nova foto';
@@ -1409,7 +1409,7 @@ Os seus dados de acesso atuais são:
 
 Para começar a usar na plataforma de e-learning \'{$a->sitename}\' aceda a {$a->link}.
 
-Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador.
+Se não conseguir seguir esta hiperligação, copie o URL e cole na barra de endereço do seu navegador web.
 
 Cumprimentos do(a) administrador(a) da plataforma de e-learning  \'{$a->sitename}\',
 {$a->signoff}';

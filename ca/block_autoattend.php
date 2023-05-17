@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['add'] = 'Afegeix';
 $string['add_session'] = 'Afegeix una sessió';
 $string['addsession'] = 'Afegeix una sessió';
+$string['attendance'] = 'Assistència';
 $string['description'] = 'Descripció';
 $string['newsessionduration'] = 'Durada nova';
 $string['selectall'] = 'Selecciona-ho tot';

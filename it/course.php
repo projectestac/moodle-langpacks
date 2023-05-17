@@ -83,7 +83,7 @@ $string['gradetopassnotset'] = 'Il corso non ha una valutazione minima per super
 $string['informationformodule'] = 'Informazioni sull\'attività {$a}';
 $string['module'] = 'Attività';
 $string['noaccesssincestartinfomessage'] = 'Gentile {$a->userfirstname},
-<p>Nel corso  {$a->coursename} ci sono studenti che non lo hanno mai acceduto.</p>';
+<p>Alcuni studenti non hanno mai acceduto il corso {$a->coursename}.</p>';
 $string['nocourseactivity'] = 'Nel corso non sono presenti un numero sufficiente di attività tra la data di inizio e la data di fine del corso stesso.';
 $string['nocourseendtime'] = 'Il corso non ha una data di fine';
 $string['nocoursesections'] = 'Non ci cono sezioni del corso';

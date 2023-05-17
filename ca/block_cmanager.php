@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['edit'] = 'Edita';
 $string['entryFields_Description'] = 'Descripció';
+$string['formBuilder_saveTxt'] = 'Desa';
+$string['view'] = 'Visualitza';

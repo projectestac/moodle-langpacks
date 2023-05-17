@@ -34,3 +34,4 @@ $string['export'] = 'Exporta';
 $string['newduration'] = 'Durada nova';
 $string['session'] = 'Sessió';
 $string['showduration'] = 'Mostra la durada';
+$string['student'] = 'Estudiant';

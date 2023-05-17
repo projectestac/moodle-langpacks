@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['checkweekdays'] = 'Seleziona i giorni della settimana che cadono all\'interno dell\'intervallo di date selezionato.';
-$string['clientid_desc'] = '<a href="https://github.com/ronefel/moodle-mod_googlemeet/wiki/How-to-create-the-API-key-and-OAuth-client-ID" target="_blank">Come creare una API key ed un OAuth client ID</a>';
 $string['date'] = 'Data';
 $string['duration'] = 'Durata';
 $string['earlierto'] = 'La data dell\'evento non può essere Antecedente della data di inizio del corso ({$a}).';
@@ -51,7 +50,6 @@ $string['emailcontent_help'] = 'Quando una notifica viene inviata al partecipant
 $string['entertheroom'] = 'Entra nella stanza';
 $string['eventdate'] = 'Data dell\'evento';
 $string['from'] = 'Da';
-$string['generateurlroom'] = 'Genera un URL per la stanza';
 $string['googlemeet:addinstance'] = 'Aggiungi una stanza Google Meet™ for Moodle';
 $string['googlemeet:editrecording'] = 'Edita le registrazioni';
 $string['googlemeet:removerecording'] = 'Rimuovi le registrazioni';
@@ -76,7 +74,6 @@ $string['modulename'] = 'Google Meet™ per Moodle';
 $string['multieventdateexpanded'] = 'Ricorrenza della data dell\'evento estesa';
 $string['name'] = 'Nome';
 $string['never'] = 'Mai';
-$string['notfoundrecordingname'] = 'Nessuna registrazione con questo nome';
 $string['notification'] = 'Notifiche';
 $string['notificationexpanded'] = 'Notifiche estese';
 $string['notify'] = 'Invia una notifica allo studente';

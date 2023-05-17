@@ -54,8 +54,8 @@ $string['questiondefinition'] = 'Vraagdefinitie';
 $string['questiondeleted'] = 'Vraag verwijderd';
 $string['questioninquiz'] = '<ul>
   <li>vragen toevoegen of verwijderen, </li>
-  <li>wijzig de vraagvolgorde in de tekst,</li>
-  <li>wijzig het vraagtype (numeriek, kortantwoord, meerkeuze). </li></ul>';
+  <li>de vraagvolgorde wijzigen in de tekst,</li>
+  <li>het vraagtype (numeriek, kortantwoord, meerkeuze) wijzigen. </li></ul>';
 $string['questionnotfound'] = 'Kan de vraag niet vinden van vraagdeel #{$a}';
 $string['questionsadded'] = 'Vraag toegevoegd';
 $string['questionsaveasedited'] = 'De vraag zal bewaard worden zoals ze bewerkt is';

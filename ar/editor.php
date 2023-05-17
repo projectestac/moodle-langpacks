@@ -58,6 +58,7 @@ $string['cutpastemozilla'] = 'للأسف، لا تستطيع حاليا أستخ
 $string['delete'] = 'أحذف';
 $string['editors'] = 'محررات النصوص';
 $string['editorsettings'] = 'إدارة أدوات التحرير';
+$string['editorxformat'] = 'تنسيق {$a}';
 $string['enterurlfirst'] = 'يجب عليلك إدخل العنوان أولاً';
 $string['filebrowser'] = 'مستعرض الملف';
 $string['findwhat'] = 'أبحث';

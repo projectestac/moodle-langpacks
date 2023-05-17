@@ -25,4 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventcomponent'] = 'جزو';
+$string['eventcontext'] = 'واقعہ کا سیاق و سباق';
+$string['eventloggedas'] = '{$a->realusername} بطور {$a->asusername}';
+$string['eventorigin'] = 'اصل';
+$string['eventrelatedfullnameuser'] = 'متاثرہ صارف';
+$string['eventreportviewed'] = 'لائیو لاگ رپورٹ دیکھی گئی';
+$string['livelogs'] = 'پچھلے گھنٹے کے لائیو لاگز';
+$string['loglive:view'] = 'لائیو لاگز دیکھیں';
+$string['nologreaderenabled'] = 'کوئی لاگ ریڈر فعال نہیں ہے';
+$string['pause'] = 'لائیو اپ ڈیٹس کو روکیں';
 $string['pluginname'] = 'لائیو لاگز';
+$string['privacy:metadata'] = 'لائیو لاگز پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';
+$string['resume'] = 'لائیو اپڈیٹس دوبارہ شروع کریں';
+$string['selectlogreader'] = 'لاگ ریڈر منتخب کریں';

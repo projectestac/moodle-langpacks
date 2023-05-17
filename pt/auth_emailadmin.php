@@ -48,7 +48,7 @@ Para confirmar a nova conta, aceda ao seguinte endereço:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador web.
 
 Também pode confirmar contas no Moodle, acedendo a Administração do Site / Utilizadores';
 $string['auth_emailadminconfirmationsubject'] = '{$a}: confirmação de conta';

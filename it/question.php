@@ -369,9 +369,11 @@ $string['partiallycorrectfeedbackdefault'] = 'Risposta parzialmente esatta.';
 $string['penaltyfactor'] = 'Fattore di penalità';
 $string['penaltyfactor_help'] = '<p>Per ogni risposta errata può essere definita la frazione di punteggio raggiunto che deve essere sottratta. Questo è significativo solamente se il quiz è eseguito in modo adattativo tale per cui allo studente è permesso di rispondere più volte alla domanda. Il fattore di penalità può essere un numero tra 0 e 1. Un fattore uguale a 1 significa che lo studente deve rispondere correttamente al primo tentativo se vuole ottenere qualche punto dalla domanda in questione. Un fattore uguale a 0 significa che lo studente può provare quante volte vuole e ancora aspirare al massimo punteggio per la stessa domanda.</p>';
 $string['penaltyforeachincorrecttry'] = 'Penalità per ogni scelta sbagliata';
-$string['penaltyforeachincorrecttry_help'] = 'Se le domande usano i comportamenti \'Interattivo con tentativi multipli\' oppure \'Modo adattativo" per dare allo studente più possibilità per rispondere correttamente, questa opzione consente di controllare quanto penalizzare lo studente per le scelte sbagliate.
+$string['penaltyforeachincorrecttry_help'] = 'Se le domande usano i comportamenti \'Interattivo con tentativi multipli\' oppure \'Modo adattativo\' per dare allo studente più possibilità per rispondere correttamente, questa opzione consente di controllare quanto penalizzare lo studente per i tentativi sbagliati.
 
-La penalità è in proporzione al punteggio totale della domanda, ad esempio se la domanda ha un punteggio pari a tre e la penalità è 0.3333333, lo studente otterrà un punteggio pari a tre se indovina la risposta subito, pari a 2 se indovina la risposta al secondo tentativo e pari a 1 se indovina la risposta al al terzo tentativo.';
+La penalità è in proporzione al punteggio totale della domanda, ad esempio se la domanda ha un punteggio pari a tre e la penalità è 0.3333333, lo studente otterrà un punteggio pari a tre se indovina la risposta subito, pari a 2 se indovina la risposta al secondo tentativo e pari a 1 se indovina la risposta al al terzo tentativo.
+
+Per alcune domande in più parti questa logica di punteggio viene applicata separatamente a ciascuna parte della domanda. I dettagli dipendono dal tipo di domanda e possono essere complicati, ma il principio è dare credito agli studenti per le conoscenze che hanno dimostrato nel modo più equo possibile.';
 $string['permissionedit'] = 'Modificare questa domanda';
 $string['permissionmove'] = 'Spostare questa domanda';
 $string['permissionsaveasnew'] = 'Salvare questa domanda come nuova domanda';

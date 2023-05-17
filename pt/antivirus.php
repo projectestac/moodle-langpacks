@@ -62,6 +62,6 @@ $string['quarantinedfiles'] = 'Ficheiros da quarentena do antivírus';
 $string['quarantinedisabled'] = 'Quarentena está desativada. O ficheiro não foi armazenado.';
 $string['quarantinetime'] = 'Permanência máxima em quarentena';
 $string['quarantinetime_desc'] = 'Os ficheiros em quarentena anteriores ao período especificado serão apagados.';
-$string['taskcleanup'] = 'Limpar os ficheiros da quarentena.';
+$string['taskcleanup'] = 'Limpar os ficheiros da quarentena';
 $string['unknown'] = 'Desconhecido';
 $string['virusfound'] = '{$a->item} foi verificado por um detetor de vírus e foi considerado infetado!';

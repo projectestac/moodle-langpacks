@@ -104,7 +104,7 @@ $string['dropdownrated'] = 'Rolmenu (beoordeeld)';
 $string['edit_item'] = 'Bewerk vraag';
 $string['edit_items'] = 'Bewerk vragen...';
 $string['email_notification'] = 'Stuur e-mailnotificaties voor inzendingen';
-$string['email_notification_help'] = 'Indien ingeschakeld krijgen leraars een melding via wanneer er een formulier is ingestuurd.';
+$string['email_notification_help'] = 'Indien ingeschakeld krijgen leraren een melding wanneer er een formulier is ingestuurd.';
 $string['emailteachermail'] = '{$a->username} heeft het feedbackformulier \'{$a->feedback}\' ingevuld en opgestuurd.
 
 Je kunt het hier bekijken:

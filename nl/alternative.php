@@ -25,15 +25,23 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alternative'] = 'alternatief';
 $string['csv'] = 'Importeer CSV';
+$string['csvunableopen'] = 'Kon CSV bestand niet openen.';
 $string['datecomment'] = 'Datum';
 $string['multiple'] = 'Meerdere';
+$string['multiplemax'] = 'Maximaal aantal gebruikersregistraties';
+$string['multiplemin'] = 'Minimaal aantal gebruikersregistraties';
+$string['noselectedoption'] = 'Je moet een optie selecteren';
+$string['noselectedusers'] = 'Geen gebruikers geselecteerd';
 $string['option'] = 'Optie';
 $string['optionintro'] = 'Beschrijving';
 $string['optionname'] = 'Titel';
 $string['options'] = 'Opties';
 $string['places'] = 'Plaatsen';
 $string['placesavail'] = 'Beschikbare plaatsen';
+$string['pluginadministration'] = 'Alternatieve administratie';
+$string['pluginname'] = 'alternatief';
 $string['private'] = 'Privé';
 $string['public'] = 'Openbaar';
 $string['publicreg'] = 'Openbare registraties';

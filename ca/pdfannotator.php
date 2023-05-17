@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['edit'] = 'Edita';
+$string['fullscreen'] = 'Pantalla completa';
 $string['markasread'] = 'Marca com a llegit';
+$string['question'] = 'Pregunta';

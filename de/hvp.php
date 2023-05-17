@@ -131,7 +131,7 @@ Sie können den Versuch unter {$a->hvpreporturl} ansehen.';
 $string['emailnotifysmall'] = '{$a->studentname} hat {$a->hvpname} abgeschlossen. Mehr unter {$a->hvpreporturl}';
 $string['emailnotifysubject'] = '{$a->studentname} hat {$a->hvpname} abgeschlossen';
 $string['embed'] = 'Einbetten';
-$string['embedloginfailed'] = 'Sie haben keine Berechechtigung um auf diesen Inhalt zuzugreifen. Loggen Sie sich mit einem berechtigten Account ein.';
+$string['embedloginfailed'] = 'Sie haben keine Berechtigung, auf diesen Inhalt zuzugreifen. Melden Sie sich mit einem berechtigten Account an.';
 $string['embedtitle'] = 'Einbett-Code für diesen Inhalt anzeigen';
 $string['empty'] = 'Keine Ergebnisse verfügbar';
 $string['enableabout'] = 'Taste \'Über H5P\'';

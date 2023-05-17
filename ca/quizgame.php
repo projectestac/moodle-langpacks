@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['fullscreen'] = 'Pantalla completa';
 $string['questioncategory'] = 'Categoria de preguntes';

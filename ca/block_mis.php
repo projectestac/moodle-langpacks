@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['labelmisc'] = 'Paràmetres diversos';
+$string['student'] = 'Estudiant';

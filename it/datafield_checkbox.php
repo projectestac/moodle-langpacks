@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['fieldtypelabel'] = 'Caselle di spunta';
 $string['pluginname'] = 'Caselle di spunta';
-$string['privacy:metadata'] = 'Il plugin campo "Casella di spunta" non memorizza dati personali, utilizza tabelle definite in mod_data.';
+$string['privacy:metadata'] = 'Il componente campo Casella di spunta non memorizza dati personali; utilizza tabelle definite in mod_data.';

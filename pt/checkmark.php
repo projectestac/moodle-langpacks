@@ -27,6 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['absent'] = 'Faltou';
 $string['activateindividuals'] = 'Ativar a função individual';
+$string['activitydate:due'] = 'Fecho:';
+$string['activitydate:opened'] = 'Abriu:';
+$string['activitydate:opens'] = 'Abre:';
 $string['addnewgroupoverride'] = 'Adicionar exceção para grupo';
 $string['addnewuseroverride'] = 'Adicionar exceção para utilizador';
 $string['addsubmission'] = 'Adicionar submissão';
@@ -88,6 +91,8 @@ $string['bulk_help'] = 'Aqui pode executar ações como "configuração da assid
 <strong>Nota:</strong> Se a assiduidade estiver associada às notas, somente os utilizadores presentes receberão pontos para as verificações assinaladas.
 Os utilizadores ausentes terão 0 pontos e os utilizadores com estado de assiduidade desconhecido serão ignorados!';
 $string['bulk_no_users_selected'] = 'Nenhum participante foi selecionado. Selecione os utilizadores através das caixas de seleção na coluna mais à esquerda da tabela abaixo.';
+$string['calendardue'] = 'Terminou o prazo de \'{$a}\'';
+$string['calendargradingdue'] = 'Terminou o prazo de avaliação de \'{$a}\'';
 $string['cannotviewcheckmark'] = 'Não tem permissões para visualizar esta checkmark';
 $string['cantfixevent'] = 'Não foi possível corrigir o evento com ID {$a->id}, com o nome {$a->name} ({$a->matches} ocorrências).';
 $string['cfg_nowarning'] = 'Sem aviso';
@@ -370,6 +375,7 @@ $string['quickgrade_help'] = 'Se ativar esta opção, várias checkmarks podem s
 $string['remembertoupdategrades'] = 'Nesta Checkmark existem submissões que foram avaliadas automaticamente. É altamente recomendado que atualize ou reavalie as submissões se alterou as notas das verificações!';
 $string['requiregrading'] = 'Requerem avaliação';
 $string['requiresubmit'] = 'Requer submissão';
+$string['reverttodefaults'] = 'Reverter para predefinição da checkmark';
 $string['reviewed'] = 'Revistas';
 $string['saveallfeedback'] = 'Guardar todas as alterações';
 $string['search:activity'] = 'Checkmark - informações da atividade';
@@ -378,6 +384,8 @@ $string['selection'] = 'Com a seleção';
 $string['sendnotifications'] = 'Enviar notificações';
 $string['seperatenamecolumns'] = 'Dividir o nome completo em colunas separadas';
 $string['seperatenamecolumns_help'] = 'Se ativar esta opção, todas as partes que constituem o nome completo (nome e apelido) serão divididas em colunas separadas.';
+$string['sequentialnumbering'] = 'Numeração sequencial das linhas';
+$string['sequentialnumbering_help'] = 'Adicionar um prefixa a cada linha (aluno) com um número sequencial a começar em 1. Pode, por exemplo, ser usado para selecionar alunos aleatoriamente para apresentarem.';
 $string['setabsent'] = 'Marcar como ausente';
 $string['setabsentandgrade'] = 'Marcar como ausente e avaliar';
 $string['setattendant'] = 'Marcar como presente';

@@ -37,7 +37,7 @@ Para confirmar a sua nova conta, aceda a este endereço:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se precisar de ajuda, entre em contacto com o administrador do site,
 {$a->admin}
@@ -55,7 +55,7 @@ Para confirmar este pedido e vincular estas autenticações, aceda a este endere
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador de internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, então copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se precisar de ajuda, entre em contacto com o administrador do site:
 {$a->admin}

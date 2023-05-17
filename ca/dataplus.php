@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['edit'] = 'edita';
 $string['export'] = 'Exporta';
+$string['view'] = 'Visualitza';

@@ -34,3 +34,4 @@ $string['host'] = 'Amfitrió';
 $string['invalidurl'] = 'L\'URL ha de començar amb una lletra (a-z)';
 $string['private'] = 'Privat';
 $string['public'] = 'Públic';
+$string['savechanges'] = 'Desa';

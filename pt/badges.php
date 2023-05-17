@@ -122,7 +122,7 @@ Para confirmar e ativar a ligação à sua backpack, visite a página:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se precisar de ajuda, entre em contacto com o administrador do site,
 {$a->admin}';

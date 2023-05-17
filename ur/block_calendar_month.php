@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'تقویم';
+$string['calendar_month:addinstance'] = 'ایک نیا کیلنڈر بلاک شامل کریں';
+$string['calendar_month:myaddinstance'] = 'ڈیش بورڈ میں ایک نیا کیلنڈر بلاک شامل کریں';
+$string['pluginname'] = 'کیلنڈر';
+$string['privacy:metadata'] = 'کیلنڈر بلاک صرف موجودہ کیلنڈر ڈیٹا دکھاتا ہے۔';

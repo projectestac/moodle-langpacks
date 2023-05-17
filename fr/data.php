@@ -196,7 +196,7 @@ $string['foundrecords'] = 'Fiches trouvées : {$a->num}/{$a->max} (<a href="{$a
 $string['fromfile'] = 'Importer d\'un fichier zip';
 $string['fromfile_help'] = 'Utilisez cette fonctionnalité pour importer des préréglages que vous avez enregistrés auparavant sur votre propre ordinateur en les exportant.';
 $string['generateerror'] = 'Erreur de génération de certains fichiers !';
-$string['header'] = 'Entête';
+$string['header'] = 'En-tête';
 $string['headeraddtemplate'] = 'Définit l\'interface présentée lors de l\'ajout ou de la modification de fiches';
 $string['headerasearchtemplate'] = 'Définit l\'interface présentée pour la recherche avancée';
 $string['headercsstemplate'] = 'Définit les styles CSS des autres modèles';

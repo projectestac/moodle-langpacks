@@ -185,3 +185,4 @@ $string['tutortblheader_name'] = 'Nom';
 $string['tutortblheader_overallgrade'] = 'Puntuació global';
 $string['uncategorized'] = 'No categoritzat';
 $string['usage'] = 'Ús';
+$string['view'] = 'visualitza';

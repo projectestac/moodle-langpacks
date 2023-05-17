@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['edit'] = 'Edita';
 $string['facility_to_moodle:validateparentdata'] = 'Validar els pares';
 $string['labelmisc'] = 'Opcions diverses';
+$string['student'] = 'Estudiant';
 $string['validateparent'] = 'Valida els pares';

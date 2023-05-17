@@ -58,6 +58,7 @@ $string['cutpastemozilla'] = 'Desafortunadamente, no puede usar los atajos norma
 $string['delete'] = 'Eliminar';
 $string['editors'] = 'Editores de texto';
 $string['editorsettings'] = 'Gestionar editores';
+$string['editorxformat'] = 'Formato {$a}';
 $string['enterurlfirst'] = 'Debe introducir antes una URL';
 $string['filebrowser'] = 'Navegador de archivos';
 $string['findwhat'] = 'Encontrar';

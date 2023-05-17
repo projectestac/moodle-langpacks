@@ -195,7 +195,7 @@ $string['configcalendarexportsalt'] = 'Este texto aleatório é utilizado para a
 $string['configcookiehttponly'] = 'Ativa a nova funcionalidade da versão 5.2.0 do PHP: os navegadores só podem enviar cookies com pedidos HTTP reais e os cookies não devem ser acessíveis pelas linguagens de script. Esta funcionalidade não é suportada por todos os navegadores e poderá não ser totalmente compatível com o código atual. Ajuda a evitar alguns tipos de ataques XSS.';
 $string['configcookiesecure'] = 'Se o servidor apenas usa ligações HTTPS, recomenda-se a utilização de cookies seguros. Ao ativar, verifique que o servidor não está a aceitar pedidos http:// ou configure o redirecionamento permanente para endereços https:// e de preferência envie cabeçalhos HSTS. Quando o endereço <em>wwwroot</em> não começa por https:// esta configuração é ignorada.';
 $string['configcountry'] = 'Se selecionar um país, este será predefinido na criação de novas contas de utilizador. Para forçar os utilizadores a selecionar o país, deixe este campo em branco.';
-$string['configcoursegraceperiodafter'] = 'Classificar disciplinas do \'Histórico\' como \'A decorrer\' durante este número de dias após a data de fim da disciplina.';
+$string['configcoursegraceperiodafter'] = 'Classificar as disciplinas do \'Histórico\' como \'A decorrer\' durante este número de dias após a data de fim da disciplina.';
 $string['configcoursegraceperiodbefore'] = 'Classificar \'Por iniciar\' como \'A decorrer\' durante este número de dias antes da data de início da disciplina.';
 $string['configcourseoverviewfilesext'] = 'Lista das extensões permitidas, separadas por vírgulas, para os ficheiros de imagem da disciplina.';
 $string['configcourseoverviewfileslimit'] = 'Número máximo de ficheiros que podem ser mostrados junto da descrição da disciplina, na página da lista de disciplinas. O primeiro ficheiro de imagem adicionado é usado como a imagem da disciplina no bloco \'Minhas disciplinas\' no Painel do utilizador. Quaisquer ficheiros adicionais serão mostrados apenas na página da lista de disciplinas.';
@@ -222,7 +222,7 @@ $string['configdebug'] = 'Se ativar esta opção, o nível de error_reporting do
 $string['configdebugdisplay'] = 'Se ativar esta opção, as mensagens de erro serão mostradas no HTML. Isto é prático, mas quebra os "HTTP Headers", "JavaScript", "cookies" e "XHTML". Se desativar esta opção, as mensagens de erro serão registadas nos logs do servidor, permitindo uma melhor análise dos erros. A variável "error_log" do PHP controla para que log vai esta informação.';
 $string['configdebugpageinfo'] = 'Se ativar esta opção, será mostrada informação da página no rodapé.';
 $string['configdebugvalidators'] = 'Ative esta configuração se pretender incluir hiperligações para servidores externos de validação no rodapé da página. Pode ser necessário criar uma nova conta de utilizador com o nome de utilizador <strong>w3cvalidator</strong> e disponibilizar o acesso a visitantes. Estas configurações podem permitir acessos não autorizados ao servidor, pelo que não deve ser ativada em sites em produção!';
-$string['configdefaulthomepage'] = 'Para qual página os utilizadores devem ser redirecionados após autenticação no site? A configuração também determina a primeira hiperligação na navegação para utilizadores de temas baseados no Classic.';
+$string['configdefaulthomepage'] = 'Para qual página os utilizadores devem ser redirecionados após autenticação no site? A configuração também determina a primeira hiperligação na navegação para utilizadores de temas baseados no tema Clássico.';
 $string['configdefaultrequestcategory'] = 'As disciplinas pedidas pelos utilizadores com permissão para fazerem pedidos de novas disciplinas no contexto do sistema serão colocadas nesta categoria a menos que os utilizadores possam selecionar uma categoria diferente.';
 $string['configdefaultrequestedcategory'] = 'Categoria por predefinição para colocar as disciplinas pedidas, se forem aprovadas.';
 $string['configdefaultuserroleid'] = 'Todos os utilizadores autenticados terão as permissões do papel aqui indicado no contexto do site, para além de quaisquer outros papéis que estejam atribuidos a esse utilizador. O valor predefinido desta opção é "Utilizador autenticado". Tenha em atenção que este papel não colide com outros papéis que os utilizadores tenham, simplesmente garante que todos os utilizadores têm permissões que não são atribuíveis ao nível da disciplina (por exemplo, inserir entradas no blogue, gerir o próprio calendário, etc.).';
@@ -308,7 +308,7 @@ $string['configmessaging'] = 'Se ativar esta opção, os utilizadores podem envi
 $string['configmessagingallowemailoverride'] = 'Se ativar esta opção, será permitido que os utilizadores possam especificar um e-mail diferente do definido nos seus perfis para efeitos de envio das notificações por e-mail.';
 $string['configmessagingallusers'] = 'Se ativar esta opção, ao selecionar o destinatário da mensagem, os utilizadores podem visualizar a lista de todos os utilizadores no site, se as suas preferências de mensagem incluírem a opção de aceitar mensagens de qualquer utilizador do site. Se desativar a opção, os utilizadores só poderão visualizar a lista de utilizadores das suas disciplinas, e eles terão apenas duas opções nas preferências de mensagem - para aceitar mensagens apenas dos  seus contactos ou dos seus contactos e de qualquer utilizador que esteja inscrito nas suas disciplinas.';
 $string['configmessagingdefaultpressenter'] = 'Se ativar esta opção, \'Enter para enviar\' estará ativado por predefinição nas configurações das mensagens dos utilizadores.';
-$string['configmessagingdeleteallnotificationsdelay'] = 'As notificações lidas e não lidas podem ser apagadas para libertar espaço. A partir de quanto tempo é que uma notificação, depois de ser criada, pode ser pode apagada?';
+$string['configmessagingdeleteallnotificationsdelay'] = 'As notificações lidas e não lidas podem ser apagadas para libertar espaço. Depois de ser criada, após quanto tempo é que uma notificação pode ser apagada?';
 $string['configmessagingdeletereadnotificationsdelay'] = 'As notificações lidas podem ser apagadas para poupar espaço. Após a leitura, quanto tempo depois é que as notificações podem ser apagadas?';
 $string['configminpassworddigits'] = 'As senhas devem ter pelo menos este número de caracteres numéricos.';
 $string['configminpasswordlength'] = 'As senhas devem ter pelo menos este número de caracteres.';
@@ -645,7 +645,7 @@ $string['forceloginforprofileimage'] = 'Forçar os utilizadores a autenticarem-s
 $string['forceloginforprofileimage_help'] = 'Se ativar esta opção, os utilizadores têm de se autenticar para poderem ver as fotos de perfil e a imagem de utilizador predefinida será usada em todos os e-mails de notificação.';
 $string['forceloginforprofiles'] = 'Forçar os utilizadores a autenticarem-se para visualizarem os perfis';
 $string['forcetimezone'] = 'Forçar fuso horário';
-$string['formatuninstallwithcourses'] = 'Existem {$a->count} disciplinas a utilizar o formato {$a->format}. O formato das disciplinas será alterado para {$a->defaultformat} (formato predefinido do site). Poderão perder-se alguns dados específicos deste formato. Tem a certeza de que pretende continuar?';
+$string['formatuninstallwithcourses'] = 'Existe(m) {$a->count} disciplina(s) a utilizar o \'{$a->format}\'. O formato das disciplinas será alterado para \'{$a->defaultformat}\' (formato predefinido do site). Poderão perder-se alguns dados específicos deste formato. Tem a certeza de que pretende continuar?';
 $string['frontpage'] = 'Página principal';
 $string['frontpagebackup'] = 'Cópia de segurança da página principal';
 $string['frontpagedefaultrole'] = 'Papel a atribuir automaticamente na página principal';
@@ -760,7 +760,7 @@ Para desbloquear imediatamente a conta, aceda ao seguinte endereço:
 
 {$a->link}
 
-Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador de Internet.
+Se o endereço acima não for apresentado como uma hiperligação em que basta clicar, copie o endereço e cole na linha de endereço do seu navegador web.
 
 Se precisar de ajuda, por favor, contacte o administrador do site, {$a->admin}.';
 $string['lockoutemailsubject'] = 'A sua conta em \'{$a}\' foi bloqueada.';
@@ -839,7 +839,7 @@ $string['messaging'] = 'Ativar sistema de envio de mensagens';
 $string['messagingallowemailoverride'] = 'Alterar e-mail de notificação';
 $string['messagingallusers'] = 'Permitir mensagens entre todos os utilizadores';
 $string['messagingcategory'] = 'Mensagens';
-$string['messagingdefaultpressenter'] = 'Ativar \'Enter para enviar\' por predefinição';
+$string['messagingdefaultpressenter'] = '\'Enter para enviar\' por predefinição';
 $string['messagingdeleteallnotificationsdelay'] = 'Apagar todas as notificações';
 $string['messagingdeletereadnotificationsdelay'] = 'Apagar notificações já lidas';
 $string['messagingssettings'] = 'Configurações das mensagens';
@@ -856,6 +856,8 @@ $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> Esta cópia d
 $string['mnetrestore_extusers_noadmin'] = '<strong>Aviso:</strong> Este ficheiro da cópia de segurança parece provir de uma instalação Moodle diferente e contém contas de utilizador remotas de Rede Moodle. Não tem permissão a executar este tipo de restauro. Entre em contacto com o administrador do site, ou alternativa, restaure a disciplina sem informação dos utilizadores (módulos, ficheiros, ...)';
 $string['mnetrestore_extusers_switchuserauth'] = 'O utilizador remoto da Rede Moodle {$a->username} (originário de {$a->mnethosturl}) mudou para utilizador local com autenticação {$a->auth}.';
 $string['mobilenotconfiguredwarning'] = 'A Aplicação móvel Moodle não está ativa.';
+$string['modassignmentinuse'] = 'O seu site ainda está a usar o módulo Trabalho 2.2. Antes de atualizar tem de: 1) fazer cópia de segurança das suas atividades Trabalho 2.2 que pretende manter e restaurá-las como novas atividades Trabalho e 2) apagar na base de dados todos os dados das tabelas Trabalho 2.2.';
+$string['modassignmentsubpluginsexist'] = 'Podem existir sub-módulos de Trabalho 2.2. A pasta \'mod/assignment\' e todos os seus sub-módulos têm de ser removidos antes da atualização.';
 $string['modchooserdefault'] = 'Predefinição do modo de seleção rápida';
 $string['modeditdefaults'] = 'Valores predefinidos das configurações das atividades';
 $string['modsettings'] = 'Gerir atividades';
@@ -893,7 +895,7 @@ $string['navshowfrontpagemods_help'] = 'Se ativar esta opção, a atividade da p
 $string['navshowfullcoursenames'] = 'Mostrar nome completo das disciplinas';
 $string['navshowfullcoursenames_help'] = 'Se ativar esta opção, o nome completo das disciplinas será usado, na navegação, em vez do nome curto.';
 $string['navshowmycoursecategories'] = 'Mostrar as minhas categorias';
-$string['navshowmycoursecategories_help'] = 'Se ativar esta opção, as minhas disciplinas são exibidas nas categorias nos blocos de navegação (apenas em temas baseados no tema Clássico)';
+$string['navshowmycoursecategories_help'] = 'Se ativar esta opção, as Minhas disciplinas são exibidas em categorias no bloco de navegação (apenas em temas baseados no tema Clássico).';
 $string['navsortmycourseshiddenlast'] = 'Ordenar as minhas disciplinas ocultas no fim';
 $string['navsortmycourseshiddenlast_help'] = 'Se ativar esta opção, todas as disciplinas ocultas serão listadas após as disciplinas visíveis (para utilizadores que podem ver as disciplinas ocultas). Caso contrário, todas as disciplinas, independentemente de estarem visíveis ou ocultas, serão listadas de acordo com a configuração \'Ordenar as minhas disciplinas\'.';
 $string['navsortmycoursessort'] = 'Ordenar as minhas disciplinas';
@@ -1043,7 +1045,7 @@ $string['profiling'] = 'Classificação';
 $string['profilingallowall'] = 'Classificação contínua';
 $string['profilingallowall_help'] = 'Se ativar esta configuração, então, a qualquer momento, pode usar o parâmetro PROFILEALL (PGC) para ativar a classificação de todos os scripts executados durante a duração da sessão Moodle. Pelo contrário, pode usar o parâmetro PROFILEALLSTOP para interromper este processo.';
 $string['profilingallowme'] = 'Classificação seletiva';
-$string['profilingallowme_help'] = 'Se ativar esta configuração então pode, de forma seletiva, usar o parâmetro PROFILEME (PGC) para classificar um determinado script se ele for executado. Pelo contrário, pode usar o parâmetro  DONTPROFILEME para impedir a classificação do script.';
+$string['profilingallowme_help'] = 'Se ativar esta configuração, pode, de forma seletiva, usar o parâmetro PROFILEME (PGC) para classificar um determinado script se ele for executado. Pelo contrário, pode usar o parâmetro  DONTPROFILEME para impedir a classificação do script.';
 $string['profilingautofrec'] = 'Classificação automática';
 $string['profilingautofrec_help'] = 'Ao configurar este parâmetro, alguns pedidos (definidos aleatoriamente com base na frequência especificada - 1 de N) serão selecionados e classificados automaticamente, sendo os resultados armazenados para análise posterior. Tenha em atenção que esta forma de classificação respeita as configurações de inclusão e exclusão definidas. Defina o valor "0" (zero) para desativar a classificação automática.';
 $string['profilingenabled'] = 'Ativar classificação';

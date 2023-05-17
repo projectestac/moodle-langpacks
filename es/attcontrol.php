@@ -25,6 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['attcontrol:export'] = 'Exportar informes';
+$string['attcontrol:viewreports'] = 'Ver informes';
 $string['calmonths'] = 'Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre';
+$string['coursereport'] = 'Informe de curso';
 $string['enrolmentsuspended'] = 'Matriculación suspendida';
+$string['individualreport'] = 'Informe individual';
+$string['nostudentselected'] = 'Seleccione estudiante para ver su informe individual.';
+$string['report'] = 'Informe';
 $string['session'] = 'Sesión';

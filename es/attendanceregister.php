@@ -96,6 +96,7 @@ $string['offline_session_end'] = 'Fin';
 $string['offlinecomments'] = 'Comentarios del Usuario';
 $string['online'] = 'En línea';
 $string['online_offline'] = 'En Línea/Fuera de línea';
+$string['participants_attendance_report_viewed'] = 'Informe de asistencia de participantes visto';
 $string['prev_site_login'] = 'Inicio de sesión anterior en el Sitio';
 $string['select_a_course'] = '- Seleccione un Curso -';
 $string['session_added_by_another_user'] = 'Añadido por: {$a}';

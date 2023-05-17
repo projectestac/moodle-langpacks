@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actenrolshhdr'] = 'Módulos de inscrição disponíveis';
-$string['addinstance'] = 'Adicionar método:';
+$string['addinstance'] = 'Adicionar método';
 $string['addinstanceanother'] = 'Adicionar método e criar outro';
 $string['ajaxnext25'] = 'Próximos 25...';
 $string['ajaxoneuserfound'] = 'Um utilizador encontrado';
@@ -74,8 +74,8 @@ $string['enrolxusers'] = 'Inscrever {$a} utilizadores';
 $string['errajaxfailedenrol'] = 'A inscrição do utilizador falhou';
 $string['errajaxsearch'] = 'Erro ao pesquisar utilizadores';
 $string['erroreditenrolment'] = 'Ocorreu um erro ao tentar editar a inscrição dos utilizadores';
-$string['errorenrolcohort'] = 'Ocorreu um erro ao criar uma instância de sincronização de inscrições de grupos globais nesta disciplina.';
-$string['errorenrolcohortusers'] = 'Ocorreu um erro ao inscrever membros de grupos globais nesta disciplina.';
+$string['errorenrolcohort'] = 'Ocorreu um erro ao criar uma instância de sincronização de inscrições de Grupos globais nesta disciplina.';
+$string['errorenrolcohortusers'] = 'Ocorreu um erro ao inscrever membros de Grupos globais nesta disciplina.';
 $string['errorthresholdlow'] = 'A notificação deve ser enviada, pelo menos, 1 dia antes.';
 $string['errorwithbulkoperation'] = 'Ocorreu um erro durante o processamento da alteração da sua inscrição';
 $string['eventenrolinstancecreated'] = 'Método de inscrição criado';

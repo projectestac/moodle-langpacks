@@ -128,6 +128,7 @@ $string['shownotesarea_help'] = 'Seleccionar "Sí" para mostrar el área de nota
 $string['showtitle_help'] = 'Mostrar / ocultar título de la página.';
 $string['strattempttitle'] = 'Intento realizado en la página {$a->pagenum} título {$a->title}';
 $string['strstate'] = 'Terminado <br /> Enviado {$a}.';
+$string['summary'] = 'Resumen';
 $string['toreassess'] = 'para revaluar';
 $string['transitioneffect'] = 'Transiciones';
 $string['transitioneffecthelp'] = 'Efectos de transiciones';

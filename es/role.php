@@ -171,6 +171,7 @@ $string['contentbank:upload'] = 'Subir nuevo contenido al banco de contenido';
 $string['contentbank:useeditor'] = 'Crear o editar contenido usando un editor de tipo de contenido';
 $string['contentbank:viewunlistedcontent'] = 'Ver contenido no listado del banco de contenido';
 $string['context'] = 'Contexto';
+$string['contextrolenotallowed'] = 'No se permite el rol {$a} en este contenido.';
 $string['course:activityvisibility'] = 'Ocultar/mostrar actividades';
 $string['course:bulkmessaging'] = 'Enviar un mensaje a mucha gente';
 $string['course:changecategory'] = 'Cambiar la categoría del curso';

@@ -25,10 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['attendance'] = 'Assistència';
 $string['cancelbooking'] = 'Cancel·la la reserva';
 $string['crontask'] = 'Tasques de manteniment cara a cara';
 $string['date'] = 'Data';
 $string['details'] = 'Detalls';
+$string['edit'] = 'Edita';
 $string['error:couldnotaddsession'] = 'No s\'ha pogut afegir una sessió';
 $string['export'] = 'Exporta';
 $string['import'] = 'Importa';

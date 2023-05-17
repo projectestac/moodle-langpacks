@@ -147,7 +147,7 @@ Si la formation se passe sur deux périodes ou plus la durée est le total des d
 
 Ce champ est optionnel.';
 $string['early'] = '{$a} tôt';
-$string['editingsession'] = 'Edition de la session de {$a}';
+$string['editingsession'] = 'Édition de la session de {$a}';
 $string['editsession'] = 'Editer la session';
 $string['email:instrmngr'] = 'Information du responsable';
 $string['email:message'] = 'Message';

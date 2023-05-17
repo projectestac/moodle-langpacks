@@ -236,12 +236,16 @@ $string['bookingoption_created'] = 'Boekingsoptie aangemaakt';
 $string['bookingoption_deleted'] = 'Boekingsoptie verwijderd';
 $string['bookingoption_updated'] = 'Boekingsoptie geupdate';
 $string['bookingoptioncalendarentry'] = '<a href="{$a}" class="btn btn-primary">Boek nu...</a>';
+$string['bookingoptiondate_created'] = 'Datum boekingsoptie gemaakt';
+$string['bookingoptiondate_deleted'] = 'Datum boekingsoptie verwijderd';
+$string['bookingoptiondate_updated'] = 'Datum boekingsoptie bijgewerkt';
 $string['bookingoptionname'] = 'Boekingoptie naam';
 $string['bookingoptionsfromtemplatemenu'] = 'Nieuwe boekingsoptie van sjabloon';
 $string['bookingoptionsmenu'] = 'Inschrijf opties';
 $string['bookingoptiontext'] = 'De boekingstekst is afhankelijk van de boekingstatus';
 $string['bookingoptiontitle'] = 'Boekingsoptie titel';
 $string['bookingorganizatorname'] = 'Naam organisator';
+$string['bookingplaceslowmessage'] = 'Nog maar een paar boekingsplaatsen beschikbaar';
 $string['bookingpoints'] = 'Cursuspunten';
 $string['bookingpolicy'] = 'Inschrijfvoorwaarden';
 $string['bookingpollurl'] = 'Enquête url';
@@ -265,6 +269,8 @@ $string['bstwaitinglist'] = 'Op de wachtlijst';
 $string['btnbooknowname'] = 'Naam van knop "Nu boeken"';
 $string['btncacname'] = 'Naam van knop "Bevestig activiteitsvoltooiing"';
 $string['btncancelname'] = 'Naam van knop "Annuleer boeking"';
+$string['caladdascourseevent'] = 'Voeg toe aan kalender (alleen zichtbaar voor de deelnemers van de cursus)';
+$string['caladdassiteevent'] = 'Voeg toe aan kalender (zichtbaar voor alle gebruikers)';
 $string['cancancelbook'] = 'Toestaan dat gebruiker de boeking tijdens de boekingsperiode kan annuleren?';
 $string['cancancelbookdays'] = 'Gebruikers mogen hun boeking niet n dagen voor start annuleren';
 $string['cancancelbookdaysno'] = 'Geen limiet';
@@ -367,6 +373,7 @@ $string['delcustfield'] = 'Verwijder dit veld en alle bijbehorende veldinstellin
 $string['deletebooking'] = 'Weet je zeker dat je wilt uitschrijven voor de volgende cursus? <br /><br /> <b>{$a} </b>';
 $string['deletebookingoption'] = 'Verwijder deze boekingsoptie';
 $string['deletecategory'] = 'Verwijder';
+$string['deletecustomfield'] = 'Aangepaste veld verwijderen?';
 $string['deletedbookingmessage'] = 'Boeking voor volgende cursus verwijderd: {$a->title}
 
 Gebruiker: {$a->participant}
@@ -453,7 +460,10 @@ Boekingsoptie:  {$a->title}
 Datum: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
 Link: {$a->bookinglink}
 Gekoppelde cursus: {$a->courselink}';
+$string['erroremptycustomfieldname'] = 'Aangepaste veldnaam mag niet leeg zijn.';
+$string['erroremptycustomfieldvalue'] = 'Aangepaste veldwaarde mag niet leeg zijn.';
 $string['errorpagination'] = 'Vul alstublieft een nummer in dat groter is dan 0';
+$string['eventalreadyover'] = 'Dit evenement is al over.';
 $string['eventbooking_cancelled'] = 'Inschrijving geannuleerd';
 $string['eventbookingoption_booked'] = 'Inschrijfoptie geboekt';
 $string['eventduration'] = 'Gebeurtenisduur';
@@ -475,17 +485,33 @@ $string['generatenewurl'] = 'Genereer een nieuwe korte url';
 $string['generaterecnum'] = 'Genereer nummers';
 $string['generaterecnumareyousure'] = 'Dit zal nieuwe nummers genereren en de oude permanent verwijderen!';
 $string['generaterecnumnotification'] = 'Er zijn nieuwe nummers gegenereerd.';
+$string['globalactivitycompletiontext'] = 'Bericht wat verstuurd moet worden wanneer een boekingsoptie is voltooid (algemene sjabloon)';
+$string['globalbookedtext'] = 'Boekingsbevestiging (algemene sjabloon)';
+$string['globalbookingchangedtext'] = 'Bericht wat verstuurd moet worden wanneer een boekingsoptie is gewijzigd (wordt alleen verstuurd naar gebruikers die al geboekt hebben). Gebruik de tijdelijke aanduiding {changes} om veranderingen te zien. Vul 0 in om notificaties uit te zetten. (Algemene sjabloon)';
+$string['globaldeletedtext'] = 'Geannuleerde boekingsbericht (algemene sjabloon)';
+$string['globalmailtemplates'] = 'Algemene e-mailsjablonen';
+$string['globalmailtemplates_desc'] = 'Alleen beschikbaar in de PRO-versie. Na activatie kun je naar de instellingen van een boekingsinstantie gaan en de bron van mailtemplates instellen op globaal.';
+$string['globalnotifyemail'] = 'Deelnemer notificatie voor het begin (algemene sjabloon)';
+$string['globalnotifyemailteachers'] = 'Lerarennotificatie voor het begin (algemene sjabloon)';
+$string['globalpollurlteacherstext'] = 'Bericht voor de poll-URL verzonden naar docenten (algemene sjabloon)';
+$string['globalpollurltext'] = 'Bericht voor het verzenden van poll-URL naar geboekte gebruikers (algemeen sjabloon)';
+$string['globalstatuschangetext'] = 'Statuswijzigingsbericht (algemeen sjabloon)';
+$string['globaluserleave'] = 'Gebruiker heeft zijn/haar eigen boeking geannuleerd (algemeen sjabloon)';
+$string['globalwaitingtext'] = 'Wachtlijstbevestiging (algemeen sjabloon)';
 $string['goenrol'] = 'Ga naar registratie';
 $string['googleapikey'] = 'Google API key';
 $string['googleapikey_desc'] = 'API key voor Google verkorte. Ga naar:  https://developers.google.com/url-shortener/v1/getting_started#APIKey';
 $string['gotobooking'] = '<< Boekingen';
+$string['gotobookingoption'] = 'Ga naar boekingsoptie';
 $string['gotop'] = 'Ga naar boven';
 $string['groupdeleted'] = 'Deze boekingsoptie maakt automatisch groepen aan in de geselecteerde cursus. Maar de groep is handmatig verwijderd uit de cursus. Klik op de checkbox hieronder om de groep en inschrijvingen weer aan te maken.';
 $string['groupexists'] = 'De groep bestaat al in de gekozen cursus, kies alstublieft een andere naam voor de boekingsoptie';
 $string['groupname'] = 'Groepnaam';
 $string['hidedescription'] = 'Verberg beschrijving';
 $string['hours'] = '{$a} uren';
+$string['howmanytimestorepeat'] = 'Hoeveel keer herhalen?';
 $string['howmanyusers'] = 'Maximaal aantal gebruikers dat de leraar heeft ingesteld voor de optie \'kan boeken\'';
+$string['howoftentorepeat'] = 'Hoe vaak herhalen?';
 $string['icalcancel'] = 'Indien een gebeurtenis geannuleerd wordt voeg een ical-bijlage toe als geannuleerde gebeurtenis';
 $string['icalcanceldesc'] = 'Wanneer een gebruiker een inschrijving annuleert of verwijderd wordt van de ingeschreven gebruikerslijst, voeg dan een ical bijlage toe als een geannuleerde gebeurtenis.';
 $string['icalcfg'] = 'Instellingen van de ical bijlages';
@@ -516,6 +542,9 @@ $string['lblsputtname'] = 'Naam label "Stuur een enquête-url naar leraren"';
 $string['lblsurname'] = 'Naam label "Achternaam"';
 $string['lblteachname'] = 'Naam label "Leraren"';
 $string['leftandrightdate'] = '{$a->leftdate} tot {$a->righttdate}';
+$string['license_invalid'] = 'Ongeldige licentie sleutel';
+$string['licensekey'] = 'PRO licentie sleutel';
+$string['licensekeycfg'] = 'Activeer PRO versie';
 $string['limit'] = 'Beperk';
 $string['limitanswers'] = 'Beperk het aantal deelnemers';
 $string['limitanswers_help'] = 'Als je deze optie wijzigt en je mensen hebt geboekt, kunt je ze zonder kennisgeving verwijderen!';
@@ -542,11 +571,13 @@ $string['multiselect'] = 'Meerdere selecties';
 $string['mustchooseone'] = 'Je moet een optie kiezen voordat je kunt bewaren. Er is niets bewaard.';
 $string['mustfilloutuserinfobeforebooking'] = 'Vul alsjeblieft de persoonlijke boekingsinformatie in, voordat je verder gaat met het boekingsformulier.';
 $string['mybookings'] = 'Mijn boekingen';
+$string['mybookingsbooking'] = 'Boeking (Curses)';
 $string['mybookingsoption'] = 'Optie';
 $string['myoptions'] = 'Opties die ik beheer';
 $string['newtemplatesaved'] = 'Nieuw boekingsoptie sjabloon is bewaard.';
 $string['next'] = 'Volgende';
 $string['no'] = 'Nee';
+$string['nobookingpossible'] = 'Boeken niet mogelijk';
 $string['nobookingselected'] = 'Geen boekingsoptie geselecteerd';
 $string['nocomments'] = 'Schakel commentaar uit';
 $string['nocourse'] = 'Geen cursus geselecteerd voor deze boekingsoptie';
@@ -629,6 +660,7 @@ Datum: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
 Link: {$a->bookinglink}
 Klik op de link om alle cursussen te bekijken waar je voor ingeschreven bent: {$a->bookinglink}
 De gekoppelde cursus is hier te vinden: {$a->courselink}';
+$string['notifyemailteachers'] = 'Docentmelding voor aanvang (PRO)';
 $string['notopenyet'] = 'Sorry, deze activiteit is niet beschikbaar tot {$a}';
 $string['notstarted'] = 'Nog niet begonnen.';
 $string['nouserfound'] = 'Geen gebruiker gevonden:';
@@ -808,16 +840,30 @@ $string['question'] = 'Vraag';
 $string['ratings'] = 'Boekingsoptie beoordeling';
 $string['ratingsuccess'] = 'De beoordelingen zijn succesvol bijgewerkt';
 $string['recreategroup'] = 'Herstel de groep en meld deelnemers hiervoor aan in de geselecteerde cursus.';
+$string['recurringheader'] = 'Terugkerende opties';
 $string['removeafterminutes'] = 'Verwijder activiteitsvoltooing na N minuten';
 $string['removeresponses'] = 'Verwijder alle reacties';
 $string['removeuseronunenrol'] = 'Verwijder gebruiker van de boeking wanneer deze is afgemeld in de geassocieerde cursus?';
+$string['repeatthisbooking'] = 'Herhaal deze optie';
 $string['reportfields'] = 'Te downloaden reactie velden (csv, xls-download)';
 $string['reset'] = 'Terugzetten';
 $string['responses'] = 'Reacties';
 $string['responsesfields'] = 'Velden die getoond worden op de  beheer reactie pagina';
 $string['responsesto'] = 'Reacties tot {$a}';
+$string['resultofcohortorgroupbooking'] = '<p>Dit is het resultaat van je site-groep boeking</p>
+<ul>
+<li>{$a->sumcohortmembers} gebruikers gevonden in de geselecteerde site-groep</li>
+<li>{$a->sumgroupmembers} gebruikers gevonden in de geselecteerde groepen</li>
+<li><b>{$a->subscribedusers} gebruikers zijn geboekt voor deze optie</b></li>
+</ul>';
 $string['rootcategory'] = 'Root';
+$string['saveinstanceastemplate'] = 'Boekingsinstantie toevoegen aan sjabloon';
 $string['savenewtagtemplate'] = 'Bewaar';
+$string['scgfbookgroupscohorts'] = 'Boek cohort(s) of groep(en)';
+$string['scgfcohortheader'] = 'Site-groep abonnement';
+$string['scgfgroupheader'] = 'Groepsabonnement';
+$string['scgfselectcohorts'] = 'Selecteer site-groep(en)';
+$string['scgfselectgroups'] = 'Selecteer groep(en)';
 $string['searchdate'] = 'Datum';
 $string['searchname'] = 'Voornaam';
 $string['searchsurname'] = 'Achternaam';
@@ -913,6 +959,7 @@ $string['successfulldeleted'] = 'Categorie is verwijderd!';
 $string['successfulldeletedinstitution'] = 'Instituut is verwijderd!';
 $string['sucesfullcompleted'] = 'Activiteit is succesvol voltooid voor gebruikers.';
 $string['sucesfullytransfered'] = 'Gebruikers zijn succesvol overgeboekt.';
+$string['tagdeleted'] = 'Tagtemplate was verwijderd!';
 $string['tagsuccessfullysaved'] = 'Tag is bewaard.';
 $string['tagtag'] = 'Tag';
 $string['tagtemplates'] = 'Tag-sjablonen';

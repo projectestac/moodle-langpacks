@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['edit'] = 'Edita';
 $string['files'] = 'Fitxers';
 $string['noattachments'] = '<strong>Cap fitxer adjunt</strong>';
+$string['view'] = 'Visualitza';

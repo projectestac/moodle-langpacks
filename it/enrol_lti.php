@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['allowframeembedding'] = 'Nota: si raccomanda l\'abilitazione di \'Consenti l\'embed in frame\', in questo modo il tool sarà visualizzato in un frame invece che in una nuova finestra.';
 $string['authltimustbeenabled'] = 'Nota: questo plugin richiede l\'abilitazione del plugin di autenticazione LTI.';
 $string['cartridgeurl'] = 'URL cartridge';
+$string['couldnotestablishproxy'] = 'Non è stato possibile stabilire un proxy con il consumer.';
 $string['deletedactivity'] = 'Attività eliminata';
 $string['deletedactivityalt'] = 'L\'attività condivisa da questa istanza è stata eliminata';
 $string['deletedactivitydescription'] = 'L\'attività condivisa da questa istanza è stata eliminata. È possibile selezionare un\'altra attività da condividere oppure è possibile semplicemente eliminare l\'istanza. L\'eliminazione dell\'istanza eliminerà le iscrizioni utente associate.';
@@ -57,7 +58,9 @@ $string['maxenrolled'] = 'Massimo numero di utenti';
 $string['maxenrolled_help'] = 'Il numero massimo di utenti remoti che possono accedere al tool. Impostare a zero per nessun limite.';
 $string['maxenrolledreached'] = 'È stato raggiunto il numero massimo di utenti che possono accedere al tool.';
 $string['membersync'] = 'Sincronizzazione utenti';
-$string['membersync_help'] = 'Stabilisce se creare un account per ciascun utente remoto, iscrivendolo al corso.';
+$string['membersync_help'] = 'Tramite una elaboraione pianificata, consente la sincronizzazione degli utenti iscritti nel sistema remoto con le iscrizioni di questo corso, creando un account per ogni utente remoto, se necessario, e iscrivendoli o disiscrivendoli secondo necessità.
+
+Se è impostato su no, nel momento in cui un utente remoto accede allo strumento, gli verrà creato un account e verrà iscritto automaticamente.';
 $string['membersyncmode'] = 'Modalità sincronizzazione utenti';
 $string['membersyncmode_help'] = 'Stabilisce se l\'utente remoto deve essere iscritto/disiscritto dal corso';
 $string['membersyncmodeenrolandunenrol'] = 'Iscrivi i nuovi utenti e disiscrivi gli utenti mancanti';

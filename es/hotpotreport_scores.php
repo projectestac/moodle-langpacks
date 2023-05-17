@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Informe de puntuaciones';
+$string['privacy:metadata'] = 'El módulo de informe de puntuaciones no guarda ningún dato personal.';

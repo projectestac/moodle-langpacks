@@ -38,7 +38,7 @@ $string['asyncemailenable'] = 'Habilitar notificaciones de mensajes';
 $string['asyncemailenabledetail'] = 'Cuando se habilita, los usuarios recibirán un mensaje cuando se complete una restauración o copia de seguridad asincrónicos.';
 $string['asyncgeneralsettings'] = 'Copia de seguridad/restauración asincrónicos';
 $string['asyncmessagebody'] = 'Mensaje';
-$string['asyncmessagebodydefault'] = 'Hola {user_firstname} {user_lastname}, <br/> ¡Su {operation} (ID: {backupid}) ha sido completado exitosamente <br/><br/>Puede verla aquí {link}.';
+$string['asyncmessagebodydefault'] = 'Hola {user_firstname} {user_lastname}, <br/> ¡Su {operation} (ID: {backupid}) ha sido completado exitosamente <br/><br/>Puede verla aquí: <a href="{link}">{link}</a>.';
 $string['asyncmessagebodydetail'] = 'Mensaje a enviar cuando se complete una restauración o copia de seguridad asincrónicos.';
 $string['asyncmessagesubject'] = 'Asunto';
 $string['asyncmessagesubjectdefault'] = '{operation} de Moodle se completó exitosamente';
@@ -173,7 +173,7 @@ $string['copycoursedesc'] = 'Este curso se duplicará y se incluirá en la categ
 $string['copycourseheading'] = 'Copiar un curso';
 $string['copycoursetitle'] = 'Copiar curso: {$a}';
 $string['copydest'] = 'Destino';
-$string['copyfieldnotfound'] = 'No se encontró un campo obligatorio';
+$string['copyfieldnotfound'] = 'No se han encontrado los datos del campo requerido para los campos: {$a}';
 $string['copyformfail'] = 'El envío de AJAX del formulario de copia del curso ha fallado.';
 $string['copyingcourse'] = 'Copia de curso en proceso';
 $string['copyingcourseshortname'] = 'copiando';

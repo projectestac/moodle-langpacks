@@ -78,7 +78,7 @@ $string['auth_ldap_passwdexpire_settings'] = 'Impostazione scadenza password LDA
 $string['auth_ldap_preventpassindb'] = 'Selezionare Si per evitare il salvataggio delle password nel database di Moodle.';
 $string['auth_ldap_preventpassindb_key'] = 'Evita il caching delle password';
 $string['auth_ldap_rolecontext'] = 'Contesto {$a->localname}';
-$string['auth_ldap_rolecontext_help'] = 'Il contesto LDAP utilizzato per la mappatura dei <i>{$a->localname}</i>. In presenza di più gruppi separarli con \';\'. Di solito "cn={$a->shortname},ou=staff,o=myorg".';
+$string['auth_ldap_rolecontext_help'] = 'Contesto LDAP utilizzato per selezionare la mappatura di <i>{$a->localname}</i>. Separare più gruppi con \';\', ad esempio: "cn={$a->shortname},ou=first-ou-with-role-groups,o=myorg; cn={$a->shortname},ou=second-ou-with -ruolo-gruppi,o=myorg".';
 $string['auth_ldap_search_sub'] = 'Cerca gli utenti anche nei sotto-contesti.';
 $string['auth_ldap_search_sub_key'] = 'Cerca nei sotto-contesti';
 $string['auth_ldap_server_settings'] = 'Impostazioni server LDAP';

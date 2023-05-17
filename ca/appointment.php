@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addsession'] = 'Afegeix una sessió';
+$string['attendance'] = 'Assistència';
 $string['crontask'] = 'Tasques de manteniment de les cites';
 $string['details'] = 'Detalls';
 $string['duration'] = 'Durada';

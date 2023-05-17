@@ -28,5 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['defaultworkflowdescription'] = 'Una descripció per a aquest flux de treball';
 $string['description'] = 'Descripció';
 $string['disabled'] = 'Inhabilitat';
+$string['edit'] = 'Edita';
 $string['export'] = 'Exporta';
 $string['todoundone'] = 'Marcades {$a} com a incompletes';

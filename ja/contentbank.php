@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['author'] = '作成者';
 $string['close'] = '閉じる';
 $string['contentbank'] = 'コンテンツバンク';
-$string['contentbankpreferences'] = 'コンテンツバンクプリファレンス';
+$string['contentbankpreferences'] = 'コンテンツバンクプレファレンス';
 $string['contentdeleted'] = 'コンテンツが削除されました。';
 $string['contentname'] = 'コンテンツ名';
 $string['contentnotdeleted'] = 'コンテンツの削除中にエラーが発生しました。';

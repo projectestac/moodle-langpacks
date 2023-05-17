@@ -265,7 +265,7 @@ Een leraar kan toestaan dat bestanden als bijlage bij een item gevoegd worden. A
 
 Als het autolink-filter voor woordenlijsten is ingeschakeld, dan kunnen woordenlijstitems automatisch gelinkt worden telkens wanneer het woord ergens in de cursus verschijnt.
 
-Een leraar kan commentaren op woordenlijstitems toestaan. De items kunnen ook beoordeeld worden door leraars of leerlingen (peer-evaluatie). Beoordelingen kunnen samengeteld worden om een totaalcijfer te vormen dat opgenomen wordt in de cijferlijst.
+Een leraar kan commentaren op woordenlijstitems toestaan. De items kunnen ook beoordeeld worden door leraren of leerlingen (peer-evaluatie). Beoordelingen kunnen samengeteld worden om een totaalcijfer te vormen dat opgenomen wordt in de cijferlijst.
 
 Woordenlijsten kunnen gebruikt worden voor vele zaken, zoals
 

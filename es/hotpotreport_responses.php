@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Informe de respuestas';
+$string['privacy:metadata'] = 'El módulo de informe de respuestas no guarda ningún dato personal.';

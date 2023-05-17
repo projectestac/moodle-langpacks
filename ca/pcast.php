@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['requireapproval_help'] = 'Fes que calgui aprovar els episodis abans de publicar-los';
 $string['sortbycreation'] = 'Data de creació';
 $string['summary'] = 'Resum';
+$string['view'] = 'Visualitza';

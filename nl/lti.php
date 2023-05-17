@@ -270,8 +270,8 @@ De tool types op deze pagina worden in drie categorieën onderverdeeld:
 * **Actief** - Deze tool providers werden goedgekeurd en ingesteld door de beheerder. Ze kunnen gebruikt worden vanuit elke cursus in deze Moodle instantie.
 Indien een consumentensleutel en gedeeld geheim worden ingevoerd, ontstaat er een vertrouwensrelatie tussen deze Moodle instantie en de externe tool, en wordt er een veilig communicatiekanaal voorzien.
 * **In behandeling** - Deze tool providers werden aangebracht via een package invoer, maar werden nog niet geconfigureerd door de beheerder.
-Leraars kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.
-* **Geweigerd** - Deze zijn gevlagd als tool providers die de beheerder niet wenst beschikbaar te maken voor de volledige Moodle instantie. Leraars kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.';
+Leraren kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.
+* **Geweigerd** - Deze zijn gevlagd als tool providers die de beheerder niet wenst beschikbaar te maken voor de volledige Moodle instantie. Leraren kunnen toch gebruik maken van de tools van deze providers indien ze in het bezit zijn van een consumentensleuten en gedeeld geheim, of indien deze niet worden vereist.';
 $string['manage_external_tools'] = 'Beheer tools';
 $string['manage_tool_proxies'] = 'Beheer externe tool registraties';
 $string['manage_tools'] = 'Beheer voorgeconfigureerde tools';

@@ -176,7 +176,7 @@ $string['displayleftmenu'] = 'Visualizza menu';
 $string['displayleftmenu_help'] = 'Consente la visualizzazione di un menu per navigare nell\'elenco delle pagine.';
 $string['displayofgrade'] = 'Visualizzazione voti (solo per studenti)';
 $string['displayreview'] = 'Consente di riprovare la risposta ad una domanda';
-$string['displayreview_help'] = 'Se la una risposta è errata verrà visualizzato un pulsante, consentendo allo studente di riprovare senza ricevere valutazione oppure di proseguire nella lezione.';
+$string['displayreview_help'] = 'In caso di risposta errata, lo studente avrà la possibilità di riprovare senza però ottenere punteggio oppure continuare con la lezione. Se lo studente fa clic per passare a un\'altra domanda, verrà eseguita il salto relativo alla risposta data (sbagliata). Per default, i salti delle risposte sbagliate sono impostati su "questa pagina" e hanno un punteggio pari a 0, quindi si consiglia di impostare il salto delle risposte sbagliate a una pagina diversa per evitare confusione con gli studenti.';
 $string['displayscorewithessays'] = '<p>Hai ottenuto {$a->score} su {$a->tempmaxgrade} per le domande valutate automaticamente.</p>
 <p>Le tue {$a->essayquestions} domande a testo libero saranno valutate successivamente e il voto sarà aggiunto<br />al tuo punteggio finale.</p>
 <p>La tua valutazione senza le domande a testo libero è {$a->score} su {$a->grade}.</p>';

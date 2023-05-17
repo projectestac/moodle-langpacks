@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['new_message'] = 'Missatge nou';
+$string['resources'] = 'Recursos';
 $string['submissions'] = 'Trameses';

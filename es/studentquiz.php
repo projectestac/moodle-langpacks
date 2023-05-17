@@ -163,6 +163,9 @@ $string['rate_help_help'] = 'Valore esta pregunta. \\n 1 estrella es muy mala y 
 $string['rate_points'] = 'Puntos';
 $string['rate_title'] = 'Valorar';
 $string['ratingbar_title'] = 'Barra de valoración';
+$string['report_comment_submit'] = 'Enviar informe';
+$string['reportcomment'] = 'Informe';
+$string['reportcomment_title'] = 'Reportar comentario como inaceptable';
 $string['reportquiz_admin_title'] = 'Estadísticas del estudiante';
 $string['reportquiz_stats_all_last_attempt_correct'] = 'Promedio de comunidad de últimas respuestas correctas';
 $string['reportquiz_stats_all_last_attempt_incorrect'] = 'Promedio de comunidad de últimas respuestas incorrectas';
@@ -250,6 +253,7 @@ $string['settings_ratequantifier_label'] = 'Multiplicador para el promedio de es
 $string['settings_removeqbehavior'] = 'Quitar plugin de comportamiento de pregunta ExamenEstudiante (StudentQuiz)';
 $string['settings_removeqbehavior_help'] = 'Esta información debería de aparecer solamente una vez durante la actualización. Nosotros le informamos de que hemos detectado que su plugin de comportamiento de pregunta ExamenEstudiante (StudentQuiz) está instalado. Este plugin ya no es necesario, por lo que trataremos de eliminarlo automáticamente. Si todavía ve esta configuración, por favor desinstale manualmente el plugin de comportamiento de pregunta ExamenEstudiante (StudentQuiz) <a href="{$a}">aquí</a>.';
 $string['settings_removeqbehavior_label'] = 'Quitar plugin de comportamiento de pregunta ExamenEstudiante (StudentQuiz)';
+$string['settings_reportingemail'] = 'Correo electrónico para reportar comentarios ofensivos';
 $string['show_less'] = 'Mostrar menos';
 $string['show_more'] = 'Mostrar más';
 $string['slot_of_slot'] = 'Pregunta {$a->slot} de {$a->slots} en este lote';

@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Informe de análisis estadístico';
+$string['privacy:metadata'] = 'El módulo de informe de análisis estadístico no guarda ningún dato personal.';

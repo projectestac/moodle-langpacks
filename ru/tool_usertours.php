@@ -190,7 +190,7 @@ $string['tour3_content_timeline'] = 'Блок «Шкала времени» по
 Вы можете выбрать показ событий следующей недели, месяца или предстоящие в будущем.
 Вы также можете увидеть элементы, которые просрочены.';
 $string['tour3_title_dashboard'] = 'Личный кабинет';
-$string['tour3_title_displayoptions'] = 'Показать варианты';
+$string['tour3_title_displayoptions'] = 'Параметры отображения';
 $string['tour3_title_overview'] = 'Обзор курсов';
 $string['tour3_title_recentcourses'] = 'Недавно посещенные курсы';
 $string['tour3_title_starring'] = 'Помеченные и скрытые курсы';

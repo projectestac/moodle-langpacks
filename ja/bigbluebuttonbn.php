@@ -437,6 +437,7 @@ $string['view_message_conference_has_ended'] = 'このカンファレンスは�
 $string['view_message_conference_in_progress'] = 'このカンファレンスは開催中です。';
 $string['view_message_conference_not_started'] = 'このカンファレンスはまだ開始されていません。';
 $string['view_message_conference_room_ready'] = 'このカンファレンスルームの準備が完了しました。あなたはセッションに参加することができます。';
+$string['view_message_conference_user_limit_reached'] = 'セッションで許可されるユーザ数に達しました。';
 $string['view_message_conference_wait_for_moderator'] = '参加するためのモデレータを待っています。';
 $string['view_message_finished'] = 'この活動は終了しました。';
 $string['view_message_has_joined'] = '参加しました。';

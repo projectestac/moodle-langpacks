@@ -25,7 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['copylink'] = '(Ctrl+C om te kopieëren)';
 $string['editable'] = 'Bewerkbaar';
+$string['errornostudentincourse'] = 'Geen leerlingen in de cursus.';
+$string['groupmembers'] = 'Groepsleden';
+$string['groupname'] = 'Groepsnaam';
 $string['lastupdated'] = 'Laatst bijgewerkt:';
 $string['notavailable'] = 'Nog niet beschikbaar';
 $string['print'] = 'Afdrukken:';
+$string['removeinstances'] = 'Verwijder alle mindmapinstanties';

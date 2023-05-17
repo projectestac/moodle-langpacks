@@ -26,8 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availableusers'] = 'Usuarios disponibles';
+$string['competencies'] = 'Competencias interdisciplinares';
 $string['editclassteacherlist'] = 'Editar lista de profesores';
 $string['exastud:editperiods'] = 'Editar periodos';
 $string['project_based_badclass'] = 'No puede editar este proyecto';
 $string['project_based_configuration'] = 'Editar proyecto';
 $string['project_based_editclassteacherlist'] = 'Editar lista de profesores';
+$string['report_settings_edit'] = 'Configuraciones de informe';
+$string['report_settings_new'] = 'Configuración de nuevo informe';
+$string['reports'] = 'Informes';

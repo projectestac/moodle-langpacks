@@ -45,7 +45,7 @@ $string['allowtypeexternal'] = 'Gaitu kanpoko pakete-mota';
 $string['allowtypeexternalaicc'] = 'Gaitu AICC-ren URL zuzena';
 $string['allowtypeexternalaicc_desc'] = 'Gaituz gero, onartuko dira zuzeneko URLak AICC pakete bakunetara';
 $string['allowtypelocalsync'] = 'Gaitu jaitsitako pakete mota';
-$string['apidebugmask'] = 'API arazketa-atzipen maskara - adierazpen erregular sinplea erabili <erabiltzailea>:<jardueraizena> formatuarekin.
+$string['apidebugmask'] = 'API arazketa-atzipen maskara - adierazpen erregular sinplea erabili <erabiltzaile-izena>:<jardueraizena> formatuarekin.
 Esaterako, admin:.* soilik admin erabiltzailearentzako arazketa  egingo du';
 $string['areacontent'] = 'Eduki-fitxategiak';
 $string['areapackage'] = 'Paketearen fitxategia';

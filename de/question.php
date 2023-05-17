@@ -115,7 +115,7 @@ $string['cwrqpfs'] = 'Zufallsfragen, die Fragen aus der Unterkategorie auswähle
 $string['cwrqpfsinfo'] = '<p>Beim Update auf Moodle 1.9 werden Kategorien, in denen Fragen abgelegt wurden, unterschiedlichen Kontexten zugeordnet. Bei einigen Kategorien kann es vorkommen, dass der Status der Freigabe dabei angepasst werden muss. Dies ist in dem seltenen Fall erforderlich, dass Sie die Funktion zufällig ausgewählte Fragen verwenden und diese aus Kategorien stammen, die sowohl nur in Ihem Kurs, als auch in anderen Kursen verwandt werden. Dies ist in diesem System der Fall. Die spassiert wenn auf unterschiedlichen Hierarchieebenen unterschiedliche Freigabewerte existieren.</p>
 <p>In den folgenden Fragenkategorien wurde der Freigabestatus so angepasst, dass die übergeordnete Kategorie den gleichen Status erhält wie die Kategorie, in der Fragen zur Zufallsauswahl abgelegt sind. Die von dieser Änderung betroffenen Fragen können wie bisher in allen Tests weiter genutzt werden, bis sie aus den Tests entfernt werden.</p>';
 $string['cwrqpfsnoprob'] = 'Es sind keine Fragekategorien von der Funktion "Zufallsfragenauswahl aus untergeordnete Kategorien" betroffen.';
-$string['decimalplacesingrades'] = 'Dezimalstellen bei der Bewertung';
+$string['decimalplacesingrades'] = 'Nachkommastellen in Bewertungen';
 $string['defaultfor'] = 'Standard für {$a}';
 $string['defaultinfofor'] = 'Standardkategorie für Fragen, die im Kontext \'{$a}\' freigegeben sind.';
 $string['defaultmark'] = 'Erreichbare Punkte';

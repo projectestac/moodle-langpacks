@@ -29,4 +29,4 @@ $string['center'] = 'По центру';
 $string['leftalign'] = 'Выравнивание по левому краю';
 $string['pluginname'] = 'Выравнивание текста';
 $string['privacy:metadata'] = 'Плагин atto_align не хранит никаких персональных данных.';
-$string['rightalign'] = 'Выравнивать по правому краю';
+$string['rightalign'] = 'Выравнивание по правому краю';

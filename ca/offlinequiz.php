@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addnewuseroverride'] = 'Afegeix una excepció d\'usuari';
+$string['filterbytags'] = 'Filtra per etiquetes...';
 $string['import'] = 'Importa';
 $string['multichoice'] = 'Opció múltiple';
 $string['participants'] = 'Participants';

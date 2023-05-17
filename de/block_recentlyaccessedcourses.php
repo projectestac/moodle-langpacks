@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'Kursbereiche anzeigen';
-$string['displaycategories_help'] = 'Zeigt die Kurskategorie für die zuletzt aufgerufenen Kurse im Block Kursübersicht an.';
+$string['displaycategories_help'] = 'Wenn diese Option aktiviert ist, werden die Kursbereiche für die zuletzt aufgerufenen Kurse im Block \'Kursübersicht\' angezeigt.';
 $string['nocourses'] = 'Keine zuletzt besuchten Kurse';
 $string['pluginname'] = 'Zuletzt besuchte Kurse';
 $string['privacy:metadata'] = 'Der Block \'Zuletzt besuchte Kurse\' speichert keine personenbezogenen Daten.';

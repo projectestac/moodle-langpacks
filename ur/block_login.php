@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['login:addinstance'] = 'ایک نیا لاگ ان بلاک شامل کریں';
 $string['pluginname'] = 'لاگ ان';
+$string['privacy:metadata'] = 'لاگ ان بلاک صرف لاگ ان کرنے کا ایک طریقہ فراہم کرتا ہے اور خود کوئی ڈیٹا ذخیرہ نہیں کرتا ہے۔';

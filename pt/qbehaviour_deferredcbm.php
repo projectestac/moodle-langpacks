@@ -58,7 +58,7 @@ $string['certaintyshort3'] = 'C=3';
 $string['dontknow'] = 'Não faço ideia';
 $string['foransweredquestions'] = 'Resultados de apenas {$a} perguntas respondidas';
 $string['forentirequiz'] = 'Resultados de todo o teste ({$a} perguntas)';
-$string['howcertainareyou'] = 'Grau de certeza{$a->help}: {$a->choices}';
+$string['howcertainareyou'] = 'Grau de certeza {$a->help}: {$a->choices}';
 $string['judgementok'] = 'Ok';
 $string['judgementsummary'] = 'Respostas: {$a->responses}. Precisão: {$a->fraction}. (Intervalo ideal {$a->idealrangelow} para {$a->idealrangehigh}). Usou este grau de certeza: {$a->judgement}';
 $string['noquestions'] = 'Sem respostas';

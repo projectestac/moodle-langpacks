@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['grades_gradereport'] = 'Informes de calificación';
 $string['hvp_CoursePresentation'] = 'Presentación del curso';
+$string['hvp_Summary'] = 'Resumen';
+$string['reports_listname'] = 'Informes';
+$string['reports_report'] = 'Informes';

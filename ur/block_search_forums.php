@@ -27,3 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advancedsearch'] = 'جدید تلاش';
 $string['pluginname'] = 'فورمز تلاش کریں';
+$string['privacy:metadata'] = 'سرچ فورمز بلاک صرف دوسرے مقامات پر ذخیرہ شدہ ڈیٹا دکھاتا ہے۔';
+$string['search_forums:addinstance'] = 'ایک نیا سرچ فورم بلاک شامل کریں';

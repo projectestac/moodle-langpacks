@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['attendance'] = 'Assistència';
 $string['canannotatewhiteboard'] = 'Escriure notes a la pissarra';
 $string['candownloadrecordings'] = 'Baixar els enregistraments';
 $string['canpostmessages'] = 'Publicar missatges';

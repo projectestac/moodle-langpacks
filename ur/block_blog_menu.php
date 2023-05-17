@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['blog_menu:addinstance'] = 'ایک نیا بلاگ مینو بلاک شامل کریں';
 $string['pluginname'] = 'بلاگ کا مینیو';
+$string['privacy:metadata'] = 'بلاگ مینو بلاک صرف دوسرے مقامات پر ذخیرہ شدہ ڈیٹا کو دکھاتا ہے۔';

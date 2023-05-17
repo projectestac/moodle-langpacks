@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['next'] = 'Següent';
 $string['syncall_desc'] = 'Si s\'habilita, tots els usuaris inscrits se sincronitzaran encara que no tinguin cap rol al curs pare. Si s\'inhabilita, sols els usuaris que tinguin com a mínim un rol sincronitzat seran inscrits al curs fill.';

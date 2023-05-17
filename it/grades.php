@@ -397,6 +397,14 @@ $string['importcsv_help'] = 'Le valutazioni possono essere importate tramite un 
 Per avere un esempio di formato, è possibile esportare delle valutazioni esistenti. Il file così ottenuto può essere modificato e salvato come CSV.';
 $string['importcustom'] = 'Importa come obiettivi di questo corso';
 $string['importdata'] = 'Dati';
+$string['importdata_help'] = 'Le valutazioni possono essere incollate direttamente da un foglio di calcolo OpenDocument o Excel con il seguente formato:
+
+* Almeno una colonna deve contenere dati sull\'identità dell\'utente: username, indirizzo e-mail o codice identificativo
+* Altre colonne dovrebbero avere intestazioni di attività esistenti o elementi di valutazione.
+
+È possibile ottenere un foglio di calcolo correttamente formattato esportando prima alcuni voti. Il foglio di calcolo può quindi essere modificato per aggiungere più voti per poi salvarlo.
+
+Selezionare e copiare le colonne che si desidera importare dal foglio di lavoro, quindi incollarle in questo campo.';
 $string['importerror'] = 'Si è verificato un errore, questo script non è stato attivato con i giusti parametri.';
 $string['importfailed'] = 'L\'Importazione non è andata a buon fine. Nessun dato è stato importato.';
 $string['importfeedback'] = 'Importa feedback';

@@ -262,7 +262,7 @@ $string['ltiunknownserviceapicall'] = 'Chiamata servizio API LTI sconosciuta';
 $string['ltiversion'] = 'Versione LTI';
 $string['ltiversion_help'] = 'La versione LTI utilizzata per firmare messaggi e richieste di servizio: LTI 1.0/1.1 e LTI 2.0 utilizzano il profilo di sicurezza OAuth 1.0A; LTI 1.3.0 utilizza JWT.';
 $string['main_admin'] = 'Help generale';
-$string['main_admin_help'] = 'I tool esterni consentono di interagire con risorse formative ospitate in altri siti. Tramite uno speciale protocollo di lancio, il tool remoto può accedere ad alcune informazioni relative all\'utente, come ad esempio il nome dell\'istituzione, l\'id del corso, l\'id dell\'utente, il nome dell\'utente e l\'email.
+$string['main_admin_help'] = 'I tool esterni consentono di interagire con risorse formative ospitate in altri siti. Tramite uno speciale protocollo di lancio, il tool remoto può accedere ad alcune informazioni relative all\'utente, come ad esempio il nome dell\'istituzione, l\'id del corso, l\'id dell\'utente ed altre informazioni come il nome dell\'utente e l\'email.
 
 I tool elencati nella pagina sono divisi in tre categorie:
 

@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['badaction'] = 'L\'acció no és vàlida \'{$a}';
 $string['badtype'] = '{$a} no és un tipus vàlid';
+$string['next'] = 'Següent';
 $string['test_empty'] = 'El camí de ghostscript és buit. Introduïu el camí correcte';

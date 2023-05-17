@@ -28,3 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['confirmdeletecomment'] = '¿Está seguro que quiere eliminar este comentario?';
 $string['confirmdeletelink'] = '¿Está seguro que quiere eliminar este enlace?';
 $string['confirmdeletepost'] = '¿Está seguro que quiere eliminar esta aportación al blog?';
+$string['summary'] = 'Resumen';

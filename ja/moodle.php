@@ -31,7 +31,7 @@ $string['action'] = '操作';
 $string['actionchoice'] = 'このファイル「 {$a} 」で何をしたいですか?';
 $string['actions'] = '操作';
 $string['actionsfor'] = '{$a } へのアクション';
-$string['actionsmenu'] = 'アクションメニュ';
+$string['actionsmenu'] = 'アクションメニュー';
 $string['active'] = 'アクティブ';
 $string['activeusers'] = 'アクティブユーザ';
 $string['activities'] = '活動';
@@ -85,7 +85,7 @@ $string['adminhelpaddnewuser'] = '新しいユーザアカウントを手動作�
 $string['adminhelpassignadmins'] = '管理者はサイト内ですべての作業および移動ができます。';
 $string['adminhelpassigncreators'] = 'コース作成者は新しいコースを作成できます。';
 $string['adminhelpassignsiteroles'] = '定義済みサイトロールを特定のユーザに適用します。';
-$string['adminhelpassignstudents'] = 'コースに入って管理メニュより学生を追加します。';
+$string['adminhelpassignstudents'] = 'コースに入って管理メニューより学生を追加します。';
 $string['adminhelpauthentication'] = 'あなたは内部ユーザアカウントまたは外部データベースを使用できます。';
 $string['adminhelpbackup'] = '自動バックアップおよびそのスケジュールを設定します。';
 $string['adminhelpconfiguration'] = 'サイトのデザインおよび動作を設定します。';
@@ -301,7 +301,7 @@ $string['confirmcheckfull'] = '本当に {$a} を承認してもよろしいで�
 $string['confirmcoursemove'] = '本当にこのコース ({$a->course}) をこのカテゴリ ({$a->category}) に移動してもよろしいですか?';
 $string['confirmdeletesection'] = '本当に「 {$a} 」および含まれる活動すべてを完全に削除してもよろしいですか?';
 $string['confirmed'] = 'あなたの登録が承認されました。';
-$string['confirmednot'] = 'あなたの登録はまだ承認されていません。あなたのメールボックスで承認メールを確認してください。';
+$string['confirmednot'] = 'あなたの登録はまだ承認されていません。メールボックスで承認メールを確認してください。';
 $string['considereddigitalminor'] = 'あなたがこのサイトでアカウントを作成するには若すぎます。';
 $string['content'] = 'コンテンツ';
 $string['contentbank'] = 'コンテンツバンク';
@@ -313,15 +313,15 @@ $string['contentexport_viewfilename'] = 'ファイル {$a} を表示する';
 $string['continue'] = '続ける';
 $string['continuetocourse'] = 'あなたのコースに入るにはここをクリックしてください';
 $string['convertingwikitomarkdown'] = 'WikiをMarkdownに変換する';
-$string['cookiesenabled'] = 'あなたのブラウザのクッキを有効にしてください。';
-$string['cookiesenabled_help'] = 'このサイトでは2種類のクッキが使用されます:
+$string['cookiesenabled'] = 'あなたのブラウザのクッキーを有効にしてください。';
+$string['cookiesenabled_help'] = 'このサイトでは2種類のクッキーが使用されます:
 
-重要なクッキはセッションクッキで通常MoodleSessionと呼ばれます。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキ有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキは破棄されます。
+重要なクッキーはセッションクッキーで通常MoodleSessionと呼ばれます。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキーを有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキーは破棄されます。
 
-もう1つのクッキは純粋に便宜的な理由で使用され、通常MOODLEIDのように呼ばれます。このクッキはあなたのユーザ名をブラウザに憶えさせるために使用されます。これはあなたがサイトへ戻った場合、ログインページのユーザ名が初めから入力されていることを意味します。このクッキは拒否しても安全です - あなたはログイン時にユーザ名を毎回入力する必要があります。';
-$string['cookiesenabledonlysession'] = 'あなたのブラウザのクッキを有効にしてください。';
-$string['cookiesenabledonlysession_help'] = 'このサイトでは通常MoodleSessionと呼ばれるセッションクッキを使用します。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキ有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキは破棄されます。';
-$string['cookiesnotenabled'] = '残念ですが、あなたのブラウザではクッキが有効にされていません。';
+もう1つのクッキーは純粋に便宜的な理由で使用され、通常MOODLEIDのように呼ばれます。このクッキーはあなたのユーザ名をブラウザに憶えさせるために使用されます。これはあなたがサイトへ戻った場合、ログインページのユーザ名が初めから入力されていることを意味します。このクッキーは拒否しても安全です - あなたはログイン時にユーザ名を毎回入力する必要があります。';
+$string['cookiesenabledonlysession'] = 'あなたのブラウザのクッキーを有効にしてください。';
+$string['cookiesenabledonlysession_help'] = 'このサイトでは通常MoodleSessionと呼ばれるセッションクッキーを使用します。継続的にログインしてサイトを閲覧できるようにするため、あなたのブラウザでこのクッキー有効にしてください。 ログアウトまたはブラウザを閉じた場合、(あなたのブラウザおよびサーバの) クッキーは破棄されます。';
+$string['cookiesnotenabled'] = '残念ですが、あなたのブラウザではクッキーが有効にされていません。';
 $string['copy'] = 'コピー';
 $string['copyasnoun'] = 'コピー';
 $string['copycourse'] = 'コースをコピーする';
@@ -337,8 +337,8 @@ $string['counteditems'] = '{$a->count} {$a->items}';
 $string['country'] = '国';
 $string['course'] = 'コース';
 $string['courseadministration'] = 'コース管理';
-$string['courseapprovedemail'] = 'あなたのリクエストしたコース「 {$a->name} 」が承認されて、あなたが {$a->teacher} になりました。あなたの新しいコースにアクセスするには {$a->url} へ移動してください。';
-$string['courseapprovedemail2'] = 'あなたのリクエストしたコース「 {$a->name} 」が承認されました。あなたの新しいコースにアクセスするには {$a->url} へ移動してください。';
+$string['courseapprovedemail'] = 'あなたのリクエストしたコース「 {$a->name} 」が承認されて、 {$a->teacher} になりました。新しいコースにアクセスするには {$a->url} へ移動してください。';
+$string['courseapprovedemail2'] = 'あなたのリクエストしたコース「 {$a->name} 」が承認されました。新しいコースにアクセスするには {$a->url} へ移動してください。';
 $string['courseapprovedfailed'] = 'コースを承認済みとして保存できませんでした!';
 $string['courseapprovedsubject'] = 'あなたのコースが承認されました!';
 $string['courseavailable'] = '学生はこのコースを利用できる';
@@ -396,16 +396,16 @@ $string['courseoverviewfiles_help'] = 'コースイメージはダッシュボ�
 $string['courseoverviewfilesext'] = 'コースイメージファイル拡張子';
 $string['courseoverviewfileslimit'] = 'コースイメージファイル制限';
 $string['courseoverviewgraph'] = 'コース概要グラフ';
-$string['coursepreferences'] = 'コースプリファレンス';
+$string['coursepreferences'] = 'コースプレファレンス';
 $string['courseprofiles'] = 'コースプロファイル';
 $string['coursereasonforrejecting'] = 'あなたがこのリクエストを拒否する理由';
-$string['coursereasonforrejectingemail'] = 'これは申請者にメール送信されます。';
+$string['coursereasonforrejectingemail'] = 'これは申請者にメールで送信されます。';
 $string['coursereject'] = 'コースリクエストを拒否する';
 $string['courserejected'] = 'コースは拒否されて申請者に通知メールが送信されました。';
 $string['courserejectemail'] = '申し訳ございません、あなたがリクエストしたコースは拒否されました。拒否理由は以下のとおりです:
 
 {$a}';
-$string['courserejectreason'] = 'あなたがこのコースを拒否する理由の概要<br />(この内容は申請者にメール送信されます)';
+$string['courserejectreason'] = 'あなたがこのコースを拒否する理由の概要<br />(この内容は申請者にメールで送信されます)';
 $string['courserejectsubject'] = 'あなたのコースは拒否されました。';
 $string['coursereport'] = 'コースレポート';
 $string['coursereports'] = 'コースレポート';
@@ -556,7 +556,7 @@ $string['details'] = '詳細';
 $string['digitalminor'] = 'デジタル未成年';
 $string['digitalminor_desc'] = 'あなたの保護者が次の人に連絡するようにしてください:';
 $string['directory'] = 'ディレクトリ';
-$string['disable'] = 'No';
+$string['disable'] = '無効にする';
 $string['disabledcomments'] = 'コメントは無効にされています。';
 $string['dismissnotification'] = 'この通知を破棄する';
 $string['displayingfirst'] = '最初の {$a->count} {$a->things} のみ表示されます。';
@@ -595,7 +595,7 @@ $string['edhelpbgcolor'] = '編集領域の背景色を設定します。<br />�
 $string['edhelpcleanword'] = 'ここではWord特有のフォーマットをフィルタするかどうか設定します。';
 $string['edhelpenablespelling'] = 'ここではスペルチェックするかどうか設定します。有効にした場合、サーバに<strong>aspell</strong>をインストールする必要があります。2番目の設定値は<strong>デフォルト辞書</strong>です。aspellにユーザ言語辞書がない場合、この設定値が使用されます。';
 $string['edhelpfontfamily'] = 'フォントファミリ属性はフォントファミリのリストおよび総称フォントファミリ名です。フォントファミリ名はカンマで区切ってください。';
-$string['edhelpfontlist'] = 'エディタのドロップダウンメニュで使用されるフォントを設定します。';
+$string['edhelpfontlist'] = 'エディタのドロップダウンメニューで使用されるフォントを設定します。';
 $string['edhelpfontsize'] = 'ここではデフォルトのフォントサイズを設定します。<br />有効な設定値の例: medium, large, smaller, larger, 10pt, 11px';
 $string['edit'] = '編集';
 $string['edita'] = '{$a} を編集する';
@@ -615,7 +615,7 @@ $string['editordefaultfont'] = 'デフォルトフォント';
 $string['editorenablespelling'] = 'スペルチェックを有効にする';
 $string['editorfontlist'] = 'フォントリスト';
 $string['editorfontsize'] = 'デフォルトフォントサイズ';
-$string['editorpreferences'] = 'エディタプリファレンス';
+$string['editorpreferences'] = 'エディタプレファレンス';
 $string['editorresettodefaults'] = 'デフォルト値にリセットする';
 $string['editorsettings'] = 'エディタ設定';
 $string['editorshortcutkeys'] = 'エディタショートカットキー';
@@ -649,13 +649,13 @@ $string['emailconfirmation'] = '「 {$a->sitename} 」であなたのメール�
 
 ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されています。クリックできない場合、あなたのウェブブラウザウィンドウ上部のアドレス欄にアドレスをコピー＆ペーストしてください。
 
-分からない場合、サイト管理者にご連絡ください。
+分からないことがある場合、サイト管理者にご連絡ください。
 {$a->admin}';
 $string['emailconfirmationresend'] = '確認メールを再送する';
 $string['emailconfirmationsubject'] = '{$a}: アカウントの確定';
 $string['emailconfirmsent'] = '<p>あなたの <b>{$a}</b> のメールアドレス宛にメールが送信されました。</p>
 <p>あなたの登録を確認するための簡単な説明がメールに記載されています。</p>
-<p>分からない場合、サイト管理者にご連絡ください。</p>';
+<p>分からないことがある場合、サイト管理者にご連絡ください。</p>';
 $string['emailconfirmsentfailure'] = '確認メールの送信に失敗しました。';
 $string['emailconfirmsentsuccess'] = '確認メールが正常に送信されました。';
 $string['emaildigest'] = 'メール要約タイプ';
@@ -675,7 +675,7 @@ $string['emaildisplay'] = 'メールアドレス公開';
 $string['emaildisplay_help'] = '権限のあるユーザ (教師およびマネージャ等) は常にあなたのメールアドレスを閲覧することができます。';
 $string['emaildisplaycourse'] = '同じコースのメンバにだけ私のメールアドレスを公開します';
 $string['emaildisplaycoursemembersonly'] = '(他のコース参加者に公開する)';
-$string['emaildisplayeveryone'] = '(すべての人に公開する)';
+$string['emaildisplayeveryone'] = '(すべての人に表示する)';
 $string['emaildisplayhide'] = '(すべての非特権ユーザから秘匿する)';
 $string['emaildisplayno'] = '権限のないユーザから私のメールアドレスを隠します';
 $string['emaildisplayyes'] = 'すべてのユーザに私のメールアドレスを公開します';
@@ -691,37 +691,37 @@ $string['emailnotfound'] = 'データベース内にメールアドレスが見�
 $string['emailonlyallowed'] = 'このメールアドレスは許可されている次のドメインに入っていません ({$a})';
 $string['emailpasswordchangeinfo'] = '{$a->firstname} さん
 
-誰か (恐らくあなた) が「 {$a->sitename} 」 のあなたのアカウント「 {$a->username} 」の新しいパスワードをリクエストしました。
+「 {$a->sitename} 」 のあなたのアカウント「 {$a->username} 」へ新しいパスワードのリクエストがありました。
 
-あなたのパスワードを変更するには以下のウェブアドレスにアクセスしてください:
+パスワードを変更するには以下のウェブアドレスにアクセスしてください:
 
 {$a->link}
 
-ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
+クリックできない場合、ウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
 
-分からない場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
+分からないことがある場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
 $string['emailpasswordchangeinfodisabled'] = 'こんにちは {$a->firstname} さん
 
-誰か (恐らくあなた) が「 {$a->sitename} 」のあなたのアカウントの新しいパスワードをリクエストしました。
+「 {$a->sitename} 」のあなたのアカウントへ新しいパスワードのリクエストがありました。
 
-残念ですが、このサイトであなたのアカウントは無効にされています。パスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
+申し訳ありませんが、このサイトであなたのアカウントは無効にされているため、パスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
 $string['emailpasswordchangeinfofail'] = 'こんにちは {$a->firstname} さん
 
-誰か (恐らくあなた) が「 {$a->sitename} 」のあなたのアカウントの新しいパスワードをリクエストしました。
+「 {$a->sitename} 」のあなたのアカウントへ新しいパスワードのリクエストがありました。
 
-残念ですが、このサイトではパスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
+申し訳ありませんが、このサイトではパスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
 $string['emailpasswordchangeinfosubject'] = '{$a}: パスワード変更情報';
 $string['emailpasswordconfirmation'] = '{$a->firstname} さん
 
-誰か (恐らくあなた) が「 {$a->sitename} 」 のあなたのアカウントの新しいパスワードをリクエストしました。
+「 {$a->sitename} 」 のあなたのアカウントへ新しいパスワードのリクエストがありました。
 
-新しいパスワード請求を確認して、新たなパスワードをメールであなた宛に送信するために以下のページをご覧ください:
+新しいパスワードリクエストを確認して、新たなパスワードをメールであなた宛に送信するために以下のページをご覧ください:
 
 {$a->link}
 
-ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
+上のリンクがクリックできない場合、ウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
 
-分からない場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
+分からないことがある場合、サイト管理者 ( {$a->admin}) にご連絡ください。';
 $string['emailpasswordconfirmationsubject'] = '{$a}: パスワード変更確認';
 $string['emailpasswordconfirmmaybesent'] = '<p>正しいユーザ名またはユニークなメールアドレスを入力した場合、あなたにメールが送信されているはずです。</p>
 <p>送信されたメールにはパスワードの変更を確認および完了するための簡単な説明が記載されています。パスワード変更作業が難しい場合、サイト管理者にご連絡ください。</p>';
@@ -732,7 +732,7 @@ $string['emailpasswordconfirmnotsent'] = '<p>あなたが提供したユーザ�
 $string['emailpasswordconfirmsent'] = 'あなたの <b>{$a}</b> のメールアドレス宛にメールが送信されました。
 <br />このパスワード変更に関して、確認および完了のための簡単な説明が記載されています。分からない場合、サイト管理者にご連絡ください。';
 $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうございます。
-<p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>{$a->email}</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href="{$a->link}">パスワードの変更</a> で覚えやすいものに変更することができます。';
+<p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>{$a->email}</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href="{$a->link}">パスワードの変更</a> で覚えやすいものに変更できます。';
 $string['emailresetconfirmation'] = '{$a->lastname} さん
 
 {$a->sitename} において、あなたのアカウント「 {$a->username} 」のパスワードリセットがリクエストされました。
@@ -744,7 +744,7 @@ $string['emailresetconfirmation'] = '{$a->lastname} さん
 
 あなたからこのパスワードリセットがリクエストされていない場合、作業は不要です。
 
-分からない場合、サイト管理者 {$a->admin} にご連絡ください。';
+分からないことがある場合、サイト管理者 {$a->admin} にご連絡ください。';
 $string['emailresetconfirmationsubject'] = '{$a}: パスワードリセットリクエスト';
 $string['emailresetconfirmsent'] = 'あなたの <b>{$a}</b> のメールアドレス宛にメールが送信されました。
 <br />このパスワード変更に関して、確認および完了のための簡単な説明が記載されています。分からない場合、サイト管理者にご連絡ください。';
@@ -763,7 +763,7 @@ $string['emojicategorysmileysemotion'] = 'スマイリー & 感情';
 $string['emojicategorysymbols'] = '記号';
 $string['emojicategorytravelplaces'] = '旅行 & 場所';
 $string['emptydragdropregion'] = '空白リージョン';
-$string['enable'] = 'Yes';
+$string['enable'] = '有効にする';
 $string['encryptedcode'] = '暗号化コード';
 $string['enddate'] = 'コース終了日';
 $string['enddate_help'] = 'コース終了日はコース概要でコースが過去として表示されるかどうかを決定します。コース終了日はカスタムレポートにも使用できます。ユーザは終了日の後でもコースに入れることに留意してください。言い換えればコース終了日がアクセスを制限することはありません。';
@@ -908,7 +908,7 @@ $string['formathtml'] = 'HTMLフォーマット';
 $string['formatmarkdown'] = 'Markdownフォーマット';
 $string['formatplain'] = 'プレインテキストフォーマット';
 $string['formattext'] = 'Moodleオートフォーマット';
-$string['forumpreferences'] = 'フォーラムプリファレンス';
+$string['forumpreferences'] = 'フォーラムプレファレンス';
 $string['framesetinfo'] = 'このフレームセットのドキュメント:';
 $string['from'] = 'From';
 $string['frontpagecategorycombo'] = 'コンボリスト';
@@ -1100,14 +1100,14 @@ $string['institution'] = '所属組織';
 $string['instudentview'] = ': 学生モード使用中';
 $string['interests'] = '興味のあること';
 $string['interestslist'] = '興味のあることリスト';
-$string['interestslist_help'] = 'あなたの興味のあることを1つずつ入力してください。あなたの興味のあることはプロファイルページにタグとして表示されます。';
+$string['interestslist_help'] = 'あなたの興味のあることを1つずつ入力してください。これはプロファイルページにタグとして表示されます。';
 $string['invalidemail'] = '無効なメールアドレスです。';
 $string['invalidlogin'] = '不正なログインです。再度ログインしてください。';
 $string['invalidusername'] = 'ユーザ名には半角英数小文字 (文字および数字)、アンダースコア (_)、ハイフン (-)、ピリオド (.) またはアットマーク (@) のみ含むことができます。';
 $string['invalidusernameupload'] = '無効なユーザ名です。';
 $string['ip_address'] = 'IPアドレス';
-$string['jump'] = 'ジャンプ';
-$string['jumpto'] = 'ジャンプ ...';
+$string['jump'] = '移動';
+$string['jumpto'] = '移動 ...';
 $string['keep'] = '保存';
 $string['labelvalue'] = '{$a->label}: {$a->value}';
 $string['langltr'] = '言語の向き 左 >> 右';
@@ -1138,7 +1138,7 @@ $string['list'] = 'リスト';
 $string['listfiles'] = '{$a} のファイルリスト';
 $string['listofallpeople'] = '全員を表示する';
 $string['listofcourses'] = 'コース一覧';
-$string['loading'] = '読み込み';
+$string['loading'] = '読み込み中';
 $string['loadinghelp'] = '読み込み中 ...';
 $string['local'] = 'ローカル';
 $string['localplugins'] = 'ローカルプラグイン';
@@ -1161,7 +1161,7 @@ $string['loginsite'] = 'サイトにログインする';
 $string['loginsteps'] = 'このサイトを利用するにはあなたは最初にアカウントを作成する必要があります。';
 $string['loginstepsnone'] = '<p>こんにちは!</p>
 <p>コースを利用するにはあなた自身でアカウントを作成する必要があります。</p>
-<p>あなたに必要なことはこのページのフォームを使用してユーザ名およびパスワードを作成するだけです!</p>
+<p>このページのフォームを使用してユーザ名およびパスワードを作成するだけで完了です。</p>
 <p>すでに誰か他の人が同じユーザ名を使用している場合、別のユーザ名をお試しください。</p>';
 $string['loginto'] = '{$a} にログインする';
 $string['logoof'] = '{$a} のロゴ';
@@ -1204,7 +1204,7 @@ $string['maximumshort'] = '最大';
 $string['maximumupload'] = '最大アップロードサイズ';
 $string['maximumupload_help'] = 'ここではコース内で学生がアップロードできるファイルの最大サイズを設定します。このサイズは管理者がサイト全体に設定したファイルの最大サイズに制限されます。さらにファイルサイズを制限するため、活動モジュールには最大アップロードサイズ設定もあります。';
 $string['maxnumberweeks'] = 'セクション最大数';
-$string['maxnumberweeks_desc'] = 'ドロップダウンメニュに表示されるセクション数の最大値です (特定のコースフォーマットにのみ適用されます)。';
+$string['maxnumberweeks_desc'] = 'ドロップダウンメニューに表示されるセクション数の最大値です (特定のコースフォーマットにのみ適用されます)。';
 $string['maxnumcoursesincombo'] = '<a href="{$a->link}">{$a->numberofcourses} 件のコース</a>を閲覧します。';
 $string['maxsectionslimit'] = 'このコース ({$a}) に許可された最大セクション数を超過したため、新しいセクションを作成することができません。';
 $string['maxsize'] = '最大サイズ: {$a}';
@@ -1394,7 +1394,7 @@ $string['newusernewpasswordtext'] = '{$a->firstname} さん
 
 {$a->sitename} で作業を始めるには {$a->link} にログインしてください。
 
-ほとんどのメールプログラムではあなたがクリックできる青いリンクとして表示されているはずです。クリックできない場合、あなたのウェブブラウザウィンドウのアドレス欄にアドレスをコピー＆ペーストしてください。
+クリックできない場合、ウェブブラウザのアドレス欄にアドレスをコピー＆ペーストしてください。
 
 「 {$a->sitename} 」の管理者よりご挨拶でした。
 {$a->signoff}';
@@ -1533,7 +1533,7 @@ $string['passwordsdiffer'] = 'パスワードが正しくありません。';
 $string['passwordsent'] = 'パスワードが送信されました。';
 $string['passwordsenttext'] = '<p>メールが {$a->email} 宛に送信されました。
 <p><b>メールに記載されている新パスワードを確認してください。</b>
-<p>新パスワードは自動的に作成されたものです。あなたが<a href="{$a->link}">憶えやすいものに変更してください</a>。';
+<p>新パスワードは自動的に作成されたものです。あなたが<a href="{$a->link}">覚えやすいものに変更してください</a>。';
 $string['passwordset'] = 'あなたのパスワードが設定されました。';
 $string['path'] = 'パス';
 $string['pathnotexists'] = 'サーバにパスが見当たりません!';
@@ -1577,13 +1577,13 @@ $string['potentialadmins'] = '潜在的な管理者';
 $string['potentialcreators'] = '潜在的なコース作成者';
 $string['potentialstudents'] = '潜在的な学生';
 $string['potentialteachers'] = '潜在的な教師';
-$string['preferences'] = 'プリファレンス';
+$string['preferences'] = 'プレファレンス';
 $string['preferredlanguage'] = '優先言語';
 $string['preferredtheme'] = '優先テーマ';
 $string['preprocessingbackupfile'] = 'バックアップファイル処理中';
 $string['prev'] = '前へ';
-$string['preview'] = 'プレビュ';
-$string['previeworchoose'] = 'テーマを選択またはプレビュしてください。';
+$string['preview'] = 'プレビュー';
+$string['previeworchoose'] = 'テーマを選択またはプレビューしてください。';
 $string['previous'] = '前へ';
 $string['previouslyselectedusers'] = '前回選択されて、「 {$a} 」に合致しないユーザ';
 $string['previouspage'] = '前のページ';
@@ -1636,7 +1636,7 @@ $string['privacy:metadata:upgrade_log:type'] = 'ログエントリのタイプ�
 $string['privacy:metadata:upgrade_log:userid'] = 'アップグレードを実行したユーザです。';
 $string['privacy:metadata:upgrade_log:version'] = 'プラグインの古いバージョンです。';
 $string['private_files_handler'] = 'メールの添付をユーザのプライベートファイル保存スペースに保存します。';
-$string['private_files_handler_name'] = 'プライベートファイルにメール送信する';
+$string['private_files_handler_name'] = 'プライベートファイルにメールで送信する';
 $string['privatefiles'] = 'プライベートファイル';
 $string['privatefilesmanage'] = 'プライベートファイルを管理する';
 $string['proceed'] = '進む';
@@ -1673,7 +1673,7 @@ $string['registrationinfo'] = '<p>このページではあなたのMoodleサイ�
 $string['registrationinfotitle'] = '登録情報';
 $string['registrationno'] = 'いいえ、どのようなメールも送信しないでください';
 $string['registrationsend'] = 'moodle.orgに登録情報を送信する';
-$string['registrationyes'] = 'はい、私に新しいMoodleリリース、セキュリティ通知およびその他重要ニュースを通知してください';
+$string['registrationyes'] = 'はい、私に新しいMoodleリリース、セキュリティ通知およびその他の重要なニュースを通知してください。';
 $string['reject'] = '拒否';
 $string['rejectdots'] = '拒否 ...';
 $string['relativedatesmode'] = '相対日付モード';
@@ -1711,7 +1711,7 @@ $string['resetnotimplemented'] = 'リセット未実装';
 $string['resetrecordexpired'] = 'あなたが使用したパスワードリセットリンクは {$a} 分以上経過したため、有効期限が切れています。新しいパスワードリセットリクエストを実行してください。';
 $string['resetstartdate'] = '開講日をリセットする';
 $string['resetstatus'] = 'ステータス';
-$string['resettable'] = 'テーブルプリファレンスをリセットする';
+$string['resettable'] = 'テーブルプレファレンスをリセットする';
 $string['resettask'] = 'タスク';
 $string['resettodefaults'] = 'デフォルトにリセットする';
 $string['resortcourses'] = 'コースを並べ替える';
@@ -1772,7 +1772,7 @@ $string['savechangesandreturn'] = '保存して戻る';
 $string['savechangesandreturntocourse'] = '保存してコースに戻る';
 $string['savecomment'] = 'コメントを保存する';
 $string['savedat'] = '保存日時:';
-$string['savepreferences'] = 'プリファレンスを保存する';
+$string['savepreferences'] = 'プレファレンスを保存する';
 $string['saveto'] = '保存先';
 $string['scale'] = '評価尺度';
 $string['scale_help'] = '活動内のパフォーマンスを評価または評定するために評価尺度が提供されます。評価尺度自体はマイナスからプラスへ、カンマで区切られた値の並びです。例えば「不満足, 不十分, 平均, 良い, 大変良い, 素晴らしい!」のように定義します。';
@@ -1783,8 +1783,8 @@ $string['scalescustomno'] = 'カスタム評価尺度はまだ作成されてい
 $string['scalesstandard'] = '標準評価尺度';
 $string['scalestandard'] = '標準評価尺度';
 $string['scalestandard_help'] = '標準評価尺度はサイト全体およびすべてのコースで利用可能な評価尺度です。';
-$string['scalestip'] = 'カスタム評価尺度を作成するにはコース管理メニュにある「評価尺度..」を使用してください。';
-$string['scalestip2'] = 'カスタム評価尺度を作成するにはコース管理メニュにある「評定」リンクをクリックした後、「評価尺度」を選択してください。';
+$string['scalestip'] = 'カスタム評価尺度を作成するにはコース管理メニューにある「評価尺度..」を使用してください。';
+$string['scalestip2'] = 'カスタム評価尺度を作成するにはコース管理メニューにある「評定」リンクをクリックした後、「評価尺度」を選択してください。';
 $string['schedule'] = 'スケジュール';
 $string['screenshot'] = 'スクリーンショット';
 $string['search'] = '検索';
@@ -2173,7 +2173,7 @@ $string['userdetails'] = 'ユーザ詳細';
 $string['userfiles'] = 'ユーザファイル';
 $string['userfilterplaceholder'] = 'キーワードで探すかフィルタを選択する';
 $string['userlist'] = 'ユーザリスト';
-$string['usermenu'] = 'ユーザメニュ';
+$string['usermenu'] = 'ユーザメニュー';
 $string['username'] = 'ユーザ名';
 $string['usernameemail'] = 'ユーザ名/メール';
 $string['usernameemailmatch'] = 'ユーザ名およびメールアドレスが同じユーザに関連していません。';
@@ -2183,7 +2183,7 @@ $string['usernamenotfound'] = 'ユーザ名がデータベース内に見つか�
 $string['usernameoremail'] = 'ユーザ名またはメールアドレスを入力してください。';
 $string['usernotconfirmed'] = '{$a} を確認できませんでした。';
 $string['userpic'] = 'ユーザ画像';
-$string['userpreferences'] = 'ユーザプリファレンス';
+$string['userpreferences'] = 'ユーザプレファレンス';
 $string['users'] = 'ユーザ';
 $string['userselectorautoselectunique'] = '検索該当ユーザが1名のみの場合、自動的にユーザを選択する';
 $string['userselectorpreserveselected'] = '検索に合致しない場合でも、選択したユーザを保持する';
@@ -2216,14 +2216,14 @@ $string['warningdeleteresource'] = '警告: {$a} はりソースで参照され�
 $string['wcagcheck'] = 'ウェブコンテンツアクセシビリティガイドライン (WCAG) チェック';
 $string['webpage'] = 'ウェブページ';
 $string['week'] = '週';
-$string['weekhide'] = '{$a} よりこの週を隠す';
+$string['weekhide'] = '{$a} からこの週を隠す';
 $string['weeklyoutline'] = 'ウィークリーアウトライン';
 $string['weeks'] = '週';
 $string['weekshow'] = '{$a} にこの週を表示する';
 $string['welcometocourse'] = '{$a} へようこそ';
 $string['welcometocoursetext'] = '{$a->coursename} へようこそ!
 
-あなたがまだプロファイルの編集が終えていない場合は、私や受講している皆さんがあなたのことを知ることができるようにあなたのプロファイルページを編集してください:
+まだプロファイルの編集が終えていない場合、私や受講している皆さんがあなたのことを知れるようにあなたのプロファイルページを編集してください:
 
  {$a->profileurl}';
 $string['whatforlink'] = 'このリンクで何をしますか?';
@@ -2267,15 +2267,15 @@ $string['yahooid'] = 'Yahoo ID';
 $string['year'] = '年';
 $string['years'] = '年';
 $string['yes'] = 'Yes';
-$string['youareabouttocreatezip'] = 'あなたは以下のファイルを含んだzipファイルを作成しようとしています';
-$string['youaregoingtorestorefrom'] = 'あなたは以下のファイルのリストア処理を開始しようとしています';
-$string['youhaveupcomingactivitiesdue'] = 'あなたには直近の活動期限があります。';
+$string['youareabouttocreatezip'] = 'あなたは以下のファイルを含むzipファイルを作成しようとしています';
+$string['youaregoingtorestorefrom'] = 'あなたは以下のファイルの復元処理を開始しようとしています';
+$string['youhaveupcomingactivitiesdue'] = 'あなたには期限が近付いている活動があります。';
 $string['youhaveupcomingactivitiesdueinfo'] = '{$a} さん
 
-<br/><br/>あなたには直近の活動期限があります:';
+<br/><br/>あなたには期限が近付いている活動があります:';
 $string['youneedtoenrol'] = 'この操作を実行するにはあなたはこのコースに登録する必要があります。';
 $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの {$a}';
 $string['yourwordforx'] = '「{$a} 」に対するあなたの呼称';
-$string['zippingbackup'] = 'バックアップファイルのZIP圧縮中';
+$string['zippingbackup'] = 'バックアップファイルをZIP圧縮中';

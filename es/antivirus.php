@@ -50,7 +50,7 @@ $string['emailscannererrordetected'] = 'Ocurrió un error de escáner';
 $string['emailsubject'] = '{$a} :: Notificación de antivirus';
 $string['enablequarantine'] = 'Habilitar cuarentena';
 $string['enablequarantine_help'] = 'Si se habilita, cualquier archivo que sea detectado como virus será colocado en la carpeta de cuarentena  ([dataroot]/{$a}) para su posterior inspección. La subida a Moodle  fallará.
-Si Usted tiene en operación cualquier escaneo de virus a nivel del sistema de archivos, la carpeta de cuarentena debería de estar excluida de las revisiones del antivirus para evitar detectar los archivos en cuarentena.';
+Si usted tiene en operación cualquier escaneo de virus a nivel del sistema de archivos, la carpeta de cuarentena debería de estar excluida de las revisiones del antivirus para evitar detectar los archivos en cuarentena.';
 $string['fileinfecteddesc'] = 'Se detectó un archivo infectado.';
 $string['fileinfectedname'] = 'Archivo infectado';
 $string['notifyemail'] = 'Correo electrónico de notificación de alerta antivirus';

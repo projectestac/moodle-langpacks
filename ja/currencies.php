@@ -183,5 +183,5 @@ $string['XOF'] = 'CFAフラン (BCEAO)';
 $string['XPF'] = 'CFPフラン';
 $string['YER'] = 'イエメン・リアル';
 $string['ZAR'] = '南アフリカ・ランド';
-$string['ZMK'] = 'ザンビア・クワチャ';
+$string['ZMW'] = 'ザンビア・クワチャ';
 $string['ZWL'] = 'ジンバブエ・ドル';

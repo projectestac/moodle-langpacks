@@ -206,9 +206,9 @@ $string['flagthisquestion'] = 'Marquer cette question';
 $string['formquestionnotinids'] = 'Le formulaire contient une question qui n\'apparaît pas dans les identifiants de question';
 $string['fractionsnomax'] = 'L\'une des réponses doit donner un score de 100% afin qu\'il soit possible d\'obtenir la totalité des points pour cette question.';
 $string['generalfeedback'] = 'Feedback général';
-$string['generalfeedback_help'] = 'Le feedback général est affiché aux participants après qu\'ils aient tenté une question. À la différence du feedback, qui dépend du type de la question et de la réponse donnée par le participant, le même feedback général est affiché à tous les participants.
+$string['generalfeedback_help'] = 'Le feedback général est révélé à l\'étudiant après qu\'il a répondu à la question. À la différence du feedback spécifique, qui dépend du type de la question et de la réponse donnée par l\'étudiant, le même feedback général est montré à tous les étudiants.
 
-Vous pouvez utiliser le feedback général pour donner à vos participants des indications sur les connaissances testées par la question, ou leur fournir des liens qu\'ils pourront utiliser s\'ils n\'ont pas compris la question.';
+Le feedback général peut être utilisé pour donner aux étudiants une réponse complètement développée, des indications sur les connaissances évaluées par la question ou leur fournir des liens à utiliser s\'ils n\'ont pas compris la question.';
 $string['getcategoryfromfile'] = 'Obtenir la catégorie à partir du fichier';
 $string['getcontextfromfile'] = 'Obtenir le contexte à partir du fichier';
 $string['hintn'] = 'Indice {no}';
@@ -406,7 +406,7 @@ $string['restartwiththeseoptions'] = 'Recommencer avec ces options';
 $string['restoremultipletopcats'] = 'Le fichier de sauvegarde contient plus d\'une catégorie racine de questions pour le contexte {$a}.';
 $string['reviewresponse'] = 'Relire la réponse';
 $string['rightanswer'] = 'Réponse juste';
-$string['rightanswer_help'] = 'Un résumé de la réponse correcte généré automatiquement. Ce texte peut être limitatif. Il peut être plus judicieux d\'expliquer la réponse correcte dans le feedback général de la question et de désactiver cette option.';
+$string['rightanswer_help'] = 'La réponse correcte, générée automatiquement. Il peut être plus judicieux d\'expliquer la réponse correcte dans le feedback général de la question et de désactiver cette option.';
 $string['save'] = 'Enregistrer';
 $string['savechangesandcontinueediting'] = 'Enregistrer les modifications et continuer';
 $string['saved'] = 'Enregistré : {$a}';
@@ -466,7 +466,7 @@ $string['upgradeproblemcategoryloop'] = 'Un problème a été détecté lors de 
 $string['upgradeproblemcouldnotupdatecategory'] = 'Impossible de modifier la catégorie de question {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Un problème a été détecté lors de la modification des catégories de question : la catégorie {$a->id} fait référence à la catégorie parente {$a->parent}, qui n\'existe pas. La catégorie parente a été changée pour corriger le problème.';
 $string['whethercorrect'] = 'Si correcte';
-$string['whethercorrect_help'] = 'Ceci couvre à la fois la description pour « Correct », « Partiellement correct » et « Incorrect » et toutes les indications surlignées en couleur portant la même information.';
+$string['whethercorrect_help'] = 'L\'indication « Correct », « Partiellement correct » ou « Incorrect » ainsi que toutes les indications surlignées en couleur portant la même information.';
 $string['whichtries'] = 'Choix des tentatives';
 $string['withselected'] = 'Avec la sélection';
 $string['wrongprefix'] = 'Le préfixe est mal formatté {$a}';

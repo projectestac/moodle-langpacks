@@ -25,38 +25,71 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['active'] = 'Actif';
 $string['activitycompletionsuccess'] = 'Tous les utilisateurs sélectionnés ont été marqués pour la réalisation des activités';
+$string['activitycompletiontext'] = 'Message à envoyer à l\'utilisateur lorsque l\'option de réservation est terminée';
+$string['activitycompletiontextmessage'] = 'Vous avez complété l\'option de réservation suivante :
+
+{$a->bookingdetails}
+
+Aller au cours : {$a->courselink}
+Voir toutes les options de réservation : {$a->bookinglink}';
+$string['activitycompletiontextsubject'] = 'Option de réservation terminée';
+$string['addastemplate'] = 'Ajouter comme modèle';
 $string['addcategory'] = 'Modifier les catégories';
+$string['addcustomfield'] = 'Ajouter un champ personnalisé';
 $string['addeditbooking'] = 'Modifier la réservation';
 $string['addmorebookings'] = 'Ajouter plus de réservations';
 $string['addnewbookingoption'] = 'Ajouter une nouvelle option de réservation';
 $string['addnewcategory'] = 'Ajouter une nouvelle catégorie';
 $string['addnewinstitution'] = 'Ajouter une nouvelle institution';
+$string['addnewlocation'] = 'Ajouter un nouvel emplacement';
+$string['addnewreporttemplate'] = 'Ajouter un nouveau modèle de rapport';
 $string['addnewtagtemplate'] = 'Ajouter un nouveau modèle de tag';
 $string['address'] = 'Adresse';
 $string['addteachers'] = 'Ajouter des enseignants';
 $string['addtocalendar'] = 'Ajouter au calendrier';
 $string['addtogroup'] = 'Inscrire automatiquement les utilisateurs dans le groupe';
 $string['addtogroup_help'] = 'Inscrire automatiquement les utilisateurs dans le groupe - le groupe sera créé automatiquement avec le nom "Nom de la réservation - Nom de l\'option"';
+$string['addusertogroup'] = 'Ajouter un utilisateur au groupe :';
 $string['advancedoptions'] = 'Options avancées';
+$string['aftercompletedtext'] = 'Une fois l\'activité terminée';
 $string['agreetobookingpolicy'] = 'J\'ai lu et accepté les conditions de réservations suivantes';
 $string['allbookingoptions'] = 'Télécharger les utilisateurs pour toutes les options de réservation';
 $string['allchangessave'] = 'Toutes les modifications ont été sauvegardées';
+$string['allcomments'] = 'Tout le monde peut commenter';
 $string['allmailssend'] = 'Tous les courriels aux utilisateurs ont été envoyés avec succès!';
 $string['allowdelete'] = 'Autoriser les utilisateurs à annuler eux-mêmes leur réservation.';
 $string['allowupdate'] = 'Autoriser les réservations à être mises à jour';
+$string['allratings'] = 'Tout le monde peut évaluer';
+$string['allusersbooked'] = 'Tous les {$a} utilisateurs sélectionnés ont été affectés avec succès à cette option de réservation.';
+$string['answer'] = 'Réponse';
 $string['answered'] = 'Répondu';
+$string['asglobaltemplate'] = 'Utiliser comme modèle global';
 $string['associatedcourse'] = 'Cours associé';
+$string['astemplate'] = 'Utiliser comme modèle dans ce cours';
 $string['attachedfiles'] = 'Fichiers joints';
 $string['attachical'] = 'Lier des évènements ical';
 $string['attachicaldesc'] = 'Les notifications par courriel comprendront un événement iCal joint, si cette option est activée';
+$string['attachicalsess'] = 'Joignez toutes les dates de session en tant qu\'événements iCal';
+$string['attachicalsessdesc'] = 'Les notifications par courriel incluront toutes les dates de session définies pour une option de réservation en tant que pièce jointe iCal.';
+$string['autcrheader'] = 'Création automatique d\'options de réservation';
+$string['autcrwhatitis'] = 'Si cette option est activée, elle crée automatiquement une nouvelle option de réservation et lui attribue un utilisateur en tant que gestionnaire de réservation/professeur. Les utilisateurs sont sélectionnés en fonction d\'une valeur de champ de profil utilisateur personnalisé.';
 $string['autoenrol'] = 'Inscrire automatiquement les utilisateurs';
 $string['autoenrol_help'] = 'Si l\'option est sélectionnée, les utilisateurs seront inscrits dans le cours associé dès qu\'ils font la réservation et désinscrits de celui-ci dès que la réservation est annulée.';
 $string['availability'] = 'Encore disponible';
+$string['availabilityinfotexts_desc'] = 'Uniquement disponible dans la version PRO.';
+$string['availabilityinfotexts_heading'] = 'Textes d\'information de disponibilité pour les places de réservation et la liste d\'attente';
 $string['available'] = 'Places disponibles';
+$string['availableplaces'] = 'Places disponibles : {$a->available} sur {$a->maxanswers}';
 $string['backtoresponses'] = 'Retour aux réponses';
+$string['banusernames'] = 'Bannir les noms d\'utilisateur';
+$string['banusernames_help'] = 'Pour limiter les noms d\'utilisateur qui ne peuvent pas s\'appliquer, inscrivez-les simplement dans ce champ et séparez-les par une virgule. Pour interdire les noms d\'utilisateur qui se terminent par gmail.com et yahoo.com, écrivez simplement : gmail.com, yahoo.com';
+$string['banusernameswarning'] = 'Votre nom d\'utilisateur est banni, vous ne pouvez donc pas réserver.';
+$string['beforebookedtext'] = 'Avant de réserver';
+$string['beforecompletedtext'] = 'Après avoir réservé';
 $string['booked'] = 'Réservé';
-$string['bookedpast'] = 'Réservé';
+$string['bookedpast'] = 'Réservé (cours terminé)';
 $string['bookedtext'] = 'Confirmation de réservation';
 $string['bookedtext_help'] = 'Laissez ce champ vide pour utiliser le texte par défaut. Vous pouvez utiliser les noms réservés suivants dans le texte :
 <ul>
@@ -82,18 +115,28 @@ $string['bookedtext_help'] = 'Laissez ce champ vide pour utiliser le texte par d
 </ul>';
 $string['bookedusers'] = 'Utilisateurs enregistrés';
 $string['booking'] = 'Réservation';
+$string['booking:addeditownoption'] = 'Ajouter une nouvelle option et modifier ses propres options.';
 $string['booking:addinstance'] = 'Ajouter une nouvelle réservation';
 $string['booking:choose'] = 'Réserver';
+$string['booking:comment'] = 'Ajouter des commentaires';
 $string['booking:communicate'] = 'Peut communiquer';
 $string['booking:deleteresponses'] = 'Supprimer les réponses';
 $string['booking:downloadresponses'] = 'Télécharger les réponses';
+$string['booking:managecomments'] = 'Gérer les commentaires';
+$string['booking:manageoptiontemplates'] = 'Gérer les modèles d\'options';
+$string['booking:rate'] = 'Tarifer les options de réservation choisies';
+$string['booking:readallinstitutionusers'] = 'Montrer tous les utilisateurs';
 $string['booking:readresponses'] = 'Lire les réponses';
 $string['booking:sendpollurl'] = 'Envoyer l\'URL du sondage';
 $string['booking:sendpollurltoteachers'] = 'Envoyer l\'URL du sondage aux enseignants';
 $string['booking:subscribeusers'] = 'Effectuer des réservations pour d\'autres utilisateurs';
 $string['booking:updatebooking'] = 'Gérer les options de réservation';
+$string['booking:viewallratings'] = 'Voir toutes les notes brutes données par les individus';
+$string['booking:viewanyrating'] = 'Voir le total des notes que n\'importe qui a reçu';
+$string['booking:viewrating'] = 'Afficher la note totale que vous avez reçue';
 $string['bookingattachment'] = 'Fichier joint';
 $string['bookingcategory'] = 'Catégorie';
+$string['bookingchangedtext'] = 'Message à envoyer lorsqu\'une option de réservation change (ne sera envoyé qu\'aux utilisateurs ayant déjà réservé). Utiliser l\'espace réservé {changes} pour afficher les modifications. Saisir 0 pour désactiver les notifications de modification.';
 $string['bookingclose'] = 'Jusqu\'au';
 $string['bookingdeleted'] = 'Votre réservation a été annulée';
 $string['bookingduration'] = 'Durée';

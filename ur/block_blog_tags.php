@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configtitle'] = 'بلاگ ٹیگز بند ٹائیٹل';
+$string['blog_tags:addinstance'] = 'ایک نیا بلاگ ٹیگز بلاک شامل کریں';
+$string['configtitle'] = 'بلاگ ٹیگز بلاک ٹائٹل';
 $string['pluginname'] = 'بلاگ کے ٹیگز';
+$string['privacy:metadata'] = 'بلاگ ٹیگز بلاک صرف دوسرے مقامات پر ذخیرہ شدہ ڈیٹا کو دکھاتا ہے۔';

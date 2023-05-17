@@ -91,6 +91,7 @@ $string['mycertificatesdescription'] = 'Aquests són els certificats que us han 
 $string['name'] = 'Nom';
 $string['nocustomcerts'] = 'No hi ha certificats disponibles per a aquest curs.';
 $string['noimage'] = 'Sense imatge';
+$string['notemplates'] = 'No hi ha cap plantilla';
 $string['notissued'] = 'No s\'ha emès';
 $string['notverified'] = 'No s\'ha verificat';
 $string['options'] = 'Opcions';

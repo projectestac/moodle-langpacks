@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['course_summary:addinstance'] = 'ایک نیا کورس/سائٹ سمری بلاک شامل کریں';
 $string['coursesummary'] = 'کورس کا خلاصہ';
 $string['pluginname'] = 'کورس/ سائٹ کی وضاحت';
+$string['privacy:metadata'] = 'کورس/سائٹ سمری بلاک صرف کورسز کے بارے میں معلومات دکھاتا ہے اور خود ڈیٹا کو ذخیرہ نہیں کرتا ہے۔';

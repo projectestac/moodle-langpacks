@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['format'] = 'Formato';
+$string['summary'] = 'Resumen';

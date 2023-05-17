@@ -102,7 +102,7 @@ $string['editacomment'] = 'éditer un commentaire';
 $string['editingassessmentelements'] = 'éditer les éléments dévaluation.En cours';
 $string['editingassessmentelementsofautors'] = 'éditer les élements dévaluation des auteurs. En cours';
 $string['element'] = 'élément';
-$string['elementweight'] = 'poids de lélément';
+$string['elementweight'] = 'poids de l’élément';
 $string['emailaddsubmission'] = 'Bonjour, {$a->firstname}.\\n
 modifications sur QUESTOURnament <b>«&nbsp;{$a->name}&nbsp;»</b> de «&nbsp;{$a->sitename}&nbsp;» \\n
 Une nouvelle question a été ajouté <b>«&nbsp;{$a->title}&nbsp;»</b>.\\n

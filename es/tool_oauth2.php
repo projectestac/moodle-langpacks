@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acceptrisk'] = 'Entiendo que deshabilitar la verificación de correo electrónico puede ser un problema de seguridad.';
+$string['acceptrisk_help'] = 'Deshabilitar la verificación de correo electrónico puede potencialmente permitir que un usuario se autentique como otro usuario.';
 $string['authconfirm'] = 'Esta acción otorgará acceso API permanente a Moodle para la cuenta autenticada. Esto está pensado para utilizarse como una cuenta del sistema para administrar archivos propiedad de Moodle.';
 $string['authconnected'] = 'La cuenta del sistema está ahora conectada para acceso fuera de línea';
 $string['authnotconnected'] = 'La cuenta del sistema no se conectó para el acceso fuera de línea';

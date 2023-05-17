@@ -259,7 +259,7 @@ $string['invalidrecord'] = 'Registro incorrecto';
 $string['invalidurl'] = 'La URL introducida no es válida';
 $string['jstemplate'] = 'Plantilla Javascript';
 $string['latitude'] = 'Latitud';
-$string['latlong'] = 'Latitud/logitud';
+$string['latlong'] = 'Coordenadas';
 $string['latlongboth'] = 'Tanto la latitud como la longitud son necesarias.';
 $string['latlongdownloadallhint'] = 'Descargar enlace para todas las entradas como KML';
 $string['latlongkmllabelling'] = 'Cómo etiquetar ítems en archivos KML (Google Earth)';
@@ -280,6 +280,8 @@ $string['menu'] = 'Menú';
 $string['menuchoose'] = 'Seleccionar...';
 $string['missingdata'] = 'Debe suministrarse la ID de los datos o del objeto a la clase de campo';
 $string['missingfield'] = 'Error del programador: Debe especificar el campo y/o los datos al definir la clase de campo.';
+$string['missingfieldtype'] = 'Tipo de campo para {$a->name} no encontrado';
+$string['missingfieldtypeimport'] = 'Los siguientes campos no fueron importados porque sus tipos de campos correspondientes no están instalados:';
 $string['modulename'] = 'Base de datos';
 $string['modulename_help'] = 'El módulo de actividad de base de datos permite a los participantes crear, mantener y buscar información en un repositorio de registros. La estructura de las entradas la define el profesor según una lista de campos. Los tipos de campo incluyen casilla de verificación, botones de opción, menú desplegable, área de texto, URL, imagen y archivo cargado.
 
@@ -291,7 +293,7 @@ Un profesor puede permitir comentarios en las entradas. Las entradas también pu
 
 Las actividades de base de datos tienen muchos usos, como por ejemplo:
 
-* Armar una colección colaborativa de enlaces web, libros, reseñas de libros, referencias de revistas, etc
+* Crear una colección colaborativa de enlaces web, libros, reseñas de libros, referencias de revistas, etc
 * Visualizar fotos, carteles, sitios web o poemas de los estudiantes, que puedan ser comentados por otros estudiantes.';
 $string['modulenameplural'] = 'Bases de datos';
 $string['more'] = 'Más';
@@ -422,6 +424,7 @@ $string['timemodified'] = 'Tiempo modificado';
 $string['todatabase'] = 'a esta base de datos.';
 $string['type'] = 'Tipo de campo';
 $string['undefinedprocessactionmethod'] = 'No se ha definido método de acción en Data_Preset para manejar la acción "{$a}".';
+$string['unknown'] = 'Campo desconocido';
 $string['unsupportedexport'] = '({$a->fieldtype}) no se puede exportar.';
 $string['unsupportedfields'] = 'Campos no soportados';
 $string['unsupportedfieldslist'] = 'Los siguientes campos no se pueden exportar:';
@@ -430,10 +433,10 @@ $string['uploadfile'] = 'Subir archivo';
 $string['uploadrecords'] = 'Subir entradas de un archivo';
 $string['uploadrecords_help'] = 'Las entradas pueden ser cargadas a través de un archivo de texto. El formato del archivo debe ser el siguiente:
 * Cada línea del archivo contiene un registro
-* Cada registro contiene una serie de datos separados por comas (u otros delimitadores)
+* Cada registro contiene una serie de datos separados por el delimitador seleccionado
 * El primer registro contiene una lista de nombres de campos que definen el formato del resto del fichero
 
-El campo enmarcado es una caracter que separa cada campo dentro de  cada registro. Normalmente se puede dejar sin definir.';
+El campo enmarcado es un carácter que separa cada campo dentro de cada registro. Normalmente se puede dejar sin definir.';
 $string['url'] = 'URL';
 $string['usedate'] = 'Incluir en la búsqueda';
 $string['usestandard'] = 'Use un ajuste previo';

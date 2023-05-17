@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activity_modules:addinstance'] = 'ایک نیا سرگرمی بلاک شامل کریں';
 $string['pluginname'] = 'سرگرمیاں';
+$string['privacy:metadata'] = 'سرگرمیاں بلاک صرف دوسرے مقامات پر ذخیرہ کردہ ڈیٹا کو دکھاتا ہے۔';

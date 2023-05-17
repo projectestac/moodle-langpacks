@@ -36,3 +36,4 @@ $string['import'] = 'Importar';
 $string['imported'] = 'Importar:';
 $string['num'] = 'N°';
 $string['question'] = 'Preguntas';
+$string['teachersummary'] = 'Resumen';

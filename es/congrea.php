@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['askplaymsg'] = '<span id = "askplaymsg"> "Descarga en proceso, haga clic en Reproducir para comenzar </ span>"';
+$string['attendencereport'] = 'Informe de asistencia';
 $string['audio'] = 'Audio';
 $string['audio_help'] = 'Si lo habilita, por defecto el audio de todos los estudiantes estará habilitado.';
 $string['closebeforeopen'] = 'No se pudo guardar la congrea. Ha especificado una fecha de cierre anterior a la fecha de apertura.';

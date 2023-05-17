@@ -145,7 +145,7 @@ $string['cannotinsertrandomquestion'] = 'Impossible d\'insérer une nouvelle que
 $string['cannotloadquestion'] = 'Impossible de charger les options de question';
 $string['cannotloadtypeinfo'] = 'Impossible de lire les informations du type de question de cette question';
 $string['cannotopen'] = 'Impossible d\'ouvrir le fichier d\'exportation ({$a})';
-$string['cannotremoveallsectionslots'] = 'Vous avez sélectionné toutes les questions sous l\'entête de section « {$a} ». Il n\'est pas permis de supprimer toutes les questions dans sous un entête de section.';
+$string['cannotremoveallsectionslots'] = 'Vous avez sélectionné toutes les questions sous l\'en-tête de section « {$a} ». Il n\'est pas permis de supprimer toutes les questions dans sous un en-tête de section.';
 $string['cannotremoveslots'] = 'Impossible de supprimer des questions';
 $string['cannotrestore'] = 'Impossible de restaurer les sessions de question';
 $string['cannotreviewopen'] = 'Vous ne pouvez pas relire cette tentative, qui est encore ouverte.';
@@ -490,7 +490,7 @@ $string['manualgrading'] = 'Attribution des notes';
 $string['mark'] = 'Envoyer';
 $string['markall'] = 'Envoyer la page';
 $string['marks'] = 'Points';
-$string['marks_help'] = 'Les points (numériques) pour chaque question, ainsi que le score total de la tentative.';
+$string['marks_help'] = 'Les points (nombres) obtenus pour chaque question, ainsi que le nombre total de points de la tentative.';
 $string['match'] = 'Appariement';
 $string['matchanswer'] = 'Réponse correspondante';
 $string['matchanswerno'] = 'Réponse correspondante {$a}';
@@ -863,7 +863,7 @@ $string['reviewoptionsheading_help'] = 'Ces options permettent de décider les i
 
 **Après la fermeture du test** veut dire après la date de fermeture du test. Si le test n\'a pas de date de fermeture, cet état n\'est jamais atteint.';
 $string['reviewoverallfeedback'] = 'Feedback global';
-$string['reviewoverallfeedback_help'] = 'Le feedback donné au terme d\'une tentative, en fonction du total des points obtenu par le participant.';
+$string['reviewoverallfeedback_help'] = 'Le feedback donné à la fin d\'une tentative du test, et qui dépend du total des points obtenu par l\'étudiant.';
 $string['reviewresponse'] = 'Relire la réponse';
 $string['reviewresponsetoq'] = 'Relire la réponse (question {$a})';
 $string['reviewthisattempt'] = 'Relire vos réponses à cette tentative';

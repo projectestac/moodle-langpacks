@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'منتظم کی یاداشتیں';
+$string['admin_bookmarks:addinstance'] = 'ایک نیا ایڈمن بُک مارکس بلاک شامل کریں';
+$string['admin_bookmarks:myaddinstance'] = 'ڈیش بورڈ میں ایک نیا ایڈمن بُک مارکس بلاک شامل کریں';
+$string['pluginname'] = 'ایڈمن بُک مارکس';
+$string['privacy:metadata'] = 'ایڈمن بک مارکس بلاک صرف دوسرے مقامات پر ذخیرہ شدہ ڈیٹا کو دکھاتا ہے۔';

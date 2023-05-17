@@ -25,4 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'معاشرتی سرگرمیاں';
+$string['pluginname'] = 'سماجی سرگرمیاں';
+$string['privacy:metadata'] = 'سماجی سرگرمیوں کا بلاک صرف دوسرے مقامات پر ذخیرہ شدہ ڈیٹا کو دکھاتا ہے۔';
+$string['social_activities:addinstance'] = 'ایک نیا سماجی سرگرمیوں کا بلاک شامل کریں';

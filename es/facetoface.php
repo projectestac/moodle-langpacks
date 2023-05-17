@@ -35,3 +35,4 @@ Cada sesión dentro de una actividad Cara-a-Cara puede tener configuraciones per
 Una actividad puede configurarse para que requiera aprobación del mánager y los profesores pueden configurar notificaciones automáticas y recordatorios de sesiones para los asistentes.
 
 Los estudiantes pueden ver e inscribirse a sesiones con su asistencia supervisada y grabada en el área de Calificaciones.';
+$string['summary'] = 'Resumen';

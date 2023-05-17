@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['choosereadme'] = 'Classic è un tema altamente personalizzabile, basato su Boost, con un layout di navigazione alternativo. Questo tema è destinato a essere utilizzato direttamente o come tema padre quando si creano o si aggiornano temi personalizzati per utilizzare Bootstrap 4.';
 $string['configtitle'] = 'Classic';
 $string['navbardark'] = 'Utilizza barra di navigazione scura';
 $string['pluginname'] = 'Classic';

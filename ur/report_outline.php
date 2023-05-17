@@ -25,4 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['outline:view'] = 'کورس کی سرگرمی کی رپورٹ دیکھیں';
+$string['eventactivityreportviewed'] = 'سرگرمی کی رپورٹ دیکھی گئی';
+$string['eventoutlinereportviewed'] = 'آؤٹ لائن رپورٹ دیکھی گئی';
+$string['neverseen'] = 'کبھی نہیں دیکھا';
+$string['nocapability'] = 'صارف کی آؤٹ لائن رپورٹ تک رسائی حاصل نہیں کر سکتے';
+$string['nologreaderenabled'] = 'کوئی لاگ ریڈر فعال نہیں ہے';
+$string['numviews'] = '{$a->distinctusers} صارفین کے ذریعے {$a->numviews} ملاحظات';
+$string['outline:view'] = 'سرگرمی کی رپورٹ دیکھیں';
+$string['outline:viewuserreport'] = 'صارف کی سرگرمی کی رپورٹ دیکھیں';
+$string['page-report-outline-index'] = 'کورس کی خاکہ رپورٹ';
+$string['page-report-outline-user'] = 'صارف کورس آؤٹ لائن رپورٹ';
+$string['page-report-outline-x'] = 'کوئی خاکہ رپورٹ';
+$string['pluginname'] = 'سرگرمی کی رپورٹ';
+$string['privacy:metadata'] = 'سرگرمی رپورٹ پلگ ان کوئی ذاتی ڈیٹا ذخیرہ نہیں کرتا ہے۔';

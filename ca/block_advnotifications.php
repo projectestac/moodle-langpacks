@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advnotifications'] = 'Notificacions avançades';
 $string['advnotifications_add_option_announcement'] = 'Anunci';
+$string['advnotifications_save'] = 'Desa';
 $string['advnotifications_table_heading'] = 'Notificacions avançades';
 $string['advnotifications_task_name'] = 'Notificacions avançades';
 $string['pluginname'] = 'Notificacions avançades';

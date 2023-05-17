@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Regra de acesso ao teste com navegador seguro';
 $string['privacy:metadata'] = 'O módulo Regra de acesso ao teste com navegador seguro não armazena dados pessoais.';
 $string['requiresafeexambrowser'] = 'Necessita do uso do navegador seguro';
-$string['safebrowsererror'] = 'Este teste foi configurado para que só possa ser realizado através de um navegador seguro. Não pode realizar o teste a partir deste navegador.';
+$string['safebrowsererror'] = 'Este teste foi configurado para que só possa ser realizado através de um navegador seguro. Não pode realizar o teste a partir deste navegador web.';
 $string['safebrowsernotice'] = 'Este teste foi configurado para que os alunos o realizem apenas usando um navegador seguro.';

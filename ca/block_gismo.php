@@ -25,5 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['completion_resource_menu'] = 'Recursos';
 $string['details'] = 'Detalls';
+$string['exit'] = 'Surt';
 $string['print'] = 'Imprimeix';
+$string['resources'] = 'Recursos';
+$string['save'] = 'Desa';

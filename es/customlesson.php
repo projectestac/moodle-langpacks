@@ -26,3 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['collapsed'] = 'Colapsado';
+$string['report'] = 'Informe';
+$string['reports'] = 'Informes';

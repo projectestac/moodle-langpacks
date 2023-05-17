@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['analyticmodels'] = 'Models d\'analítiques';
+$string['delete'] = 'Suprimeix';
 $string['enabled'] = 'Habilitat';
 $string['export'] = 'Exporta';
 $string['importmodel'] = 'Importa el model';

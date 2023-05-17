@@ -1372,7 +1372,7 @@ $string['newpasswordtext'] = 'Kaixo, {$a->firstname}:
 Zure kontuaren pasahitza \'{$a->sitename}\' gunean berrezarri da eta behin behineko pasahitz berri bat ezarri dizugu.
 
 Zure datu berriak ondorengoak dira:
- erabiltzailea: {$a->username}
+ erabiltzaile-izena: {$a->username}
  pasahitza: {$a->newpassword}
 
 Pasahitza aldatu nahi baduzu, mesedez hurrengo helbide honetara joan zaitez:
@@ -1401,7 +1401,7 @@ $string['newusernewpasswordtext'] = 'Kaixo, {$a->firstname}:
 Kontu berria ireki zaizu \'{$a->sitename}\'(e)n eta behin behineko pasahitza ezarri zaizu.
 
 Sartzeko zure datuak ondorengoak dira:
-   erabiltzailea: {$a->username}
+   erabiltzaile-izena: {$a->username}
    pasahitza: {$a->newpassword}
              (pasahitza aldatu beharko duzu
              lehen aldiz sartzen zarenean)

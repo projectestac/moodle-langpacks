@@ -889,6 +889,8 @@ $string['mnetrestore_extusers_switchuserauth'] = 'مستخدم لشبكة مود
 {$a->auth}
 مستخدم تمت مصادقته.';
 $string['mobilenotconfiguredwarning'] = 'لم يتم تمكين تطبيق مودل.';
+$string['modassignmentinuse'] = 'موقعك لا يزال يستعمل ملحق الواجب 2.2. قبل الترقية ينبغي عليك 1) إجراء الحفظ الاحتياطي لأي نشاطات تستعمل الواجب 2.2 ترغب في الاحتفاظ بها ومن ثم استعادتها بمثابة واجبات جديدة؛ أو 2) حذف كل بيانات الواجبات 2.2 من قاعدة البيانات.';
+$string['modassignmentsubpluginsexist'] = 'قد تكون الملاحق الفرعية للواجب 2.2 موجودة. تحتاج إلى إزال المجلد mod/assignment مع كل الملاحق الفرعية فيه قبل الترقية.';
 $string['modchooserdefault'] = 'منتقي النشاط الافتراضي';
 $string['modeditdefaults'] = 'القيم الافتراضية لإعدادات النشاط';
 $string['modsettings'] = 'إدارة النشاطات';

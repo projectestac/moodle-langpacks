@@ -120,6 +120,7 @@ $string['everyoneissubscribed'] = 'Ya están todos suscritos a este foro';
 $string['forcedreadtracking'] = 'Permitir forzar el seguimiento de lectura';
 $string['generalmoodleoverflows'] = 'Foros en este curso';
 $string['gotoindex'] = 'Administrar las preferencias';
+$string['gradesreport'] = 'Informe de calificaciones';
 $string['headerdiscussion'] = 'Tema';
 $string['headerlastpost'] = 'Último mensaje';
 $string['headerreplies'] = 'Respuestas';

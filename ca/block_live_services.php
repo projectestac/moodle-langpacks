@@ -26,5 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['calendarEndDate'] = 'Data de finalització';
+$string['calendarIconAltText'] = 'Visualitza';
+$string['calendarViewLink'] = 'Visualitza';
 $string['identityPrivacyLink'] = 'Privacitat';
 $string['privacy'] = 'Privacitat';

@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['multilangupgradeinfo'] = '<p>O filtro de sintaxe multilingue foi alterado na versão 1.8 e por isso a tag &lt;lang&gt; já não é suportada. </p>
 <p>Exemplo: <span lang="en" class="multilang">Hello!</span><span lang="es" class="multilang">Hola!</span></p>
-<p>Quer atualizar a sintaxe em todos os textos existentes agora?</p>';
+<p>Quer atualizar agora a sintaxe em todos os textos existentes?</p>';
 $string['pluginname'] = 'Atualização multilingue';
 $string['privacy:metadata'] = 'O módulo Atualização multilingue não armazena quaisquer dados pessoais.';

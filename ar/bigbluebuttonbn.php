@@ -436,6 +436,7 @@ $string['view_message_conference_has_ended'] = 'هذا المؤتمر انتهى
 $string['view_message_conference_in_progress'] = 'هذا المؤتمر قيد التنفيذ';
 $string['view_message_conference_not_started'] = 'هذا المؤتمر لم يبدأ بعد.';
 $string['view_message_conference_room_ready'] = 'غرفة الاجتماعات هذه جاهزة. يمكنك الانضمام إلى الجلسة الآن.';
+$string['view_message_conference_user_limit_reached'] = 'تم الوصول إلى العدد الأقصى المسموح به من المستخدمين في الجلسة';
 $string['view_message_conference_wait_for_moderator'] = 'بانتظار انضمام مشرف الجلسة';
 $string['view_message_finished'] = 'هذا النشاط قد انتهى.';
 $string['view_message_has_joined'] = 'قد انضم';

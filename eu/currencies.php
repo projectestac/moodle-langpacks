@@ -183,5 +183,5 @@ $string['XOF'] = 'CFA libera';
 $string['XPF'] = 'CFP libera';
 $string['YER'] = 'Yemengo Riala';
 $string['ZAR'] = 'Hego Afrikako randa';
-$string['ZMK'] = 'Zambiako Kwacha';
+$string['ZMW'] = 'Zambiako Kwacha';
 $string['ZWL'] = 'Zimbabweko Dolarra';

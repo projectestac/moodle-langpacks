@@ -52,6 +52,7 @@ $string['competencegrid_nodata'] = 'En caso que la rejilla de competencias esté
 $string['completed_config'] = 'La configuración de Exabis Competencies está completa.';
 $string['conf_badges'] = 'configurar insignias';
 $string['conf_comps'] = 'configurar competencias';
+$string['create_report'] = 'generar informe';
 $string['dataerr'] = '¡Se requiere a lo menos un vínculo o archivo!';
 $string['delete_confirmation'] = 'De verdad desea eliminar este ejemplo?';
 $string['description_edit_badge_comps'] = 'Aquí puede asociar la insignia seleccionada con resultados.';
@@ -81,7 +82,18 @@ $string['no_badges_yet'] = 'no hay insignias disponibles';
 $string['opencomps'] = 'elija sus competencias';
 $string['override_notice1'] = 'Esta entrada fue editada por';
 $string['pluginname'] = 'Competencias Exabis';
+$string['report_type'] = 'tipo de informe';
+$string['reports'] = 'Tipo de informe';
 $string['save'] = 'cambios fueron exitosos';
+$string['settings_explanation_tooltipp'] = 'Los resultados del informe de grupo se reducen por los filtros de arriba a abajo pero no de abajo a arriba.
+P.ej., si está activo un filtro simple "dificultad nivel G" entonces este será el resultado:
+- todos los estándares educativos
+- todos los campos de competencias
+- competencias filtradas por el nivel de dificultad G y
+- competencias hijas de las que tienen nivel de dificultad G.';
 $string['solution'] = 'Solución';
 $string['specificcontent'] = 'prioridades específicas-del-sitio';
+$string['tab_group_reports'] = 'Informes de grupo';
+$string['tab_teacher_report_annex_title'] = 'Anexo al informe de progreso educativo';
+$string['tab_teacher_report_general'] = 'Informe general';
 $string['usernosubmission'] = 'no ha enviado ninguna tarea asociada con este descriptor';

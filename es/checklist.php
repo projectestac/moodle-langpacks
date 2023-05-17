@@ -79,6 +79,7 @@ $string['emailoncomplete_help'] = 'Cuando se completa una lista de verificación
 $string['emailoncompletebody'] = 'El usuario {$a->user} ha completado la lista de verificación \'{$a->checklist}\'  en el curso \'{$a->coursename}\'
 Vea la lista de verificación aquí:';
 $string['emailoncompletesubject'] = 'El usuario {$a->user} ha completado la lista de verificación  \'{$a->checklist}';
+$string['eventreportviewed'] = 'Informe visto';
 $string['export'] = 'Exportar items';
 $string['forceupdate'] = 'Actualizar revisiones para todos los items automáticos';
 $string['gradetocomplete'] = 'Calificación para completar:';

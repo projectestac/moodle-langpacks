@@ -40,4 +40,4 @@ $string['pluginname'] = 'Formato Semanal';
 $string['privacy:metadata'] = 'O módulo Formato Semanal não armazena quaisquer dados pessoais.';
 $string['section0name'] = 'Geral';
 $string['sectionname'] = 'Semana';
-$string['showfromothers'] = 'Show week';
+$string['showfromothers'] = 'Mostrar semana';

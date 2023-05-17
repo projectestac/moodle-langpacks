@@ -191,7 +191,7 @@ $string['errorgradevaluenonnumeric'] = 'Une note non-numérique a été reçue (
 $string['errornocalculationallowed'] = 'Les calculs ne sont pas autorisés pour cet élément';
 $string['errornocategorisedid'] = 'Impossible d\'obtenir un identifiant sans catégorie !';
 $string['errornocourse'] = 'Impossible d\'obtenir les informations du cours';
-$string['errorreprintheadersnonnumeric'] = 'Valeur non-numérique reçue pour le réaffichage des entêtes';
+$string['errorreprintheadersnonnumeric'] = 'Valeur non-numérique reçue pour le réaffichage des en-têtes';
 $string['errorsavegrade'] = 'Impossible d\'enregistrer la note.';
 $string['errorsettinggrade'] = 'Erreur de l\'enregistrement de la note « {$a->itemname} » pour l\'identifiant utilisateur {$a->userid}';
 $string['errorupdatinggradecategoryaggregateonlygraded'] = 'Erreur lors de la modification du réglage « Tendance centrale pour notes non vides » de la catégorie de note d\'identifiant {$a->id}';
@@ -412,7 +412,7 @@ $string['importdata'] = 'Données';
 $string['importdata_help'] = 'Les notes peuvent être collées directement depuis une feuille de calcul OpenDocument ou Excel dont le format est le suivant :
 
 * au moins une colonne doit comporter les données d\'identification de l\'utilisateur - nom d\'utilisateur, adresse de courriel ou numéro d\'ID ;
-* chaque autre colonne doit avoir l\'entête d\'une activité ou d\'un élément d\'évaluation présent.
+* chaque autre colonne doit avoir l\'en-tête d\'une activité ou d\'un élément d\'évaluation présent.
 
 Une feuille de calcul correctement formatée peut être obtenue en exportant d\'abord quelques notes. Elle peut être alors modifiée et enregistrée après l\'ajout d\'autres notes.
 
@@ -423,7 +423,7 @@ $string['importfeedback'] = 'Importer les feedbacks';
 $string['importfile'] = 'Fichier à importer';
 $string['importfilemissing'] = 'Aucun fichier n\'a été reçu. Veuillez revenir au formulaire et vous assurer de déposer un fichier valide.';
 $string['importfrom'] = 'Importer de';
-$string['importoutcomenofile'] = 'Le fichier déposé est vide ou corrompu. Veuillez le vérifier. Le problème a été détecté à la ligne {$a} ; cette erreur survient lorsque des lignes ne comportent pas le même nombre de colonnes que la première ligne (entête) ou quand le fichier importé ne comprend pas l\'entête attendue. Veuillez consulter le fichier exporté à titre d\'exemple de fichier avec un entête valide.';
+$string['importoutcomenofile'] = 'Le fichier déposé est vide ou corrompu. Veuillez le vérifier. Le problème a été détecté à la ligne {$a} ; cette erreur survient lorsque des lignes ne comportent pas le même nombre de colonnes que la première ligne (en-tête) ou quand le fichier importé ne comprend pas l\'en-tête attendue. Veuillez consulter le fichier exporté à titre d\'exemple de fichier avec un en-tête valide.';
 $string['importoutcomes'] = 'Importer des objectifs';
 $string['importoutcomes_help'] = 'Des objectifs peuvent être importés depuis un fichier CSV du même format que les objectifs exportés.';
 $string['importoutcomesuccess'] = 'Objectif « {$a->name} » importé avec l\'identifiant {$a->id}';
@@ -707,7 +707,7 @@ $string['report'] = 'Rapport';
 $string['reportdefault'] = 'Réglage par défaut du rapport ({$a})';
 $string['reportplugins'] = 'Modules de rapport';
 $string['reportsettings'] = 'Réglages des rapports';
-$string['reprintheaders'] = 'Réafficher les entêtes';
+$string['reprintheaders'] = 'Ré-afficher les en-têtes';
 $string['resetweights'] = 'Réinitialiser les pondérations de {$a->itemname}';
 $string['resetweightsshort'] = 'Réinitialiser les pondérations';
 $string['respectingcurrentdata'] = 'en conservant la configuration actuelle';

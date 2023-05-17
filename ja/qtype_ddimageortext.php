@@ -64,13 +64,13 @@ $string['pluginnameediting'] = 'ドラッグ＆ドロップイメージの編集
 $string['pluginnamesummary'] = 'イメージまたはテキストラベルは背景イメージのドロップゾーンにドラッグ＆ドロップされます。
 
 注意: この問題タイプは視覚に障害のあるユーザは利用できません。';
-$string['previewareaheader'] = 'プレビュ';
+$string['previewareaheader'] = 'プレビュー';
 $string['previewareamessage'] = '背景イメージを選択してドラッグ可能イメージ指定した後、ドラッグするための背景イメージのドロップゾーンを定義してください。';
-$string['privacy:metadata'] = 'ドラッグ＆ドロップイメージ問題タイププラグインは問題作成者がユーザプリファレンスとしてデフォルトオプションを設定できます。';
+$string['privacy:metadata'] = 'ドラッグ＆ドロップイメージ問題タイププラグインは問題作成者がユーザプレファレンスとしてデフォルトオプションを設定できます。';
 $string['privacy:preference:defaultmark'] = '指定された問題に設定されるデフォルトの評点です。';
 $string['privacy:preference:penalty'] = '問題が「複数回受験インタラクティブ」または「アダプティブモード」で出題された場合のそれぞれの不正解のペナルティです。';
 $string['privacy:preference:shuffleanswers'] = '解答を自動的にシャッフルするかどうか指定します。';
-$string['refresh'] = 'プレビュをリフレッシュする';
+$string['refresh'] = 'プレビューをリフレッシュする';
 $string['shuffleimages'] = '問題の受験ごとにドラッグアイテムをシャッフルする';
 $string['summarisechoice'] = '{$a->no}. {$a->text}';
 $string['summarisechoiceno'] = 'アイテム {$a}';

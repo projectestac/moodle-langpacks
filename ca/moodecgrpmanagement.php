@@ -26,4 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['limit'] = 'límit';
+$string['nextString'] = 'Següent';
+$string['responses'] = 'Respostes';
 $string['withselected'] = 'Amb el que s\'ha seleccionat';

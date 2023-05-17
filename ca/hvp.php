@@ -211,6 +211,7 @@ El mòdul fa un seguiment de la interacció amb els usuaris mitjançant xAPI. Le
 Podeu afegir continguts interactius H5P creant-los amb la seva eina d\'autor, o bé pujant a Moodle fitxers H5P generats en altres plataformes compatibles.';
 $string['modulename_link'] = 'https://h5p.org/moodle-more-help';
 $string['modulenameplural'] = 'Contingut interactiu';
+$string['next'] = 'Següent';
 $string['nextpage'] = 'Pàgina següent';
 $string['noanswersubmitted'] = 'Aquest usuari encara no ha tramès cap resposta a l\'H5P';
 $string['nocontent'] = 'No s\'ha pogut trobar o processar el fitxer «content.json»';
@@ -255,6 +256,7 @@ $string['previouspage'] = 'Pàgina anterior';
 $string['privacy:metadata:hvp_xapi_results:raw_score'] = 'S\'ha aconseguit la puntuació de l\'esdeveniment.';
 $string['privacy:metadata:hvp_xapi_results:response'] = 'La resposta que l\'usuari ha enviat.';
 $string['privacy:metadata:hvp_xapi_results:user_id'] = 'La Identificació de l\'usuari que ha realitzat l\'acció.';
+$string['question'] = 'Pregunta';
 $string['removeoldlogentries'] = 'Elimina les entrades antigues del registre de l\'H5P';
 $string['removeoldmobileauthentries'] = 'Elimina les entrades d\'autenticació de mòbil de l\'H5P';
 $string['removetmpfiles'] = 'Elimina els fitxers temporals antics de l\'H5P';

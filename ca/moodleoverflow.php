@@ -26,6 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['crontask'] = 'Tasques de manteniment del Moodleoverflow';
+$string['edit'] = 'Edita';
 $string['moodleoverflow:view'] = 'Visualitza la llista de distribució';
 $string['moodleoverflow:viewdiscussion'] = 'Visualitza el debat';
 $string['noviewdiscussionspermission'] = 'No teniu permís per visualitzar debats en aquest fòrum';
+$string['questions'] = 'Preguntes';

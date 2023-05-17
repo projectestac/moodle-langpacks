@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Informe general';
+$string['privacy:metadata'] = 'El módulo de informe general no guarda ningún dato personal.';

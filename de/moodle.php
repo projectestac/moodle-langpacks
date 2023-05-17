@@ -141,7 +141,7 @@ $string['allow'] = 'Zulassen';
 $string['allowinternal'] = 'Auch interne Methoden erlauben';
 $string['allownone'] = 'Nichts zulassen';
 $string['allownot'] = 'Nicht zulassen';
-$string['allowstealthmodules'] = 'Verborgene, aber verfügbare Aktivitäten erlauben';
+$string['allowstealthmodules'] = 'Verfügbare, aber auf der Kursseite nicht angezeigte Aktivitäten erlauben';
 $string['allowstealthmodules_help'] = 'Mit dieser Option können Aktivitäten verfügbar sein, ohne auf der Kursseite angezeigt zu werden. Ist dies der Fall, muss der Link zur verborgenen Aktivität anders verfügbar gemacht werden, z.B. in einem Textfeld. In der Bewertung und anderen Berichten werden die Aktivitäten weiterhin angezeigt.';
 $string['allparticipants'] = 'Alle Teilnehmer/innen';
 $string['allteachers'] = 'Alle Trainer/innen';
@@ -1466,7 +1466,7 @@ $string['normalfilter'] = 'Normalfilter';
 $string['nosite'] = 'Es konnte kein passender Kurs gefunden werden.';
 $string['nostudentsfound'] = 'Kein {$a} gefunden';
 $string['nostudentsingroup'] = 'Derzeit sind keine Teilnehmer/innen in dieser Gruppe eingetragen.';
-$string['nostudentsyet'] = 'In diesem Kurs ist noch keine Teilnehmer/innen eingeschrieben.';
+$string['nostudentsyet'] = 'In diesem Kurs sind noch keine Teilnehmer/innen eingeschrieben.';
 $string['nosuchemail'] = 'E-Mail-Adresse nicht gefunden';
 $string['notavailable'] = 'Nicht verfügbar';
 $string['notavailablecourse'] = '"{$a}" ist nicht verfügbar';
@@ -2070,7 +2070,7 @@ $string['textediting_help'] = 'Wenn ein HTML-Editor (z.B. Atto oder TinyMCE) aus
 
 Wenn \'Einfacher Text\' ausgewählt ist, können Texte über HTML-Tags oder Markdown formatiert werden.
 
-Die Liste der verfügbaren Texteditoren wird von den Administrator/innen festgelegt.';
+Die verfügbaren Texteditoren werden von den Administrator/innen festgelegt.';
 $string['texteditor'] = 'Standard-Web-Formulare benutzen';
 $string['textellipsis'] = '{$a} ...';
 $string['textformat'] = 'Unformatierter Text';

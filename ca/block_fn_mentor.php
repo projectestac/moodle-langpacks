@@ -26,7 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['breadcrumb:activitiesincompleted'] = 'Activitats no completades';
+$string['edit'] = 'Edita';
 $string['export'] = 'Exporta';
 $string['importexport'] = 'Importa-Exporta';
 $string['incompleted'] = 'No completada';
+$string['student'] = 'Estudiant';
 $string['title:incompleted'] = 'No completada';

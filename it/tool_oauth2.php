@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptrisk'] = 'Sono consapevole che disabilitare la verifica email rappresenta un problema di sicurezza.';
+$string['acceptrisk_help'] = 'Disattivare la verifica dell\'e-mail può consentire a un utente di autenticarsi come un altro utente.';
 $string['authconfirm'] = 'L\'azione garantirà all\'account autenticato un accesso permanente a Moodle via API. L\'uso deve essere inteso come account di sistema per la gestione di file il cui proprietario è Moodle.';
 $string['authconnected'] = 'L\'account di sistema è ora collegato per l\'accesso offline.';
 $string['authnotconnected'] = 'L\'account di sistema non è stato collegato per l\'accesso offline.';

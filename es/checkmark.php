@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['configshowrecentsubmissions'] = 'Todos pueden ver las notificaciones de entregas en los informes de actividad recientes.';
 $string['editmysubmission'] = 'Editar mi entrega';
 $string['format'] = 'Formato';

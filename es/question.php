@@ -231,6 +231,7 @@ $string['importingquestions'] = 'Importando {$a} preguntas desde archivo';
 $string['importparseerror'] = 'Error(es) encontrado(s) al analizar el archivo de importación. No se han importado las preguntas. Para importar las preguntas que puedan rescatarse, inténtelo de nuevo con la configuración de NO en el parámetro "Detenerse en error"';
 $string['importquestions'] = 'Importar preguntas de un archivo';
 $string['importquestions_help'] = 'Esta función posibilita la importación de preguntas en distintos formatos por medio de un archivo de texto. Advierta que el archivo debe tener la codificación UTF-8.';
+$string['importwrongfileencoding'] = 'El archivo seleccionado no tiene codificación de caracteres UTF-8. Los archivos {$a} deben usar UTF-8.';
 $string['importwrongfiletype'] = 'El tipo de archivo elegido ({$a->actualtype}) no coincide con el tipo esperado por el formato de importación ({$a->expectedtype}).';
 $string['impossiblechar'] = 'Se ha detectado un carácter imposible {$a} como carácter de paréntesis';
 $string['includesubcategories'] = 'Mostrar también preguntas de las subcategorías';
