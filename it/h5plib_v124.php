@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5plib_v124', language 'it', version '3.11'.
+ * Strings for component 'h5plib_v124', language 'it', version '4.1'.
  *
  * @package     h5plib_v124
  * @category    string
@@ -25,13 +25,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['editor:a11ytitlehidelabel'] = 'Nascondi etichetta per AT';
+$string['editor:a11ytitleshowlabel'] = 'Visualizza etichetta per AT';
 $string['editor:add'] = 'Aggiungi';
 $string['editor:addauthor'] = 'Salva autore';
 $string['editor:addentity'] = 'Aggiungi :entity';
 $string['editor:addfile'] = 'Inserisci file';
 $string['editor:addnewchange'] = 'Aggiungere modifica';
 $string['editor:addtitle'] = 'Inserisci titolo';
-$string['editor:addvideodescription'] = 'H5P supporta tutte le fonti video esterne in formato mp4, webm o ogv, come Vimeo Pro, e supporta i link di YouTube.';
+$string['editor:addvideodescription'] = 'H5P supporta tutte le fonti video esterne in formato mp4, webm o ogv, come Vimeo Pro, e supporta i link di YouTube e Panopto.';
 $string['editor:atoz'] = 'Dall\'A alla Z';
 $string['editor:avtablistlabel'] = 'Inserisci con';
 $string['editor:belowmin'] = 'I valore di :property  è inferiore al minimo di :min.';
@@ -88,7 +90,7 @@ $string['editor:enteraudiotitle'] = 'Incolla un collegamento o un URL di una fon
 $string['editor:enteraudiourl'] = 'Inserisci un URL della fonte audio';
 $string['editor:enterfullscreenbuttonlabel'] = 'Passa a schermo intero';
 $string['editor:entervideotitle'] = 'Incolla un collegamento YouTube o un\'altra fonte video';
-$string['editor:entervideourl'] = 'Inserisci una fonte video o un collegamento YouTube';
+$string['editor:entervideourl'] = 'Inserire URL del video';
 $string['editor:errorcalculatingmaxscore'] = 'Impossibile calcolare il punteggio massimo per questo contenuto. Si presuppone che il punteggio massimo sia 0. Contattare l\'amministratore se non è corretto.';
 $string['editor:errorcommunicatinghubcontent'] = 'Si è verificato un errore. Si prega di riprovare più tardi.';
 $string['editor:errorcommunicatinghubtitle'] = 'Non è possibile comunicare con l\'hub';

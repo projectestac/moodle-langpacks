@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'ur', version '3.11'.
+ * Strings for component 'url', language 'ur', version '4.1'.
  *
  * @package     url
  * @category    string
@@ -43,14 +43,17 @@ $string['indicator:cognitivedepth'] = 'یو آر ایل علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے یو آر ایل وسائل میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'یو آر ایل علمی';
 $string['indicator:cognitivedepthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفہ کے دوران URL وسائل کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'یو آر ایل سماجی';
 $string['indicator:socialbreadth_help'] = 'یہ انڈیکیٹر اس سماجی وسعت پر مبنی ہے جو طالب علم نے یو آر ایل وسائل میں حاصل کی ہے۔';
 $string['indicator:socialbreadthdef'] = 'یو آر ایل سماجی';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران یو آر ایل وسائل کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، تنہا شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['invalidstoredurl'] = 'اس وسائل کو ظاہر نہیں کیا جا سکتا، یو آر ایل غلط ہے۔';
 $string['invalidurl'] = 'درج کردہ یو آر ایل غلط ہے';
 $string['modulename'] = 'یو آر ایل';
 $string['modulename_help'] = 'یو آر ایل ماڈیول ایک استاد کو کورس کے وسائل کے طور پر ویب لنک فراہم کرنے کے قابل بناتا ہے۔ کوئی بھی چیز جو آزادانہ طور پر آن لائن دستیاب ہے، جیسے کہ دستاویزات یا تصاویر، سے منسلک کیا جا سکتا ہے۔ URL کا کسی ویب سائٹ کا ہوم پیج ہونا ضروری نہیں ہے۔ کسی خاص ویب صفحہ کا یو آر ایل کاپی اور پیسٹ کیا جا سکتا ہے یا کوئی استاد فائل چننے والا استعمال کر سکتا ہے اور فلکر، یوٹیوب یا ویکی میڈیا (اس بات پر منحصر ہے کہ سائٹ کے لیے کون سے ذخیرے فعال ہیں) سے ایک لنک منتخب کر سکتے ہیں۔ یو آر ایل کے لیے ڈسپلے کے بہت سے اختیارات ہیں، جیسے ایمبیڈڈ یا نئی ونڈو میں کھولنا اور اگر ضرورت ہو تو معلومات کو منتقل کرنے کے لیے جدید اختیارات، جیسے طالب علم کا نام، URL کو۔ نوٹ کریں کہ URLs کو ٹیکسٹ ایڈیٹر کے ذریعے کسی دوسرے وسائل یا سرگرمی کی قسم میں بھی شامل کیا جا سکتا ہے۔';
+$string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'یو آر ایل';
 $string['page-mod-url-x'] = 'کوئی بھی URL ماڈیول صفحہ';
 $string['parameterinfo'] = '&amp;پیرامیٹر=متغیر';

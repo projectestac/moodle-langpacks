@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_analytics', language 'ur', version '3.11'.
+ * Strings for component 'tool_analytics', language 'ur', version '4.1'.
  *
  * @package     tool_analytics
  * @category    string
@@ -83,7 +83,6 @@ $string['exportmodel'] = 'برآمد کنفیگریشن';
 $string['exporttrainingdata'] = 'ٹریننگ ڈیٹا ایکسپورٹ کریں';
 $string['extrainfo'] = 'معلومات';
 $string['generalerror'] = 'تشخیص کی غلطی۔ اسٹیٹس کوڈ {$a}';
-$string['getpredictions'] = 'پیشین گوئیاں حاصل کریں';
 $string['goodmodel'] = 'پیشین گوئیاں حاصل کرنے کے لیے استعمال کرنے کے لیے یہ ایک اچھا ماڈل ہے۔ پیشین گوئیاں حاصل کرنا شروع کرنے کے لیے اسے فعال کریں۔';
 $string['ignoreversionmismatches'] = 'ورژن کی مماثلتوں کو نظر انداز کریں';
 $string['ignoreversionmismatchescheckbox'] = 'اس سائٹ ورژن اور اصل سائٹ ورژن کے درمیان فرق کو نظر انداز کریں۔';
@@ -91,6 +90,7 @@ $string['importedsuccessfully'] = 'ماڈل کامیابی کے ساتھ درآ�
 $string['importmodel'] = 'ماڈل درآمد کریں';
 $string['indicators'] = 'اشارے';
 $string['indicators_help'] = 'اشارے وہ ہیں جو آپ کے خیال میں ہدف کی درست پیشین گوئی کا باعث بنیں گے۔';
+$string['indicators_link'] = 'Indicators';
 $string['indicatorsnum'] = 'اشارے کی تعداد: {$a}';
 $string['info'] = 'معلومات';
 $string['insights'] = 'بصیرت';
@@ -139,6 +139,7 @@ $string['scheduledanalysisresultscli'] = '{$a->name} (id: {$a->id}) تجزیہ �
 $string['selecttimesplittingforevaluation'] = 'تجزیہ کا وقفہ منتخب کریں جسے آپ ماڈل کنفیگریشن کا جائزہ لینے کے لیے استعمال کرنا چاہتے ہیں۔';
 $string['target'] = 'ہدف';
 $string['target_help'] = 'ہدف وہی ہے جو ماڈل پیش گوئی کرے گا۔';
+$string['target_link'] = 'Targets';
 $string['timesplittingnotdefined'] = 'تجزیہ کا کوئی وقفہ متعین نہیں ہے۔';
 $string['timesplittingnotdefined_help'] = 'ماڈل کو فعال کرنے سے پہلے آپ کو تجزیہ کا وقفہ منتخب کرنے کی ضرورت ہے۔';
 $string['trainandpredictmodel'] = 'ٹریننگ ماڈل اور حساب کتاب';

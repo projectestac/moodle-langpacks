@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ur', version '3.11'.
+ * Strings for component 'webservice', language 'ur', version '4.1'.
  *
  * @package     webservice
  * @category    string
@@ -65,7 +65,6 @@ $string['deletetokenconfirm'] = 'کیا آپ واقعی <strong>{$a->service}</s
 $string['disabledwarning'] = 'تمام ویب سروس پروٹوکول غیر فعال ہیں۔ "ویب سروسز کو فعال کریں" کی ترتیب اعلی درجے کی خصوصیات میں مل سکتی ہے۔';
 $string['doc'] = 'دستاویزی';
 $string['docaccessrefused'] = 'آپ کو اس ٹوکن کے لیے دستاویزات دیکھنے کی اجازت نہیں ہے';
-$string['documentation'] = 'ویب سروس دستاویزات';
 $string['downloadfiles'] = 'فائلیں ڈاؤن لوڈ کر سکتے ہیں';
 $string['downloadfiles_help'] = 'فعال ہونے پر، کوئی بھی صارف اپنی سیکیورٹی کلید کے ساتھ فائلیں ڈاؤن لوڈ کر سکتا ہے۔ یقیناً وہ ان فائلوں تک ہی محدود ہیں جن کی انہیں سائٹ میں ڈاؤن لوڈ کرنے کی اجازت ہے۔';
 $string['editaservice'] = 'سروس میں ترمیم کریں';

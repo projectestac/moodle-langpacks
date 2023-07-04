@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ur', version '3.11'.
+ * Strings for component 'workshop', language 'ur', version '4.1'.
  *
  * @package     workshop
  * @category    string
@@ -43,8 +43,10 @@ $string['allocationdone'] = 'مختص کیا گیا';
 $string['allocationerror'] = 'مختص کی خرابی';
 $string['allowedfiletypesforoverallfeedback'] = 'فیڈ بیک منسلکہ فائل کی قسموں کی اجازت ہے';
 $string['allowedfiletypesforoverallfeedback_help'] = 'فیڈ بیک منسلکہ فائل کی اقسام کو اجازت شدہ فائل کی اقسام کی فہرست فراہم کرکے محدود کیا جا سکتا ہے۔ اگر فیلڈ کو خالی چھوڑ دیا جاتا ہے، تو فائل کی تمام اقسام کی اجازت ہے۔';
+$string['allowedfiletypesforoverallfeedback_link'] = 'admin/tool/filetypes/index';
 $string['allowedfiletypesforsubmission'] = 'جمع کرانے کے منسلکہ کی اجازت فائل کی اقسام';
 $string['allowedfiletypesforsubmission_help'] = 'جمع کرانے والی منسلکہ فائل کی اقسام کو اجازت شدہ فائل کی اقسام کی فہرست فراہم کرکے محدود کیا جا سکتا ہے۔ اگر فیلڈ کو خالی چھوڑ دیا جاتا ہے، تو فائل کی تمام اقسام کی اجازت ہے۔';
+$string['allowedfiletypesforsubmission_link'] = 'admin/tool/filetypes/index';
 $string['allsubmissions'] = 'تمام گذارشات ({$a})';
 $string['alreadygraded'] = 'پہلے سے درجہ بندی کی گئی ہے';
 $string['areaconclusion'] = 'اختتامی متن';
@@ -193,10 +195,12 @@ $string['indicator:cognitivedepth'] = 'ورکشاپ علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے ورکشاپ کی سرگرمی میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'ورکشاپ علمی';
 $string['indicator:cognitivedepthdef_help'] = 'شرکاء اس تجزیہ کے وقفے کے دوران ورکشاپ کی سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں، تاثرات دیکھیں، تاثرات پر تبصرہ کریں، تاثرات دیکھنے کے بعد دوبارہ جمع کرائیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'ورکشاپ سماجی';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے ورکشاپ کی سرگرمی میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'ورکشاپ سماجی';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران ورکشاپ کی سرگرمیوں کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، تنہا شریک، دوسروں کے ساتھ شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'معلومات';
 $string['instructauthors'] = 'جمع کرانے کی ہدایات';
 $string['instructreviewers'] = 'تشخیص کے لیے ہدایات';
@@ -209,6 +213,7 @@ $string['legacyallocationplugincron'] = 'لیگیسی کرون ورکشاپ مخ
 $string['maxbytes'] = 'زیادہ سے زیادہ جمع کرانے کا اٹیچمنٹ سائز';
 $string['modulename'] = 'ورکشاپ';
 $string['modulename_help'] = 'ورکشاپ ایکٹیویٹی ماڈیول طلباء کے کام کو جمع کرنے، جائزہ لینے اور ہم مرتبہ کی تشخیص کے قابل بناتا ہے۔ طلباء کوئی بھی ڈیجیٹل مواد (فائلیں) جمع کر سکتے ہیں، جیسے کہ ورڈ پروسیسڈ دستاویزات یا اسپریڈ شیٹس اور ٹیکسٹ ایڈیٹر کا استعمال کرتے ہوئے براہ راست کسی فیلڈ میں ٹیکسٹ ٹائپ بھی کر سکتے ہیں۔ گذارشات کا اندازہ استاد کے ذریعہ بیان کردہ کثیر معیار کے تشخیصی فارم کا استعمال کرتے ہوئے کیا جاتا ہے۔ ہم مرتبہ تشخیص کے عمل اور تشخیصی فارم کو سمجھنے کے لیے پیشگی مشق کی جا سکتی ہے مثال کے طور پر استاد کی طرف سے فراہم کردہ گذارشات کے ساتھ، ایک حوالہ جات کے ساتھ۔ طلباء کو موقع دیا جاتا ہے کہ وہ اپنے ساتھیوں کی ایک یا زیادہ گذارشات کا جائزہ لیں۔ اگر ضرورت ہو تو گذارشات اور جائزہ لینے والے گمنام ہوسکتے ہیں۔ طلباء ورکشاپ کی سرگرمی میں دو درجات حاصل کرتے ہیں - ایک گریڈ ان کے جمع کرانے کے لیے اور ایک گریڈ ان کے ساتھیوں کی جمع آوریوں کے ان کے جائزے کے لیے۔ دونوں درجات گریڈ بک میں درج ہیں۔';
+$string['modulename_link'] = 'mod/workshop/view';
 $string['modulenameplural'] = 'ورکشاپس';
 $string['myassessments'] = 'میرے جائزے';
 $string['mysubmission'] = 'میری درخواست';

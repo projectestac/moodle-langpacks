@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_behat', language 'ur', version '3.11'.
+ * Strings for component 'tool_behat', language 'ur', version '4.1'.
  *
  * @package     tool_behat
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['aim'] = 'یہ ایڈمنسٹریشن ٹول ڈویلپرز اور ٹیسٹ رائٹرز کو موڈل کی خصوصیات کو بیان کرنے والی .feature فائلیں بنانے میں مدد کرتا ہے اور انہیں خود بخود چلاتا ہے۔ .feature فائلوں میں استعمال کے لیے دستیاب مرحلہ کی تعریفیں ذیل میں درج ہیں۔';
 $string['allavailablesteps'] = 'تمام دستیاب مرحلہ تعریفیں';
-$string['errorapproot'] = '$CFG->behat_ionic_dirroot ایک درست موڈل ایپ ڈویلپر انسٹال کی طرف اشارہ نہیں کر رہا ہے۔';
 $string['errorbehatcommand'] = 'بیہٹ CLI کمانڈ چلانے میں خرابی۔ مسئلہ کے بارے میں مزید جاننے کے لیے CLI سے "{$a} --help" کو دستی طور پر چلانے کی کوشش کریں۔';
 $string['errorcomposer'] = 'کمپوزر انحصار انسٹال نہیں ہیں۔';
 $string['errordataroot'] = '$CFG->behat_dataroot سیٹ نہیں ہے یا غلط ہے۔';

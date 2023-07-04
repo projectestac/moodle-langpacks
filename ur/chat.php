@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ur', version '3.11'.
+ * Strings for component 'chat', language 'ur', version '4.1'.
  *
  * @package     chat
  * @category    string
@@ -75,10 +75,12 @@ $string['indicator:cognitivedepth'] = 'علمی گفتگو';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے گفتگو کی سرگرمی میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'علمی گفتگو';
 $string['indicator:cognitivedepthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفہ کے دوران گفتگو کی سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں، رائے دیکھیں، رائے پر تبصرہ)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'سوشل گفتگو کریں';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے طالب علم کی طرف سے گفتگو کی سرگرمی میں پہنچنے والی سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'سوشل گفتگو کریں';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران گفتگو کی سرگرمیوں کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، تنہا شریک، دوسروں کے ساتھ شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['inputarea'] = 'ان پٹ ایریا';
 $string['invalidid'] = 'وہ گفتگو روم نہیں مل سکا!';
 $string['list_all_sessions'] = 'تمام سیشنز کی فہرست بنائیں۔';
@@ -96,6 +98,7 @@ $string['methoddaemon'] = 'گفتگو سرور ڈیمن';
 $string['methodnormal'] = 'نارمل';
 $string['modulename'] = 'گفتگو';
 $string['modulename_help'] = 'گفتگو ایکٹیویٹی ماڈیول شرکاء کو متن پر مبنی، ریئل ٹائم سنکرونس گفتگو کرنے کے قابل بناتا ہے۔ چیٹ ایک بار کی سرگرمی ہو سکتی ہے یا اسے ہر دن یا ہر ہفتے ایک ہی وقت میں دہرایا جا سکتا ہے۔ گفتگو سیشنز کو محفوظ کیا جاتا ہے اور ہر کسی کو دیکھنے کے لیے دستیاب کیا جا سکتا ہے یا گفتگو سیشن لاگز دیکھنے کی اہلیت رکھنے والے صارفین تک محدود کیا جا سکتا ہے۔ گفتگو خاص طور پر اس وقت مفید ہوتی ہیں جب گروپ گفتگو آمنے سامنے نہیں مل پاتی ہے، جیسے کہ * آن لائن کورسز میں حصہ لینے والے طلباء کی باقاعدہ ملاقاتیں تاکہ وہ اسی کورس میں دوسروں کے ساتھ تجربات کا اشتراک کرسکیں لیکن ایک مختلف مقام پر * ایک طالب علم کام کے بارے میں جاننے کے لیے اپنے استاد کے ساتھ ذاتی طور پر بات چیت کرنے میں عارضی طور پر شرکت کرنے سے قاصر ہونا * کام کے تجربے پر باہر طلباء ایک دوسرے اور اپنے استاد کے ساتھ اپنے تجربات پر تبادلہ خیال کرنے کے لیے اکٹھے ہوتے ہیں * چھوٹے بچے شام کے وقت گھر میں ایک کنٹرولڈ (مانیٹرنگ) تعارف کے طور پر گفتگو کا استعمال کرتے ہیں سوشل نیٹ ورکنگ کی دنیا میں * ایک مدعو اسپیکر کے ساتھ ایک مختلف جگہ پر سوال و جواب کا سیشن * طلباء کو امتحانات کی تیاری میں مدد کرنے کے لیے سیشن جہاں استاد، یا دیگر طلباء، نمونہ سوالات پیش کریں گے۔';
+$string['modulename_link'] = 'mod/chat/view';
 $string['modulenameplural'] = 'گفتگو';
 $string['neverdeletemessages'] = 'پیغامات کو کبھی حذف نہ کریں';
 $string['nextchattime'] = 'اگلی گفتگو کا وقت:';

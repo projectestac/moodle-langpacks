@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', version '3.11'.
+ * Strings for component 'scorm', language 'ja', version '4.1'.
  *
  * @package     scorm
  * @category    string
@@ -87,7 +87,7 @@ $string['completed'] = '完了';
 $string['completiondetail:allscos'] = 'この活動のすべての部分を実行する';
 $string['completiondetail:completionscore'] = '評点 {$a} またはそれ以上を獲得する';
 $string['completiondetail:completionstatuscompleted'] = '活動を完了する';
-$string['completiondetail:completionstatuscompletedandpassed'] = '活動を完了および合格する';
+$string['completiondetail:completionstatuscompletedorpassed'] = '活動を完了および合格する';
 $string['completiondetail:completionstatuspassed'] = '活動に合格する';
 $string['completionscorerequired'] = '必要最小点数';
 $string['completionscorerequired_help'] = 'この設定を有効にすることによりユーザがこのSCORM活動を完了するためには他の活動完了必要条件と同じく少なくとも設定された最小点数に到達する必要があります。';
@@ -129,7 +129,6 @@ $string['displaydesc'] = '新しいウィンドウにSCORMパッケージを表�
 $string['displaysettings'] = '表示設定';
 $string['dnduploadscorm'] = 'SCORMパッケージを追加する';
 $string['domxml'] = 'DOMXML外部ライブラリ';
-$string['duedate'] = '終了日時';
 $string['element'] = 'エレメント';
 $string['enter'] = '問題に入る';
 $string['entercourse'] = 'コースに入る';
@@ -210,10 +209,12 @@ $string['indicator:cognitivedepth'] = 'SCORM認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はSCORM活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'SCORM認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がSCORM活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'SCORM社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はSCORM活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'SCORM社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がSCORM活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = '情報';
 $string['interactions'] = 'インタラクション';
 $string['invalidactivity'] = 'SCORM活動が正しくありません。';
@@ -253,6 +254,7 @@ SCORM活動は以下のように使用することができます:
 
 * マルチメディアコンテンツおよびアニメーションの表示のため
 * 評価ツールとして';
+$string['modulename_link'] = 'mod/scorm/view';
 $string['modulenameplural'] = 'SCORMパッケージ';
 $string['myaiccsessions'] = '私のAICCセッション';
 $string['myattempts'] = '私の受験';

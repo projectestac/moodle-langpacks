@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ja', version '3.11'.
+ * Strings for component 'forum', language 'ja', version '4.1'.
  *
  * @package     forum
  * @category    string
@@ -29,9 +29,10 @@ $string['actionsforgraderinterface'] = '評定者インタフェース操作';
 $string['actionsforpost'] = '投稿へのアクション';
 $string['activitydate:due'] = '終了日時:';
 $string['activityoverview'] = '新しいフォーラム投稿があります。';
-$string['addanewdiscussion'] = '新しいディスカッショントピックを追加する';
+$string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
 $string['addanewquestion'] = '新しい質問を追加する';
 $string['addanewtopic'] = '新しいトピックを追加する';
+$string['addreply'] = '返信を追加する';
 $string['addtofavourites'] = 'このディスカッションに星を付ける';
 $string['advancedsearch'] = '高度な検索';
 $string['alldiscussions'] = 'すべてのディスカッション';
@@ -74,7 +75,6 @@ $string['cannotaddsubscriber'] = 'このフォーラムにID {$a} の購読者�
 $string['cannotaddteacherforumto'] = 'コースのセクションゼロに対してコンバートされた教師フォーラムインスタンスを追加できませんでした。';
 $string['cannotcreatediscussion'] = '新しいディスカッションを作成できませんでした。';
 $string['cannotcreateinstanceforteacher'] = '教師フォーラムに対して新しいコースモジュールインスタンスを作成できませんでした。';
-$string['cannotdeletediscussioninsinglediscussion'] = 'あなたは単一ディスカッションの最小の行を削除できません。';
 $string['cannotdeletepost'] = 'あなたはこの投稿を削除できません!';
 $string['cannoteditposts'] = 'あなたは他のユーザの投稿を編集できません!';
 $string['cannotexportforum'] = 'あなたはこのフォーラムをエクスポートできません。';
@@ -97,7 +97,9 @@ $string['cannotsubscribe'] = '申し訳ございません、あなたが購読�
 $string['cannottrack'] = 'フォーラムの未読管理を停止できませんでした。';
 $string['cannotunsubscribe'] = 'あなたをフォーラムから購読解除できませんでした。';
 $string['cannotupdatepost'] = 'あなたはこの投稿を更新できません。';
-$string['cannotviewpostyet'] = 'まだ投稿していないため、あなたはこのディスカッションで他の学生の質問を読むことはできません。';
+$string['cannotuseseperategroupsandsingletopic'] = '分離グループはトピック1件のディスカッションでは使用できません。';
+$string['cannotusesingletopicandseperategroups'] = 'トピック1件のディスカッションは分離グループでは使用できません。';
+$string['cannotviewpostyet'] = 'あなたはまだ投稿していないため、このディスカッションで他の学生の投稿を読めません。';
 $string['cannotviewusersposts'] = 'このユーザの投稿に関して、あなたが閲覧できるものはありません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
 $string['clicktofavourite'] = 'あなたはこのディスカッションに星を付けていません。星を付けるにはクリックしてください。';
@@ -128,7 +130,7 @@ $string['configdigestmailtime'] = 'メール送信を選択したユーザに投
 $string['configdisplaymode'] = '表示モードが設定されていない場合、ディスカッションで使用されるデフォルト表示モードです。';
 $string['configenablerssfeeds'] = 'すべてのフォーラムのRSS使用を有効にします。ここで設定しても各フォーラムでRSSフィードを手動で設定する必要があります。';
 $string['configenabletimedposts'] = '新しいフォーラムディスカッションの表示期間の設定を許可したい場合、「Yes」を選択してください。';
-$string['configlongpost'] = 'この文字長以上の長さ (HTMLは含まない) は長いとみなされます。サイトのフロントページ、ソーシャルフォーマット、ユーザプロファイルに表示される投稿内容の長さはforum_shortpostとforum_longpostの値の間に短くされます。';
+$string['configlongpost'] = 'この文字長以上の長さ (HTMLは含まない) は長いとみなされます。サイトホーム、ソーシャルフォーマット、ユーザプロファイルに表示される投稿内容の長さはforum_shortpostとforum_longpostの値の間に短くされます。';
 $string['configmanydiscussions'] = 'フォーラム1ページあたりに表示されるディスカッションの最大数です。';
 $string['configmaxattachments'] = '投稿ごとに許可されるデフォルトの最大添付ファイル数です。';
 $string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
@@ -192,7 +194,7 @@ $string['discussionmoved'] = 'このディスカッションは 「 {$a} 」に�
 $string['discussionmovedpost'] = 'このディスカッションはフォーラム「 <a href="{$a->forumhref}">{$a->forumname}</a> 」の<a href="{$a->discusshref}">ここ</a>に移動されました。';
 $string['discussionname'] = 'ディスカッション名';
 $string['discussionnownotsubscribed'] = '{$a->name} には「 {$a->forum} 」の「 {$a->discussion} 」に関する新しい投稿は通知されません。';
-$string['discussionnowsubscribed'] = '{$a->name} に「 {$a->forum} 」の「 {$a->discussion} 」に関する新しい投稿が通知されます。';
+$string['discussionnowsubscribed'] = 'あなたには「 {$a->forum} 」の「 {$a->discussion} 」に関する新しい投稿が通知されます。';
 $string['discussionpin'] = 'ピン留め';
 $string['discussionpinned'] = 'ピン留め';
 $string['discussionpinned_help'] = 'ピン留めディスカッションはフォーラムの最上部に表示されます。';
@@ -201,6 +203,7 @@ $string['discussionsplit'] = 'ディスカッションが分割されました�
 $string['discussionsstartedby'] = '{$a} によって開始されたディスカッション';
 $string['discussionsstartedbyrecent'] = '{$a} によって最近開始されたディスカッション';
 $string['discussionsstartedbyuserincourse'] = '{$a->fullname} によって {$a->coursename} で開始されたディスカッション';
+$string['discussionsstartedincourse'] = 'ディスカッション開始: {$a}';
 $string['discussionstartedby'] = '{$a} によって開始されたディスカッション';
 $string['discussionsubscribed'] = 'あなたはこのディスカッションを購読しています。';
 $string['discussionsubscribestart'] = 'このディスカッションの新しい投稿のコピーを私にメール送信してください';
@@ -226,6 +229,8 @@ $string['duedate_help'] = 'これはフォーラムの期限日です。カレ�
 $string['duedatetodisplayincalendar'] = 'カレンダーに表示する期限';
 $string['eachuserforum'] = '各人が1件のディスカッションを投稿する';
 $string['edit'] = '編集';
+$string['editdiscussion'] = 'ディスカッションを編集する';
+$string['editdiscussiontopic'] = 'ディスカッショントピックを編集する';
 $string['editedby'] = '{$a->name} により編集 - 最初の投稿日時 {$a->date}';
 $string['editedpostupdated'] = '{$a} の投稿が更新されました。';
 $string['editing'] = '編集';
@@ -344,7 +349,7 @@ $string['forumtype_help'] = 'フォーラムには5つのタイプあります:
 
 * トピック1件のシンプルなディスカッション - 誰でも返信できる単一のディスカッションです (分離グループには使用できません)。
 * 各人が1件のディスカッションを投稿する - それぞれの学生が誰でも返信できる厳密に1つのディスカッショントピックを投稿できます。
-* Q&Aフォーラム - 学生は他の学生の投稿を読む前に自分の考え方を投稿する必要があります。
+* Q&Aフォーラム - 学生は他の学生の投稿を読む前にまず最初に教師の質問に返信する必要があります。
 * ブログフォーマットで表示される標準フォーラム - 誰でも常に新しいトピックを開始できる開かれたフォーラムです。ディスカッショントピックは1つのページに「このトピックを読む」リンクとして表示されます。
 * 一般利用のための標準フォーラム - 誰でも常に新しいトピックを開始できる開かれたフォーラムです。';
 $string['generalforum'] = '一般利用のための標準フォーラム';
@@ -376,12 +381,13 @@ $string['indicator:cognitivedepth'] = 'フォーラム認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はフォーラム活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'フォーラム認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がフォーラム活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント, フィードバック閲覧後の再送信)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'フォーラム社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はフォーラム活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'フォーラム社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がフォーラム活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['inforum'] = '{$a}';
-$string['inpagereplysubject'] = 'Re: {$a}';
 $string['inreplyto'] = '{$a} への返信';
 $string['introblog'] = '今後ブログエントリが利用できないため、このフォーラムの投稿はコース内のユーザブログから自動的にコピーされました。';
 $string['intronews'] = '一般ニュースおよびアナウンスメント';
@@ -458,6 +464,7 @@ $string['modulename_help'] = 'フォーラム活動モジュールにおいて�
 * チューターおよび学生がアドバイスを与えることのできるヘルプセンターとして
 * 学生教師間の1対1のプライベートサポートエリアとして (1グループあたり1人のグループを使った分離グループを使用)
 * 学外活動用として (例えば学生が熟考するための「頭の体操」および解決方法の提案)';
+$string['modulename_link'] = 'mod/forum/view';
 $string['modulenameplural'] = 'フォーラム';
 $string['more'] = '詳細';
 $string['movedmarker'] = '(移動済み)';
@@ -508,15 +515,13 @@ $string['nowallunsubscribed'] = 'あなたは {$a} のフォーラムすべて�
 $string['nowgradinguser'] = '現在評定中 {$a}';
 $string['nownotsubscribed'] = '{$a->name} には「 {$a->forum} 」の新しい投稿は通知されません。';
 $string['nownottracking'] = '{$a->name} は 「 {$a->forum} 」を未読管理していません。';
-$string['nowsubscribed'] = '{$a->name} には「 {$a->forum} 」の新しい投稿が通知されます。';
+$string['nowsubscribed'] = 'あなたには「 {$a->forum} 」の新しい投稿が通知されます。';
 $string['nowtracking'] = '{$a->name} は現在「 {$a->forum} 」を未読管理しています。';
 $string['numberofreplies'] = '返信数: {$a}';
 $string['numposts'] = '{$a} 投稿';
 $string['olderdiscussions'] = '過去のディスカッション';
 $string['oldertopics'] = '過去のトピック';
 $string['oldpostdays'] = '投稿を既読とする日数';
-$string['overviewnumpostssince'] = '最終ログイン以降の投稿数: {$a}';
-$string['overviewnumunread'] = '合計未読数: {$a}';
 $string['page-mod-forum-discuss'] = 'フォーラムモジュールディスカッションスレッドページ';
 $string['page-mod-forum-view'] = 'フォーラムモジュールメインページ';
 $string['page-mod-forum-x'] = 'すべてのフォーラムモジュールページ';
@@ -537,7 +542,7 @@ $string['postbymailsuccess'] = 'あなたの返信「 {$a->subject} 」は正常
 $string['postbymailsuccess_html'] = 'あなたの返信「 <a href="{$a->discussionurl}">{$a->subject}</a> 」は正常に投稿されました。';
 $string['postbyuser'] = '{$a->post} by {$a->user}';
 $string['postincontext'] = 'この投稿をコンテクスト内に表示する';
-$string['postisprivatereply'] = 'これはプライベートな返信です。あなたおよびプライベートな返信を閲覧できる権限を持つ人 (先生またはマネージャ等) のみ閲覧できます。';
+$string['postisprivatereply'] = 'これはプライベート返信です (教師およびプライベート返信を閲覧できるケイパビリティのあるユーザのみ閲覧できます)。';
 $string['postmailinfo'] = 'これはウェブサイト {$a} に投稿されたメッセージのコピーです。';
 $string['postmailinfolink'] = 'これは {$a->coursename} に投稿されたメッセージのコピーです。
 
@@ -552,6 +557,7 @@ $string['posts'] = '投稿';
 $string['postsfrom'] = '投稿開始';
 $string['postsmadebyuser'] = '{$a} による投稿';
 $string['postsmadebyuserincourse'] = '{$a->coursename} における {$a->fullname} による投稿';
+$string['postsmadeincourse'] = '投稿: {$a}';
 $string['poststo'] = '投稿終了';
 $string['posttoforum'] = 'フォーラムに投稿する';
 $string['posttomygroups'] = 'すべてのグループにコピーを投稿する';
@@ -622,14 +628,15 @@ $string['privacy:request:delete:post:message'] = 'この投稿のコンテンツ
 $string['privacy:request:delete:post:subject'] = '投稿者の依頼により削除します。';
 $string['privacy:subscribedtoforum'] = 'あなたはこのフォーラムを購読しています。';
 $string['privatereply'] = 'プライベートに返信する';
-$string['privatereply_help'] = 'プライベート返信は返信対象の投稿の作成者およびプライベート返信を閲覧できるケイパビリティのあるユーザのみ閲覧できます。';
+$string['privatereply_help'] = 'あなたがプライベートに返信した場合、あなたの投稿は教師等のプライベート返信を閲覧できるケイパビリティのあるユーザも閲覧できます。';
 $string['processingdigest'] = 'ユーザ {$a} のメールダイジェストを処理中';
 $string['processingpost'] = '投稿 {$a} を処理中';
 $string['prune'] = '分割';
+$string['prunediscussion'] = 'ディスカッションを分割する';
 $string['prunedpost'] = '新しいディスカッションが投稿より作成されました。';
 $string['pruneheading'] = '投稿を分割して新しいディスカッションに移動する';
 $string['qandaforum'] = 'Q&Aフォーラム';
-$string['qandanotify'] = 'これはQ&Aフォーラムです。これらの質問に対する他の人の回答を読むには最初にあなたの回答を投稿する必要があります。';
+$string['qandanotify'] = 'これはQ&Aフォーラムです。これらの質問に対する他の人の回答を読むにはまず最初にあなたの返信を投稿する必要があります。';
 $string['re'] = 'Re:';
 $string['readtherest'] = '残りのトピックを読む';
 $string['removeallforumtags'] = 'すべてのフォーラムタグを削除する';
@@ -644,6 +651,7 @@ $string['replyauthorself'] = '{$a} (あなた)';
 $string['replyforum'] = 'フォーラムに返信する';
 $string['replyingtoauthor'] = '{$a} に返信する ...';
 $string['replyplaceholder'] = 'あなたの返信を記述する ...';
+$string['replypostdiscussion'] = 'ディスカッションに返信する';
 $string['replytopostbyemail'] = 'あなたはこのフォーラム投稿にメールで返信することができます。';
 $string['replytouser'] = '返信にメールアドレスを使用する';
 $string['resetdigests'] = 'すべてのユーザのフォーラムダイジェストプレファレンスを削除する';
@@ -696,7 +704,7 @@ $string['smallmessagedigest'] = 'フォーラムダイジェストには {$a} �
 $string['starredonly'] = '星付きディスカッションのみ検索する';
 $string['startedby'] = 'ディスカッション開始';
 $string['subject'] = '件名';
-$string['subscribe'] = 'このフォーラムを購読する';
+$string['subscribe'] = 'フォーラムを購読する';
 $string['subscribeall'] = 'このフォーラムをすべての人に購読させる';
 $string['subscribed'] = '購読';
 $string['subscribediscussion'] = 'このディスカッションを購読する';
@@ -721,6 +729,7 @@ $string['subscriptionmode_help'] = '参加者がフォーラムを購読する�
 * 強制購読 - すべての人が購読登録され、購読解除することはできません。
 * 自動購読 - 最初にすべての人が購読登録されますが、いつでも購読解除することができます。
 * 購読停止 - 購読は許可されません。';
+$string['subscriptionmodeconfirm'] = '本当に購読モードを {$a} に変更してもよろしいですか?';
 $string['subscriptionoptional'] = '任意購読';
 $string['subscriptions'] = '購読';
 $string['tagarea_forum_posts'] = 'フォーラム投稿';
@@ -756,7 +765,7 @@ $string['unreadpost'] = '未読投稿';
 $string['unreadposts'] = '未読の投稿';
 $string['unreadpostsnumber'] = '未読件数 {$a}';
 $string['unreadpostsone'] = '未読件数 1';
-$string['unsubscribe'] = 'このフォーラムの購読を解除する';
+$string['unsubscribe'] = 'フォーラムの購読を解除する';
 $string['unsubscribeall'] = 'すべてのフォーラムの購読を解除する';
 $string['unsubscribeallconfirm'] = '現在、あなたは {$a->forums} 件のフォーラムおよび {$a->discussions} 件のディスカッションを購読しています。本当にすべてのフォーラムおよびディスカッションの購読を解除してフォーラム自動購読を無効にしてもよろしいですか?';
 $string['unsubscribeallconfirmdiscussions'] = '現在、あなたは {$a->discussions} 件のディスカッションを購読しています。本当にすべてのディスカッションの購読を解除して自動購読を無効にしてもよろしいですか?';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grouptool', language 'de', version '3.11'.
+ * Strings for component 'grouptool', language 'de', version '4.1'.
  *
  * @package     grouptool
  * @category    string
@@ -95,6 +95,8 @@ $string['cfg_moodlesync_head'] = 'Synchronisationsverhalten';
 $string['cfg_moodlesync_head_info'] = 'Wie sich die Gruppenverwaltungsinstanz bei hinzugefügten/gelöschten Mitgliedern/Gruppen in Moodle verhalten soll';
 $string['cfg_name_scheme'] = 'Standard-Namensschema';
 $string['cfg_name_scheme_desc'] = 'Standard-Namensschema für Gruppenerzeugung';
+$string['cfg_show_add_info'] = 'Zusätzliche Gruppeninformationen in der Selbstanmeldung anzeigen';
+$string['cfg_show_add_info_desc'] = 'Zusätzliche Informationen von Moodle-Gruppen wie Beschreibungen oder Bilder bei der Anmeldung anzeigen';
 $string['cfg_show_members'] = 'Zeige Gruppenmitglieder';
 $string['cfg_show_members_desc'] = 'Gibt an ob Gruppenmitglieder standardmäßig angezeigt werden sollen';
 $string['cfg_use_individual'] = 'Unterschiedliche Gruppengrößen festlegen';
@@ -610,7 +612,6 @@ $string['use_individual_help'] = 'Überschreibe globale Gruppengröße mit indiv
 $string['use_queue'] = 'Wartelisten verwenden';
 $string['use_queue_help'] = 'Teilnehmer/innen können sich selbst für bereits volle Gruppen in einer Warteliste registrieren. Diese Einstellung kann nur verwendet werden, wenn die Selbstanmeldung zugelassen und eine Gruppengröße gesetzt wurde.';
 $string['use_size'] = 'Aktivieren';
-$string['user'] = 'Nutzer/in';
 $string['user_has_too_less_regs'] = 'Abmeldung ist nicht möglich, da Teilnehmer/in <strong>{$a->username}</strong> in zu wenigen Gruppen angemeldet ist!';
 $string['user_is_deleted'] = 'Der gefundene Teilnehmer/innen-Account (ID <strong>{$a->id}</strong>, Name <strong>{$a->fullname}</strong>) ist bereits gelöscht. Eine Einschreibung ist deshalb nicht möglich.';
 $string['user_move_prev'] = '<strong>{$a->user}</strong> wird von der Warteliste von Gruppe <strong>{$a->from_group}</strong> zur Gruppe <strong>{$a->to_group}</strong> verschoben!';

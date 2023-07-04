@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5pactivity', language 'ur', version '3.11'.
+ * Strings for component 'h5pactivity', language 'ur', version '4.1'.
  *
  * @package     h5pactivity
  * @category    string
@@ -83,6 +83,7 @@ $string['h5pdisplay'] = 'H5P اختیارات';
 $string['maxscore'] = 'زیادہ سے زیادہ سکور';
 $string['modulename'] = 'H5P';
 $string['modulename_help'] = 'H5P HTML5 پیکیج کا مخفف ہے - انٹرایکٹو مواد جیسے پریزنٹیشنز، ویڈیوز اور دیگر ملٹی میڈیا، سوالات، کوئز، گیمز وغیرہ۔ H5P سرگرمی H5P کو اپ لوڈ کرنے اور کورس میں شامل کرنے کے قابل بناتی ہے۔ کسی بھی سوال کی کوشش کو خود بخود نشان زد کیا جاتا ہے، اور گریڈ کو گریڈ بک میں درج کیا جاتا ہے۔';
+$string['modulename_link'] = 'mod/h5pactivity/view';
 $string['modulenameplural'] = 'H5P';
 $string['myattempts'] = 'میری کوششیں';
 $string['no_compatible_track'] = 'یہ تعامل ({$a}) ٹریکنگ کی معلومات فراہم نہیں کرتا ہے یا فراہم کردہ ٹریکنگ موجودہ سرگرمی ورژن کے ساتھ مطابقت نہیں رکھتی ہے۔';

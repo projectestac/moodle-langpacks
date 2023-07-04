@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'ur', version '3.11'.
+ * Strings for component 'tool_oauth2', language 'ur', version '4.1'.
  *
  * @package     tool_oauth2
  * @category    string
@@ -64,6 +64,7 @@ $string['google_service'] = 'گوگل';
 $string['imsobv2p1_service'] = 'بیجز کھولیں';
 $string['issueralloweddomains'] = 'لاگ ان ڈومینز';
 $string['issueralloweddomains_help'] = 'اگر سیٹ ہے تو، یہ ترتیب کوما سے الگ کردہ ڈومینز کی فہرست ہے جس پر اس فراہم کنندہ کا استعمال کرتے وقت لاگ انز پر پابندی ہوگی۔';
+$string['issueralloweddomains_link'] = 'OAuth_2_login_domains';
 $string['issuerbaseurl'] = 'سروس بیس یو آر ایل';
 $string['issuerbaseurl_help'] = 'سروس تک رسائی کے لیے استعمال ہونے والا بنیادی یو آر ایل۔';
 $string['issuerclientid'] = 'کلائنٹ آئی ڈی';

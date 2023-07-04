@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'ur', version '3.11'.
+ * Strings for component 'block', language 'ur', version '4.1'.
  *
  * @package     block
  * @category    string
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addtodock'] = 'اسے ڈاک میں منتقل کریں';
 $string['anypagematchingtheabove'] = 'مندرجہ بالا سے مماثل کوئی بھی صفحہ';
 $string['appearsinsubcontexts'] = 'ذیلی سیاق و سباق میں ظاہر ہوتا ہے';
 $string['assignrolesinblock'] = '{$a} بلاک میں کردار تفویض کریں';
@@ -46,9 +45,7 @@ $string['deleteblock'] = '{$a} بلاک کو حذف کریں';
 $string['deleteblockcheck'] = 'کیا آپ واقعی {$a} کے عنوان سے اس بلاک کو حذف کرنا چاہتے ہیں؟';
 $string['deleteblockwarning'] = '<p>آپ ایک بلاک کو حذف کرنے والے ہیں جو کہیں اور ظاہر ہوتا ہے۔</p><p>بلاک کا اصل مقام: {$a->location}<br />صفحہ کی اقسام پر ڈسپلے: {$a->pagetype}</ p><p>کیا آپ واقعی جاری رکھنا چاہتے ہیں؟</p>';
 $string['deletecheck'] = '{$a} بلاک کو حذف کریں؟';
-$string['dockblock'] = 'ڈاک {$a} بلاک';
 $string['hideblock'] = '{$a} بلاک چھپائیں';
-$string['hidedockpanel'] = 'ڈاک پینل کو چھپائیں';
 $string['hidepanel'] = 'پینل چھپائیں';
 $string['moveblock'] = '{$a} بلاک کو منتقل کریں';
 $string['moveblockafter'] = 'بلاک کو {$a} بلاک کے بعد منتقل کریں';
@@ -73,9 +70,6 @@ $string['showonfrontpageandsubs'] = 'صفحہ اول پر ڈسپلے کریں ا
 $string['showonfrontpageonly'] = 'صرف صفحہ اول پر ڈسپلے کریں';
 $string['subpages'] = 'صفحات منتخب کریں';
 $string['thisspecificpage'] = 'یہ مخصوص صفحہ';
-$string['undockall'] = 'سبھی کو غیر مقفل کریں';
-$string['undockblock'] = '{$a} بلاک کو غیر مقفل کریں';
-$string['undockitem'] = 'اس آئٹم کو غیر مقفل کریں';
 $string['visible'] = 'نظر آنے والا';
 $string['weight'] = 'وزن';
 $string['wherethisblockappears'] = 'جہاں یہ بلاک ظاہر ہوتا ہے';

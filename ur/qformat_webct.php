@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_webct', language 'ur', version '3.11'.
+ * Strings for component 'qformat_webct', language 'ur', version '4.1'.
  *
  * @package     qformat_webct
  * @category    string
@@ -30,6 +30,7 @@ $string['missinganswer'] = 'بہت کم :ANSWER, :Lx, :Rx سوالات کی سط
 $string['missingquestion'] = 'لائن {$a} کے بعد سوال کا لیبل غائب ہے';
 $string['pluginname'] = 'ویب سی ٹی فارمیٹ';
 $string['pluginname_help'] = 'WebCT فارمیٹ WebCT کے متن پر مبنی فارمیٹ میں محفوظ کردہ متعدد انتخابی اور مختصر جوابات کے سوالات کو درآمد کرنے کے قابل بناتا ہے۔';
+$string['pluginname_link'] = 'qformat/webct';
 $string['privacy:metadata'] = 'WebCT سوال فارمیٹ پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';
 $string['questionnametoolong'] = 'لائن {$a} (255 char. زیادہ سے زیادہ) پر سوال کا نام بہت لمبا ہے۔ اسے کاٹ دیا گیا ہے۔';
 $string['unknowntype'] = 'لائن {$a} کے بعد نامعلوم سوال کی قسم';

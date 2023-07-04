@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_poodll', language 'en', version '3.11'.
+ * Strings for component 'filter_poodll', language 'en', version '4.1'.
  *
  * @package     filter_poodll
  * @category    string
@@ -178,6 +178,7 @@ $string['no_subscriptions'] = 'No subscriptions.';
 $string['noapisecret'] = 'No API secret entered.';
 $string['noapiuser'] = 'No API username entered.';
 $string['normal'] = 'Normal';
+$string['nosubtitlesyet'] = 'Subtitles are not available (yet)';
 $string['notokenincache'] = 'Refresh to see license information. Contact Poodll support if there is a problem.';
 $string['once_recorder'] = 'Once';
 $string['oneeighty_days'] = '180 Days';

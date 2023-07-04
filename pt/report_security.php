@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'pt', version '3.11'.
+ * Strings for component 'report_security', language 'pt', version '4.1'.
  *
  * @package     report_security
  * @category    string
@@ -25,6 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['check_antivirus_details'] = 'Este estado verifica se foi detetado, ou não, algum erro recente com base no limite definido nas configurações gerais do antivírus.';
+$string['check_antivirus_error'] = '{$a->errors} erros foram detetados desde a última {$a->lookback}';
+$string['check_antivirus_info'] = 'De momento, nenhum antivírus está ativado.';
+$string['check_antivirus_logstore_not_supported'] = 'Não é possível verificar o estado dos antivírus devido ao tipo de armazenamento do registo escolhido';
+$string['check_antivirus_name'] = 'Antivírus';
+$string['check_antivirus_ok'] = '{$a->scanners} antivírus ativados, nenhum problema foi detetado na última {$a->lookback}';
 $string['check_configrw_details'] = '<p>É recomendado que as permissões do ficheiro <strong><code>config.php</code></strong> sejam alteradas depois da instalação do Moodle para que este não possa ser posteriormente modificado pelo servidor web.
 Tenha em atenção que esta medida não melhora significativamente a segurança do servidor, mas permite dificultar a exploração de algumas vulnerabilidades.</p>';
 $string['check_configrw_name'] = 'Permissões de escrita do ficheiro <strong>config.php</strong>';
@@ -62,8 +68,8 @@ $string['check_embed_details'] = '<p>A incorporação de objetos sem restriçõe
 $string['check_embed_error'] = '<p>A configuração de incorporação de objetos sem restrições está ativa. Esta configuração levanta problemas de segurança graves na maioria dos servidores.</p>';
 $string['check_embed_name'] = 'Permitir conteúdos incorporados e OBJECT';
 $string['check_embed_ok'] = 'Incorporação de OBJECT ilimitados não é permitida.';
-$string['check_frontpagerole_details'] = '<p>O papel predefinido para a página principal é atribuído a todos os utilizadores no contexto das atividades da página principal.  Por isso, não devem ser atribuídas permissões a este papel que ponham em risco o site.</p>
-<p>É recomendado que se crie um papel especificamente para este contexto e que não seja usado nenhum dos papéis retrocompatíveis (usados por versões anteriores do Moodle).</p>';
+$string['check_frontpagerole_details'] = '<p>O papel predefinido para a página principal é atribuído a todos os utilizadores no contexto das atividades da página principal. Não devem ser atribuídas permissões a este papel que ponham em risco o site.</p>
+<p>É recomendado que crie um papel especificamente para este contexto e que não seja usado nenhum dos papéis retrocompatíveis (usados por versões anteriores do Moodle).</p>';
 $string['check_frontpagerole_error'] = 'O papel "{$a}", definido para a página principal, está configurado incorretamente!';
 $string['check_frontpagerole_name'] = 'Papel para a página principal';
 $string['check_frontpagerole_notset'] = 'Não foi definido nenhum papel para a página principal.';
@@ -97,6 +103,8 @@ $string['check_preventexecpath_warning'] = 'Os caminhos executáveis podem ser c
 $string['check_publicpaths_403'] = '(Retornou erro 403 mas idealmente deveria ser 404)';
 $string['check_publicpaths_generic'] = 'ficheiros {$a} não devem ser públicos.';
 $string['check_publicpaths_name'] = 'Verificar todos os caminhos públicos/privados';
+$string['check_publicpaths_ok'] = 'Todos os caminhos internos não estão acessíveis publicamente';
+$string['check_publicpaths_warning'] = 'Alguns caminhos internos estão acessíveis publicamente';
 $string['check_riskadmin_detailsok'] = '<p>Verifique a lista de administradores do sistema:</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Verifique a lista de administradores do sistema:</p>{$a->admins}
 <p>É recomendado que o papel de administrador apenas seja atribuído no contexto de sistema. Os seguintes utilizadores têm o papel de administrador  em outros contextos (não aconselhado):</p>{$a->unsupported}';

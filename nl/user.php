@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'nl', version '3.11'.
+ * Strings for component 'user', language 'nl', version '4.1'.
  *
  * @package     user
  * @category    string
@@ -133,6 +133,7 @@ $string['privacy:metadata:token'] = 'geheim ingesteld en via e-mail gestuurd naa
 $string['privacy:metadata:trackforums'] = 'Een voorkeur voor forums en het opvolgen ervan.';
 $string['privacy:metadata:trustbitmask'] = 'Het vertrouwd bit masker';
 $string['privacy:metadata:url'] = 'Een URL gerelateerd aan deze gebruiker.';
+$string['privacy:metadata:user_preference:core_user_welcome'] = 'Tijdstip vastgelegd voor wanneer het welkomstbericht voor het eerst aan de gebruiker werd getoond.';
 $string['privacy:metadata:user_preferences'] = 'Voorkeuren geassocieerd met de opgegeven gebruiker';
 $string['privacy:metadata:user_preferences:name'] = 'Voorkeursnaam';
 $string['privacy:metadata:user_preferences:userid'] = 'De gebruikers-ID';
@@ -149,6 +150,10 @@ $string['privacy:privatefilespath'] = 'Privébestanden';
 $string['privacy:profileimagespath'] = 'Profielafbeeldingen';
 $string['privacy:sessionpath'] = 'Sessiegegevens';
 $string['selectfiltertype'] = 'Selecteer';
+$string['supportmessagealternative'] = 'In plaats daarvan kun je {$a} e-mailen.';
+$string['supportmessagenotsent'] = 'Helaas kon je bericht niet verstuurd worden.';
+$string['supportmessagesent'] = 'Je bericht is verzonden.';
+$string['supportmessagesentforloggedoutuser'] = 'Wees voorzichtig met dit bericht. De afzender was niet ingelogd, dus hun identiteit is niet bevestigd.';
 $string['target:upcomingactivitiesdue'] = 'Aankomende activiteiten die klaar moeten zijn';
 $string['target:upcomingactivitiesdue_help'] = 'Dit doel genereert herinneringen voor geplande activiteiten.';
 $string['target:upcomingactivitiesdueinfo'] = 'Alle aankomende activiteiten als gevolg van inzichten staan hier opgelijst. Leerlingen  hebben deze inzichten rechtstreeks ontvangen.';

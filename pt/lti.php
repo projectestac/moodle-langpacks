@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'pt', version '3.11'.
+ * Strings for component 'lti', language 'pt', version '4.1'.
  *
  * @package     lti
  * @category    string
@@ -210,10 +210,12 @@ $string['indicator:cognitivedepth'] = 'Compreensão da LTI';
 $string['indicator:cognitivedepth_help'] = 'Este indicador é baseado na capacidade cognitiva alcançada pelo aluno na atividade LTI.';
 $string['indicator:cognitivedepthdef'] = 'Compreensão da LTI';
 $string['indicator:cognitivedepthdef_help'] = 'O participante alcançou esta percentagem da capacidade cognitiva oferecida pelas atividades LTI durante esse intervalo de análise (Níveis = Não visualizado, Visualizado, Submetido, Visualizado feedback)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Socialização da LTI';
 $string['indicator:socialbreadth_help'] = 'Este indicador é baseado na extensão social alcançada pelo aluno na atividade LTI.';
 $string['indicator:socialbreadthdef'] = 'Socialização da LTI';
 $string['indicator:socialbreadthdef_help'] = 'O participante alcançou esta percentagem do relacionamento social oferecido pelas atividades LTI durante esse intervalo de análise (Níveis = Sem participação, Participante individual, Participante com outros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['initiatelogin'] = 'URL para iniciar sessão';
 $string['initiatelogin_help'] = 'O URL da ferramenta para o qual devem ser enviadas as solicitações de início de sessão. Este URL é necessário antes que uma mensagem possa ser enviada com sucesso para a ferramenta.';
 $string['invalidid'] = 'O ID do LTI está incorreto';
@@ -296,8 +298,9 @@ As atividades ferramenta LTI diferem dos recursos URL em alguns aspetos:
 * As ferramentas LTI permitem ler, atualizar e apagar notas associadas à atividade;
 * As configurações das ferramentas LTI criam uma ligação fiável entre o seu site e o fornecedor da ferramenta, permitindo uma comunicação segura entre eles.';
 $string['modulename_link'] = 'mod/lti/view';
+$string['modulename_shortcut_link'] = 'mod/lti/view/custom';
 $string['modulenameplural'] = 'Ferramentas externas';
-$string['modulenamepluralformatted'] = 'Instâncias LTI';
+$string['modulenamepluralformatted'] = 'Ferramentas externas';
 $string['name'] = 'Nome';
 $string['never'] = 'Nunca';
 $string['new_window'] = 'Nova janela';
@@ -321,12 +324,8 @@ $string['opensslconfiginvalid'] = 'O LTI 1.3 requer um \'openssl.cnf\' válido p
 $string['optionalsettings'] = 'Configurações opcionais';
 $string['organization'] = 'Detalhes da organização';
 $string['organizationdescr'] = 'Descrição da organização';
-$string['organizationid'] = 'ID da organização';
 $string['organizationid_default'] = 'ID predefinido da organização';
 $string['organizationid_default_help'] = 'O valor predefinido a ser usado para o ID da organização. O ID do site identifica esta instalação do Moodle.';
-$string['organizationid_help'] = 'Identificador exclusivo para esta instância Moodle. Normalmente, o nome DNS da organização é o usado.
-
-Se deixar este campo em branco, o nome do servidor deste site Moodle será utilizado como o valor predefinido.';
 $string['organizationidguid'] = 'ID da organização';
 $string['organizationidguid_help'] = 'Identificador exclusivo para esta instância do Moodle que passou para a ferramenta como o GUID da instância da plataforma.
 

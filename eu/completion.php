@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'eu', version '3.11'.
+ * Strings for component 'completion', language 'eu', version '4.1'.
  *
  * @package     completion
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['achievinggrade'] = 'Lorpen-kalifikazioa';
+$string['achievingpassinggrade'] = 'Gainditzeko kalifikazioa lortzea';
 $string['activities'] = 'Jarduerak';
 $string['activitiescompleted'] = 'Jarduera-osaketa';
 $string['activitiescompletednote'] = 'Oharra: Jarduera-osaketak ezarrita egon behar du jarduera batean beheko zerrenda ager dadin.';
@@ -36,6 +37,7 @@ $string['activityaggregation_any'] = 'Aukeratutako EDOZEIN jarduera osatu behar 
 $string['activitycompletion'] = 'Jarduera-osaketa';
 $string['activitycompletionupdated'] = 'Aldaketak gorde dira';
 $string['activitygradenotrequired'] = 'Ez da kalifikazioa behar';
+$string['activitygradetopassnotset'] = 'Jarduera honek ez dauka zehaztuta gainditzeko kalifikazio baliagarria. Jarduera-ezarpenen Kalifikazioa atalean zehaztu daiteke.';
 $string['affectedactivities'] = 'Aldaketek hurrengo <b>{$a}</b> jarduera edota baliabideetan eragingo du:';
 $string['aggregationmethod'] = 'Osatu beharreko elementu-kopurua';
 $string['all'] = 'Guztiak';
@@ -44,7 +46,7 @@ $string['approval'] = 'Onartu';
 $string['areyousureoverridecompletion'] = 'Ziur zaude jarduera honetako oraingo osatze-egoera baliogabetu eta "{$a}" gisa markatu nahi duzula?';
 $string['badautocompletion'] = 'Auto-osaketa aukeratzen baduzu, gutxienez baldintza bat gaitu behar duzu (beherago)';
 $string['badcompletiongradeitemnumber'] = '\'Kalifikazioa behar du\' ezin da gaitu <b>{$a}</b> jardueran kalifikazioa ez dagoelako gaituta {$a}(r)entzat.';
-$string['bulkactivitycompletion'] = 'Masiboki editatu jardueren osaketa';
+$string['bulkactivitycompletion'] = 'Jardueren osaketaren editatze masiboa';
 $string['bulkactivitydetail'] = 'Aukeratu batera editatu nahi dituzun jarduerak.';
 $string['bulkcompletiontracking'] = 'Osaketaren jarraipena';
 $string['bulkcompletiontracking_help'] = '<strong>Bat ere ez:</strong> Ez adierazi jarduera osaketa
@@ -106,6 +108,9 @@ $string['completionnotenabledforcourse'] = 'Osaketa ez dago gaituta ikastaro hon
 $string['completionnotenabledforsite'] = 'Osaketa ez dago gaituta gune honetarako';
 $string['completionondate'] = 'Data';
 $string['completionondatevalue'] = 'Ikastaroa osatutzat markatuko deneko data';
+$string['completionpassgrade'] = 'Gainditzeko kalifikazioa jasotzea';
+$string['completionpassgrade_desc'] = 'Ikasleak gainditzeko kalifikazioa jaso behar du jarduera osatzeko';
+$string['completionpassgrade_help'] = 'Gaituz gero, jarduera osatutzat hartuko da ikasleak gainditzeko kalifikazio bat jasotzen duenean.';
 $string['completionsettingslocked'] = 'Osaketa-ezarpenak blokeatuta';
 $string['completionupdated'] = '<b>{$a}</b> jardueraren osatze-informazioa eguneratu da';
 $string['completionusegrade'] = 'Kalifikazioa jasotzea';
@@ -125,6 +130,7 @@ $string['coursecompleted'] = 'Ikastaroa osatuta';
 $string['coursecompletedmessage'] = '<p>Zorionak!</p><p><a href="{$a->courselink}">{$a->coursename}</a> ikastaroa osatu duzu.</p>';
 $string['coursecompletion'] = 'Ikastaro-osaketa';
 $string['coursecompletioncondition'] = 'Baldintza: {$a}';
+$string['coursecompletionnavigation'] = 'Ikastaro-osaketaren hirugarren mailako nabigazioa';
 $string['coursegrade'] = 'Ikastaroaren kalifikazioa';
 $string['coursesavailable'] = 'Eskura dauden ikastaroak';
 $string['coursesavailableexplaination'] = 'Oharra: Ikastaro-osaketarako baldintzak ezarri behar zaizkio ikastaro bati beheko zerrendan ager dadin.';
@@ -136,13 +142,16 @@ $string['csvdownload'] = 'Jaitsi kalkulu-orri formatuan (UTF-8 .csv)';
 $string['datepassed'] = 'Data igarota';
 $string['days'] = 'Egun';
 $string['daysoftotal'] = '{$a->days} egun {$a->total}(e)tik';
+$string['daysuntilcompletion'] = 'Osatzeko falta den egun kopurua';
 $string['defaultcompletion'] = 'Lehenetsitako jarduera-osaketa';
 $string['defaultcompletionupdated'] = 'Aldaketak gorde dira';
 $string['deletecompletiondata'] = 'Ezabatu osaketaren datuak';
 $string['dependencies'] = 'Mendekotasunak';
 $string['dependenciescompleted'] = 'Beste ikastaro batzuen osaketa';
 $string['detail_desc:receivegrade'] = 'Kalifikazio bat jasotzea';
+$string['detail_desc:receivepassgrade'] = 'Gainditzeko kalifikazioa jasotzea';
 $string['detail_desc:view'] = 'Ikustea';
+$string['done'] = 'Eginda';
 $string['editcoursecompletionsettings'] = 'Editatu ikastaro-osaketaren ezarpenak';
 $string['enablecompletion'] = 'Gaitu osaketaren jarraipena';
 $string['enablecompletion_help'] = 'Gaituz gero, jardueraren ezarpenetan jardueren osaketaren baldintzak edo/eta ikastaroaren osaketaren baldintzak zehaztu daitezke. Aukera hau gaituta izatea gomendatzen da Aginte-panelean ikastaroaren aurrebistan datu esanguratsuak agertu daitezen.';
@@ -160,6 +169,7 @@ $string['eventcoursecompletionupdated'] = 'Ikastaro-osaketa eguneratu da';
 $string['eventcoursemodulecompletionupdated'] = 'Ikastaroko jarduera-osaketa eguneratu da';
 $string['eventdefaultcompletionupdated'] = 'Ikastaroko jarduera-osaketaren balio lehenetsiak eguneratu dira';
 $string['excelcsvdownload'] = 'Jaitsi Excel-ekin bateragarria den formatuan (.csv)';
+$string['failed'] = 'Huts egin du';
 $string['fraction'] = 'Zatikia';
 $string['graderequired'] = 'Ikastaro-kalifikazioa behar du';
 $string['gradexrequired'] = '{$a} behar du';
@@ -196,6 +206,7 @@ $string['privacy:metadata:gradefinal'] = 'Ikastaro-osatzerako jasotako behin bet
 $string['privacy:metadata:overrideby'] = 'Jarduera-osatzea baliogabetu duen pertsonaren erabiltzailearen IDa.';
 $string['privacy:metadata:reaggregate'] = 'Ikastaro-osaketa berriz agregatua izan den.';
 $string['privacy:metadata:timecompleted'] = 'Ikastaroa osatu zeneko unea.';
+$string['privacy:metadata:timecreated'] = 'Jarduera osaketa sortu zeneko unea';
 $string['privacy:metadata:timeenrolled'] = 'Erabiltzailea ikastaroan matrikulatu zeneko unea';
 $string['privacy:metadata:timemodified'] = 'Jarduera-osaketa aldatu zeneko unea';
 $string['privacy:metadata:timestarted'] = 'Ikastaroa hasi zeneko unea.';
@@ -224,6 +235,8 @@ $string['selfcompletion'] = 'Auto-osaketa';
 $string['showcompletionconditions'] = 'Erakutsi jardueren osaketa-baldintzak';
 $string['showcompletionconditions_help'] = 'Jardueraren osaketa-baldintzak beti erakusten dira jarduera-orrian. Ezarpen honek jardueraren osaketa-baldintzak ikastaro-orriko jarduera-zerrendan ere jarduera bakoitzaren azpian erakutsiko diren zehazten du.';
 $string['showinguser'] = 'Erabiltzailea erakusten';
+$string['timecompleted'] = 'Osatze-unea';
+$string['todo'] = 'Egiteko';
 $string['unenrolingfromcourse'] = 'Ikastarotik desmatrikulatzen';
 $string['unenrolment'] = 'Desmatrikulazioa';
 $string['unit'] = 'Unitatea';

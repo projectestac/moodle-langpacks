@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'eu', version '3.11'.
+ * Strings for component 'availability', language 'eu', version '4.1'.
  *
  * @package     availability
  * @category    string
@@ -33,8 +33,8 @@ $string['condition_group_info'] = 'Gehitu habiaratutako baldintza-multzo bat log
 $string['enableavailability'] = 'Gaitu eskuragarritasun baldintzak';
 $string['enableavailability_desc'] = 'Gaituz gero, baldintzak (data, kalifikazioa edo beste jarduera bat osatua egotea) ezarri ahal izango dituzu jarduera eskuragarri dagoen ala ez kontrolatzeko.';
 $string['error_list_nochildren'] = 'Baldintza-sortek gutxienez baldintza bat izan behar dute.';
-$string['hidden_all'] = 'Guztiz ezkutatuta erabiltzaileak baldintzak betetzen ez baditu';
-$string['hidden_individual'] = 'Guztiz ezkutatuta erabiltzaileak baldintza hau betetzen ez badu';
+$string['hidden_all'] = 'Guztiz ezkutatuta ikasleak baldintzak betetzen ez baditu';
+$string['hidden_individual'] = 'Guztiz ezkutatuta ikasleak baldintza hau betetzen ez badu';
 $string['hidden_marker'] = '(bestela ezkutuan)';
 $string['hide_verb'] = 'Egin klik guztiz ezkutatzeko';
 $string['invalid'] = 'Konfiguratu mesedez';
@@ -65,7 +65,8 @@ $string['privacy:metadata'] = 'Eskuragarritasun baldintzen azpisistemak ez du da
 $string['restrictaccess'] = 'Mugatu eskuragarritasuna';
 $string['restrictbygroup'] = 'Gehitu talde/talde-multzo eskuragarritasun baldintza';
 $string['setheading'] = '{$a->number} {$a->count} sortako eskuragarritasun baldintza(k)';
-$string['show_verb'] = 'Egin klik grisean erakusteko';
-$string['shown_all'] = 'Grisean erakusten da erabiltzaileak baldintzak betetzen ez baditu';
-$string['shown_individual'] = 'Grisean erakusten da erabiltzaileak baldintza hau betetzen ez badu';
+$string['show_verb'] = 'Egin klik erakusteko';
+$string['showmore'] = 'Erakutsi gehiago';
+$string['shown_all'] = 'Erakusten da ikasleak baldintzak betetzen ez baditu';
+$string['shown_individual'] = 'Erakusten da ikasleak baldintza hau betetzen ez badu';
 $string['unknowncondition'] = 'Baldintza ezezaguna (ezabatutako baldintza plugina)';

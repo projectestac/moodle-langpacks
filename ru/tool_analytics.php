@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_analytics', language 'ru', version '3.11'.
+ * Strings for component 'tool_analytics', language 'ru', version '4.1'.
  *
  * @package     tool_analytics
  * @category    string
@@ -88,7 +88,6 @@ $string['exportmodel'] = 'Экспорт конфигурации';
 $string['exporttrainingdata'] = 'Экспорт данных обучения';
 $string['extrainfo'] = 'Информация';
 $string['generalerror'] = 'Ошибка оценки. Код состояния {$a}';
-$string['getpredictions'] = 'Получить прогнозы';
 $string['goodmodel'] = 'Это хорошая модель для прогнозирования. Включите её, чтобы начать получать прогнозы.';
 $string['ignoreversionmismatches'] = 'Игнорировать несовпадения версий';
 $string['ignoreversionmismatchescheckbox'] = 'Игнорировать различия между версией этого сайта и версией исходного сайта.';
@@ -96,6 +95,7 @@ $string['importedsuccessfully'] = 'Модель успешно импортир�
 $string['importmodel'] = 'Импортировать модель';
 $string['indicators'] = 'Показатели';
 $string['indicators_help'] = 'Показатели — это то, что, по вашему мнению, приведет к точному предсказанию цели.';
+$string['indicators_link'] = 'Indicators';
 $string['indicatorsnum'] = 'Количество показателей: {$a}';
 $string['info'] = 'Информация';
 $string['insights'] = 'Инсайты';
@@ -144,6 +144,7 @@ $string['scheduledanalysisresultscli'] = 'Результаты с использ
 $string['selecttimesplittingforevaluation'] = 'Выберите интервал анализа, который вы хотите использовать для оценки конфигурации модели.';
 $string['target'] = 'Цель';
 $string['target_help'] = 'Цель — это то, что предсказывает модель.';
+$string['target_link'] = 'Targets';
 $string['timesplittingnotdefined'] = 'Интервал анализа не определен.';
 $string['timesplittingnotdefined_help'] = 'Перед включением модели нужно выбрать интервал анализа.';
 $string['trainandpredictmodel'] = 'Обучение модели и расчет прогнозов';

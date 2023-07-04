@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ur', version '3.11'.
+ * Strings for component 'plugin', language 'ur', version '4.1'.
  *
  * @package     plugin
  * @category    string
@@ -67,6 +67,7 @@ $string['moodleversion'] = 'موڈل {$a}';
 $string['noneinstalled'] = 'اس قسم کا کوئی پلگ ان انسٹال نہیں ہے';
 $string['notdownloadable'] = 'پیکج ڈاؤن لوڈ نہیں کر سکتے';
 $string['notdownloadable_help'] = 'اپ ڈیٹ کے ساتھ زپ پیکج خود بخود ڈاؤن لوڈ نہیں ہو سکتا۔';
+$string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
 $string['notes'] = 'نوٹس';
 $string['notsupported'] = 'پلگ ان موڈل ورژن {$a} کے ساتھ مطابقت نہیں رکھتا';
 $string['notwritable'] = 'پلگ ان فائلیں قابل تحریر نہیں ہیں';
@@ -220,6 +221,7 @@ $string['validationmsg_maturity'] = 'میچورٹی لیول کا اعلان ک�
 $string['validationmsg_maturity_help'] = 'پلگ ان اپنی میچورٹی لیول کا اعلان کر سکتا ہے۔ اگر مینٹینر پلگ ان کو مستحکم سمجھتا ہے، تو اعلان شدہ میچورٹی لیول MATURITY_STABLE پڑھے گا۔ دیگر تمام میچورٹی لیول (جیسے الفا یا بیٹا) کو غیر مستحکم سمجھا جانا چاہئے اور ایک انتباہ اٹھایا جاتا ہے۔';
 $string['validationmsg_missingcomponent'] = 'پلگ ان اپنے اجزاء کے نام کا اعلان نہیں کرتا ہے';
 $string['validationmsg_missingcomponent_help'] = 'تمام پلگ انز کو ورژن.php فائل میں `$plugin->component` اعلامیہ کے ذریعے اپنے اجزاء کا پورا نام فراہم کرنا چاہیے۔';
+$string['validationmsg_missingcomponent_link'] = 'Development:version.php';
 $string['validationmsg_missingexpectedlangenfile'] = 'انگریزی زبان میں فائل کا نام مماثل نہیں ہے';
 $string['validationmsg_missingexpectedlangenfile_info'] = 'دی گئی پلگ ان کی قسم میں انگریزی زبان کی متوقع فائل {$a} غائب ہے۔';
 $string['validationmsg_missinglangenfile'] = 'انگریزی زبان کی کوئی فائل نہیں ملی';

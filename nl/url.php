@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'nl', version '3.11'.
+ * Strings for component 'url', language 'nl', version '4.1'.
  *
  * @package     url
  * @category    string
@@ -50,10 +50,12 @@ $string['indicator:cognitivedepth'] = 'URL cognitief';
 $string['indicator:cognitivedepth_help'] = 'Deze indicator is gebaseerd op de door de leerling bereikte cognitieve diepte in een URL bron.';
 $string['indicator:cognitivedepthdef'] = 'URL cognitief';
 $string['indicator:cognitivedepthdef_help'] = 'De deelnemer heeft dit percentage van de cognitieve betrokkenheid bereikt die door de URL-bronnen wordt aangeboden tijdens dit analyse-interval (Niveaus = Geen weergave, Weergave)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'URL sociaal';
 $string['indicator:socialbreadth_help'] = 'Deze indicator is gebaseerd op de door de leerling behaalde sociale breedte in een URL bron.';
 $string['indicator:socialbreadthdef'] = 'URL sociaal';
 $string['indicator:socialbreadthdef_help'] = 'De deelnemer heeft dit percentage van de sociale betrokkenheid bereikt die wordt aangeboden door de URL-bronnen tijdens dit analyse-interval (Niveaus = Geen deelname, alleen deelnemer)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['invalidstoredurl'] = 'Kan deze bron niet tonen, URL is niet geldig.';
 $string['invalidurl'] = 'Externe URL is niet geldig';
 $string['modulename'] = 'URL';
@@ -62,6 +64,7 @@ $string['modulename_help'] = 'Met de URL-module kan een leraar een weblink als b
 Er zijn een aantal toonmogelijkheden voor de URL, zoals ingebed of openen in een nieuw venster en geavanceerde opties voor het doorgeven van informatie aan de URL, zoals de naam van een leerling, indien dit vereist is.
 
 Merk op dat URL\'s aan elke andere activiteit kan toegevoegd worden via de tekstverwerker.';
+$string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URL\'s';
 $string['page-mod-url-x'] = 'Elke URL module-pagina';
 $string['parameterinfo'] = '&amp;parameter=variable';

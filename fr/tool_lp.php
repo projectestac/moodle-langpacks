@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'fr', version '3.11'.
+ * Strings for component 'tool_lp', language 'fr', version '4.1'.
  *
  * @package     tool_lp
  * @category    string
@@ -166,6 +166,7 @@ $string['nouserevidence'] = 'Aucune preuve d\'acquis n\'a encore été ajoutée.
 $string['nouserplans'] = 'Aucun plan de formation n\'a encore été créé.';
 $string['oneplanwascreated'] = 'Un plan de formation a été créé.';
 $string['outcome'] = 'Objectif';
+$string['overridegrade'] = 'Écraser la note existante de la compétence lors de l\'achèvement.';
 $string['parentcompetency'] = 'Parent';
 $string['parentcompetency_edit'] = 'Modifier le parent';
 $string['parentcompetency_help'] = 'Définir la compétence parente sous laquelle cette compétence sera ajoutée. Cela peut être une autre compétence dans le même référentiel, soit le niveau supérieur du référentiel de compétences.';

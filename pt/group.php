@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'pt', version '3.11'.
+ * Strings for component 'group', language 'pt', version '4.1'.
  *
  * @package     group
  * @category    string
@@ -87,6 +87,7 @@ $string['eventgroupmemberadded'] = 'Membro do grupo adicionado';
 $string['eventgroupmemberremoved'] = 'Membro do grupo removido';
 $string['eventgroupupdated'] = 'Grupo atualizado';
 $string['existingmembers'] = 'Membros existentes: {$a}';
+$string['exportgroupsgroupings'] = 'Descarregar agrupamentos e grupos como:';
 $string['filtergroups'] = 'Filtrar grupos por:&nbsp;';
 $string['group'] = 'Grupo';
 $string['groupaddedsuccesfully'] = 'Grupo \'{$a}\' adicionado com sucesso';

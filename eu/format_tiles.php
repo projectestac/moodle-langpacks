@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'eu', version '3.11'.
+ * Strings for component 'format_tiles', language 'eu', version '4.1'.
  *
  * @package     format_tiles
  * @category    string
@@ -25,13 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Gehitu lauzak';
+$string['addsections'] = 'Gehitu lauza';
 $string['admintools'] = 'Kudeatzaile-erremintak';
 $string['all'] = 'Guztiak';
 $string['allcomplete'] = 'Denak osatuta';
 $string['allcoursescomplypalette'] = 'Ikastaro guztiek koloreetako lauzak erabili ditzakete. Ez dago ezer berrabiarazteko beharrik. Ziurtatu ezazu baimendutako koloreetan egindako aldaketa guztiak gorde dituzula \'Berrabiarazi ikastaro guztietako koloreak\' botoia sakatu baino lehen.';
-$string['allowlabelconversion'] = 'Baimendu etiketak orri bihurtzea';
-$string['allowlabelconversion_desc'] = 'Markatuz gero, edizio baimenak dituzten irakasleek etiketa bakoitzaren ezarpenetan etiketa orri bihurtzeko aukera izango dute.';
 $string['allowphototiles'] = 'Baimendu argazki-lauzak';
 $string['allowphototiles_desc'] = 'Markatuz gero, irakasleek lauzen atzeko planoan erakusteko argazkiak igotzeko aukera izango dute. Oraindik ere ikastaroan lauza-ikonoak ere erabiltzen jarraitu ahalko dute. (Markatu gabe utziz gero, soilik lauza-ikonoak erabili ahalko dira eta azpiko argazki-lauzen ezarpenei ezikusia egingo zaie.)';
 $string['allowsubtilesview'] = 'Baimendu azpi-lauzen ikuspegia';
@@ -46,8 +44,6 @@ $string['assumedatastoreconsent_desc'] = 'Markatuz gero, erabiltzaileari <b>ez</
 $string['backupfailed'] = 'Segurtasun-kopiak huts egin du';
 $string['basecolour'] = 'Lauzentzako kolorea';
 $string['basecolour_help'] = 'Hemen zehaztutako kolorea ikastaroko lauza guztiei aplikatuko zaie. (Eskuragarri dauden koloreak zure kudeatzaileak erabakitzen ditu guneko kudeaketako Lauzen formatuaren ezarpenen orritik).';
-$string['blockedpopup'] = 'Zure nabigatzaileak pop-up leiho bat blokeatu du. Mesedez baimendu itzazu gune honetako pop-up leihoak, edo bestela egin klik beheko estekan gunea orri honetan bertan irekitzeko.';
-$string['blockedpopuptitle'] = 'Blokeatutako pop-up leihoa';
 $string['brandcolour'] = 'Markaren kolorea';
 $string['canceltask'] = 'Bertan behera utzi ataza';
 $string['changedcolour'] = '{$a} ikastaroaren lauzen kolorea lehenetsitakora berrabiarazi da';
@@ -65,7 +61,7 @@ $string['colournamegeneral'] = 'Goiko kolorearentzako erakusteko izena';
 $string['colourpurple'] = 'Morea';
 $string['colourred'] = 'Gorria';
 $string['colours'] = 'Koloreak';
-$string['complete'] = 'osatuta';
+$string['complete'] = 'Osatuta';
 $string['complete-n-auto'] = 'Osatu gabeko elementua. Osatutzat markatuko da osatze-baldintza guztiak betetzen dituzunean. Ezin duzu hau eskuz aldatu.';
 $string['complete-y-auto'] = 'Osatutako elementua. Automatikoki osatutzat markatu da osatze-baldintzak bete dituzunean. Ezin duzu hau eskuz aldatu.';
 $string['completion_help'] = 'Jardueraren eskuinean marka bat agertu daiteke osatuta dagoela adierazteko (zirkulu huts bat agertuko da bestela).<br><br>
@@ -80,11 +76,10 @@ $string['completionwarning_help'] = 'Elementu bakoitzaren jarraipena gaitu behar
 $string['contact'] = 'Jarri harremanetan';
 $string['contactdeveloper'] = 'Garatzailearen kontaktua';
 $string['contents'] = 'Edukiak';
-$string['converttopage'] = 'Orri bihurtu';
-$string['converttopage_confirm'] = 'Ziur zaude? Ekintza hau ezin da desegin (behar izanez gero etiketa berriz eskuz sortu beharko duzu).';
 $string['courseshowtileprogress'] = 'Lauza bakoitzaren aurrerapena';
 $string['courseshowtileprogress_error'] = 'Ikastaro honetako \'Osaketaren jarraipena > Gaitu osaketaren jarraipena\' ezarpenean \'Ez\' jarrita dago (ikusi xehetasunak orri honen azpian) eta horrek ezarpen honekin talka egiten du. Lauzetan aurrerapena erakutsi nahi baduzu, \'Osaketaren jarraipena > Gaitu osaketaren jarraipena\' ezarpenean \'Bai\' aukeratu ezazu. Bestela, ezarpen honetan \'Ez\' aukeratu ezazu.';
 $string['courseshowtileprogress_help'] = '<p>Aukeratuz gero, erabiltzailearen jardueretako aurrerapena lauza bakoitzean erakutsiko da, <em>zatiki gisa</em> (\'Aurrerapena 2/10\' esaldiak adibidez 10 jardueretatik 2 osatuta daudela esan nahi du) edo <em>ehuneko gisa</em> zirkulu batean.</p><p>Aukera hau soilik erabili daiteke \'Osaketaren jarraipena\' gaituta badago.</p><p>Lauza batean jarraipena konfiguratuta daukan jarduerarik ez badago bertan ez da adierazle hau erakutsiko.</p>';
+$string['courseshowtileprogress_link'] = 'Activity_completion_settings#Activity_settings';
 $string['coursetoomanysections'] = 'Irakasleentzako oharra: ikastaro honek baimendutakoak baino lauza gehiago ditu. Irakasleek gehiago ikusi ditzaketen arren ikasleei gehienez {$a->max} lauza erakutsiko zaizkie ("{$a->tilename}" lauzara arte) .';
 $string['courseusebarforheadings'] = 'Nabarmendu goiburuak koloredun fitxarekin';
 $string['courseusebarforheadings_help'] = 'Erakutsi koloredun fitxa bat ikastaroko goiburuaren ezkerrean testuak goiburuko estilo bat duenean';
@@ -110,6 +105,7 @@ $string['disabledbyadmin'] = 'Guneko kudeatzaileak desgaituta';
 $string['displayfilterbar'] = 'Iragazki-barra';
 $string['displayfilterbar_error'] = 'Ikastaro honetarako ikas-emaitzak zehaztu ezean, lauza-zenbakietan oinarritutako iragazki-barra bat baino ezin duzu erakutsi, eta ez ikas-emaitzetan oinarritutakoa. Ikas-emaitza batzuk sortu itzazu eta ondoren hona itzuli zaitez. Ikusi';
 $string['displayfilterbar_help'] = '<p>Aukeratuz gero, ikastaroko lauzen aurretik botoi-zerrenda bat erakutsiko da, eta bertan erabiltzaileak lauza-tarteak iragazi ahalko ditu.</p><p>\'Lauza zenbakien arabera\' aukeratuz gero zenbaki tarteen botoi-zerrenda bat agertuko da (1-4 tarterako botoi bat, 5-8 tarterako beste botoi bat...).</p><p>\'Ikastaroko ikas-emaitzen arabera\' aukeratuz gero ikastaroko ikas-emaitza bakoitzarentzat botoi bana erakutsiko da. Lauza bakoitza ikas-emaitza batekin lotu daiteke (eta ondorioz baita botoi batekin ere) lauzaren ezarpen-orritik</p>';
+$string['displayfilterbar_link'] = 'Outcomes';
 $string['displaytitle_mod_doc'] = 'Word dokumentua';
 $string['displaytitle_mod_html'] = 'Web orria';
 $string['displaytitle_mod_jpeg'] = 'Irudia';
@@ -124,6 +120,8 @@ $string['documentation'] = 'Dokumentazioa';
 $string['documentationurl'] = 'Dokumentazioaren URLa';
 $string['documentationurl_descr'] = 'Lauza-formatuaren dokumentazioa aurkitu daitekeen URLa.';
 $string['download'] = 'Jaitsi';
+$string['editoradvicesubtiles'] = 'Lauza-formatuaren bertsio honetan, jarduerak soilik erakutsiko dira azpi-lauza gisa edizio-modua desgaituta badago.';
+$string['editsection'] = 'Editatu lauza';
 $string['editsectionname'] = 'Editatu lauzaren izena';
 $string['embeddedurlerror'] = 'Kanpoko webguneak goiko leihoan konektatzeari uko egiten badio, erabili hau:';
 $string['enablelinebreakfilter'] = 'Gaitu lerro-jauziaren iragazkia';
@@ -153,7 +151,6 @@ $string['hidden'] = 'Ezkutuan';
 $string['hide'] = 'Ezkutatu';
 $string['hidefromothers'] = 'Ezkutatu lauza';
 $string['highestsectionnum'] = 'Aurkitutako atal-kopuru altuena';
-$string['highlightoff'] = 'Des-nabarmendu';
 $string['home'] = 'Ikastaroaren hasiera';
 $string['hovercolour'] = 'Lauzaren kolorea gainean jartzean';
 $string['hovercolour_descr'] = 'Saguarekin lauzaren gainean jarrita erakutsiko den kolorea';
@@ -269,12 +266,11 @@ $string['imagedeletedfrom'] = 'Irudia "{$a}"(e)tik ezabatu da';
 $string['imagesavedfor'] = 'Irudia gorde da "{$a}" lauzarentzat';
 $string['imagesize'] = 'Irudiaren tamaina';
 $string['items'] = 'elementu';
-$string['jsactivate'] = 'Gaitu nabigazio animatua';
-$string['jsdeactivate'] = 'Desgaitu nabigazio animatua';
+$string['jsactivate'] = 'Nabigazio animatua - itzali';
+$string['jsdeactivate'] = 'Nabigazio animatua - piztu';
 $string['jsdeactivated'] = 'Nabigazio animatua desgaitu duzu zure kontuan';
 $string['jsnavsettings'] = 'JavaScript nabigazioa';
 $string['jsreactivated'] = 'Nabigazio animatua gaitu duzu zure kontuan. Honek erabilera azkartu dezake. Funtzio honek JavaScript gaituta izatea behar du.';
-$string['labelconverted'] = 'Bihurtutako etiketa';
 $string['links'] = 'Estekak';
 $string['loading'] = 'Kargatzen';
 $string['maxcoursesectionsallowed'] = 'Ingurune honetan onartutako gehieneko ikastaroko atal-kopurua {$a} da.';
@@ -377,12 +373,12 @@ $string['tileicon_help'] = 'Hemen aukeratutako elementuak lauza honentzako ikast
 $string['tileicons'] = 'Lauza-ikonoak';
 $string['tileoutcome'] = 'Lauza honentzako ikas-emaitza';
 $string['tileoutcome_help'] = 'Lauza honentzako ikaste-emaitza bat aukeratzen baduzu, ondoren ikastaroko ezarpenetan <em>iragazte-botoiak</em> erakutsi ahalko dituzu, ikaste-emaitza bakoitzarentzat botoi bana, eta bertan klik egitean ikas-emaitza hori duten lauzak erakutsiko dira.';
-$string['tileoutofsequence'] = 'Lauza honek sekuentziatik kanpoko atal-zenbakia dauka. Arazoa konpontzeko botoian klik egin edo lauza osorik ezabatu ezazu (aurretik barruan dauden edukiak beste lauza batera mugituta)';
 $string['tileselecttip'] = 'Hona hemen lauza-ikonoa edo argazkia aldatzeko modu errazago bat: ikastaroan, edizio-modu gaituta dagoela, egin klik aldatu nahi duzun ikono edo argazkiaren gainean eta ikono-hautatzailearen leihoa erakutsiko da.';
 $string['tilesformatregistration'] = 'Lauza-formatuaren erregistroa';
-$string['tilesoutofsequencewarning'] = 'Irakasleentzako oharra: Hurrengo lauzek erroreak dituzte.Arazoa konpontzeko botoian klik egin edo hauetako baten bat ezabatu ezazu:';
 $string['tip'] = 'Pista';
 $string['togglecompletion'] = 'Egin klik osaketaren egoera aldatzeko';
+$string['togglecompletioncomplete'] = 'Egin klik osaketaren egoera aldatzeko (osatuta)';
+$string['togglecompletionincomplete'] = 'Egin klik osaketaren egoera aldatzeko (osatu gabe)';
 $string['tootall'] = 'lauzarentzako altuegia';
 $string['toowide'] = 'lauzarentzako zabalegia';
 $string['transparenttitleadjustments'] = 'Izenburuaren gardentasunaren ezarpenak';
@@ -401,4 +397,5 @@ $string['usesubtilesseczero'] = 'Erabili azpi-lauzak 0 atalean';
 $string['usesubtilesseczero_help'] = 'Aukeratuz gero, 0 ataleko elementuak ere azpi-lauzetan erakutsiko dira. Soilik aplikatzen da ikastaroaren ezarpenetan azpi-lauzak erabiltzen badira. Azpi-lauzek ikastaroaren goiko aldean leku gehiegi okupatu dezaketenez, gomendagarria da aukera hau markatu gabe uztea, eta horrela 0 ataleko elementuak ohiko zerrendan erakutsiko dira.';
 $string['usetooltips'] = 'Erabili JavaScript oharrak';
 $string['usetooltips_desc'] = 'Erabili JavaScript oharrak erabiltzaileak sagua elementu zehatz batzuen gainetik pasatzean (esaterako osatze-laukitxoak edo lauzak bertako edukietarako)';
+$string['version'] = '{$a} bertsioa';
 $string['width'] = 'zabalera';

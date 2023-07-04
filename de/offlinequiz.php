@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'offlinequiz', language 'de', version '3.11'.
+ * Strings for component 'offlinequiz', language 'de', version '4.1'.
  *
  * @package     offlinequiz
  * @category    string
@@ -62,7 +62,9 @@ $string['attemptexists'] = 'Ergebnis existiert';
 $string['attemptsexist'] = 'Sie können keine Fragen mehr hinzufügen oder entfernen.';
 $string['attemptsnum'] = '{$a} Ergebnisse';
 $string['attemptsonly'] = 'Nur Teilnehmer/innen mit Ergebnis anzeigen';
+$string['attendanceoverview'] = 'Übersicht';
 $string['attendances'] = 'Anwesenheiten';
+$string['attendancesheadline'] = 'Anwesenheiten';
 $string['basicideasofofflinequiz'] = 'Grundlegendes zu Offline-Tests';
 $string['blackwhitethreshold'] = 'Schwarz/Weiß-Schwellenwert';
 $string['bulksavegrades'] = 'Bewertungen speichern';
@@ -102,6 +104,7 @@ $string['copytogroup'] = 'Alle Fragen zu Gruppe {$a}';
 $string['correct'] = 'richtig';
 $string['correcterror'] = 'korrigieren';
 $string['correctforgroup'] = 'Korrekturbogen für Gruppe {$a}';
+$string['correctionerrors'] = 'Antwortbögen mit Auswertungsfehler:';
 $string['correctionform'] = 'Korrekturbogen';
 $string['correctionforms'] = 'Korrekturbögen';
 $string['correctionoptionsheading'] = 'Einstellungen für Korrektur von Antwortbögen';
@@ -116,8 +119,8 @@ $string['createpdf'] = 'Formular';
 $string['createpdferror'] = 'Der Fragebogen für Gruppe {$a} konnte nicht erzeugt werden. Eventuell sind für die Gruppe keine Fragen definiert.';
 $string['createpdffirst'] = 'Erstellen Sie zuerst das PDF-Formular';
 $string['createpdfforms'] = 'Formulare erstellen';
-$string['createpdfs'] = 'Formulare herunterladen';
-$string['createpdfsparticipants'] = 'Anwesenheitslisten: PDFs herunterladen';
+$string['createpdfs'] = 'Formulare';
+$string['createpdfsparticipants'] = 'Formulare';
 $string['createquestionandadd'] = 'Frage erzeugen und zum Test hinzufügen.';
 $string['createquiz'] = 'Formulare erstellen';
 $string['csvfile'] = 'CSV-Datei';
@@ -149,17 +152,19 @@ $string['displayoptions'] = 'Einstellungen für die Darstellung';
 $string['done'] = 'erledigt';
 $string['downloadallzip'] = 'Alle Dateien als ZIP herunterladen';
 $string['downloadpartpdf'] = 'PDF-Formular für die Anwesenheitsliste \'{$a}\' herunterladen';
-$string['downloadpdfs'] = 'Formulare herunterladen';
+$string['downloadpdfs'] = 'Formulare';
 $string['downloadresultsas'] = 'Ergebnisse herunterladen als:';
 $string['dragtoafter'] = 'Nach {$a}';
 $string['dragtostart'] = 'Zum Anfang';
+$string['editgrades'] = 'Bewertungen';
+$string['editgradeslistitem'] = 'Summe der Bewertungen: {$a}';
 $string['editgroupquestions'] = 'Gruppenfragen editieren';
 $string['editgroups'] = 'Offline-Test-Gruppen editieren';
 $string['editingofflinequiz'] = 'Fragenlisten bearbeiten';
 $string['editingofflinequiz_help'] = 'Beim Erzeugen von Offline-Tests sind zwei Komponenten wichtig:
 <ul><li> Der Offline-Test, der die Fragen für die verschiedenen Gruppen auf einer oder mehreren Seiten enthält.</li>
 <li> Die Fragensammlung, in der Fragen in verschiedene Kategorien aufgeteilt sind.</li></ul>';
-$string['editingofflinequizx'] = 'Fragenlisten bearbeiten: {$a}';
+$string['editingofflinequizx'] = 'Fragen';
 $string['editlist'] = 'Anwesenheitsliste bearbeiten';
 $string['editlists'] = 'Anwesenheitslisten';
 $string['editmaxmark'] = 'Erreichbare Punkte ändern';
@@ -168,13 +173,15 @@ $string['editofflinesettings'] = 'Offline-Test Einstellungen bearbeiten';
 $string['editorder'] = 'Reihenfolge bearbeiten';
 $string['editparticipants'] = 'Teilnehmer/innen';
 $string['editquestion'] = 'Frage bearbeiten';
-$string['editquestions'] = 'Fragen bearbeiten';
+$string['editquestionlistitem'] = '{$a} Fragen hinzugefügt';
+$string['editquestions'] = 'Fragen';
 $string['editscannedform'] = 'Scannerbeleg bearbeiten';
 $string['editthislist'] = 'Diese Liste bearbeiten';
 $string['emptygroups'] = 'Einige Offline-Test-Gruppen enthalten keine Fragen. Bitte fügen Sie Fragen hinzu.';
 $string['enroluser'] = 'Teilnehmer/in einschreiben';
 $string['erroraccessingreport'] = 'Sie haben nicht genügend Rechte, um diesen Bericht einzusehen.';
-$string['errorreport'] = 'Importfehler-Bericht';
+$string['errorreport'] = 'Auswertungsfehlerbericht';
+$string['evaluation'] = 'Ergebnisse';
 $string['eventattemptdeleted'] = 'Offline-Test Ergebnis gelöscht';
 $string['eventattemptpreviewstarted'] = 'Offline-Test Preview gestartet';
 $string['eventattemptreviewed'] = 'Offline-Test Ergebnis angesehen';
@@ -212,7 +219,7 @@ $string['formforgrouplatex'] = 'Fragebogen für Gruppe {$a} (LATEX)';
 $string['formsexist'] = 'Formulare bereits erstellt.';
 $string['formsexistx'] = 'Formulare bereits erstellt (<a href="{$a}">Formulare herunterladen</a>)';
 $string['formsheetsettings'] = 'Formulareinstellungen';
-$string['formspreview'] = 'Vorschau für Formulare';
+$string['formspreview'] = 'Vorschau';
 $string['formwarning'] = 'Für die festgelegte Fragen- bzw. Antwortanzahl ist kein Antwortbogen definiert. Bitte kontaktieren Sie den Systemadministrator.';
 $string['fromquestionbank'] = 'Aus der Fragensammlung';
 $string['functiondisabledbysecuremode'] = 'Diese Funktionalität ist deaktiviert';
@@ -226,12 +233,11 @@ $string['gradeiszero'] = 'Hinweis: Die beste Bewertung für den Offline-Test bet
 $string['gradeswarning'] = 'Die Bewertungen für die Fragen müssen Zahlen sein!';
 $string['gradewarning'] = 'Die Bewertung für die Frage muss eine Zahl sein!';
 $string['gradingofflinequiz'] = 'Bewertungen';
-$string['gradingofflinequizx'] = 'Bewertungen: {$a}';
+$string['gradingofflinequizx'] = 'Bewertungen';
 $string['gradingoptionsheading'] = 'Einstellungen für Bewertungen';
 $string['greeniscross'] = 'wird als Ankreuzung gewertet';
 $string['group'] = 'Gruppe';
 $string['groupoutofrange'] = 'Die Gruppe war außerhalb des Bereichs und wurde durch Gruppe A ersetzt.';
-$string['groupquestions'] = 'Bearbeiten';
 $string['hasresult'] = 'Ergebnis vorhanden';
 $string['hotspotdeletiontask'] = 'Löschen von Hotspots';
 $string['html'] = 'HTML';
@@ -239,9 +245,9 @@ $string['idnumber'] = 'Matrikelnummer';
 $string['imagefile'] = 'Bilddatei';
 $string['imagenotfound'] = 'Bilddatei: {$a} nicht gefunden!';
 $string['imagenotjpg'] = 'Bild ist nicht .jpg oder .png: {$a}';
-$string['imagickwarning'] = 'Imagick fehlt: Bitten Sie Ihren System-Administrator Image Magick zu installieren bzw. überprüfen Sie ob der Pfad zum Programm "convert" in den Tex-Filtereinstellungen richtig gesetzt ist. Sie brauchen Image Magick, um TIF-Dateien importieren zu können!';
-$string['import'] = 'Importieren';
-$string['importedon'] = 'Importiert am';
+$string['imagickwarning'] = 'Imagick fehlt: Bitten Sie Ihren System-Administrator Image Magick zu installieren bzw. überprüfen Sie ob der Pfad zum Programm "convert" in den Tex-Filtereinstellungen richtig gesetzt ist. Sie brauchen Image Magick, um TIF-Dateien auswerten zu können!';
+$string['import'] = 'Auswerten';
+$string['importedon'] = 'Ausgewertet am';
 $string['importerror11'] = 'Abweichendes Ergebnis existiert';
 $string['importerror12'] = 'Teilnehmer/in nicht registriert';
 $string['importerror13'] = 'Keine Gruppendaten';
@@ -253,22 +259,18 @@ $string['importerror21'] = 'Nicht erfassbar';
 $string['importerror22'] = 'Ungenaue Markierungen';
 $string['importerror23'] = 'Teilnehmer/in nicht in Liste';
 $string['importerror24'] = 'Liste nicht erfasst';
-$string['importforms'] = 'Antwortbögen importieren';
-$string['importfromto'] = 'Importiere {$a->from} bis {$a->to} von {$a->total}';
-$string['importisfinished'] = 'Der Import für den Offline-Test {$a} ist beendet.';
+$string['importforms'] = 'Antwortbögen hochladen';
+$string['importfromto'] = 'Werte {$a->from} bis {$a->to} von {$a->total} aus';
+$string['importisfinished'] = 'Die Auswertung für den Offline-Test {$a} ist beendet.';
 $string['importlinkresults'] = 'Link zu den Ergebnissen: {$a}';
 $string['importlinkverify'] = 'Link zur Überprüfung: {$a}';
-$string['importmailsubject'] = 'Offline-Test Importbenachrichtigung';
-$string['importnew'] = 'Importieren';
-$string['importnew_help'] = '<p>
-Sie können entweder mehrere eingescannte Bilddateien in einer ZIP-Datei
-oder einzelne Bilddateien importieren. Das Offline-Test Modul wird die Bilder im Hintergrund automatisch auswerten.
-Die Namen der Bilddateien sollten keine Sonderzeichen (Umlaute etc.) enthalten. Die Bilder müssen als GIF-,
-PNG- oder TIF-Datei vorliegen. Eine Punktdichte zwischen 200 und 300 DPI wird empfohlen.</p>';
+$string['importmailsubject'] = 'Offline-Test Auswertungsbenachrichtigung';
+$string['importnew'] = 'Auswerten';
+$string['importnew_help'] = '<p> Sie können entweder mehrere eingescannte Bilddateien in einer ZIP-Datei oder einzelne Bilddateien hochladen. Das Offline-Test Modul wird die Bilder im Hintergrund automatisch auswerten. Die Namen der Bilddateien sollten keine Sonderzeichen (Umlaute etc.) enthalten. Die Bilder müssen als GIF-, PNG- oder TIF-Datei vorliegen. Eine Punktdichte zwischen 200 und 300 DPI wird empfohlen.</p>';
 $string['importnumberexisting'] = 'Duplikate: {$a}';
-$string['importnumberpages'] = 'Anzahl der erfolgreich importierten Bögen: {$a}';
-$string['importnumberresults'] = 'Anzahl der erfolgreich importierten Bögen: {$a}';
-$string['importnumberverify'] = 'Bögen, die nicht importiert wurden: {$a}';
+$string['importnumberpages'] = 'Anzahl der erfolgreich ausgewerteten Bögen: {$a}';
+$string['importnumberresults'] = 'Anzahl der erfolgreich ausgewerteten Bögen: {$a}';
+$string['importnumberverify'] = 'Bögen, die nicht ausgewertet wurden: {$a}';
 $string['importtimefinish'] = 'Endzeit der Auswertung: {$a}';
 $string['importtimestart'] = 'Beginnzeit der Auswertung: {$a}';
 $string['inconsistentdata'] = 'Unstimmige Eingabedaten: {$a}';
@@ -312,9 +314,8 @@ $string['missinglogdata'] = 'Logdaten für existierendes Ergebnis fehlen.';
 $string['missingquestion'] = 'Diese Frage scheint nicht mehr zu existieren';
 $string['missinguserid'] = 'Identifikationsnummer fehlt! Barcode konnte nicht gelesen werden!';
 $string['modulename'] = 'Offline-Test';
-$string['modulename_help'] = 'Dieses Modul erlaubt die Erstellung von Fragebogen-Tests mit Multiple-Choice-Fragen.
-Die Fragen werden in der Moodle-Fragendatenbank gespeichert und können in anderen Offline- und Online-Tests wiederverwendet werden.
-Das Modul erstellt Frage- und Antwortbögen, die als PDF-, DOCX- oder LaTeX-Dateien heruntergeladen werden können. Auf den ausgedruckten Antwortbögen werden die Antworten von den Teilnehmer/innen angekreuzt.';
+$string['modulename_help'] = 'Dieses Modul erlaubt die Erstellung von Fragebogen-Tests mit Multiple-Choice-Fragen. Die Fragen werden in der Moodle-Fragendatenbank gespeichert und können in anderen Offline- und Online-Tests wiederverwendet werden. Das Modul erstellt Frage- und Antwortbögen, die als PDF-, DOCX- oder LaTeX-Dateien heruntergeladen werden können. Auf den ausgedruckten Antwortbögen werden die Antworten von den Teilnehmer/innen angekreuzt.
+Die Antwortbögen werden anschließend eingescannt, im Offline-Test hochgeladen und die markierten Antworten ausgewertet.';
 $string['modulenameplural'] = 'Offline-Tests';
 $string['moodleprocessing'] = 'Belege durch Moodle auswerten';
 $string['movecorners'] = 'Ziehen Sie die Eckmarkierungen per Drag-and-Drop zunächst in die richtige Position.';
@@ -330,14 +331,14 @@ Die aufgrund dieses Fehlers notwendige händische Nachbearbeitung verzögerte di
 $string['newgrade'] = 'Bewertet';
 $string['newpage'] = 'Seitenumbruch';
 $string['noattemptexists'] = 'Keine Ergebnisse vorhanden';
-$string['noattempts'] = 'Keine Ergebnisse importiert!';
+$string['noattempts'] = 'Keine Ergebnisse vorhanden!';
 $string['noattemptsonly'] = 'Nur Teilnehmer/innen ohne Ergebnis anzeigen';
 $string['nocourse'] = 'Der Kurs mit ID {$a->course}, zu dem der Offline-Test mit der ID {$a->offlinequiz} gehört, fehlt.';
 $string['nogradesseelater'] = 'Es sind keine Ergebnisse für {$a} vorhanden bzw. die Ergebniseinsicht ist nicht frei geschaltet.';
 $string['nogroupdata'] = 'Keine Gruppenvorlage für {$a}';
 $string['nomcquestions'] = 'Es gibt keine MC-Fragen in Gruppe {$a}!';
 $string['noofflinequiz'] = 'Es gibt keinen Offline-Test mit ID {$a}!';
-$string['nopages'] = 'Keine Seite importiert';
+$string['nopages'] = 'Keine Seite ausgewertet';
 $string['noparticipantsfound'] = 'Keine Teilnehmer/innen gefunden';
 $string['nopdfscreated'] = 'Formulare wurden noch nicht erstellt!';
 $string['noquestions'] = 'Einige Offline-Test-Gruppen enthalten keine Fragen. Bitte fügen Sie Fragen hinzu.';
@@ -349,15 +350,16 @@ $string['noreview'] = 'Sie dürfen diesen Offline-Test nicht einsehen';
 $string['noscannedpage'] = 'Es gibt keine gescannte Seite mit ID {$a}!';
 $string['notagselected'] = 'Kein Tag ausgewählt';
 $string['nothingtodo'] = 'Die Warteschlange ist leer!';
+$string['notonattendancelist'] = 'Nicht auf Anwesenheitsliste:';
 $string['notxtfile'] = 'Keine TXT- bzw. CSV-Datei';
 $string['notyetgraded'] = 'Noch nicht bewertet';
 $string['nozipfile'] = 'Keine ZIP-Datei';
-$string['numattempts'] = 'Anzahl der importierten Ergebnisse: {$a}';
+$string['numattempts'] = 'Anzahl der ausgewerteten Ergebnisse: {$a}';
 $string['numattemptsqueue'] = '{$a} Bögen zur Warteschlange hinzugefügt. Nach der Auswertung werden Sie per Email verständigt.';
 $string['numattemptsverify'] = 'Zu überprüfende Bögen: {$a}';
 $string['numberformat'] = 'Der Wert muss eine Zahl mit {$a} Stellen sein!';
 $string['numbergroups'] = 'Gruppenzahl';
-$string['numpages'] = '{$a} Seite(n) importiert';
+$string['numpages'] = '{$a} Seite(n) ausgewertet';
 $string['numquestionsx'] = 'Fragen: {$a}';
 $string['numusersadded'] = '{$a} Teilnehmer/innen hinzugefügt';
 $string['odsformat'] = 'OpenDocument Tabelle (ODS)';
@@ -374,6 +376,7 @@ $string['offlinequiz:view'] = 'Test-Informationen sehen';
 $string['offlinequiz:viewreports'] = 'Test-Berichte sehen';
 $string['offlinequizcloses'] = 'Offline-Test schließt';
 $string['offlinequizcloseson'] = 'Die Einsicht für diesen Offline-Test endet am {$a}';
+$string['offlinequizcontent'] = 'Offline-Testinhalt';
 $string['offlinequizisclosed'] = 'Offline-Test geschlossen';
 $string['offlinequizisclosedwillopen'] = 'Offline-Test geschlossen (öffnet am {$a})';
 $string['offlinequizisopen'] = 'Offline-Test offen';
@@ -393,19 +396,19 @@ Um die Reihenfolge der Fragen zu ändern, ändern Sie die Zahlen und klicken Sie
 Um Seitenumbrüche nach bestimmten Fragen einzufügen, klicken Sie auf das Kontrollfeld \'Seitenumbrüche hinter den ausgewählten Fragen hinzufügen\'.
 Um Fragen über eine Reihe von Seiten anzuordnen, klicken Sie auf das Kontrollfeld  \'Neuer Seitenumbruch...\' und wählen Sie die gewünschte Anzahl von Fragen pro Seite.';
 $string['orderingofflinequiz'] = 'Reihenfolge und Seitenumbrüche';
-$string['otherresultexists'] = 'Ein abweichendes Ergebnis für {$a} existiert bereits. Import ignoriert! Löschen Sie das Ergebnis zuerst.';
+$string['otherresultexists'] = 'Ein abweichendes Ergebnis für {$a} existiert bereits. Auswertung ignoriert! Löschen Sie zuerst das Ergebnis.';
 $string['outof'] = '{$a->grade} von maximal {$a->maxgrade}';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Generelles Feedback';
-$string['overview'] = 'Übersicht';
+$string['overview'] = 'Test-Informationen';
 $string['overviewdownload_help'] = 'Download-Übersicht';
 $string['page-mod-offlinequiz-edit'] = 'Offline-Test Bearbeiten-Seite';
 $string['page-mod-offlinequiz-x'] = 'Jede Offline-Test-Seite';
-$string['pagecorrected'] = 'Korrigierter Bogen der Anwesenheitsliste importiert';
+$string['pagecorrected'] = 'Korrigierter Bogen der Anwesenheitsliste ausgewertet';
 $string['pageevaluationtask'] = 'Evaluierung der Antwortbögen im Offlinequiz-Plugin';
-$string['pageimported'] = 'Bogen der Anwesenheitsliste importiert';
+$string['pageimported'] = 'Bogen der Anwesenheitsliste ausgewertet';
 $string['pagenotdetected'] = 'Barcode für Zuordnung der Seite nicht erfassbar!';
-$string['pagenumberimported'] = 'Bogen {$a} der Anwesenheitsliste importiert';
+$string['pagenumberimported'] = 'Bogen {$a} der Anwesenheitsliste ausgewertet';
 $string['pagenumberupdate'] = 'Aktualisierung der Seitenzahlen';
 $string['pagesizeparts'] = 'Einträge pro Seite:';
 $string['papergray'] = 'Weißwert des Papiers';
@@ -426,15 +429,11 @@ Sie eine Gruppenanmeldung verwenden wollen.</p>
 mit Kreuzen, ähnlich wie die Antworten auf dem Antwortbogen. Die Listen werden hochgeladen und das Programm speichert
 in der Datenbank, wer als anwesend markiert ist. Bitte vermeiden Sie Verschmutzungen im Bereich der Barcodes, da
 diese der Identifikation der Teilnehmer/innen dienen.</p>';
-$string['participantsinlists'] = 'Teilnehmer/innen in Anwesenheitslisten';
+$string['participantsinlists'] = 'Teilnehmer/innen';
 $string['participantslist'] = 'Anwesenheitsliste';
 $string['participantslists'] = 'Anwesenheitslisten';
-$string['partimportnew'] = 'Importieren von Anwesenheitslisten';
-$string['partimportnew_help'] = '<p> Hier können Sie die ausgefüllten Anwesenheitslisten importieren.
-Sie können entweder mehrere eingescannte Bilddateien in einer ZIP-Datei
-oder einzelne Bilddateien importieren. Das Offline-Test Modul wird die Bilder im Hintergrund automatisch auswerten.
-Die Namen der Bilddateien sollten keine Sonderzeichen (Umlaute etc.) enthalten. Die Bilder müssen als GIF-,
-PNG- oder TIF-Datei vorliegen. Eine Punktdichte zwischen 200 und 300 DPI wird empfohlen.</p>';
+$string['partimportnew'] = 'Auswerten von Anwesenheitslisten';
+$string['partimportnew_help'] = '<p> Hier können Sie die ausgefüllten Anwesenheitslisten der Teilnehmer/innen hochladen und auswerten. Sie können entweder mehrere eingescannte Bilddateien in einer ZIP-Datei oder einzelne Bilddateien hochladen. Das Offline-Test Modul wird die Bilder im Hintergrund automatisch auswerten. Die Namen der Bilddateien sollten keine Sonderzeichen (Umlaute etc.) enthalten. Die Bilder müssen als GIF-, PNG- oder TIF-Datei vorliegen. Eine Punktdichte zwischen 200 und 300 DPI wird empfohlen.</p>';
 $string['partuncheckedwithoutresult'] = '{$a} abwesende Teilnehmer/innen ohne Ergebnis';
 $string['partuncheckedwithresult'] = '<a href="{$a->url}">{$a->count} abwesende Teilnehmer/innen mit Ergebnis</a>';
 $string['pdfdeletedforgroup'] = 'Fragebogen für Gruppe {$a} gelöscht';
@@ -449,10 +448,11 @@ $string['pearlywhite'] = 'Perlweiß';
 $string['pluginadministration'] = 'Offline-Test-Administration';
 $string['pluginname'] = 'Offline-Test';
 $string['point'] = 'Punkt';
+$string['preparation'] = 'Vorbereitung';
 $string['present'] = 'Anwesend';
 $string['preventsamequestion'] = 'Doppelte Verwendung von Fragen verhindern';
 $string['preview'] = 'Vorschau';
-$string['previewforgroup'] = 'Vorschau für Gruppe {$a}';
+$string['previewforgroup'] = 'Gruppe {$a}';
 $string['previewquestion'] = 'Vorschau der Frage';
 $string['printstudycodefield'] = 'Studienkennzahlfeld auf Fragebogen drucken';
 $string['printstudycodefield_help'] = 'Hier können Sie festlegen, ob am Deckblatt des Fragebogens der Punkt Studienkennzahl abgefragt wird oder nicht.';
@@ -468,7 +468,7 @@ $string['privacy:metadata:offlinequiz:docscreated'] = 'Wenn Dokumente erstellt w
 $string['privacy:metadata:offlinequiz:fileformat'] = 'Das Dateiformat, in welchem Fragebögen erstellt werden, 0 für PDF, 1 für DOCX, 2 für LaTeX.';
 $string['privacy:metadata:offlinequiz:fontsize'] = 'Die Schriftgröße in Fragebögen.';
 $string['privacy:metadata:offlinequiz:grade'] = 'Die Bewertung zeigt die Maximalpunktezahl die bei diesem Test erreicht werden kann.';
-$string['privacy:metadata:offlinequiz:id_digits'] = 'Speichert die Anzahl von Stellen der ID-Nummern, als die Antwortbögen erstellt wurden. Diese Information wird zur Abwärts-Kompatibilität mit früheren Versionen benötigt, wenn die Anzahl von Stellen im Zeitraum zwischen der Erstellung und dem Import der Antwortbögen erhöht wurde.';
+$string['privacy:metadata:offlinequiz:id_digits'] = 'Speichert die Anzahl von Stellen der ID-Nummern, als die Antwortbögen erstellt wurden. Diese Information wird zur Abwärts-Kompatibilität mit früheren Versionen benötigt, wenn die Anzahl von Stellen im Zeitraum zwischen der Erstellung und der Auswertung der Antwortbögen erhöht wurde.';
 $string['privacy:metadata:offlinequiz:introformat'] = 'Dieses Feld ist nicht in Verwendung.';
 $string['privacy:metadata:offlinequiz:name'] = 'Die Spalte \'name\' speichert den Namen des Offlinetests.';
 $string['privacy:metadata:offlinequiz:numgroups'] = 'Die Zahl an Gruppen dieses Offlinetests.';
@@ -533,10 +533,10 @@ $string['privacy:metadata:offlinequiz_participants:checked'] = 'Die Information 
 $string['privacy:metadata:offlinequiz_participants:listid'] = 'Die ID der Liste auf der diese Person ist.';
 $string['privacy:metadata:offlinequiz_participants:userid'] = 'Die Nutzer-ID der Person.';
 $string['privacy:metadata:offlinequiz_queue'] = 'Diese Tabelle speichert eine Warteschlange von Uploads. Für jeden Upload ist ein eigenes Objekt in dieser Tabelle.';
-$string['privacy:metadata:offlinequiz_queue:importuserid'] = 'Die Nutzer-ID der Trainerin/ des Trainers, der diese Dateien importiert hat.';
+$string['privacy:metadata:offlinequiz_queue:importuserid'] = 'Die Nutzer-ID der Trainerin/ des Trainers, der diese Dateien hochgeladen hat.';
 $string['privacy:metadata:offlinequiz_queue:offlinequizid'] = 'Die Offlinetest-ID der der Warteschlange.';
 $string['privacy:metadata:offlinequiz_queue:status'] = 'Der Status der Warteschlange, die benötigt wird.';
-$string['privacy:metadata:offlinequiz_queue:timecreated'] = 'Der Zeitpunkt, an welchem die Offlinetest-Bögen importiert wurden.';
+$string['privacy:metadata:offlinequiz_queue:timecreated'] = 'Der Zeitpunkt, an welchem die Offlinetest-Bögen ausgewertet wurden.';
 $string['privacy:metadata:offlinequiz_queue:timefinish'] = 'Der Zeitpunkt, an welchem die Auswertung der Warteschlange beendet wurden.';
 $string['privacy:metadata:offlinequiz_queue:timestart'] = 'Der Zeitpunkt, an welchem die Auswertung der Warteschlange gestartet wurden.';
 $string['privacy:metadata:offlinequiz_queue_data'] = 'Diese Tabelle speichert Daten für die Warteschlange, alle Dateien in der Warteschlange erhalten ein Datenobjekt in der Warteschlange.';
@@ -573,8 +573,11 @@ $string['privacy:metadata:offlinequiz_scanned_pages:status'] = 'Der Status diese
 $string['privacy:metadata:offlinequiz_scanned_pages:time'] = 'Die Zeit, zu welcher die Seite verarbeitet wurde.';
 $string['privacy:metadata:offlinequiz_scanned_pages:userkey'] = 'Der Userkey (nicht User-ID) der auf der Seite angekreuzten Person.';
 $string['privacy:metadata:offlinequiz_scanned_pages:warningfilename'] = 'Der Dateiname der Datei, welche erstellt wird, wenn ein falsch angekreuzter Test korrigiert wird und die/ der User/in eine Warnmeldung darüber hält.';
-$string['questionanalysis'] = 'Schwierigkeitsübersicht';
+$string['question_created'] = 'Die Frage wurde erfolgreich erstellt';
+$string['question_updated'] = 'Die Frage wurde erfolgreich aktualisiert.';
+$string['questionanalysis'] = 'Fragenanalyse';
 $string['questionanalysistitle'] = 'Schwierigkeitsübersicht';
+$string['questionandansweranalysis'] = 'Fragen- und Antwortanalyse';
 $string['questionbankcontents'] = 'Die Frage-Reihe beinhaltet';
 $string['questionforms'] = 'Fragebögen';
 $string['questioninfoanswers'] = 'Anzahl der richtigen Antworten zeigen';
@@ -664,19 +667,30 @@ Matrikelnummer: & $\\underline{\\hspace*{8cm}}$\\\\[5mm]
 
 \\end{document}';
 $string['questionsin'] = 'Fragen in';
-$string['questionsingroup'] = 'Fragen in Gruppe';
+$string['questionsingroup'] = 'Gruppe';
 $string['questionsinthisofflinequiz'] = 'Fragen in diesem Offline-Test';
 $string['questiontextisempty'] = '[Kein Fragetext vorhanden]';
 $string['quizdate'] = 'Testdatum';
 $string['quizopenclose'] = 'Anfangs- und Endzeiten';
-$string['quizopenclose_help'] = 'Teilnehmer/innen können ihre Ergebnisse nur zwischen Anfangs- und Endzeit sehen.';
+$string['quizopenclose_help'] = 'Die Online-Prüfungseinsicht kann auf einen bestimmten Zeitraum eingegrenzt werden. Klicken Sie auf "Aktivieren", um Datum und Zeiteinstellungen zu ändern.
+
+**Achtung:** Ist kein Zeitraum für die Prüfungseinsicht aktiviert, ist die Prüfungseinsicht uneingeschränkt möglich, solange der Offline-Test für die Teilnehmer/innen eingeblendet ist.
+
+Angezeigt werden in allen Fällen nur die unter "Bericht enthält" angehakten Optionen.';
 $string['quizquestions'] = 'Test-Fragen';
+$string['qversioncannotupdate'] = 'Frage konnte nicht aktualisiert werden. Es wurde keine neue Version erstellt.';
+$string['qversionnumbersdiffer'] = 'Die Anzahl der Antworten der neuen Version unterscheidet sich von der vorherigen. Dieses würde zu Inkonsistenzen führen.';
+$string['qversionupdated'] = 'Frage aktualisiert. Es wurde eine neue Version erstellt.';
+$string['qversionupdatedwarning'] = 'Formulare wurden bereits mit einer anderen Version dieser Frage erstellt. Bitte überprüfen Sie, ob es wichtige Änderungen gab.';
+$string['qversionupdateerror'] = 'Beim Aktualisieren der Fragen-Version ist ein Fehler aufgetreten.';
 $string['randomfromexistingcategory'] = 'Zufällige Frage aus vorhandener Kategorie';
 $string['randomnumber'] = 'Anzahl der Fragen';
 $string['randomquestionusinganewcategory'] = 'Zufällige Frage aus neuer Kategorie';
 $string['readjust'] = 'Neu adjustieren';
 $string['reallydeletepdfs'] = 'Möchten Sie die Formulare wirklich löschen?';
 $string['reallydeleteupdatepdf'] = 'Möchten Sie die Anwesenheitsliste wirklich löschen und aktualisieren?';
+$string['recordupdateanddocscreated'] = 'Fragen wurden aktualisiert, aber die Formulare sind bereits erstellt. Die vorhergehende Version der Frage wird aktuell noch verwendet. Um die neue Version einzubinden, löschen Sie bitte die Formulare und ändern Sie die Version manuell.';
+$string['recordupdateanddocscreatedversion'] = 'Fragen wurden aktualisiert, aber die Formulare sind bereits erstellt. Bitte prüfen Sie, ob sich durch die Änderungen keine benotungsrelevanten Änderungen ergeben haben.';
 $string['recreatepdfs'] = 'PDF-Formulare neu erstellen';
 $string['recurse'] = 'Fragen aus Unterkategorien mit einbeziehen';
 $string['rediswrong'] = 'falsch angekreuzt oder fälschlich nicht angekreuzt';
@@ -703,8 +717,8 @@ $string['reportoverview'] = 'Übersicht';
 $string['reportstarts'] = 'Prüfungseinsicht beginnt';
 $string['resetofflinequizzes'] = 'Offline-Test-Daten zurücksetzen';
 $string['resultexists'] = 'Identisches Ergebnis für {$a} bereits vorhanden';
-$string['resultimport'] = 'Ergebnisse importieren';
-$string['results'] = 'Ergebnisse';
+$string['resultimport'] = 'Hochladen & Korrigieren';
+$string['results'] = 'Übersicht';
 $string['review'] = 'Bericht';
 $string['reviewbefore'] = 'Vorschau erlauben, während der Offline-Test noch geöffnet ist';
 $string['reviewclosed'] = 'Nachdem der Offline-Test beendet ist';
@@ -714,41 +728,28 @@ $string['reviewincludes'] = 'Bericht enthält';
 $string['reviewofresult'] = 'Ergebnis';
 $string['reviewopens'] = 'Prüfungseinsicht beginnt';
 $string['reviewoptions'] = 'Prüfungseinsicht';
-$string['reviewoptions_help'] = 'Diese Optionen regeln, welche Informationen Teilnehmer/innen bei der Prüfungseinsicht einsehen dürfen. Im Detail bedeuten die Optionen:
-<table>
-<tr><td style="vertical-align: top;"><b>Das Ergebnis</b></td><td>
-Teilnehmer/innen sehen Fragetexte, Antworttexte und welche Antworten sie angekreuzt haben.
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Ob richtig</b></td><td>
-Diese Option lässt sich nur anhaken, wenn auch "Das Ergebnis" ausgewählt ist und bewirkt, dass zusätzlich angezeigt wird,
- welche der angekreuzten Antwortalternativen richtig (grün hinterlegt) und welche falsch (rot hinterlegt) sind.
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Punktezahl</b></td><td>
-Angezeigt werden Gruppe (bspw. C), Punktezahl (erreichte Punktezahl, Summe der Punkte der Fragen des Tests, erreichte %  bspw. 40/80 (50%))
-und Bewertung (bspw. 50 von maximal 100). Ist zusätzlich die Option "Das Ergebnis" ausgewählt,
-werden auch für jede Frage die maximale Punktezahl und die erreichten Punkte angezeigt.
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Spezifisches Feedback</b></td><td>
-Spezifisches Feedback kann in MC-Fragen unter "Kombiniertes Feedback" festgelegt werden und wird eine/m Teilnehmer/in abhängig von seiner/ihrer Antwort auf eine Frage angezeigt.
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Allgemeines Feedback</b></td><td>
-<p>Das allgemeine Feedback wird bei der Prüfungseinsicht bei der jeweiligen Frage angezeigt, unabhängig von den gegebenen Antworten. Andere Feedbacks sind abhängig von der \'Richtigkeit\' der Antworten.</p><p></p><p>Allgemeines Feedback kann eingesetzt werden, um Hinweise zu geben. Links könnten zu weiteren Informationen führen, falls die Frage nicht verstanden wurde.</p>
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Richtige Antwort</b></td><td>
-Diese Option lässt sich nur anhaken, wenn auch "Das Ergebnis" ausgewählt ist und bewirkt, dass zusätzlich unter jeder Frage die Nummern der richtigen Antworten angezeigt werden
- (Bsp.: "Die richtige Antwort lautet: a, c").
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Scannerbeleg</b></td><td>
-Teilnehmer/innen sehen einen Link zum Scannerbeleg. Wenn dieser angeklickt wird, wird das eingescannte Antwortformular angezeigt.
+$string['reviewoptions_help'] = 'Diese Optionen regeln, welche Informationen Teilnehmer/innen bei der Prüfungseinsicht einsehen dürfen.
+Im Detail bedeuten die Optionen:
+
+**Das Ergebnis** - Teilnehmer/innen sehen Fragetexte, Antworttexte und welche Antworten sie angekreuzt haben.
+
+**Ob richtig** - Diese Option lässt sich nur anhaken, wenn auch "Das Ergebnis" ausgewählt ist und bewirkt, dass zusätzlich angezeigt wird,  welche der angekreuzten Antwortalternativen richtig (grün hinterlegt) und welche falsch (rot hinterlegt) sind.
+
+**Punktezahl** -  Angezeigt werden Gruppe (bspw. C), Punktezahl (erreichte Punktezahl, Summe der Punkte der Fragen des Tests, erreichte % bspw. 40/80 (50%))  und Bewertung (bspw. 50 von maximal 100). Ist zusätzlich die Option "Das Ergebnis" ausgewählt, werden auch für jede Frage die maximale Punktezahl und die erreichten Punkte angezeigt.
+
+**Spezifisches Feedback** - Spezifisches Feedback kann in MC-Fragen unter "Kombiniertes Feedback" festgelegt werden und wird eine/m Teilnehmer/in
+abhängig von seiner/ihrer Antwort auf eine Frage angezeigt.
+
+**Allgemeines Feedback** - Das allgemeine Feedback wird bei der Prüfungseinsicht bei der jeweiligen Frage angezeigt, unabhängig von den gegebenen Antworten. Andere Feedbacks sind abhängig von der \'Richtigkeit\' der Antworten. Allgemeines Feedback kann eingesetzt werden, um Hinweise zu geben. Links könnten zu weiteren Informationen führen, falls die Frage nicht verstanden wurde.
+
+**Richtige Antwort** - Diese Option lässt sich nur anhaken, wenn auch "Das Ergebnis" ausgewählt ist und bewirkt, dass zusätzlich unter jeder Frage
+die Nummern der richtigen Antworten angezeigt werden (Bsp.: "Die richtige Antwort lautet: a, c").
+
+**Scannerbeleg** - Teilnehmer/innen sehen einen Link zum Scannerbeleg. Wenn dieser angeklickt wird, wird das eingescannte Antwortformular angezeigt.
 Kästchen, die als Ankreuzungen gewertet wurden, sind grün umrandet.
-</td></tr>
-<tr><td style="vertical-align: top;"><b>Scannerbeleg mit Bewertung</b></td><td>
-Teilnehmer/innen sehen einen Link zum Scannerbeleg. Wenn dieser angeklickt wird, wird das eingescannte Formular angezeigt.
-Kästchen, die als Ankreuzungen gewertet wurden, sind grün umrandet.
-Zusätzlich sind alle Kästchen, die fälschlicherweise angekreuzt wurden und solche, die fälschlicherweise nicht angekreuzt sind, rot hinterlegt.
-Des Weiteren befindet sich am rechten Rand eine Auflistung der erreichten Punkte pro Frage.
-</td></tr>
-</table>';
+
+**Scannerbeleg mit Bewertung** - Teilnehmer/innen sehen einen Link zum Scannerbeleg. Wenn dieser angeklickt wird, wird das eingescannte Formular angezeigt. Kästchen, die als Ankreuzungen gewertet wurden, sind grün umrandet. Zusätzlich sind alle Kästchen, die fälschlicherweise angekreuzt wurden und solche,
+die fälschlicherweise nicht angekreuzt sind, rot hinterlegt. Des Weiteren befindet sich am rechten Rand eine Auflistung der erreichten Punkte pro Frage.';
 $string['reviewoptionsheading'] = 'Einstellungen für die Prüfungseinsicht';
 $string['rimport'] = 'Hochladen/Korrigieren';
 $string['rotate'] = 'Drehen';
@@ -816,6 +817,27 @@ $string['statistics'] = 'Statistik';
 $string['statisticsplural'] = 'Statistiken';
 $string['statsoverview'] = 'Statistik-Übersicht';
 $string['studycode'] = 'Studienkennzahl';
+$string['tabattendances'] = 'Anwesenheiten';
+$string['tabattendancesoverview'] = 'Übersicht';
+$string['tabdownloadparticipantsforms'] = 'Formulare';
+$string['tabdownloadquizforms'] = 'Formulare';
+$string['tabeditgrades'] = 'Bewertungen';
+$string['tabeditgroupquestions'] = 'Fragen';
+$string['tabeditparticipants'] = 'Teilnehmer/innen';
+$string['tabofflinequizcontent'] = 'Vorbereitung';
+$string['tabofflinequizcorrect'] = 'Korrigieren';
+$string['tabofflinequizupload'] = 'Hochladen & Korrigieren';
+$string['tabparticipantlists'] = 'Anwesenheitslisten';
+$string['tabparticipantscorrect'] = 'Korrigieren';
+$string['tabparticipantsupload'] = 'Hochladen & Korrigieren';
+$string['tabpreview'] = 'Vorschau';
+$string['tabquestionandanswerstats'] = 'Fragen- und Antwortanalyse';
+$string['tabquestionstats'] = 'Fragenanalyse';
+$string['tabregrade'] = 'Neubewertung';
+$string['tabresults'] = 'Ergebnisse';
+$string['tabresultsoverview'] = 'Übersicht';
+$string['tabstatistics'] = 'Statistik';
+$string['tabstatsoverview'] = 'Test-Informationen';
 $string['temporaryfiledeletiontask'] = 'Löschen von temporären Dateien';
 $string['theattempt'] = 'Das Ergebnis';
 $string['timesup'] = 'Zeit wurde überschritten!';
@@ -830,8 +852,8 @@ $string['updatedsumgrades'] = 'Maximale Punktezahl der Gruppe {$a->letter} neu b
 $string['upgradingfilenames'] = 'Dateinamen der Dokumente werden migriert: Offline-Test {$a->done}/{$a->outof} (Offline-Test ID {$a->info})';
 $string['upgradingilogs'] = 'Hochgeladene Antwortbögen werden migriert: Offline Test {$a->done}/{$a->outof} (Offline Test ID {$a->info})';
 $string['upgradingofflinequizattempts'] = 'Offline Test Ergebnisse werden migriert: Offline Test {$a->done}/{$a->outof} (Offline Test ID {$a->info})';
-$string['upload'] = 'Hochladen/Korrigieren';
-$string['uploadpart'] = 'Anwesenheitslisten: hochladen/korrigieren';
+$string['upload'] = 'Hochladen & Korrigieren';
+$string['uploadpart'] = 'Hochladen & Korrigieren';
 $string['uppertrigger'] = 'Oberer Grenzwert';
 $string['uppertriggerzero'] = 'Oberer Grenzwert ist null';
 $string['upperwarning'] = 'Oberer Warnwert';
@@ -840,15 +862,16 @@ $string['useradded'] = 'Teilnehmer/in {$a} hinzugefügt';
 $string['userdoesnotexist'] = 'Teilnehmer/in {$a}';
 $string['useridentification'] = 'Teilnehmeridentifikation';
 $string['useridviolation'] = 'Mehrere Nutzer/innen gefunden';
-$string['userimported'] = 'Teilnehmer/in {$a} importiert und benotet';
+$string['userimported'] = 'Teilnehmer/in {$a} ausgewertet und benotet';
 $string['usernotincourse'] = 'Teilnehmer/in {$a} nicht im Kurs.';
 $string['usernotinlist'] = 'Teilnehmer/in nicht in Liste registriert!';
 $string['usernotregistered'] = 'Teilnehmer/in {$a} nicht im Kurs registriert';
-$string['userpageimported'] = 'Einzelseite importiert für Teilnehmer/in {$a}';
+$string['userpageimported'] = 'Einzelseite ausgewertet für Teilnehmer/in {$a}';
+$string['userswithoutresult'] = 'Teilnehmer/innen ohne Ergebnis:';
 $string['valuezero'] = 'Wert darf nicht null sein';
 $string['viewresults'] = 'Ergebnisse ansehen';
 $string['white'] = 'Weiß';
 $string['withselected'] = 'Ausgewählte...';
 $string['zerogradewarning'] = 'Hinweis: Die beste Bewertung für den Offline-Test beträgt 0 Punkte!';
 $string['zipfile'] = 'ZIP-Datei';
-$string['zipok'] = 'ZIP-Datei importieren';
+$string['zipok'] = 'ZIP-Datei hochladen';

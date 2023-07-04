@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'ur', version '3.11'.
+ * Strings for component 'cache', language 'ur', version '4.1'.
  *
  * @package     cache
  * @category    string
@@ -155,8 +155,6 @@ $string['pluginsummaries'] = 'انسٹال شدہ کیش اسٹورز';
 $string['privacy:metadata:cachestore'] = 'Cache ذیلی نظام Moodle کے دوسرے حصوں کی جانب سے ڈیٹا کو عارضی طور پر اسٹور کرتا ہے۔ یہ ڈیٹا آسانی سے قابل شناخت نہیں ہے، اور یہ بہت ہی مختصر مدت کا ہے۔ یہ Moodle میں کہیں اور ذخیرہ شدہ ڈیٹا کے کیش کے طور پر کام کرتا ہے، اور اس لیے پہلے سے ہی ان Moodle اجزاء کے ذریعے ہینڈل کیا جانا چاہیے۔';
 $string['purge'] = 'صاف کرنا';
 $string['purgeagain'] = 'دوبارہ صاف کریں';
-$string['purgedefinitionsuccess'] = 'مطلوبہ تعریف کو کامیابی کے ساتھ صاف کر دیا گیا۔';
-$string['purgestoresuccess'] = 'درخواست کردہ اسٹور کو کامیابی کے ساتھ صاف کیا گیا۔';
 $string['purgexdefinitionsuccess'] = '"{$a->name}" کیشے ({$a->component}/{$a->area}) کو کامیابی کے ساتھ صاف کیا گیا۔';
 $string['purgexstoresuccess'] = '"{$a->store}" اسٹور کو کامیابی کے ساتھ صاف کیا گیا۔';
 $string['requestcount'] = '{$a} درخواستوں کے ساتھ ٹیسٹ کریں';

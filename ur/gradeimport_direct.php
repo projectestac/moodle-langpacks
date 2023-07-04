@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_direct', language 'ur', version '3.11'.
+ * Strings for component 'gradeimport_direct', language 'ur', version '4.1'.
  *
  * @package     gradeimport_direct
  * @category    string
@@ -30,3 +30,4 @@ $string['pluginname'] = 'اسپریڈشیٹ سے پیسٹ کریں';
 $string['privacy:metadata'] = 'کاپی شدہ اسپریڈ شیڈ پلگ ان سے درآمدی درجات کوئی ذاتی ڈیٹا محفوظ نہیں کرتے ہیں۔';
 $string['userdata'] = 'اس فارم میں ڈیٹا کاپی کرنے میں مدد کریں۔';
 $string['userdata_help'] = 'گریڈز کو اسپریڈ شیٹ سے گریڈ بک میں کاپی اور پیسٹ کیا جا سکتا ہے۔ اسپریڈشیٹ میں صارف کی شناخت کے ڈیٹا پر مشتمل ایک کالم ہونا چاہیے - یا تو صارف نام یا آئی ڈی نمبر یا ای میل پتہ۔ درآمد کے لیے ہر کالم میں ایک کالم ہیڈر ہونا چاہیے۔';
+$string['userdata_link'] = 'grade/import/direct/index';

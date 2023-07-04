@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'offlinequiz', language 'ru', version '3.11'.
+ * Strings for component 'offlinequiz', language 'ru', version '4.1'.
  *
  * @package     offlinequiz
  * @category    string
@@ -228,7 +228,6 @@ $string['gradingoptionsheading'] = 'Опции оценки.';
 $string['greeniscross'] = 'засчитано как крестик';
 $string['group'] = 'Группа';
 $string['groupoutofrange'] = 'Группа была вне диапазона и заменена группой А.';
-$string['groupquestions'] = 'Группа вопросов';
 $string['hasresult'] = 'Результат существует';
 $string['hotspotdeletiontask'] = 'Удаление точки доступа';
 $string['html'] = 'HTML';

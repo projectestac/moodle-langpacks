@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'pt', version '3.11'.
+ * Strings for component 'auth', language 'pt', version '4.1'.
  *
  * @package     auth
  * @category    string
@@ -38,7 +38,7 @@ $string['auth_changingemailaddress'] = 'Foi pedida uma alteração do e-mail  {$
 $string['auth_common_settings'] = 'Configurações comuns';
 $string['auth_data_mapping'] = 'Mapeamento de dados';
 $string['auth_fieldlock'] = 'Bloquear valor';
-$string['auth_fieldlock_expl'] = '<p><b>Valor bloqueado:</b> Se ativo, irá prevenir que os utilizadores e administradores do Moodle editem um campo diretamente. Utilize esta opção se quiser manter os dados no sistema de autenticação externo. </p>';
+$string['auth_fieldlock_expl'] = '<p>Valor bloqueado: Se ativo, os utilizadores não poderão editar o campo. Utilize esta opção se pretende manter os dados no sistema de autenticação externo.</p>';
 $string['auth_fieldlockfield'] = 'Bloquear valor ({$a})';
 $string['auth_fieldlocks'] = 'Bloquear campos de utilizador';
 $string['auth_fieldlocks_help'] = '<p>Pode bloquear campos de perfil dos utilizadores. Esta configuração é útil para sites onde os dados dos utilizadores são mantidos manualmente pelos administradores, editando os registos dos utilizadores ou fazendo o carregamento utilizando a ferramenta \'Carregar utilizadores\'. Se está a bloquear campos requeridos pelo Moodle, certifique-se que fornece esses dados ao criar contas de utilizadores, caso contrário, as contas não serão válidas.</p><p>Pondere a utilização do modo de bloqueio \'Desbloquear se vazio\' para evitar este problema.</p>';

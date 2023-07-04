@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ur', version '3.11'.
+ * Strings for component 'message', language 'ur', version '4.1'.
  *
  * @package     message
  * @category    string
@@ -41,7 +41,6 @@ $string['blocknoncontacts'] = 'غیر رابطوں کو مجھے میسج کرن
 $string['blockuser'] = 'صارف بلاک کریں';
 $string['blockuserconfirm'] = 'کیا آپ واقعی {$a} کو بلاک کرنا چاہتے ہیں؟';
 $string['blockuserconfirmbutton'] = 'بلاک';
-$string['canceledit'] = 'پیغامات میں ترمیم کرنا منسوخ کریں';
 $string['cancelselection'] = 'پیغام کا انتخاب منسوخ کریں';
 $string['cantblockuser'] = 'آپ {$a} کو بلاک نہیں کر سکتے کیونکہ ان کے پاس تمام صارفین کو پیغام بھیجنے کی اجازت کے ساتھ ایک کردار ہے۔';
 $string['contactableprivacy'] = 'سے پیغامات قبول کریں:';
@@ -105,8 +104,6 @@ $string['loggedoffdescription'] = 'جب آپ Moodle میں لاگ ان نہیں 
 $string['managemessageoutputs'] = 'پہلے سے طے شدہ اطلاع کی ترجیحات';
 $string['message'] = 'پیغام';
 $string['messagecontactrequest'] = '{$a->user} رابطہ کے طور پر شامل کرنے کی درخواست کر رہا ہے۔ درخواست کا جواب دینے کے لیے اپنے <a href="{$a->url}">رابطہ کی درخواستوں</a> کا صفحہ دیکھیں';
-$string['messagecontactrequestsnotification'] = '{$a} رابطہ کے طور پر شامل کرنے کی درخواست کر رہا ہے۔';
-$string['messagecontactrequestsnotificationsubject'] = '{$a} سے رابطہ کی درخواست';
 $string['messagecontactrequestsubject'] = '{$a->sitename}: {$a->user} سے رابطہ کی درخواست';
 $string['messagecontentaudio'] = 'آڈیو';
 $string['messagecontentimage'] = 'تصویر';
@@ -137,7 +134,6 @@ $string['nofavourites'] = 'کوئی ستارہ کا نشان والی گفتگو
 $string['noframesjs'] = 'زیادہ قابل رسائی انٹرفیس استعمال کریں';
 $string['nogroupconversations'] = 'کوئی گروپ بات چیت نہیں ہے';
 $string['noindividualconversations'] = 'کوئی نجی بات چیت نہیں ہے';
-$string['nomessages'] = 'کوئی پیغامات نہیں';
 $string['nomessagesfound'] = 'کوئی پیغامات نہیں ملے';
 $string['noncontacts'] = 'غیر رابطہ';
 $string['nonotifications'] = 'آپ کے پاس کوئی نوٹیفکیشن نہیں ہے';
@@ -156,11 +152,7 @@ $string['offline'] = 'آف لائن';
 $string['on'] = 'آن';
 $string['online'] = 'آن لائن';
 $string['otherparticipants'] = 'دیگر شرکاء';
-$string['outputdisabled'] = 'آؤٹ پٹ غیر فعال ہے';
-$string['outputdoesnotexist'] = 'پیغام آؤٹ پٹ موجود نہیں ہے';
-$string['outputenabled'] = 'آؤٹ پٹ فعال ہے';
 $string['outputnotavailable'] = 'دستیاب نہیں ہے';
-$string['outputnotconfigured'] = 'کنفیگر نہیں ہے';
 $string['page-message-x'] = 'کسی بھی پیغام کے صفحات';
 $string['participants'] = 'شرکاء';
 $string['pendingcontactrequests'] = 'رابطے کی {$a} درخواستیں زیر التواء ہیں';

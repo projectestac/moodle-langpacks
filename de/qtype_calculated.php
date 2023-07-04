@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'de', version '3.11'.
+ * Strings for component 'qtype_calculated', language 'de', version '4.1'.
  *
  * @package     qtype_calculated
  * @category    string
@@ -55,6 +55,7 @@ $string['deletelastitem'] = 'Letztes Objekt löschen';
 $string['distributionoption'] = 'Distributions-Option auswählen';
 $string['editdatasets'] = 'Datensatz für Ersatzzeichen bearbeiten';
 $string['editdatasets_help'] = 'Ein Datensatz für die Ersatzzeichen kann erstellt werden, indem jeweils eine Zahl in die Ersatzzeichenfelder eingetragen und anschließend die Taste \'Hinzufügen\' gedrückt wird. Um automatisch 10 oder mehr Datensätze zu erstellen, wählen Sie die Anzahl der Datensätze aus, bevor Sie die Taste drücken. Eine einfache Verteilung erzeugt die Werte gleichmäßig verteilt zwischen den vorgegebenen Grenzen, eine logarithmische Verteilung bevorzugt Werte in der Nähe der unteren Grenze.';
+$string['editdatasets_link'] = 'question/type/calculated';
 $string['existingcategory1'] = 'wird einen bereits existierenden gemeinsamen Datensatz verwenden';
 $string['existingcategory2'] = 'eine bestehende Datei, die auch von anderen Fragen in dieser Kategorie genutzt wird';
 $string['existingcategory3'] = 'ein bestehender Link, der auch von anderen Fragen in dieser Kategorie genutzt wird ';
@@ -111,6 +112,7 @@ $string['param'] = 'Parameter {<strong>{$a}</strong>}';
 $string['partiallycorrectfeedback'] = 'Für jede teilweise richtige Antwort';
 $string['pluginname'] = 'Berechnet';
 $string['pluginname_help'] = 'Berechnete Multiple-Choice-Fragen entsprechen normalen Multiple-Choice-Fragen, können aber im Gegensatz zu diesen Ersatzzeichen (Wildcards) in geschweiften Klammern enthalten, welche dann bei der Durchführung des Tests durch vordefinierte Werte ersetzt werden. Beispiel: Auf die Frage "Welche Fläche hat ein Rechteck mit der Länge {l} und der Breite {b}?" wäre "{={l}*{b}}" eine Antwortmöglichkeit (das Sternchen (*) steht für die Multiplikation).';
+$string['pluginname_link'] = 'question/type/calculated';
 $string['pluginnameadding'] = 'Eine berechnete Frage hinzufügen';
 $string['pluginnameediting'] = 'Berechnete Frage ändern';
 $string['pluginnamesummary'] = 'Berechnete Fragen ähneln numerischen Fragen. Die Zahlen werden jedoch zufällig beim Start des Tests gewählt.';

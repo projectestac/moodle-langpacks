@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'ur', version '3.11'.
+ * Strings for component 'gradeimport_xml', language 'ur', version '4.1'.
  *
  * @package     gradeimport_xml
  * @category    string
@@ -37,6 +37,7 @@ $string['fileurl'] = 'ریموٹ فائل یو آر ایل';
 $string['fileurl_help'] = 'ریموٹ فائل یو آر ایل فیلڈ ریموٹ سرور سے ڈیٹا حاصل کرنے کے لیے ہے، جیسے کہ طالب علم کی معلومات کا نظام۔';
 $string['importxml'] = 'XML درآمد';
 $string['importxml_help'] = 'گریڈز کو ایک XML فائل کے ذریعے درآمد کیا جا سکتا ہے جس میں صارف آئی ڈی نمبر اور سرگرمی آئی ڈی نمبر شامل ہوں۔ درست فارمیٹ حاصل کرنے کے لیے، پہلے XML فائل میں کچھ گریڈ ایکسپورٹ کریں پھر فائل دیکھیں۔';
+$string['importxml_link'] = 'grade/import/xml/index';
 $string['pluginname'] = 'XML فائل';
 $string['privacy:metadata'] = 'XML پلگ ان سے درآمدی درجات کوئی ذاتی ڈیٹا محفوظ نہیں کرتے ہیں۔';
 $string['xml:publish'] = 'XML سے درآمدی درجات شائع کریں';

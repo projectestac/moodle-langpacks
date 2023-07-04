@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_massaction', language 'ru', version '3.11'.
+ * Strings for component 'block_massaction', language 'ru', version '4.1'.
  *
  * @package     block_massaction
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['action_contentchangednotification'] = 'Отправить уведомление об изменении контента';
 $string['action_delete'] = 'Удалить';
 $string['action_duplicate'] = 'Дублировать';
 $string['action_duplicatetocourse'] = 'Дублировать в другой курс';
@@ -58,7 +59,10 @@ $string['invalidcoursemodule'] = 'Неправильный модуль курс
 $string['invalidmoduleid'] = 'Неправильный ID модуля: {$a}';
 $string['jsonerror'] = 'Ошибка кодирования: Некорректный формат JSON';
 $string['keepsectionnum'] = 'Сохранить первоначальный номер раздела';
+$string['limittoenrolled'] = 'Ограничить список целевых курсов теми курсами, в которые записан пользователь';
+$string['limittoenrolled_description'] = 'Если включено, выбор курса для функции «Дублировать в другой курс» будет ограничен курсами, в которые записан пользователь. Включение этого параметра рекомендуется для серверов с большим количеством курсов, поскольку отсутствие ограничения числа курсов может привести к проблемам с производительностью и таймаутам. Отключайте эту настройку на свой страх и риск.';
 $string['massaction:addinstance'] = 'Добавлять новый блок «Массовые действия»';
+$string['massaction:sendcontentchangednotifications'] = 'Отправлять уведомления об изменении контента';
 $string['massaction:use'] = 'Использовать блок «Массовые действия»';
 $string['modulename'] = 'Название элемента курса';
 $string['moduletype'] = 'Тип элемента курса';

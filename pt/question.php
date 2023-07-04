@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'pt', version '3.11'.
+ * Strings for component 'question', language 'pt', version '4.1'.
  *
  * @package     question
  * @category    string
@@ -35,6 +35,7 @@ $string['alltries'] = 'Todas as tentativas';
 $string['answer'] = 'Resposta';
 $string['answers'] = 'Respostas';
 $string['answersaved'] = 'Resposta guardada';
+$string['answerx'] = 'Resposta {$a}';
 $string['attemptfinished'] = 'Tentativa terminada';
 $string['attemptfinishedsubmitting'] = 'A submeter a tentativa terminada: {$a}';
 $string['attemptoptions'] = 'Opções das tentativas';
@@ -69,6 +70,7 @@ $string['cannotmovequestion'] = 'Não pode usar este script para mover perguntas
 $string['cannotopenforwriting'] = 'Não é possível abrir para editar: {$a}';
 $string['cannotpreview'] = 'Não pode pré-visualizar estas perguntas!';
 $string['cannotread'] = 'Não é possível ler o ficheiro importado (ou está vazio)';
+$string['cannotregradedifferentqtype'] = 'Não é possível reavaliar com uma pergunta de um tipo diferente.';
 $string['cannotretrieveqcat'] = 'Não foi possível recuperar a categoria da pergunta';
 $string['cannotunhidequestion'] = 'Ocorreu um erro ao mostrar a pergunta';
 $string['cannotunzip'] = 'Não foi possível compactar o ficheiro.';
@@ -195,6 +197,8 @@ $string['exportquestions'] = 'Exportar perguntas para ficheiro';
 $string['exportquestions_help'] = 'Esta função permite a exportação total de uma categoria de perguntas (e todas as subcategorias). Tenha em atenção que, dependendo do formato de ficheiro selecionado, alguns dados e certos tipos de perguntas podem não ser exportados.';
 $string['exportquestions_link'] = 'pergunta/exportar';
 $string['feedback'] = 'Feedback';
+$string['fieldinquestion'] = '{$a->fieldname} {$a->questionindentifier}';
+$string['fieldinquestionpre'] = '{$a->questionindentifier} {$a->fieldname}';
 $string['filecantmovefrom'] = 'Os ficheiros das perguntas não podem ser movidos porque não tem permissão para apagar ficheiros do local de onde pretende mover as perguntas.';
 $string['filecantmoveto'] = 'Os ficheiros das perguntas não podem ser movidos porque não tem permissão para adicionar ficheiros no local para onde pretende mover as perguntas.';
 $string['fileformat'] = 'Formato do ficheiro';
@@ -223,6 +227,7 @@ $string['howquestionsbehave_help'] = 'Os alunos podem interagir com as perguntas
 Em alternativa, pode configurar de modo a que os alunos obtenham feedback imediato à medida que vão submetendo as respostas a cada pergunta, e se não acertarem, possam responder de novo (modo interativo com múltiplas tentativas).
 
 Estes são provavelmente os dois modos de comportamento mais usados.';
+$string['howquestionsbehave_link'] = 'question/behaviour';
 $string['idnumber'] = 'Número ID';
 $string['idnumber_help'] = 'Se usado, o número de identificação (ID) deve ser único dentro de cada categoria de perguntas. É outro modo de identificar uma pergunta, que às vezes é útil, mas geralmente pode ficar em branco.';
 $string['ignorebroken'] = 'Ignorar ligações quebradas';
@@ -290,7 +295,7 @@ $string['movedquestionsandcategories'] = 'As perguntas e categorias foram movida
 $string['movelinksonly'] = 'Alterar apenas o destino das hiperligações. Não mover nem copiar os ficheiros.';
 $string['moveq'] = 'Mover pergunta(s)';
 $string['moveqtoanothercontext'] = 'Mover pergunta para outro contexto.';
-$string['moveto'] = 'Mover para >>';
+$string['moveto'] = 'Mover para';
 $string['movingcategory'] = 'A mover categoria';
 $string['movingcategoryandfiles'] = 'Tem a certeza de que pretende mover a categoria {$a->name} e todas as categorias filhas para o contexto "{$a->contextto}"?<br /> Foram encontrados {$a->urlcount} ficheiros ligados a perguntas em {$a->fromareaname}. Pretende copiar ou mover esses ficheiros para {$a->toareaname}?';
 $string['movingcategorynofiles'] = 'Tem a certeza de que pretende mover a categoria "{$a->name}" e todas as  categorias filhas para o contexto de "{$a->contextto}"?';
@@ -301,8 +306,10 @@ $string['movingquestionsnofiles'] = 'Tem a certeza de que pretende mover a(s) pe
 $string['needtochoosecat'] = 'Tem de escolher uma categoria para onde pretende mover esta pergunta ou clique em \'Cancelar\'.';
 $string['nocate'] = 'Não existe a categoria \'{$a}\'!';
 $string['nopermissionadd'] = 'Não tem permissão para adicionar perguntas aqui.';
+$string['nopermissionedit'] = 'Não tem permissão para editar perguntas a partir daqui.';
 $string['nopermissionmove'] = 'Não tem permissão para mover perguntas a partir desta categoria. Tem de guardar a pergunta nesta categoria ou como uma nova pergunta.';
 $string['noprobs'] = 'Não foram encontrados problemas na base de dados das perguntas.';
+$string['noquestionbanks'] = 'Nenhum módulo de base de dados de perguntas encontrado.';
 $string['noquestions'] = 'Não foram encontradas perguntas para exportação. Certifique-se que selecionou uma categoria com perguntas.';
 $string['noquestionsinfile'] = 'Não existem perguntas no ficheiro de importação';
 $string['noresponse'] = 'Sem resposta';
@@ -320,7 +327,7 @@ $string['notyourpreview'] = 'Esta pré-visualização não lhe pertence';
 $string['novirtualquestiontype'] = 'Não foi encontrada nenhuma pergunta virtual para o tipo de pergunta {$a}';
 $string['numqas'] = 'N.º tentativas';
 $string['numquestions'] = 'N.º de perguntas';
-$string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ocultas)';
+$string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ocultas, +{$a->numdraft} rascunhos)';
 $string['options'] = 'Opções';
 $string['page-question-category'] = 'Página da categoria de perguntas';
 $string['page-question-edit'] = 'Página de edição de perguntas';
@@ -372,23 +379,30 @@ $string['privacy:metadata:database:question_attempts'] = 'Informação sobre uma
 $string['privacy:metadata:database:question_attempts:flagged'] = 'Uma indicação de que o utilizador marcou esta questão durante uma tentativa.';
 $string['privacy:metadata:database:question_attempts:responsesummary'] = 'Resumo da resposta à pergunta.';
 $string['privacy:metadata:database:question_attempts:timemodified'] = 'A hora em que a tentativa foi atualizada.';
-$string['privacy:metadata:link:qbehaviour'] = 'O subsistema pergunta utiliza o módulo Comportamento das perguntas.';
-$string['privacy:metadata:link:qformat'] = 'O subsistema pergunta utiliza o módulo Formato de importação/exportação de pergunta com a finalidade de importar e exportar perguntas em diferentes formatos.';
-$string['privacy:metadata:link:qtype'] = 'O subsistema pergunta interage com o módulo Tipos de pergunta que contém os diferentes tipos de pergunta.';
+$string['privacy:metadata:database:question_bank_entries'] = 'Os detalhes sobre uma entrada específica da base de dados de perguntas.';
+$string['privacy:metadata:database:question_bank_entries:ownerid'] = 'A pessoa a quem pertence a entrada da base de dados de perguntas.';
+$string['privacy:metadata:link:qbehaviour'] = 'O subsistema Pergunta utiliza o módulo Comportamento das perguntas.';
+$string['privacy:metadata:link:qformat'] = 'O subsistema Pergunta utiliza o módulo Formato de pergunta com a finalidade de importar e exportar perguntas em diferentes formatos.';
+$string['privacy:metadata:link:qtype'] = 'O subsistema Pergunta interage com o módulo Tipo de pergunta que contém os diferentes tipos de pergunta.';
 $string['published'] = 'partilhada';
+$string['qbanknotfound'] = 'O módulo de base de dados de perguntas \'{$a}\' não existe ou não é reconhecido.';
 $string['qtypeveryshort'] = 'T';
+$string['question_version'] = 'Versão da pergunta';
 $string['questionaffected'] = 'A <a href="{$a->qurl}">pergunta "{$a->name}" ({$a->qtype})</a> está nesta categoria mas também está a ser usada no <a href="{$a->qurl}">teste "{$a->quizname}"</a> da disciplina "{$a->coursename}".';
 $string['questionbank'] = 'Base de dados de perguntas';
+$string['questionbanknavigation'] = 'Navegação terciária da base de dados de perguntas';
 $string['questionbehaviouradminsetting'] = 'Configurações do comportamento das perguntas';
 $string['questionbehavioursdisabled'] = 'Comportamentos das perguntas a desativar';
 $string['questionbehavioursdisabledexplained'] = 'Insira os comportamentos, separados por vírgulas, que pretende que não apareçam na lista pendente';
 $string['questionbehavioursorder'] = 'Ordem dos comportamentos das perguntas';
 $string['questionbehavioursorderexplained'] = 'Insira uma lista de comportamentos, separados por vírgulas, pela ordem que pretende que apareçam na lista pendente';
+$string['questioncategories'] = 'Categorias de perguntas';
 $string['questioncategory'] = 'Categoria de perguntas';
 $string['questioncatsfor'] = 'Categorias de perguntas de \'{$a}\'';
 $string['questiondoesnotexist'] = 'Esta pergunta não existe';
 $string['questionformtagheader'] = '{$a} palavras-chave';
 $string['questionidmismatch'] = 'Incoerência nos ID\'s da Pergunta';
+$string['questionloaderror'] = 'Não foi possível carregar as opções da pergunta.';
 $string['questionname'] = 'Nome da pergunta';
 $string['questionnamecopy'] = '{$a} (cópia)';
 $string['questionno'] = 'Pergunta {$a}';
@@ -425,12 +439,15 @@ $string['selectquestionsforbulk'] = 'Selecione as perguntas para ações em mass
 $string['settingsformultipletries'] = 'Múltiplas tentativas';
 $string['shareincontext'] = 'Partilhar no contexto \'{$a}\'';
 $string['showhidden'] = 'Mostrar perguntas antigas';
-$string['showmarkandmax'] = 'Mostrar nota e máxima';
-$string['showmaxmarkonly'] = 'Mostrar apenas nota máxima';
+$string['showmarkandmax'] = 'Mostrar a nota e a nota máxima';
+$string['showmaxmarkonly'] = 'Mostrar apenas a nota máxima';
 $string['shown'] = 'Mostrar';
 $string['shownumpartscorrect'] = 'Mostrar o número de respostas corretas';
 $string['shownumpartscorrectwhenfinished'] = 'Mostrar o número de respostas corretas após a pergunta estar concluída';
-$string['showquestiontext'] = 'Mostrar texto da pergunta na lista de perguntas';
+$string['showquestiontext'] = 'Mostrar texto da pergunta na lista de perguntas?';
+$string['showquestiontext_full'] = 'Sim, com imagens, multimédia';
+$string['showquestiontext_off'] = 'Não';
+$string['showquestiontext_plain'] = 'Sim, apenas texto';
 $string['specificfeedback'] = 'Feedback específico';
 $string['specificfeedback_help'] = 'Feedback correspondente à resposta que o aluno selecionou ou inseriu.';
 $string['started'] = 'Iniciada';
@@ -472,6 +489,7 @@ $string['updatedisplayoptions'] = 'Atualizar opções de visualização';
 $string['upgradeproblemcategoryloop'] = 'Foram detetados problemas na atualização das categorias. Existe um erro na árvore de categorias. Os IDs das categorias afetados são {$a}.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível atualizar a categoria de perguntas {$a->name} ({$a->id}).';
 $string['upgradeproblemunknowncategory'] = 'Foram detetados problemas na atualização das categorias. A categoria {$a->id} tem como categoria ascendente {$a->parent}, que não existe. A categoria ascendente foi alterada para resolver o problema.';
+$string['version_selection'] = 'Versão {$a->version}';
 $string['whethercorrect'] = 'Correta/incorreta';
 $string['whethercorrect_help'] = 'A avaliação na forma de texto \'Correta\', \'Parcialmente correta\' ou \'Incorreta\', ou a cor de realce que expressa essa mesma informação.';
 $string['whichtries'] = 'Que tentativas';

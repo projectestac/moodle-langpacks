@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'ur', version '3.11'.
+ * Strings for component 'auth_ldap', language 'ur', version '4.1'.
  *
  * @package     auth_ldap
  * @category    string
@@ -157,7 +157,6 @@ $string['updatepasserrorexpire'] = 'پاس ورڈ ختم ہونے کا وقت پ
 $string['updatepasserrorexpiregrace'] = 'ایکسپائری ٹائم اور/یا گریس لاگ ان میں ترمیم کرتے وقت user_update_password() میں خرابی۔ خرابی کا کوڈ: {$a->errno}; خرابی کی تار: {$a->errstring}';
 $string['updateremfail'] = 'LDAP ریکارڈ کو اپ ڈیٹ کرنے میں خرابی۔ خرابی کا کوڈ: {$a->errno}; خرابی کی تار: {$a->errstring}<br/>Key ({$a->key}) - پرانی موڈل قدر: \'{$a->ouvalue}\' نئی قدر: \'{$a->nuvalue}\'';
 $string['updateremfailamb'] = 'مبہم فیلڈ {$a->key} کے ساتھ LDAP کو اپ ڈیٹ کرنے میں ناکام؛ پرانی موڈل ویلیو: \'{$a->ouvalue}\'، نئی قدر: \'{$a->nuvalue}\'';
-$string['updateremfailfield'] = 'غیر موجود فیلڈ (\'{$a->ldapkey}\') کے ساتھ LDAP کو اپ ڈیٹ کرنے میں ناکام۔ کلید ({$a->key}) - پرانی موڈل قدر: \'{$a->ouvalue}\' نئی قدر: \'{$a->nuvalue}\'';
 $string['updateusernotfound'] = 'بیرونی طور پر اپ ڈیٹ کرتے وقت صارف نہیں مل سکا۔ تفصیلات کی پیروی کریں: تلاش کی بنیاد: \'{$a->userdn}\'; تلاش فلٹر: \'(objectClass=*)\'؛ تلاش کی خصوصیات: {$a->attribs}';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() منتخب صارف قسم کی حمایت نہیں کرتا: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() منتخب صارف قسم کی حمایت نہیں کرتا: {$a}';

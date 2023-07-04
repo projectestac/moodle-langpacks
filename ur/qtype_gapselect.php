@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'ur', version '3.11'.
+ * Strings for component 'qtype_gapselect', language 'ur', version '4.1'.
  *
  * @package     qtype_gapselect
  * @category    string
@@ -40,6 +40,7 @@ $string['group'] = 'گروپ';
 $string['pleaseputananswerineachbox'] = 'براہ کرم ہر ایک خانے میں جواب درج کریں۔';
 $string['pluginname'] = 'گمشدہ الفاظ کو منتخب کریں';
 $string['pluginname_help'] = 'گمشدہ الفاظ کو منتخب کریں سوالات کے لیے جواب دہندہ کو ڈراپ ڈاؤن مینو سے صحیح جوابات منتخب کرنے کی ضرورت ہوتی ہے۔ [[1]]، [[2]]، [[3]]، ... کو سوال کے متن میں جگہ دار کے طور پر استعمال کیا جاتا ہے، صحیح جوابات کے ساتھ بالترتیب انتخابی جوابات 1، 2، 3، ... کے طور پر بیان کیا جاتا ہے۔ سوال کو مشکل بنانے کے لیے اضافی انتخابی جوابات شامل کیے جا سکتے ہیں۔ ہر ڈراپ ڈاؤن مینو میں دستیاب جوابات کو محدود کرنے کے لیے انتخابی جوابات کو گروپ کیا جا سکتا ہے۔';
+$string['pluginname_link'] = 'question/type/gapselect';
 $string['pluginnameadding'] = 'ایک منتخب گمشدہ الفاظ کا سوال شامل کرنا';
 $string['pluginnameediting'] = 'منتخب گمشدہ الفاظ کے سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'سوال کے متن میں غائب الفاظ کو ڈراپ ڈاؤن مینو استعمال کرتے ہوئے بھرا جاتا ہے۔';

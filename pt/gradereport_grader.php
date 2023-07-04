@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'pt', version '3.11'.
+ * Strings for component 'gradereport_grader', language 'pt', version '4.1'.
  *
  * @package     gradereport_grader
  * @category    string
@@ -32,7 +32,7 @@ $string['ajaxfailedupdate'] = 'Não é possível atualizar [1] [2]';
 $string['ajaxfieldchanged'] = 'O campo que está a editar alterou-se, gostaria de usar o valor atualizado?';
 $string['eventgradereportviewed'] = 'Relatório de avaliador visualizado';
 $string['grader:manage'] = 'Gerir relatório de avaliação';
-$string['grader:view'] = 'Ver o relatório de avaliação';
+$string['grader:view'] = 'Ver relatório de avaliação';
 $string['overriddengrade'] = 'Nota ajustada';
 $string['pluginname'] = 'Relatório do avaliador';
 $string['preferences'] = 'Preferências do relatório do avaliador';

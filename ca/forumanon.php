@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumanon', language 'ca', version '3.11'.
+ * Strings for component 'forumanon', language 'ca', version '4.1'.
  *
  * @package     forumanon
  * @category    string
@@ -29,8 +29,10 @@ $string['configlongpost'] = 'Qualsevol missatge per damunt d\'aquesta mida (excl
 $string['edit'] = 'Edita';
 $string['forumanon:viewdiscussion'] = 'Visualitza els debats';
 $string['intronews'] = 'Anuncis i notícies generals';
+$string['modulename_link'] = 'forumanon';
 $string['namenews_help'] = 'El fòrum de notícies és un fòrum especial per a anuncis que es crea automàticament amb el curs. Cada curs pot tenir només un fòrum de notícies. Els administradors i els professors són els únics que poden escriure notícies en aquest fòrum. El bloc «Darreres notícies» mostrarà els debats recents d\'aquest fòrum.';
 $string['noviewdiscussionspermission'] = 'No teniu permís per visualitzar debats en aquest fòrum';
 $string['postrating1'] = 'Sobretot coneixements separats';
 $string['postrating2'] = 'Separats i connectats';
 $string['postrating3'] = 'Sobretot coneixements connectats';
+$string['qandanotify'] = 'Aquest és un fòrum de preguntes i respostes. Per tal de poder veure altres respostes, primer n\'heu de publicar la vostra.';

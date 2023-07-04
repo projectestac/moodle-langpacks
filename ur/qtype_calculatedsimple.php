@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedsimple', language 'ur', version '3.11'.
+ * Strings for component 'qtype_calculatedsimple', language 'ur', version '4.1'.
  *
  * @package     qtype_calculatedsimple
  * @category    string
@@ -32,6 +32,7 @@ $string['generatenewitemsset'] = 'تیار کریں';
 $string['newsetwildcardvalues'] = 'وائلڈ کارڈ (اقدار) کا نیا سیٹ';
 $string['pluginname'] = 'سادہ حساب';
 $string['pluginname_help'] = 'سادہ حسابی سوالات وائلڈ کارڈز کا استعمال کرتے ہوئے انفرادی عددی سوالات کو تخلیق کرنے کے قابل بناتے ہیں جو کوئز لینے کے وقت انفرادی اقدار کے ساتھ بدل دیے جاتے ہیں۔ سادہ حسابی سوالات ایک آسان تخلیق انٹرفیس کے ساتھ حسابی سوال کی سب سے زیادہ استعمال شدہ خصوصیات پیش کرتے ہیں۔';
+$string['pluginname_link'] = 'question/type/calculatedsimple';
 $string['pluginnameadding'] = 'ایک سادہ حسابی سوال شامل کرنا';
 $string['pluginnameediting'] = 'ایک سادہ حسابی سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'حسابی سوالات کا ایک آسان ورژن جو عددی سوالات کی طرح ہوتے ہیں لیکن جب کوئز لیا جاتا ہے تو سیٹ سے تصادفی طور پر منتخب کردہ نمبروں کے ساتھ۔';

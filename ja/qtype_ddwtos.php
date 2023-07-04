@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'ja', version '3.11'.
+ * Strings for component 'qtype_ddwtos', language 'ja', version '4.1'.
  *
  * @package     qtype_ddwtos
  * @category    string
@@ -28,12 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['addmorechoiceblanks'] = 'さらに {no} 個の空白の選択肢を追加する';
 $string['answer'] = '答え';
 $string['blank'] = '空白';
+$string['blanknumber'] = '空白 {$a}';
 $string['correctansweris'] = '正解: {$a}';
 $string['errorlimitedchoice'] = '選択肢 [[{$a}]] は「無制限」に設定されていない状態で複数回使用されています。この問題を再度確認してください。';
 $string['infinite'] = '無制限';
 $string['pleaseputananswerineachbox'] = 'それぞれのテキストボックスに答えを入力してください。';
 $string['pluginname'] = 'ドラッグ＆ドロップテキスト';
 $string['pluginname_help'] = 'ドラッグ＆ドロップテキストは問題テキスト内の正しい空白部分に単語または語句をドラッグするためのレスポンデントを必要とします。1、2、3 ... と指定された正解の選択肢に対して[[1]]、[[2]]、[[3]] ... は問題テキスト内でそれぞれのプレースホルダとして使用されます。正解の選択肢は特定のグループ内の答えすべてを問題テキスト内の空白部分で同じ色にするためグループ分けすることができます。無制限にマークされた答えの選択肢は2つの以上の空白部分で使用することができます。';
+$string['pluginname_link'] = 'question/type/ddwtos';
 $string['pluginnameadding'] = 'ドラッグ＆ドロップテキストの追加';
 $string['pluginnameediting'] = 'ドラッグ＆ドロップテキストの編集';
 $string['pluginnamesummary'] = 'ドロップダウンメニューを使用して問題テキスト内の足りない言葉を埋めます。';

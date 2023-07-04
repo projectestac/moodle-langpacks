@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'langconfig', language 'ru', version '3.11'.
+ * Strings for component 'langconfig', language 'ru', version '4.1'.
  *
  * @package     langconfig
  * @category    string
@@ -49,11 +49,14 @@ $string['strftimedatemonthabbr'] = '%d %b %Y';
 $string['strftimedateshort'] = '%d %B';
 $string['strftimedateshortmonthabbr'] = '%d %b';
 $string['strftimedatetime'] = '%d %B %Y, %H:%M';
+$string['strftimedatetimeaccurate'] = '%d %B %Y, %I:%M:%S %p';
 $string['strftimedatetimeshort'] = '%d/%m/%y, %H:%M';
+$string['strftimedatetimeshortaccurate'] = '%d/%m/%y, %H:%M:%S';
 $string['strftimedaydate'] = '%A %d %B %Y';
 $string['strftimedaydatetime'] = '%A, %d %B %Y, %H:%M';
 $string['strftimedayshort'] = '%A %d %B';
 $string['strftimedaytime'] = '%a, %H:%M';
+$string['strftimemonth'] = '%B';
 $string['strftimemonthyear'] = '%B %Y';
 $string['strftimerecent'] = '%d %b %H:%M';
 $string['strftimerecentfull'] = '%a, %d %b %Y, %H:%M';

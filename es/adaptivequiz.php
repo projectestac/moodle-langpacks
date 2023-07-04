@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'adaptivequiz', language 'es', version '3.11'.
+ * Strings for component 'adaptivequiz', language 'es', version '4.1'.
  *
  * @package     adaptivequiz
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['abilityestimated'] = 'Habilidad estimada';
+$string['abilityestimated_help'] = 'La habilidad estimada de alguien que hizo la prueba se alinea con la dificultad del examen en la cual el examinado tiene una probabilidad de 50% de contestar correctamente la pregunta. Para identificar el nivel de desempeño, hacer coincidir el valor de habilidad con el rango de nivel de preguntas  (vea el rango después del símbolo \'/\' ).';
 $string['activityreports'] = 'Reporte de intentos';
 $string['adaptivequiz:addinstance'] = 'Añadir un nuevo cuestionario adaptativo';
 $string['adaptivequiz:attempt'] = 'Complete el cuestionario adaptativo';
@@ -55,6 +56,7 @@ $string['attemptfeedbackdefaulttext'] = 'Has terminado tu intento, gracias por r
 $string['attemptfinishedtimestamp'] = 'Hora de finalización del intento';
 $string['attemptfirst'] = 'Primer intento';
 $string['attemptlast'] = 'Último intento';
+$string['attemptnofirstquestion'] = 'Lo sentimos, pero no se pudo definir la primera pregunta para iniciar el intento; posiblemente el examen esté mal configurado.';
 $string['attemptquestion_ability'] = 'Medida de capacidad';
 $string['attemptquestion_abilitylogits'] = 'Capacidad medida (logits)';
 $string['attemptquestion_difficulty'] = 'Dificultad de la pregunta (logits)';
@@ -64,6 +66,8 @@ $string['attemptquestion_level'] = 'Nivel de pregunta';
 $string['attemptquestion_num'] = '#';
 $string['attemptquestion_rightwrong'] = 'Correcto/Incorrecto';
 $string['attemptquestion_stderr'] = 'Error estándar (&plusmn;&nbsp;logits)';
+$string['attemptquestionsprogress'] = 'Progreso de preguntas: {$a}';
+$string['attemptquestionsprogress_help'] = 'El número máximo de preguntas mostradas aquí no necesariamente es el número de preguntas que usted tiene que tomar durante el examen. Esto es el MÁXIMO POSIBLE número de preguntas que usted podría tomar, pero el examen podría terminar más pronto si la medida de habilidad está suficientemente definida.';
 $string['attemptsallowed'] = 'Intentos permitidos';
 $string['attemptsallowed_help'] = 'Número de veces que un estudiante puede intentar esta actividad';
 $string['attemptstarttime'] = 'Hora de inicio del intento';
@@ -79,6 +83,8 @@ $string['browsersecurity'] = 'Seguridad del navegador';
 $string['browsersecurity_help'] = 'Si se selecciona "Ventana emergente de pantalla completa con algo de seguridad de JavaScript", la prueba solo comenzará si el estudiante tiene un navegador web habilitado para JavaScript, la prueba aparece en una ventana emergente de pantalla completa que cubre todas las demás ventanas y no tiene navegación, los controles y los estudiantes no pueden, en la medida de lo posible, utilizar funciones como copiar y pegar';
 $string['calcerrorwithinlimits'] = 'El error estándar calculado de {$a->calerror} está dentro de los límites marcados por la actividad {$a->definederror}';
 $string['closeattempt'] = 'Cerrar intento';
+$string['completionattemptcompletedcminfo'] = 'Completar un intento';
+$string['completionattemptcompletedform'] = 'El estudiante debe tener al menos un intento completado en esta actividad';
 $string['confirmcloseattempt'] = '¿Estás seguro de que deseas cerrar este intento de {$a->name}?';
 $string['confirmcloseattemptscore'] = 'Se respondieron {$a->num_questions} preguntas y la puntuación hasta ahora es {$a->measure} {$a->standarderror}.';
 $string['confirmcloseattemptstats'] = 'Este intento se inició el {$a->started} y se actualizó por última vez el {$a->modified}.';
@@ -93,6 +99,7 @@ $string['errorfetchingquest'] = 'No se pudieron localizar preguntas para el nive
 $string['errorlastattpquest'] = 'Error en la comprobación del valor de la respuesta para la última pregunta intentada';
 $string['errornumattpzero'] = 'Error con el número de preguntas intentadas ya que es igual a cero, pero el usuario envió una respuesta a la pregunta anterior';
 $string['errorsumrightwrong'] = 'La suma de las respuestas correctas e incorrectas no equivale al número total de preguntas intentadas';
+$string['eventattemptcompleted'] = 'Intento completado';
 $string['formelementdecimal'] = 'Ingrese un número decimal. Máximo 10 dígitos de longitud total y con hasta 5 dígitos a la derecha del punto decimal.';
 $string['formelementempty'] = 'Ingrese un entero positivo entre 1 y 999';
 $string['formelementnegative'] = 'Ingrese un número positivo entre 1 y 999';
@@ -128,6 +135,8 @@ $string['midlevelusers'] = 'Usuarios cerca del nivel de pregunta';
 $string['minimumquestions'] = 'Número mínimo de preguntas';
 $string['minimumquestions_help'] = 'El número mínimo de preguntas que el estudiante puede intentar';
 $string['missingtagprefix'] = 'Falta el prefijo de etiqueta';
+$string['modformshowattemptprogress'] = 'Mostrar progreso del examen a estudiantes';
+$string['modformshowattemptprogress_help'] = 'Cuando es seleccionado, un estudiante verá una barra de progreso que ilustra cuantas preguntas están contestadas del número máximo.';
 $string['modulename'] = 'Cuestionario adaptado';
 $string['modulenameplural'] = 'Cuestionario adaptado';
 $string['na'] = 'n/a';
@@ -150,17 +159,36 @@ $string['questionpool'] = 'Banco de preguntas';
 $string['questionpool_help'] = 'Seleccione la(s) categoría(s) de pregunta de donde se obtendrán las preguntas para la actividad durante un intento.';
 $string['questions_report'] = 'Informe de preguntas';
 $string['questionsattempted'] = 'Suma de preguntas intentadas';
+$string['questionspoolerrornovalidstartingquestions'] = 'Las categorías de pregunta seleccionadas no contienen preguntas que estén marcadas apropiadamente para coincidir con el nivel inicial de dificultas seleccionado.';
 $string['recentactquestionsattempted'] = 'Preguntas intentadas: {$a}';
 $string['recentattemptstate'] = 'Estado del intento:';
 $string['recentcomplete'] = 'Completado';
 $string['recentinprogress'] = 'En progreso';
+$string['reportattemptanswerdistributiontab'] = 'Distribución de Respuesta';
+$string['reportattemptanswerdistributiontabletitle'] = 'Vista de Tabla de Distribución de Respuesta';
+$string['reportattemptgraphtab'] = 'Gráfica de Intento';
+$string['reportattemptgraphtabletitle'] = 'Vista de Tabla de Gráfica de Intento';
 $string['reportattemptquestionsdetailstab'] = 'Detalles de la pregunta';
+$string['reportattemptreviewpageheading'] = '{$a->quizname} - revisando intento por {$a->fullname} enviado en {$a->finished}';
+$string['reportattemptsbothenrolledandnotenrolled'] = 'todos los usuarios que alguna vez hicieron intentos';
+$string['reportattemptsdownloadfilename'] = '{$a}_attempts_report';
+$string['reportattemptsenrolledwithattempts'] = 'participantes que hicieron intentos';
+$string['reportattemptsenrolledwithnoattempts'] = 'participantes que NO hicieron intentos';
+$string['reportattemptsfilterformheader'] = 'Filtrando';
+$string['reportattemptsfilterformsubmit'] = 'Filtro';
+$string['reportattemptsfilterincludeinactiveenrolments'] = 'Incluir usuarios con inscripciones inactivas';
+$string['reportattemptsfilterincludeinactiveenrolments_help'] = 'Si es que se incluyen o no usuarios con inscripciones suspendidas.';
 $string['reportattemptsfilterusers'] = 'Mostrar';
+$string['reportattemptsnotenrolled'] = 'usuarios no inscritos que hicieron intentos';
+$string['reportattemptspersistentfilter'] = 'Filtro persistente';
+$string['reportattemptspersistentfilter_help'] = 'Cuando se activa, la configuración inferior del filtro será almacenada al enviar, y entonces será aplicada cada vez que usted visite la página del reporte.';
 $string['reportattemptsprefsformheader'] = 'Preferencias de informe';
 $string['reportattemptsprefsformsubmit'] = 'Aplicar';
 $string['reportattemptsresetfilter'] = 'Reiniciar filtro';
+$string['reportattemptsshowinitialbars'] = 'Mostrar barra de iniciales';
 $string['reportattemptsummarytab'] = 'Resumen de intentos';
 $string['reportattemptsusersperpage'] = 'Número de usuarios a mostrar:';
+$string['reportindividualuserattemptpageheading'] = '{$a->quizname} - reporte de intentos de usuario individual para {$a->username}';
 $string['reportquestionanalysispageheading'] = '{$a} - informe de preguntas';
 $string['reportuserattemptstitleshort'] = '{$a}\'s intentos';
 $string['requirepassword'] = 'Contraseña requerida';
@@ -171,6 +199,8 @@ $string['result'] = 'Resultado';
 $string['reviewattempt'] = 'Revisar intento';
 $string['reviewattemptreport'] = 'Revisando el intento por {$a->fullname} enviado en {$a->finished}';
 $string['score'] = 'Puntuación';
+$string['showabilitymeasure'] = 'Mostrar medición de habilidad a los estudiantes';
+$string['showabilitymeasure_help'] = 'A veces, podría ser útil revelar las estimaciones de habilidad a los estudiantes después de un examen adaptativo. Con esta configuración habilitada, un estudiante puede ver la estimación de la habilidad en el resumen de los intentos y también  justo después de terminar un intento.';
 $string['standarderror'] = 'Error estándar para parar';
 $string['standarderror_help'] = 'Cuando el error en la medida de la destreza del usuario se encuentra por debajo de esta cantidad, el cuestionario se detendrá. Ajuste este valor del 5% por defecto para requerir más o menos precisión en la medida de destreza';
 $string['standarderrorhdr'] = 'Error estándar';

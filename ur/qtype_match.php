@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'ur', version '3.11'.
+ * Strings for component 'qtype_match', language 'ur', version '4.1'.
  *
  * @package     qtype_match
  * @category    string
@@ -39,6 +39,7 @@ $string['notenoughquestions'] = 'آپ کو کم از کم {$a} سوال اور �
 $string['pleaseananswerallparts'] = 'براہ کرم سوال کے تمام حصوں کا جواب دیں۔';
 $string['pluginname'] = 'مشابہ';
 $string['pluginname_help'] = 'مماثل سوالات جواب دہندہ سے ناموں یا بیانات (سوالات) کی فہرست کو ناموں یا بیانات (جوابات) کی دوسری فہرست سے صحیح طریقے سے ملانے کی ضرورت ہوتی ہے۔';
+$string['pluginname_link'] = 'question/type/match';
 $string['pluginnameadding'] = 'ایک مماثل سوال شامل کرنا';
 $string['pluginnameediting'] = 'مماثل سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'متعدد ذیلی سوالوں میں سے ہر ایک کا جواب امکانات کی فہرست سے منتخب کیا جانا چاہیے۔';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multianswer', language 'ur', version '3.11'.
+ * Strings for component 'qtype_multianswer', language 'ur', version '4.1'.
  *
  * @package     qtype_multianswer
  * @category    string
@@ -43,6 +43,7 @@ $string['noquestions'] = 'Cloze (متعدد جواب) سوال "<strong>{$a}</st
 $string['pleaseananswerallparts'] = 'براہ کرم سوال کے تمام حصوں کا جواب دیں۔';
 $string['pluginname'] = 'ایمبیڈڈ جوابات (بند)';
 $string['pluginname_help'] = 'ایمبیڈڈ جوابات (کلوز) سوالات متن کے ایک حصے پر مشتمل ہوتے ہیں جیسے سوالات کے ساتھ متعدد انتخاب اور مختصر جواب اس کے اندر سرایت کرتے ہیں۔';
+$string['pluginname_link'] = 'question/type/multianswer';
 $string['pluginnameadding'] = 'ایمبیڈڈ جوابات (کلوز) سوال شامل کرنا';
 $string['pluginnameediting'] = 'ایمبیڈڈ جوابات (کلوز) سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'اس قسم کے سوالات بہت لچکدار ہوتے ہیں، لیکن صرف خصوصی کوڈز پر مشتمل متن درج کرکے تخلیق کیے جاسکتے ہیں جو سرایت شدہ متعدد انتخاب، مختصر جوابات اور عددی سوالات بناتے ہیں۔';

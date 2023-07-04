@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_h5p', language 'ur', version '3.11'.
+ * Strings for component 'atto_h5p', language 'ur', version '4.1'.
  *
  * @package     atto_h5p
  * @category    string
@@ -28,18 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['browserepositories'] = 'ذخیروں کو براؤز کریں۔۔۔';
 $string['copyrightbutton'] = 'کاپی رائٹ بٹن';
 $string['downloadbutton'] = 'ڈاؤن لوڈ کی اجازت دیں';
-$string['either'] = 'یا تو';
 $string['embedbutton'] = 'ایمبیڈ بٹن';
-$string['enterurl'] = 'یو آر ایل یا ایمبیڈ کوڈ';
 $string['h5p:addembed'] = 'ایمبیڈڈ H5P شامل کریں';
 $string['h5pfile'] = 'H5P فائل اپ لوڈ';
 $string['h5pfileorurl'] = 'H5P یو آر ایل یا فائل اپ لوڈ';
 $string['h5poptions'] = 'H5P اختیارات';
-$string['h5pproperties'] = 'H5P خصوصیات';
 $string['h5purl'] = 'H5P یو آر ایل';
 $string['instructions'] = 'آپ <strong>یا تو</strong> یو آر ایل درج کرکے <strong>یا</strong> H5P فائل اپ لوڈ کرکے H5P مواد داخل کرسکتے ہیں۔';
 $string['invalidh5purl'] = 'غلط یو آر ایل';
 $string['noh5pcontent'] = 'کوئی H5P مواد شامل نہیں کیا گیا';
-$string['or'] = 'یا';
 $string['pluginname'] = 'H5P داخل کریں';
 $string['privacy:metadata'] = 'atto_h5p پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';

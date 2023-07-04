@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_guest', language 'ur', version '3.11'.
+ * Strings for component 'enrol_guest', language 'ur', version '4.1'.
  *
  * @package     enrol_guest
  * @category    string
@@ -43,5 +43,6 @@ $string['showhint_desc'] = 'مہمان تک رسائی کے پاس ورڈ کا �
 $string['status'] = 'مہمانوں تک رسائی کی اجازت دیں';
 $string['status_desc'] = 'بطور ڈیفالٹ عارضی مہمان تک رسائی کی اجازت دیں۔';
 $string['status_help'] = 'یہ ترتیب اس بات کا تعین کرتی ہے کہ آیا کوئی صارف داخلہ لینے کی ضرورت کے بغیر، بطور مہمان کورس تک رسائی حاصل کر سکتا ہے۔';
+$string['status_link'] = 'enrol/guest';
 $string['usepasswordpolicy'] = 'پاس ورڈ پالیسی استعمال کریں';
 $string['usepasswordpolicy_desc'] = 'مہمانوں تک رسائی کے پاس ورڈز کے لیے معیاری پاس ورڈ پالیسی استعمال کریں۔';

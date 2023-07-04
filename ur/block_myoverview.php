@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'ur', version '3.11'.
+ * Strings for component 'block_myoverview', language 'ur', version '4.1'.
  *
  * @package     block_myoverview
  * @category    string
@@ -57,7 +57,6 @@ $string['availablegroupings'] = 'دستیاب فلٹرز';
 $string['availablegroupings_desc'] = 'کورس فلٹرز جو صارفین کے انتخاب کے لیے دستیاب ہیں۔ اگر کوئی بھی منتخب نہیں کیا جاتا ہے، تو تمام کورسز دکھائے جائیں گے۔';
 $string['card'] = 'کارڈ';
 $string['cards'] = 'کارڈز';
-$string['complete'] = 'مکمل';
 $string['completepercent'] = '{$a}% مکمل';
 $string['courseprogress'] = 'کورس کی ترقی:';
 $string['customfield'] = 'حسب ضرورت فیلڈ';
@@ -76,7 +75,6 @@ $string['layouts'] = 'دستیاب ترتیب';
 $string['layouts_help'] = 'کورس کا جائزہ لے آؤٹ جو صارفین کے انتخاب کے لیے دستیاب ہیں۔ اگر کوئی بھی منتخب نہیں کیا جاتا ہے، تو کارڈ لے آؤٹ استعمال کیا جائے گا۔';
 $string['list'] = 'فہرست';
 $string['myoverview:myaddinstance'] = 'ڈیش بورڈ میں ایک نیا کورس اوور ویو بلاک شامل کریں';
-$string['nocourses'] = 'کوئی کورس نہیں';
 $string['nocustomvalue'] = 'نہیں {$a}';
 $string['past'] = 'ماضی';
 $string['pluginname'] = 'کورس کا جائزہ';

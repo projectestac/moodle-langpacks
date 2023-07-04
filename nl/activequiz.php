@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'activequiz', language 'nl', version '3.11'.
+ * Strings for component 'activequiz', language 'nl', version '4.1'.
  *
  * @package     activequiz
  * @category    string
@@ -53,6 +53,7 @@ $string['defaultquestiontime_help'] = 'De standaard tijd om elke vraag te tonen.
 Dit kan per vraag aangepast worden.';
 $string['edit'] = 'Bewerk quiz';
 $string['editpage_opensession_error'] = 'Je kunt een quiz vraag of vormgeving niet bewerken als er een sessie open is.';
+$string['enabledquestiontypes'] = 'Schakel vraagtypen in';
 $string['endquestion'] = 'Einde vraag';
 $string['eventattemptstarted'] = 'Poging begonnen';
 $string['eventattemptviewed'] = 'Poging bekeken';
@@ -73,6 +74,8 @@ $string['hidestudentresponses'] = 'Verberg reacties';
 $string['indvquestiontime'] = 'Vragenuur';
 $string['indvquestiontime_help'] = 'Vragenuur in seconden.';
 $string['joinquiz'] = 'Deelnemen aan Quiz';
+$string['joinquizinstructions'] = 'Klik hieronder om mee te doen aan de quiz';
+$string['jumptoquesetioninstructions'] = 'Selecteer een vraag waar je naartoe wilt:';
 $string['jumptoquestion'] = 'Ga naar vraag';
 $string['lastsession'] = 'Laatste sessie';
 $string['manualcomment'] = 'Handmatige opmerking';
@@ -105,6 +108,7 @@ $string['response_attempt_controls'] = 'Wijzig/Toon poging';
 $string['responses'] = 'Toon antwoorden';
 $string['reviewoptionsettings'] = 'Bekijk opties';
 $string['savequestion'] = 'Vraag bewaren';
+$string['scale'] = 'Maximale cijfer';
 $string['select_group'] = 'Selecteer je groep';
 $string['sessionaverage'] = 'Sessiegemiddelde';
 $string['sessionclosed'] = 'Sessie is nu gesloten';
@@ -121,4 +125,11 @@ $string['successregrade'] = 'Quiz opnieuw beoordeeld';
 $string['theattempt'] = 'De poging';
 $string['timecompleted'] = 'Tijd voltooid';
 $string['timemodified'] = 'Tijd gewijzigd';
+$string['timertext'] = 'Je vraag eindigt en wordt automatisch verzonden over:';
 $string['trycount'] = 'Je hebt nog {$a->tries} pogingen over.';
+$string['unabletocreate_session'] = 'Kan sessie niet maken';
+$string['view'] = 'Quiz bekijken';
+$string['waitforrevewingend'] = 'De instructeur beoordeelt momenteel de vorige vraag. Wacht tot de volgende vraag begint';
+$string['waitstudent'] = 'Wachten tot studenten verbinding maken';
+$string['workedingroups'] = 'Zal in groepen werken.';
+$string['workedingroups_help'] = 'Vink dit vakje aan om aan te geven dat studenten in groepen zullen werken. Selecteer hieronder een groepering';

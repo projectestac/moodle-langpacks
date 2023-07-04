@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'ur', version '3.11'.
+ * Strings for component 'page', language 'ur', version '4.1'.
  *
  * @package     page
  * @category    string
@@ -36,15 +36,18 @@ $string['indicator:cognitivedepth'] = 'صفحہ علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے صفحہ کے وسائل میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'صفحہ علمی';
 $string['indicator:cognitivedepthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفے کے دوران صفحہ کے وسائل کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'صفحہ سماجی';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے صفحہ کے وسائل میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'صفحہ سماجی';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران صفحہ کے وسائل کی طرف سے پیش کردہ سماجی مصروفیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، اکیلے شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['legacyfiles'] = 'پرانی کورس فائل کی منتقلی';
 $string['legacyfilesactive'] = 'فعال';
 $string['legacyfilesdone'] = 'ختم';
 $string['modulename'] = 'صفحہ';
 $string['modulename_help'] = 'صفحہ ماڈیول ایک استاد کو ٹیکسٹ ایڈیٹر کا استعمال کرتے ہوئے ویب صفحہ کا وسیلہ بنانے کے قابل بناتا ہے۔ ایک صفحہ متن، تصاویر، آواز، ویڈیو، ویب لنکس اور ایمبیڈڈ کوڈ، جیسے گوگل نقشہ جات دکھا سکتا ہے۔ فائل ماڈیول کے بجائے صفحہ ماڈیول استعمال کرنے کے فوائد میں وسائل کا زیادہ قابل رسائی ہونا (مثال کے طور پر موبائل آلات کے صارفین کے لیے) اور اپ ڈیٹ کرنا آسان ہے۔ مواد کی بڑی مقدار کے لیے، یہ تجویز کیا جاتا ہے کہ صفحہ کے بجائے کتاب استعمال کی جائے۔ ایک صفحہ استعمال کیا جا سکتا ہے * کسی کورس کی شرائط و ضوابط یا کورس کے نصاب کا خلاصہ پیش کرنے کے لیے * کچھ وضاحتی متن کے ساتھ متعدد ویڈیوز یا ساؤنڈ فائلوں کو ایمبیڈ کرنے کے لیے';
+$string['modulename_link'] = 'mod/page/view';
 $string['modulenameplural'] = 'صفحات';
 $string['optionsheader'] = 'اختیارات دکھائیں';
 $string['page-mod-page-x'] = 'کوئی بھی صفحہ ماڈیول صفحہ';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'ur', version '3.11'.
+ * Strings for component 'qtype_calculated', language 'ur', version '4.1'.
  *
  * @package     qtype_calculated
  * @category    string
@@ -55,6 +55,7 @@ $string['deletelastitem'] = 'آخری آئٹم کو حذف کریں';
 $string['distributionoption'] = 'تقسیم کا اختیار منتخب کریں';
 $string['editdatasets'] = 'وائلڈ کارڈ ڈیٹا سیٹس میں ترمیم کریں';
 $string['editdatasets_help'] = 'وائلڈ کارڈ کی قدریں ہر وائلڈ کارڈ فیلڈ میں نمبر ڈال کر ایڈ بٹن پر کلک کر کے بنائی جا سکتی ہیں۔ 10 یا اس سے زیادہ اقدار خود بخود پیدا کرنے کے لیے، ایڈ بٹن پر کلک کرنے سے پہلے مطلوبہ اقدار کی تعداد کو منتخب کریں۔ یکساں تقسیم کا مطلب ہے کہ حدود کے درمیان کوئی قدر پیدا ہونے کا یکساں امکان ہے۔ لاگ یونیفارم ڈسٹری بیوشن کا مطلب ہے کہ نچلی حد کی طرف قدروں کا امکان زیادہ ہے۔';
+$string['editdatasets_link'] = 'question/type/calculated';
 $string['existingcategory1'] = 'پہلے سے موجود مشترکہ ڈیٹاسیٹ کا استعمال کرے گا';
 $string['existingcategory2'] = 'فائلوں کے پہلے سے موجود سیٹ سے ایک فائل جو اس زمرے میں دوسرے سوالات کے ذریعہ بھی استعمال ہوتی ہے';
 $string['existingcategory3'] = 'لنکس کے پہلے سے موجود سیٹ سے ایک لنک جو اس زمرے میں دوسرے سوالات کے ذریعہ بھی استعمال ہوتا ہے';
@@ -111,6 +112,7 @@ $string['param'] = 'پرم {<strong>{$a}</strong>}';
 $string['partiallycorrectfeedback'] = 'کسی بھی جزوی طور پر درست جواب کے لیے';
 $string['pluginname'] = 'حساب لگایا';
 $string['pluginname_help'] = 'محسوب سوالات انفرادی عددی سوالات کو گھنگریالے بریکٹ میں وائلڈ کارڈ ز کا استعمال کرتے ہوئے تخلیق کرنے کے قابل بناتے ہیں جو کوئز لینے پر انفرادی اقدار کے متبادل ہوتے ہیں۔ مثال کے طور پر، سوال "لمبائی {l} اور چوڑائی {w} کے مستطیل کا رقبہ کیا ہے؟" درست جواب کا فارمولہ ہوگا "{l}*{w}" (جہاں * ضرب کو ظاہر کرتا ہے)۔';
+$string['pluginname_link'] = 'question/type/calculated';
 $string['pluginnameadding'] = 'حسابی سوال شامل کرنا';
 $string['pluginnameediting'] = 'حسابی سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'حسابی سوالات عددی سوالات کی طرح ہوتے ہیں لیکن جب کوئز لیا جاتا ہے تو سیٹ سے تصادفی طور پر منتخب کردہ نمبروں کے ساتھ۔';

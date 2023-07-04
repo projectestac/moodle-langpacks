@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'contentbank', language 'ja', version '3.11'.
+ * Strings for component 'contentbank', language 'ja', version '4.1'.
  *
  * @package     contentbank
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['author'] = '作成者';
+$string['choosecontext'] = 'コースまたはカテゴリを選択する ...';
 $string['close'] = '閉じる';
 $string['contentbank'] = 'コンテンツバンク';
 $string['contentbankpreferences'] = 'コンテンツバンクプレファレンス';
@@ -54,10 +55,12 @@ $string['eventcontentreplaced'] = 'コンテンツがファイルに置換され
 $string['eventcontentupdated'] = 'コンテンツが更新されました。';
 $string['eventcontentuploaded'] = 'コンテンツがアップロードされました。';
 $string['eventcontentviewed'] = 'コンテンツが閲覧されました。';
+$string['exit'] = '終了する';
 $string['file'] = 'コンテンツをアップロードする';
 $string['file_help'] = 'コースで使用するためファイルをコンテンツバンクに保存できます。サイトでの使用が有効にされているコンテンツタイプのファイルのみアップロードできます。';
 $string['itemsfound'] = '{$a} アイテムが見つかりました。';
 $string['lastmodified'] = '最終更新日時';
+$string['more'] = 'さらに';
 $string['name'] = 'コンテンツ';
 $string['nocontentavailable'] = '利用可能コンテンツなし';
 $string['nocontenttypes'] = '利用可能なコンテンツタイプはありません。';

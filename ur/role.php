@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'ur', version '3.11'.
+ * Strings for component 'role', language 'ur', version '4.1'.
  *
  * @package     role
  * @category    string
@@ -62,6 +62,7 @@ $string['assignrole'] = 'کردار تفویض کریں';
 $string['assignrolenameincontext'] = '{$a->context} میں کردار \'{$a->role}\' تفویض کریں';
 $string['assignroles'] = 'کردار تفویض کریں';
 $string['assignroles_help'] = 'کسی صارف کو سیاق و سباق میں ایک کردار تفویض کر کے، آپ انہیں موجودہ سیاق و سباق اور تمام نچلے سیاق و سباق کے لیے اس کردار میں شامل اجازتیں دے رہے ہیں۔ مثال کے طور پر، اگر کسی صارف کو کورس میں طالب علم کا کردار تفویض کیا جاتا ہے، تو ان کے پاس کورس کے اندر تمام سرگرمیوں اور بلاکس کے لیے طالب علم کا کردار بھی ہوگا۔';
+$string['assignroles_link'] = 'admin/roles/assign';
 $string['assignrolesin'] = '{$a} میں کردار تفویض کریں';
 $string['assignrolesrelativetothisuser'] = 'اس صارف سے متعلق کردار تفویض کریں';
 $string['backtoallroles'] = 'تمام کرداروں کی فہرست پر واپس جائیں';
@@ -329,6 +330,7 @@ $string['overrideanotherrole'] = 'ایک اور کردار کو اوور رائ�
 $string['overridecontext'] = 'سیاق و سباق کو اوور رائڈ کریں';
 $string['overridepermissions'] = 'اجازتوں کو اوور رائڈ کریں';
 $string['overridepermissions_help'] = 'اجازتیں اوور رائیڈز منتخب صلاحیتوں کو ایک مخصوص سیاق و سباق میں اجازت دینے یا روکنے کے قابل بناتی ہیں۔';
+$string['overridepermissions_link'] = 'admin/roles/override';
 $string['overridepermissionsforrole'] = '{$a->context} میں کردار \'{$a->role}\' کے لیے اجازتوں کو اوور رائیڈ کریں';
 $string['overridepermissionsin'] = '{$a} میں اجازتوں کو اوور رائیڈ کریں';
 $string['overrideroles'] = 'کرداروں کو اوور رائڈ کریں';
@@ -417,6 +419,7 @@ $string['roleresetrole'] = 'کردار یا آرکیٹائپ استعمال کر
 $string['rolerisks'] = 'کردار کے خطرات';
 $string['roles'] = 'کردار';
 $string['roles_help'] = 'ایک کردار پورے نظام کے لیے بیان کردہ اجازتوں کا مجموعہ ہے جسے آپ مخصوص سیاق و سباق میں مخصوص صارفین کو تفویض کر سکتے ہیں۔';
+$string['roles_link'] = 'roles';
 $string['roleselect'] = 'کردار منتخب کریں';
 $string['rolesforuser'] = 'صارف {$a} کے لیے کردار';
 $string['roleshortname'] = 'مختصر نام';

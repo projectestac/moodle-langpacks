@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_missingword', language 'ur', version '3.11'.
+ * Strings for component 'qformat_missingword', language 'ur', version '4.1'.
  *
  * @package     qformat_missingword
  * @category    string
@@ -30,4 +30,5 @@ $string['endanswernotfound'] = 'درآمد شدہ فائل کے مواد میں 
 $string['noanswerfound'] = 'سوال میں کوئی جواب نہیں ملا';
 $string['pluginname'] = 'لفظ کی شکل غائب ہے';
 $string['pluginname_help'] = 'گم شدہ ورڈ فارمیٹ سوالات کو ٹیکسٹ فائل کے ذریعے درآمد کرنے کے قابل بناتا ہے۔';
+$string['pluginname_link'] = 'qformat/missingword';
 $string['privacy:metadata'] = 'گم شدہ ورڈ سوال فارمیٹ پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';

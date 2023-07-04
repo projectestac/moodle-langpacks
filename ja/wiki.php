@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', version '3.11'.
+ * Strings for component 'wiki', language 'ja', version '4.1'.
  *
  * @package     wiki
  * @category    string
@@ -106,6 +106,7 @@ $string['formatcreole'] = 'クレオールフォーマット';
 $string['formatcreole_help'] = 'クレオールフォーマットは適切なマークアップを挿入するための編集ツールバーを持った一般的なWIkiマークアップ言語です。
 
 新しいページを作成するには例えば [[ページ2 ]] のように2重角括弧で閉じたページ名を入力してください。';
+$string['formatcreole_link'] = 'mod/wiki/creole';
 $string['formathtml'] = 'HTMLフォーマット';
 $string['formathtml_help'] = 'HTMLエディタはコンテンツのフォーマットに使用することができます。
 
@@ -114,6 +115,7 @@ $string['formatnwiki'] = 'NWiki フォーマット';
 $string['formatnwiki_help'] = 'NwikiはNwikiモジュール内で使用されるMediawikiのようなマークアップ言語です。
 
 新しいページを作成するには例えば [[ページ2 ]] のように2重角括弧で閉じたページ名を入力します。';
+$string['formatnwiki_link'] = 'mod/wiki/nwiki';
 $string['history'] = '履歴';
 $string['history_help'] = '前のバージョンのページの履歴一覧リンクです。';
 $string['html'] = 'HTML';
@@ -125,10 +127,12 @@ $string['indicator:cognitivedepth'] = 'Wiki認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はWiki活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'Wiki認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がWiki活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Wiki社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はWiki活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'Wiki社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がWiki活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['individualpagedoesnotexist'] = '個人Wikiページは存在していません。';
 $string['insertcomment'] = 'コメントを追加する';
 $string['insertimage'] = 'イメージを挿入する ...';
@@ -161,6 +165,7 @@ Wikiは次のように使用することができます:
 * 学生が共同でオンラインブックの著者となり教師から設定された主題に関するコンテンツを作成するため
 * それぞれの参加者が行または節を執筆しながら共同で物語または詩を作成するため
 * 試験ノートのための個人日誌または試験対策として (個人Wikiを使用)';
+$string['modulename_link'] = 'mod/wiki/view';
 $string['modulenameplural'] = 'Wiki';
 $string['navigation'] = 'ナビゲーション';
 $string['navigationfrom'] = 'このページのリンク元';

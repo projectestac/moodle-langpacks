@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'resource', language 'ja', version '3.11'.
+ * Strings for component 'resource', language 'ja', version '4.1'.
  *
  * @package     resource
  * @category    string
@@ -52,6 +52,7 @@ $string['displayselect_help'] = 'ファイルタイプおよびブラウザが�
 * ポップアップ - ファイルはメニューまたはアドレスバーなしの新しいブラウザウィンドウに表示されます。
 * フレーム - ファイルはフレーム内のナビゲーションバーの下にファイル説明およびブロックと共に表示されます。
 * 新しいウィンドウ - ファイルは新しいウィンドウ内にメニューおよびアドレスバーと共に表示されます。';
+$string['displayselect_link'] = 'mod/file/mod';
 $string['displayselectexplain'] = '表示タイプを選択してください。残念ですがすべてのタイプがすべてのファイルに適しているということではありません。';
 $string['dnduploadresource'] = 'ファイルリソースを作成する';
 $string['encryptedcode'] = '暗号化コード';
@@ -65,10 +66,12 @@ $string['indicator:cognitivedepth'] = 'ファイル認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はファイルリソースで学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'ファイル認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がファイルリソースから提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'ファイル社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はファイルリソースで学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'ファイル社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がファイルリソースから提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['legacyfiles'] = '古いコースファイルの移行';
 $string['legacyfilesactive'] = 'アクティブ';
 $string['legacyfilesdone'] = '終了';
@@ -83,6 +86,7 @@ $string['modulename_help'] = 'ファイルモジュールにおいて教師は�
 * クラスで実施するプレゼンテーションの共有のため
 * コースリソースとしてミニウェブサイトを含むため
 * ソフトウェアプログラムの下書きファイルを提供して学生が編集および評価のために提出できるようにするため';
+$string['modulename_link'] = 'mod/resource/view';
 $string['modulenameplural'] = 'ファイル';
 $string['notmigrated'] = '申し訳ございません、このレガシリソースタイプ ({$a}) はまだ移行されていません。';
 $string['optionsheader'] = '表示オプション';

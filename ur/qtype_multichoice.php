@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'ur', version '3.11'.
+ * Strings for component 'qtype_multichoice', language 'ur', version '4.1'.
  *
  * @package     qtype_multichoice
  * @category    string
@@ -63,6 +63,7 @@ $string['pleaseselectananswer'] = 'براہ کرم ایک جواب منتخب ک
 $string['pleaseselectatleastoneanswer'] = 'براہ کرم کم از کم ایک جواب منتخب کریں۔';
 $string['pluginname'] = 'کثیر الانتخاب';
 $string['pluginname_help'] = 'ایک سوال کے جواب میں (جس میں ایک تصویر شامل ہو سکتی ہے) جواب دہندہ متعدد جوابات میں سے انتخاب کرتا ہے۔ ایک سے زیادہ انتخاب والے سوال کے ایک یا متعدد درست جوابات ہو سکتے ہیں۔';
+$string['pluginname_link'] = 'question/type/multichoice';
 $string['pluginnameadding'] = 'ایک سے زیادہ انتخابی سوال شامل کرنا';
 $string['pluginnameediting'] = 'ایک سے زیادہ انتخابی سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'پہلے سے طے شدہ فہرست سے ایک یا متعدد جوابات کے انتخاب کی اجازت دیتا ہے۔';

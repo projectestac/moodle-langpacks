@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'debug', language 'ur', version '3.11'.
+ * Strings for component 'debug', language 'ur', version '4.1'.
  *
  * @package     debug
  * @category    string

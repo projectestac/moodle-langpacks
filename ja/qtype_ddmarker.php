@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ja', version '3.11'.
+ * Strings for component 'qtype_ddmarker', language 'ja', version '4.1'.
  *
  * @package     qtype_ddmarker
  * @category    string
@@ -59,6 +59,8 @@ $string['dropzones_help'] = 'ドロップゾーンは座標または上のプレ
 マーカーテキストを選択することによりプレビューの形にそのテキストを追加します。';
 $string['followingarewrong'] = '以下のマーカは正しくないエリアに置かれました: {$a}';
 $string['followingarewrongandhighlighted'] = '次のマーカは正しくない場所に置かれています : {$a}。ハイライトされたマーカは正しい場所で表示されています。<br />許可された場所をハイライトするにはマーカをクリックしてください。';
+$string['formerror_dragrequired'] = 'あなたはこの問題に少なくとも1つのマーカを追加する必要があります。';
+$string['formerror_droprequired'] = 'あなたはこの問題に少なくとも1つのドロップゾーンを定義する必要があります。';
 $string['formerror_nobgimage'] = 'あなたはドラッグ＆ドロップエリアの背景として使用するイメージを選択する必要があります。';
 $string['formerror_noitemselected'] = 'あなたはドロップゾーンを指定しましたがゾーンにドラッグする必要のあるマーカを選択していません。';
 $string['formerror_nosemicolons'] = 'あなたの座標ストリングにはセミコロンがありません。あなたの {$a->shape} の座標は次のように記述される必要があります - {$a->coordsstring}。';
@@ -79,6 +81,7 @@ $string['noofdrags'] = 'マーカ数';
 $string['pleasedragatleastonemarker'] = 'あなたの解答は完了していません。あなたはイメージに少なくとも1つのマーカを置く必要があります。';
 $string['pluginname'] = 'ドラッグ＆ドロップマーカ';
 $string['pluginname_help'] = 'ドラッグ＆ドロップマーカは背景イメージに定義されたドロップゾーンにテキストラベルをドラッグ＆ドロップするためのレスポンデントを必要とします。';
+$string['pluginname_link'] = 'question/type/ddmarker';
 $string['pluginnameadding'] = 'ドラッグ＆ドロップマーカの追加';
 $string['pluginnameediting'] = 'ドラッグ＆ドロップマーカの編集';
 $string['pluginnamesummary'] = 'マーカは背景イメージにドラッグ＆ドロップされます。

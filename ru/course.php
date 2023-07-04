@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'ru', version '3.11'.
+ * Strings for component 'course', language 'ru', version '4.1'.
  *
  * @package     course
  * @category    string
@@ -50,6 +50,8 @@ $string['aria:favourite'] = 'Курс является избранным';
 $string['aria:favouritestab'] = 'Помеченные элементы';
 $string['aria:modulefavourite'] = 'Помечено элементов: {$a}';
 $string['aria:recommendedtab'] = 'Рекомендуемые элементы';
+$string['browsecourseadminindex'] = 'Посмотреть управление курса с этим индексом.';
+$string['browsesettingindex'] = 'Посмотреть настройки с этим индексом.';
 $string['completion_automatic:done'] = 'Выполнено:';
 $string['completion_automatic:failed'] = 'Не удалось выполнить:';
 $string['completion_automatic:todo'] = 'Надо сделать:';
@@ -62,18 +64,31 @@ $string['completion_setby:auto:todo'] = 'Надо сделать: {$a->condition
 $string['completion_setby:manual:done'] = 'Элемент курса «{$a->activityname}» помечен {$ ->setby} как выполненный. Нажмите, чтобы отменить.';
 $string['completion_setby:manual:markdone'] = 'Элемент курса «{$a->activityname}» помечен {$a->setby} как невыполненный. Нажмите, чтобы отметить как выполненный.';
 $string['completionrequirements'] = 'Требования для выполнения {$a}';
+$string['courseaccess'] = 'Доступ к курсу';
 $string['coursealreadyfinished'] = 'Курс уже завершен';
+$string['coursecontentnotification'] = 'Отправить уведомление об изменении содержания.';
+$string['coursecontentnotification_help'] = 'Установите флажок, чтобы уведомить участников курса о новом или измененном активном элементе или ресурсе. Уведомление получат только те пользователи, у которых есть доступ к активному элементу или ресурсу.';
+$string['coursecontentnotifnew'] = 'Новое содержимое курса {$a->coursename}';
+$string['coursecontentnotifnewbody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> является новым в курсе <a href="{$a->courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Измените настройки своих уведомлений.</a></p>';
+$string['coursecontentnotifupdate'] = 'Новое содержимое курса {$a->coursename}';
+$string['coursecontentnotifupdatebody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> был изменен в курсе <a href="{$a->courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Измените настройки своих уведомлений.</a></p>';
 $string['coursenotyetfinished'] = 'Курс еще не завершен';
 $string['coursenotyetstarted'] = 'Курс еще не начат';
+$string['courseparticipants'] = 'Участники курса';
 $string['coursetoolong'] = 'Курс очень длинный';
 $string['customfield_islocked'] = 'Заблокировано';
 $string['customfield_islocked_help'] = 'Если поле заблокировано, только пользователи с правом изменять блокировку пользовательских полей могут менять его в настройках курса (по умолчанию, только пользователи с ролью менеджера).';
-$string['customfield_notvisible'] = 'Никто';
-$string['customfield_visibility'] = 'Виден';
+$string['customfield_notvisible'] = 'Никому';
+$string['customfield_visibility'] = 'Видно';
 $string['customfield_visibility_help'] = 'Этот параметр определяет, кто может просматривать название и значение пользовательского поля в списке курсов или в фильтре доступных пользовательских полей в Личном кабинете.';
-$string['customfield_visibletoall'] = 'Все';
-$string['customfield_visibletoteachers'] = 'Преподаватели';
+$string['customfield_visibletoall'] = 'Всем';
+$string['customfield_visibletoteachers'] = 'Преподавателям';
 $string['customfieldsettings'] = 'Общие настройки пользовательских полей курса';
+$string['daystakingcourse'] = 'Число дней прохождения курса';
+$string['downloadcontent'] = 'Включить в скачиваемый курс';
+$string['downloadcontent_help'] = 'Следует ли включать этот активный элемент или ресурс в zip-файл контента курса, доступного для скачивания? Файл, Папка, Страница и Пояснение могут быть скачаны полностью. Для всех остальных элементов и ресурсов загружаются только название и описание. Эта опция требует, чтобы скачивание контента курса была разрешено в настройках курса.
+
+Этот параметр не влияет на скачивание содержимого мобильным приложением для использования в автономном режиме.';
 $string['downloadcourseconfirmation'] = 'Вы собираетесь скачать zip-файл с контентом курса (за исключением элементов, которые нельзя скачать и любых файлов, размер которых превышает {$a}).';
 $string['downloadcoursecontent'] = 'Скачивать материалы курса';
 $string['downloadcoursecontent_help'] = 'Этот параметр определяет, может ли контент курса быть скачан пользователями с правом скачивания контента курса (по умолчанию пользователи с ролью студента или учителя).';
@@ -83,6 +98,7 @@ $string['favourite'] = 'Избранный курс';
 $string['gradetopassnotset'] = 'В этом курсе нет проходных оценок. Их можно задать в элементах оценок курса (настройка Журнала уоценок).';
 $string['informationformodule'] = 'Информация о модуле {$a}';
 $string['module'] = 'Элемент';
+$string['namewithlink'] = 'Название категории со ссылкой';
 $string['noaccesssincestartinfomessage'] = 'Здравствуйте, {$a->userfirstname}!
 <p>Несколько студентов курса «{$a->coursename}» никогда в него не заходили.</p>';
 $string['nocourseactivity'] = 'Недостаточная активность между началом и концом курса';
@@ -93,6 +109,9 @@ $string['norecentaccessesinfomessage'] = 'Здравствуйте, {$a->userfir
 <p>Несколько студентов курса «{$a->coursename}» давно в него не заходили.</p>';
 $string['noteachinginfomessage'] = 'Здравствуйте, {$a->userfirstname}!
 <p>У курсов, которые начинаются на следующей неделе, нет преподавателей или в них не записаны студенты.</p>';
+$string['participants:perpage'] = 'Число участников на странице';
+$string['participants:perpage_help'] = 'Количество пользователей, отображаемых на странице участников в каждом курсе.';
+$string['participantsnavigation'] = 'Третичная навигация по участникам.';
 $string['privacy:completionpath'] = 'Завершение курса';
 $string['privacy:favouritespath'] = 'Информация помеченного курса';
 $string['privacy:metadata:activityfavouritessummary'] = 'В курсе содержится информация о том, какие активные элементы были помечены пользователем.';

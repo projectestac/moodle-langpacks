@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'backup', language 'de', version '3.11'.
+ * Strings for component 'backup', language 'de', version '4.1'.
  *
  * @package     backup
  * @category    string
@@ -71,8 +71,9 @@ $string['automatedminkepthelp'] = 'Diese Option legt die minimale Anzahl automat
 $string['automatedsettings'] = 'Automatische Sicherungen';
 $string['automatedsetup'] = 'Automatische Sicherungen';
 $string['automatedstorage'] = 'Speicherplatz für automatisierte Sicherungen';
-$string['automatedstoragehelp'] = 'Wählen SIe den Ort, an dem Sie die  automatisch erstellten Sicherungen speichern möchten.';
+$string['automatedstoragehelp'] = 'Wählen Sie den Ort, an dem Sie die  automatisch erstellten Sicherungen speichern möchten.';
 $string['backupactivity'] = 'Aktivität sichern: {$a}';
+$string['backupautoactivitiesdescription'] = 'Diese Option legt die Standardeinstellung für das Einbeziehen von Aktivitäten in eine Sicherung fest. Damit der Papierkorb funktioniert, muss diese Einstellung aktiviert sein.';
 $string['backupcourse'] = 'Kurs sichern: {$a}';
 $string['backupcoursedetails'] = 'Kursdetails';
 $string['backupcoursesection'] = 'Abschnitt: {$a}';
@@ -204,12 +205,13 @@ $string['errorfilenametoolong'] = 'Der Dateiname muss weniger als 255 Zeichen ha
 $string['errorinvalidformat'] = 'Unbekanntes Sicherungsformat';
 $string['errorinvalidformatinfo'] = 'Die ausgewählte Datei ist keine gültige Moodlesicherung und kann nicht zur Wiederherstellung verwendet werden';
 $string['errorminbackup20version'] = 'Diese Sicherungsdatei wurde mit einer Entwicklungsversion des Moodle-Backups ({$a->backup}) erstellt. Für die Wiederherstellung ist mindestens {$a->min} notwendig.';
-$string['errorrestorefrontpagebackup'] = 'Sicherungen einer Startseite können nur auf der Startseite wiederhergestellt werden.';
+$string['errorrestorefrontpagebackup'] = 'Sie können ausschließlich Sicherungen einer Startseite auf der Startseite wiederherstellen.';
 $string['executionsuccess'] = 'Die Sicherung wurde erfolgreich abgeschlossen.';
 $string['extractingbackupfileto'] = 'Die Sicherung wird entpackt nach: {$a}';
 $string['failed'] = 'Sicherung fehlgeschlagen';
 $string['filealiasesrestorefailures'] = 'Fehler bei der Alias-Wiederherstellung';
 $string['filealiasesrestorefailures_help'] = 'Aliases sind symbolische Links zu anderen Dateien, auch Dateien in externen Repositories. In einigen Fällen kann Moodle diese Aliases nicht wiederherstellen, z.B. wenn eine Sicherung in einem anderen System wiederhergestellt wird oder die verlinkte Datei nicht existiert.';
+$string['filealiasesrestorefailures_link'] = 'restore/filealiases';
 $string['filealiasesrestorefailuresinfo'] = 'Aliases aus der Sicherungsdatei konnten nicht wiederhergestellt werden. Die nachfolgende Liste enthält deren angenommenen Speicherorte und die Quelldatei aus dem Ursprungssystem.';
 $string['filename'] = 'Dateiname';
 $string['filereferencesincluded'] = 'In der Sicherung sind Dateiverweise zu externen Inhalten enthalten. Diese Dateiverweise werden nicht funktionieren, wenn die Sicherung in einer anderen Website wiederhergestellt wird.';
@@ -306,13 +308,13 @@ $string['qcategory2coursefallback'] = 'Die Fragenkategorie "{$a->name}" in der S
 $string['qcategorycannotberestored'] = 'Die Fragenkategorie "{$a->name}" kann bei der Wiederherstellung nicht erstellt werden';
 $string['question2coursefallback'] = 'Die Fragenkategorie "{$a->name}" in der Sicherungsdatei ist ursprünglich eine System- bzw. Kurskategorie. Bei der Wiederherstellung wird sie im Kurskontext erstellt.';
 $string['questionegorycannotberestored'] = 'Die Fragen "{$a->name}" können bei der Wiederherstellung nicht erstellt werden';
-$string['recyclebin_desc'] = 'Diese Einstellungen werden auch auf den Papierkorb angewendet.';
+$string['recyclebin_desc'] = 'Diese Einstellungen werden auch für den Papierkorb verwendet.';
 $string['replacerestoredefaults'] = 'Standard wiederherstellen, wenn in einem anderen Kurs wiederhergestellt wird und die bisherigen Kursinhalte gelöscht werden';
 $string['restoreactivity'] = 'Aktivität wiederherstellen';
 $string['restorecourse'] = 'Kurs wiederherstellen';
 $string['restorecoursesettings'] = 'Kurseinstellungen';
 $string['restoredcourseid'] = 'ID des wiederhergestellten Kurses: {$a}';
-$string['restoreexecutionsuccess'] = 'Der Kurs wurde erfolgreich wiederhergestellt. Klicken Sie auf Weiter, um in den Kurs zu gelangen.';
+$string['restoreexecutionsuccess'] = 'Der Kurs wurde erfolgreich wiederhergestellt.';
 $string['restorefileweremissing'] = 'Einige Dateien konnten nicht wiederhergestellt werden. Sie fehlten im Backup.';
 $string['restorenewcoursefullname'] = 'Neuer Kursname';
 $string['restorenewcourseshortname'] = 'Kurzer Kursname des neuen Kurses';
@@ -389,7 +391,7 @@ $string['setting_overwrite_course_fullname'] = 'Kursnamen überschreiben';
 $string['setting_overwrite_course_shortname'] = 'Kurze Kursnamen überschreiben';
 $string['setting_overwrite_course_startdate'] = 'Kursbeginn überschreiben';
 $string['showtypes'] = 'Typ-Optionen anzeigen';
-$string['sitecourseformatwarning'] = 'Dies ist die Sicherung einer Startseite. Eine solche Sicherung kann nur auf der Startseite wiederhergestellt werden.';
+$string['sitecourseformatwarning'] = 'Dies ist eine Sicherung einer Startseite. Eine solche Sicherung kann nur auf der Startseite wiederhergestellt werden.';
 $string['skiphidden'] = 'Verborgene Kurse überspringen';
 $string['skiphiddenhelp'] = 'Wählen Sie, ob verborgene Kurse gesichert werden sollen oder nicht.';
 $string['skipmodifdays'] = 'Unveränderte Kurse überspringen';

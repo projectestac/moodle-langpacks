@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'pt', version '3.11'.
+ * Strings for component 'tool_uploadcourse', language 'pt', version '4.1'.
  *
  * @package     tool_uploadcourse
  * @category    string
@@ -39,7 +39,7 @@ $string['cannotreadbackupfile'] = 'Não é possível ler o ficheiro da cópia de
 $string['cannotrenamecoursenotexist'] = 'Não é possível renomear uma disciplina que não existe';
 $string['cannotrenameidnumberconflict'] = 'Não é possível renomear a disciplina, o número ID está em conflito com uma disciplina existente';
 $string['cannotrenameshortnamealreadyinuse'] = 'Não é possível renomear a disciplina, o nome curto já está em uso';
-$string['cannotupdatefrontpage'] = 'Não é permitido modificar a página principal';
+$string['cannotupdatefrontpage'] = 'Não tem permissão para modificar a página principal.';
 $string['canonlyrenameinupdatemode'] = 'Só é possível renomear uma disciplina quando a atualização é permitida';
 $string['canonlyresetcourseinupdatemode'] = 'Só é possível reiniciar uma disciplina no modo de atualização';
 $string['couldnotresolvecatgorybyid'] = 'Não foi possível resolver a categoria por ID';

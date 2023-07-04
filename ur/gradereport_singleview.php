@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_singleview', language 'ur', version '3.11'.
+ * Strings for component 'gradereport_singleview', language 'ur', version '4.1'.
  *
  * @package     gradereport_singleview
  * @category    string
@@ -58,8 +58,6 @@ $string['privacy:metadata'] = 'گریڈ سنگل ویو رپورٹ صرف دوس
 $string['save'] = 'محفوظ کریں';
 $string['savegrades'] = 'گریڈز کی بچت';
 $string['savegradessuccess'] = '{$a} آئٹمز کے لیے گریڈ سیٹ کیے گئے تھے';
-$string['selectgrade'] = 'گریڈ آئٹم منتخب کریں۔۔۔';
-$string['selectuser'] = 'صارف کو منتخب کریں۔۔۔';
 $string['singleview:view'] = 'رپورٹ ملاحظہ کریں';
 $string['summarygrade'] = 'صارفین کا ایک جدول، جس میں رینج، گریڈ، تاثرات، اور آیا کسی خاص گریڈ کو اوور رائڈ کرنا ہے یا خارج کرنا ہے۔';
 $string['summaryuser'] = 'گریڈ کے زمرے، رینج، گریڈ، تاثرات، اور آیا کسی خاص گریڈ کو اوور رائڈ کرنا ہے یا خارج کرنا ہے کے کالموں کے ساتھ، گریڈ آئٹمز کا ایک جدول۔';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_xml', language 'ur', version '3.11'.
+ * Strings for component 'qformat_xml', language 'ur', version '4.1'.
  *
  * @package     qformat_xml
  * @category    string
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['invalidxml'] = 'غلط XML فائل - سٹرنگ متوقع ہے (CDATA استعمال کریں؟)';
 $string['pluginname'] = 'موڈل XML فارمیٹ';
 $string['pluginname_help'] = 'سوالات درآمد اور برآمد کرنے کے لیے یہ موڈل کے لیے مخصوص فارمیٹ ہے۔';
+$string['pluginname_link'] = 'qformat/xml';
 $string['privacy:metadata'] = 'XML سوال فارمیٹ پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';
 $string['truefalseimporterror'] = '<b>انتباہ</b>: صحیح/غلط سوال \'{$a->questiontext}\' کو صحیح طریقے سے درآمد نہیں کیا جا سکا۔ یہ واضح نہیں تھا کہ صحیح جواب درست ہے یا غلط۔ یہ فرض کر کے سوال درآمد کیا گیا ہے کہ جواب \'{$a->answer}\' ہے۔ اگر یہ درست نہیں ہے تو آپ کو سوال میں ترمیم کرنے کی ضرورت ہوگی۔';
 $string['unsupportedexport'] = 'سوال کی قسم {$a} XML برآمد کے ذریعے تعاون یافتہ نہیں ہے';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'attendance', language 'ja', version '3.11'.
+ * Strings for component 'attendance', language 'ja', version '4.1'.
  *
  * @package     attendance
  * @category    string
@@ -44,6 +44,9 @@ $string['adduser'] = 'ユーザを追加する';
 $string['addwarning'] = '警告を追加する';
 $string['all'] = 'すべて';
 $string['allcourses'] = 'すべてのコース';
+$string['allowupdatestatus'] = '学生に自身の出欠の更新を許す';
+$string['allowupdatestatus_desc'] = 'チェックすると、既に自己マーキングした学生のセッションのマーキングを学生が更新可能になります。';
+$string['allowupdatestatus_help'] = 'チェックすると、既に自己マーキングした学生のセッションのマーキングを学生が更新可能になります。';
 $string['allpast'] = 'すべての過去';
 $string['allsessions'] = 'すべてのセッション';
 $string['allsessionstotals'] = 'すべての選択されたセッション';
@@ -65,15 +68,15 @@ $string['attendance_no_status'] = '利用可能な有効ステータスはあり
 $string['attendancedata'] = '出欠データ';
 $string['attendancefile'] = '出欠ファイル（CSV形式）';
 $string['attendancefile_help'] = 'ファイルは、ヘッダー行と、ユーザーを識別および出席が記録された時間からなるフィールド（例：（email,scantime）または（username,time））を含むCSVファイルでなければなりません';
-$string['attendanceforthecourse'] = 'コースの出欠';
 $string['attendancegrade'] = '出席点';
 $string['attendancenotset'] = 'あなたの出欠を設定する必要があります。';
 $string['attendancenotstarted'] = 'このコースの出欠はまだ開始されていません。';
 $string['attendancepercent'] = '出席率';
-$string['attendancereport'] = '出欠レポート';
+$string['attendancereport'] = '出欠';
 $string['attendanceslogged'] = '記録された出欠';
 $string['attendancesuccess'] = '出欠が正常に取られました。';
 $string['attendanceupdated'] = '出欠が正常に更新されました。';
+$string['attendanceuserreport'] = '出欠レポート';
 $string['attforblockdirstillexists'] = 'まだ古いmod/attforblockディレクトリが存在します - このアップグレードを実行する前にあなたのサーバのこのディレクトリを削除する必要があります。';
 $string['attrecords'] = '出欠レコード';
 $string['autoassignstatus'] = '利用可能な最高のステータスを選択する';
@@ -84,8 +87,15 @@ $string['automark_help'] = 'マーキングを完全自動にします。
 「セッション終了時にマーク解除する」を選択した場合、自分の出欠をマークしていないすべての学生には選択されたマーク未了ステータスが設定されます。';
 $string['automarkall'] = 'Yes';
 $string['automarkclose'] = 'セッション終了時にマーク未了を設定する';
+$string['automarkingcomplete'] = '自動マーキング完了';
+$string['automarkingnotenabled'] = '自動マーキングは本セッションでは無効';
 $string['automarktask'] = '自動マーキングに必要な出欠セッションをチェックする';
 $string['autorecorded'] = 'システム自動記録';
+$string['availability'] = '自己マーキングの可否';
+$string['availability_help'] = 'このステータスの可否を制限します。<br> "制限時間"を選択した場合、セッション開始後にこのステータスが利用可能になるまでの時間を指定します。学生による出欠の自己マーキングが可能な時に、これは適用されます。';
+$string['availabilityalways'] = '常に';
+$string['availabilitylimitedtime'] = '制限時間';
+$string['availablebeforesession'] = 'セッション開始前に可';
 $string['averageattendance'] = '平均出欠';
 $string['averageattendancegraded'] = '平均出欠';
 $string['backtoparticipants'] = '参加者リストに戻る';
@@ -263,6 +273,8 @@ $string['includeremarks'] = '備考を含む';
 $string['incorrectpassword'] = 'あなたが正しくないパスワードを入力したため出欠は記録されませんでした。正しいパスワードを入力してください。';
 $string['incorrectpasswordshort'] = '正しくないパスワードです。出欠は記録されませんでした。';
 $string['indetail'] = '詳細 ...';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['invalidaction'] = 'あなたは処理を選択する必要があります。';
 $string['invalidemails'] = 'あなたは既存のユーザアカウントのアドレスを指定する必要があります。見つけることができませんでした: {$a}';
 $string['invalidimportfile'] = 'ファイルフォーマットが正しくありません。';
@@ -425,6 +437,7 @@ $string['resultsperpage'] = '1ページあたりの結果';
 $string['resultsperpage_desc'] = '1ページに表示する学生数です。';
 $string['rotateqrcode'] = 'QRコードを回転';
 $string['save'] = '出欠を保存する';
+$string['saveandshownext'] = '保存と次ページの表示';
 $string['scantime'] = 'スキャンタイム';
 $string['search:activity'] = '出欠 - 活動情報';
 $string['session'] = 'セッション';
@@ -491,9 +504,6 @@ $string['strftimedmyw'] = '<nobr>%Y/%m/%d (%a)</nobr>';
 $string['strftimeh'] = '%I%p';
 $string['strftimehm'] = '%I:%M%p';
 $string['strftimeshortdate'] = '%Y/%m/%d';
-$string['studentavailability'] = '学生利用可能 (分)';
-$string['studentavailability_help'] = '学生が自分の出欠をマーキングする場合、セッション開始後の指定した時間 (分) 、このステータスは利用可能です。
-<br/>空白にした場合、このステータスは常に利用可能です。ゼロが設定された場合、常に学生から隠されます。';
 $string['studentid'] = '学籍番号';
 $string['studentmarked'] = 'このセッションのあなたの出欠が記録されました。';
 $string['studentmarking'] = '学生記録';
@@ -507,6 +517,8 @@ $string['studentscanmarksessiontime'] = '学生はセッション時間中に出
 $string['studentscanmarksessiontime_desc'] = 'この設定を有効にした場合、学生はセッション中のみ出欠を記録することができます。';
 $string['studentscanmarksessiontimeend'] = 'セッション終了 (分)';
 $string['studentscanmarksessiontimeend_desc'] = 'セッションに終了時間がない場合、学生の出欠記録のために何分間セッションを利用可能にしますか?';
+$string['studentsearlyopentime'] = 'マーキングのためにセッションを早めに開始する';
+$string['studentsearlyopentime_help'] = 'これにより、教師はセッションを早く開始することができ、実際の開始時間前に出席を取ることができるようになります。';
 $string['submit'] = '送信';
 $string['submitattendance'] = '出欠を送信する';
 $string['submitpassword'] = 'パスワード送信';

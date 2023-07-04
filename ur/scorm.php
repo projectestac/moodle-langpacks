@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ur', version '3.11'.
+ * Strings for component 'scorm', language 'ur', version '4.1'.
  *
  * @package     scorm
  * @category    string
@@ -87,7 +87,6 @@ $string['completed'] = 'مکمل';
 $string['completiondetail:allscos'] = 'اس سرگرمی کے تمام حصے کریں';
 $string['completiondetail:completionscore'] = '{$a} یا اس سے زیادہ کا اسکور حاصل کریں';
 $string['completiondetail:completionstatuscompleted'] = 'سرگرمی کو مکمل کریں';
-$string['completiondetail:completionstatuscompletedandpassed'] = 'سرگرمی کو مکمل کریں اور پاس کریں';
 $string['completiondetail:completionstatuspassed'] = 'سرگرمی کو پاس کریں';
 $string['completionscorerequired'] = 'کم از کم سکور درکار ہے';
 $string['completionscorerequired_help'] = 'اس ترتیب کو فعال کرنے کے لیے صارف کو اس SCORM سرگرمی میں مکمل نشان زد کرنے کے لیے درج کردہ کم از کم سکور کے ساتھ ساتھ سرگرمی کی تکمیل کے دیگر تقاضوں کی ضرورت ہوگی۔';
@@ -129,7 +128,6 @@ $string['displaydesc'] = 'آیا SCORM پیکیج کو نئی ونڈو میں ڈ
 $string['displaysettings'] = 'ڈسپلے کی ترتیبات';
 $string['dnduploadscorm'] = 'ایک SCORM پیکیج شامل کریں';
 $string['domxml'] = 'DOMXML بیرونی لائبریری';
-$string['duedate'] = 'اخری تاریخ';
 $string['element'] = 'عنصر';
 $string['enter'] = 'داخل کریں';
 $string['entercourse'] = 'کورس داخل کریں';
@@ -199,10 +197,12 @@ $string['indicator:cognitivedepth'] = 'SCORM علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے SCORM سرگرمی میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'SCORM علمی';
 $string['indicator:cognitivedepthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفہ کے دوران SCORM سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں، تاثرات دیکھیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'SCORM سماجی';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے SCORM سرگرمی میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'SCORM سماجی';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفہ کے دوران SCORM سرگرمیوں کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، تنہا شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'معلومات';
 $string['interactions'] = 'روابط';
 $string['invalidactivity'] = 'SCORM سرگرمی غلط ہے';
@@ -235,6 +235,7 @@ $string['missingparam'] = 'ایک مطلوبہ پیرامیٹر غائب یا غ
 $string['mode'] = 'موڈ';
 $string['modulename'] = 'SCORM پیکیج';
 $string['modulename_help'] = 'SCORM پیکیج فائلوں کا ایک مجموعہ ہے جو اشیاء کو سیکھنے کے لیے ایک متفقہ معیار کے مطابق پیک کیا جاتا ہے۔ SCORM سرگرمی ماڈیول SCORM یا AICC پیکیجز کو زپ فائل کے طور پر اپ لوڈ کرنے اور کورس میں شامل کرنے کے قابل بناتا ہے۔ مواد عام طور پر کئی صفحات پر ظاہر ہوتا ہے، صفحات کے درمیان نیویگیشن کے ساتھ۔ ایک پاپ اپ ونڈو میں مواد کو ڈسپلے کرنے کے لیے مختلف اختیارات ہیں، مواد کی میز کے ساتھ، نیویگیشن بٹن وغیرہ کے ساتھ۔ SCORM سرگرمیوں میں عام طور پر سوالات شامل ہوتے ہیں، جن کے درجات گریڈ بک میں درج کیے جاتے ہیں۔ SCORM سرگرمیاں استعمال کی جا سکتی ہیں * ملٹی میڈیا مواد اور اینیمیشنز پیش کرنے کے لیے * بطور تشخیصی ٹول';
+$string['modulename_link'] = 'mod/scorm/view';
 $string['modulenameplural'] = 'SCORM پیکجز';
 $string['myaiccsessions'] = 'میرے اے آئی سی سی سیشنز';
 $string['myattempts'] = 'میری کوششیں';

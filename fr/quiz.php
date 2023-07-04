@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'fr', version '3.11'.
+ * Strings for component 'quiz', language 'fr', version '4.1'.
  *
  * @package     quiz
  * @category    string
@@ -73,6 +73,7 @@ $string['allowreview'] = 'Autoriser la relecture';
 $string['alreadysubmitted'] = 'Vous avez probablement déjà répondu ainsi à ce test';
 $string['alternativeunits'] = 'Autres unités';
 $string['alwaysavailable'] = 'Toujours disponible';
+$string['alwayslatest'] = 'Toujours la dernière';
 $string['analysisoptions'] = 'Options d\'analyse';
 $string['analysistitle'] = 'Table d\'analyse des éléments';
 $string['answer'] = 'Réponse';
@@ -96,9 +97,12 @@ $string['attempterrorcontentchange'] = 'La prévisualisation du test n\'existe p
 $string['attempterrorcontentchangeforuser'] = 'La tentative de test n\'existe plus.';
 $string['attempterrorinvalid'] = 'Identifiant de tentative de test non valide';
 $string['attemptfirst'] = 'Première tentative';
+$string['attemptgradeddelay'] = 'Délai avant notification d\'évaluation';
+$string['attemptgradeddelay_desc'] = 'Un délai est appliqué avant d\'envoyer à l\'étudiant une notification d\'évaluation, pour donner à l\'enseignant le temps de modifier la note.';
 $string['attemptincomplete'] = 'Cette tentative (de {$a}) n\'est pas encore terminée.';
 $string['attemptlast'] = 'Dernière tentative';
 $string['attemptnumber'] = 'Tentative';
+$string['attemptquiz'] = 'Effectuer le test';
 $string['attemptquiznow'] = 'Faire le test';
 $string['attemptreviewtitle'] = '{$a} : relecture de tentative';
 $string['attemptreviewtitlepaged'] = '{$a->name} : relecture de tentative (page {$a->currentpage} sur {$a->totalpages})';
@@ -200,7 +204,7 @@ $string['configadaptive'] = 'Si cette option est activée, le participant pourra
 $string['configattemptsallowed'] = 'La restriction du nombre des tentatives des participants est autorisée.';
 $string['configdecimaldigits'] = 'Le nombre de chiffres après la virgule lors de l\'affichage des notes.';
 $string['configdecimalplaces'] = 'Le nombre de chiffres à afficher après la virgule lors de l\'affichage des notes du test.';
-$string['configdecimalplacesquestion'] = 'Le nombre de chiffres à afficher après la virgule lors de l\'affichage de la note de chaque question.';
+$string['configdecimalplacesquestion'] = 'Le nombre de décimales à afficher lors de l\'affichage des points pour chaque question.';
 $string['configdelay1'] = 'Si vous indiquez une durée, les participants devront attendre ce laps de temps avant d\'effectuer une nouvelle tentative après la première.';
 $string['configdelay1st2nd'] = 'Si vous indiquez une durée, les participants devront attendre ce laps de temps avant d\'effectuer une nouvelle tentative après la première.';
 $string['configdelay2'] = 'Si vous indiquez une durée, les participants devront attendre ce laps de temps avant d\'effectuer une troisième ou d\'ultérieures tentatives.';
@@ -223,7 +227,7 @@ $string['configshufflewithin'] = 'Si cette option est activée, les parties des 
 $string['configtimelimit'] = 'Le temps imparti aux participants pour effectuer les tests, en minutes. Le nombre 0 indique qu\'il n\'y a pas de limite de temps.';
 $string['configtimelimitsec'] = 'Le temps imparti aux participants pour effectuer les tests, en secondes. Le nombre 0 indique qu\'il n\'y a pas de limite de temps.';
 $string['configurerandomquestion'] = 'Configurer la question';
-$string['confirmclose'] = 'Une fois la tentative envoyée, vous n\'aurez plus la possibilité de modifier vos réponses pour cette tentative.';
+$string['confirmclose'] = 'Une fois vos réponses envoyées, vous n\'aurez plus la possibilité de les modifier.';
 $string['confirmremovequestion'] = 'Voulez-vous vraiment supprimer cette question {$a} ?';
 $string['confirmremovesectionheading'] = 'Voulez-vous vraiment supprimer le titre de section « {$a} » ?';
 $string['confirmserverdelete'] = 'Voulez-vous vraiment supprimer le serveur <b>{$a}</b> de la liste ?';
@@ -263,8 +267,8 @@ $string['daysavailable'] = 'Jours disponibles';
 $string['decimaldigits'] = 'Décimales dans les notes';
 $string['decimalplaces'] = 'Décimales dans les notes';
 $string['decimalplaces_help'] = 'Ce réglage vous permet de choisir le nombre de décimales à afficher dans les scores ou dans les notes. Ces réglages n\'agissent que sur l\'affichage des notes, et n\'altèrent pas les notes stockées dans la base de données, ni les calculs internes qui sont effectués avec précision.';
-$string['decimalplacesquestion'] = 'Décimales dans les notes des questions';
-$string['decimalplacesquestion_help'] = 'Ce réglage permet de déterminer le nombre de décimales à afficher dans la présentation des notes pour chaque question.';
+$string['decimalplacesquestion'] = 'Décimales dans les points des questions';
+$string['decimalplacesquestion_help'] = 'Le nombre de décimales à afficher dans l\'affichage des points pour chaque question.';
 $string['decimalpoints'] = 'Décimales';
 $string['default'] = 'Défaut';
 $string['defaultgrade'] = 'Note par défaut';
@@ -299,6 +303,7 @@ $string['editingquiz_help'] = 'Lors de la création d\'un test, les concepts pri
 * le test, qui contient des questions sur une ou plusieurs pages ;
 * la banque de questions, qui contient des copies de toutes les questions, organisées en catégories ;
 * les questions aléatoires. Les étudiants obtiennent des questions différentes lors de leur tentative du test, et un étudiant obtient des questions différentes lors de chaque tentative.';
+$string['editingquiz_link'] = 'mod/quiz/edit';
 $string['editingquizx'] = 'Modification du test {$a}';
 $string['editmaxmark'] = 'Modifier le score maximum';
 $string['editoverride'] = 'Modifier une dérogation';
@@ -307,6 +312,7 @@ $string['editquestion'] = 'Modifier la question';
 $string['editquestions'] = 'Modifier les questions';
 $string['editquiz'] = 'Modifier le test';
 $string['editquizquestions'] = 'Modifier les questions du test';
+$string['emailconfirmautosubmitsmall'] = 'Merci d\'avoir envoyé vos réponses au test « {$a->quizname} »';
 $string['emailconfirmbody'] = 'Bonjour {$a->username},
 
 Vous avez envoyé vos réponses au test « {$a->quizname} » du cours « {$a->coursename} » à {$a->submissiontime}.
@@ -314,8 +320,21 @@ Vous avez envoyé vos réponses au test « {$a->quizname} » du cours « {$a-
 Ce message confirme que vos réponses ont été enregistrées.
 
 Vous pouvez accéder à ce test en suivant le lien {$a->quizurl}.';
+$string['emailconfirmbodyautosubmit'] = 'Bonjour {$a->username},
+
+Le temps imparti pour le test « {$a->quizname} » dans le cours « {$a->coursename} » est arrivé à échéance. Vos réponses ont été envoyées automatiquement à {$a->submissiontime}.
+
+Ce message confirme que vos réponses ont été enregistrées.
+
+Vous pouvez accéder à ce test via l\'adresse {$a->quizurl}.';
 $string['emailconfirmsmall'] = 'Merci pour l\'envoi de vos réponses au test « {$a->quizname} »';
 $string['emailconfirmsubject'] = 'Confirmation d\'envoi : {$a->quizname}';
+$string['emailmanualgradedbody'] = 'Bonjour {$a->studentname},
+
+Vos réponses au test « {$a->quizname} » dans le cours « {$a->coursename} » à {$a->attempttimefinish} ont été évaluées.
+
+Vous pouvez consulter votre résultat et feedback en visitant {$a->quizurl}\' et relire votre tentative.';
+$string['emailmanualgradedsubject'] = 'Votre tentative du test {$a->quizname} a été évaluée';
 $string['emailnotifybody'] = 'Bonjour {$a->username},
 
 Le participant {$a->studentname} a terminé le test « {$a->quizname} » ({$a->quizurl}) du cours « {$a->coursename} ».
@@ -341,22 +360,39 @@ $string['errornotnumbers'] = 'Erreur ! Les réponses doivent être numériques'
 $string['errorunexpectedevent'] = 'Code d\'événement {$a->event} inattendu trouvé pour la question {$a->questionid} dans la tentative {$a->attemptid}.';
 $string['essay'] = 'Composition';
 $string['essayquestions'] = 'Questions';
+$string['eventattemptautosaved'] = 'Tentative de test enregistrée automatiquement';
 $string['eventattemptdeleted'] = 'Tentative de test supprimée';
+$string['eventattemptmanualgradingcomplete'] = 'Évaluation manuelle de la tentative de test terminée';
 $string['eventattemptpreviewstarted'] = 'Prévisualisation de tentative de test commencée';
+$string['eventattemptquestionrestarted'] = 'Tentative de test recommencée';
 $string['eventattemptreviewed'] = 'Tentative de test relue';
 $string['eventattemptsummaryviewed'] = 'Résumé de tentative de test consulté';
+$string['eventattemptupdated'] = 'Tentative de test modifiée';
 $string['eventattemptviewed'] = 'Tentative de test consultée';
 $string['eventeditpageviewed'] = 'Page de modification de test consultée';
 $string['eventoverridecreated'] = 'Dérogation de test créée';
 $string['eventoverridedeleted'] = 'Dérogation de test supprimée';
 $string['eventoverrideupdated'] = 'Dérogation de test modifiée';
+$string['eventpagebreakcreated'] = 'Saut de page créé';
+$string['eventpagebreakdeleted'] = 'Saut de page supprimé';
 $string['eventquestionmanuallygraded'] = 'Question évaluée manuellement';
 $string['eventquizattemptabandoned'] = 'Tentative de test abandonnée';
 $string['eventquizattemptregraded'] = 'Tentative de test réévaluée';
 $string['eventquizattemptstarted'] = 'Tentative de test commencée';
 $string['eventquizattemptsubmitted'] = 'Tentative de test envoyée';
 $string['eventquizattempttimelimitexceeded'] = 'Durée limite de tentative de test dépassée';
+$string['eventquizgradeupdated'] = 'Note de test modifiée';
+$string['eventquizrepaginated'] = 'Test repaginé';
 $string['eventreportviewed'] = 'Rapport de test consulté';
+$string['eventsectionbreakcreated'] = 'Saut de section créé';
+$string['eventsectionbreakdeleted'] = 'Saut de section supprimé';
+$string['eventsectionshuffleupdated'] = 'Mélange de section modifié';
+$string['eventsectiontitleupdated'] = 'Titre de section modifié';
+$string['eventslotcreated'] = 'Créneau créé';
+$string['eventslotdeleted'] = 'Créneau supprimé';
+$string['eventslotmarkupdated'] = 'Marque de créneau modifiée';
+$string['eventslotmoved'] = 'Créneau déplacé';
+$string['eventslotrequirepreviousupdated'] = 'Valeur obligatoire antérieure du créneau modifiée';
 $string['everynquestions'] = 'Toutes les {$a} questions';
 $string['everyquestion'] = 'Chaque question';
 $string['everythingon'] = 'Tout activer';
@@ -392,6 +428,7 @@ $string['fromfile'] = 'Depuis le fichier :';
 $string['functiondisabledbysecuremode'] = 'Cette fonctionnalité est actuellement désactivée';
 $string['generalfeedback'] = 'Feedback général';
 $string['generalfeedback_help'] = 'Le feedback général d\'une question est le texte présenté à l\'étudiant après une tentative de réponse. Contrairement au feedback pour une question spécifique, qui dépend du type de question et de la réponse donnée, le même feedback général est toujours affiché.';
+$string['gobacktoquiz'] = 'Retour';
 $string['graceperiod'] = 'Délai supplémentaire pour envoi';
 $string['graceperiod_desc'] = 'Si à l\'échéance du temps imparti, « Un laps de temps supplémentaire est donné…», ce réglage définit la durée supplémentaire octroyée par défaut.';
 $string['graceperiod_help'] = 'Si à l\'échéance du temps imparti, « Un laps de temps supplémentaire est donné…», ce réglage définit la durée supplémentaire octroyée.';
@@ -436,6 +473,7 @@ $string['import_help'] = 'Cette fonction vous permet d\'importer des questions �
 Si votre fichier comprend des caractères étendus, il doit être encodé en UTF-8. Soyez particulièrement prudent avec les fichiers générés par les applications Microsoft Office, qui utilisent habituellement des encodages exotiques qui ne seront pas traités correctement.
 
 ';
+$string['import_link'] = 'question/import';
 $string['importcategory'] = 'Importer une catégorie';
 $string['importerror'] = 'Une erreur est survenue lors de l\'importation';
 $string['importfilearea'] = 'Importer à partir d\'un fichier du cours…';
@@ -451,10 +489,12 @@ $string['indicator:cognitivedepth'] = 'Test : aspect cognitif';
 $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la profondeur cognitive atteinte par l\'étudiant dans une activité Test.';
 $string['indicator:cognitivedepthdef'] = 'Test : aspect cognitif';
 $string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement cognitif offert par les activités « Test » (niveaux : pas de vue, vue, envoi, vue du feedback, commentaire du feedback, nouvel envoi après vue du feedback).';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Test : aspect social';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur se base sur l\'interaction sociale atteinte par l\'étudiant dans une activité Quiz.';
 $string['indicator:socialbreadthdef'] = 'Test : aspect social';
 $string['indicator:socialbreadthdef_help'] = 'Le participant a atteint durant cet intervalle d\'analyse ce pourcentage d\'engagement social offert par les activités « Test » (niveaux : pas de participation, participant seul, participant avec d\'autres).';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['indivresp'] = 'Réponses de chaque personne à toutes les questions';
 $string['info'] = 'Info';
 $string['infoshort'] = 'i';
@@ -496,6 +536,7 @@ $string['matchanswer'] = 'Réponse correspondante';
 $string['matchanswerno'] = 'Réponse correspondante {$a}';
 $string['max'] = 'Max';
 $string['maxmark'] = 'Score maximum';
+$string['messageprovider:attempt_grading_complete'] = 'Notification que votre tentative a été évaluée';
 $string['messageprovider:attempt_overdue'] = 'Avertir lorsque la tentative de test est en retard';
 $string['messageprovider:confirmation'] = 'Confirmation de l\'envoi de vos propres réponses de tests';
 $string['messageprovider:submission'] = 'Notifications des tentatives de tests remises par vos étudiants';
@@ -520,6 +561,7 @@ Les tests peuvent notamment être utilisés :
 * comme exercice pour un examen, en utilisant les questions de l\'examen de l\'année précédente,
 * pour fournir un feedback de performance,
 * pour l\'auto-évaluation.';
+$string['modulename_link'] = 'mod/quiz/view';
 $string['modulenameplural'] = 'Tests';
 $string['moveselectedonpage'] = 'Déplacer les questions sélectionnées vers la page {$a}';
 $string['multichoice'] = 'Choix multiple';
@@ -570,16 +612,16 @@ $string['noreviewshort'] = 'Non autorisé';
 $string['noreviewuntil'] = 'Vous n\'êtes pas autorisé à relire ce test avant le {$a}';
 $string['noreviewuntilshort'] = 'Disponible le {$a}';
 $string['noscript'] = 'Javascript doit être activé pour continuer !';
-$string['notavailabletostudents'] = 'Ce test n\'est actuellement pas disponible pour vos étudiants';
+$string['notavailabletostudents'] = 'Ce test n\'est actuellement pas disponible pour vos étudiants.';
 $string['notenoughrandomquestions'] = 'Il n\'y a pas assez de questions dans la catégorie {$a->category} pour créer la question {$a->name} ({$a->id}).';
 $string['notenoughsubquestions'] = 'Vous n\'avez pas défini assez de sous-questions !<br />Souhaitez-vous revenir en arrière pour corriger cela ?';
+$string['notifyattemptsgradedtask'] = 'Envoyer des notifications d\'évaluation des tentatives';
 $string['notimedependentitems'] = 'Les éléments dépendant du temps ne sont pour l\'instant pas supportés dans le module test. Comme pis aller, vous pouvez fixer une limite de durée pour la totalité du test. Voulez-vous choisir un autre élément (ou utiliser malgré tout cet élément-ci) ?';
 $string['notyetgraded'] = 'Pas encore évalué';
 $string['notyetviewed'] = 'Pas encore vu';
 $string['notyourattempt'] = 'Il ne s\'agit pas de votre tentative !';
 $string['noview'] = 'L\'utilisateur connecté n\'a pas les permissions requises pour voir ce test';
 $string['numattempts'] = '{$a->studentnum} {$a->studentstring} ont fait {$a->attemptnum} tentatives';
-$string['numattemptsmade'] = '{$a} tentatives de ce test effectuées';
 $string['numberabbr'] = 'No';
 $string['numerical'] = 'Numérique';
 $string['numquestionsx'] = 'Questions : {$a}';
@@ -609,6 +651,7 @@ $string['overdue'] = 'En retard';
 $string['overduehandling'] = 'Lorsque le temps imparti échoit';
 $string['overduehandling_desc'] = 'Ce qui doit arriver par défaut si un participant n\'envoie pas son test dans le temps imparti.';
 $string['overduehandling_help'] = 'Ce réglage détermine ce qui se passe si l\'étudiant n\'envoie pas son test avant l\'échéance du délai. Si l\'étudiant est actif à cet instant, la tentative sera envoyée automatiquement. S\'il n\'est pas connecté, ce réglage détermine ce qui se passe à ce moment.';
+$string['overduehandling_link'] = 'mod/quiz/timing';
 $string['overduehandlingautoabandon'] = 'La tentative doit être envoyée avant l\'échéance, sans quoi elle n\'est pas comptabilisée';
 $string['overduehandlingautosubmit'] = 'La tentative en cours est envoyée automatiquement';
 $string['overduehandlinggraceperiod'] = 'Un laps de temps supplémentaire est donné pour envoyer le test. Il n\'est pas permis de répondre aux questions durant cette période';
@@ -657,12 +700,14 @@ $string['preview'] = 'Prévisualisation';
 $string['previewquestion'] = 'Prévisualiser la question';
 $string['previewquiz'] = 'Prévisualiser {$a}';
 $string['previewquiznow'] = 'Prévisualiser le test maintenant';
+$string['previewquizstart'] = 'Prévisualiser le test';
 $string['previous'] = 'État précédent';
 $string['privacy:metadata:core_question'] = 'L\'activité Test enregistre les informations d\'utilisation des questions dans le sous-système core_question.';
 $string['privacy:metadata:quiz'] = 'L\'activité test fait usage des rapports de tests.';
 $string['privacy:metadata:quiz_attempts'] = 'Inforamtions sur chaque tentative d\'un test.';
 $string['privacy:metadata:quiz_attempts:attempt'] = 'Le numéro de la tentative.';
 $string['privacy:metadata:quiz_attempts:currentpage'] = 'La page sur laquelle l\'utilisateur est actuellement.';
+$string['privacy:metadata:quiz_attempts:gradednotificationsenttime'] = 'L\'horodatage de la notification de l\'utilisateur que l\'évaluation manuelle de sa tentative de test est terminée';
 $string['privacy:metadata:quiz_attempts:preview'] = 'S\'il s\'agit d\'une prévisualisation du test.';
 $string['privacy:metadata:quiz_attempts:state'] = 'Le statut actuel de la tentative.';
 $string['privacy:metadata:quiz_attempts:sumgrades'] = 'La somme des notes de la tentative.';
@@ -699,6 +744,8 @@ $string['questiondependencyadd'] = 'Il n\'y a pas de restriction sur le moment o
 $string['questiondependencyfree'] = 'Il n\'y a pas de restriction sur cette question.';
 $string['questiondependencyremove'] = 'La question {$a->thisq} ne peut pas être tentée avant que la question précédente {$a->previousq} ait reçu une réponse. Cliquez pour modifier';
 $string['questiondependsonprevious'] = 'Cette question ne peut pas être tentée avant que la question précédente ait reçu une réponse.';
+$string['questiondraftonly'] = 'La question {$a} est dans l\'état brouillon. Pour l\'utiliser dans un test, visiter la banque de questions et changer son statut sur prêt.';
+$string['questiondraftwillnotwork'] = 'La question est dans l\'état brouillon. Pour l\'utiliser dans un test, visiter la banque de questions et changer son statut sur prêt.';
 $string['questioninuse'] = 'La question « {$a->questionname} » est actuellement utilisée dans<br />{$a->quiznames}<br />Elle ne sera pas retirée de ce(s) test(s), mais seulement de la catégorie.';
 $string['questionmissing'] = 'La question est manquante pour cette session';
 $string['questionname'] = 'Nom de la question';
@@ -719,10 +766,13 @@ $string['questiontext'] = 'Texte de la question';
 $string['questiontextisempty'] = '[Texte de question vide]';
 $string['questiontype'] = 'Question de type {$a}';
 $string['questiontypesetupoptions'] = 'Options pour les types de questions :';
+$string['questionversion'] = 'v{$a}';
+$string['questionversionlatest'] = 'v{$a} (dernière)';
 $string['quiz:addinstance'] = 'Ajouter un test';
 $string['quiz:attempt'] = 'Effectuer des tests';
 $string['quiz:deleteattempts'] = 'Supprimer les tentatives de tests';
 $string['quiz:emailconfirmsubmission'] = 'Recevoir une confirmation lors de la remise de vos propres tentatives de tests';
+$string['quiz:emailnotifyattemptgraded'] = 'Recevoir une notification lorsque votre tentative a été évaluée';
 $string['quiz:emailnotifysubmission'] = 'Recevoir une notification lors de la remise des tentatives de tests de vos étudiants';
 $string['quiz:emailwarnoverdue'] = 'Recevoir un message d\'avertissement lorsque votre tentative arrive au délai';
 $string['quiz:grade'] = 'Évaluer manuellement les tests';
@@ -750,6 +800,7 @@ $string['quiznavigation'] = 'Navigation du test';
 $string['quizopen'] = 'Ouvrir ce test';
 $string['quizopenclose'] = 'Dates d\'ouverture et de fermeture';
 $string['quizopenclose_help'] = 'Les étudiants ne peuvent commencer leur tentative qu\'après l\'heure d\'ouverture et doivent la terminer avant l\'heure de fermeture.';
+$string['quizopenclose_link'] = 'mod/quiz/timing';
 $string['quizopened'] = 'Ce test est ouvert.';
 $string['quizopenedon'] = 'Ce test est ouvert depuis {$a}';
 $string['quizopens'] = 'Le test est rendu disponible';
@@ -847,8 +898,6 @@ $string['reviewclosed'] = 'Après la fermeture du test';
 $string['reviewduring'] = 'Pendant la tentative';
 $string['reviewimmediately'] = 'Immédiatement après la tentative';
 $string['reviewnever'] = 'Ne jamais permettre la relecture';
-$string['reviewofattempt'] = 'Relecture de la tentative {$a}';
-$string['reviewofpreview'] = 'Relecture de la prévisualisation';
 $string['reviewofquestion'] = 'Relecture de la question {$a->question} dans {$a->quiz}, de {$a->user}';
 $string['reviewopen'] = 'Plus tard, alors que le test est encore ouvert';
 $string['reviewoptions'] = 'Les étudiants peuvent relire';
@@ -897,13 +946,13 @@ $string['selectedattempts'] = 'Tentatives sélectionnées…';
 $string['selectmultipleitems'] = 'Sélectionner plusieurs éléments';
 $string['selectmultipletoolbar'] = 'Sélectionner plusieurs barres d\'outils';
 $string['selectnone'] = 'Tout désélectionner';
+$string['selectquestionslot'] = 'Sélectionner la question {$a}';
 $string['selectquestiontype'] = '-- Sélectionner le type de question --';
 $string['serveradded'] = 'Serveur ajouté';
 $string['serveridentifier'] = 'Identifiant';
 $string['serverinfo'] = 'Information serveur';
 $string['servers'] = 'Serveurs';
 $string['serverurl'] = 'URL du serveur';
-$string['settingsoverrides'] = 'Courts-circuits des réglages';
 $string['shortanswer'] = 'Réponse courte';
 $string['show'] = 'Afficher';
 $string['showall'] = 'Afficher toutes les questions sur une page';
@@ -955,6 +1004,8 @@ $string['stateoverdue'] = 'En retard';
 $string['stateoverduedetails'] = 'Doit être remis par {$a}';
 $string['status'] = 'État';
 $string['stoponerror'] = 'Stopper en cas d\'erreur';
+$string['submission_confirmation'] = 'Envoyer toutes vos réponses et terminer ?';
+$string['submission_confirmation_unanswered'] = 'Questions sans réponse : {$a}';
 $string['submitallandfinish'] = 'Tout envoyer et terminer';
 $string['subneterror'] = 'Désolé, ce test a été configuré de façon à ne pouvoir être effectué que depuis certains ordinateurs. Votre ordinateur n\'est actuellement pas autorisé.';
 $string['subnetnotice'] = 'Ce test a été configuré de façon à ne pouvoir être effectué que depuis certains ordinateurs. Votre ordinateur n\'est pas situé dans une sous-réseau autorisé. En tant qu\'enseignant, vous pouvez toutefois le prévisualiser.';
@@ -974,6 +1025,7 @@ $string['timedelay'] = 'Vous ne pouvez effectuer le test maintenant, car le dél
 $string['timeleft'] = 'Temps restant';
 $string['timelimit'] = 'Temps disponible';
 $string['timelimit_help'] = 'Si ce réglage est activité, le temps imparti est indiqué sur la page initiale du test et un compte à rebours est affiché dans le bloc de navigation du test.';
+$string['timelimit_link'] = 'mod/quiz/timing';
 $string['timelimitexeeded'] = 'Désolé ! La limite de temps est échue !';
 $string['timestr'] = '%H:%M:%S, le %d.%m.%y';
 $string['timesup'] = 'Le chrono est enclenché !';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ja', version '3.11'.
+ * Strings for component 'workshop', language 'ja', version '4.1'.
  *
  * @package     workshop
  * @category    string
@@ -43,8 +43,10 @@ $string['allocationdone'] = '割り当て完了';
 $string['allocationerror'] = '割り当てエラー';
 $string['allowedfiletypesforoverallfeedback'] = 'フィードバック添付で許可されたファイルタイプ';
 $string['allowedfiletypesforoverallfeedback_help'] = 'フィードバック添付ファイルタイプは許可されるファイルタイプのリストにより制限することができます。フィールドが空白の場合、すべてのファイルタイプが許可されます。';
+$string['allowedfiletypesforoverallfeedback_link'] = 'admin/tool/filetypes/index';
 $string['allowedfiletypesforsubmission'] = '提出添付で許可されたファイルタイプ';
 $string['allowedfiletypesforsubmission_help'] = '提出添付ファイルタイプは許可されるファイルタイプのリストで制限することができます。フィールドが空白の場合、すべてのファイルタイプが許可されます。';
+$string['allowedfiletypesforsubmission_link'] = 'admin/tool/filetypes/index';
 $string['allsubmissions'] = 'すべての提出 ({$a})';
 $string['alreadygraded'] = '評定済み';
 $string['areaconclusion'] = '結論テキスト';
@@ -195,10 +197,12 @@ $string['indicator:cognitivedepth'] = 'ワークショップ認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はワークショップ活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'ワークショップ認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がワークショップ活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント, フィードバック閲覧後の再送信)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'ワークショップ社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はワークショップ活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'ワークショップ社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がワークショップ活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = '情報';
 $string['instructauthors'] = '提出のインストラクション';
 $string['instructreviewers'] = '評価のインストラクション';
@@ -217,6 +221,7 @@ $string['modulename_help'] = 'ワークショップ活動モジュールでは�
 提出物は教師によって定義された複数クライテリアの評価フォームを使用して評価されます。相互評価手順および評価フォームの理解は教師から提供される練習提出物および評価例によって練習することができます。学生には1つまたはそれ以上のクラスメートの提出物を評価する機会が与えられます。必要であれば提出およびレビューを匿名にすることもできます。
 
 ワークショップ活動において学生は2つの評点を取得することになります - 「自分の提出物」に対する評点および「クラスメートの提出物の評価」に対する評点です。両評点は評定表に記録されます。';
+$string['modulename_link'] = 'mod/workshop/view';
 $string['modulenameplural'] = 'ワークショップ';
 $string['myassessments'] = '私の評価です。';
 $string['mysubmission'] = '私の提出';
@@ -364,6 +369,7 @@ $string['submissiongradeof'] = '提出に対する評点 (最大 {$a})';
 $string['submissionlastmodified'] = '最終更新日時';
 $string['submissionrequiredcontent'] = 'あなたはテキストを入力するかファイルを追加する必要があります。';
 $string['submissionrequiredfile'] = 'あなたはファイルを追加するかテキストを入力する必要があります。';
+$string['submissionsallocation'] = '提出の割り当て';
 $string['submissionsettings'] = '提出設定';
 $string['submissionsreport'] = 'ワークショップ提出レポート';
 $string['submissionstart'] = '提出開始日時';

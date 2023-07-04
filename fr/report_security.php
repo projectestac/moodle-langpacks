@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'fr', version '3.11'.
+ * Strings for component 'report_security', language 'fr', version '4.1'.
  *
  * @package     report_security
  * @category    string
@@ -25,6 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['check_antivirus_details'] = 'Ce contrôle vérifie si une erreur a été récemment détectée, sur la base du seuil définis dans les réglages principaux de l\'antivirus.';
+$string['check_antivirus_error'] = '{$a->errors} erreurs ont été détectées durant les derniers {$a->lookback}';
+$string['check_antivirus_info'] = 'Aucun scanner antivirus n\'est activé actuellement';
+$string['check_antivirus_logstore_not_supported'] = 'Impossible de vérifier l\'état des scanners antivirus en raison du type de journal choisi';
+$string['check_antivirus_name'] = 'Antivirus';
+$string['check_antivirus_ok'] = '{$a->scanners} scanner(s) antivirus activés. Aucun problème n\'a été détecté dans les derniers {$a->lookback}';
 $string['check_configrw_details'] = '<p>Il est recommandé de modifier les droits d\'accès au fichier <code>config.php</code> après installation, afin qu\'il ne soit pas modifié par le serveur web. Veuillez noter que cette mesure n\'améliore pas de façon significative la sécurité du serveur, bien qu\'elle puisse ralentir ou limiter des attaques générales.</p>';
 $string['check_configrw_name'] = 'Fichier config.php atteignable en écriture';
 $string['check_configrw_ok'] = 'Le fichier config.php ne peut pas être modifié par les scripts PHP.';
@@ -59,11 +65,11 @@ $string['check_embed_details'] = '<p>L\'intégration illimitée d\'objets est tr
 $string['check_embed_error'] = 'Intégration illimitée d\'objets activée. Ceci est très dangereux dans la plupart des cas.';
 $string['check_embed_name'] = 'Autoriser les balises EMBED et OBJECT';
 $string['check_embed_ok'] = 'L\'intégration illimitée d\'objets n\'est pas autorisée.';
-$string['check_frontpagerole_details'] = '<p>Le rôle par défaut de la page d\'accueil est attribué à tous les utilisateurs enregistrés pour les activités qui y sont présentées. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Il est recommandé de définir un nouveau rôle destiné à cet usage et de ne pas y utiliser un type de rôle historique.</p>';
+$string['check_frontpagerole_details'] = '<p>Le rôle par défaut sur la page d\'accueil est attribué à tous les utilisateurs authentifiés pour les activités de la page d\'accueil. Assurez-vous qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Il est recommandé de définir un rôle spécifique destiné à cet usage et de ne pas utiliser de rôle de type obsolète.</p>';
 $string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil « {$a} » incorrectement défini !';
 $string['check_frontpagerole_name'] = 'Rôle de la page d\'accueil';
 $string['check_frontpagerole_notset'] = 'Le rôle de la page d\'accueil n\'est pas défini.';
-$string['check_frontpagerole_ok'] = 'Définition adéquate du rôle de la page d\'accueil';
+$string['check_frontpagerole_ok'] = 'Définition adéquate du rôle de la page d\'accueil.';
 $string['check_guestrole_details'] = '<p>Un rôle de visiteur anonyme est utilisé pour l\'accès temporaire aux cours pour les utilisateurs anonymes. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Visiteur anonyme</em>.</p>';
 $string['check_guestrole_error'] = 'Rôle de visiteur anonyme « {$a} » incorrectement défini !';
 $string['check_guestrole_name'] = 'Rôle de visiteur anonyme';
@@ -91,6 +97,8 @@ $string['check_preventexecpath_warning'] = 'Les chemins des exécutables peuvent
 $string['check_publicpaths_403'] = '(une erreur 403 est retournée ; idéalement une erreur 404 doit être retournée)';
 $string['check_publicpaths_generic'] = 'Les fichiers {$a} ne doivent pas être publics';
 $string['check_publicpaths_name'] = 'Vérifier tous les chemins publics/privés';
+$string['check_publicpaths_ok'] = 'Les chemins internes ne peuvent pas être atteints publiquement';
+$string['check_publicpaths_warning'] = 'Certains chemins internes sont atteignables publiquement';
 $string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>{$a}';
 $string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>{$a->admins}<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions (non supportées) du rôle d\'administrateur dans d\'autres contextes :</p><p>{$a->unsupported}</p>';
 $string['check_riskadmin_name'] = 'Administrateurs';

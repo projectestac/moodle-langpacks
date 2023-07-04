@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_quizanalytics', language 'el', version '3.11'.
+ * Strings for component 'gradereport_quizanalytics', language 'el', version '4.1'.
  *
  * @package     gradereport_quizanalytics
  * @category    string
@@ -53,7 +53,7 @@ $string['noquizfound'] = 'Δεν βρέθηκε κανένα κουίζ!';
 $string['notgraded'] = 'Χωρίς βαθμολογία ακόμη';
 $string['partialcorrect'] = 'Μερικώς σωστές';
 $string['peerscores'] = 'Ομότιμες βαθμολογίες';
-$string['pluginname'] = 'Αναλύσεις κουίζ';
+$string['pluginname'] = 'Αναλυτική κουίζ';
 $string['quesanalysis'] = 'Ανάλυση ερώτησης';
 $string['questionspercategory'] = 'Ερωτήσεις ανά Κατηγορία';
 $string['quizname'] = 'Όνομα κουίζ';

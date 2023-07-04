@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_moodletxt', language 'ca', version '3.11'.
+ * Strings for component 'block_moodletxt', language 'ca', version '4.1'.
  *
  * @package     block_moodletxt
  * @category    string
@@ -30,6 +30,7 @@ $string['adminheadermiscsettings'] = 'Paràmetres diversos';
 $string['adminlabelaccdesc'] = 'Descripció del compte:';
 $string['labelgroupdesc'] = 'Descripció del grup:';
 $string['nexttoken'] = 'Següent';
+$string['optionmove'] = 'Mou a...';
 $string['sendfragnext'] = 'Següent';
 $string['sendlabelaccountdesc'] = 'Descripció del compte:';
 $string['tableheaderdescription'] = 'Descripció';

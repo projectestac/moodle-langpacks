@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'es', version '3.11'.
+ * Strings for component 'lesson', language 'es', version '4.1'.
  *
  * @package     lesson
  * @category    string
@@ -52,7 +52,6 @@ $string['addedendofcluster'] = 'Añadido un final de clúster';
 $string['addendofbranch'] = 'Añadir un final de ramificación';
 $string['addendofcluster'] = 'Añadir un final de clúster';
 $string['addessay'] = 'Crear una página de pregunta ensayo';
-$string['additionalattemptsremaining'] = 'Finalizado, puede volver a realizar un intento en esta lección';
 $string['addmatching'] = 'Crear una página de pregunta emparejar';
 $string['addmultichoice'] = 'Crear una página de pregunta de opción múltiple';
 $string['addnewgroupoverride'] = 'Añadir excepción de grupo';
@@ -208,7 +207,9 @@ $string['editcluster'] = 'Editando un clúster';
 $string['editendofbranch'] = 'Editando una página de final de ramificación';
 $string['editendofcluster'] = 'Editando una página de final de clúster';
 $string['editessay'] = 'Editando una página de pregunta ensayo';
+$string['editinglesson'] = 'Editando lección';
 $string['editingquestionpage'] = 'Editando página de preguntas {$a}';
+$string['editlesson'] = 'Editar lección';
 $string['editlessonsettings'] = 'Editar los ajustes de Esta lección';
 $string['editmatching'] = 'Editando una página de pregunta';
 $string['editmultichoice'] = 'Editando una página de pregunta de opción múltiple';
@@ -220,9 +221,9 @@ $string['editquestion'] = 'Editando una página de pregunta';
 $string['editshortanswer'] = 'Editando una página de pregunta de respuesta corta';
 $string['edittruefalse'] = 'Editando una página de pregunta verdadero/falso';
 $string['email'] = 'Email';
-$string['emailallgradedessays'] = 'Enviar por correo electrónico TODOS los ensayos calificados';
-$string['emailgradedessays'] = 'Enviar por email los ensayos calificados';
-$string['emailsuccess'] = 'Email enviado con éxito';
+$string['emailallgradedessays'] = 'Enviar notificaciones de ensayo calificado';
+$string['emailgradedessays'] = 'Enviar notificaciones de ensayo calificado';
+$string['emailsuccess'] = 'Notificaciones enviadas con éxito';
 $string['emptypassword'] = 'La contraseña no puede estar vacía';
 $string['enabled'] = 'Activado';
 $string['endofbranch'] = 'Fin de ramificación';
@@ -295,10 +296,12 @@ $string['indicator:cognitivedepth'] = 'Lección cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Lección.';
 $string['indicator:cognitivedepthdef'] = 'Lección cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Lección durante este intervalo de análisis (Niveles = Sin visualización, Ver, Enviar, Ver comentarios, Comentar comentarios, Reenviar después de ver comentarios)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Lección social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Lección.';
 $string['indicator:socialbreadthdef'] = 'Lección social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Lección durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['insertedpage'] = 'Página insertada';
 $string['invalidfile'] = 'Archivo no válido';
 $string['invalidid'] = 'No se superó ningún ID de módulo o de lección en el curso';
@@ -319,14 +322,13 @@ $string['lesson:manage'] = 'Gestionar una actividad de lección';
 $string['lesson:manageoverrides'] = 'Administrar excepciones de la lección';
 $string['lesson:view'] = 'Ver actividad en la lección';
 $string['lesson:viewreports'] = 'Ver informes de lecciones';
+$string['lessonbeingpreviewed'] = 'La lección está actualmente en vista previa.';
 $string['lessonclosed'] = 'Esta lección se cerró el {$a}.';
 $string['lessoncloses'] = 'La lección se cierra';
-$string['lessoncloseson'] = 'La lección se cierra el {$a}';
 $string['lessoneventcloses'] = '{$a} cierra';
 $string['lessoneventopens'] = '{$a} abre';
 $string['lessonformating'] = 'Formato de la Lección';
 $string['lessonmenu'] = 'Menú Lección';
-$string['lessonname'] = 'Lección: {$a}';
 $string['lessonnotready'] = 'Esta lección no está lista para practicar. Por favor, contacte con su {$a}.';
 $string['lessonnotready2'] = 'Esta lección no está preparada.';
 $string['lessonopen'] = 'Esta lección se abrirá el {$a}.';
@@ -372,6 +374,7 @@ Las lecciones pueden ser utilizados
 * Para el aprendizaje autodirigido de un nuevo tema
 * Para ejercicios basados en escenarios o simulaciones y de  toma de decisiones
 * Para realizar ejercicios de repaso diferenciadas, con distintos conjuntos de preguntas de repaso, dependiendo de las respuestas dadas a las preguntas anteriores';
+$string['modulename_link'] = 'mod/lesson/view';
 $string['modulenameplural'] = 'Lecciones';
 $string['move'] = 'Mover página';
 $string['movedpage'] = 'Página movida';
@@ -415,6 +418,7 @@ $string['nooneenteredthis'] = 'Nadie ha introducido esto.';
 $string['noonehasanswered'] = 'Nadie ha contestado aún a una pregunta de ensayo.';
 $string['noonehasansweredgroup'] = 'Nadie de {$a} ha respondido todavía a ninguna pregunta de tipo ensayo.';
 $string['noopen'] = 'Sin fecha de apertura';
+$string['nooverridecreated'] = 'No hay excepciones creadas.';
 $string['nooverridedata'] = 'Deberá anular al menos uno de los ajustes de la lección.';
 $string['noretake'] = 'No se le permite retomar esta lección.';
 $string['normal'] = 'Normal - seguir el flujo de la lección';
@@ -657,7 +661,6 @@ $string['withselectedattempts'] = 'Con los intentos seleccionados...';
 $string['wronganswerjump'] = 'Salto a respuesta errónea';
 $string['wronganswerscore'] = 'Puntuación de respuesta errónea';
 $string['wrongresponse'] = 'Comentario (erróneo)';
-$string['xattempts'] = '{$a} intentos';
 $string['youhaveseen'] = 'Usted ya ha visto más de una página de esta lección.<br />¿Desea comenzar desde la última página vista?';
 $string['youranswer'] = 'Su respuesta';
 $string['yourcurrentgradeis'] = 'Su calificación actual es {$a}';

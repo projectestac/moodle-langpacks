@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'ur', version '3.11'.
+ * Strings for component 'feedback', language 'ur', version '4.1'.
  *
  * @package     feedback
  * @category    string
@@ -127,10 +127,12 @@ $string['indicator:cognitivedepth'] = 'رائے علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے رائے سرگرمی میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'رائے علمی';
 $string['indicator:cognitivedepthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفہ کے دوران رائے سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'رائے سماجی';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے رائے سرگرمی میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'رائے سماجی';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفہ کے دوران رائے سرگرمیوں کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، اکیلا حصہ لینے والا، دوسروں کے ساتھ شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'معلومات';
 $string['infotype'] = 'معلومات کی قسم';
 $string['insufficient_responses'] = 'ناکافی ردعمل';
@@ -154,6 +156,7 @@ $string['minimal'] = 'کم از کم';
 $string['mode'] = 'موڈ';
 $string['modulename'] = 'رائے';
 $string['modulename_help'] = 'رائے کی سرگرمی ایک استاد کو اس قابل بناتی ہے کہ وہ ایک سے زیادہ انتخاب، ہاں/ناں یا ٹیکسٹ ان پٹ سمیت متعدد سوالات کی اقسام کا استعمال کرتے ہوئے شرکاء سے رائے اکٹھا کرنے کے لیے ایک حسب ضرورت سروے تشکیل دے سکے۔ اگر چاہیں تو رائے کے جوابات گمنام ہو سکتے ہیں، اور نتائج تمام شرکاء کو دکھائے جا سکتے ہیں یا صرف اساتذہ تک محدود ہو سکتے ہیں۔ سائٹ ہوم پر کوئی بھی رائے سرگرمیاں نان لاگ ان صارفین کے ذریعے بھی مکمل کی جا سکتی ہیں۔ رائے سرگرمیاں استعمال کی جا سکتی ہیں * کورس کی تشخیص کے لیے، بعد کے شرکاء کے لیے مواد کو بہتر بنانے میں مدد کرنا * شرکاء کو کورس کے ماڈیولز، ایونٹس وغیرہ کے لیے سائن اپ کرنے کے قابل بنانے کے لیے۔ * کورس کے انتخاب، اسکول کی پالیسیوں وغیرہ کے مہمانوں کے سروے کے لیے۔ جس سے طلباء گمنام طور پر واقعات کی اطلاع دے سکتے ہیں';
+$string['modulename_link'] = 'mod/feedback/view';
 $string['modulenameplural'] = 'رائے';
 $string['move_item'] = 'اس سوال کو منتقل کریں';
 $string['multichoice'] = 'کثیر الانتخاب';

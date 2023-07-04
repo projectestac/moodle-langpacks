@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'ja', version '3.11'.
+ * Strings for component 'user', language 'ja', version '4.1'.
  *
  * @package     user
  * @category    string
@@ -133,6 +133,7 @@ $string['privacy:metadata:token'] = '秘密鍵が設定されてユーザに送�
 $string['privacy:metadata:trackforums'] = 'フォーラムおよび未読管理のプレファレンスです。';
 $string['privacy:metadata:trustbitmask'] = 'トラストビットマスクです。';
 $string['privacy:metadata:url'] = 'このユーザに関連するURLです。';
+$string['privacy:metadata:user_preference:core_user_welcome'] = '初回、ユーザにウェルカムメッセージが表示された時点でタイムスタンプが記録されます。';
 $string['privacy:metadata:user_preferences'] = '所与のユーザに関連するプレファレンスです。';
 $string['privacy:metadata:user_preferences:name'] = 'プレファレンス名です。';
 $string['privacy:metadata:user_preferences:userid'] = 'ユーザDです。';
@@ -149,6 +150,10 @@ $string['privacy:privatefilespath'] = 'プライベートファイルです。';
 $string['privacy:profileimagespath'] = 'プロファイルイメージです。';
 $string['privacy:sessionpath'] = 'セッションデータです。';
 $string['selectfiltertype'] = '選択';
+$string['supportmessagealternative'] = 'あなたは代わりに {$a} にメール送信できます。';
+$string['supportmessagenotsent'] = '残念ですが、あなたのメッセージを送信できませんでした。';
+$string['supportmessagesent'] = 'あなたのメッセージが送信されました。';
+$string['supportmessagesentforloggedoutuser'] = 'このメッセージには注意が必要です。送信者がログインしていないため、身元を確認できていません。';
 $string['target:upcomingactivitiesdue'] = '直近の活動期限';
 $string['target:upcomingactivitiesdue_help'] = 'このターゲットは直近の活動期限のリマインダを生成します。';
 $string['target:upcomingactivitiesdueinfo'] = 'すべての到来する活動期限洞察がここに一覧表示されます。これらの学生はこれらの洞察を直接受信しています。';

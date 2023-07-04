@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quickom', language 'es', version '3.11'.
+ * Strings for component 'quickom', language 'es', version '4.1'.
  *
  * @package     quickom
  * @category    string
@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['connectionstatus'] = 'Estado de la conexión';
 $string['report'] = 'Informes';

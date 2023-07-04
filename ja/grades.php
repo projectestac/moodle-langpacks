@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ja', version '3.11'.
+ * Strings for component 'grades', language 'ja', version '4.1'.
  *
  * @package     grades
  * @category    string
@@ -65,18 +65,23 @@ $string['aggregation_help'] = '総計ではカテゴリ内の評点がどのよ�
 * 評点の最大値
 * 評点の最頻値 - 最も頻繁に発生する評点です。
 * 自然 - 加重によって調整された評点すべての合計です。';
+$string['aggregation_link'] = 'grade/aggregation';
 $string['aggregationcoef'] = '総計係数';
 $string['aggregationcoefextra'] = '追加点';
 $string['aggregationcoefextra_help'] = '総計において、「自然」または「評点の単純加重平均」および追加点チェックボックスがチェックされた場合、評定項目の最大評点はカテゴリの最大評点に追加されません。結果として、すべての評定項目の最大評点に到達することなくカテゴリの最大評点に到達できるようになります。 サイト管理者が最大評点を超えた評点を有効にした場合、評点は最大評点を越す可能性があります。
 
 総計において「評点の単純平均 (追加点扱い)」および追加点にゼロより大きな値が設定された場合、平均計算の後、合計に追加される前、追加点は評点に掛けられる因数となります。';
+$string['aggregationcoefextra_link'] = 'grade/aggregation';
 $string['aggregationcoefextrasum'] = '追加点';
 $string['aggregationcoefextrasum_help'] = '追加点チェックボックスがチェックされた場合、評定項目の最大評点はカテゴリの最大評点に追加されません。結果として、すべての評定項目の最大評点に到達達することなくカテゴリの最大評点 (またはサイト管理者が有効にした場合、最大評点を超えた値) に到達できるようになります。';
+$string['aggregationcoefextrasum_link'] = 'grade/aggregation';
 $string['aggregationcoefextrasumabbr'] = '+';
 $string['aggregationcoefextraweight'] = '追加点加重';
 $string['aggregationcoefextraweight_help'] = '追加点加重にゼロより大きな値が設定された場合、評点は総計中に追加点として動作します。数値は平均計算の合計に追加される前に評点が乗算される場合の倍数です。';
+$string['aggregationcoefextraweight_link'] = 'grade/aggregation';
 $string['aggregationcoefweight'] = '評定項目の加重';
 $string['aggregationcoefweight_help'] = '評定項目の加重は同一カテゴリ内での他の評定項目に対する評価項目の重要性に影響を与えるため、カテゴリ総計で使用されます。';
+$string['aggregationcoefweight_link'] = 'grade/aggregation';
 $string['aggregationhintdropped'] = '( 除外)';
 $string['aggregationhintexcluded'] = '( 除外)';
 $string['aggregationhintextra'] = '(追加点扱い)';
@@ -105,6 +110,7 @@ $string['bulkcheckboxes'] = 'バルクチェックボックス';
 $string['calculatedgrade'] = '計算済み評定';
 $string['calculation'] = '計算';
 $string['calculation_help'] = '評定計算は評定の決定に使用される公式です。公式は等号 (=) で始まり、max、minおよびsumのような一般的な数学演算子が使用されます。必要であれば、2重角括弧に入れたIDナンバーを使用することで他の評定項目を計算に含むことができます。';
+$string['calculation_link'] = 'grade/calculation';
 $string['calculationadd'] = '計算を追加する';
 $string['calculationedit'] = '計算を編集する';
 $string['calculationsaved'] = '計算が保存されました。';
@@ -151,6 +157,7 @@ $string['decimalpoints_help'] = 'この設定ではそれぞれの評定に表�
 $string['default'] = 'デフォルト';
 $string['defaultprev'] = 'デフォルト ({$a})';
 $string['deletecategory'] = 'カテゴリを削除する';
+$string['deletescale'] = '尺度を削除する';
 $string['disablegradehistory'] = '評定履歴を無効にする';
 $string['disablegradehistory_help'] = '評定関連テーブルの変更履歴のトラッキングを無効にします。この設定により、サーバの速度を少しだけ向上させ、データベースの使用量を節約します。';
 $string['displaylettergrade'] = '評定文字を表示する';
@@ -199,6 +206,7 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = '評定カテゴリID {
 $string['errorupdatinggradecategoryaggregation'] = '評定カテゴリID {$a->id} の総計タイプ更新中にエラーが発生しました。';
 $string['errorupdatinggradeitemaggregationcoef'] = '評定カテゴリID {$a->id} の総計係数 (加重または追加点) 更新中にエラーが発生しました。';
 $string['eventgradedeleted'] = '評点が削除されました。';
+$string['eventgradeexported'] = '評定がエクスポートされました。';
 $string['eventgradeitemcreated'] = '評定項目が作成されました。';
 $string['eventgradeitemdeleted'] = '評定項目が削除されました。';
 $string['eventgradeitemupdated'] = '評定項目が更新されました。';
@@ -216,6 +224,7 @@ $string['expand'] = 'カテゴリを展開する';
 $string['expandcriterion'] = 'クライテリアを展開する';
 $string['export'] = 'エクスポート';
 $string['exportalloutcomes'] = 'すべてのアウトカムをエクスポートする';
+$string['exportas'] = 'エクスポート形式:';
 $string['exportfeedback'] = 'エクスポートにフィードバックを含む';
 $string['exportfeedback_desc'] = 'エクスポート中、これはオーバーライドされます。';
 $string['exportformatoptions'] = 'エクスポートフォーマットオプション';
@@ -265,6 +274,7 @@ $string['gradebookcalculationswarning'] = '注意: 評定表に表示されて�
 新しいバージョンは {$a->currentversion} です。あなたはバージョン {$a->gradebookversion} の評定表を使用しています。あなたは<a href="{$a->url}">評定計算変更</a>で変更一覧を確認できます。';
 $string['gradebookhiddenerror'] = '現在、評定表は学生からすべて隠されています。';
 $string['gradebookhistories'] = '評定履歴';
+$string['gradebooknavigationmenu'] = '評定表ナビゲーションメニュー';
 $string['gradebooksetup'] = '評定表セットアップ';
 $string['gradeboundary'] = '評定文字の境界';
 $string['gradeboundary_help'] = 'この設定では評定文字に割り当てる評点の最小パーセンテージを決定します。';
@@ -384,12 +394,12 @@ $string['hidelocks'] = 'ロックを隠す';
 $string['hidenooutcomes'] = 'アウトカムを表示する';
 $string['hidequickfeedback'] = 'クイックフィードバックを隠す';
 $string['hideranges'] = '範囲を隠す';
-$string['hidetotalifhiddenitems'] = '非表示項目が含まれている場合、合計を隠す';
-$string['hidetotalifhiddenitems_help'] = 'この設定では非表示項目が含まれている場合、学生に合計を表示するか、ハイフン (-) を表示するか指定します。表示する場合、合計に非表示項目を含むことも、含まないこともできます。
+$string['hidetotalifhiddenitems'] = '隠し評定項目が含まれている場合、合計を隠す';
+$string['hidetotalifhiddenitems_help'] = 'この設定では隠し評定項目が含まれている場合、学生に合計を表示するか、ハイフン (-) を表示するか指定します。表示する場合、合計に隠し評定項目を含むことも、含まないこともできます。
 
-隠す場合、非表示項目は除外されます。表示または非表示に係わらず、教師は常に項目すべての計算された合計を閲覧できるため、この場合、教師に表示される合計は異なります。非表示項目を含む場合、学生は非表示項目も計算することができます。';
-$string['hidetotalshowexhiddenitems'] = '非表示項目を除いて合計を表示する';
-$string['hidetotalshowinchiddenitems'] = '非表示項目を含んで合計を表示する';
+隠す場合、隠し評定項目は除外されます。表示または非表示に係わらず、教師は常に項目すべての計算された合計を閲覧できるため、この場合、教師に表示される合計は異なります。隠し評定項目を含む場合、学生は隠し評定項目を算出できるかもしれません。';
+$string['hidetotalshowexhiddenitems'] = '隠し評定項目を除いて合計を表示する';
+$string['hidetotalshowinchiddenitems'] = '隠し評定項目を含んで合計を表示する';
 $string['hideverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} を隠す';
 $string['highgradeascending'] = '高評点の昇順で並べ替え';
 $string['highgradedescending'] = '高評点の降順で並べ替え';
@@ -398,6 +408,7 @@ $string['identifier'] = 'ユーザ識別方法:';
 $string['idnumbers'] = 'IDナンバー';
 $string['ignore'] = '無視';
 $string['import'] = 'インポート';
+$string['importas'] = 'インポート形式:';
 $string['importcsv'] = 'CSVをインポートする';
 $string['importcsv_help'] = '以下のフォーマットのCSVファイルを使用して評定をインポートすることができます:
 
@@ -407,6 +418,7 @@ $string['importcsv_help'] = '以下のフォーマットのCSVファイルを使
 * ユーザ識別データを含むフィールド名 (ユーザ名、IDナンバーまたはメールアドレス) は必須です。
 
 正しいフォーマットのファイルは最初に評定をエクスポートすることにより取得することができます。そのファイルを編集して、CSVファイルとして保存することができます。';
+$string['importcsv_link'] = 'grade/import/csv/index';
 $string['importcustom'] = 'カスタムアウトカムとしてインポートする (このコースのみ)';
 $string['importdata'] = 'データ';
 $string['importdata_help'] = '評定はOpenDocumentまたはExcelスプレッドシートから直接貼り付けることができます。
@@ -426,6 +438,7 @@ $string['importfrom'] = 'インポート元';
 $string['importoutcomenofile'] = 'アップロードされたファイルが空または破損しています。このファイルが有効かどうか確認してください。問題は {$a} 行目で検出されました。これは最初の行 (ヘッダ行) のカラムと同数のカラムがデータ行に含まれていないか、インポートファイルに必要なヘッダ行が含まれていなことが原因です。有効なヘッダ行の例として、エクスポートされたファイルをご覧ください。';
 $string['importoutcomes'] = 'アウトカムインポート';
 $string['importoutcomes_help'] = 'エクスポートされたアウトカムCSVファイルと同じフォーマットのCSVファイルを使用して、アウトカムをインポートすることができます。';
+$string['importoutcomes_link'] = 'grade/outcome';
 $string['importoutcomesuccess'] = 'インポートされたアウトカム「 {$a->name} 」 ID #{$a->id}';
 $string['importplugins'] = 'プラグインインポート';
 $string['importpreview'] = 'インポートプレビュー';
@@ -472,6 +485,7 @@ $string['locktimedate'] = '次の日時以後ロックする: {$a}';
 $string['lockverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} をロックする';
 $string['lowest'] = '下位';
 $string['lowgradeletter'] = '下限';
+$string['manageoutcomes'] = 'アウトカムを管理する';
 $string['manualitem'] = '手動項目';
 $string['mapfrom'] = 'マップ元';
 $string['mapfrom_help'] = 'ユーザ名、ユーザIDまたはメールアドレス等、スプレッドシート内でユーザを識別するためのデータを含むカラムを選択してください。';
@@ -492,6 +506,7 @@ $string['minimum_show_help'] = '評点および加重の計算に最小評点が
 $string['minmaxtouse'] = '計算に使用される最小および最大評点';
 $string['minmaxtouse_desc'] = 'この設定では評定時に「初期最小および最大評点」を使用するか、または評定表に表示される評点の計算時に「評定項目設定で指定された最小および最大評点」を使用するか決定します。結果としてすべての評点が再計算されることによりサーバの負荷が高くなるため、この設定の変更は混雑していない時期に実施することをお勧めします。';
 $string['minmaxtouse_help'] = 'この設定では評定時に「初期最小および最大評点」を使用するか、または評定表に表示される評点の計算時に「評定項目設定で指定された最小および最大評点」を使用するか決定します。';
+$string['minmaxtouse_link'] = 'Grades_min_max';
 $string['minmaxupgradedgrades'] = '注意: 表示される評点の計算時に使用される最小および最大評点の変更により生じた不一致を解消するため、いくつかの評点が変更されました。変更のレビューおよび承認をお勧めします。';
 $string['minmaxupgradefixbutton'] = '不一致を解消する';
 $string['minmaxupgradewarning'] = '注意: 表示される評点の計算時に使用される最小および最大評点の変更による不一致が検出されました。結果としていくつかの評点が変更されることになりますが下のボタンをクリックして不一致を解消することをお勧めします。';
@@ -538,6 +553,7 @@ $string['mygrades'] = 'ユーザメニュー評点リンク';
 $string['mygrades_desc'] = 'ここではユーザメニューから外部評定表にリンクできるようにします。';
 $string['mypreferences'] = 'マイプレファレンス';
 $string['myreportpreferences'] = 'マイレポートプレファレンス';
+$string['myself'] = '私自身';
 $string['navmethod'] = 'ナビゲーションメソッド';
 $string['neverdeletehistory'] = '履歴を削除しない';
 $string['newcategory'] = '新しいカテゴリ';
@@ -548,6 +564,8 @@ $string['nocategories'] = 'このコースに評定カテゴリを追加でき�
 $string['nocategoryname'] = 'カテゴリ名が入力されていません。';
 $string['nocategoryview'] = 'カテゴリがありません。';
 $string['nocourses'] = 'まだコースがありません。';
+$string['noexistingoutcomes'] = '既存のアウトカムはありません。';
+$string['noexistingscales'] = '既存の尺度はありません。';
 $string['noforce'] = '強制しない';
 $string['nogradeletters'] = '評定文字が設定されていません。';
 $string['nogradesreturned'] = '評点がありません。';
@@ -555,7 +573,7 @@ $string['noidnumber'] = 'IDナンバーなし';
 $string['nolettergrade'] = '評定文字がありません:';
 $string['nomode'] = 'NA';
 $string['nonnumericweight'] = '数値ではありません:';
-$string['nonunlockableverbose'] = '{$a->itemname} がロック解除されるまで、この評定をロック解除することはできません。';
+$string['nonunlockableverbose'] = 'この評定のロックを解除したい場合、あなたは {$a->itemname} のロックを解除する必要があります。';
 $string['nonweightedpct'] = '加重なし%';
 $string['nooutcome'] = 'アウトカムなし';
 $string['nooutcomes'] = 'アウトカム項目はコースアウトカムにリンクされる必要がありますが、このコースにアウトカムがありません。アウトカムを追加しますか?';
@@ -575,6 +593,7 @@ $string['onascaleof'] = '尺度の適用範囲: {$a->grademin} - {$a->grademax}'
 $string['operations'] = '操作';
 $string['options'] = 'オプション';
 $string['others'] = 'その他';
+$string['otheruser'] = 'ユーザ';
 $string['outcome'] = 'アウトカム';
 $string['outcome_help'] = 'この設定ではこの評定項目が評定表で表示される場合のアウトカムを決定します。';
 $string['outcomeassigntocourse'] = 'このコースに別のアウトカムを割り当てる';
@@ -717,11 +736,15 @@ $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = 'プレファレンスを保存する';
 $string['scaleconfirmdelete'] = '本当に尺度「 {$a} 」を削除してもよろしいですか?';
 $string['scaledpct'] = '伸縮%';
+$string['searchgroups'] = 'グループを検索する';
+$string['searchusers'] = 'ユーザを検索する';
 $string['seeallcoursegrades'] = 'すべてのコース評定を表示する';
 $string['select'] = '{$a} を選択する';
 $string['selectalloroneuser'] = 'すべてまたは1ユーザを選択する';
 $string['selectauser'] = 'ユーザを選択する';
 $string['selectdestination'] = '{$a} の移動先を選択する';
+$string['selectgrouplink'] = 'グループを選択する';
+$string['selectuserlink'] = 'ユーザを選択する';
 $string['separator'] = 'セパレータ';
 $string['separator_help'] = 'CSVファイルで使用されるセパレータを選択してください (通常、これはカンマです)。';
 $string['sepcolon'] = 'コロン';
@@ -734,16 +757,18 @@ $string['setgradeletters'] = '評定文字を設定する';
 $string['setpreferences'] = 'プレファレンス';
 $string['setting'] = '設定';
 $string['settings'] = '設定';
+$string['setup'] = 'セットアップ';
 $string['setweights'] = '加重を設定する';
 $string['showactivityicons'] = '活動アイコンを表示する';
 $string['showactivityicons_help'] = 'この設定を有効にした場合、活動名の横に活動アイコンが表示されます。';
+$string['showallgrades'] = 'すべての評定を表示する';
 $string['showallhidden'] = '隠し評定項目を表示する';
 $string['showallstudents'] = 'すべての学生を表示する';
 $string['showanalysisicon'] = '評定分析アイコンを表示する';
 $string['showanalysisicon_desc'] = 'デフォルトで評定分析アイコンを表示するかどうか指定します。活動モジュールがサポートしている場合、評定および評定の取得に関する詳細説明ページへ評定分析アイコンがリンクされます。';
 $string['showanalysisicon_help'] = '活動モジュールがサポートしている場合、評定および評定の取得に関する詳細説明ページへ評定分析アイコンがリンクされます。';
 $string['showaverage'] = '平均を表示する';
-$string['showaverage_help'] = '平均カラムを表示するかどうか決定します。少数の評点から平均が計算された場合、学生は他の学生の評点を試算することができます。非表示項目が存在する場合、パフォーマンスの理由から平均は概算となります。';
+$string['showaverage_help'] = '平均カラムを表示するかどうか決定します。少数の評点から平均が計算された場合、学生は他の学生の評点を推定できるかもしれません。隠し評定項目が存在する場合、パフォーマンスの理由から平均は概算となります。';
 $string['showaverages'] = '平均を表示する';
 $string['showaverages_help'] = 'この設定を有効にした場合、評定者レポートにはそれぞれのカテゴリおよび評定項目の平均を表示するための追加行が含まれます。';
 $string['showcalculations'] = '計算を表示する';
@@ -860,6 +885,7 @@ $string['userpreferences'] = 'ユーザプレファレンス';
 $string['useweighted'] = '加重を使用する';
 $string['verbosescales'] = '詳細尺度';
 $string['verbosescales_help'] = '詳細尺度には数字ではなく単語を使用します。数字および詳細尺度をインポートする場合、この設定を有効にしてください。数字尺度のみインポートする場合、この設定を無効にしてください。';
+$string['viewas'] = '次のユーザとして表示する';
 $string['viewbygroup'] = 'グループ';
 $string['viewgrades'] = '評定を表示する';
 $string['weight'] = '加重';

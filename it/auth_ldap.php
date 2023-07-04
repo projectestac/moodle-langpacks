@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'it', version '3.11'.
+ * Strings for component 'auth_ldap', language 'it', version '4.1'.
  *
  * @package     auth_ldap
  * @category    string
@@ -128,6 +128,10 @@ $string['diag_toooldversion'] = 'È improbabile che un server LDAP moderno possa
 $string['didntfindexpiretime'] = 'password_expire() non ha trovato la data di scadenza.';
 $string['didntgetusersfromldap'] = 'LDAP non ha restituito nessun acccount -- un errore ? --';
 $string['gotcountrecordsfromldap'] = 'LDAP ha restituito {$a} record';
+$string['invalidusererrors'] = 'Attenzione: la creazione di {$a} account utente è stata saltata';
+$string['invaliduserexception'] = 'Errore: non è possibile creare l\'account utente. Dettagli e motivazioni:
+{$a}
+L\'utente è stato saltato.';
 $string['ldapnotconfigured'] = 'L\'URL dell\'host LDAP non è configurata';
 $string['morethanoneuser'] = 'LDAP ha restituito più account dello stesso utente. Verrà usato il primo.';
 $string['needbcmath'] = 'Per verificare le password scadute su Active Directory occorre l\'estensione BCMath';
@@ -161,7 +165,6 @@ $string['updatepasserrorexpire'] = 'Si è verificato un errore in user_update_pa
 $string['updatepasserrorexpiregrace'] = 'Errore in user_update_password() durante la modifica della data di scadenza e/o gracelogin. Error code: {$a->errno}; Error string: {$a->errstring}';
 $string['updateremfail'] = 'Errore durante l\'aggiornamento del record LDAP. Error code: {$a->errno}; Error string: {$a->errstring}<br/>Key ({$a->key}) - valore moodle precedente: \'{$a->ouvalue}\' nuovo valore: \'{$a->nuvalue}\'';
 $string['updateremfailamb'] = 'Errore durante l\'aggiornamento LDAP con il campo ambiguo {$a->key}; valore moodle precedente: \'{$a->ouvalue}\' nuovo valore: \'{$a->nuvalue}\'';
-$string['updateremfailfield'] = 'Si è verificato un errore durante l\'aggiornamento di LDAP con il campo inesistente (\'{$a->ldapkey}\'). Chiave ({$a->key}) - valore precedente di Moodle: \'{$a->ouvalue}\' nuovo valore: \'{$a->nuvalue}\'';
 $string['updateusernotfound'] = 'L\'utente non è stato trovato durante l\'aggiornamento dei dati esterni. Dettagli: search base: \'{$a->userdn}\'; search filter: \'(objectClass=*)\'; search attributes: {$a->attribs}';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() non supporta il tipo di utente scelto: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() non supporta il tipo di utente scelto: {$a}';

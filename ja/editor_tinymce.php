@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'ja', version '3.11'.
+ * Strings for component 'editor_tinymce', language 'ja', version '4.1'.
  *
  * @package     editor_tinymce
  * @category    string
@@ -597,7 +597,7 @@ $string['paste:selectall_desc'] = 'すべてを選択する';
 $string['paste_dlg:text_linebreaks'] = '改行を保持する';
 $string['paste_dlg:text_title'] = 'ウィンドウにテキストを貼り付けるにはあなたのキーボードの「CTRL+V」を使用してください。';
 $string['paste_dlg:word_title'] = 'ウィンドウにテキストを貼り付けるにはあなたのキーボードの「CTRL+V」を使用してください。';
-$string['pluginname'] = 'TinyMCE HTMLエディタ';
+$string['pluginname'] = 'TinyMCE HTMLエディタ (レガシ)';
 $string['preview:preview_desc'] = 'プレビュー';
 $string['print:print_desc'] = '印刷';
 $string['privacy:metadata'] = 'TinyMCE HTMLエディタプラグインはいかなる個人データも保存しません。';

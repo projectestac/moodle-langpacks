@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_multianswer', language 'ur', version '3.11'.
+ * Strings for component 'qformat_multianswer', language 'ur', version '4.1'.
  *
  * @package     qformat_multianswer
  * @category    string
@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'ایمبیڈڈ جوابات (کلوز)';
 $string['pluginname_help'] = 'ایمبیڈڈ جوابات (کلوز) فارمیٹ متن کے حوالے کو درآمد کرنے کے قابل بناتا ہے جیسے سوالات کے ساتھ متعدد انتخاب اور مختصر جواب اس کے اندر سرایت کرتے ہیں۔';
+$string['pluginname_link'] = 'question/type/multianswer';
 $string['privacy:metadata'] = 'ایمبیڈڈ جوابات سوال پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'ja', version '3.11'.
+ * Strings for component 'my', language 'ja', version '4.1'.
  *
  * @package     my
  * @category    string
@@ -28,9 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['addpage'] = 'ページを追加する';
 $string['alldashboardswerereset'] = 'すべてのダッシュボードページがデフォルトにリセットされました。';
 $string['allprofileswerereset'] = 'すべてのプロファイルページがデフォルトにリセットされました。';
+$string['coursemanagementoptions'] = 'コース管理オプション';
 $string['defaultpage'] = 'デフォルトマイMoodleページ';
 $string['defaultprofilepage'] = 'デフォルトプロファイルページ';
 $string['delpage'] = 'ページを削除する';
+$string['error:dashboardisdisabled'] = 'ダッシュボードは管理者により無効にされています。';
 $string['managepages'] = 'ページを管理する';
 $string['mymoodle'] = 'ダッシュボード';
 $string['nocourses'] = '表示するコース情報はありません。';

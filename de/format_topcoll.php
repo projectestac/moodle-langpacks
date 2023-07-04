@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'de', version '3.11'.
+ * Strings for component 'format_topcoll', language 'de', version '4.1'.
  *
  * @package     format_topcoll
  * @category    string
@@ -36,10 +36,11 @@ $string['cannotgetactivitycacheslock'] = 'Die Sperre der Aktivitäts-Caches für
 $string['center'] = 'Zentriert';
 $string['cloud'] = 'Wolke';
 $string['colourrule'] = 'Geben Sie bitte eine gültige RGB-Farbe (z.B. #336699) oder \'-\' für Standard ein.';
+$string['columndynamic'] = 'Dynamisch';
 $string['columnhorizontal'] = 'Waagerecht';
 $string['columnvertical'] = 'Senkrecht';
 $string['configurationheadingsub'] = 'Konfiguration';
-$string['configurationheadingsubdesc'] = 'Konfigurationseinstellungen';
+$string['configurationheadingsubdesc'] = 'Konfigurationseinstellungen der Website';
 $string['courseadditionalmoddatamaxstudents'] = 'Legen Sie die maximale Anzahl von Teilnehmer/innen in einem Kurs fest, für die "Zusätzliche Infos anzeigen" gelten soll';
 $string['courseadditionalmoddatamaxstudentsdesc'] = 'Die Berechnung zusätzlicher Infos kann einige Zeit dauern, besonders bei großen Kursen. Deswegen können Sie hier die maximale Anzahl von Teilnehmer/innen im Kurs festlegen, damit die Funktionalität angezeigt werden kann. Bei einer größeren Anzahl werden die \'Zusätzlichen Infos\' unabhängig von den Kurseinstellungen NICHT berechnet uns NICHT angezeigt! Ein Wert von \'0\' bedeutet \'unbegrenzt\'. Hinweis: Die Caches werden gelöscht, wenn der Wert geändert wird.';
 $string['courseadditionalmoddatastudentsinfo'] = 'Status für zusätzliche Infos';
@@ -47,6 +48,7 @@ $string['courseadditionalmoddatastudentsinfolimitednoshow'] = 'Zusätzliche Info
 $string['courseadditionalmoddatastudentsinfolimitedshow'] = 'Zusätzliche Infos werden für die aktivierten Aktivitäten für {$a->students} Teilnehmer/innen angezeigt, wenn die maximale Anzahl {$a->maxstudents} nicht überschritten wird. Der Wert wurde von den Administrator/innen  mit der Einstellung "courseadditionalmoddatamaxstudents" für das Format "komprimierte Abschnitte" festgelegt.';
 $string['courseadditionalmoddatastudentsinfounlimited'] = 'Zusätzliche Infos werden für die aktivierten Aktivitäten für {$a} Teilnehmer/innen  angezeigt.';
 $string['coursesectionactivityfurtherinformation'] = 'Weitere Infos der Kursseite';
+$string['coursesectionactivityfurtherinformation_desc'] = 'Weitere Infoeinstellungen für Kursseite auf Website-Ebene';
 $string['coursesectionactivityfurtherinformationassign'] = 'Aufgabeninfos anzeigen';
 $string['coursesectionactivityfurtherinformationassigndesc'] = 'Im Kurs anzuzeigende Aufgabeninfos festlegen. Trainer/innen und Administrator/innen wird die Anzahl der Abgaben angezeigt.';
 $string['coursesectionactivityfurtherinformationchoice'] = 'Abstimmungsinfos anzeigen';
@@ -73,9 +75,11 @@ $string['defaultdisplayblocksloc_desc'] = 'Wählen Sie den Ort für die ausgewä
 $string['defaultdisplayinstructions'] = 'Bedienhinweis';
 $string['defaultdisplayinstructions_desc'] = 'Diese Option legt fest, ob ein kurzer Bedienhinweis angezeigt wird.';
 $string['defaultheadingsub'] = 'Standardeinstellungen';
-$string['defaultheadingsubdesc'] = 'Die nachfolgenden Einstellungen werden angenommen, wenn ein Kurs im Format \'komprimierte Abschnitte\' angelegt oder zurückgesetzt wird.';
+$string['defaultheadingsubdesc'] = 'Standardeinstellungen, die auf Kursebene überschrieben werden können';
 $string['defaultlayoutcolumnorientation'] = 'Spaltenrichtung';
-$string['defaultlayoutcolumnorientation_desc'] = 'Die Spaltenrichtung kann senkrecht oder waagerecht sein.';
+$string['defaultlayoutcolumnorientation_desc'] = 'Standardmäßige Spaltenrichtung:
+<br>Dynamisch – Anzahl der Abschnitte pro "Zeile" wird an die Fenstergröße angepasst, die Einstellung "Spalte" wird derzeit nicht verwendet.
+<br>Horizontal – Abschnitte gehen von links nach rechts.<br>Vertikal – Abschnitte gehen von oben nach unten.';
 $string['defaultlayoutcolumns'] = 'Spaltenanzahl';
 $string['defaultlayoutcolumns_desc'] = 'Die Spaltenanzahl kann von 1 bis 4 sein.';
 $string['defaultlayoutelement'] = 'Inhalt der Abschnittstasten';
@@ -105,6 +109,8 @@ $string['defaultlayoutstructure_desc'] = 'Die Struktureinstellung kann eine der 
 <br />Tag';
 $string['defaultonesection'] = 'Nur ein Abschnitt';
 $string['defaultonesection_desc'] = 'Diese Option legt fest, dass immer nur ein Abschnitt angezeigt wird. Beim Bearbeiten des Kurses wird die Einstellung ignoriert, um Aktivitäten und Ressourcen bewegen zu können.';
+$string['defaultonesectioniconfont'] = 'Icon Font für "Nur ein Abschnitt"';
+$string['defaultonesectioniconfont_desc'] = 'Geben Sie die Icon-Font-Klasse an, die für das Link-Icon mit einem Abschnitt verwendet werden soll, d.h. FontAwesome-Icon-Klassen. Wenn leer, wird das Standardsymbol "Nur ein Abschnitt" im Verzeichnis "pix" des Formats verwendet.';
 $string['defaultshowadditionalmoddata'] = 'Standardmäßiges \'Weitere Infos anzeigen\' im Kurs';
 $string['defaultshowadditionalmoddatadesc'] = 'Wenn eine Aktivität auf Website-Ebene (unten) so eingestellt ist, dass zusätzliche Infos angezeigt werden, gibt diese Einstellung den Standardstatus der kursspezifischen Instanz davon an.';
 $string['defaultshowsectionsummary'] = 'Abschnittsbeschreibung anzeigen, wenn zugeklappt';
@@ -139,12 +145,16 @@ $string['defaulttoggleborderradiustl'] = 'Radius links oben';
 $string['defaulttoggleborderradiustl_desc'] = 'Die Option legt die Rundung der Abschnittstasten links oben fest.';
 $string['defaulttoggleborderradiustr'] = 'Radius rechts oben';
 $string['defaulttoggleborderradiustr_desc'] = 'Die Option legt die Rundung der Abschnittstasten rechts oben fest.';
+$string['defaulttoggleiconfontclosed'] = 'Geschlossenes Umschalten für Icon Font';
+$string['defaulttoggleiconfontclosed_desc'] = 'Wenn "defaulttoggleiconset" auf "Icon Font" gesetzt ist, gibt dies die Standard-CSS-Klassen an, die für das geschlossene Symbol verwendet werden sollen. Siehe FontAwesome-Icon-Klassen.';
+$string['defaulttoggleiconfontopen'] = 'Umschalten "Icon Font" öffnen';
+$string['defaulttoggleiconfontopen_desc'] = 'Wenn "defaulttoggleiconset" auf "Icon Font" gesetzt ist, gibt dies die Standard-CSS-Klassen an, die für das geöffnete Symbol verwendet werden sollen. Siehe die FontAwesome-Icon-Klassen.';
 $string['defaulttoggleiconposition'] = 'Icon Position';
 $string['defaulttoggleiconposition_desc'] = 'Die Option legt fest, ob  für das Icon links oder rechts vom Text sen soll.';
 $string['defaulttoggleiconset'] = 'Symbol';
-$string['defaulttoggleiconset_desc'] = 'Diese Option legt fest, welches Symbol standardmäßig auf den Abschnittstasten angezeigt wird.';
+$string['defaulttoggleiconset_desc'] = '<table><tbody><tr><td>Arrow</td><td>{$a->arrow}</td></tr><tr><td>Bulb</td><td>{$a->bulb}</td></tr><tr><td>Cloud</td><td>{$a->cloud}</td></tr><tr><td>Eye</td><td>{$a->eye}</td></tr><tr><td>Folder</td><td>{$a->folder}</td></tr><tr><td>Ground Signal</td><td>{$a->groundsignal}</td></tr><tr><td>Light Emitting Diode</td><td>{$a->led}</td></tr><tr><td>Point</td><td>{$a->point}</td></tr><tr><td>Power</td><td>{$a->power}</td></tr><tr><td>Radio</td><td>{$a->radio}</td></tr><tr><td>Smiley</td><td>{$a->smiley}</td></tr><tr><td>Square</td><td>{$a->square}</td></tr><tr><td>Sun / Moon</td><td>{$a->sunmoon}</td></tr><tr><td>Switch</td><td>{$a->switch}</td></tr><tr><td>Icon font</td><td>{$a->tif}</td></tr></tbody></table>';
 $string['defaulttoggleiconsize'] = 'Symbolgröße';
-$string['defaulttoggleiconsize_desc'] = 'Die Symbolgröße kann klein (=16px), mittel (=24px) oder groß (=32px) sein.';
+$string['defaulttoggleiconsize_desc'] = 'Symbolgröße: Small = 16px, Medium = 24px and Large = 32px, oder Icon Font: Small = 0.8em, Medium = 1.2em and Large = 1.8em.';
 $string['defaulttogglepersistence'] = 'Schaltzustand merken';
 $string['defaulttogglepersistence_desc'] = '\'An oder aus\'. Deaktivieren Sie diese Option, um die AJAX-Leistung zu steigern, aber die Umschaltauswahl von Nutzer/innen wird bei einer Seitenaktualisierung oder einem erneuten Besuch nicht gespeichert.<br />Hinweis: Wenn Sie die Persistenz deaktivieren, entfernen Sie bitte alle Zeilen, die \'topcoll_toggle_x\' im Feld \'name\' der Tabelle \'user_preferences\' enthalten. Wobei das "x" in "topcoll_toggle_x" eine Kurs-ID ist. Dies dient der Platzersparnis, wenn Sie nicht beabsichtigen, es wieder einzuschalten.';
 $string['defaultuserpreference'] = 'Schaltzustand beim ersten Aufruf';
@@ -215,6 +225,10 @@ $string['formatsettingsinformation'] = '<br />Klicken Sie auf das Symbol rechts,
 $string['four'] = '4';
 $string['groundsignal'] = 'Massesignal';
 $string['hidefromothers'] = 'Abschnitt verbergen';
+$string['information'] = 'Infos';
+$string['informationchanges'] = 'Änderungen';
+$string['informationsettings'] = 'Einstellungen für Infos';
+$string['informationsettingsdesc'] = 'Infos zum Format "komprimierte Abschnitte"';
 $string['instructions'] = 'Hinweis: Ein Klick auf den Abschnittsnamen blendet den Inhalt ein oder aus.';
 $string['large'] = 'Groß';
 $string['layoutstructuredays'] = 'Tage';
@@ -222,6 +236,7 @@ $string['layoutstructuretopics'] = 'Themen';
 $string['layoutstructureweeks'] = 'Wochen';
 $string['led'] = 'LED';
 $string['left'] = 'Links';
+$string['love'] = 'Liebe';
 $string['maincoursepage'] = 'Kursübersicht';
 $string['markedthissection'] = 'Dieser Abschnitt ist als aktueller Abschnitt markiert';
 $string['markthissection'] = 'Markieren Sie diesen Abschnitt als den aktuellen Abschnitt';
@@ -297,8 +312,8 @@ $string['setlayout_toggle_word'] = 'Umschalten';
 $string['setlayout_toggle_word_section_number'] = 'Umschalten, Abschnittsnummer';
 $string['setlayout_toggle_word_section_x'] = 'Umschalten, \'Thema x\' / \'Woche x\' / \'Tag x\'';
 $string['setlayoutcolumnorientation'] = 'Spaltenrichtung festlegen';
-$string['setlayoutcolumnorientation_help'] = 'Senkrecht - Abschnitte werden von oben nach unten angeordnet
-
+$string['setlayoutcolumnorientation_help'] = 'Dynamisch - die Anzahl der Abschnitte pro \'Reihe\' passt sich automatisch an die Fensterbreite an. \'Spalten\' wird nicht benutzt.<br>
+Senkrecht - Abschnitte werden von oben nach unten angeordnet<br>
 Waagerecht - Abschnitte werden von links nach rechts angeordnet';
 $string['setlayoutcolumns'] = 'Spalten';
 $string['setlayoutcolumns_help'] = 'Wie viele Spalten sollen verwendet werden?';
@@ -323,6 +338,9 @@ $string['setlayoutstructuretopic'] = 'Thema';
 $string['setlayoutstructureweek'] = 'Woche';
 $string['setshowsectionsummary'] = 'Abschnittsbeschreibung anzeigen, wenn zugeklappt';
 $string['setshowsectionsummary_help'] = 'Diese Option legt fest, ob die Abschnittsbeschreibungen angezeigt werden, auch wenn die Abschnitte zugeklappt sind.';
+$string['settings'] = 'Einstellungen';
+$string['settingssettings'] = 'Einstellungen';
+$string['settingssettingsdesc'] = 'Einstellungen zum Format "komprimierte Abschnitte"';
 $string['settogglealignment'] = 'Textausrichtung';
 $string['settogglealignment_help'] = 'Der Abschnittstitel kann links, zentriert oder rechts angezeigt werden.';
 $string['settoggleallenabled'] = '"Alle umschalten" aktiviert';
@@ -345,6 +363,10 @@ $string['settoggleforegroundhoveropacity'] = 'Deckkraft der Textfarbe bei Mausko
 $string['settoggleforegroundhoveropacity_help'] = 'Die Option legt die Deckkraft der Textfarbe bei Mauskontakt zwischen 0 und 1 in 0.1-Abständen fest.';
 $string['settoggleforegroundopacity'] = 'Deckkraft der Textfarbe';
 $string['settoggleforegroundopacity_help'] = 'Die Option legt die Deckkraft der Textfarbe zwischen 0 und 1 in 0.1-Abständen fest.';
+$string['settoggleiconfontclosed'] = 'Umschalten "Icon Font" schließen';
+$string['settoggleiconfontclosed_help'] = 'Wenn \'toggleiconset\' auf \'Icon font\' gesetzt ist, gibt dies die Standard-CSS-Klassen an, die für das geschlossene Symbol verwendet werden sollen. Siehe die FontAwesome-Icon-Klassen. Wenn auf \'-\' gesetzt, wird die Standardeinstellung verwendet.';
+$string['settoggleiconfontopen'] = 'Umschalten "Icon Font" öffnen';
+$string['settoggleiconfontopen_help'] = 'Wenn \'toggleiconset\' auf \'Icon font\' gesetzt ist, gibt dies die Standard-CSS-Klassen an, die für das geöffnete Symbol verwendet werden sollen. Siehe die FontAwesome-Icon-Klassen. Wenn auf \'-\' gesetzt, wird die Standardeinstellung verwendet.';
 $string['settoggleiconposition'] = 'Symbolposition';
 $string['settoggleiconposition_help'] = 'Die Option legt fest, ob das Umschalticon links oder rechts vom Text dargestellt wird.';
 $string['settoggleiconset'] = 'Symbolauswahl';
@@ -362,6 +384,9 @@ $string['square'] = 'Quadrat';
 $string['sunmoon'] = 'Sonne / Mond';
 $string['switch'] = 'Schalter';
 $string['three'] = '3';
+$string['tif'] = 'Icon Font';
+$string['toggleclose'] = 'Schließen';
+$string['toggleopen'] = 'Öffnen';
 $string['topcoll:changeactivitymeta'] = 'Aktivitätsmeta ändern oder zurücksetzen';
 $string['topcoll:changecolour'] = 'Farben der Abschnittstasten ändern';
 $string['topcoll:changelayout'] = 'Layout der Abschnittstasten ändern';
@@ -373,6 +398,11 @@ $string['topcollopened'] = 'Alle aufklappen';
 $string['topcollsidewidthlang'] = 'en-28px';
 $string['topcolltoggle'] = 'Umschalten';
 $string['two'] = '2';
+$string['versionalpha'] = 'Alpha-Version - Enthält mit ziemlicher Sicherheit Fehler. Dies ist eine Entwicklungsversion nur für Entwickler! Denken Sie nicht einmal daran, auf einem Produktionsserver zu installieren!';
+$string['versionbeta'] = 'Beta-Version - Enthält wahrscheinlich Fehler. Nur für Administrator/innen auf einem Testserver zum Testen.';
+$string['versioninfo'] = 'Release {$a->release}, Version {$a->version} auf Moodle {$a->moodle}. Gemacht mit {$a->love} in Großbritannien.';
+$string['versionrc'] = 'Release Candidate Version - Kann Fehler enthalten. Überprüfen Sie die Version vollständig auf einem Testserver, bevor Sie einen Produktionsserver in Betracht ziehen.';
+$string['versionstable'] = 'Stabile Version - Könnte Fehler enthalten. Überprüfen Sie die Version auf einen Testserver, bevor Sie ihn auf Ihrem Produktionsserver installieren.';
 $string['viewonly'] = 'Nur \'{$a->sectionname}\' anzeigen';
 $string['xanswered'] = '{$a->completed} haben beantwortet';
 $string['xattempted'] = '{$a->completed} haben versucht';

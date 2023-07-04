@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_gift', language 'ur', version '3.11'.
+ * Strings for component 'qformat_gift', language 'ur', version '4.1'.
  *
  * @package     qformat_gift
  * @category    string
@@ -36,4 +36,5 @@ $string['importminerror'] = 'سوال میں غلطی ہے۔ اس سوال کی 
 $string['nohandler'] = 'سوال کی قسم {$a} کے لیے کوئی ہینڈلر نہیں';
 $string['pluginname'] = 'گفٹ فارمیٹ';
 $string['pluginname_help'] = 'گفٹ فارمیٹ متعدد انتخاب، درست/غلط، مختصر جواب، مماثلت، گمشدہ لفظ، عددی اور مضمون کے سوالات کو ٹیکسٹ فائل کے ذریعے درآمد یا برآمد کرنے کے قابل بناتا ہے۔';
+$string['pluginname_link'] = 'qformat/gift';
 $string['privacy:metadata'] = 'گفٹ سوال فارمیٹ پلگ ان کوئی ذاتی ڈیٹا محفوظ نہیں کرتا ہے۔';

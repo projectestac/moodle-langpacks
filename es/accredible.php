@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'accredible', language 'es', version '3.11'.
+ * Strings for component 'accredible', language 'es', version '4.1'.
  *
  * @package     accredible
  * @category    string
@@ -67,6 +67,7 @@ $string['modulename'] = 'Certificado e insignias Accredible';
 $string['modulename_help'] = 'El módulo de actividad certificado e insignia Accredible le permite emitir los certificados o insignias del curso a los estudiantes en accredible.com.
 
 Añadir la actividad donde desea que sus estudiantes vean su certificado o insignia.';
+$string['modulename_link'] = 'mod/accredible/view';
 $string['modulenameplural'] = 'Certificados/insignias Accredible';
 $string['nocertificates'] = 'No hay certificados/insignias';
 $string['nouserswarning'] = 'Debe elegir un grupo Accredible para ver la lista de usuarios.';

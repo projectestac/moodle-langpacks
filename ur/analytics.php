@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'ur', version '3.11'.
+ * Strings for component 'analytics', language 'ur', version '4.1'.
  *
  * @package     analytics
  * @category    string
@@ -151,6 +151,7 @@ $string['processingsitecontents'] = 'سائٹ کے مواد پر کارروائ�
 $string['successfullyanalysed'] = 'کامیابی سے تجزیہ کیا گیا';
 $string['timesplittingmethod'] = 'تجزیہ وقفہ';
 $string['timesplittingmethod_help'] = 'تجزیہ کا وقفہ اس بات کی وضاحت کرتا ہے کہ نظام کب پیشین گوئیوں کا حساب لگائے گا اور سرگرمی لاگ کے اس حصے کا جو ان پیشین گوئیوں کے لیے زیر غور آئے گا۔ مثال کے طور پر، کورس کے دورانیے کو حصوں میں تقسیم کیا جا سکتا ہے، ہر حصے کے آخر میں ایک پیشین گوئی تیار کی جاتی ہے۔';
+$string['timesplittingmethod_link'] = 'Time_splitting_methods';
 $string['typeinstitution'] = 'ادارے کی قسم';
 $string['typeinstitutionacademic'] = 'تعلیمی';
 $string['typeinstitutionngo'] = 'غیر سرکاری تنظیم (این جی او)';

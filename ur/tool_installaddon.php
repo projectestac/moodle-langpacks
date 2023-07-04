@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'ur', version '3.11'.
+ * Strings for component 'tool_installaddon', language 'ur', version '4.1'.
  *
  * @package     tool_installaddon
  * @category    string
@@ -42,6 +42,7 @@ $string['installfromziprootdir_help'] = 'کچھ زپ پیکجز، جیسے کہ 
 $string['installfromzipsubmit'] = 'زپ فائل سے پلگ ان انسٹال کریں';
 $string['installfromziptype'] = 'پلگ ان کی قسم';
 $string['installfromziptype_help'] = 'ان پلگ انز کے لیے جو اپنے اجزاء کے نام کا صحیح طور پر اعلان کرتے ہیں، انسٹالر خود بخود پلگ ان کی قسم کا پتہ لگانے کے قابل ہوتا ہے۔ اگر خود کار طریقے سے پتہ لگانے میں ناکام ہوجاتا ہے، تو دستی طور پر پلگ ان کی صحیح قسم کا انتخاب کریں۔ انتباہ: انسٹالیشن کا طریقہ کار بری طرح ناکام ہو سکتا ہے اگر پلگ ان کی غلط قسم کی وضاحت کی گئی ہو۔';
+$string['installfromziptype_link'] = 'Development:Plugins';
 $string['permcheck'] = 'یقینی بنائیں کہ پلگ ان کی قسم روٹ لوکیشن ویب سرور کے عمل کے ذریعے قابل تحریر ہے۔';
 $string['permcheckerror'] = 'لکھنے کی اجازت کی جانچ کرتے وقت خرابی';
 $string['permcheckprogress'] = 'لکھنے کی اجازت کی جانچ ہو رہی ہے۔۔۔';

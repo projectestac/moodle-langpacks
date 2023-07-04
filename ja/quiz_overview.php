@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'ja', version '3.11'.
+ * Strings for component 'quiz_overview', language 'ja', version '4.1'.
  *
  * @package     quiz_overview
  * @category    string
@@ -66,15 +66,17 @@ $string['regradealldrydo'] = '再評定が必要だとマークされた受験 (
 $string['regradealldrydogroup'] = 'グループ「 {$a->groupname} 」内で再評定が必要だとマークされた受験 ({$a->countregradeneeded}) を再評定する';
 $string['regradealldrygroup'] = 'グループ「 {$a->groupname} 」の完全な再評定を予行練習する';
 $string['regradeallgroup'] = 'グループ「 {$a->groupname} 」を完全に再評定する';
-$string['regradecomplete'] = '再評定正常完了';
-$string['regradedsuccessfullyxofy'] = '再評定成功 ({$a->done}/{$a->count})';
+$string['regradecomplete'] = '再評定完了';
+$string['regradedsuccessfullyxofy'] = '再評定終了 ({$a->done}/{$a->count})';
 $string['regradeheader'] = '再評定';
 $string['regradeselected'] = '選択した受験を再評定する';
+$string['regradingattemptissue'] = 'スロット {$a->slot}: {$a->reason}';
 $string['regradingattemptxofy'] = '受験の再評定 ({$a->done}/{$a->count})';
+$string['regradingattemptxofyproblem'] = '次の受験済み問題を再評定できませんでした: {$a->attemptnum} by {$a->name} (id {$a->attemptid})';
 $string['regradingattemptxofywithdetails'] = '受験の再評定 ({$a->done}/{$a->count}) - 受験 {$a->attemptnum} by {$a->name} (id {$a->attemptid})';
 $string['show'] = '表示 / ダウンロード';
 $string['showattempts'] = '表示のみ / 受験のダウンロード';
-$string['showdetailedmarks'] = 'それぞれの問題の評点';
+$string['showdetailedmarks'] = '問題ごとの評点';
 $string['showinggraded'] = 'それぞれのユーザの評定済みおよび未評定の受験を表示しています。';
 $string['showinggradedandungraded'] = 'それぞれのユーザの評定済みおよび未評定の受験を表示しています。評定済みの受験はハイライトされています。この小テストの評定方法は {$a} です。';
 $string['studentingroup'] = 'グループ「 {$a->groupname} 」の「 {$a->coursestudent} 」';

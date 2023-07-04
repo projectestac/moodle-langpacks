@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'organizer', language 'el', version '3.11'.
+ * Strings for component 'organizer', language 'el', version '4.1'.
  *
  * @package     organizer
  * @category    string
@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['Error'] = 'Σφάλμα';
+$string['Info'] = 'Πληροφορίες';
+$string['Warning'] = 'Προειδοποίηση';
 $string['actionlink_delete'] = 'διαγραφή';
 $string['actionlink_edit'] = 'επεξεργασία';
 $string['actionlink_eval'] = 'βαθμός';
@@ -41,7 +44,7 @@ $string['allowsubmissionstodate'] = 'Λήξη καταχωρήσεων';
 $string['alwaysshowdescription'] = 'Πάντα εμφάνιση περιγραφής';
 $string['applicant'] = 'Αυτό είναι το άτομο που έκανε την καταχώρηση της ομάδας';
 $string['appointment_reminder_student:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Υπενθύμιση ομαδικού ραντεβού';
-$string['appointment_reminder_student:smallmessage'] = 'Έχετε ένα ραντεβού με τον/την {$a->sendername} κατά την ημέρα {$a->date}, ώρα {$a->time}, στη θέση {$a->location}.';
+$string['appointment_reminder_student:smallmessage'] = 'Έχετε ένα ραντεβού με τον/την {$a->sendername} κατά την ημέρα {$a->date}, ώρα {$a->time}, στην τοποθεσία {$a->location}.';
 $string['appointment_reminder_student:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Υπενθύμιση ραντεβού';
 $string['appointment_reminder_teacher:digest:smallmessage'] = 'Έχετε λάβει ένα μήνυμα σύνοψης των αυριανών σας ραντεβού.';
 $string['appointment_reminder_teacher:digest:subject'] = 'Σύνοψη ραντεβού';
@@ -246,6 +249,12 @@ $string['infobox_slotoverview_title'] = 'Επισκόπηση χρονοθυρί
 $string['invalidgrouping'] = 'Πρέπει να επιλεγεί μια έγκυρη ομαδοποίηση!';
 $string['inwaitingqueue'] = 'Λίστα αναμονής';
 $string['isgrouporganizer'] = 'Ομαδικά ραντεβού';
+$string['legend_anonymous'] = 'Ανώνυμη χρονοθυρίδα';
+$string['legend_comments'] = 'Σχόλια Μαθητή / Διδάσκοντα';
+$string['legend_due'] = 'Η χρονοθυρίδα έληξε';
+$string['legend_evaluated'] = 'Η χρονοθυρίδα αξιολογήθηκε';
+$string['legend_feedback'] = 'Ανατροφοδότηση διδάσκοντα';
+$string['legend_section_status'] = 'Εικονίδια κατάστασης';
 $string['location'] = 'Τοποθεσία';
 $string['message_custommessage'] = 'Προσαρμοσμένο μήνυμα';
 $string['min'] = 'λεπτό';

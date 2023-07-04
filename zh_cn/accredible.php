@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'accredible', language 'zh_cn', version '3.11'.
+ * Strings for component 'accredible', language 'zh_cn', version '4.1'.
  *
  * @package     accredible
  * @category    string
@@ -62,6 +62,7 @@ $string['modulename'] = 'Accredible证书和徽章';
 $string['modulename_help'] = 'Accredible证书和徽章活动模块让你能在accredible.com上颁发课程证书或徽章给学生。
 
 在你想让学生们看到他们的证书或徽章的地方添加活动';
+$string['modulename_link'] = 'mod/accredible/view';
 $string['modulenameplural'] = 'Accredible证书/徽章';
 $string['nocertificates'] = '没有证书/徽章';
 $string['overview'] = '总览';

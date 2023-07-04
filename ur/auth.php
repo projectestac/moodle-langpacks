@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ur', version '3.11'.
+ * Strings for component 'auth', language 'ur', version '4.1'.
  *
  * @package     auth
  * @category    string
@@ -140,6 +140,7 @@ $string['privacy:metadata:userpref:loginlockout'] = 'آیا صارف کا اکا
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'اشارہ کرتا ہے کہ صارف کا اکاؤنٹ کبھی بھی لاک آؤٹ کے تابع نہیں ہونا چاہیے';
 $string['privacy:metadata:userpref:loginlockoutsecret'] = 'لاک ہونے پر، وہ راز جو صارف کو اپنے اکاؤنٹ کو غیر مقفل کرنے کے لیے استعمال کرنا چاہیے';
 $string['recaptcha_help'] = 'کیپچا خودکار پروگراموں کے غلط استعمال کو روکنے کے لیے ہے۔ اس بات کی تصدیق کرنے کے لیے ہدایات پر عمل کریں کہ آپ ایک شخص ہیں۔ یہ چیک کرنے کے لیے ایک باکس ہو سکتا ہے، ایک تصویر میں پیش کیے گئے حروف جو آپ کو داخل کرنا ہوں گے یا تصویروں کا ایک سیٹ ہو سکتا ہے جس میں سے منتخب کیا جائے۔ اگر آپ کو یقین نہیں ہے کہ تصاویر کیا ہیں، تو آپ دوسرا کیپچا یا آڈیو کیپچا حاصل کرنے کی کوشش کر سکتے ہیں۔';
+$string['recaptcha_link'] = 'auth/email';
 $string['security_question'] = 'سیکیورٹی سوال';
 $string['selfregistration'] = 'خود رجسٹریشن';
 $string['selfregistration_help'] = 'اگر تصدیقی پلگ ان، جیسا کہ ای میل پر مبنی خود رجسٹریشن، کو منتخب کیا جاتا ہے، تو یہ ممکنہ صارفین کو خود کو رجسٹر کرنے اور اکاؤنٹس بنانے کے قابل بناتا ہے۔ اس کے نتیجے میں اسپام کے لیے فورم پوسٹس، بلاگ اندراجات وغیرہ کو استعمال کرنے کے لیے اسپامرز کے اکاؤنٹس بنانے کا امکان ہوتا ہے۔ اس خطرے سے بچنے کے لیے، خود رجسٹریشن کو <em>اجازت یافتہ ای میل ڈومینز</em> کی ترتیب کے ذریعے غیر فعال یا محدود کیا جانا چاہیے۔';

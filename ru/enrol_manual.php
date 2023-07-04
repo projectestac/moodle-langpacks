@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_manual', language 'ru', version '3.11'.
+ * Strings for component 'enrol_manual', language 'ru', version '4.1'.
  *
  * @package     enrol_manual
  * @category    string
@@ -53,6 +53,7 @@ $string['expirymessageenrollerbody'] = 'Зачисление в курсе «{$a
 
 Чтобы продлить их зачисление, перейдите на {$a->extendurl}';
 $string['expirymessageenrollersubject'] = 'Уведомление об окончании обучения';
+$string['managemanualenrolements'] = 'Управление ручной записью';
 $string['manual:config'] = 'Настраивать экземпляры способа записи на курс «Зачисление вручную»';
 $string['manual:enrol'] = 'Записывать пользователей на курсы';
 $string['manual:manage'] = 'Управлять зачислением пользователей на курс';

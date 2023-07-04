@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'ja', version '3.11'.
+ * Strings for component 'tool_mobile', language 'ja', version '4.1'.
  *
  * @package     tool_mobile
  * @category    string
@@ -31,7 +31,9 @@ $string['androidappid_desc'] = 'あなたがカスタムAndroidアプリを使�
 $string['apppolicy'] = 'アプリポリシーURL';
 $string['apppolicy_help'] = 'アプリのAboutページに一覧表示されるアプリユーザのためのポリシーのURLです。このフィールドを空白のままにした場合、代わりにサイトポリシーURLが使用されます。';
 $string['apprequired'] = 'この機能はMoodleモバイルまたはデスクトップアプリ経由のアクセス時のみ使用できます。';
-$string['autologinkeygenerationlockout'] = '自動ログインキー生成がブロックされました。あなたはリクエスト間に6分間待つ必要があります。';
+$string['autologinkeygenerationlockout'] = '自動ログインキー生成がブロックされました。あなたはリクエスト間に {$a 分間待つ必要があります。';
+$string['autologinmintimebetweenreq'] = '自動ログインリクエスト間の最小時間';
+$string['autologinmintimebetweenreq_desc'] = 'モバイルアプリからの自動ログインリクエスト間の最小時間です。サイトの埋め込みコンテンツ閲覧時にアプリユーザが頻繁に認証情報の入力を要求される場合、低い値に設定してください。';
 $string['autologinnotallowedtoadmins'] = 'サイト管理への自動ログインは許可されません。';
 $string['cachedef_plugininfo'] = 'モバイルアドオンのプラグイン一覧';
 $string['cachedef_subscriptiondata'] = 'ここではMoodleアプリサブスクリプション情報を保存します。';
@@ -122,14 +124,18 @@ $string['privacy:metadata:core_userkey'] = '現在のユーザの自動ログイ
 $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = '自動ログインキーが最後にリクエストされた日時です。それぞれのリクエストには6分間の間隔が必要です。';
 $string['qrcodedisabled'] = 'QRコードによるアクセス無効';
 $string['qrcodeformobileappaccess'] = 'モバイルアプリアクセスのためのQRコード';
-$string['qrcodeformobileapploginabout'] = 'あなたのモバイルアプリでQRコードをスキャンして自動的にログインします。QRコードは {$a} 分で有効期限が切れます。';
+$string['qrcodeformobileapploginabout'] = 'あなたのモバイルアプリでQRコードをスキャンして自動的にログインします。QRコードは {$a} で有効期限が切れます。';
 $string['qrcodeformobileappurlabout'] = 'あなたのアプリにサイトURLを自動入力するにはモバイルアプリでQRコードをスキャンしてください。';
 $string['qrcodetype'] = 'QRコードアクセス';
 $string['qrcodetype_desc'] = 'モバイルアプリユーザがスキャンできるようQRコードを提供できます。これはサイトURLまたはサイトがHTTPSを使用して安全化されている場合にユーザ名およびパスワードを入力せずに自動ログインさせるため使用できます。';
 $string['qrcodetypelogin'] = 'QRコードによる自動ログイン';
 $string['qrcodetypeurl'] = 'QRコードによるサイトURL';
+$string['qrkeyttl'] = 'QR認証キー持続時間';
+$string['qrkeyttl_desc'] = '自動ログインQRコードの有効期間です。';
+$string['qrsameipcheck'] = 'QR認証同一IPチェック';
+$string['qrsameipcheck_desc'] = 'ログインのためのQRコードの生成およびスキャンの両方でユーザが同一ネットワークを使用する必要があるかどうか決定します。ユーザからQRログインに関する問題が報告された場合のみ、無効にしてください。';
 $string['qrsiteadminsnotallowed'] = 'セキュリティ上の理由からサイト管理者または別のユーザとしてのログイン時にはQRコードでのログインは許可されません。';
-$string['readingthisemailgettheapp'] = 'これをあなたのメールで読んでいますか? <a href="{$a}">モバイルアプリをダウンロードして、あなたのモバイルデバイスで通知を受信してください</a>。';
+$string['readingthisemailgettheapp'] = 'これをメールで読んでいますか? <a href="{$a}">モバイルアプリをダウンロードしてあなたのモバイルデバイスで通知を受信してください</a>。';
 $string['remoteaddons'] = 'リモートアドオン';
 $string['responsivemainmenuitems'] = 'レスポンシブメニューアイテム';
 $string['scanqrcode'] = 'QRコードをスキャンする';

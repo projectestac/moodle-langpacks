@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grouptool', language 'pt', version '3.11'.
+ * Strings for component 'grouptool', language 'pt', version '4.1'.
  *
  * @package     grouptool
  * @category    string
@@ -95,6 +95,8 @@ $string['cfg_moodlesync_head'] = 'Comportamento na sincronização';
 $string['cfg_moodlesync_head_info'] = 'Como devem comportar-se os grupos criados através da ferramenta caso os membros do grupo Moodle sejam adicionados/apagados ou quando grupos únicos são apagados';
 $string['cfg_name_scheme'] = 'Esquema predefinido do nome';
 $string['cfg_name_scheme_desc'] = 'Esquema predefinido para o nome dos grupos a usar na criação dos grupos';
+$string['cfg_show_add_info'] = 'Mostrar informações adicionais do grupo no autorregisto';
+$string['cfg_show_add_info_desc'] = 'Mostrar informações adicionais dos grupos do Moodle, tais como, descrições ou imagens no separador de registo';
 $string['cfg_show_members'] = 'Mostrar os membros do grupo';
 $string['cfg_show_members_desc'] = 'Determina se os membros do grupo devem estar visíveis por predefinição';
 $string['cfg_use_individual'] = 'Usar tamanho individual';
@@ -372,7 +374,7 @@ $string['messageprovider:grouptool_moveupreg'] = 'Efetuar registo ao subir na fi
 $string['missing_source_selection'] = 'Nenhuma origem selecionada!';
 $string['modulename'] = 'Ferramenta de Grupos';
 $string['modulename_help'] = 'O módulo Ferramenta de Grupos é indicado para diferentes tipos de tarefas relacionadas com grupos:<ul><li>Permite criar grupos em diferentes modos (número de grupos/membros, grupos de uma só pessoa, intervalo de grupos), bem como agrupamentos para cada grupo.</li><li>Pode ser usado para dar aos alunos a possibilidade de se registarem em determinados grupos durante um período de tempo definido.</li><li>O módulo também tem a capacidade de classificar grupos - copiando as notas de uma atividade de 1 membro do grupo para outros membros do grupo.</li><li>Importar utilizadores para grupos através de lista com números de identificação.</li><li>Vista geral dos grupos da disciplina, incluindo todos os registos, membros, filas, etc. É possível exportar estes dados para diferentes formatos de ficheiro (PDF/XLSX/ODS/TXT).</li><li>Lista exportável de todos os utilizadores da disciplina, incluindo os seus registos, filas, etc.</li></ul><p>Tenha em atenção que os grupos da Ferramenta de grupos diferem fundamentalmente dos grupos Moodle da disciplina. Para garantir a consistência entre os tipos de grupo, defina os parâmetros da secção "Comportamento nas alterações do Moodle" para  "Seguir as alterações".</p>';
-$string['modulenameplural'] = 'Ferramentas de gGrupos';
+$string['modulenameplural'] = 'Ferramentas de Grupos';
 $string['moodlesync'] = 'Comportamento nas alterações do Moodle';
 $string['moodlesync_help'] = 'Comportamento das Ferramentas de Grupos se os membros do grupo Moodle forem adicionados/apagados ou os grupos únicos forem apagados';
 $string['moreregsthanpossible'] = 'Os número de registos necessários para conclusão não podem ser superiores ao máximo de registos permitidos';
@@ -513,7 +515,7 @@ $string['regpresent'] = 'Utilizador já {$a}';
 $string['rename_failed'] = 'Ocorreu um erro ao renomear!';
 $string['renamed_group'] = 'Grupo foi renomeado!';
 $string['require_registration'] = 'Requer registos';
-$string['require_registration_help'] = 'O número mínimo de grupos em que os alunos têm de se inscrever para marcar esta atividade como concluída. Não são considerados pela regra as vagas em filas de espera. Se o número for maior do que 1, é necessário ativar "Registos múltiplos" e "Máximo de grupos a escolher" tem de ser maior ou igual a esse valor.';
+$string['require_registration_help'] = 'O número mínimo de grupos em que os alunos têm de se inscrever para marcar esta atividade como concluída. Não são considerados pela regra as vagas em filas de espera. Se o número for maior do que 1, é necessário ativar "Registos múltiplos" e "Máximo de grupos a escolher" tem de ser maior ou igual a esse valor';
 $string['reset_agrps'] = 'Reiniciar os grupos ativos';
 $string['reset_agrps_help'] = 'Reiniciar todos os grupos da disciplina para ficarem inativos na Ferramenta de Grupos. Irá excluir também todos os registos e filas na Ferramenta de Grupos desta disciplina!';
 $string['reset_queues'] = 'Reiniciar filas';

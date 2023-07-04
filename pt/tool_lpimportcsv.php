@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpimportcsv', language 'pt', version '3.11'.
+ * Strings for component 'tool_lpimportcsv', language 'pt', version '4.1'.
  *
  * @package     tool_lpimportcsv
  * @category    string
@@ -40,6 +40,7 @@ $string['idnumber'] = 'Número ID';
 $string['import'] = 'Importar';
 $string['importfile'] = 'Descrição do ficheiro CSV com quadro de competências';
 $string['importfile_help'] = 'Um quadro de competências pode ser importado via ficheiro de texto. O formato do ficheiro pode ser determinado criando um novo quadro de competências no site e, em seguida, exportando-o.';
+$string['importfile_link'] = 'admin/tool/lpimportcsv';
 $string['importingfile'] = 'A importar dados do ficheiro';
 $string['invalidimportfile'] = 'Formato de ficheiro não válido';
 $string['isframework'] = 'É quadro de competências';

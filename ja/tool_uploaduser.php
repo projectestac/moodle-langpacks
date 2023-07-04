@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'ja', version '3.11'.
+ * Strings for component 'tool_uploaduser', language 'ja', version '4.1'.
  *
  * @package     tool_uploaduser
  * @category    string
@@ -40,6 +40,7 @@ $string['clivalidationerror'] = '確認エラー:';
 $string['csvdelimiter'] = 'CSVセパレータ';
 $string['defaultvalues'] = 'デフォルト値';
 $string['deleteerrors'] = '削除エラー';
+$string['duplicateemail'] = 'メール {$a} を持つ複数のユーザを検出しました。';
 $string['encoding'] = 'エンコーディング';
 $string['errormnetadd'] = 'リモートユーザを追加できません。';
 $string['errorprefix'] = 'エラー:';
@@ -53,6 +54,7 @@ $string['invalidtheme'] = 'テーマ「 {$a} 」はインストールされて�
 $string['invalidupdatetype'] = '選択されたアップロードタイプでこのオプションは選択できません。';
 $string['invaliduserdata'] = 'ユーザ {$a} に無効なデータが検出されたため自動的に削除されました。';
 $string['linex'] = '行 {$a}';
+$string['matchemail'] = 'メールアドレスでの一致';
 $string['nochanges'] = '変更なし';
 $string['notheme'] = 'このユーザに定義されたテーマはありません。';
 $string['pluginname'] = 'ユーザアップロード';
@@ -82,6 +84,7 @@ $string['uploadusers_help'] = 'テキストファイルでユーザをアップ�
 * それぞれのレコードは選択されたセパレータによって区切られた一連のデータです。
 * 先頭レコードにはファイルの残りのフォーマットを定義したフィールド名一覧を含みます。
 * 必須フィールド名は次のとおりです: username, password, firstname, lastname, email';
+$string['uploadusers_link'] = 'admin/tool/uploaduser/index';
 $string['uploaduserspreview'] = 'アップロードユーザプレビュー';
 $string['uploadusersresult'] = 'アップロードユーザ結果';
 $string['useraccountupdated'] = 'ユーザが更新されました。';

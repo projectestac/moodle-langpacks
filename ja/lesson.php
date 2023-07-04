@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'ja', version '3.11'.
+ * Strings for component 'lesson', language 'ja', version '4.1'.
  *
  * @package     lesson
  * @category    string
@@ -52,7 +52,6 @@ $string['addedendofcluster'] = '終了クラスタが追加されました。';
 $string['addendofbranch'] = '終了ブランチを追加する';
 $string['addendofcluster'] = '終了クラスタを追加する';
 $string['addessay'] = '作文問題ページを作成する';
-$string['additionalattemptsremaining'] = '完了しました。あなたはこのレッスンを再度受験することができます。';
 $string['addmatching'] = '組み合わせ問題ページを作成する';
 $string['addmultichoice'] = '多肢選択問題ページを作成する';
 $string['addnewgroupoverride'] = 'グループオーバーライドを追加する';
@@ -189,7 +188,9 @@ $string['editcluster'] = 'クラスタを編集する';
 $string['editendofbranch'] = '終了ブランチページを編集する';
 $string['editendofcluster'] = '終了クラスタページを編集する';
 $string['editessay'] = '作文問題ページを編集する';
+$string['editinglesson'] = 'レッスンを編集する';
 $string['editingquestionpage'] = '{$a} 問題ページの編集';
+$string['editlesson'] = 'レッスンを編集する';
 $string['editlessonsettings'] = 'レッスン設定を編集する';
 $string['editmatching'] = '組み合わせ問題ページを編集する';
 $string['editmultichoice'] = '多肢選択問題ページを編集する';
@@ -201,9 +202,9 @@ $string['editquestion'] = '問題ページを編集する';
 $string['editshortanswer'] = '記述問題ページを編集する';
 $string['edittruefalse'] = '○/×問題ページを編集する';
 $string['email'] = 'メール';
-$string['emailallgradedessays'] = '作文問題の評定すべてメール送信する';
-$string['emailgradedessays'] = '作文問題の評定をメール送信する';
-$string['emailsuccess'] = 'メールが正常に送信されました。';
+$string['emailallgradedessays'] = '作文問題評定済み通知を送信する';
+$string['emailgradedessays'] = '作文問題評定済み通知を送信する';
+$string['emailsuccess'] = '通知委が正常に送信されました。';
 $string['emptypassword'] = 'パスワードは空白にできません。';
 $string['enabled'] = '有効';
 $string['endofbranch'] = '終了ブランチ';
@@ -280,10 +281,12 @@ $string['indicator:cognitivedepth'] = 'レッスン認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標はレッスン活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = 'レッスン認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者がレッスン活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧, フィードバックへのコメント, フィードバック閲覧後の再送信)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'レッスン社会的';
 $string['indicator:socialbreadth_help'] = 'この指標はレッスン活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = 'レッスン社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者がレッスン活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['insertedpage'] = 'ページが追加されました';
 $string['invalidfile'] = '無効なファイル';
 $string['invalidid'] = 'コースモジュールIDまたはレッスンIDが渡されていません。';
@@ -304,14 +307,13 @@ $string['lesson:manage'] = 'レッスン活動を管理する';
 $string['lesson:manageoverrides'] = 'レッスンオーバーライドを管理する';
 $string['lesson:view'] = 'レッスン活動を表示する';
 $string['lesson:viewreports'] = 'レッスンレポートを表示する';
+$string['lessonbeingpreviewed'] = '現在、レッスンはプレビューされています。';
 $string['lessonclosed'] = 'このレッスンは {$a} に終了します。';
 $string['lessoncloses'] = 'レッスン終了';
-$string['lessoncloseson'] = 'レッスン終了: {$a}';
 $string['lessoneventcloses'] = '{$a} 終了';
 $string['lessoneventopens'] = '{$a} 開始';
 $string['lessonformating'] = 'レッスンフォーマット';
 $string['lessonmenu'] = 'レッスンメニュー';
-$string['lessonname'] = 'レッスン: {$a}';
 $string['lessonnotready'] = 'このレッスンはまだ受験することができません。あなたの {$a} にご連絡ください。';
 $string['lessonnotready2'] = 'このレッスンはまだ受験することができません。';
 $string['lessonopen'] = 'このレッスンは {$a} に開始されます。';
@@ -356,6 +358,7 @@ $string['modulename_help'] = 'レッスン活動において教師は楽しく�
 * 新しいテーマに関する自主学習のため
 * シナリオまたはシミュレーション/意思決定訓練のため
 * 初期問題で答えられた内容により一連の異なる試験問題を提供する差別化された試験対策として';
+$string['modulename_link'] = 'mod/lesson/view';
 $string['modulenameplural'] = 'レッスン';
 $string['move'] = 'ページを移動する';
 $string['movedpage'] = 'ページを移動しました。';
@@ -390,6 +393,7 @@ $string['nooneenteredthis'] = '未入力';
 $string['noonehasanswered'] = 'まだ誰も作文問題に解答していません。';
 $string['noonehasansweredgroup'] = 'まだ {$a} の誰も作文問題に解答していません。';
 $string['noopen'] = '開始日時なし';
+$string['nooverridecreated'] = 'オーバーライドは作成されませんでした。';
 $string['nooverridedata'] = 'あなたは少なくとも1つのレッスン設定をオーバーライドする必要があります。';
 $string['noretake'] = 'あなたはこのレッスンを再受験できません。';
 $string['normal'] = '通常 - レッスンパスに従う';
@@ -606,7 +610,6 @@ $string['withselectedattempts'] = '選択した受験に対して ...';
 $string['wronganswerjump'] = '不正解のジャンプ先';
 $string['wronganswerscore'] = '不正解の評点';
 $string['wrongresponse'] = '不正解';
-$string['xattempts'] = '{$a} 受験';
 $string['youhaveseen'] = 'あなたはすでにこのレッスンを2ページ以上表示しました。<br />あなたが表示した最後のページから始めますか?';
 $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は {$a} です。';

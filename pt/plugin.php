@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'pt', version '3.11'.
+ * Strings for component 'plugin', language 'pt', version '4.1'.
  *
  * @package     plugin
  * @category    string
@@ -67,6 +67,7 @@ $string['moodleversion'] = 'Moodle {$a}';
 $string['noneinstalled'] = 'Nenhum módulo deste tipo está instalado';
 $string['notdownloadable'] = 'Não é possível descarregar o pacote';
 $string['notdownloadable_help'] = 'O pacote ZIP com a atualização não pode ser descarregado automaticamente.';
+$string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
 $string['notes'] = 'Observações';
 $string['notsupported'] = 'O módulo pode não ser compatível com a versão Moodle {$a}';
 $string['notwritable'] = 'Os ficheiros do módulo não permitem escrita';
@@ -125,6 +126,8 @@ $string['type_calendartype'] = 'Tipo de calendário';
 $string['type_calendartype_plural'] = 'Tipos de calendário';
 $string['type_contentbank'] = 'Banco de conteúdos';
 $string['type_contentbank_plural'] = 'Módulos de banco de conteúdos';
+$string['type_contenttype'] = 'Banco de conteúdos';
+$string['type_contenttype_plural'] = 'Módulos de banco de conteúdos';
 $string['type_coursereport'] = 'Relatório da disciplina';
 $string['type_coursereport_plural'] = 'Relatórios da disciplina';
 $string['type_customfield'] = 'Campo personalizado';
@@ -173,6 +176,8 @@ $string['type_portfolio'] = 'Portefólio';
 $string['type_portfolio_plural'] = 'Portefólios';
 $string['type_profilefield'] = 'Tipo de campo de perfil';
 $string['type_profilefield_plural'] = 'Tipos de campos do perfil';
+$string['type_qbank'] = 'Módulo de base de dados de perguntas';
+$string['type_qbank_plural'] = 'Módulos de base de dados de perguntas';
 $string['type_qbehaviour'] = 'Comportamento das pergunta';
 $string['type_qbehaviour_plural'] = 'Comportamentos das perguntas';
 $string['type_qformat'] = 'Formato de importação/exportação de perguntas';
@@ -222,6 +227,7 @@ $string['validationmsg_maturity'] = 'Nível de maturidade declarado';
 $string['validationmsg_maturity_help'] = 'O módulo pode declarar o seu nível de maturidade. Se o responsável pela manutenção do módulo o considerar estável, o nível de maturidade declarado será MATURITY_STABLE (MATURIDADE_ESTÁVEL). Todos os outros níveis de maturidade (tais como alfa ou beta) devem ser considerados instáveis e é gerado um aviso.';
 $string['validationmsg_missingcomponent'] = 'O módulo não indica o seu nome de componente';
 $string['validationmsg_missingcomponent_help'] = 'Todos os módulos devem indicar o seu nome de componente completo através da string `$plugin->component`no ficheiro version.php.';
+$string['validationmsg_missingcomponent_link'] = 'Development:version.php';
 $string['validationmsg_missingexpectedlangenfile'] = 'Incompatibilidade de nome do ficheiro de idioma em inglês';
 $string['validationmsg_missingexpectedlangenfile_info'] = 'O ficheiro de idioma em inglês {$a} está em falta para o tipo de módulo em causa';
 $string['validationmsg_missinglangenfile'] = 'Não foi encontrado o ficheiro de idioma em inglês';
@@ -241,7 +247,7 @@ $string['validationmsg_rootdir_help'] = 'O nome da diretoria raiz no pacote ZIP 
 $string['validationmsg_rootdirinvalid'] = 'Nome de módulo inválido';
 $string['validationmsg_rootdirinvalid_help'] = 'O nome da diretoria raiz no pacote ZIP viola requisitos formais de sintaxe. Alguns pacotes ZIP, tais como os gerados pelo Github, podem conter um nome de diretoria raiz incorreta. É preciso corrigir o nome da diretoria raiz para corresponder ao nome do módulo.';
 $string['validationmsg_targetexists'] = 'O local de destino já existe e será eliminado';
-$string['validationmsg_targetexists_help'] = 'A diretoria em que o módulo será instalado já existe e será substituída pela pasta de conteúdos do módulo.';
+$string['validationmsg_targetexists_help'] = 'A diretoria onde o módulo será instalado já existe e será substituída pelo conteúdo do pacote do módulo.';
 $string['validationmsg_targetnotdir'] = 'O local de destino está ocupado por um ficheiro';
 $string['validationmsg_unknowntype'] = 'Tipo de módulo inválido';
 $string['validationmsg_versionphpsyntax'] = 'Foram detectados erros de sintaxe no ficheiro version.php';

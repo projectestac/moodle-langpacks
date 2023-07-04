@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendar', language 'ur', version '3.11'.
+ * Strings for component 'calendar', language 'ur', version '4.1'.
  *
  * @package     calendar
  * @category    string
@@ -138,7 +138,6 @@ $string['eventtime'] = 'وقت';
 $string['eventtype'] = 'واقعہ قسم';
 $string['eventtypecategory'] = 'زمرہ';
 $string['eventtypecourse'] = 'کورس';
-$string['eventtypeglobal'] = 'عالمی';
 $string['eventtypegroup'] = 'گروپ';
 $string['eventtypemodule'] = 'ماڈیول';
 $string['eventtypeother'] = 'دوسرے';
@@ -155,9 +154,6 @@ $string['forcecalendartype'] = 'زبردستی کیلنڈر';
 $string['fri'] = 'جمعہ';
 $string['friday'] = 'جمعہ';
 $string['generateurlbutton'] = 'کیلنڈر کا یو آر ایل حاصل کرو';
-$string['global'] = 'گلوبل';
-$string['globalevent'] = 'عالمی تقریب';
-$string['globalevents'] = 'عالمی تقاریب';
 $string['gotoactivity'] = 'سرگرمی پر جائیں';
 $string['gotocalendar'] = 'کیلنڈر کی طرف جاؤ';
 $string['group'] = 'گروپ';

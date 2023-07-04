@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_classic', language 'it', version '3.11'.
+ * Strings for component 'theme_classic', language 'it', version '4.1'.
  *
  * @package     theme_classic
  * @category    string
@@ -35,3 +35,4 @@ $string['privacy:metadata'] = 'Il tema Classic non memorizza dati personali.';
 $string['region-side-post'] = 'Destra';
 $string['region-side-pre'] = 'Sinistra';
 $string['sitetitle'] = 'Titolo del sito';
+$string['totop'] = 'Vai all\'inizio';

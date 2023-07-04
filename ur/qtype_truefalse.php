@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_truefalse', language 'ur', version '3.11'.
+ * Strings for component 'qtype_truefalse', language 'ur', version '4.1'.
  *
  * @package     qtype_truefalse
  * @category    string
@@ -34,6 +34,7 @@ $string['feedbacktrue'] = 'جواب \'درست\' کے لیے تاثرات۔';
 $string['pleaseselectananswer'] = 'براہ کرم ایک جواب منتخب کریں۔';
 $string['pluginname'] = 'درست/غلط';
 $string['pluginname_help'] = 'ایک سوال کے جواب میں (جس میں تصویر شامل ہو سکتی ہے) جواب دہندہ صحیح یا غلط میں سے انتخاب کرتا ہے۔';
+$string['pluginname_link'] = 'question/type/truefalse';
 $string['pluginnameadding'] = 'ایک صحیح/غلط سوال شامل کرنا';
 $string['pluginnameediting'] = 'صحیح/غلط سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'صرف دو انتخابوں \'صحیح\' اور \'غلط\' کے ساتھ کثیر انتخابی سوال کی ایک سادہ شکل۔';

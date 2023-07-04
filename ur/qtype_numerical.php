@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_numerical', language 'ur', version '3.11'.
+ * Strings for component 'qtype_numerical', language 'ur', version '4.1'.
  *
  * @package     qtype_numerical
  * @category    string
@@ -59,6 +59,7 @@ $string['pleaseenterananswer'] = 'براہ کرم جواب درج کریں۔';
 $string['pleaseenteranswerwithoutthousandssep'] = 'براہ کرم ہزار الگ کرنے والا ({$a}) استعمال کیے بغیر اپنا جواب درج کریں۔';
 $string['pluginname'] = 'عددی';
 $string['pluginname_help'] = 'طالب علم کے نقطہ نظر سے، ایک عددی سوال بالکل مختصر جواب والے سوال کی طرح لگتا ہے۔ فرق یہ ہے کہ عددی جوابات کو قبول شدہ غلطی کی اجازت ہے۔ یہ جوابات کی ایک مقررہ حد کو ایک جواب کے طور پر جانچنے کی اجازت دیتا ہے۔ مثال کے طور پر، اگر جواب 2 کی قبول شدہ غلطی کے ساتھ 10 ہے، تو 8 اور 12 کے درمیان کوئی بھی نمبر درست کے طور پر قبول کیا جائے گا۔';
+$string['pluginname_link'] = 'question/type/numerical';
 $string['pluginnameadding'] = 'عددی سوال شامل کرنا';
 $string['pluginnameediting'] = 'عددی سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'ایک عددی جواب کی اجازت دیتا ہے، ممکنہ طور پر اکائیوں کے ساتھ، جسے مختلف ماڈل جوابات کے مقابلے میں، ممکنہ طور پر رواداری کے ساتھ درجہ بندی کیا جاتا ہے۔';
@@ -95,9 +96,6 @@ $string['unitposition'] = 'یونٹس جاتے ہیں';
 $string['units'] = 'یونٹس';
 $string['unitselect'] = 'ایک ڈراپ ڈاؤن مینو';
 $string['unitx'] = 'یونٹ {نہیں}';
-$string['validnumberformats'] = 'درست نمبر فارمیٹس';
-$string['validnumberformats_help'] = '* ریگولر نمبرز 13500.67, 13 500.67, 13500,67 یا 13 500,67 * اگر آپ کی لینگویج پیک سیٹنگز (langconfig.php فائل) کوما (,) کو ہزار الگ کرنے والے کے طور پر استعمال کرتی ہے * ہمیشہ * اعشاریہ پوائنٹ (.) ڈالیں جیسا کہ 13,500 میں ہے۔ : 13,500 * ایکسپوننٹ فارم کے لیے، بولیں 1.350067 * 10<sup>4</sup>، استعمال کریں 1.350067 E4 : 1.350067 E04';
-$string['validnumbers'] = '13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 یا 1.350067 E04';
 $string['xmustbenumeric'] = '{$a} ایک عدد ہونا چاہیے۔';
 $string['xmustnotbenumeric'] = '{$a} نمبر نہیں ہو سکتا۔';
 $string['youmustenteramultiplierhere'] = 'آپ کو یہاں ایک ضرب درج کرنا ہوگا۔';

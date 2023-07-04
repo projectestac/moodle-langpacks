@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'ur', version '3.11'.
+ * Strings for component 'survey', language 'ur', version '4.1'.
  *
  * @package     survey
  * @category    string
@@ -188,16 +188,19 @@ $string['indicator:cognitivedepth'] = 'علمی سروے';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے اس علمی گہرائی پر مبنی ہے جو طالب علم نے سروے کی سرگرمی میں حاصل کی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'علمی سروے';
 $string['indicator:cognitivedepthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفہ کے دوران سروے کی سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'سماجی سروے';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے سروے کی سرگرمی میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'سماجی سروے';
 $string['indicator:socialbreadthdef_help'] = 'شریک اس تجزیہ کے وقفہ کے دوران سروے کی سرگرمیوں کے ذریعہ پیش کردہ سماجی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، تنہا شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['introtext'] = 'تعارفی متن';
 $string['invalidsurveyid'] = 'سروے ID غلط تھا';
 $string['invalidtmptid'] = 'غلط ٹیمپلیٹ آئی ڈی';
 $string['ipreferthat'] = 'میں اسے ترجیح دیتا ہوں';
 $string['modulename'] = 'سروے';
 $string['modulename_help'] = 'سروے کی سرگرمی کا ماڈیول متعدد تصدیق شدہ سروے کے آلات فراہم کرتا ہے جو آن لائن ماحول میں سیکھنے کا اندازہ لگانے اور حوصلہ افزائی کرنے میں کارآمد پائے گئے ہیں۔ ایک استاد ان کا استعمال اپنے طلباء سے ڈیٹا اکٹھا کرنے کے لیے کر سکتا ہے جس سے انہیں اپنی کلاس کے بارے میں جاننے اور ان کی اپنی تعلیم پر غور کرنے میں مدد ملے گی۔ نوٹ کریں کہ سروے کے یہ ٹولز سوالات کے ساتھ پہلے سے موجود ہیں۔ وہ اساتذہ جو اپنا سروے خود بنانا چاہتے ہیں انہیں فیڈ بیک ایکٹیویٹی ماڈیول استعمال کرنا چاہیے۔';
+$string['modulename_link'] = 'mod/survey/view';
 $string['modulenameplural'] = 'سروے';
 $string['name'] = 'نام';
 $string['newsurveyresponses'] = 'نئے سروے کے جوابات';
@@ -247,6 +250,7 @@ $string['surveyname'] = 'سروے کا نام';
 $string['surveysaved'] = 'سروے محفوظ ہو گیا';
 $string['surveytype'] = 'سروے کی قسم';
 $string['surveytype_help'] = 'سروے کی 3 دستیاب اقسام ہیں: * سوچنے اور سیکھنے کے سروے کے رویے (ATTLS) - اس حد تک پیمائش کرنے کے لیے کہ ایک شخص \'متعلق جاننے والا\' ہے (اس کا رجحان سیکھنا زیادہ لطف اندوز ہوتا ہے، اور اکثر زیادہ تعاون پر مبنی، ملنسار اور زیادہ رضامند ہوتا ہے۔ دوسروں کے خیالات پر استوار کرنے کے لیے) یا \'علیحدہ جاننے والا\' (سیکھنے کے لیے زیادہ تنقیدی اور استدلال پر مبنی موقف اختیار کرتا ہے) * تنقیدی واقعات کا سروے * تعمیراتی آن لائن لرننگ انوائرنمنٹ سروے (COLLES) - اس حد تک نگرانی کے لیے طالب علموں کو متحرک سیکھنے کے طریقوں میں شامل کرنے کے لیے ورلڈ وائڈ ویب کی انٹرایکٹو صلاحیت کا فائدہ اٹھایا جا سکتا ہے';
+$string['surveytype_link'] = 'mod/survey/mod';
 $string['thanksforanswers'] = 'اس سروے کا جواب دینے کا شکریہ، {$a}';
 $string['time'] = 'وقت';
 $string['viewsurveyresponses'] = '{$a} سروے کے جوابات دیکھیں';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'ru', version '3.11'.
+ * Strings for component 'editor_tinymce', language 'ru', version '4.1'.
  *
  * @package     editor_tinymce
  * @category    string
@@ -594,7 +594,7 @@ $string['paste:selectall_desc'] = 'Выделить все';
 $string['paste_dlg:text_linebreaks'] = 'Сохранять разрывы строк';
 $string['paste_dlg:text_title'] = 'Используйте комбинацию клавиш Ctrl+V, чтобы вставить текст.';
 $string['paste_dlg:word_title'] = 'Используйте комбинацию клавиш Ctrl+V, чтобы вставить текст.';
-$string['pluginname'] = 'HTML-редактор TinyMCE';
+$string['pluginname'] = 'HTML-редактор TinyMCE (устаревший)';
 $string['preview:preview_desc'] = 'Предварительный просмотр';
 $string['print:print_desc'] = 'Печать';
 $string['privacy:metadata'] = 'Плагин формата данных «HTML-редактор TinyMCE» не хранит никаких персональных данных.';

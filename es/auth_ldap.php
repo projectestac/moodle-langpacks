@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_ldap', language 'es', version '3.11'.
+ * Strings for component 'auth_ldap', language 'es', version '4.1'.
  *
  * @package     auth_ldap
  * @category    string
@@ -126,6 +126,10 @@ $string['didntfindexpiretime'] = 'password_expire() no ha encontrado la fecha de
 $string['didntgetusersfromldap'] = 'No se obtuvieron usuarios desde el LDAP. -- ¿error? -- saliendo';
 $string['gotcountrecordsfromldap'] = 'Obtenidos {$a} registros de LDAP
 ';
+$string['invalidusererrors'] = 'Advertencia: se omitió la creación de {$a} cuentas de usuario.';
+$string['invaliduserexception'] = 'Error: No se puede crear una nueva cuenta de usuario. Detalles y motivo:
+{$a}
+Omitiendo este usuario.';
 $string['ldapnotconfigured'] = 'La url del host LDAP no está configurada actualmente';
 $string['morethanoneuser'] = 'Se ha encontrado más de un registro de usuario en LDAP. Se usa sólo el primero.';
 $string['needbcmath'] = 'Necesita la extensión BCMath para usar la verificación de contraseñas caducadas con Active Directory.';
@@ -159,7 +163,6 @@ $string['updatepasserrorexpire'] = 'Error en user_update_password() al leer el m
 $string['updatepasserrorexpiregrace'] = 'Error en user_update_password() al modificar el momento de expiración y/o los intentos de identificación. Código de error: {$a->errno}; Cadena de error: {$a->errstring}';
 $string['updateremfail'] = 'Error actualizando registro LDAP. Código de error: {$a->errno}; Cadena de error: {$a->errstring}<br/>Clave ({$a->key}) - anterior valor de moodle value: \'{$a->ouvalue}\' nuevo valor: \'{$a->nuvalue}\'';
 $string['updateremfailamb'] = 'No se pudo actualizar LDAP con el campo ambiguo {$a->key}; anterior valor de moodle: \'{$a->ouvalue}\', nuevo valor: \'{$a->nuvalue}\'';
-$string['updateremfailfield'] = 'Fallo al actualizar LDAP con un campo inexistente (\'{$a->ldapkey}\'). Clave ({$a->key}) - antiguo valor Moodle: \'{$a->ouvalue}\' nuevo valor: \'{$a->nuvalue}\'';
 $string['updateusernotfound'] = 'No se ha encontrado el usuario al actualizar externamente. Detalles: base de búsqueda: \'{$a->userdn}\'; filtro de búsqueda: \'(objectClass=*)\'; atributos de búsqueda: {$a->attribs}';
 $string['user_activatenotsupportusertype'] = 'auth: la función de ldap user_activate() no admite el tipo de usuario seleccionado: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: la función de ldap user_disable() no admite el tipo de usuario seleccionado: {$a}';

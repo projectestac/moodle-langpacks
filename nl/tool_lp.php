@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'nl', version '3.11'.
+ * Strings for component 'tool_lp', language 'nl', version '4.1'.
  *
  * @package     tool_lp
  * @category    string
@@ -166,6 +166,7 @@ $string['nouserevidence'] = 'Er is nog geen bewijs voor leren toegevoegd';
 $string['nouserplans'] = 'Er zijn nog geen studieplannen gemaakt.';
 $string['oneplanwascreated'] = 'Er is een studieplan gemaakt';
 $string['outcome'] = 'Resultaat';
+$string['overridegrade'] = 'Overschrijf bestaand competentiecijfer wanneer voltooid.';
 $string['parentcompetency'] = 'Overkoepelende';
 $string['parentcompetency_edit'] = 'Bewerk overkoepelende';
 $string['parentcompetency_help'] = 'Bepaal de overkoepelende waaronder de competentie toegevoegd zal worden. Dat kan een andere competentie zijn binnen het zelfde framework, of de stam van het competentieframework van een overkoepelende competentie.';

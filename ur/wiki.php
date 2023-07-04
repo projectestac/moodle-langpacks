@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ur', version '3.11'.
+ * Strings for component 'wiki', language 'ur', version '4.1'.
  *
  * @package     wiki
  * @category    string
@@ -98,10 +98,12 @@ $string['format'] = 'فارمیٹ';
 $string['format_help'] = '* ایچ ٹی ایم ایل - ایچ ٹی ایم ایل ایڈیٹر دستیاب ہے * کریول - ایک عام ویکی مارک اپ لینگویج جس کے لیے ایک چھوٹا ترمیمی ٹول بار دستیاب ہے * Nwiki - میڈیاویکی جیسی مارک اپ لینگویج جو تعاون کردہ Nwiki ماڈیول میں استعمال ہوتی ہے';
 $string['formatcreole'] = 'کریول فارمیٹ';
 $string['formatcreole_help'] = 'کریول ایک عام ویکی مارک اپ لینگویج ہے جس میں مناسب مارک اپ داخل کرنے کے لیے ترمیمی ٹول بار ہے۔ ایک نیا صفحہ بنانے کے لیے، صفحہ کا نیا نام ٹائپ کریں جو ڈبل مربع بریکٹ میں بند ہے، مثال کے طور پر [[صفحہ 2]]۔';
+$string['formatcreole_link'] = 'mod/wiki/creole';
 $string['formathtml'] = 'HTML فارمیٹ';
 $string['formathtml_help'] = 'HTML ایڈیٹر مواد کی فارمیٹنگ کے لیے استعمال کیا جا سکتا ہے۔ ایک نیا صفحہ بنانے کے لیے، نئے صفحہ کا نام ٹائپ کریں جو ڈبل مربع بریکٹ میں بند ہے، مثال کے طور پر [[صفحہ 2]]۔';
 $string['formatnwiki'] = 'NWiki فارمیٹ';
 $string['formatnwiki_help'] = 'Nwiki تعاون یافتہ Nwiki ماڈیول میں استعمال ہونے والی Mediawiki جیسی مارک اپ زبان ہے۔ ایک نیا صفحہ بنانے کے لیے، صفحہ کا نیا نام ٹائپ کریں جو ڈبل مربع بریکٹ میں بند ہے، مثال کے طور پر [[صفحہ 2]]۔';
+$string['formatnwiki_link'] = 'mod/wiki/nwiki';
 $string['history'] = 'تاریخ';
 $string['history_help'] = 'تاریخ صفحہ کے پچھلے ورژن کے لنکس کی فہرست دیتی ہے۔';
 $string['html'] = 'ایچ ٹی ایم ایل';
@@ -113,10 +115,12 @@ $string['indicator:cognitivedepth'] = 'وکی علمی';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے وکی سرگرمی میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'وکی علمی';
 $string['indicator:cognitivedepthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفہ کے دوران وکی سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں، جمع کرائیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'سماجی ویکی';
 $string['indicator:socialbreadth_help'] = 'یہ انڈیکیٹر اس سماجی وسعت پر مبنی ہے جو طالب علم نے Wiki سرگرمی میں حاصل کی ہے۔';
 $string['indicator:socialbreadthdef'] = 'سماجی ویکی';
 $string['indicator:socialbreadthdef_help'] = 'حصہ لینے والا اس تجزیہ کے وقفے کے دوران وکی سرگرمیوں کے ذریعہ پیش کردہ سماجی مصروفیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، اکیلا حصہ لینے والا، دوسروں کے ساتھ شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['individualpagedoesnotexist'] = 'انفرادی ویکی صفحہ موجود نہیں ہے';
 $string['insertcomment'] = 'تبصرہ داخل کریں';
 $string['insertimage'] = 'ایک تصویر داخل کریں۔۔۔';
@@ -139,6 +143,7 @@ $string['missingpages'] = 'بغیر مواد کے صفحات';
 $string['modified'] = 'ترمیم شدہ';
 $string['modulename'] = 'وکی';
 $string['modulename_help'] = 'ویکی سرگرمی ماڈیول شرکاء کو ویب صفحات کا مجموعہ شامل کرنے اور ترمیم کرنے کے قابل بناتا ہے۔ ایک ویکی باہمی تعاون کے ساتھ ہو سکتا ہے، ہر کوئی اس میں ترمیم کرنے کے قابل ہو، یا انفرادی، جہاں ہر ایک کی اپنی ویکی ہوتی ہے جس میں صرف وہی ترمیم کر سکتے ہیں۔ ویکی میں ہر صفحے کے پچھلے ورژن کی تاریخ رکھی جاتی ہے، جس میں ہر شریک کی طرف سے کی گئی ترمیم کی فہرست ہوتی ہے۔ Wikis کے بہت سے استعمال ہوتے ہیں، جیسے کہ * گروپ لیکچر نوٹس یا اسٹڈی گائیڈز کے لیے * کسی فیکلٹی کے ممبران کے لیے کام کی اسکیم کی منصوبہ بندی کرنا یا ایک ساتھ ایجنڈا میٹنگ کرنا * طلباء کے لیے باہمی تعاون سے آن لائن کتاب لکھنے کے لیے، اپنے ٹیوٹر کے ذریعہ مرتب کردہ موضوع پر مواد بنانا * مشترکہ کہانی سنانے یا شاعری کی تخلیق کے لیے، جہاں ہر شریک ایک سطر یا آیت لکھتا ہے * امتحانی نوٹس یا نظر ثانی کے لیے ذاتی جریدے کے طور پر (ایک انفرادی ویکی کا استعمال کرتے ہوئے)';
+$string['modulename_link'] = 'mod/wiki/view';
 $string['modulenameplural'] = 'وکی';
 $string['navigation'] = 'نیویگیشن';
 $string['navigationfrom'] = 'یہ صفحہ اس سے آتا ہے';

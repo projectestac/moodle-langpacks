@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'it', version '3.11'.
+ * Strings for component 'tool_oauth2', language 'it', version '4.1'.
  *
  * @package     tool_oauth2
  * @category    string
@@ -66,6 +66,7 @@ $string['google_service'] = 'Google';
 $string['imsobv2p1_service'] = 'Open Badges';
 $string['issueralloweddomains'] = 'Domini di autenticazione';
 $string['issueralloweddomains_help'] = 'Un elenco separato da virgola contenete i domini dai quali consentire l\'autenticazione.';
+$string['issueralloweddomains_link'] = 'OAuth_2_login_domains';
 $string['issuerbaseurl'] = 'URL base del del servizio';
 $string['issuerbaseurl_help'] = 'URL base da utilizzare per accedere del servizio.';
 $string['issuerclientid'] = 'Client ID';

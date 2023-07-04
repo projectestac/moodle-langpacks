@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'ru', version '3.11'.
+ * Strings for component 'block_myoverview', language 'ru', version '4.1'.
  *
  * @package     block_myoverview
  * @category    string
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Пометить этот курс';
 $string['all'] = 'Все (кроме скрытых)';
-$string['allincludinghidden'] = 'Все';
+$string['allincludinghidden'] = 'Все (включая скрытые)';
 $string['aria:addtofavourites'] = 'Установить пометку для';
 $string['aria:allcourses'] = 'Все курсы, кроме скрытых';
 $string['aria:allcoursesincludinghidden'] = 'Все курсы';
@@ -57,7 +57,7 @@ $string['availablegroupings'] = 'Доступные фильтры';
 $string['availablegroupings_desc'] = 'Применяемые к курсам фильтры, доступные пользователям. Если ничего не выбрано, будут отображаться все курсы.';
 $string['card'] = 'Карточка';
 $string['cards'] = 'Карточки';
-$string['complete'] = 'выполнено';
+$string['clearsearch'] = 'Очистить поиск';
 $string['completepercent'] = '{$a}% выполнено';
 $string['courseprogress'] = 'Продвижение по курсу:';
 $string['customfield'] = 'Настраиваемое поле';
@@ -76,7 +76,6 @@ $string['layouts'] = 'Доступные макеты';
 $string['layouts_help'] = 'Макеты обзора курса, доступные для выбора пользователями. Если ничего не выбрано, будут использоваться карточки.';
 $string['list'] = 'Список';
 $string['myoverview:myaddinstance'] = 'Добавлять новый блок «Сводка по курсам» на страницу «Личный кабинет»';
-$string['nocourses'] = 'Нет курсов';
 $string['nocustomvalue'] = 'Нет значения: {$a}';
 $string['past'] = 'Прошедшие';
 $string['pluginname'] = 'Сводка по курсам';
@@ -86,7 +85,11 @@ $string['privacy:metadata:overviewsortpreference'] = 'Настройки сор�
 $string['privacy:metadata:overviewviewpreference'] = 'Настройки просмотра блока «Сводка по курсам».';
 $string['privacy:request:preference:set'] = 'Значение параметра «{$a->name}» было «{$a->value}»';
 $string['removefromfavourites'] = 'Снять отметку с курса';
+$string['searchcourses'] = 'Поиск курсов';
 $string['shortname'] = 'Краткое название';
 $string['show'] = 'Показать этот курс';
+$string['sortbylastaccessed'] = 'Упорядочить по последнему доступу';
+$string['sortbyshortname'] = 'Упорядочить по короткому имени';
+$string['sortbytitle'] = 'Упорядочить по названию курса';
 $string['summary'] = 'Описание';
 $string['title'] = 'Название курса';

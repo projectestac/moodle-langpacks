@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ru', version '3.11'.
+ * Strings for component 'wiki', language 'ru', version '4.1'.
  *
  * @package     wiki
  * @category    string
@@ -106,6 +106,7 @@ $string['formatcreole'] = 'Формат Creole';
 $string['formatcreole_help'] = 'Creole - общепринятый язык разметки Вики для вставки соответствующей разметки с редактированием на панели инструментов.
 
 Чтобы создать новую страницу, введите название новой страницы, заключенное в двойные квадратные скобки, например [[Страница 2]].';
+$string['formatcreole_link'] = 'mod/wiki/creole';
 $string['formathtml'] = 'Формат HTML';
 $string['formathtml_help'] = 'Для форматирования содержимого  может использоваться HTML-редактор.
 
@@ -114,6 +115,7 @@ $string['formatnwiki'] = 'Формат NWiki';
 $string['formatnwiki_help'] = 'Nwiki - язык разметки (схожий с Mediawiki), используемый в заимствованном модуле Nwiki.
 
 Чтобы создать новую страницу, введите название новой страницы, заключенное в двойные квадратные скобки, например [[Страница 2]].';
+$string['formatnwiki_link'] = 'mod/wiki/nwiki';
 $string['history'] = 'История';
 $string['history_help'] = 'История перечня ссылок на предыдущие версии страницы.';
 $string['html'] = 'HTML';
@@ -125,10 +127,12 @@ $string['indicator:cognitivedepth'] = 'Вики: познавательный а
 $string['indicator:cognitivedepth_help'] = 'Этот показатель основан на глубине познания, достигнутой студентом при работе с элементом курса «Вики».';
 $string['indicator:cognitivedepthdef'] = 'Вики: познавательный аспект';
 $string['indicator:cognitivedepthdef_help'] = 'Участник достиг этого процента познавательного взаимодействия, предлагаемого элементом курса «Вики» в течение этого интервала анализа (Уровни = Нет просмотра, Просмотр, Отправка)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Вики: социальный аспект';
 $string['indicator:socialbreadth_help'] = 'Этот показатель основан на широте общения, которая может быть достигнута студентом при работе с элементом Вики.';
 $string['indicator:socialbreadthdef'] = 'Вики: социальный аспект';
 $string['indicator:socialbreadthdef_help'] = 'Участник достиг этого процента социальной активности, предлагаемой элементами Вики в течение этого интервала анализа (Уровни = нет участия, единственный участник, участник с другими)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['individualpagedoesnotexist'] = 'Нет отдельной страницы Вики';
 $string['insertcomment'] = 'Вставить комментарий';
 $string['insertimage'] = 'Вставить изображение...';
@@ -159,6 +163,7 @@ $string['modulename_help'] = 'Модуль Вики (Wiki) позволяет у
 * при совместном создании студентами книги по теме, заданной их наставником
 * для совместного сочинения историй или создания стихотворений, где каждый участник пишет строку или строфу
 * как личный журнал для заметок об исследованиях или исправлениях (используется индивидуальная Вики)';
+$string['modulename_link'] = 'mod/wiki/view';
 $string['modulenameplural'] = 'Вики-страницы';
 $string['navigation'] = 'Навигация';
 $string['navigationfrom'] = 'Эта страница происходит от';

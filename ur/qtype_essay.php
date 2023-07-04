@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essay', language 'ur', version '3.11'.
+ * Strings for component 'qtype_essay', language 'ur', version '4.1'.
  *
  * @package     qtype_essay
  * @category    string
@@ -60,6 +60,7 @@ $string['nlines'] = '{$a} لائنیں';
 $string['nonexistentfiletypes'] = 'درج ذیل فائل کی اقسام کو تسلیم نہیں کیا گیا: {$a}';
 $string['pluginname'] = 'مضمون نویسی';
 $string['pluginname_help'] = 'ایک سوال کے جواب میں، جواب دہندہ ایک یا زیادہ فائلیں اپ لوڈ کر سکتا ہے اور/یا ٹیکسٹ آن لائن درج کر سکتا ہے۔ جوابی ٹیمپلیٹ فراہم کیا جا سکتا ہے۔ جوابات کو دستی طور پر درجہ بندی کرنا ضروری ہے۔';
+$string['pluginname_link'] = 'question/type/essay';
 $string['pluginnameadding'] = 'ایک مضمون کا سوال شامل کرنا';
 $string['pluginnameediting'] = 'مضمون کے سوال میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'فائل اپ لوڈ اور/یا آن لائن متن کے جواب کی اجازت دیتا ہے۔ اس کے بعد اسے دستی طور پر درجہ بندی کرنا ضروری ہے۔';

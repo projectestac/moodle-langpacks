@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_grade', language 'eu', version '3.11'.
+ * Strings for component 'availability_grade', language 'eu', version '4.1'.
  *
  * @package     availability_grade
  * @category    string
@@ -39,9 +39,9 @@ $string['option_min'] = 'izan behar da ≥';
 $string['pluginname'] = 'Kalifikazioaren araberako eskuragarritasun baldintza';
 $string['privacy:metadata'] = 'Kalifikazioaren araberako eskuragarritasun baldintza pluginak ez du datu pertsonalik biltzen.';
 $string['requires_any'] = 'Kalifikazioa izatea <strong>{$a}</strong> jardueran';
-$string['requires_max'] = 'Zehaztutako puntuazioa ez lortzea <strong>{$a}</strong> jardueran';
-$string['requires_min'] = 'Zehaztutako puntuazio bat lortzea <strong>{$a}</strong> jardueran';
+$string['requires_max'] = 'Zehaztutakoa baino puntuazio baxuagoa lortzea <strong>{$a}</strong> jardueran';
+$string['requires_min'] = 'Zehaztutako puntuazioa ala puntuazio altuagoa lortzea <strong>{$a}</strong> jardueran';
 $string['requires_notany'] = 'Kalifikaziorik ez izatea <strong>{$a}</strong> jardueran';
 $string['requires_notgeneral'] = 'Zehaztutako puntuazioak ez lortzea <strong>{$a}</strong> jardueran';
-$string['requires_range'] = 'Puntuazioa zehaztutako tartean egotea <strong>{$a}</strong> jardueran';
+$string['requires_range'] = 'Lortutako puntuazioa zehaztutako tartean egotea <strong>{$a}</strong> jardueran';
 $string['title'] = 'Kalifikazioa';

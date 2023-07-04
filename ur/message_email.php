@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'ur', version '3.11'.
+ * Strings for component 'message_email', language 'ur', version '4.1'.
  *
  * @package     message_email
  * @category    string
@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'کو ای میل اطلاعات بھیجیں';
-$string['emaildigestsubject'] = 'پیغامات ڈائجسٹ';
 $string['emaildigestunreadmessages'] = 'بغیر پڑھے ہوئے پیغامات';
 $string['emaildigestviewallmessages'] = 'تمام پیغامات دیکھیں';
 $string['emailonlyfromnoreplyaddress'] = 'ہمیشہ بغیر جواب والے پتے سے ای میل بھیجیں؟';

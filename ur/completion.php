@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ur', version '3.11'.
+ * Strings for component 'completion', language 'ur', version '4.1'.
  *
  * @package     completion
  * @category    string
@@ -78,6 +78,7 @@ $string['completion-y'] = 'مکمل';
 $string['completion-y-override'] = 'مکمل ہوا ({$a} کے ذریعے ترتیب دیا گیا)';
 $string['completion_automatic'] = 'شرائط پوری ہونے پر سرگرمی کو مکمل کے طور پر دکھائیں';
 $string['completion_help'] = 'اگر فعال ہو تو، سرگرمی کی تکمیل کو یا تو دستی طور پر یا خود بخود، بعض شرائط کی بنیاد پر ٹریک کیا جاتا ہے۔ اگر چاہیں تو متعدد شرائط طے کی جا سکتی ہیں۔ اگر ایسا ہے تو، تمام شرائط پوری ہونے پر سرگرمی کو مکمل سمجھا جائے گا۔';
+$string['completion_link'] = 'activity/completion';
 $string['completion_manual'] = 'طلباء دستی طور پر سرگرمی کو مکمل کے طور پر نشان زد کر سکتے ہیں';
 $string['completion_none'] = 'سرگرمی کی تکمیل کی نشاندہی نہ کریں';
 $string['completionactivitydefault'] = 'سرگرمی ڈیفالٹ استعمال کریں';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpimportcsv', language 'ur', version '3.11'.
+ * Strings for component 'tool_lpimportcsv', language 'ur', version '4.1'.
  *
  * @package     tool_lpimportcsv
  * @category    string
@@ -40,6 +40,7 @@ $string['idnumber'] = 'آئی ڈی نمبر';
 $string['import'] = 'درآمد کریں';
 $string['importfile'] = 'CSV فریم ورک کی تفصیل فائل';
 $string['importfile_help'] = 'ایک قابلیت کا فریم ورک ٹیکسٹ فائل کے ذریعے درآمد کیا جا سکتا ہے۔ فائل کے فارمیٹ کا تعین سائٹ پر ایک نیا اہلیت کا فریم ورک بنا کر اور پھر اسے برآمد کر کے کیا جا سکتا ہے۔';
+$string['importfile_link'] = 'admin/tool/lpimportcsv';
 $string['importingfile'] = 'فائل ڈیٹا درآمد کرنا';
 $string['invalidimportfile'] = 'فائل کی شکل غلط ہے۔';
 $string['isframework'] = 'فریم ورک ہے';

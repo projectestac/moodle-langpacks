@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ur', version '3.11'.
+ * Strings for component 'group', language 'ur', version '4.1'.
  *
  * @package     group
  * @category    string
@@ -131,6 +131,7 @@ $string['grouptemplate'] = 'گروپ @';
 $string['hidepicture'] = 'تصویر چھپائیں';
 $string['importgroups'] = 'گروپس درآمد کریں';
 $string['importgroups_help'] = 'گروپس کو ٹیکسٹ فائل کے ذریعے درآمد کیا جا سکتا ہے۔ فائل کا فارمیٹ اس طرح ہونا چاہئے: * فائل کی ہر لائن میں ایک ریکارڈ ہوتا ہے * ہر ریکارڈ کوما سے الگ کیا گیا ڈیٹا کا ایک سلسلہ ہوتا ہے * پہلے ریکارڈ میں فیلڈ کے ناموں کی فہرست ہوتی ہے جو باقی فائل کے فارمیٹ کی وضاحت کرتی ہے * مطلوب فیلڈ کا نام گروپ کا نام ہے * اختیاری فیلڈ نام ہیں گروپ نمبر، تفصیل، اندراج کلید، گروپنگ نام، پیغام رسانی کو فعال کرنا';
+$string['importgroups_link'] = 'group/import';
 $string['includeonlyactiveenrol'] = 'صرف فعال اندراجات شامل کریں';
 $string['includeonlyactiveenrol_help'] = 'فعال ہونے پر، معطل شدہ صارفین کو گروپوں میں شامل نہیں کیا جائے گا۔';
 $string['javascriptrequired'] = 'اس صفحہ کے لیے JavaScript کا فعال ہونا ضروری ہے۔';

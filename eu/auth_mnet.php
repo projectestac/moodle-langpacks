@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'eu', version '3.11'.
+ * Strings for component 'auth_mnet', language 'eu', version '4.1'.
  *
  * @package     auth_mnet
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['auth_mnet_auto_add_remote_users'] = 'Bai aukeratuz gero, urrutiko erabiltzailea lehen aldiz sartzen denean erabiltzaile lokalaren erregistroa automatikoki sortzen da.';
 $string['auth_mnet_roamin'] = 'Ostalari honetako erabiltzaileak zure gunean ibil daitezke';
 $string['auth_mnet_roamout'] = 'Zure erabiltzaileak ostalari honetan ibil daitezke';
-$string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRCP-ren bidez autentifikatzeko gehieneko denbora (segundoetan).';
+$string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRCP-ren bidez autentifikatzeko denbora-muga (segundoetan).';
 $string['auth_mnetdescription'] = 'Zure Moodle Sarearen ezarpenetan definitutako web-konfiantzaren arabera autentifikatuko dira erabiltzaileak.';
 $string['auto_add_remote_users'] = 'Gehitu automatikoki urrutiko erabiltzaileak';
 $string['crontask'] = 'MNET autentifikazioaren atzeko planoko prozesatzea';

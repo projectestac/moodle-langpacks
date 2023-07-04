@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grouptool', language 'en', version '3.11'.
+ * Strings for component 'grouptool', language 'en', version '4.1'.
  *
  * @package     grouptool
  * @category    string
@@ -95,6 +95,8 @@ $string['cfg_moodlesync_head'] = 'Synchronisation behaviour';
 $string['cfg_moodlesync_head_info'] = 'How grouptools should behave if moodle group members are added/deleted or single groups are deleted';
 $string['cfg_name_scheme'] = 'Standard name scheme';
 $string['cfg_name_scheme_desc'] = 'Standard name scheme used for group creation';
+$string['cfg_show_add_info'] = 'Display additional group information in self registration';
+$string['cfg_show_add_info_desc'] = 'Display addidional information from Moodle groups like descriptions or pictures in the registration tab';
 $string['cfg_show_members'] = 'Show group members';
 $string['cfg_show_members_desc'] = 'Determines if group members should be visible by default';
 $string['cfg_use_individual'] = 'Use individual size';
@@ -512,7 +514,7 @@ $string['regpresent'] = 'User\'s already {$a}';
 $string['rename_failed'] = 'Rename failed!';
 $string['renamed_group'] = 'Renamed group!';
 $string['require_registration'] = 'Require registrations';
-$string['require_registration_help'] = 'The minimum amount of groups students need to register to in order to mark this activity as completed. Spots in queues are not considered by the rule. If the number is higher than 1, "Multiple registrations" needs to be activated and "Maximum groups to choose" needs to be greater or equal to this value.';
+$string['require_registration_help'] = 'The minimum amount of groups students need to register to in order to mark this activity as completed. Spots in queues are not considered by the rule. If the number is higher than 1, "Multiple registrations" needs to be activated and "Maximum groups to choose" needs to be greater or equal to this value';
 $string['reset_agrps'] = 'Reset active groups';
 $string['reset_agrps_help'] = 'Resets all course groups to be inactive for grouptools. This will also delete every registration and queue in grouptools of this course!';
 $string['reset_queues'] = 'Reset queues';
@@ -620,7 +622,6 @@ $string['use_individual_help'] = 'Override global group size with individual val
 $string['use_queue'] = 'Use queues';
 $string['use_queue_help'] = 'Students can queue up for already full groups. This setting can only be used if self registration is enabled and a group size limit is set.';
 $string['use_size'] = 'Activate';
-$string['user'] = 'User';
 $string['user_has_too_less_regs'] = 'Deregistration/dequeue not possible because <strong>{$a->username}</strong> is registered/queued in too less groups!';
 $string['user_is_deleted'] = 'The found user-account (ID <strong>{$a->id}</strong>, Name <strong>{$a->fullname}</strong>) is already deleted. Therefore enrolment in this course isn\'t possible.';
 $string['user_move_prev'] = '<strong>{$a->user}</strong> will be moved from the queue of group <strong>{$a->from_group}</strong> to group <strong>{$a->to_group}</strong>!';

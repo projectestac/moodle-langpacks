@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'ur', version '3.11'.
+ * Strings for component 'book', language 'ur', version '4.1'.
  *
  * @package     book
  * @category    string
@@ -53,12 +53,15 @@ $string['indicator:cognitivedepth'] = 'علمی کتاب';
 $string['indicator:cognitivedepth_help'] = 'یہ اشارے کتابی وسائل میں طالب علم کے ذریعے حاصل کردہ علمی گہرائی پر مبنی ہے۔';
 $string['indicator:cognitivedepthdef'] = 'علمی کتاب';
 $string['indicator:cognitivedepthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران کتاب کی سرگرمیوں کے ذریعہ پیش کردہ علمی مشغولیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی نظارہ نہیں، دیکھیں)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'بک سوشل';
 $string['indicator:socialbreadth_help'] = 'یہ اشارے کتابی وسائل میں طالب علم کے ذریعے حاصل کردہ سماجی وسعت پر مبنی ہے۔';
 $string['indicator:socialbreadthdef'] = 'بک سوشل';
 $string['indicator:socialbreadthdef_help'] = 'شرکت کنندہ اس تجزیہ کے وقفے کے دوران کتاب کی سرگرمیوں کے ذریعہ پیش کردہ سماجی مصروفیت کے اس فیصد تک پہنچ گیا ہے (سطح = کوئی شرکت نہیں، اکیلے شریک)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['modulename'] = 'کتاب';
 $string['modulename_help'] = 'کتاب کا ماڈیول ایک استاد کو ابواب اور ذیلی بابوں کے ساتھ کتاب کی طرح کی شکل میں کثیر صفحات پر مشتمل وسائل بنانے کے قابل بناتا ہے۔ کتابیں میڈیا فائلوں کے ساتھ ساتھ متن پر مشتمل ہوسکتی ہیں اور معلومات کے لمبے اقتباسات کو ظاہر کرنے کے لیے مفید ہیں جنہیں حصوں میں تقسیم کیا جاسکتا ہے۔ ایک کتاب کا استعمال کیا جا سکتا ہے * مطالعہ کے انفرادی ماڈیولز کے لیے پڑھنے کے مواد کو ظاہر کرنے کے لیے * عملے کی محکمانہ ہینڈ بک کے طور پر * طلباء کے کام کے شوکیس پورٹ فولیو کے طور پر';
+$string['modulename_link'] = 'mod/book/view';
 $string['modulenameplural'] = 'کتابیں';
 $string['movechapterdown'] = 'باب کو نیچے منتقل کریں "{$a}"';
 $string['movechapterup'] = 'باب کو اوپر لے جائیں "{$a}"';

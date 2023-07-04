@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'badges', language 'es', version '3.11'.
+ * Strings for component 'badges', language 'es', version '4.1'.
  *
  * @package     badges
  * @category    string
@@ -116,6 +116,7 @@ $string['backpackdetails'] = 'Configuración de la mochila';
 $string['backpackdisconnected'] = 'La mochila está desconectada';
 $string['backpackemail'] = 'Dirección de correo electrónico';
 $string['backpackemail_help'] = 'La dirección de correo electrónico asociada a su mochila. Mientras está conectado, las insignias obtenidas en este sitio se asociarán con esta dirección de correo electrónico.';
+$string['backpackemail_required'] = 'La dirección de correo electrónico no puede estar en blanco';
 $string['backpackemailverificationpending'] = 'Verificación pendiente';
 $string['backpackemailverifyemailbody'] = 'Hola,
 
@@ -145,6 +146,7 @@ $string['backpackweburl'] = 'URL de mochila';
 $string['badgedetails'] = 'Detalles de la insignia';
 $string['badgeimage'] = 'Imagen';
 $string['badgeimage_help'] = 'La imagen debe tener un tamaño mínimo de 300 x 300 píxeles. Se mostrará como 300 x 300 píxeles en la página de la insignia y 100 x 100 píxeles en la página del perfil del usuario.';
+$string['badgeissued'] = 'Insignia emitida';
 $string['badgeprivacysetting'] = 'Configuración de privacidad de la insignia';
 $string['badgeprivacysetting_help'] = 'Las insignias que usted gane se pueden mostrar en su página de perfil de cuenta. Este ajuste le permite mostrar automáticamente las insignias recientemente ganadas.
 
@@ -218,7 +220,7 @@ $string['criteria_8_help'] = 'Permite a los usuarios obtener una insignia basada
 $string['criteria_9'] = 'Competencias';
 $string['criteria_9_help'] = 'Permitir que una insignia sea otorgada a usuarios, basada en las competencias que ellos han completado.';
 $string['criteria_descr'] = 'Los estudiantes son galardonados con esta insignia cuando han cumplido el siguiente requisito:';
-$string['criteria_descr_0'] = 'A los estudiantes se les concede esta insignia cuando finalizan <strong>{$a}</strong> de los requisitos enumerados.';
+$string['criteria_descr_0'] = 'Completar <strong>{$a}</strong> de los requisitos enumerados.';
 $string['criteria_descr_1'] = '<strong>{$a}</strong> de las siguientes actividades se han finalizado:';
 $string['criteria_descr_2'] = 'Esta insignia debe ser otorgada por los usuarios con <strong>{$a}</strong> de los siguientes roles:';
 $string['criteria_descr_4'] = 'Los usuarios deben finalizar el curso';
@@ -283,7 +285,6 @@ $string['delparamconfirm'] = '¿Estás seguro de que quiere eliminar este parám
 $string['description'] = 'Descripción';
 $string['disconnect'] = 'Desconectar';
 $string['donotaward'] = 'En este momento, esta insignia no está activa, por lo que no se puede conceder a los usuarios. Si usted desea otorgar esta insignia, ponga su estado en activo.';
-$string['editsettings'] = 'Editar configuración';
 $string['enablebadges'] = 'Habilitar insignias';
 $string['endorsement'] = 'Aprobación (idoneidad)';
 $string['error:backpackdatainvalid'] = 'Los datos devueltos por la mochila no son válidos.';
@@ -462,7 +463,9 @@ $string['oauth2issuer'] = 'Servicios OAuth 2';
 $string['openbadgesv1'] = 'Open Badges v1.0';
 $string['openbadgesv2'] = 'Open Badges v2.0';
 $string['openbadgesv2p1'] = 'Open Badges v2.1';
+$string['othernavigation'] = 'Otra navegación ...';
 $string['overallcrit'] = 'de los criterios seleccionados se cumple.';
+$string['password_required'] = 'La contraseña no puede estar en blanco';
 $string['potentialrecipients'] = 'Potenciales destinatarios de la insignia';
 $string['preferences'] = 'Preferencias de insignias';
 $string['privacy:metadata:backpack'] = 'Un registro de las mochilas del usuario';
@@ -499,10 +502,11 @@ $string['privacy:metadata:manualaward:datemet'] = 'La fecha en la cual al usuari
 $string['privacy:metadata:manualaward:issuerid'] = 'El ID del usuario que otorga la insignia';
 $string['privacy:metadata:manualaward:issuerrole'] = 'El rol del usuario que otorga la insignia';
 $string['privacy:metadata:manualaward:recipientid'] = 'El ID del usuario al que se le otorga manualmente una insignia';
+$string['recipient'] = 'Destinatario de la insignia';
 $string['recipientdetails'] = 'Detalles del destinatario';
 $string['recipientidentificationproblem'] = 'No se puede encontrar un destinatario de esta insignia entre los usuarios existentes.';
 $string['recipients'] = 'Destinatarios de la insignia';
-$string['recipientvalidationproblem'] = 'El usuario actual no puede verificarse como receptor de esta insignia.';
+$string['recipientvalidationproblem'] = 'Este usuario no puede verificarse como receptor de esta insignia.';
 $string['relatedbages'] = 'Insignias relacionadas';
 $string['relative'] = 'Fecha relativa';
 $string['requiredbadge'] = 'Al menos una insigina debe ser añadida como criterio.';
@@ -529,7 +533,6 @@ $string['sitebackpack'] = 'Mochila externa activa';
 $string['sitebackpack_help'] = 'La mochila externa a la que pueden conectarse los usuarios desde este sitio. Tenga en cuenta que el cambiar esta configuración después de que los usuarios hayan conectado sus mochilas requerirá que cada usuario vaya a su página de configuraciones de la mochila y la desconecte y reconecte.';
 $string['sitebackpackdeleted'] = 'La mochila del sitio ha sido eliminada.';
 $string['sitebackpacknotdeleted'] = 'Esta mochila no pudo ser eliminada porque actualmente es la predeterminada del sitio.';
-$string['sitebackpackverify'] = 'Conexión de la mochila';
 $string['sitebackpackwarning'] = 'No fue posible conectarse a mochila. <br/><br/>Revise que la configuración administrativa "Dirección Email del emisor de insignia" sea el Email válido para una cuenta en el sitio web de la mochila. <br/><br/>Revise que la "Contraseña del emisor de insignia" en la <a href="{$a->url}">página de configuraciones de mochila del sitio </a>, sea la contraseña correcta para la cuenta en el sitio web de la mochila. <br/><br/>La mochila regresó: "{$a->warning}"';
 $string['sitebadges'] = 'Insignias del sitio';
 $string['sitebadges_help'] = 'Las insignias del sitio sólo pueden ser otorgadas a los usuarios de las actividades relacionadas con el sitio. Estos incluyen completar una serie de cursos o partes de los perfiles de usuario. Las insignias del sitio también pueden ser emitidas manualmente por un usuario para otro.

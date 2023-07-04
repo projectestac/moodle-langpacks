@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'ur', version '3.11'.
+ * Strings for component 'quiz_statistics', language 'ur', version '4.1'.
  *
  * @package     quiz_statistics
  * @category    string
@@ -97,7 +97,6 @@ $string['questiontype'] = 'سوال کی قسم';
 $string['quizinformation'] = 'کوئز کی معلومات';
 $string['quizname'] = 'کوئز کا نام';
 $string['quizoverallstatistics'] = 'مجموعی اعدادوشمار کو کوئز کریں';
-$string['quizstatisticscleanuptask'] = 'پرانے کوئز کے اعداد و شمار کے کیش ریکارڈز کو صاف کریں';
 $string['quizstructureanalysis'] = 'کوئز ساخت کا تجزیہ';
 $string['random_guess_score'] = 'بے ترتیب اندازے کا اسکور';
 $string['rangebetween'] = '{$a->min} − {$a->max}';

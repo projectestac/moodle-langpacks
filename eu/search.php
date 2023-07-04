@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'eu', version '3.11'.
+ * Strings for component 'search', language 'eu', version '4.1'.
  *
  * @package     search
  * @category    string
@@ -43,6 +43,7 @@ $string['confirm_delete'] = 'Ziur zaude {$a}(e)rako indizea ezabatu nahi duzula?
 $string['confirm_deleteall'] = 'Ziur zaude indizatutako eduki guztiak orain ezabatu nahi dituzula? Gunea berriz indizatu bitartean, erabiltzaileek bilaketetan ez dute emaitzik lortuko.';
 $string['confirm_indexall'] = 'Ziur zaude indexatutako edukiak orain eguneratu nahi dituzula? Eduki kopuru handia indexatzea beharrezkoa bada, honek denbora luzea beharko du. Lanean dauden zerbitzarien kasuan, indexatzea \'Bilaketa orokorrerako indexatzea\' programatutako atazaren esku utzi beharko litzateke.';
 $string['confirm_reindexall'] = 'Ziur zaude guneko eduki guztiak orain berriz indexatu nahi dituzula? Zure guneak eduki kopuru handia badauka, honek denbora luzea beharko du, eta osatu bitartean erabiltzaileek ez dituzte bilaketen emaitza guztiak eskuratuko.';
+$string['content:courserole'] = '{$a->role} rola {$a->course} ikastaroan';
 $string['core-all'] = 'Guztiak';
 $string['core-course-content'] = 'Ikastaroko edukia';
 $string['core-courses'] = 'Ikastaroak';
@@ -115,6 +116,7 @@ $string['schemaversionunknown'] = 'Bilaketa-motorrak ez du uneko bertsioaren esk
 $string['score'] = 'Puntuazioa';
 $string['search'] = 'Bilatu';
 $string['search:course'] = 'Ikastaroak';
+$string['search:course_teacher'] = 'Ikastaroko Irakaslea';
 $string['search:customfield'] = 'Ikastaroko eremu pertsonalizatuak';
 $string['search:message_received'] = 'Mezuak - jasotakoak';
 $string['search:message_sent'] = 'Mezuak - bidalitakoak';
@@ -136,6 +138,7 @@ $string['thesewordsmustappear'] = 'Hitz hauek agertu egin behar dute';
 $string['thesewordsmustnotappear'] = 'Hitz hauek ez dute agertu behar';
 $string['title'] = 'Izenburua';
 $string['tofetchtheseresults'] = 'Emaitza hauek lortzeko:';
+$string['topresults'] = 'Emaitza onenak';
 $string['totalsize'] = 'Tamaina osoa';
 $string['totime'] = 'Data honen aurretik eguneratuta:';
 $string['type'] = 'Mota';

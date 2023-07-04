@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'accredible', language 'nl', version '3.11'.
+ * Strings for component 'accredible', language 'nl', version '4.1'.
  *
  * @package     accredible
  * @category    string
@@ -49,6 +49,7 @@ $string['indexheader'] = 'Alle certificaten/badges voor {$a}';
 $string['issued'] = 'Uitgegeven';
 $string['manualheader'] = 'Handmatig certificaten/badges uitgeven';
 $string['modulename'] = 'Accredible certificaten en badges';
+$string['modulename_link'] = 'mod/accredible/view';
 $string['modulenameplural'] = 'Accredible certificaten/badges';
 $string['nocertificates'] = 'Er zijn geen certificaten/badges';
 $string['overview'] = 'Overzicht';

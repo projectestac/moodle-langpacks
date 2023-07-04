@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'ja', version '3.11'.
+ * Strings for component 'choice', language 'ja', version '4.1'.
  *
  * @package     choice
  * @category    string
@@ -40,9 +40,7 @@ $string['choice:deleteresponses'] = '投票結果を修正および削除する'
 $string['choice:downloadresponses'] = '投票結果をダウンロードする';
 $string['choice:readresponses'] = '投票結果を表示する';
 $string['choice:view'] = '投票活動を表示する';
-$string['choiceactivityname'] = '投票: {$a}';
 $string['choiceclose'] = '回答終了日時';
-$string['choicecloseson'] = '投票は {$a} に終了します。';
 $string['choicefull'] = 'あなたが選択した1つまたはそれ以上のオプションはすでに選択されています。あなたの回答は保存されませんでした。違うものを選択してください。';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '回答開始日時';
@@ -76,10 +74,12 @@ $string['indicator:cognitivedepth'] = '投票認知的';
 $string['indicator:cognitivedepth_help'] = 'この指標は投票活動で学生が到達した認識深度に基づきます。';
 $string['indicator:cognitivedepthdef'] = '投票認知的';
 $string['indicator:cognitivedepthdef_help'] = 'この分析間隔中、参加者が投票活動から提供された認知的関与のこのパーセンテージに到達しました (レベル = 閲覧なし, 閲覧, 送信, フィードバックの閲覧)。';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = '投票社会的';
 $string['indicator:socialbreadth_help'] = 'この指標は投票活動で学生が到達した社会的広がりに基づきます。';
 $string['indicator:socialbreadthdef'] = '投票社会的';
 $string['indicator:socialbreadthdef_help'] = 'この分析間隔中、参加者が投票活動から提供された社会的関与のこのパーセンテージに到達しました (レベル = 参加なし, 個人で参加, 他の人と参加)。';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['limit'] = '投票制限数';
 $string['limita'] = '制限: {$a}';
 $string['limitanswers'] = '投票可能数を制限する';
@@ -99,6 +99,7 @@ $string['modulename_help'] = '投票活動モジュールにおいて教師は�
 * 1つの話題に関しての考えを刺激するためのクイックポールとして
 * 学生の理解に関するクイックテストとして
 * 例えばコースの運用に関する投票を促すように学生の意思決定を促進するため';
+$string['modulename_link'] = 'mod/choice/view';
 $string['modulenameplural'] = '投票';
 $string['moveselectedusersto'] = '選択したユーザを ...';
 $string['multiplenotallowederror'] = 'この投票では複数回答は許可されていません。';

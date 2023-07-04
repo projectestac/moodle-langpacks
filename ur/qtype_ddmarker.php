@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'ur', version '3.11'.
+ * Strings for component 'qtype_ddmarker', language 'ur', version '4.1'.
  *
  * @package     qtype_ddmarker
  * @category    string
@@ -64,6 +64,7 @@ $string['noofdrags'] = 'نمبر';
 $string['pleasedragatleastonemarker'] = 'آپ کا جواب مکمل نہیں ہے۔ آپ کو تصویر پر کم از کم ایک مارکر لگانا چاہیے۔';
 $string['pluginname'] = 'مارکر کو گھسیٹیں اور چھوڑیں';
 $string['pluginname_help'] = 'ڈریگ اینڈ ڈراپ مارکر جواب دہندہ سے ٹیکسٹ لیبلز کو گھسیٹنے اور انہیں پس منظر کی تصویر پر متعین ڈراپ زون میں چھوڑنے کی ضرورت ہے۔';
+$string['pluginname_link'] = 'question/type/ddmarker';
 $string['pluginnameadding'] = 'ڈریگ اور ڈراپ مارکر شامل کرنا';
 $string['pluginnameediting'] = 'ڈریگ اور ڈراپ مارکر میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'مارکر کو گھسیٹ کر پس منظر کی تصویر پر چھوڑا جاتا ہے۔ نوٹ: اس سوال کی قسم ان صارفین کے لیے قابل رسائی نہیں ہے جو بصارت سے محروم ہیں۔';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ja', version '3.11'.
+ * Strings for component 'webservice', language 'ja', version '4.1'.
  *
  * @package     webservice
  * @category    string
@@ -30,6 +30,7 @@ $string['actwebserviceshhdr'] = 'アクティブなウェブサービスプロ�
 $string['addaservice'] = 'サービスを追加する';
 $string['addcapabilitytousers'] = 'ユーザケイパビリティをチェックする';
 $string['addcapabilitytousersdescription'] = 'ユーザは2つの異なるケイパビリティを必要とします: 「webservice:createtoken」およびウェブサービスプロトコルに合致するケイパビリ、例えば「webservice/rest:use」、「webservice/soap:use」です。 このケイパビリティを設定するには適切なケイパビリティを許可されたウェブサービスロールを作成した後、システムロールとしてウェブサービスユーザに割り当ててください。';
+$string['addexternalservice'] = '外部サービスを追加する';
 $string['addfunction'] = '関数を追加する';
 $string['addfunctionhelp'] = 'サービスに追加する関数を選択してください。';
 $string['addfunctions'] = '関数を追加する';
@@ -61,14 +62,16 @@ $string['default'] = 'デフォルト:  {$a}';
 $string['deleteaservice'] = 'サービスを削除する';
 $string['deleteservice'] = 'サービスを削除する: {$a->name} (id: {$a->id})';
 $string['deleteserviceconfirm'] = 'サービスを削除することにより、このサービスに関連するトークンも削除されてしまいます。本当に外部サービス「 {$a} 」を削除してもよろしいですか?';
+$string['deletetoken'] = 'トークンを削除する';
 $string['deletetokenconfirm'] = '本当にサービス<strong>{$a->service}</strong>の<strong>{$a->user}</strong>用ウェブサービストークンを削除してもよろしいですか?';
+$string['deprecated'] = '非推奨';
 $string['disabledwarning'] = 'ウェブサービスプロトコルは無効にされています。拡張機能内に「ウェブサービスを有効にする」設定があります。';
 $string['doc'] = 'ドキュメンテーション';
 $string['docaccessrefused'] = 'あなたはこのトークンに関するドキュメンテーションの閲覧を許可されていません。';
-$string['documentation'] = 'ウェブサービスドキュメンテーション';
 $string['downloadfiles'] = 'ファイルをダウンロードできる';
 $string['downloadfiles_help'] = 'この設定を有効にした場合、すべてのユーザはセキュリティキーを使ってファイルをダウンロードすることができます。もちろん、サイト内でダウンロードを許可されたファイルに制限されます。';
 $string['editaservice'] = 'サービスを編集する';
+$string['editexternalservice'] = '外部サービスを編集する';
 $string['editservice'] = 'サービスを編集する: {$a->name} (id: {$a->id})';
 $string['enabled'] = '有効';
 $string['enabledocumentation'] = '開発者ドキュメントを有効にする';

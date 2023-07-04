@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'journal', language 'nl', version '3.11'.
+ * Strings for component 'journal', language 'nl', version '4.1'.
  *
  * @package     journal
  * @category    string
@@ -58,6 +58,7 @@ $string['journalquestion'] = 'Vraag voor het dagboek';
 $string['mailsubject'] = 'Feedback bij het Dagboek';
 $string['modulename'] = 'Dagboek';
 $string['modulename_help'] = 'De activiteit Dagboek maakt het mogelijk voor leraren om feedback van leerlingen over een specifiek onderwerp te verkrijgen';
+$string['modulename_link'] = 'mod/journal/view';
 $string['modulenameplural'] = 'Dagboeken';
 $string['needsregrade'] = 'Het item is gewijzigd nadat de laatste feedback was opgeslagen.';
 $string['newjournalentries'] = 'Nieuwe Dagboekitems';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_user', language 'ur', version '3.11'.
+ * Strings for component 'gradereport_user', language 'ur', version '4.1'.
  *
  * @package     gradereport_user
  * @category    string
@@ -26,10 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventgradereportviewed'] = 'گریڈ صارف کی رپورٹ دیکھی گئی';
-$string['myself'] = 'میں خود';
-$string['otheruser'] = 'صارف';
 $string['pluginname'] = 'صارف کی رپورٹ';
 $string['privacy:metadata:preference:gradereport_user_view_user'] = 'آیا رپورٹ کو موجودہ صارف کے طور پر دیکھنا ہے یا گریڈ بک رپورٹس میں کسی دوسرے صارف کے طور پر';
 $string['tablesummary'] = 'جدول کو درجہ بند اشیاء کی فہرست کے طور پر ترتیب دیا گیا ہے جس میں درجہ بندی کی اشیاء کے زمرے بھی شامل ہیں۔ جب آئٹمز کسی زمرے میں ہوں گے تو ان کی نشاندہی کی جائے گی۔';
 $string['user:view'] = 'اپنے گریڈ کی رپورٹ دیکھیں';
-$string['viewas'] = 'رپورٹ کو بطور دیکھیں';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'ur', version '3.11'.
+ * Strings for component 'tool_monitor', language 'ur', version '4.1'.
  *
  * @package     tool_monitor
  * @category    string
@@ -65,6 +65,7 @@ $string['managesubscriptionslink'] = 'آپ {$a} صفحہ سے قواعد کو س
 $string['messageprovider:notification'] = 'قواعد کی رکنیت کی اطلاعات';
 $string['messagetemplate'] = 'اطلاعی پیغام';
 $string['messagetemplate_help'] = 'نوٹیفکیشن کی حد تک پہنچنے کے بعد سبسکرائبرز کو ایک اطلاعی پیغام بھیجا جاتا ہے۔ اس میں مندرجہ ذیل پلیس ہولڈرز میں سے کوئی بھی یا سبھی شامل ہو سکتے ہیں: * ایونٹ کے مقام کا لنک {link} * نگرانی شدہ علاقے سے لنک {modulelink} * اصول کا نام {rulename} * تفصیل {description} * ایونٹ {eventname}';
+$string['messagetemplate_link'] = 'admin/tool/monitor/managerules';
 $string['moduleinstance'] = 'مثال';
 $string['monitor:managerules'] = 'ایونٹ مانیٹر کے قوانین کا نظم کریں';
 $string['monitor:managetool'] = 'ایونٹ کی نگرانی کو فعال/غیر فعال کریں';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddwtos', language 'ur', version '3.11'.
+ * Strings for component 'qtype_ddwtos', language 'ur', version '4.1'.
  *
  * @package     qtype_ddwtos
  * @category    string
@@ -33,6 +33,7 @@ $string['infinite'] = 'لا محدود';
 $string['pleaseputananswerineachbox'] = 'براہ کرم ہر ایک خانے میں جواب درج کریں۔';
 $string['pluginname'] = 'متن میں گھسیٹیں اور چھوڑیں';
 $string['pluginname_help'] = 'متنی سوالات میں گھسیٹیں اور چھوڑیں جواب دہندہ سے الفاظ یا فقرے کو سوال کے متن میں درست خلا میں گھسیٹنے کی ضرورت ہوتی ہے۔ [[1]]، [[2]]، [[3]]، ... کو سوال کے متن میں جگہ دار کے طور پر استعمال کیا جاتا ہے، صحیح جوابات کے ساتھ بالترتیب انتخابی جوابات 1، 2، 3، ... کے طور پر بیان کیا جاتا ہے۔ انتخابی جوابات کو گروپ کیا جا سکتا ہے تاکہ کسی مخصوص گروپ کے تمام جوابات کا رنگ وہی ہو جیسا کہ سوال کے متن میں ان کے لیے خالی جگہ ہے۔ لامحدود کے بطور نشان زد انتخابی جوابات ایک سے زیادہ وقفوں میں استعمال کیے جا سکتے ہیں۔';
+$string['pluginname_link'] = 'question/type/ddwtos';
 $string['pluginnameadding'] = 'متن میں ڈریگ اینڈ ڈراپ شامل کرنا';
 $string['pluginnameediting'] = 'متن میں ڈریگ اینڈ ڈراپ میں ترمیم کرنا';
 $string['pluginnamesummary'] = 'سوال کے متن میں موجود الفاظ کو ڈریگ اینڈ ڈراپ کا استعمال کرتے ہوئے بھرا جاتا ہے۔';

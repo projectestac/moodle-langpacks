@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ja', version '3.11'.
+ * Strings for component 'message', language 'ja', version '4.1'.
  *
  * @package     message
  * @category    string
@@ -41,7 +41,6 @@ $string['blocknoncontacts'] = '不明なユーザをブロックする';
 $string['blockuser'] = 'ユーザをブロックする';
 $string['blockuserconfirm'] = '本当に {$a} をブロックしてもよろしいですか?';
 $string['blockuserconfirmbutton'] = 'ブロック';
-$string['canceledit'] = 'メッセージの編集をキャンセルする';
 $string['cancelselection'] = 'メッセージ選択を解除する';
 $string['cantblockuser'] = 'すべてのユーザにメッセージを送信できるパーミッションのロールであるため、あなたは {$a} をブロックできません。';
 $string['contactableprivacy'] = '受け入れるメッセージの送信元:';
@@ -67,7 +66,7 @@ $string['deleteselectedmessagesconfirm'] = '本当に選択したメッセージ
 $string['deleteselectedmessagesconfirmselfconversation'] = '本当に選択したパーソナルメッセージを削除してもよろしいですか?';
 $string['disableall'] = '通知を無効にする';
 $string['disabled'] = 'このサイトではメッセージングが無効にされています。';
-$string['disallowed'] = '無許可';
+$string['disallowed'] = 'ロック解除';
 $string['editmessages'] = 'メッセージを編集する';
 $string['emailtagline'] = 'これはあなた宛に {$a->sitename} で送信されたメッセージのコピーです。返信するには {$a->url} にアクセスしてください。';
 $string['enabled'] = '有効';
@@ -86,6 +85,7 @@ $string['eventmessageviewed'] = 'メッセージが閲覧されました。';
 $string['eventnotificationsent'] = '通知が送信されました。';
 $string['eventnotificationviewed'] = '通知が閲覧されました。';
 $string['forced'] = 'ロック';
+$string['forcedmessage'] = 'ロック';
 $string['groupconversations'] = 'グループ';
 $string['groupinfo'] = 'グループ情報';
 $string['guestnoeditmessage'] = 'ゲストユーザはメッセージングオプションを編集できません。';
@@ -105,8 +105,6 @@ $string['loggedoffdescription'] = 'あなたがMoodleにログインしていな
 $string['managemessageoutputs'] = 'デフォルト通知プレファレンス';
 $string['message'] = 'メッセージ';
 $string['messagecontactrequest'] = '{$a->user} がコンタクトに追加するようリクエストしています。リクエストに返答するにはあなたの<a href="{$a->url}">コンタクトリクエスト</a>ページにアクセスしてください。';
-$string['messagecontactrequestsnotification'] = '{$a} がコンタクトへの追加をリクエストしています。';
-$string['messagecontactrequestsnotificationsubject'] = '{$a} によるコンタクトリクエスト';
 $string['messagecontactrequestsubject'] = '{$a->sitename}: {$a->user} によるコンタクトリクエスト';
 $string['messagecontentaudio'] = 'オーディオ';
 $string['messagecontentimage'] = 'イメージ';
@@ -137,7 +135,6 @@ $string['nofavourites'] = '星付きの会話はありません。';
 $string['noframesjs'] = 'アクセシビリティの高いインタフェースを使用する';
 $string['nogroupconversations'] = 'グループ会話なし';
 $string['noindividualconversations'] = 'プライベート会話なし';
-$string['nomessages'] = 'メッセージはありません。';
 $string['nomessagesfound'] = 'メッセージが見つかりませんでした。';
 $string['noncontacts'] = '非コンタクト';
 $string['nonotifications'] = 'あなたに通知はありません。';
@@ -156,11 +153,7 @@ $string['offline'] = 'オフライン';
 $string['on'] = 'On';
 $string['online'] = 'オンライン';
 $string['otherparticipants'] = '他の参加者';
-$string['outputdisabled'] = 'アウトプット無効';
-$string['outputdoesnotexist'] = 'メッセージアウトプットはありません。';
-$string['outputenabled'] = 'アウトプット有効';
 $string['outputnotavailable'] = '利用不可';
-$string['outputnotconfigured'] = '未設定';
 $string['page-message-x'] = 'すべてのメッセージページ';
 $string['participants'] = '参加者';
 $string['pendingcontactrequests'] = '{$a} 件の保留コンタクトリクエストがあります。';
@@ -223,6 +216,9 @@ $string['privacy:metadata:preference:core_message_settings'] = 'メッセージ�
 $string['privacy:request:preference:set'] = '設定「 {$a->name} 」の値は「 {$a->value} 」でした。';
 $string['privacy_desc'] = 'あなたにメッセージを送信する人を制限できます。';
 $string['processorsettings'] = 'プロセッサ設定';
+$string['providerenabled'] = '「 {$a} 」有効ステータスを送信する';
+$string['providerprocesorisdisallowed'] = '「 {$a->processor} 」の「 {$a->provider} 」はロック解除されています。';
+$string['providerprocesorislocked'] = '「 {$a->processor} 」の「 {$a->provider} 」はロックされています。';
 $string['removecontact'] = 'コンタクトから削除する';
 $string['removecontactconfirm'] = '本当にあなたのコンタクトから {$a} を削除してもよろしいですか?';
 $string['removecoursefilter'] = 'コース {$a} のフィルタを削除する';
@@ -247,6 +243,8 @@ $string['sendbulkmessagesingle'] = '1 名にメッセージを送信する';
 $string['sendcontactrequest'] = 'コンタクトリクエストを送信する';
 $string['sender'] = '{$a}:';
 $string['sendingvia'] = '「 {$a->processor} 」経由で「 {$a->provider} 」に送信する';
+$string['sendingviaenabled'] = '「 {$a->processor} 」経由で「 {$a->provider} 」有効ステータスを送信する';
+$string['sendingvialocked'] = '「 {$a->processor} 」経由で「 {$a->provider} 」ロックステータスを送信する';
 $string['sendingviawhen'] = '{$a->state} の場合、「 {$a->processor} 」経由で「 {$a->provider} 」に送信する';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['sendmessageto'] = '{$a} にメッセージを送信する';
