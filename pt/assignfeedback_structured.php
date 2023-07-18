@@ -73,9 +73,9 @@ $string['criteriontitle'] = '<span class="criterion-name">{$a->name}:</span> <sp
 $string['default'] = 'Ativado por predefinição';
 $string['default_help'] = 'Se ativar esta opção, este método de feedback estará disponível, por predefinição, para todos os trabalho.';
 $string['defaultcritdesc'] = 'Descrição predefinida para o primeiro critério';
-$string['defaultcritdesc_help'] = 'Descrição predefinida (opcional) do feedback do primeiro critério (opcional) para todos os novos trabalhos.';
+$string['defaultcritdesc_help'] = 'Descrição predefinida do feedback do primeiro critério (opcional) para todos os novos trabalhos.';
 $string['defaultcritname'] = 'Nome predefinido para o primeiro critério';
-$string['defaultcritname_help'] = 'Nome predefinido opcional do feedback do primeiro critério (opcional) para todos os novos trabalhos. <br>Tenha em atenção que inserir um valor aqui ativará automaticamente o método de feedback estruturado para todos os novos trabalhos.';
+$string['defaultcritname_help'] = 'Nome predefinido do feedback do primeiro critério (opcional) para todos os novos trabalhos. <br>Tenha em atenção que inserir um valor aqui ativará automaticamente o método de feedback estruturado para todos os novos trabalhos.';
 $string['enabled'] = 'Feedback estruturado';
 $string['enabled_help'] = 'Se ativado, o professor poderá definir qualquer número de critérios para fornecer feedback específico.';
 $string['escapetocancel'] = 'ESC para cancelar';

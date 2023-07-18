@@ -37,7 +37,7 @@ $string['backtogroupings'] = 'Voltar para Agrupamentos';
 $string['backtogroups'] = 'Voltar para Grupos';
 $string['badnamingscheme'] = 'Tem de conter exatamente um caráter \'@\' ou \'#';
 $string['byfirstname'] = 'Ordenação alfabética por nome, apelido';
-$string['byidnumber'] = 'Ordenação ascendente por número de ID';
+$string['byidnumber'] = 'Ordenação ascendente por ID';
 $string['bylastname'] = 'Ordenação alfabética por apelido, nome';
 $string['createautomaticgrouping'] = 'Criar agrupamento automático';
 $string['creategroup'] = 'Criar grupo';
@@ -62,7 +62,7 @@ $string['editgroupsettings'] = 'Editar configurações do grupo';
 $string['editusersgroupsa'] = 'Editar grupos de "{$a}"';
 $string['enablemessaging'] = 'Ativar mensagens de grupo';
 $string['enablemessaging_help'] = 'Se ativar esta opção, os membros do grupo podem enviar mensagens para os outros membros do grupo através da caixa de mensagens.';
-$string['encoding'] = 'A codificar';
+$string['encoding'] = 'Codificação';
 $string['enrolmentkey'] = 'Senha de inscrição';
 $string['enrolmentkey_help'] = 'Uma senha de inscrição permite que o acesso à disciplina seja limitado apenas para aqueles que conhecem a senha. Se especificar a senha de inscrição de um grupo, essa senha não permitirá apenas o acesso do utilizador à disciplina, mas também a sua inscrição automática como membro do grupo.
 

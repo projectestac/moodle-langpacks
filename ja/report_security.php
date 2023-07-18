@@ -45,8 +45,8 @@ $string['check_crawlers_error'] = 'サーチエンジンによるゲストアク
 $string['check_crawlers_info'] = 'サーチエンジンはゲストとして入ることができます。';
 $string['check_crawlers_name'] = 'Googleに公開する';
 $string['check_crawlers_ok'] = 'サーチエンジンによるアクセスは有効にされていません。';
-$string['check_defaultuserrole_details'] = '<p>すべてのログインユーザにはデフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されていなことを確認してください。</p>
-<p>デフォルトのユーザロールでサポートされているレガシタイプのロールは「認証済みユーザ」のみです。コース閲覧ケイパビリティは有効にしないでください。</p>';
+$string['check_defaultuserrole_details'] = '<p>すべてのログインユーザにはデフォルトユーザロールのケイパビリティが付与されます。このロールに危険なケイパビリティが許可されていないことを確認してください。デフォルトユーザロールでサポートされるレガシータイプは「認証済みユーザ」のみです。コース表示ケイパビリティは有効にすべきではありません。</p>
+<p>自動データ削除リクエスト承認 (tool_dataprivacy | automaticdatadeletionapproval) オプションが有効されていることを確認してください。ユーザは大量データ削除の可能性のある削除を要求できます。</p>';
 $string['check_defaultuserrole_error'] = 'デフォルトユーザロール「 {$a} 」は正しくない定義です!';
 $string['check_defaultuserrole_name'] = 'すべてのユーザのデフォルトロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';

@@ -45,8 +45,8 @@ $string['check_crawlers_error'] = 'Der Zugriff für Suchmaschinen ist aktiviert,
 $string['check_crawlers_info'] = 'Suchmaschinen können auf Kursinhalte als Gäste zugreifen.';
 $string['check_crawlers_name'] = 'Offen für Google';
 $string['check_crawlers_ok'] = 'Gastzugang für Suchmaschinen nicht aktiv.';
-$string['check_defaultuserrole_details'] = '<p>Jeder eingeloggte Nutzer hat zunächst Rechte aus der Standardrolle für Nutzer. Für diese Rolle sollten keine bedenklichen Berechtigungen vergeben worden sein.</p>
-<p>Die einzige Rolle, für die das zunächst zutrifft, ist die Rolle <em>authentifizierte/r Nutzer/in</em>. Die Berechtigung \'Kurse sehen\' (course view) muss dazu nicht aktiviert sein.</p>';
+$string['check_defaultuserrole_details'] = '<p>Alle angemeldeten Nutzer/innen haben zunächst Rechte aus der Standardrolle für Nutzer/innen. Für diese Rolle sollten keine riskanten Berechtigungen vergeben worden sein.</p>
+<p>Die einzige Rolle, für die das zunächst zutrifft, ist die Rolle <em>authentifizierte/r Nutzer/in</em>. Das Recht \'Kurse anzeigen\' muss nicht aktiviert sein.</p><p>Prüfen Sie bitte, ob die Option für die automatische Löschanfrage von Daten (tool_dataprivacy | automaticdatadeletionapproval) aktiviert ist. Nutzer/innen können Löschungen anfordern, die große Mengen von Daten entfernen.  </p>';
 $string['check_defaultuserrole_error'] = 'Eine falsche Definition der Standardrolle wurde festgestellt! "{$a}"';
 $string['check_defaultuserrole_name'] = 'Standardrolle für alle Nutzer/innen';
 $string['check_defaultuserrole_notset'] = 'Die Standardrolle ist nicht gesetzt.';

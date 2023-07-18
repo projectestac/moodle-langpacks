@@ -43,6 +43,7 @@ $string['deletecheckdevicename'] = 'Eliminar su dispositivo: {$a->name}';
 $string['deletedevice'] = 'Eliminar el dispositivo. Por favor tenga en cuenta que una app puede volver a registrar el dispositivo. Si el dispositivo sigue reapareciendo, deshabilítelo.';
 $string['devicetoken'] = 'Token del dispositivo';
 $string['enableprocessor'] = 'Habilitar notificaciones móviles';
+$string['encryptprocessing_desc'] = 'Por favor indique qué hacer cuando el dispositivo destino no soporta encriptación (soportada solamente en Androide 6 y iOS 13 en adelante).';
 $string['errorretrievingkey'] = 'Se produjo un error al recuperar la clave de acceso. Su sitio Moodle debe estar registrado para usar este servicio. Si su sitio ya estaba registrado, por favor intente actualizar su registro. De forma alternativa, puede obtener una clave de acceso al crear una cuenta en el <a href="https://apps.moodle.com">Portal de aplicaciones de Moodle</a>.';
 $string['keyretrievedsuccessfully'] = 'La clave de acceso fue obtenida exitosamente. Para acceder a las estadísticas de uso de la aplicación de Moodle, por favor cree una cuenta en el <a href="https://apps.moodle.com">Portal de aplicaciones de Moodle</a>.';
 $string['messageprovidersempty'] = 'No hay notificaciones móviles habilitadas en las preferencias de notificación predeterminadas.';

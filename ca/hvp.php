@@ -43,6 +43,7 @@ $string['attributionsa'] = 'Reconeixement-CompartirIgual 4.0';
 $string['author'] = 'Autor';
 $string['by'] = 'per';
 $string['cancellabel'] = 'Cancel·la';
+$string['cancelpublishconfirmationdialogconfirmbuttontext'] = 'Sí';
 $string['close'] = 'Tanca';
 $string['confirmdialogbody'] = 'Confirmeu que realment voleu fer-ho. Aquesta acció no és reversible.';
 $string['confirmdialogheader'] = 'Confirmeu l\'acció';

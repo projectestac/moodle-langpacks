@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = 'Escolha uma variável…';
-$string['clicktoopen'] = 'Clique na hiperligação {$a} para abrir o URL.';
+$string['clicktoopen'] = 'Clique em {$a} para abrir o recurso.';
 $string['configdisplayoptions'] = 'Selecione todas as opções que devem estar disponíveis, as onfigurações existentes não serão alteradas. Mantenha a tecla Ctrl pressionada para selecionar múltiplas opções.';
 $string['configframesize'] = 'Quando uma página Web ou um ficheiro é exibido numa frame, este valor é a altura (em píxeis) da frame superior (que contém a barra de navegação).';
 $string['configrolesinparams'] = 'Os nomes dos papéis locais (das configurações das disciplinas) devem estar disponíveis como parâmetros do URL?';
@@ -71,6 +71,12 @@ $string['modulename_help'] = 'O URL permite ao professor disponibilizar uma hipe
 Existe uma série de opções de visualização do URL. Este pode ser incorporado, pode surgir numa nova janela ou, mediante opções avançadas, pode passar informações como o nome do aluno, se necessário.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLs';
+$string['name'] = 'Nome';
+$string['name_help'] = 'Servirá como o texto da hiperligação para o URL.
+
+Insira um texto significativo que descreva concisamente a finalidade da URL.
+
+Evite usar a palavra "hiperligação". Ajudará os utilizadores com leitores de ecrã, uma vez que os leitores de ecrã anunciam hiperligações (por exemplo: "Moodle.org, hiperligação"), por isso, não há necessidade de incluir a palavra "hiperligação" no campo de nome.';
 $string['page-mod-url-x'] = 'Qualquer página do recurso URL';
 $string['parameterinfo'] = 'parâmetro=variável';
 $string['parametersheader'] = 'Variáveis de URL';

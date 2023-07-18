@@ -47,7 +47,8 @@ $string['check_crawlers_info'] = 'Bilaketa-motorrak gonbidatu gisa sar daitezke'
 $string['check_crawlers_name'] = 'Ireki bilaketa-motorrei';
 $string['check_crawlers_ok'] = 'Bilaketa-motoreen sarbidea ez dago gaituta.';
 $string['check_defaultuserrole_details'] = '<p>Saioa hasten duten erabiltzaile guztiei lehenetsitako erabiltzaile-rola esleitzen zaie. Mesedez ziurtatu rol honi ez zaizkiola arriskutsuak izan daitezkeen gaitasunak esleitzen.</p>
-<p>Lehenetsitako erabiltzaile rolarentzat onartzen den modu zaharkitu bakarra <em>Autentifikatutako erabiltzailea</em> da. Ikastaroak ikusteko gaitasuna ez litzateke gaitu beharko.</p>';
+<p>Lehenetsitako erabiltzaile rolarentzat onartzen den modu zaharkitu bakarra <em>Autentifikatutako erabiltzailea</em> da. Ikastaroak ikusteko gaitasuna ez litzateke gaitu beharko.</p>
+<p>Egiaztatu mesedez datuen ezabatze eskaeren onarpen automatikoko (tool_dataprivacy | automaticdatadeletionapproval) aukera gaituta dagoen. Erabiltzaileek datu kopuru handiak ezabatu ditzaketen eskaerak egin ditzakete.</p>';
 $string['check_defaultuserrole_error'] = '"{$a}" izeneko lehenetsitako erabiltzaile-rola modu ezegokian definituta dago!';
 $string['check_defaultuserrole_name'] = 'Lehenetsitako rola erabiltzaile guztientzat';
 $string['check_defaultuserrole_notset'] = 'Lehenetsitako rola ez da ezarri.';

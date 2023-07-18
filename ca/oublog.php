@@ -136,3 +136,4 @@ $string['userparticipation'] = 'Participació de l\'usuari';
 $string['usersparticipation'] = 'Participació de tots els usuaris';
 $string['viewallparticipation'] = 'Visualitza tota la participació';
 $string['viewmyparticipation'] = 'Visualitza la meva participació';
+$string['yes'] = 'Sí';

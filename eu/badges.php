@@ -135,6 +135,7 @@ $string['backpackemailverifypending'] = 'Helbide elektronikoa egiaztatzeko mezua
 $string['backpackemailverifysuccess'] = 'Eskerrik asko zure helbide elektronikoa egiaztatzeagatik. Orain zure motxilarekin konektatuta zaude.';
 $string['backpackemailverifytokenmismatch'] = 'Klik egin duzun estekaren tokena ez dator bat gordetako tokenarekin. Ziurtatu ezazu jasotako azken e-maila mezuko estekan klik egin duzula.';
 $string['backpackexporterror'] = 'Domina ezin da motxilara esportatu';
+$string['backpackexporterrorwithinfo'] = 'Ezin da "{$a->badgename}" domina motxilara esportatu. Errorea: {$a->error}';
 $string['backpackimport'] = 'Domina inportatzeko ezarpenak';
 $string['backpackimport_help'] = 'Motxilarako konexio egokia ezarri ondoren, zure motxilako dominak zure dominen orrian eta zure profil-orrian ikusi ahal izango dira.
 

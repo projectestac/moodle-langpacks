@@ -133,6 +133,7 @@ $string['backpackemailverifypending'] = 'Un message de vérification a été env
 $string['backpackemailverifysuccess'] = 'Votre adresse de courriel a été vérifiée. Vous êtes désormais connecté à votre sac à badges.';
 $string['backpackemailverifytokenmismatch'] = 'Le jeton dans le lien que vous avez cliqué ne correspond pas au jeton enregistré. Assurez-vous de cliquer sur le lien indiqué dans le courriel le plus récent que vous avez reçu.';
 $string['backpackexporterror'] = 'Impossible d\'exporter le badge dans le sac à badges';
+$string['backpackexporterrorwithinfo'] = 'Impossible d\'exporter le badge « {$a->badgename} » vers le sac à badges. Erreur : {$a->error}';
 $string['backpackimport'] = 'Réglages d\'importation de badges';
 $string['backpackimport_help'] = 'Une fois établie la connexion à votre sac à badges, les badges de votre sac à badges peuvent être affichés sur votre page de badges et sur votre page de profil.
 

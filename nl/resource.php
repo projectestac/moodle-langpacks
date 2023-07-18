@@ -85,7 +85,7 @@ Een bestand kan gebruikt worden
 
 * om presentaties die in de klas gegeven zijn te delen
 * om een kleine website als cursusbron aan te bieden
-* om kladbestanden van bepaalde softwareprogramma\'s te voorzien (zoals Photoshop .psd) zodat leerlingen ze kunnen bewerken en dan insturen voor beoordeling';
+* om conceptbestanden van bepaalde softwareprogramma\'s te voorzien (zoals Photoshop .psd) zodat leerlingen ze kunnen bewerken en dan insturen voor beoordeling';
 $string['modulename_link'] = 'mod/resource/view';
 $string['modulenameplural'] = 'Bestanden';
 $string['notmigrated'] = 'Dit verouderd brontype ({$a}) is nog niet omgezet.';

@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['orderimportant'] = 'Sí';
 $string['pleaseenterananswer'] = 'Introduïu una resposta.';
 $string['pluginname_link'] = 'question/type/easyomech';

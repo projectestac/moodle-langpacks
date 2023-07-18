@@ -157,3 +157,4 @@ $string['supportmessagesentforloggedoutuser'] = 'Seien Sie vorsichtig mit dieser
 $string['target:upcomingactivitiesdue'] = 'Fälligkeit für anstehende Aktivitäten';
 $string['target:upcomingactivitiesdue_help'] = 'Dieses Ziel generiert Erinnerungen für anstehende Aktivitäten.';
 $string['target:upcomingactivitiesdueinfo'] = 'Alle anstehenden Fälligkeiten für Aktivitäten sind hier aufgelistet. Folgende Teilnehmer/innen haben den Hinweis direkt erhalten.';
+$string['userprofile'] = 'Nutzerprofil';

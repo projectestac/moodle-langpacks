@@ -30,3 +30,5 @@ $string['entryFields_Description'] = 'Descripció';
 $string['formBuilder_saveTxt'] = 'Desa';
 $string['historynav'] = 'Historial';
 $string['view'] = 'Visualitza';
+$string['yes'] = 'Sí';
+$string['yesDeleteRecords'] = 'Sí';

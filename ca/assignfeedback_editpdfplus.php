@@ -26,5 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['adminaxis_save'] = 'Desa';
+$string['adminaxisdelete_ok'] = 'Sí';
 $string['default_help'] = 'Si s\'habilita, aquest mètode de retroacció s\'habilitarà per defecte per a totes les tasques noves.';
 $string['question_select'] = 'Pregunta';

@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['confirm_delete_button'] = 'Sí';
 $string['slotsduration'] = 'Durada dels espais buits (en minuts)';

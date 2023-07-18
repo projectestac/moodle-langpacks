@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = 'Sélectionner une variable…';
-$string['clicktoopen'] = 'Cliquer le lien {$a} pour ouvrir la ressource.';
+$string['clicktoopen'] = 'Cliquer sur {$a} pour ouvrir la ressource.';
 $string['configdisplayoptions'] = 'Sélectionner toutes les options à mettre à disposition des utilisateurs. Les réglages existants ne sont pas modifiés. Vous pouvez sélectionner plusieurs champs simultanément.';
 $string['configframesize'] = 'Cette valeur est la hauteur (en pixels) du cadre contenant la navigation. Elle est utilisée quand une page web ou un fichier déposé est affiché dans un cadre.';
 $string['configrolesinparams'] = 'Activer cette option rendre disponibles les noms de rôles (des réglages du cours) comme variables pour les paramètres d\'URL.';
@@ -64,6 +64,12 @@ $string['modulename_help'] = 'Le module URL permet à l\'enseignant de fournir u
 De nombreuses possibilités d\'affichage sont offertes, par exemple l\'intégration dans une page ou l\'ouverture dans une nouvelle fenêtre. Des options avancées permettent si nécessaire de passer à l\'URL des informations telles que le nom du participant, par exemple.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLs';
+$string['name'] = 'Nom';
+$string['name_help'] = 'Ce terme servira de texte pour le lien pointant vers l\'URL.
+
+Saisir un texte qui décrit de manière concise le but de l\'URL.
+
+Il est recommandé d\'éviter le mot « lien », afin de fournir une expérience acceptable pour les utilisateurs de lecteurs d\'écran, car ces lecteurs annonce les liens (par exemple « moodle.org, lien ») de sorte qu\'il n\'est pas nécessaire d\'inclure le mot lien dans le champ nom.';
 $string['page-mod-url-x'] = 'Toute page du module URL';
 $string['parameterinfo'] = '&amp;parameter=variable';
 $string['parametersheader'] = 'Variables d\'URL';

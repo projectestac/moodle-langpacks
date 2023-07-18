@@ -70,6 +70,11 @@ Legen Sie fest, ob die verlinkte Seite in einem neuen Fenster geöffnet oder in 
 Hinweis: Verlinkungen und URLs können mit dem Texteditor auch in jede andere Ressource oder Aktivität integriert werden.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'Links/URLs';
+$string['name'] = 'Name';
+$string['name_help'] = 'Dieser Linktext soll die URL prägnant beschreiben.
+Geben Sie einen aussagekräftigen Text.
+
+Vermeiden Sie in der Beschreibung die Verwendung des Wortes „Link“. Dadurch können Screenreader die Links besser ankündigen (z.B. „Moodle.org, Link“), ohne das Wort „Link“ noch einmal im Namensfeld zu haben.';
 $string['page-mod-url-x'] = 'Jede URL-Seite';
 $string['parameterinfo'] = '&amp;parameter=variable';
 $string['parametersheader'] = 'URL-Variablen';

@@ -46,6 +46,7 @@ $string['donotsendnotification'] = '通知を一切送信しない';
 $string['enableprocessor'] = 'モバイル通知を有効にします。';
 $string['encryptnotifications'] = '通知を暗号化する';
 $string['encryptprocessing'] = '暗号化に対応していないデバイス用';
+$string['encryptprocessing_desc'] = '暗号化された通知には少なくともAndroid 8またはiOS 13およびMoodle App 4.2以降が必要です。';
 $string['errorretrievingkey'] = 'アクセスキーの検索中にエラーが発生しました。このサービスを使用するにはあなたのサイトの登録が必要です。あなたのサイトがすでに登録されている場合、登録の更新をお試しください。代わりにあなたは<a href="https://apps.moodle.com">Moodleアプリポータル</a>でアカウントを作成してアクセスキーを取得できます。';
 $string['keyretrievedsuccessfully'] = 'アクセスキーが正常に検索されました。Moodleアプリ利用統計にアクセスするには<a href="https://apps.moodle.com">Moodle Apps Portal</a>でアカウントを作成してください。';
 $string['messageprovidersempty'] = 'デフォルト通知プレファレンスで有効にされたモバイル通知はありません。';

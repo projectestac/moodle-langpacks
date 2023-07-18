@@ -516,7 +516,6 @@ $string['questiontextisempty'] = '[testo della domanda vuoto]';
 $string['quizdate'] = 'Data del quiz offline';
 $string['quizopenclose'] = 'Date di apertura e chiusura';
 $string['quizopenclose_help'] = 'Gli studenti possono vedere i loro tentativi solo dopo la data di apertura e prima della data di chiusura.';
-$string['quizquestions'] = 'Domande quiz';
 $string['randomfromexistingcategory'] = 'Domande casuali da una categoria esistente';
 $string['randomnumber'] = 'Numero di domande casuali';
 $string['randomquestionusinganewcategory'] = 'Domande casuali utilizzando una nuova categoria';

@@ -157,3 +157,4 @@ $string['supportmessagesentforloggedoutuser'] = 'Soyez prudent avec ce message 
 $string['target:upcomingactivitiesdue'] = 'Activités à venir à effectuer';
 $string['target:upcomingactivitiesdue_help'] = 'Cette cible génère des rappels pour les activités à venir à effectuer.';
 $string['target:upcomingactivitiesdueinfo'] = 'Toutes les indications concernant les « activités à venir » sont affichées ici. Ces étudiants ont reçu directement ces indications.';
+$string['userprofile'] = 'Profil utilisateur';

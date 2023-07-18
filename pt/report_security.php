@@ -46,8 +46,9 @@ $string['check_crawlers_error'] = 'É permitido o acesso aos motores de busca ma
 $string['check_crawlers_info'] = 'Os motores de busca podem aceder como visitantes.';
 $string['check_crawlers_name'] = 'Permitir acesso aos motores de busca';
 $string['check_crawlers_ok'] = 'O acesso ao site por motores de busca não está ativo.';
-$string['check_defaultuserrole_details'] = '<p>As permissões do papel predefinido são atribuídas a todos os utilizadores autenticados. Por isso, assegure-se que não são atribuídas a este papel permissões com riscos.</p>
-<p>O único papel retrocompatível (usado em versões anteriores do Moodle) que pode ser usado com o papel de utilizador predefinido é <strong>Utilizador autenticado</strong>. Não deve ser concedida a permissão para ver disciplinas.</p>';
+$string['check_defaultuserrole_details'] = '<p>Todos os utilizadores autenticados têm permissões do papel predefinido de utilizador. Certifique-se de que nenhuma permissão arriscada é permitida neste papel.</p>
+<p>O único tipo retrocompatível de papel predefinido de utilizador que é suportado é o <em>Utilizador autenticado</em>. A permissão de visualização de disciplina não deve estar ativada.</p>
+<p>Verifique se a \'Aprovação automática das solicitações de eliminação de dados\' (tool_dataprivacy | automaticdatadeletionapproval) está ativada. Os utilizadores podem solicitar eliminações de dados que podem apagar grandes quantidades de dados.</p>';
 $string['check_defaultuserrole_error'] = 'O papel "{$a}", a atribuir automaticamente a todos os utilizadores autenticados, não está configurado corretamente!';
 $string['check_defaultuserrole_name'] = 'Papel a atribuir a todos os utilizadores autenticados';
 $string['check_defaultuserrole_notset'] = 'Não foi definido nenhum papel para ser atribuído automaticamente a todos os utilizadores autenticados';

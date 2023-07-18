@@ -52,6 +52,7 @@ $string['attemptsallowed_help'] = 'Numero dei tentativi che uno studente ha a di
 $string['attemptstarttime'] = 'Orario d\'inizio del tentativo';
 $string['attemptstate'] = 'Stato del tentativo';
 $string['attemptstopcriteria'] = 'Motivo per fermare il tentativo';
+$string['attemptsuserprevious'] = 'I tuoi tentativi precedenti';
 $string['attempttotaltime'] = 'Tempo totale (hh:mm:ss)';
 $string['bestscore'] = 'Miglior punteggio';
 $string['bestscorestderror'] = 'Errore standard';

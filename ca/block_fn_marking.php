@@ -29,3 +29,4 @@ $string['save'] = 'Desa';
 $string['student'] = 'Estudiant';
 $string['type'] = 'Tipus';
 $string['view'] = 'Visualitza';
+$string['yes'] = 'Sí';

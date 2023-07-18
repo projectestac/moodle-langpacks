@@ -412,7 +412,7 @@ $string['configstripalltitletags'] = 'Schakel deze optie uit om HTML-tags toe te
 $string['configsupportavailability'] = 'Bepaalt wie toegang heeft om contact op te nemen met siteondersteuning vanuit de voettekst.';
 $string['configsupportemail'] = 'Als SMTP geconfigureerd is voor deze site en de ondersteuningspagina is niet geconfigureerd, dan zal dit e-mailadres gebruikt worden om algemene hulp te krijgen via het ondersteuningsformulier. Als het versturen mislukt, dan zal dit e-mailadres aan aangemelde gebruikers getoond worden.';
 $string['configsupportname'] = 'Dit is de naam van een persoon of dienst die de algemene hulp aanbiedt via het ondersteuningsformulier of de ondersteuningspagina.';
-$string['configsupportpage'] = 'Geef de URL van een ondersteuningspagina of laat leeg om naar een contactformulier te linken.';
+$string['configsupportpage'] = 'Geef de URL van een ondersteuningspagina of laat leeg om naar een contactformulier te linken. De link wordt in de footer van de site getoond.';
 $string['configtempdatafoldercleanup'] = 'Verwijder tijdelijke bestanden van de data-map die ouder zijn dan de geselecteerde tijd.';
 $string['configthemedesignermode'] = 'Normaal gezien worden alle thema-afbeeldingen en stijlbestanden voor de performantie lange tijd gecached in browsers en op de server. Als je een thema aan het ontwerpen bent of je ontwikkelt code, dan wil je deze instelling waarschijnlijk inschakelen, zodat je geen gecachede versie te zien krijgt. Let op: dit zal je site trager maken voor alle gebruikers! Het alternatief is dat je de thema cache handmatig leegmaakt vanop de thema selectie pagina.';
 $string['configthemelist'] = 'Laat dit leeg om gelijk welk geldig thema te gebruiken. Geef hier een door komma\'s gescheiden lijst met thema-namen als je het thema-menu wil inkorten. Bijvoorbeeld: standard,orangewhite. Let op: geen spaties!';
@@ -434,7 +434,7 @@ $string['confirmed'] = 'Bevestigd';
 $string['contactsitesupport'] = 'Contacteer site-ondersteuning';
 $string['contenttypeuninstalling'] = 'Er wordt inhoud van {$a->count}  ondersteund door {$a->type}. Ze worden verwijderd. Weet je zeker dat je verder wilt gaan?';
 $string['contextlockappliestoadmin'] = 'Context vergrendelen is van toepassing op beheerders';
-$string['contextlockappliestoadmin_desc'] = 'Met deze instelling kunnen beheerders wijzigingen aanbrengen in elke context die is vergrendeld.';
+$string['contextlockappliestoadmin_desc'] = 'Indien uitgeschakeld kunnen beheerders wijzigingen aanbrengen in elke context die is vergrendeld.';
 $string['contextlocking'] = 'Context vergrendelen';
 $string['contextlocking_desc'] = 'Met deze instelling kun je "alleen-lezen" toegang instellen voor geselecteerde categorieën, cursussen, activiteiten en blokken binnen de site.';
 $string['cookiehttponly'] = 'Enkel http cookies';
@@ -625,7 +625,7 @@ $string['entitytasklog'] = 'Taak log';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
 $string['environmenterrorupgrade'] = 'Waarschuwing: je moet eerst alle hierboven gemelde omgevingsproblemen oplossen voor je verder gaat met de upgrade van Moodle! Upgraden zonder deze vereiste omgeving kan problemen zoals gegevensverlies veroorzaken. Ben je er zeker van dat je verder wil doen met deze upgrade?';
-$string['environmentmariadbwrongdbtype'] = 'Fout <code>$CFG->dbtype</code>: je moet dit wijzigen in je <code>config.php</code> -bestand, van \'<code>mysql</code>\' naar \'<code>mariadb</code>\'.';
+$string['environmentmariadbwrongdbtype'] = 'Fout $CFG->dbtype: je moet dit wijzigen in je config.php-bestand, van \'mysqli\' naar \'mariadb\'.';
 $string['environmentmustfixsetting'] = 'PHP-instelling moet gewijzigd worden';
 $string['environmentok'] = 'Je server voldoet aan alle minimumeisen';
 $string['environmentrecommendcustomcheck'] = 'Als deze test faalt, dan wijst dat op een mogelijk probleem';
@@ -750,9 +750,9 @@ $string['ipblocker'] = 'IP blokkeren';
 $string['ipblockersyntax'] = 'Zet elk item op één lijn. Geldige items zijn volledige IP-adressen (zoals <b>192.168.0.1</b>, die overeenkomen met één enkele machine; gedeeltelijke IP-adressen (zoals <b>192.168</b>) die overeenkomen met alle IP-adressen die met die nummers beginnen: of CIDR notatie van IP-adressen (zoals <b>231.3.56.10/20</b>) waar een bereik van toepassing is op het laatste deel van het adres. Domeinnamen (zoals voorbeeld.com) worden niet ondersteund. Lege regels worden genegeerd en tekst die volgt na een \'#"-teken wordt genegeerd.';
 $string['iplookup'] = 'IP-adres opzoeken';
 $string['iplookupgeoplugin'] = 'De <a href="https://www.geoplugin.com">geoPlugin</a> service wordt gebruikt om geografische informatie op te zoeken. Voor meer accurate resultaten kun je beter een lokale kopie van de MaxMind GeoLite databank installeren.';
-$string['iplookupinfo'] = 'Standaard gebruikt Moodle de gratis  NetGeo (The Internet Geographic Database) server om de plaats van IP-adressen op te zoeken. Jammer genoeg wordt deze databank niet meer onderhouden en kan  <em>foute</em> data weergeven.
-Het wordt dan ook aangeraden om een lokale kopie van de gratis GeoLite2 City database van MaxMind te installeren.<br />
-IP-adreslocatie wordt dan getoond op een eenvoudige kaart of op een kaart van Google Maps. Merk op dat je hiervoor een Google account nodig hebt en een gratis Google Maps API sleutel moet aanvragen om de interactieve kaarten in te schakelen.';
+$string['iplookupinfo'] = 'Standaard gebruikt Moodle de gratis online NetGeo server om de plaats van IP-adressen op te zoeken. Jammer genoeg wordt deze databank niet meer onderhouden en kan foute data weergeven.
+Het installeren van een lokale kopie van de gratis GeoLite2 City database van MaxMind wordt aangeraden.<br />
+Met een Google Maps API V3 key kun je de IP-adreslocatie tonen op een kaart van Google Maps. Je hebt hiervoor een Google account nodig en je moet een Google Maps API sleutel aanvragen. Als je geen Google Maps API V3 sleutel geeft, dan wordt de IP-locatie getoond met OpenStreetMap.';
 $string['iplookupmaxmindnote'] = 'Dit product bevat GeoLite2 data gemaakt door  MaxMind en beschikbaar van <a href="https://www.maxmind.com/">https://www.maxmind.com/</a>.';
 $string['iscustomadminwarnings'] = 'Er is gedetecteerd dat je site een aangepaste admin-map gebruikt. Deze functionaliteit wordt niet meer ondersteund en zal verwijderd worden na Moodle 4.2/';
 $string['ishttpswarning'] = 'Je site gebruikt geen HTTPS. Voor een betere beveiliging en voor een verbeterde integratie met andere systemen wordt sterk aangeraden om jouw site naar HTTPS om te schakelen.';
@@ -1472,6 +1472,7 @@ $string['unsupportedphpversion73'] = 'PHP-versie 7.3 en hoger worden niet onders
 $string['unsupportedphpversion74'] = 'PHP versie 7.4 en hoger worden niet ondersteund.';
 $string['unsupportedphpversion80'] = 'PHP-versie 8.0 en hoger worden niet ondersteund.';
 $string['unsupportedphpversion81'] = 'PHP-versie 8.1 en hoger worden niet ondersteund.';
+$string['unsupportedphpversion82'] = 'PHP versie 8.2 en hoger worden niet ondersteund.';
 $string['unsuspenduser'] = 'Activeer gebruikersaccount';
 $string['updateaccounts'] = 'Update bestaande accounts';
 $string['updateautocheck'] = 'Automatisch controleren op beschikbare updates';

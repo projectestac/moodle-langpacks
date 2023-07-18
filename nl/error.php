@@ -380,7 +380,7 @@ $string['invalidscaleid'] = 'Ongeldige schaal-ID';
 $string['invalidsection'] = 'Cursusmodulerecord bevat ongeldige sectie';
 $string['invalidsesskey'] = 'Je sessie is waarschijnlijk verlopen. Opnieuw inloggen aub.';
 $string['invalidshortname'] = 'Ongeldig korte cursusnaam';
-$string['invalidsourcefield'] = 'Het bronveld van het kladbestand is niet geldig';
+$string['invalidsourcefield'] = 'Het bronveld van het concept is niet geldig';
 $string['invalidstatedetected'] = 'Er ging wat fout: {$a}. Dit zou normaal niet mogen gebeuren';
 $string['invalidurl'] = 'Ongeldige url';
 $string['invaliduser'] = 'Ongeldige gebruiker';
@@ -506,7 +506,7 @@ $string['prefixcannotbeempty'] = '<p>Fout: databank tabel prefix kan niet leeg z
 <p>De site-beheerder moet dit probleem oplossen.</p>';
 $string['prefixtoolong'] = '<p>Fout: databank tabel prefix is te lang ({$a->dbfamily})</p>
 <p>De site-beheerder moet dit probleem oplossen. De maximale lengte voor de tabelprefix in {$a->dbfamily} is {$a->maxlength} tekens.</p>';
-$string['privatefilesupload'] = 'Rechtstreeks uploaden naar privé-bestanden van een gebruiker wordt niet meer ondersteund. Upload naar een ontwerp-zone en verplaats de bestanden dan met core_user::add_user_private_files';
+$string['privatefilesupload'] = 'Rechtstreeks uploaden naar privé-bestanden van een gebruiker wordt niet meer ondersteund. Upload naar een conceptzone en verplaats de bestanden dan met core_user::add_user_private_files';
 $string['processingstops'] = 'Verwerking stopt hier. De overgebleven records worden genegeerd';
 $string['protected_cc_not_supported'] = 'Protected cartridge niet ondersteund.';
 $string['querystringcannotbeempty'] = 'De query string kan niet leeg zijn.';

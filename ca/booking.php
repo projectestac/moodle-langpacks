@@ -35,3 +35,4 @@ $string['question'] = 'Pregunta';
 $string['responses'] = 'Respostes';
 $string['sendreminderemail'] = 'Envia un recordatori per correu electrònic';
 $string['withselected'] = 'Amb els usuaris seleccionats:';
+$string['yes'] = 'Sí';

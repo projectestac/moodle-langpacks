@@ -109,6 +109,7 @@ $string['backpackemailverifypending'] = '<strong>{$a}</strong>に確認メール
 $string['backpackemailverifysuccess'] = 'あなたのメールアドレスをご確認くださいましてありがとうございます。あなたのバックパックに接続しました。';
 $string['backpackemailverifytokenmismatch'] = 'あなたがクリックしたリンクのトークンが保存されているトークンと合致しません。あなたが受信した最新のメール内リンクをクリックしたことをご確認ください。';
 $string['backpackexporterror'] = 'バックパックにバッジをエクスポートできません。';
+$string['backpackexporterrorwithinfo'] = 'バッジ「 {$a->badgename} 」をバックパックにエクスポートできません。エラー: {$a->error}';
 $string['backpackimport'] = 'バッジインポート設定';
 $string['backpackimport_help'] = 'バックパック接続が正常に確立された後、あなたのバックパックのバッジをバッジページおよびプロファイルページに表示できます。 このエリアではあなたのプロファイルに表示したいバックパックのバッジのコレクションを選択できます。';
 $string['backpackneedsupdate'] = 'このプロファイルに接続したバックパックはサイトのバックパックと合致しません。あなたはバックパックの接続を解除して再度接続する必要があります。';

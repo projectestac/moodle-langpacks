@@ -569,7 +569,6 @@ $string['questiontextisempty'] = '[пустой текст вопроса]';
 $string['quizdate'] = 'Дата офлайн-теста';
 $string['quizopenclose'] = 'Даты открытия и закрытия';
 $string['quizopenclose_help'] = 'Студенты могут просматривать свои попытки после открытия и до закрытия';
-$string['quizquestions'] = 'Вопросы теста';
 $string['randomfromexistingcategory'] = 'Случайный вопрос из имеющийся категории';
 $string['randomnumber'] = 'Количество случайных вопросов';
 $string['randomquestionusinganewcategory'] = 'Случайный вопрос с использованием новой категории';

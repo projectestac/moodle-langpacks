@@ -30,3 +30,4 @@ $string['fullscreen'] = 'Pantalla completa';
 $string['markasread'] = 'Marca com a llegit';
 $string['modulename_link'] = 'mod/pdfannotator/view';
 $string['question'] = 'Pregunta';
+$string['yesButton'] = 'Sí';

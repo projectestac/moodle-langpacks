@@ -179,6 +179,7 @@ $string['mobileservice'] = 'Mobile services enabled ({$a})';
 $string['module'] = 'Module';
 $string['modulename'] = 'Name';
 $string['moreinfo'] = 'More information';
+$string['newwindowphrases'] = 'new window|new-window|new_window';
 $string['noerrorsfound'] = 'No common accessibility errors were found for your search parameters. Congratulations!';
 $string['norecords'] = 'No relevant records were found for your search parameters.';
 $string['notregistered'] = 'Your accessibility toolkit needs to be registered.';

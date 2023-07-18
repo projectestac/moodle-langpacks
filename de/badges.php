@@ -135,6 +135,7 @@ $string['backpackemailverifypending'] = 'Eine Bestätigungsmitteilung wurde an <
 $string['backpackemailverifysuccess'] = 'Danke für die Bestätigung Ihrer E-Mail-Adresse. Sie sind jetzt mit Ihrem Backpack verbunden.';
 $string['backpackemailverifytokenmismatch'] = 'Das Token im angeklickten Link stimmt nicht mit dem gespeicherten Token überein. Prüfen Sie, ob Sie wirklich den Link in der aktuellsten E-Mail angeklickt haben.';
 $string['backpackexporterror'] = 'Badge kann nicht in Backpack exportiert werden';
+$string['backpackexporterrorwithinfo'] = 'Das Badge "{$a->badgename}" kann nicht zum Backpack exportiert werden. Fehler: {$a->Fehler}';
 $string['backpackimport'] = 'Importeinstellungen';
 $string['backpackimport_help'] = 'Wenn die Verbindung zum Backpack erfolgreich hergestellt ist, können Badges aus Ihrem Backpack auf der Seite \'Meine Badges\' und in Ihrem Nutzerprofil angezeigt werden.
 

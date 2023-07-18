@@ -58,6 +58,7 @@ $string['enrolenddate'] = 'Einddatum';
 $string['enrolenddate_help'] = 'Indien ingeschakeld hebben gebruikers enkel tot die dag toegang.';
 $string['enrolenddateerror'] = 'Aanmelding -en einddatum kunnen niet vroeger zijn dan startdatum';
 $string['enrolisdisabled'] = 'De plugin "Publiceer als LTI" is uitgeschakeld.';
+$string['enrolltiversionincorrect'] = 'De bron is niet ingesteld voor gebruik via verouderde LTI (versies 1.1/2.0). Neem contact op met de beheerder van deze tool.';
 $string['enrolmentfinished'] = 'Aanmelding beëindigd.';
 $string['enrolmentnotstarted'] = 'Aanmeldingen zijn nog niet begonnen.';
 $string['enrolperiod'] = 'Aanmeldingsduur';

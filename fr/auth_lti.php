@@ -35,7 +35,7 @@ $string['createnewaccount'] = 'Je souhaite créer un nouveau compte';
 $string['currentlyloggedinas'] = 'Vous êtes actuellement connecté sous le nom :';
 $string['firstlaunchnoauthnotice'] = 'Vous devez être connecté au site pour lier votre compte existant. Veuillez vous connecter au site dans un nouvel onglet ou une nouvelle fenêtre, puis relancer l\'outil ici. Pour plus d\'informations, consulter la documentation <a href="{$a}" target="_blank">Publier comme outil LTI</a>.';
 $string['firstlaunchnotice'] = 'Il semble bien que c\'est votre première visite ici. Veuillez sélectionner l\'une des options suivantes pour votre compte.';
-$string['getstartedwithnewaccount'] = 'Commencer avec un nouveau comte';
+$string['getstartedwithnewaccount'] = 'Commencer avec un nouveau compte';
 $string['haveexistingaccount'] = 'J\'ai déjà un compte';
 $string['linkthisaccount'] = 'Lier ce compte';
 $string['mustbeloggedin'] = 'Vous devez être connecté avec votre compte existant';

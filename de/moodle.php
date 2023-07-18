@@ -1518,7 +1518,7 @@ $string['noreplybouncemessage'] = 'Sie haben an eine Nicht-Antworten-Adresse gea
 
 Inhalt der Nachricht:';
 $string['noreplybouncesubject'] = '{$a} - E-Mail nicht zustellbar';
-$string['noreplyname'] = 'Antworten Sie nicht auf diese E-Mail.';
+$string['noreplyname'] = 'Antworten Sie nicht auf diese E-Mail';
 $string['noresetrecord'] = 'Diese Anforderung passt zu keinem vorhandenen Nutzerkonto. Versuchen Sie das Zurücksetzen des Kennworts erneut!';
 $string['noresults'] = 'Keine Ergebnisse';
 $string['normal'] = 'Normal';

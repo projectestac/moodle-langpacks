@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['search'] = 'Cerca';
+$string['yes'] = 'Sí';

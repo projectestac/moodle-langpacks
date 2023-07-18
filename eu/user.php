@@ -157,3 +157,4 @@ $string['supportmessagesentforloggedoutuser'] = 'Kontuz ibili mezu honekin. Igor
 $string['target:upcomingactivitiesdue'] = 'Datozen jarduera-amaierak';
 $string['target:upcomingactivitiesdue_help'] = 'Helburu honek datozen jarduera-amaierentzako ohartarazpenak sortzen ditu.';
 $string['target:upcomingactivitiesdueinfo'] = 'Aurreikuspen guztietako programatutako jarduerak hemen erakusten dira. Ikasle hauek aurreikuspen hauek zuzenean jaso dituzte.';
+$string['userprofile'] = 'Erabiltzaile-profila';

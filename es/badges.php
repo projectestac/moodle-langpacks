@@ -135,6 +135,7 @@ $string['backpackemailverifypending'] = 'Se ha enviado un email de notificación
 $string['backpackemailverifysuccess'] = 'Gracias por verificar su dirección email. Ahora está conectado a su Mochila.';
 $string['backpackemailverifytokenmismatch'] = 'El token en el enlace que pinchó coincide con el token almacenado. Asegúrese de que hizo clic en el email más reciente que recibió.';
 $string['backpackexporterror'] = 'No se puede exportar la insignia a la mochila';
+$string['backpackexporterrorwithinfo'] = 'No se pudo exportar la insignia "{$a->badgename}" a la copia de respaldo. Error: {$a->error}';
 $string['backpackimport'] = 'Ajustes de importación de insignias';
 $string['backpackimport_help'] = 'Después de establecerse una conexión correcta a la mochila, las insignias de su mochila pueden verse en la página "Mis Badges"  y en su página de perfil.
 

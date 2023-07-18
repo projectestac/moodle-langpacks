@@ -66,6 +66,12 @@ URLa erakusteko modu ezberdinak daude, hala nola enbotaturik edo leiho berri bat
 Badago, bestalde, beste edozein baliabide edo aktibitateetan testu-editorea erabilita URLak gehitzeko aukera ere.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLak';
+$string['name'] = 'Izena';
+$string['name_help'] = 'Hau URLarentzako testua izango da.
+
+URLaren helburua ondo deskribatzen duen testu esanguratsu bat idatzi ezazu.
+
+Ekidin ezazu "esteka" hitza. Honek pantaila-irakurleak erabiltzen dituzten erabiltzaileei lagunduko die pantaila-irakurleek estekak iragartzen dituztelako (esaterako "Moodle.org, esteka") eta beraz ez dago "esteka" hitza testuaren eremuan gehitzeko beharrik.';
 $string['page-mod-url-x'] = 'URL moduluaren edozein orria';
 $string['parameterinfo'] = '&amp;parametroa=aldagaia';
 $string['parametersheader'] = 'URL aldagaiak';

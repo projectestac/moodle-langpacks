@@ -45,7 +45,9 @@ $string['check_crawlers_error'] = 'L\'accès aux visiteurs anonymes est autoris�
 $string['check_crawlers_info'] = 'Les moteurs de recherche peuvent accéder en tant que visiteur anonyme.';
 $string['check_crawlers_name'] = 'Ouvert à Google';
 $string['check_crawlers_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
-$string['check_defaultuserrole_details'] = '<p>Tous les utilisateurs connectés possèdent les capacités du rôle par défaut. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Utilisateur authentifié</em>. La capacité de voir les cours ne doit pas être autorisée.</p>';
+$string['check_defaultuserrole_details'] = '<p>Tous les utilisateurs connectés possèdent les capacités du rôle par défaut. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p>
+<p>Le seul type de rôle historique pris en charge pour un tel rôle est le rôle <em>Utilisateur authentifié</em>. La capacité de voir les cours ne doit pas être autorisée.</p>
+<p>Veuillez vérifier si l\'approbation automatique des demandes de suppression de données (tool_dataprivacy | automaticdatadeletionapproval) est activée. Les utilisateurs peuvent demander des suppressions pouvant détruire de grandes quantités de données.</p>';
 $string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs « {$a} » incorrectement défini !';
 $string['check_defaultuserrole_name'] = 'Rôle par défaut des utilisateurs';
 $string['check_defaultuserrole_notset'] = 'Le rôle par défaut n\'est pas défini.';

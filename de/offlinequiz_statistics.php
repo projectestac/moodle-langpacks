@@ -48,7 +48,7 @@ $string['differentquestions'] = 'Ihre Offline-Test-Gruppen enthalten unterschied
 $string['differentsumgrades'] = 'Ihre Offline-Test-Gruppen haben unterschiedliche maximale Bewertungen ({$a}).
  Deshalb können mehrere Werte, wie z.B. "Durchschnittliche erreichte Bewertung", "Median" und "Standardabweichung" für den Gesamttest nicht berechnet werden. Die Berechnung kann nur auf Basis
 der einzelnen Gruppen erfolgen. Bitte wählen Sie eine Gruppe aus!';
-$string['discrimination_index'] = 'Discrimination Index';
+$string['discrimination_index'] = 'Diskriminationsindex';
 $string['discriminative_efficiency'] = 'Unterscheidungs-Effizienz';
 $string['downloadeverything'] = 'Bericht herunterladen als';
 $string['duration'] = 'Geöffnet für';

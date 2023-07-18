@@ -47,7 +47,8 @@ $string['check_crawlers_info'] = 'Search engines may enter as guests.';
 $string['check_crawlers_name'] = 'Open to search engines';
 $string['check_crawlers_ok'] = 'Search engine access is not enabled.';
 $string['check_defaultuserrole_details'] = '<p>All logged in users are given capabilities of the default user role. Please make sure no risky capabilities are allowed in this role.</p>
-<p>The only supported legacy type for the default user role is <em>Authenticated user</em>. The course view capability must not be enabled.</p>';
+<p>The only supported legacy type for the default user role is <em>Authenticated user</em>. The course view capability must not be enabled.</p>
+<p>Please check if the automatic data deletion request approval(tool_dataprivacy | automaticdatadeletionapproval) option is enabled. Users can request deletions that could delete large amounts of data.</p>';
 $string['check_defaultuserrole_error'] = 'The default user role "{$a}" is incorrectly defined!';
 $string['check_defaultuserrole_name'] = 'Default role for all users';
 $string['check_defaultuserrole_notset'] = 'Default role is not set.';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = '変数を選択する ...';
-$string['clicktoopen'] = 'リソースを開くにはリンクをクリックしてください: {$a}';
+$string['clicktoopen'] = 'リソース開くには {$a} をクリックしてください。';
 $string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は変更されません。複数のフィールドを選択するにはCTRLキーを押したままにしてください。';
 $string['configframesize'] = 'フレーム内にウェブページまたはアップロードしたファイルが表示される場合の (ナビゲーションを含む) トップフレームサイズ (ピクセル) です。';
 $string['configrolesinparams'] = 'カスタマイズされたロール名 (コース設定から) をURLパラメータの変数として利用できるようにしますか?';
@@ -66,6 +66,12 @@ $string['modulename_help'] = 'URLモジュールにおいて教師はコース�
 テキストエディタをとおしてURLでは他のリソースまたは活動タイプを追加できることに留意してください。';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URL';
+$string['name'] = '名称';
+$string['name_help'] = 'これはURLのリンクテキストとなります。
+
+URLの目的を簡潔に説明する意味のあるテキストを入力してください。
+
+「link」という単語を使用しないでください。これはスクリーンリーダがユーザにリンクを知らせるための助けとなります (例「Moodle.org, link」)。そのため「link」という単語は名称フィールドに含める必要はありません。';
 $string['page-mod-url-x'] = 'すべてのURLモジュールページ';
 $string['parameterinfo'] = '&amp;parameter=変数';
 $string['parametersheader'] = 'URL変数';

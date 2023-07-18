@@ -773,8 +773,8 @@ $string['emailresetconfirmation'] = 'Hallo {$a->firstname},
 Er is een nieuw wachtwoord gevraagd voor jouw account \'{$a->username}\' op {$a->sitename}.
 
 Ga naar volgend adres om deze vraag te bevestigen en een nieuw wachtwoord voor je account te krijgen:
-
 {$a->link}
+
 (Deze link is {$a->resetminutes} minuten geldig vanaf het moment dat de aanvraag voor het nieuwe wachtwoord is gebeurd)
 
 Als je geen nieuw wachtwoord gevraagd hebt, dan hoef je verder niets te doen.

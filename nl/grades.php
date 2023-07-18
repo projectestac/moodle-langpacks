@@ -223,6 +223,7 @@ $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Fout bij het updaten v
 $string['errorupdatinggradecategoryaggregation'] = 'Fout bij het aanpassen van het aggregatietype van cijfercategorie ID {$a->id}';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Fout bij het updaten van de aggregatiecoëfficiënt (weging of bonus) van beoordelingsitem ID {$a->id}';
 $string['eventgradedeleted'] = 'Cijfer verwijderd';
+$string['eventgradeexported'] = 'Cijfer geëxporteerd';
 $string['eventgradeitemcreated'] = 'Cijfer item gemaakt';
 $string['eventgradeitemdeleted'] = 'Cijferitem verwijderd';
 $string['eventgradeitemupdated'] = 'Grade-item bijgewerkt';

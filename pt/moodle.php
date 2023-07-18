@@ -1077,19 +1077,19 @@ $string['htmlformat'] = 'Formato HTML';
 $string['icon'] = 'Ícone';
 $string['icqnumber'] = 'Número de ICQ';
 $string['idnumber'] = 'Número de identificação (ID)';
-$string['idnumbercourse'] = 'Código';
+$string['idnumbercourse'] = 'Código da disciplina';
 $string['idnumbercourse_help'] = 'O código de uma disciplina só é usado quando comunica com sistemas externos e não é mostrado na plataforma. Se a disciplina tem um código oficial pode ser inserido, caso contrário, o campo pode ser deixado em branco.';
-$string['idnumbercoursecategory'] = 'Número de identificação da categoria';
+$string['idnumbercoursecategory'] = 'Número de identificação (ID) da categoria';
 $string['idnumbercoursecategory_help'] = 'O número de identificação (ID) de uma categoria é usado apenas para comunicação com sistemas externos e não é exibido em nenhuma parte do site. Se a categoria tem um código do nome oficial, este pode ser inserido, caso contrário, o campo pode ficar em branco.';
-$string['idnumbergroup'] = 'Número de identificação do grupo';
+$string['idnumbergroup'] = 'Número de identificação (ID) do grupo';
 $string['idnumbergroup_help'] = 'O número de identificação (ID) de um grupo é usado apenas para comunicação com sistemas externos e não é exibido em nenhum lugar do site. Se o grupo tem um código do nome oficial, este pode ser inserido, caso contrário, o campo pode ficar em branco.';
-$string['idnumbergrouping'] = 'Número de identificação do agrupamento';
+$string['idnumbergrouping'] = 'Número de identificação (ID) do agrupamento';
 $string['idnumbergrouping_help'] = 'O número de identificação (ID) de um agrupamento é usado apenas para comunicação com sistemas externos e não é exibido em nenhuma parte do site. Se o agrupamento tem um código do nome oficial, este pode ser inserido, caso contrário, o campo pode ficar em branco.';
 $string['idnumbermod'] = 'Número de identificação (ID)';
 $string['idnumbermod_help'] = 'Definir um número de identificação (ID) é uma forma de identificar a atividade ou o recurso para fins de cálculo de notas ou relatórios personalizados. Se não for o caso, o campo pode ficar em branco.
 
 Para atividades a serem avaliadas, o número de identificação (ID) também pode ser definido ao configurar a pauta, no entanto, só pode ser editado na página de configurações da atividade.';
-$string['idnumbertaken'] = 'Este número de identificação já está a ser usado';
+$string['idnumbertaken'] = 'Este número de identificação (ID) já está a ser usado';
 $string['imagealt'] = 'Descrição da imagem';
 $string['import'] = 'Importar';
 $string['importdata'] = 'Importar dados de disciplina';

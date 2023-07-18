@@ -46,6 +46,7 @@ $string['donotsendnotification'] = 'Systembenachrichtigung nicht an alle senden'
 $string['enableprocessor'] = 'Mobile Systemnachrichten aktivieren';
 $string['encryptnotifications'] = 'Benachrichtigungen verschlüsseln';
 $string['encryptprocessing'] = 'Für Endgeräte die keine Verschlüsselung unterstützen';
+$string['encryptprocessing_desc'] = 'Verschlüsselte Benachrichtigungen erfordern mindestens Android 8 oder iOS 13, sowie die Moodle App 4.2 oder aktueller.';
 $string['errorretrievingkey'] = 'Beim Abrufen des Zugriffsschlüssels ist ein Fehler aufgetreten. Ihre Website muss registriert sein, um diesen Service nutzen zu können. Wenn Ihre Website bereits registriert ist, aktualisieren Sie bitte Ihre Registrierung. Alternativ erhalten Sie einen Zugriffsschlüssel, indem Sie ein Konto im <a href="https://apps.moodle.com">Moodle Apps Portal</a> erstellen.';
 $string['keyretrievedsuccessfully'] = 'Der Zugriffsschlüssel wurde erfolgreich abgerufen. Um auf die Nutzungsstatistiken für Moodle-Apps zuzugreifen, erstellen Sie ein Konto im <a href="https://apps.moodle.com">Moodle Apps-Portal</a>.';
 $string['messageprovidersempty'] = 'In den standardmäßigen Einstellungen für die Push-Mitteilungen keine mobilen Benachrichtigungen aktiviert.';

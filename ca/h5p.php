@@ -41,6 +41,7 @@ $string['authorcommentsdescription'] = 'Comentaris per a l\'editor del contingut
 $string['authorname'] = 'Nom de l\'autor';
 $string['authorrole'] = 'Funció de l\'autor';
 $string['by'] = 'per';
+$string['cancelPublishConfirmationDialogConfirmButtonText'] = 'Sí';
 $string['cancellabel'] = 'Cancel·la';
 $string['ccattribution'] = 'Attribution (CC BY)';
 $string['ccattributionnc'] = 'Attribution-NonCommercial (CC BY-NC)';

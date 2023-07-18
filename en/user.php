@@ -157,3 +157,4 @@ $string['supportmessagesentforloggedoutuser'] = 'Be careful with this message. T
 $string['target:upcomingactivitiesdue'] = 'Upcoming activities due';
 $string['target:upcomingactivitiesdue_help'] = 'This target generates reminders for upcoming activities due.';
 $string['target:upcomingactivitiesdueinfo'] = 'All upcoming activities due insights are listed here. These students have received these insights directly.';
+$string['userprofile'] = 'User profile';

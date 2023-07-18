@@ -46,6 +46,7 @@ $string['donotsendnotification'] = 'Ez bidali inolako jakinarazpenik';
 $string['enableprocessor'] = 'Gaitu mobile jakinarazpenak.';
 $string['encryptnotifications'] = 'Zifratu jakinarazpenak';
 $string['encryptprocessing'] = 'Zifratzea onartzen ez duten gailuentzat';
+$string['encryptprocessing_desc'] = 'Zifratutako jakinarazpenek gutxienez Android 6 ala iOS 13 eta Moodle Aplikazioaren 4.2 edo goragoko bertsioa izatea behar dute.';
 $string['errorretrievingkey'] = 'Errorea gertatu da sarrera-gakoa berreskuratzean. Zure gunea erregistratuta egon behar da zerbitzu hau erabiltzeko. Zure gunea dagoeneko erregistratuta badago mesedez saiatu zure erregistroa eguneratzen. Bestela, sarbide-gako bat lortu dezakezu <a href="https://apps.moodle.com">Moodle Aplikazioen Atarian</a> kontu bat sortuta.';
 $string['keyretrievedsuccessfully'] = 'Gakoa ondo berreskuratu da. Moodle aplikazioaren erabilera-estatistiketara sarbidea izateko, sortu ezazu mesedez kontu bat <a href="https://apps.moodle.com">Moodle Aplikazioen Atarian</a>.';
 $string['messageprovidersempty'] = 'Ez dago mobile jakinarazpenik gaituta lehenetsitako jakinarazpenen hobespenetan.';

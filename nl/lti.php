@@ -293,8 +293,9 @@ Externe tool-activiteiten verschillen van URL-bronnen op verschillende manieren:
 * Externe tools ondersteunen lezen, aanpassen en verwijderen van cijfers die aan de activiteit gelinkt zijn
 * Externe tool configuraties maken een vertrouwensrelatie tussen jouw site en de tool provider, waardoor een beveiligde communicatie tussen de twee mogelijk is';
 $string['modulename_link'] = 'mod/lti/view';
+$string['modulename_shortcut_link'] = 'mod/lti/view/custom';
 $string['modulenameplural'] = 'Externe tools';
-$string['modulenamepluralformatted'] = 'LTI-exemplaren';
+$string['modulenamepluralformatted'] = 'Externe tools';
 $string['name'] = 'Naam';
 $string['never'] = 'Nooit';
 $string['new_window'] = 'Nieuw venster';

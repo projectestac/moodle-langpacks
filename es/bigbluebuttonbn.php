@@ -187,7 +187,13 @@ $string['config_scheduled_description'] = 'Estas configuraciones definen algunos
 $string['config_scheduled_pre_opening'] = 'Accesible antes de la hora de apertura (minutos)';
 $string['config_scheduled_pre_opening_description'] = 'El tiempo en minutos para que la sesión sea accesible antes de que sea la hora de apertura programada.';
 $string['config_server_url'] = 'URL del servidor BigBlueButton';
-$string['config_server_url_description'] = 'La URL de su servidor BigBlueButton debe terminar en  /bigbluebutton/. (Esta URL por defecto es para un servidor BigBlueButton proporcionado por Blindside Networks que Usted puede usar para pruebas.)';
+$string['config_server_url_description'] = 'Las credenciales por defecto son para un  <a href="https://bigbluebutton.org/free-bigbluebutton-service-for-moodle/" target="_blank"> servicio gratuito de BigBlueButton de Moodle (abre en ventana nueva)</a> proporcionado por Blindside Networks con las siguientes restricciones:
+<ol>
+<li>La duración máxima de cada sesión es de 60 minutos</li>
+<li>El número maximo de usuarios concurrentes por sesión es 25</li>
+<li>Las grabaciones expiran tras siete (7) días y no son desacargables</li>
+<li>Las cámaras web de estudiantes solamente son visibles para el moderador.</li>
+</ol>';
 $string['config_shared_secret'] = 'Clave secreta de BigBlueButton';
 $string['config_shared_secret_description'] = 'La sal de seguridad de su servidor BigBlueButton. (esta sal por defecto es para un servidor BigBlueButton proporcionado por Blindside Networks que Usted puede usar para pruebas.)';
 $string['config_uidelegation_enabled'] = 'La delegación de interfaz de usuario está habilitada';

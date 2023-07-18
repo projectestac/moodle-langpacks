@@ -770,14 +770,14 @@ $string['emailpasswordsent'] = 'Grazie per aver confermato il cambiamento della 
 La nuova password è stata generata automaticamente, <a href="{$a->link}">se vuoi puoi cambiarla con una di tua scelta</a>.';
 $string['emailresetconfirmation'] = 'Gentile {$a->firstname},
 
-è stata richiesta una nuova password per il tuo account \'{$a->username}\' su \'{$a->sitename}\'.
+è stato richiesto un cambio password del tuo account \'{$a->username}\' su \'{$a->sitename}\'.
 
-Per confermare la richiesta ed impostare una nuova password devi cliccare sul link seguente:
-
+Per confermare la richiesta ed impostare una nuova password, fare click sul link seguente:
 {$a->link}
-(Il link sarà valido per i {$a->resetminutes} minuti successivi alla richiesta)
 
-Se la richiesta non è stata effettuata da te, non devi fare nulla.
+(Il link sarà valido per {$a->resetminutes} minuti a partire dal momento in cui è stata effettuata la richiesta)
+
+Se la richiesta non è stata effettuata da te, puoi ignorare questa email.
 
 Se hai bisogno di aiuto, contatta l\'amministratore del sito, {$a->admin}';
 $string['emailresetconfirmationsubject'] = '{$a}: Richiesta recupero password';

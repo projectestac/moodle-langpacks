@@ -65,6 +65,12 @@ Hay una serie de opciones de visualización de la URL, como incrustada o abierta
 Tenga en cuenta que las URLs también pueden ser añadidas en otros recursos o actividades a través del editor de texto.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLs';
+$string['name'] = 'Nombre';
+$string['name_help'] = 'Esto servirá como texto de enlace de la URL.
+
+Introduzca un texto con sentido que describa el propósito de la URL.
+
+Evite usar la palabra "link/enlace". Esto ayudará a los usuarios de lectores de pantalla porque éstos anuncian los enlaces (p.ej. "Moodle.org, enlace") así que no hay necesidad de incluir la palabra "enlace" en el nombre del campo.';
 $string['page-mod-url-x'] = 'Cualquier página del módulo URL';
 $string['parameterinfo'] = '&amp;parámetro=variable';
 $string['parametersheader'] = 'Variables URL';

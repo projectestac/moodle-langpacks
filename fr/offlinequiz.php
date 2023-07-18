@@ -156,8 +156,6 @@ $string['downloadpdfs'] = 'Formulaires';
 $string['downloadresultsas'] = 'Télécharger les résultats comme :';
 $string['dragtoafter'] = 'Après {$a}';
 $string['dragtostart'] = 'Au début';
-$string['editgrades'] = 'Notes';
-$string['editgradeslistitem'] = 'Total de points : {$a}';
 $string['editgroupquestions'] = 'Modifier les questions des groupes';
 $string['editgroups'] = 'Modifier les groupes hors-ligne';
 $string['editingofflinequiz'] = 'Modification des questions des groupes';
@@ -570,8 +568,6 @@ $string['privacy:metadata:offlinequiz_scanned_pages:status'] = 'Le statut de cet
 $string['privacy:metadata:offlinequiz_scanned_pages:time'] = 'L\'heure à laquelle cette page a été traitée.';
 $string['privacy:metadata:offlinequiz_scanned_pages:userkey'] = 'La « clé d\'utilisateur » (pas l\'identifiant) de l\'utilisateur barré sur la page.';
 $string['privacy:metadata:offlinequiz_scanned_pages:warningfilename'] = 'Le nom du fichier qui est créé lorsqu\'un test hors-ligne mal rempli est corrigé et que l\'utilisateur reçoit un avertissement à ce sujet.';
-$string['question_created'] = 'La question a été créée avec succès.';
-$string['question_updated'] = 'La question a été mise à jour avec succès.';
 $string['questionanalysis'] = 'Analyse des questions';
 $string['questionanalysistitle'] = 'Tableau de l\'analyse des questions';
 $string['questionandansweranalysis'] = 'Analyse des questions et réponses';
@@ -676,7 +672,6 @@ $string['quizopenclose_help'] = 'La relecture en ligne peut être limité à une
 **Attention :** Si aucune période n\'est activée pour la révision en ligne, la révision est illimitée tant que le test hors ligne est visible pour les participants.
 
 Dans tous les cas, seules les options cochées sous « La relecture inclut » sont affichées.';
-$string['quizquestions'] = 'Questions du test';
 $string['qversioncannotupdate'] = 'La question ne peut pas être mise à jour. La version de la question n\'a pas changé.';
 $string['qversionnumbersdiffer'] = 'Le nombre de réponses diffère entre l\'ancienne et la nouvelle version. Cela conduirait à des incohérences.';
 $string['qversionupdated'] = 'Question mise à jour. La version de la question a changé.';
@@ -859,7 +854,6 @@ $string['usernotincourse'] = 'L\'utilisateur {$a} ne participe pas au cours.';
 $string['usernotinlist'] = 'Utilisateur non enregistré dans la liste !';
 $string['usernotregistered'] = 'L\'utilisteur {$a} n\'est pas enregistré dans le cours';
 $string['userpageimported'] = 'Page isolée évaluée pour l\'utilisateur {$a}';
-$string['userswithoutresult'] = 'Nombre d\'utilisateurs sans résultat :';
 $string['valuezero'] = 'La valeur ne doit pas être nulle';
 $string['viewresults'] = 'Voir les résultats';
 $string['white'] = 'Blanc';

@@ -47,7 +47,8 @@ $string['check_crawlers_info'] = 'Zoekrobots mogen binnen als gasten';
 $string['check_crawlers_name'] = 'Open voor Google';
 $string['check_crawlers_ok'] = 'Gast-toegang voor zoekrobots uitgeschakeld';
 $string['check_defaultuserrole_details'] = '<p>Alle aangemelde gebruikers krijgen de mogelijkheden van de standaard rol. Zorg er voor dat er geen gevaarlijke mogelijkheden toegelaten zijn in deze rol.</p>
-<p>De enige ondersteunde verouderde rol voor de standaard gebruiker is de rol: <em>geauthenticeerde gebruiker</em>. De bekijk cursusmogelijkheid kan beter niet ingeschakeld zijn.</p>';
+<p>De enige ondersteunde verouderde rol voor de standaard gebruiker is de rol: <em>geauthenticeerde gebruiker</em>. De bekijk cursusmogelijkheid kan beter niet ingeschakeld zijn.</p>
+<p>Controleer of de de tool voor automatisch aanvraag om gegevens verwijderen (tool_dataprivacy | automaticdatadeletionapproval) is ingeschakeld. Gebruikers kunnen dan aanvragen om gegevensverwijdering aanvragen die grote hoeveelheden gegevens kunnen verwijderen.</p>';
 $string['check_defaultuserrole_error'] = 'Fout gedefinieerde standaard rol "{$a}" gedetecteerd!';
 $string['check_defaultuserrole_name'] = 'Standaard rol voor alle gebruikers';
 $string['check_defaultuserrole_notset'] = 'Standaardrol niet ingeschakeld';

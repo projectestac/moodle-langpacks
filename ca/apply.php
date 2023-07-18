@@ -45,3 +45,4 @@ $string['info'] = 'informació';
 $string['multichoice'] = 'Opció múltiple';
 $string['public'] = 'Públic';
 $string['submitted'] = 's\'ha tramès';
+$string['yes_button'] = 'Sí';

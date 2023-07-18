@@ -46,6 +46,7 @@ $string['pmcaps'] = 'После полудня';
 $string['strftimedate'] = '%d %B %Y';
 $string['strftimedatefullshort'] = '%d/%m/%y';
 $string['strftimedatemonthabbr'] = '%d %b %Y';
+$string['strftimedatemonthtimeshort'] = '%d %b %Y, %I:%M';
 $string['strftimedateshort'] = '%d %B';
 $string['strftimedateshortmonthabbr'] = '%d %b';
 $string['strftimedatetime'] = '%d %B %Y, %H:%M';

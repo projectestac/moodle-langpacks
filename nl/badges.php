@@ -111,12 +111,13 @@ $string['backpackconnectionnottested'] = 'Verbinding kan niet worden getest voor
 $string['backpackconnectionok'] = 'Backpack verbinding tot stand gebracht';
 $string['backpackconnectionresendemail'] = 'Stuur de e-mail voor verificatie opnieuw';
 $string['backpackconnectionunexpectedmessage'] = 'De backpack retourneerde de fout: "{$a}".';
-$string['backpackconnectionunexpectedresult'] = 'Er was een probleem met het verbinden met Backpack. Controleer je gebruikersnaam en wachtwoord en probeer opnieuw.';
+$string['backpackconnectionunexpectedresult'] = 'Er was een probleem met het verbinden met Backpack. Je backpackprovider stuurt dit bericht: \'{$a}\'';
 $string['backpackdetails'] = 'Backpack instellingen';
 $string['backpackdisconnected'] = 'Backpack verbinding is verbroken';
 $string['backpackemail'] = 'E-mailadres';
 $string['backpackemail_help'] = 'E-mailadres dat met je backpack geassocieerd is.
 Als je verbindt worden alle badges die je op deze site verdient gekoppeld aan dit e-mailadres.';
+$string['backpackemail_required'] = 'E-mailadres mag niet leeg zijn';
 $string['backpackemailverificationpending'] = 'Wachten op verificatie';
 $string['backpackemailverifyemailbody'] = 'Hallo,
 
@@ -135,6 +136,7 @@ $string['backpackemailverifypending'] = 'Er is een e-mail verstuurd naar <strong
 $string['backpackemailverifysuccess'] = 'Bedankt voor het verifiëren van je e-mailadres. Je bent nu verbonden met jouw Backpack.';
 $string['backpackemailverifytokenmismatch'] = 'Het token in de link waarop je geklikt hebt, komt niet overeen met het opgeslagen token. Zorg ervoor dat je klikt op de link van de meest recente e-mail die je ontvangen hebt.';
 $string['backpackexporterror'] = 'Kan de badge niet exporteren naar backpack';
+$string['backpackexporterrorwithinfo'] = 'Kan de badge "{$a->badgename}" niet exporteren naar rugzak. Fout: {$a->error}';
 $string['backpackimport'] = 'Badge import instellingen';
 $string['backpackimport_help'] = 'Nadat de backpack-verbinding gelukt is, kunnen badges uit je backpack getoond worden op jouw badges-pagina en je profielpagina.
 
@@ -466,6 +468,7 @@ $string['openbadgesv2'] = 'Open Badges v2.0';
 $string['openbadgesv2p1'] = 'Open Badges v2.1';
 $string['othernavigation'] = 'Andere navigatie...';
 $string['overallcrit'] = 'van de geselecteerde criteria zijn voltooid.';
+$string['password_required'] = 'Wachtwoord mag niet leeg zijn';
 $string['potentialrecipients'] = 'Mogelijke badge-ontvangers';
 $string['preferences'] = 'Badge voorkeuren';
 $string['privacy:metadata:backpack'] = 'De backpacks die een gebruiker gekregen heeft';

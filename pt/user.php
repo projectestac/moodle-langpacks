@@ -157,3 +157,4 @@ $string['supportmessagesentforloggedoutuser'] = 'Tenha cuidado com esta mensagem
 $string['target:upcomingactivitiesdue'] = 'Atividades com data limite próxima';
 $string['target:upcomingactivitiesdue_help'] = 'Esta meta gera lembretes para as atividades com data limite próxima.';
 $string['target:upcomingactivitiesdueinfo'] = 'Todas as perceções sobre "atividades a terminar brevemente". Estes alunos receberam estas perceções diretamente.';
+$string['userprofile'] = 'Perfil do utilizador';

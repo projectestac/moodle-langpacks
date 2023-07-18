@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['default_help'] = 'Si s\'habilita, aquest mètode de tramesa s\'habilitarà per defecte per a totes les tasques noves.';
 $string['deletesubmission'] = 'Elimina aquesta tramesa.';
-$string['yes'] = 'sí';
+$string['yes'] = 'Sí';
