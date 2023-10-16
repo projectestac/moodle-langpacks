@@ -574,6 +574,7 @@ $string['onascaleof'] = 'en una escala {$a->grademin} - {$a->grademax}';
 $string['operations'] = 'Operacions';
 $string['options'] = 'Opcions';
 $string['others'] = 'Altres';
+$string['otheruser'] = 'Usuari';
 $string['outcome'] = 'Resultat';
 $string['outcome_help'] = 'Aquest paràmetre determina el resultat que representarà aquest element de qualificació al llibre de qualificacions.';
 $string['outcomeassigntocourse'] = 'Assigna un altre resultat a aquest curs';

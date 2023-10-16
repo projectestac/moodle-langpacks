@@ -415,5 +415,5 @@ $string['totalcoursesearchresults'] = 'Total de disciplinas: {$a}';
 $string['undefinedrolemapping'] = 'Mapeamento de papel indefinido para o arquétipo \'{$a}\'.';
 $string['unnamedsection'] = 'Secção sem nome';
 $string['userdata'] = 'Incluir dados do utilizador';
-$string['userdata_help'] = 'Esta configuração determina se dados como publicações no fórum, submissões de trabalhos, etc. serão copiados para a nova disciplina para qualquer utilizador com o papel selecionado em \'Incluir inscrições dos papéis\'.';
+$string['userdata_help'] = 'Esta configuração determina se dados, tais como publicações no fórum, submissões de trabalhos, etc. serão copiados para a nova disciplina para qualquer utilizador com o papel selecionado em \'Incluir inscrições dos papéis\'.';
 $string['userinfo'] = 'Informação do utilizador';

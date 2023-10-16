@@ -30,6 +30,7 @@ $string['answer_checked'] = '解答チェック済み';
 $string['answer_correct'] = 'あなたの答えは正解です。';
 $string['answer_fail'] = '不正解';
 $string['answer_incorrect'] = 'あなたの答えは不正解です。';
+$string['answer_noanswer'] = 'なし';
 $string['answer_pass'] = '正解';
 $string['answer_text'] = '解答テキスト';
 $string['answer_unchecked'] = '解答未チェック';

@@ -64,7 +64,7 @@ $string['enablemessaging'] = 'Taldeko mezularitza';
 $string['enablemessaging_help'] = 'Gaituz gero, taldekideek mezuen nabigazio-kutxatik mezuak elkarri bidal diezazkiekete.';
 $string['encoding'] = 'Kodifikazioa';
 $string['enrolmentkey'] = 'Matrikulazio-gakoa';
-$string['enrolmentkey_help'] = 'Matrikulazio-giltzek talde baterako sarbidea pasahitza ezagutzen dutenei mugatzeko aukera ematen dute. Matrikulazio-gako bat zehaztuz gero, gakoa sartuz gero erabiltzailea ikastaroan sartzeaz gain, talde horretako kide ere bihurtuko du.
+$string['enrolmentkey_help'] = 'Matrikulazio-gakoek talde baterako sarbidea pasahitza ezagutzen dutenei mugatzeko aukera ematen dute. Matrikulazio-gako bat zehaztuz gero, gakoa sartuz gero erabiltzailea ikastaroan sartzeaz gain, talde horretako kide ere bihurtuko du.
 
 Oharra: Taldeen matrikulazio-gakoak matrikulazio automatikoko ezarpenetan gaitu behar dira eta ikastarorako matrikulazio-gakoa ere zehaztu beharko da.';
 $string['enrolmentkeyalreadyinuse'] = 'Matrikulazio-gako hau beste talde baterako erabiltzen ari da jada.';
@@ -174,7 +174,7 @@ $string['number'] = 'Talde-kopurua edo kide-kopurua taldeko';
 $string['numgroups'] = 'Talde-kopurua';
 $string['nummembers'] = 'Kideak taldeko';
 $string['othergroups'] = 'Beste taldeak';
-$string['overview'] = 'Ikuspegi orokorra';
+$string['overview'] = 'Taldeen ikuspegi orokorra';
 $string['potentialmembers'] = 'Balizko kideak: {$a}';
 $string['potentialmembs'] = 'Balizko kideak';
 $string['printerfriendly'] = 'Talde-multzoa inprimatzeko formatuan erakutsi';

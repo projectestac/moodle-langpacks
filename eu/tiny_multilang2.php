@@ -27,8 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addlanguage'] = 'Gehitu hizkuntza eskuz';
 $string['addlanguage_desc'] = 'Aukera hau hautatzen baduzu, hizkuntzak eskuz gehitu ahalko dituzu hizkuntzari dagokion ISO kodea azpiko testu-kutxan sartuta. Bestela, Hizkuntza-paketeak atalean gutxienez 2 hizkuntza instalatuta izan beharko dituzu.';
-$string['fallbackspantag'] = 'Onartu &lt;span&gt; etiketak';
-$string['fallbackspantag_desc'] = '{mlang} sintaxiaz gain baimendu ohiko &lt;span class="multilang"&gt; etiketak erabiltzea.';
 $string['helplinktext'] = 'Eduki eleaniztuna (2.bertsioa)';
 $string['highlight'] = 'Nabarmendu bereizleak';
 $string['highlight_desc'] = 'Bisualki nabarmendu WYSIWYG editorean eduki eleaniztunaren bereizleak ({mlang XX} eta {mlang} erakoak).';
@@ -61,6 +59,5 @@ $string['privacy:metadata'] = 'Tiny editorearentzako eduki eleaniztuna (2.bertsi
 $string['removealltags'] = 'Kendu hizkuntza etiketa guztiak';
 $string['requiremultilang2'] = 'Behartu Eduki eleaniztuna (2.bertsioa) iragazkia';
 $string['requiremultilang2_desc'] = 'Gaituz gero, hizkuntzen aukera-menua soilik egongo da ikusgai Eduki eleaniztuna (2.bertsioa) iragazkia gaituta badago.';
-$string['settings'] = 'Tiny editorearentzako eduki eleaniztunaren (2.bertsioa) ezarpenak';
 $string['showalllangs'] = 'Erakutsi hizkuntza guztiak';
 $string['showalllangs_desc'] = 'Gaituz gero, hizkuntzen aukera-menuak Moodlek onartzen dituen hizkuntza guztiak erakutsiko ditu. Bestela, soilik gune honetan instalatuta eta gaituta dauden hizkuntzak erakutsiko dira.';

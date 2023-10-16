@@ -34,7 +34,7 @@ $string['errorsetconfig'] = 'Les variables $CFG->behat_dataroot, $CFG->behat_pre
 $string['erroruniqueconfig'] = 'Les variables $CFG->behat_dataroot, $CFG->behat_prefix et $CFG->behat_wwwroot doivent être définies avec des valeurs différentes de $CFG->dataroot, $CFG->prefix, $CFG->wwwroot, $CFG->phpunit_dataroot et $CFG->phpunit_prefix.<br/>Ou bien, si $CFG->behat_prefix est le même, $CFG->behat_dbname ou $CFG->behat_dbhost doivent être différents de $CFG->phpunit_dbname et $CFG->phpunit_dbhost et de $CFG->dbname et $CFG->dbhost.';
 $string['fieldvalueargument'] = 'Paramètres de la valeur du champ';
 $string['fieldvalueargument_help'] = 'Ce paramètre doit être renseigné avec une valeur de champ. Il y a beaucoup de types de champ, certains simples, par exemple cases à cocher, boîtes de sélection et zones de texte, ou plus complexes comme des sélecteurs de date. Veuillez consulter <a href="https://moodledev.io/general/development/tools/behat" target="_blank">Acceptance testing</a> (en anglais) pour des informations sur les valeurs attendues en fonction du type de champ fourni.';
-$string['giveninfo'] = 'Donné. Processus pour mettre en place l\'environnement';
+$string['giveninfo'] = 'Donné. Processus pour configurer l\'environnement';
 $string['infoheading'] = 'Info';
 $string['installinfo'] = 'Lire {$a} pour des informations sur l\'installation et l\'exécution des tests.';
 $string['newstepsinfo'] = 'Lire {$a} pour des informations sur l\'ajout de la définitions d\'étape';

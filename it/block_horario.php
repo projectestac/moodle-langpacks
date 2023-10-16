@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'checklist', language 'ca', version '4.1'.
+ * Strings for component 'block_horario', language 'it', version '4.1'.
  *
- * @package     checklist
+ * @package     block_horario
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,14 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['autoupdate'] = 'Marca quan es completen els mòduls';
-$string['comments'] = 'Comentaris';
-$string['duedatesoncalendar'] = 'Afegeix dates de venciment al calendari';
-$string['export'] = 'Exporta elements';
-$string['gradetocomplete'] = 'Qualificació per a complet:';
-$string['import'] = 'Importa elements';
-$string['itemcomplete'] = 'Completat';
-$string['modulename_link'] = 'mod/checklist/view';
-$string['progress'] = 'Progrés';
-$string['showprogressbars'] = 'Mostra les barres de progrés';
-$string['updatecompletescore'] = 'Desa les qualificacions de la compleció';
+$string['access_allowed'] = 'Accesso consentito solo negli orari specificati';
+$string['access_denied'] = 'Accesso negato negli orari specificati';

@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'checklist', language 'ca', version '4.1'.
+ * Strings for component 'block_dedication', language 'nl', version '4.1'.
  *
- * @package     checklist
+ * @package     block_dedication
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,14 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['autoupdate'] = 'Marca quan es completen els mòduls';
-$string['comments'] = 'Comentaris';
-$string['duedatesoncalendar'] = 'Afegeix dates de venciment al calendari';
-$string['export'] = 'Exporta elements';
-$string['gradetocomplete'] = 'Qualificació per a complet:';
-$string['import'] = 'Importa elements';
-$string['itemcomplete'] = 'Completat';
-$string['modulename_link'] = 'mod/checklist/view';
-$string['progress'] = 'Progrés';
-$string['showprogressbars'] = 'Mostra les barres de progrés';
-$string['updatecompletescore'] = 'Desa les qualificacions de la compleció';
+$string['admin_filter_courseid'] = 'Naam cursus';
+$string['admin_filter_courseid_help'] = 'Filter het rapport op de cursusnaam';
+$string['admin_filter_form'] = 'Configuratie cursusindeling';
+$string['admin_filter_maxtime'] = 'Einde van de periode';
+$string['admin_filter_mintime'] = 'Start van de periode';
+$string['admin_filter_submit'] = 'Bereken';
+$string['entity_dedication'] = 'Uren activiteit';

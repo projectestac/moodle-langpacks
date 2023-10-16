@@ -244,7 +244,7 @@ $string['configdisableuserimages'] = 'ユーザがユーザプロファイルイ
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
 $string['configdndallowtextandlinks'] = 'この設定を有効にした場合、コースへのテキスト、リンクおよびファイルのドラッグ＆ドロップを有効にします。Firefoxへのテキストのドラッグ、または異なるブラウザ間でのテキストのドラッグは信頼性に欠けます。結果として、データがアップロードされない、または文字化けしたテキストがアップロードされる可能性があることに留意してください。';
 $string['configdoclang'] = 'この言語がドキュメンテーションページのリンクに使用されます。';
-$string['configdocroot'] = 'それぞれのページのフッタに表示される「ヘルプおよびドキュメンテーション」リンクに関して文脈固有のMoodle Docsのパスを定義してください。このフィールドが空白のままにした場合、リンクは表示されません。';
+$string['configdocroot'] = 'それぞれのページのフッタに表示される「ヘルプおよびドキュメンテーション」リンクに関して文脈固有のMoodle Docsのパスを定義してください。フィールドを空白のままにした場合、リンクは表示されません。';
 $string['configdoctonewwindow'] = 'この設定を有効にした場合、新しいウィンドウにMoodle Docsのリンクが表示されます。';
 $string['configeditordictionary'] = 'この値はAspellがユーザ言語の辞書を持っていない場合に使用されます。';
 $string['configeditorfontlist'] = 'エディタのドロップダウンリストに表示されるフォントを選択してください。';
@@ -641,7 +641,7 @@ $string['environmentxmlerror'] = '環境データ ({$a->error_code}) の読み�
 $string['errordeletingconfig'] = 'プラグイン「 {$a} 」の設定レコード削除中にエラーが発生しました。';
 $string['errorsetting'] = '設定を保存できませんでした:';
 $string['errorwithsettings'] = 'エラーが発生したため、いくつかの設定は変更されませんでした:';
-$string['eventshandlersinuse'] = 'あなたのシステムの次のプラグインは廃止予定のハンドラ「 {$a} 」のイベント1APIを使用しています。イベント2APIを使用するよう更新してください。詳細は次をご覧ください: https://docs.moodle.org/dev/Event_2#Event_dispatching_and_observers';
+$string['eventshandlersinuse'] = 'あなたのシステムの次のプラグインは廃止予定のハンドラ「 {$a} 」のイベント1APIを使用しています。イベント2APIを使用するよう更新してください。詳細は次をご覧ください: https://docs.moodle.org/dev/Events_API#Event_dispatching_and_observers';
 $string['everyonewhocan'] = '「 {$a} 」ことができるユーザすべて';
 $string['exceptions'] = '例外';
 $string['execpathnotallowed'] = 'config.php内で実行パスおよびローカルパスを無効に設定することができます。';
@@ -1276,6 +1276,8 @@ $string['sitemaintenancetitle'] = '{$a} メンテナンス中';
 $string['sitemaintenancewarning'] = 'あなたのサイトは現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには<a href="maintenance.php">メンテナンスモードを解除してください</a>。';
 $string['sitemaintenancewarning2'] = 'あなたのサイトは現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには<a href="{$a}">メンテナンスモードを解除してください</a>。';
 $string['sitemenubar'] = 'サイトナビゲーション';
+$string['sitenameintitle'] = 'ページタイトルにサイト名を含む';
+$string['sitenameintitle_help'] = 'この設定によりページタイトルの最後にサイト名が追加されます。ユーザが現在いるページをすぐに特定できるようになりサイトのアクセシビリティが向上するため、ページタイトルにサイト名を含めることを推奨します。';
 $string['sitepolicies'] = 'サイトセキュリティ設定';
 $string['sitepolicy'] = 'サイトポリシーURL';
 $string['sitepolicy_help'] = 'すべての登録済みユーザがサイトにアクセスする前に閲覧および同意する必要のあるサイトポリシーのURLです。この設定はサイトポリシーハンドラがデフォルト (コア) に設定されている場合のみ影響する点に留意してください。';

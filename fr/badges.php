@@ -523,7 +523,7 @@ $string['selectaward'] = 'Veuillez choisir le rôle que vous voulez utiliser pou
 $string['selectgroup_end'] = 'Seules les collections publiques sont affichées. Visitez <a href="{$a}">votre sac à badges</a> pour créer d\'autres collections publiques.';
 $string['selectgroup_start'] = 'Choisissez dans votre sac à badges des collections à afficher sur ce site :';
 $string['selecting'] = 'Avec les badges sélectionnés…';
-$string['setup'] = 'Mettre en place la connexion';
+$string['setup'] = 'Configurer la connexion';
 $string['sitebackpack'] = 'Sac à badges externe actif';
 $string['sitebackpack_help'] = 'Le sac à badges externe auquel les utilisateurs peuvent se connecter à partir de ce site. La modification de ce réglage après que des utilisateurs ont connecté leur sac à badges nécessitera que chacun des utilisateurs visite ses réglages de sac à badges et se déconnecte, puis se reconnecte.';
 $string['sitebackpackdeleted'] = 'Le sac à badge de site a été supprimé.';

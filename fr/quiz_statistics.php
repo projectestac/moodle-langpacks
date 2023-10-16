@@ -65,6 +65,9 @@ $string['firstattempts'] = 'premières tentatives';
 $string['firstattemptsavg'] = 'Note moyenne des premières tentatives';
 $string['firstattemptscount'] = 'Nombre des premières tentatives évaluées';
 $string['frequency'] = 'Fréquence';
+$string['getstatslockprogress'] = 'En attente d\'une tâche en cours. Veuillez patienter ou réessayer plus tard.';
+$string['getstatslocktimeout'] = 'Délai de verrouillage du calcul des statistiques';
+$string['getstatslocktimeoutdesc'] = 'La durée en secondes à attendre un verrou lors de la tentative de calcul des statistiques d\'un test. Ce réglage est prévu essentiellement pour effectuer des tests ; il est déconseillé de le modifier, sauf si vous savez ce que vous faites.';
 $string['highestattempts'] = 'Tentative avec évaluation la plus haute';
 $string['highestattemptsavg'] = 'Note moyenne des tentatives avec évaluation la plus haute';
 $string['intended_weight'] = 'Pondération désirée';
@@ -85,6 +88,7 @@ L\'équation pour une pondération efficace ne peut pas être calculée dans ce 
 
 Si vous modifiez un test et donnez à ces questions à covariance négative une note maximale de zéro, alors leur pondération efficace sera nulle et les pondérations efficaces des autres questions seront calculées adéquatement.';
 $string['nogradedattempts'] = 'Aucune tentative n\'a été effectuée pour ce test ou toutes les tentatives ont des questions nécessitant une évaluation manuelle.';
+$string['nostats'] = 'Le calcul des statistiques n\'a pas pu se terminer. Un calcul de longue durée est peut-être en cours. Veuillez réessayer plus tard.';
 $string['nostudentsingroup'] = 'Il n\'y a pas encore d\'étudiant dans ce groupe';
 $string['optiongrade'] = 'Crédit partiel';
 $string['partofquestion'] = 'Partie de question';

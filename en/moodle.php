@@ -1005,14 +1005,14 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-See the Moodle License information page for full details: https://docs.moodle.org/dev/License';
+See the Moodle License information page for full details: https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-See the Moodle License information page for full details: https://docs.moodle.org/dev/License';
+See the Moodle License information page for full details: https://moodledev.io/general/license';
 $string['gpllicense'] = 'GPL license';
 $string['grade'] = 'Grade';
 $string['gradenoun'] = 'Grade';

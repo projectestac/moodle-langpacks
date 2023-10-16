@@ -993,21 +993,20 @@ $string['general'] = 'General';
 $string['geolocation'] = 'latitud - longitud';
 $string['gettheselogs'] = 'Conseguir estos registros';
 $string['go'] = 'Ir';
-$string['gpl'] = 'Copyright (C) 1999 en adelante, Martin Dougiamas (http://moodle.com)
+$string['gpl'] = 'Copyright (C) 1999 en adelante, Martin Dougiamas (https://moodle.com)
 
-Este programa es software libre; usted puede redistribuirlo y /o modificarlo bajo los términos de la GNU (General Public License) publicada por The Free Software Foundation; incluso de la versión 2 de la Licencia, o (a su elección) alguna posterior.
+Este programa es software libre; usted puede redistribuirlo y /o modificarlo bajo los términos de la GNU (General Public License) publicada por The Free Software Foundation; tanto la versión 2 de la Licencia, o (a su elección) alguna posterior.
 
 Este programa se distribuye con la esperanza de que resulte útil, pero SIN GARANTÍA ALGUNA; incluso sin la garantía implícita de DISTRIBUCIÓN MERCANTIL o AJUSTE A UN PROPÓSITO PARTICULAR.
 
-Para más detalles, vea la página de información de Licencia de Moodle: http://docs.moodle.org/dev/License';
-$string['gpl3'] = 'Copyright (C) 1999 en adelante, Martin Dougiamas (http://moodle.com)
+Para más detalles, vea la página de información de Licencia de Moodle: https://moodledev.io/general/license';
+$string['gpl3'] = 'Copyright (C) 1999 en adelante, Martin Dougiamas (https://moodle.com)
 
-Este programa es software libre: usted puede redistribuirlo y
-/o modificarlo bajo los términos de la GNU (General Public License) publicada por la Fundación para el Software Libre, ya sea la versión 3 de dicha Licencia, o (a su elección) cualquier versión posterior.
+Este programa es software libre: usted puede redistribuirlo y/o modificarlo bajo los términos de la GNU (General Public License) publicada por la Fundación para el Software Libre, ya sea la versión 3 de dicha Licencia, o (a su elección) cualquier versión posterior.
 
 Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; sin la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR.
 
-Vea la página de información de Licencia de Moodle para más detalles: http://docs.moodle.org/en/License';
+Vea la página de información de Licencia de Moodle para más detalles: https://moodledev.io/general/license';
 $string['gpllicense'] = 'Licencia GPL';
 $string['grade'] = 'Calificación';
 $string['gradenoun'] = 'Calificación';

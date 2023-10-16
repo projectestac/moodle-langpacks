@@ -989,18 +989,18 @@ $string['gettheselogs'] = 'Logdaten holen';
 $string['go'] = 'Start';
 $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas https://moodle.com
 
-Dieses Programm ist freie Software. Sie können die Software unter den Bedingungen der von der Free Software Foundation veröffentlichten GNU General Public License weitergeben und / oder ändern. Es gilt die Lizenzversion 2 oder (falls Sie es möchten) auch jede spätere Version.
+Dieses Programm ist freie Software. Sie können die Software weitergeben und / oder unter den Bedingungen der von der Free Software Foundation veröffentlichten GNU General Public License ändern. Es gilt die Lizenzversion 2 oder (falls Sie es möchten) auch jede spätere Version.
 
 Dieses Programm wird in der Absicht verbreitet, dass es nützlich sein könnte, jedoch OHNE JEGLICHE GARANTIE, also auch ohne die implizite Garantie der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
 
-Details finden Sie in den Moodle-Lizenzinfos: https://docs.moodle.org/dev/License';
+Details finden Sie in den Moodle-Lizenzinfos: https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas https://moodle.com
 
-Dieses Programm ist freie Software. Sie können die Software unter den Bedingungen der von der Free Software Foundation veröffentlichten GNU General Public License weitergeben und / oder ändern. Es gilt die Lizenzversion 3 oder (falls Sie es möchten) auch jede spätere Version.
+Dieses Programm ist freie Software. Sie können die Software weitergeben und / oder unter den Bedingungen der von der Free Software Foundation veröffentlichten GNU General Public License ändern. Es gilt die Lizenzversion 3 oder (falls Sie es möchten) auch jede spätere Version.
 
 Dieses Programm wird in der Absicht verbreitet, dass es nützlich sein könnte, jedoch OHNE JEGLICHE GARANTIE, also auch ohne die implizite Garantie der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
 
-Details finden Sie in den Moodle-Lizenzinfos: https://docs.moodle.org/dev/License';
+Details finden Sie in den Moodle-Lizenzinfos: https://moodledev.io/general/license';
 $string['gpllicense'] = 'GPL-Lizenz';
 $string['grade'] = 'Bewertung';
 $string['gradenoun'] = 'Bewertung';

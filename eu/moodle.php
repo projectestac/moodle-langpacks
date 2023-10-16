@@ -453,7 +453,8 @@ $string['coursesearch_help'] = 'Hitz asko batera bila ditzakezu eta bilaketak ho
 * Hitz batzuk (+) ikurrak bananduta idatziz gero, hitz horiek guztiak orden berean duten emaitza guztiak erakutsiko dira.
 * (-) ikurra hitzaren aurretik jarriz gero, hitz hori duten emaitzak ez dira erakutsiko.</p>';
 $string['coursesectionsummaries'] = 'Ikastaro-atalen laburpenak';
-$string['coursesectiontitle'] = 'Ikastaroa: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
+$string['coursesectiontitle'] = '{$a->sectionname}: {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitleediting'] = 'Editatu {$a->sectionname}: {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'Ikastaroaren ezarpen lehenetsiak';
 $string['coursesmovedout'] = '{$a}-tik kanpora mugitutako ikastaroak';
 $string['coursespending'] = 'Onarpenaren zain dauden ikastaroak';
@@ -461,6 +462,7 @@ $string['coursestart'] = 'Ikastaro-hasiera';
 $string['coursesummary'] = 'Ikastaroaren laburpena';
 $string['coursesummary_help'] = 'Zure ikastaroaren deskribapen laburra. Ikastaroen bilaketak egiterakoan hemen gehitutako edukia erabiliko da.';
 $string['coursetitle'] = 'Ikastaroa: {$a->course}';
+$string['coursetitleediting'] = 'Editatu ikastaroa: {$a->course}';
 $string['courseupdates'] = 'Ikastaroen eguneraketak';
 $string['coursevisibility'] = 'Ikastaroaren ikusgarritasuna';
 $string['coursevisibility_help'] = '* Erakutsi: ikastaroa eskuragarri dauden ikastaroen zerrendan agertzen da eta ikasleek bertara sarbidea dute.
@@ -989,14 +991,14 @@ Programa hau doako softwarea da. Berriz banatu edo eta alda dezakezu, beti ere G
 Aplikazioa erabilgarria izango zaizulakoan banatzen da, baina INOLAKO BERMERIK GABE; ezta MERKATAL-BANAKETA
 edo ASMO PARTIKULAR BATEN EGOKITZAPENAren bermerik ere.
 
-Ikusi Moodle Lizentziaren informazio orria xehetasunetarako: https://docs.moodle.org/eu/Lizentzia';
+Ikusi Moodle Lizentziaren informazio orria xehetasunetarako: https://moodledev.io/general/license https://docs.moodle.org/eu/Lizentzia';
 $string['gpl3'] = 'Copyright (C) 1999tik aurrera Martin Dougiamas (https://moodle.com)
 
 Programa hau software librea da: banatu edota aldatu egin dezakezu Free Software Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren (GPL) baldintzen arabera, Lizentziaren 3. bertsioaren baldintzetan edo edozein bertsio berriagorenetan (zeuk aukeratu).
 
 Programa hau erabilgarri izateko helburuarekin baina INONGO BERMERIK GABE banatzen da, baita KOMERTZIALIZATU edo BESTE EDOZEIN HELBURU baterako BERMERIK GABE ere.
 
-Ikusi Moodle Lizentziaren informazio-orria zehaztasun gehiagorako: https://docs.moodle.org/eu/Lizentzia';
+Ikusi Moodle Lizentziaren informazio-orria zehaztasun gehiagorako: https://moodledev.io/general/license https://docs.moodle.org/eu/Lizentzia';
 $string['gpllicense'] = 'GPL Lizentzia';
 $string['grade'] = 'Kalifikazioa';
 $string['gradenoun'] = 'Kalifikazioa';
@@ -1339,13 +1341,13 @@ $string['modulesetup'] = 'Moduluen taulak falta dira';
 $string['modulesuccess'] = '{$a} taulak ondo ezarri dira';
 $string['modulesused'] = 'Erabilitako moduluak';
 $string['modvisible'] = 'Eskuragarritasuna';
-$string['modvisible_help'] = '* Erakutsi ikastaro-orrian: Ikasleentzako eskuragarri (bestelako eskuragarritasun baldintzek baimentzen badute).
+$string['modvisible_help'] = '* Erakutsi ikastaro-orrian: Ikasleentzako eskuragarri (bestelako eskuragarritasun murrizketek baimentzen badute).
 * Ezkutatu ikasleei: Ez eskuragarri ikasleentzat.';
 $string['modvisiblehiddensection'] = 'Eskuragarritasuna';
 $string['modvisiblehiddensection_help'] = '* Ezkutatu ikasleei: Ez eskuragarri ikasleentzat.
 * Jarri eskuragarri baina ez erakutsi ikastaro-orrian (jarduera sekretua): Ikasleentzat eskuragarri nonbait esteka eskainiz gero. Jarduerek kalifikazio-txostenean eta bestelako txostenetan agertzen jarraituko dute.';
 $string['modvisiblewithstealth'] = 'Eskuragarritasuna';
-$string['modvisiblewithstealth_help'] = '* Erakutsi ikastaro-orrian: Ikasleentzako eskuragarri (bestelako eskuragarritasun baldintzek baimentzen badute).
+$string['modvisiblewithstealth_help'] = '* Erakutsi ikastaro-orrian: Ikasleentzako eskuragarri (bestelako eskuragarritasun murrizketek baimentzen badute).
 * Ezkutatu ikasleei: Ez eskuragarri ikasleentzat.
 * Jarri eskuragarri baina ez erakutsi ikastaro-orrian (jarduera sekretua): Ikasleentzat eskuragarri nonbait esteka eskainiz gero. Jarduerek kalifikazio-txostenean eta bestelako txostenetan agertzen jarraituko dute.';
 $string['month'] = 'Hilabetea';

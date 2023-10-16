@@ -43,5 +43,4 @@ $string['lastxviewed'] = 'Dernier {$a} vu';
 $string['loading'] = 'Chargement...';
 $string['nocourses'] = 'Vous n\'êtes inscrit dans aucun cours.';
 $string['pluginname'] = 'Menu de cours personnalisé';
-$string['privacy:metadata'] = 'Le plugin ne sauvegarde pas de données utilisateur.';
 $string['showsearch'] = 'Afficher la recherche de cours';

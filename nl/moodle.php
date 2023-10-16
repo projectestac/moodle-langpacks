@@ -453,7 +453,8 @@ $string['coursesearch_help'] = 'Je kunt naar meer woorden tegelijkertijd zoeken 
 * +woord : alleen precies passende woorden worden gevonden.
 * -woord : de resultaten waar dit woord in voorkomt worden niet getoond.';
 $string['coursesectionsummaries'] = 'Cursus sectiesamenvattingen';
-$string['coursesectiontitle'] = 'Cursus: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
+$string['coursesectiontitle'] = '{$a->sectionname}: {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitleediting'] = 'Bewerk {$a->sectionname}: {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'Standaardinstellingen van de cursus';
 $string['coursesmovedout'] = 'Cursussen verplaatst uit {$a}';
 $string['coursespending'] = 'Cursussen die wachten om goedgekeurd te worden';
@@ -461,6 +462,7 @@ $string['coursestart'] = 'Cursus start';
 $string['coursesummary'] = 'Samenvatting cursus';
 $string['coursesummary_help'] = 'Een korte beschrijving van je cursus. Wat je hier toevoegt, verschijnt in zoekresultaten.';
 $string['coursetitle'] = 'Cursus: {$a->course}';
+$string['coursetitleediting'] = 'Cursus bewerken: {$a->course}';
 $string['courseupdates'] = 'Cursusupdates';
 $string['coursevisibility'] = 'Cursus zichtbaarheid';
 $string['coursevisibility_help'] = '* Toon: de cursus verschijnt in de lijst met cursussen en de leerlingen hebben er toegang toe.
@@ -984,16 +986,16 @@ $string['gpl'] = 'Copyright (C) 1999 en verder Martin Dougiamas
 
 Dit programma is gratis software; je kunt het redistribueren en/of wijzigen volgens de voorwaarden van de GNU General Public License zoals deze is gepubliceerd door de Free Software Foundation; versie 2 van de licentie (of een latere versie als daar je voorkeur naar uit gaat).
 
-Dit programma is gedistribueerd met de hoop dat het bruikbaar is, maar ZONDER ENIGE GARANTIE; zelfs zonder een geïmpliceerde garantie tot VERKOOPBAARHEID (merchantability) of BRUIKBAARHEID VOOR EEN BEPAALDE DOELSTELLING (fitness for a particular purpose). Bekijk de Moodle License information pagina voor meer details:
+Dit programma is gedistribueerd met de hoop dat het bruikbaar is, maar ZONDER ENIGE GARANTIE; zelfs zonder een geïmpliceerde garantie tot VERKOOPBAARHEID (merchantability) of BRUIKBAARHEID VOOR EEN BEPAALDE DOELSTELLING (fitness for a particular purpose).
 
-https://docs.moodle.org/dev/License';
+Bekijk de Moodle License information pagina voor meer details: https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 en verder Martin Dougiamas (http://moodle.com)
 
 Dit programma is vrije software: je mag het herverdelen en/of wijzigen volgens de bepalingen van de GNU Public licence zoals gepubliceerd door de Free Software Foundation, Versie 3 of (volgens jouw keuze) latere versie.
 
 Dit programma wordt verdeeld met de hoop dat het bruikbaar is, maar  ZONDER ENIGE GARANTIE; zonder zelfs de veronderstelde garantie van VERKOOPBAARHEID of GESCHIKTHEID VOOR EEN BEPAALD DOEL.
 
-Bekijk de Moodle-licentie informatiepagina voor alle details (Engels):  http://docs.moodle.org/dev/License';
+Bekijk de Moodle-licentie informatiepagina voor alle details (Engels):  https://moodledev.io/general/license';
 $string['gpllicense'] = 'GPL Licentie';
 $string['grade'] = 'Cijfer';
 $string['gradenoun'] = 'Cijfer';

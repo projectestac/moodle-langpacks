@@ -196,7 +196,7 @@ $string['fixold'] = 'Usar existente';
 $string['force_ssl'] = 'Forçar SSL';
 $string['force_ssl_help'] = 'Selecionar esta opção obriga todas as inicializações desta ferramenta a usarem SSL.
 
-Além disso, todas as solicitações de web services do fornecedor de ferramenta usarão SSL.
+Além disso, todas as solicitações do web services do fornecedor da ferramenta usarão SSL.
 
 Se usar esta opção, confirme que este site Moodle e o fornecedor da ferramenta suportam SSL.';
 $string['forced_help'] = 'Esta configuração foi forçada numa disciplina ou a nível da ferramenta. Não pode mudá-la a partir desta interface.';

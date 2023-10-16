@@ -452,7 +452,8 @@ $string['coursesearch_help'] = 'あなたは同時に複数の語句で検索で
 * +語句 : 厳密に語句に合致するもののみを検索します。
 * -語句 : この語句を含まないものを検索をします。';
 $string['coursesectionsummaries'] = 'コースセクション概要';
-$string['coursesectiontitle'] = 'コース: {$a->course} - {$a->sectionname}: {$a->sectiontitle}';
+$string['coursesectiontitle'] = '{$a->sectionname}: {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitleediting'] = '編集 {$a->sectionname}: {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'コースデフォルト設定';
 $string['coursesmovedout'] = '{$a} からコースを移動しました。';
 $string['coursespending'] = '承認審査中コース';
@@ -460,6 +461,7 @@ $string['coursestart'] = 'コース開始';
 $string['coursesummary'] = 'コース概要';
 $string['coursesummary_help'] = 'あなたのコースの簡単な説明です。あなたがここに追加したコンテンツは検索可能です。';
 $string['coursetitle'] = 'コース: {$a->course}';
+$string['coursetitleediting'] = 'コース編集: {$a->course}';
 $string['courseupdates'] = 'コース更新内容';
 $string['coursevisibility'] = 'コース可視性';
 $string['coursevisibility_help'] = '* 表示: コースはコース一覧に表示されます。学生はアクセスできます。
@@ -978,14 +980,14 @@ $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.co
 
 このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
-詳細はMoodleライセンス情報をご覧ください: https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
+詳細はMoodleライセンス情報をご覧ください: https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
 このプログラムはフリーソフトウェアです。あなたはこれをフリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
-詳細はMoodleライセンス情報をご覧ください: https://docs.moodle.org/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9';
+詳細はMoodleライセンス情報をご覧ください: https://moodledev.io/general/license';
 $string['gpllicense'] = 'GPLライセンス';
 $string['grade'] = '評点';
 $string['gradenoun'] = '評点';

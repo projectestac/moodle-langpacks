@@ -51,6 +51,5 @@ $string['pluginname'] = 'Contenu multilingue (v2)';
 $string['privacy:metadata'] = 'Le plugin Tiny Contenu multilingue (v2) n\'enregistre aucune donnée personnelle.';
 $string['requiremultilang2'] = 'Requiert le filtre Contenu multilingue (v2)';
 $string['requiremultilang2_desc'] = 'Si ce réglage est activé, le menu déroulant des langues ne sera visible que lorsque le filtre Contenu multilingue (v2) est activé.';
-$string['settings'] = 'Paramètres Tiny Contenu multilingue (v2)';
 $string['showalllangs'] = 'Afficher toutes les langues';
 $string['showalllangs_desc'] = 'Si ce réglage est activé, le menu déroulant des langues contiendra toutes les langues prises en charge par Moodle. Sinon, seules les langues installées et activées apparaitront.';

@@ -154,7 +154,7 @@ $string['currentattempt'] = 'Hau da {$a} saiakera.';
 $string['currentattemptof'] = 'Hau {$a->attemptnumber}. saiakera da ( {$a->maxattempts} saiakera onartzen dira ).';
 $string['currentgrade'] = 'Oraingo kalifikazioa kalifikazio-liburuan';
 $string['cutoffdate'] = 'Itxiera-data';
-$string['cutoffdate_help'] = 'Aukera hau gaituta badago, zereginak ez du onartuko bidalketarik data hau baino beranduago, luzapenik ematen ez bada, behintzat.';
+$string['cutoffdate_help'] = 'Gaituz gero, zereginak ez du data hau baino beranduagoko bidalketarik onartuko, luzapenik ematen ez bada, behintzat. Kontuz! Desgaituta badago bidalketak amaiera-datarik gabe onartuko dira.';
 $string['cutoffdatecolon'] = 'Itxiera-data: {$a}';
 $string['cutoffdatefromdatevalidation'] = 'Itxiera-data ezin da bidalketaren irekiera-data baino lehenagokoa izan.';
 $string['cutoffdatevalidation'] = 'Itxiera-data ezin da entregatze-data baino lehenagokoa izan.';
@@ -305,7 +305,7 @@ $string['hidegrader_help'] = 'Gaituz gero, zereginaren bidalketen kalifikazioak 
 
 Kontuan izan ezarpen honek ez duela eraginik ebaluazio-orriko iruzkinen kutxan.';
 $string['hideshow'] = 'Ezkutatu/Erakutsi';
-$string['inactiveoverridehelp'] = '* Salbuespen hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun baldintzak edo jarduera ezkutuan egotea.';
+$string['inactiveoverridehelp'] = '* Salbuespen hau ez-aktibo dago erabiltzailearen jarduerarako sarbidea murriztuta dagoelako. Honen arrazoia taldeko edo rol-esleipena izan daiteke, bestelako eskuragarritasun murrizketak edo jarduera ezkutuan egotea.';
 $string['indicator:cognitivedepth'] = 'Gaitasun kognitiboa zereginetan';
 $string['indicator:cognitivedepth_help'] = 'Adierazle hau ikasleak zeregina motako jardueretan lortutako sakonera kognitiboan oinarrituta dago.';
 $string['indicator:cognitivedepthdef'] = 'Gaitasun kognitiboa zereginetan';

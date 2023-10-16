@@ -114,7 +114,7 @@ $string['adminhelpsitesettings'] = 'Définit l\'aspect de la page d\'accueil';
 $string['adminhelpstickyblocks'] = 'Configurer les blocs fixes pour tout ce serveur Moodle';
 $string['adminhelpthemes'] = 'Choisir une interface graphique pour le site (couleurs, polices, etc.)';
 $string['adminhelpuploadusers'] = 'Importer de nouveaux comptes utilisateurs';
-$string['adminhelpusers'] = 'Définir vos utilisateurs et l\'authentification';
+$string['adminhelpusers'] = 'Définir vos utilisateurs et configurer l\'authentification';
 $string['adminhelpxmldbeditor'] = 'Interface pour la modification des fichiers XMLDB. Seulement pour les développeurs.';
 $string['administration'] = 'Administration';
 $string['administrationsite'] = 'Administration du site';
@@ -453,6 +453,7 @@ $string['coursesearch_help'] = 'Vous pouvez saisir plusieurs termes comme critè
 * -terme : ne pas inclure les résultats contenant ce terme';
 $string['coursesectionsummaries'] = 'Résumés des sections de cours';
 $string['coursesectiontitle'] = '{$a->sectionname} : {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitleediting'] = 'Modifier {$a->sectionname} : {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'Réglages par défaut des cours';
 $string['coursesmovedout'] = 'Cours déplacés hors de {$a}';
 $string['coursespending'] = 'Cours en attente d\'approbation';
@@ -460,6 +461,7 @@ $string['coursestart'] = 'Début du cours';
 $string['coursesummary'] = 'Résumé du cours';
 $string['coursesummary_help'] = 'Une brève description du cours. Le contenu de ce champ pourra être recherché.';
 $string['coursetitle'] = 'Cours : {$a->course}';
+$string['coursetitleediting'] = 'Modifier le cours : {$a->course}';
 $string['courseupdates'] = 'Modifications du cours';
 $string['coursevisibility'] = 'Visibilité du cours';
 $string['coursevisibility_help'] = '* Afficher : le cours apparaît dans la liste des cours et les étudiants peuvent y accéder.
@@ -755,7 +757,7 @@ Dans la plupart des logiciels de courriel, cette adresse devrait apparaître com
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site,
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a} : confirmation du changement de mot de passe';
-$string['emailpasswordconfirmmaybesent'] = '<p>Si vous avez fourni un nom d\'utilisateur correcte ou une adresse de courriel unique, un message vous a été envoyé par courriel.</p> <p>Ce message contient de simples instructions pour confirmer et terminer la modification du mot de passe. Si vous n\'arrivez toujours pas à vous connecter, veuillez contacter l\'administrateur du site.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Si vous avez fourni un nom d\'utilisateur correct ou une adresse de courriel unique, un message vous a été envoyé par courriel.</p> <p>Ce message contient de simples instructions pour confirmer et terminer la modification du mot de passe. Si vous n\'arrivez toujours pas à vous connecter, veuillez contacter l\'administrateur du site.</p>';
 $string['emailpasswordconfirmnoemail'] = '<p>Le compte utilisateur indiqué n\'a pas d\'adresse de courriel.</p>
 <p>Veuillez contacter l\'administrateur du site.</p>';
 $string['emailpasswordconfirmnotsent'] = '<p>Les informations fournies ne correspondent pas à un compte utilisateur existant.</p>
@@ -977,14 +979,14 @@ Ce programme est libre, vous pouvez le redistribuer et/ou le modifier selon les 
 
 Ce programme est distribué car potentiellement utile, mais SANS AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ ni d’ADÉQUATION À UN OBJECTIF PARTICULIER.
 
-Pour plus d\'infos, reportez-vous à la page d\'information sur la Licence Moodle : https://docs.moodle.org/fr/Licence';
+Pour plus d\'infos, reportez-vous à la page d\'information sur la Licence Moodle : https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 et années ultérieures, Martin Dougiamas (https://moodle.com/)
 
 Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le modifier suivant les termes de la GNU General Public License telle que publiée par la Free Software Foundation : soit la version 3 de cette licence, soit (à votre gré) toute version ultérieure.
 
 Ce programme est distribué dans l’espoir qu’il vous sera utile, mais SANS AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ ni d’ADÉQUATION À UN OBJECTIF PARTICULIER.
 
-Pour plus d\'infos, reportez-vous à la page d\'information sur la Licence Moodle : https://docs.moodle.org/fr/Licence';
+Pour plus d\'infos, reportez-vous à la page d\'information sur la Licence Moodle : https://moodledev.io/general/license';
 $string['gpllicense'] = 'Licence GPL';
 $string['grade'] = 'Note';
 $string['gradenoun'] = 'Note';
