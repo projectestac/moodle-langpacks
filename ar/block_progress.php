@@ -33,6 +33,7 @@ $string['coursenametoshow'] = 'اسم المساق لعرضه في لوحة ال
 $string['feedback'] = 'الإفادة';
 $string['fullname'] = 'الاسم الكامل للمقرر الدراسي';
 $string['geogebra'] = 'جيوجبرا';
+$string['glossary'] = 'قاموس المصطلحات';
 $string['how_group_works_help'] = '<p>إختيار مجموعة ما سيجعل عرض هذه الكتلة مقتصرًا على تلك المجموعة.</p>';
 $string['hsuforum'] = 'منتدى متقدم';
 $string['journal'] = 'المذكرة';

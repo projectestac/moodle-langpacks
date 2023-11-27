@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['antivirusfailed'] = 'Un problème est survenu lors du scan par l\'antivirus. Votre fichier n\'a pas pu être déposé. Veuillez réessayer plus tard.';
-$string['clamfailed'] = 'Clam AV n\'a pas pu être lancé. Le message d\'erreur était {$a}. Voici la sortie du programme Clam :';
+$string['clamfailed'] = 'Clam AV n\'a pas pu être lancé. Le message d\'erreur était  « {$a} ». Voici la sortie du programme Clam :';
 $string['clamfailureonupload'] = 'Lors d\'un échec de ClamAV';
 $string['configclamactlikevirus'] = 'Traiter les fichiers comme des virus';
 $string['configclamdonothing'] = 'Traiter les fichiers comme sains';

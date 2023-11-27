@@ -138,6 +138,23 @@ $string['missingtagprefix'] = 'Falta el prefijo de etiqueta';
 $string['modformshowattemptprogress'] = 'Mostrar progreso del examen a estudiantes';
 $string['modformshowattemptprogress_help'] = 'Cuando es seleccionado, un estudiante verá una barra de progreso que ilustra cuantas preguntas están contestadas del número máximo.';
 $string['modulename'] = 'Cuestionario adaptado';
+$string['modulename_help'] = 'La actividad Cuestionario Adaptativo, en inglés Adaptive Quiz, permite al profesor crear pruebas que miden de manera eficiente las habilidades de los participantes. Los cuestionarios adaptativos se componen de preguntas seleccionadas del banco de preguntas que están etiquetadas con una puntuación de dificultad. Las preguntas se eligen para que coincidan con el nivel de capacidad estimado del examinado actual. Si el examinado tiene éxito en una pregunta, a continuación se presenta una pregunta más desafiante. Si el examinado responde una pregunta incorrectamente, a continuación se presenta una pregunta menos desafiante. Esta técnica se desarrollará en una secuencia de preguntas que convergerán en el nivel de capacidad efectiva del examinado. La prueba se detiene cuando se determina la capacidad del examinado con la precisión requerida.
+
+Esta actividad es más adecuada para determinar una medida de capacidad a lo largo de una escala unidimensional. Si bien la escala puede ser muy amplia, todas las preguntas deben proporcionar una medida de capacidad o aptitud en la misma escala. En una prueba de nivel, por ejemplo, las preguntas de nivel inferior en la escala que los principiantes pueden responder correctamente también deberían ser respondidas por expertos, mientras que las preguntas de nivel más alto de la escala solo deberían ser respondidas por expertos o por una suposición afortunada. Las preguntas que no discriminan entre participantes de diferentes habilidades harán que la prueba sea ineficaz y pueden proporcionar resultados no concluyentes.
+
+Las preguntas utilizadas en el cuestionario adaptativo deben
+
+  * calificarse automáticamente como correcto/incorrecto
+  * ser etiquetadas con su dificultad al usar \'adpq_\' seguido de un número entero positivo que esté dentro del rango del cuestionario
+
+El cuestionario adaptativo se puede configurar para
+
+  * definir el rango de preguntas-dificultades/habilidades del usuario que se medirán. 1-10, 1-16 y 1-100 son ejemplos de rangos válidos.
+  * definir la precisión requerida antes de que se detenga el cuestionario. Con frecuencia, un error del 5% en la medida de la capacidad es una regla de parada adecuada.
+  * requieren un número mínimo de preguntas a ser respondidas.
+  * requieren un número máximo de preguntas que puedan ser respondidas
+
+Esta descripción y el proceso de prueba en esta actividad se basan en <a href="http://www.rasch.org/memo69.pdf">Computer-Adaptive Testing: A Methodology Whose Time Has Come</a> by John Michael Linacre, Ph.D. MESA Psychometric Laboratory - University of Chicago. MESA Memorandum No. 69.';
 $string['modulenameplural'] = 'Cuestionario adaptado';
 $string['na'] = 'n/a';
 $string['name'] = 'Nombre';

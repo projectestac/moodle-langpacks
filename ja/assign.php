@@ -340,7 +340,7 @@ $string['markerfilternomarker'] = '採点者なし';
 $string['markingallocation'] = '採点割り当てを使用する';
 $string['markingallocation_help'] = 'この設定および採点ワークフローを有効にした場合、個別の学生に採点者を割り当てることができるようになります。';
 $string['markingworkflow'] = '採点ワークフローを使用する';
-$string['markingworkflow_help'] = 'この設定を有効にした場合、評点は学生にリリースされる前にワークフローステージに入ります。これにより採点者が一連の評点を同じタイミングですべての学生にリリースすることができます。';
+$string['markingworkflow_help'] = 'この設定を有効にした場合、評点は学生にリリースされる前にワークフローステージに入ります。これで採点者が一連の評点を同じタイミングですべての学生にリリースすることができます。';
 $string['markingworkflowstate'] = '採点ワークフローステータス';
 $string['markingworkflowstate_help'] = '使用可能なワークフローステータスは以下を含みます (あなたのパーミッションに依存します):
 

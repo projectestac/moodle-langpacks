@@ -82,7 +82,7 @@ $string['sendtest'] = 'Envoyer une notification push de test à mes appareils';
 $string['sendtestconfirmation'] = 'Une notification push de test sera envoyée aux appareils que vous utilisez pour vous connecter à ce site. Veuillez vous assurer que vos appareils ont accès à Internet et que l\'app mobile n\'est pas ouverte, car les notifications push ne sont affichées que lorsqu\'elles sont reçues en tâche de fond.';
 $string['serverconnectivityerror'] = 'Ce site ne peut pas se connecter au serveur de notifications {$a}';
 $string['showhide'] = 'Activer/désactiver l\'appareil';
-$string['sitemustberegistered'] = 'Pour utiliser l\'instance publique de Airnotifier, votre site doit être enregistré. Il est aussi possible d\'obtenir une clef d\'accès en créant un compte sur le <a href="{$a}" target="_blank">portail des apps Moodle</a>.';
+$string['sitemustberegistered'] = 'Pour utiliser l\'instance publique de Airnotifier, votre site doit être enregistré. Il est aussi possible d\'obtenir une clef d\'accès en créant un compte sur le <a href="https://apps.moodle.com">portail des apps Moodle</a>.';
 $string['unknowndevice'] = 'Appareil inconnu';
 $string['userdevices'] = 'Appareils utilisateur';
 $string['view_notification'] = 'Tapoter pour voir';

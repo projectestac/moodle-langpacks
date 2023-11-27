@@ -207,7 +207,7 @@ $string['csvinvalidcolsnum'] = 'Ficheiro CSV inválido - cada linha deve ter 49 
 $string['csvloaderror'] = 'Ocorreu um erro ao carregar o ficheiro CSV: {$a}';
 $string['csvnodata'] = 'Ficheiro CSV inválido - O ficheiro CSV tem cabeçalhos, mas não contém dados.';
 $string['csvweirdcolumns'] = 'Formato de ficheiro CSV inválido; o número de colunas não é constante!';
-$string['dbconnectionfailed'] = '<p>Erro: Falhou a ligação à Base de dados</p>
+$string['dbconnectionfailed'] = '<p>Erro: Falhou a ligação à base de dados</p>
 <p>É possível que a base de dados esteja sobrecarregada ou não está a funcionar corretamente.</p>
 <p>O administrador do site também deve verificar se os dados da base de dados foram corretamente especificados no ficheiro config.php</p>';
 $string['dbdriverproblem'] = '<p>Erro: foi detetado um erro no driver da base de dados.</p>

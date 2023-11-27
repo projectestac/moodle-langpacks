@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actionsforgraderinterface'] = 'Действия для интерфейса оценщика';
 $string['actionsforpost'] = 'Действия для сообщения';
-$string['activitydate:due'] = 'Срок сдачи:';
+$string['activitydate:due'] = 'Срок выполнения:';
 $string['activityoverview'] = 'Имеются новые сообщения на форуме';
 $string['addanewdiscussion'] = 'Добавить тему для обсуждения';
 $string['addanewquestion'] = 'Добавить новый вопрос';
@@ -65,7 +65,7 @@ $string['blockperioddisabled'] = 'Не блокировать';
 $string['blogforum'] = 'Стандартный форум в формате блога';
 $string['bynameondate'] = 'от {$a->name} - {$a->date}';
 $string['cachedef_forum_is_tracked'] = 'Статус отслеживания форума для пользователя';
-$string['calendardue'] = '{$a}';
+$string['calendardue'] = '{$a} - срок выполнения';
 $string['cancelreply'] = 'Отменить ответ';
 $string['cannotadd'] = 'Невозможно добавить обсуждения на этом форуме';
 $string['cannotadddiscussion'] = 'Нужно быть участником группы, чтобы добавлять обсуждения на этот форум.';

@@ -39,6 +39,7 @@ $string['activities_help'] = 'Les activitats, com ara fòrums, qüestionaris i w
 $string['activity'] = 'Activitat';
 $string['activityclipboard'] = 'S\'està movent aquesta activitat: {$a}';
 $string['activityheader'] = 'Menú d\'activitat';
+$string['activityicon'] = 'Icona {$a}';
 $string['activityiscurrentlyhidden'] = 'Actualment aquesta activitat està oculta';
 $string['activitymodule'] = 'Mòdul d\'activitat';
 $string['activitymodules'] = 'Mòduls d\'activitat';

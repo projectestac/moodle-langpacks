@@ -439,6 +439,7 @@ $string['courserequestdetails'] = 'Details zum beantragten Kurs';
 $string['courserequestfailed'] = 'Ihr Kursantrag konnte nicht gespeichert werden.';
 $string['courserequestintro'] = 'Mit diesem Formular wird die Einrichtung eines neuen Kurses beantragt.<br />Nur wenn alle Informationen eingetragen sind, kann der Antrag bearbeitet werden.';
 $string['courserequestreason'] = 'Begründung des Kursantrags';
+$string['courserequestroleerror'] = 'Die Rolle \'Kursersteller/in\' in der Konfiguration neuer Kurse ist ungültig. Beachten Sie bitte die <a href="{$a}">Nutzerrichtlinien</a>.';
 $string['courserequestsuccess'] = 'Ihr Kursantrag wurde gespeichert. In Kürze erhalten Sie eine Mitteilung, ob der Kursantrag bestätigt wurde.';
 $string['courserequestsupport'] = 'Info für Administrator/innen, um diese Kursanfrage prüfen zu können';
 $string['courserequestwarning'] = 'Nutzer/innen, die einen Kurs beantragen, werden automatisch mit der Rolle \'{$a}\' dort eingeschrieben.';
@@ -709,7 +710,7 @@ $string['emaildisableclick'] = 'Klicken Sie hier, um den E-Mail-Versand an diese
 $string['emaildisplay'] = 'Sichtbarkeit der E-Mail-Adresse';
 $string['emaildisplay_help'] = '* Verborgen - ausschließlich entsprechend berechtigte Personen (z.B. Trainer/innen) können die E-Mail-Adresse sehen
 * Sichtbar für alle - Alle auf der Website können die E-Mail-Adresse sehen
-* Sichtbar für Teilnehmer/innen im Kurs - Nur Teilnehmer/innen, die in Ihren Kursen eingeschriebensind, können die E-Mail-Adresse sehen';
+* Sichtbar für Teilnehmer/innen im Kurs - Nur Teilnehmer/innen, die in Ihren Kursen eingeschrieben sind, können die E-Mail-Adresse sehen';
 $string['emaildisplaycourse'] = 'Sichtbar für Teilnehmer/innen im Kurs';
 $string['emaildisplaycoursemembersonly'] = '(sichtbar für andere Teilnehmer/innen im Kurs)';
 $string['emaildisplayeveryone'] = '(sichtbar für alle)';

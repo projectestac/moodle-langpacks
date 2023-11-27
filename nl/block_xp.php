@@ -31,20 +31,49 @@ $string['addacondition'] = 'Voeg een conditie toe';
 $string['addarule'] = 'Voeg een regel toe';
 $string['addinstructions'] = 'Voeg meer informatie toe';
 $string['additionalresources'] = 'Extra bronnen';
+$string['addlevel'] = 'Level toevoegen';
+$string['addoninstallationerror'] = 'We detecteren een probleem met de add-on (local_xp), deze lijkt niet correct te zijn geïnstalleerd. Een beheerder moet de installatie voltooien.';
+$string['addonnotactivated'] = 'De add-on is niet geactiveerd.';
 $string['addrulesformhelp'] = 'De laatste kolom bepaalt de hoeveelheid ervaringspunten wanneer er voldaan is aan een criterium.';
+$string['admindefaultrulesintro'] = 'De volgende regels worden standaard gebruikt voor cursussen waarin het blok is toegevoegd.';
+$string['admindefaultsettingsintro'] = 'De onderstaande instellingen worden standaard gebruikt wanneer het blok nieuw wordt toegevoegd aan een cursus. Sommige instellingen kunnen worden vergrendeld, in welk geval hun waarde strikt wordt afgedwongen in alle gevallen van de plug-in.';
+$string['admindefaultvisualsintro'] = 'Het volgende wordt standaard gebruikt wanneer het blok nieuw wordt toegevoegd aan een cursus.';
+$string['adminscanearnxp'] = 'Beheerder kan punten verdienen';
+$string['adminscanearnxp_desc'] = 'Beheerders worden standaard niet opgenomen in de groep gebruikers die punten kunnen verdienen. Dit komt omdat beheerders altijd de rechten hebben _block/xp:earnxp_, waardoor ze overal doorlopend punten kunnen verzamelen. U kunt deze instelling gebruiken om beheerders ook punten te laten verdienen.';
 $string['anonymity'] = 'Anonimiteit';
+$string['anonymity_help'] = 'Deze instelling bepaalt of deelnemers elkaars naam en avatar kunnen zien.';
+$string['apply'] = 'Pas toe';
 $string['awardaxpwhen'] = '<strong>{$a}</strong> punten worden verdiend wanneer:';
+$string['badgeaward'] = 'Badge om uit te reiken';
+$string['badgeawarddesc'] = 'Een badge om toe te kennen wanneer de gebruiker het level bereikt.';
+$string['basepoints'] = 'Basis punten';
+$string['basepointslineardesc'] = 'De minimale stap tussen elk level.';
+$string['basepointsrelativedesc'] = 'Het aantal punt om mee te beginnen.';
 $string['basexp'] = 'Algoritmebasis';
+$string['blockappearance'] = 'Uiterlijk van het blok';
+$string['blockappearancemovedtopluginsettings'] = 'De instellingen voor het uiterlijk van het blok zijn verplaatst naar de instellingenpagina van de plug-in.';
 $string['cachedef_filters'] = 'Level filters';
 $string['cachedef_ruleevent_eventslist'] = 'Lijst van gebeurtenissen';
-$string['changelevelformhelp'] = 'Als je het aantal levels aanpast, zullen de custom level badges tijdelijk uitgeschakeld worden om er voor te zorgen dat er geen levels zonder badges ontstaan. Als je het aantal levels wilt aan passen, ga dan naar de pagina \'Visuals (Visueel)\' om de custom badges weer aan te zetten na het op slaan van dit formulier.';
+$string['cannotbesetindefaults'] = 'Deze kan niet op standaardwaarde worden gezet.';
+$string['cannotearnpoints'] = 'Kan geen punten verdienen.';
+$string['cannotshowblockconfig'] = 'Normaal gesproken zou ik hier de weergave-instellingen weergeven, maar ik kon je blok niet vinden. Om het uiterlijk van het blok te wijzigen, ga terug [hier]({$a}) (of waar je het blok hebt toegevoegd), schakel de bewerkingsmodus in en volg de optie "Configureren" in de vervolgkeuzelijst van het blok. Als je het blok niet kunt vinden, voeg het dan opnieuw toe aan je cursus.';
+$string['cannotshowblockconfigsys'] = 'Normaal gesproken zou ik hier de weergave-instellingen weergeven, maar ik kon je blok niet vinden. Het kan ontbreken op de [frontpage]({$a->fp}) en het [default dashboard]({$a->mysys}) van uw gebruikers, of in beide aanwezig zijn. Om de instellingen vanaf hier te bewerken, zorg er dan voor dat deze slechts in één van beide wordt weergegeven.';
+$string['changelevelformhelp'] = 'Als je het aantal levels aanpast, zullen de standaard level badges tijdelijk uitgeschakeld worden om er voor te zorgen dat er geen levels zonder badges ontstaan. Als je het aantal levels wilt aan passen, ga dan naar de pagina \'Visuals (Visueel)\' om de custom badges weer aan te zetten na het op slaan van dit formulier.';
 $string['cheatguard'] = 'Valsspeelbeveiliging';
 $string['clicktoselectcm'] = 'Klik om een activiteit of bron te selecteren';
+$string['cmselector'] = 'Selector voor cursusmodules';
 $string['coefxp'] = 'Algoritmecoëfficient';
 $string['colon'] = '{$a->a}: {$a->b}';
+$string['compatibilitycheck'] = 'Controle van de compatibiliteit';
+$string['configblockrankingsnapshot'] = 'Momentopname van scorebord weergeven';
+$string['configblockrankingsnapshot_help'] = 'De momentopname van het scorebord geeft de rang van de gebruiker weer. Het zal ook proberen de twee mensen om de gebruiker heen weer te geven. Deze functie vereist dat het scorebord is ingeschakeld en dat de rangen worden weergegeven.';
 $string['configdescription'] = 'Introductie';
+$string['configdescription_help'] = 'Een kort introductiebericht dat in het blok wordt weergegeven. Studenten hebben de mogelijkheid om het bericht te negeren, in welk geval ze het niet meer zien.';
 $string['configheader'] = 'Instellingen';
+$string['configrecentactivity'] = 'Laat recente beloningen zien';
+$string['configrecentactivity_help'] = 'Indien ingeschakeld, toont het blok een korte lijst met recente gebeurtenissen die de student met punten hebben beloond.';
 $string['configtitle'] = 'Titel';
+$string['configtitle_help'] = 'De titel van het blok';
 $string['congratulationsyouleveledup'] = 'Gefeliciteerd!';
 $string['coolthanks'] = 'Cool, bedankt!';
 $string['courselog'] = 'Cursus log';
@@ -53,6 +82,9 @@ $string['courserules'] = 'Cursusregels';
 $string['courseselectedcolon'] = 'Geselecteerde cursus';
 $string['coursesettings'] = 'Cursusinstellingen';
 $string['coursevisuals'] = 'Cursus visueel';
+$string['currencysign'] = 'Punten symbool';
+$string['currencysign_help'] = 'Met deze instelling kun je de betekenis van de punten wijzigen. Het wordt weergegeven naast het aantal punten dat elke gebruiker heeft als vervanging voor de verwijzing naar _ervaringspunten_. Kies een van de meegeleverde symbolen of upload je eigen symbolen!';
+$string['currencysignxp'] = 'XP (Ervaringspunten)';
 $string['customizelevels'] = 'Pas de levels aan';
 $string['dangerzone'] = 'Gevarenzone';
 $string['defaultlevels'] = 'Standaard levels';
@@ -63,7 +95,18 @@ $string['defaultvisuals'] = 'Standaard visueel';
 $string['deletecondition'] = 'Verwijder conditie';
 $string['deleterule'] = 'Verwijder regel';
 $string['description'] = 'Beschrijving';
-$string['discoverlevelupplus'] = 'Ontdek Level up plus';
+$string['difference'] = 'Diff.';
+$string['difficulty'] = 'Punt reken methode';
+$string['difficultyflat'] = 'Gelijk';
+$string['difficultyflatdesc'] = 'Alle niveaus vereisen hetzelfde aantal punten om te behalen.';
+$string['difficultylinear'] = 'Toenemend';
+$string['difficultylineardesc'] = 'Niveaus duren geleidelijk langer om te bereiken.';
+$string['difficultylinearincrdesc'] = 'Het aantal punten dat wordt gebruikt voor de progressieve moeilijkheidsgraad.';
+$string['difficultypointincrease'] = 'Punten verhogen';
+$string['difficultyrelative'] = 'Sneeuwbal effect';
+$string['difficultyrelativedesc'] = 'Levels worden exponentieel moeilijker te bereiken.';
+$string['difficultyrelativeincrdesc'] = 'Het percentage van punten dat moet worden verhoogd ten opzichte van het vorige level.';
+$string['discoverlevelupplus'] = 'Ontdek Level Up XP+';
 $string['dismissnotice'] = 'Sluit deze melding';
 $string['displayeveryone'] = 'Laat iedereen zien';
 $string['displaynneighbours'] = 'Toon {$a}  buren';
@@ -72,8 +115,26 @@ $string['displayparticipantsidentity'] = 'Toon deelnemers identiteit';
 $string['displayrank'] = 'Toon rang';
 $string['displayrelativerank'] = 'Toon een relatieve rang';
 $string['documentation'] = 'Documentatie';
+$string['drops'] = 'Drops';
+$string['drops_help'] = 'In videogames kunnen sommige personages items of ervaringspunten op de grond _laten vallen_ die de speler kan oprapen. Deze items en punten worden gewoonlijk drops genoemd.
+
+In Level Up XP zijn drops shortcodes (bijv. \'[xpdrop abcdef]\') die een instructeur in reguliere Moodle-content kan plaatsen. Wanneer een gebruiker deze drops tegenkomt, worden deze drops -opgepakt- en wordt er een bepaald aantal punten toegekend.
+
+Op dit moment zijn drops onzichtbaar voor de gebruiker en worden passief punten toegekend wanneer ze voor het eerst worden aangetroffen.
+
+Drops kunnen worden gebruikt om op een slimme manier punten toe te kennen wanneer een bepaald type inhoud door een student wordt bekeken. Hier zijn enkele ideeën:
+
+-Plaats een drop in de feedback van een quiz (test) die alleen zichtbaar is bij perfecte scores;
+- Plaats een drop diep verstopt in de inhoud om het bekijken te belonen;
+- Plaats een drop in een interessante forumdiscussie;
+- Plaats een drop op een moeilijk bereikbare bladzijde in een lesmodule.
+
+[Meer info] (https://docs.levelup.plus/xp/docs/how-to/use-drops?ref=blockxp_help)';
+$string['dropsintro'] = 'Drops zijn codefragmenten die rechtstreeks in inhoud worden geplaatst en die punten toekennen wanneer ze door een gebruiker worden aangetroffen.';
+$string['editingdefaultsettingsinwholesitemodenotice'] = '**Let op!** U wijzigt momenteel de actieve instellingen niet, maar de standaardwaarden. Aangezien Level Up XP voor de hele site wordt gebruikt, is de kans groot dat u de instellingen voor de hele site wijzigt. [Navigeer here] ({$a->url}) om deze instellingen te wijzigen, of volg de link "Instellingen" van het XP-blok.';
 $string['editinstructions'] = 'Bewerk informatie';
 $string['enablecheatguard'] = 'Beveilig valsspelen';
+$string['enablecheatguard_help'] = 'De bewaker valsspelen biedt een eenvoudig, goedkoop mechanisme om te voorkomen dat studenten het systeem misbruiken met behulp van voor de hand liggende technieken, zoals het eindeloos verversen van dezelfde pagina of het steeds opnieuw herhalen van dezelfde actie.';
 $string['enableinfos'] = 'Activeer informatiepagina';
 $string['enableinfos_help'] = 'Wanneer dit op "Nee" staat, kunnen studenten de informatiepagina niet benaderen.';
 $string['enableladder'] = 'Activeer de ladder';

@@ -124,6 +124,7 @@ $string['calendarexportsalt'] = 'Зашумление для экспорта к
 $string['calendarsettings'] = 'Календарь';
 $string['calendartype'] = 'Тип календаря';
 $string['calendartype_desc'] = 'Выберите для всего сайта тип календаря по умолчанию. Этот параметр может быть изменен в настройках курса или пользователями в своем личном профиле.';
+$string['campaign'] = 'Кампания';
 $string['cannotdeletemodfilter'] = 'Вы не можете удалить «{$a->filter}», так как он является частью модуля «{$a->module}».';
 $string['cannotuninstall'] = 'Невозможно удалить {$a}.';
 $string['categoryemail'] = 'Электронная почта';

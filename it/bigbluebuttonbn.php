@@ -510,6 +510,7 @@ $string['view_recording_format_statistics'] = 'Statistiche';
 $string['view_recording_format_video'] = 'Video';
 $string['view_recording_import_confirmation'] = 'Sei sicuro di voler importare queta registrazione?';
 $string['view_recording_length'] = 'Lunghezza';
+$string['view_recording_link'] = 'link importato';
 $string['view_recording_link_warning'] = 'Questo link collega ad una registrazione è creata in un corso o attività differente.';
 $string['view_recording_list_action_delete'] = 'Eliminazione in corso';
 $string['view_recording_list_action_edit'] = 'Aggiornamento in corso';

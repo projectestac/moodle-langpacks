@@ -439,6 +439,9 @@ $string['courserequestdetails'] = 'Detalhes da disciplina que está a pedir';
 $string['courserequestfailed'] = 'Por alguma razão a disciplina que pediu não pode ser gravada';
 $string['courserequestintro'] = 'Use este formulário para fazer um pedido de criação de disciplina.<br />Tente preencher o formulário quanto possível<br />para que os administradores possam compreender a sua razão para o pedido.';
 $string['courserequestreason'] = 'Justificação do pedido de criação da disciplina';
+$string['courserequestroleerror'] = 'The creators\' role in new courses configuration is invalid. Please see <a href="{$a}">user policies</a>.
+
+O papel de criador de disciplina na configuração de novas disciplinas é inválido. Consulte a <a href="{$a}">Política de utilizadores</a>.';
 $string['courserequestsuccess'] = 'O seu pedido de criação de disciplina foi registado com sucesso. Em breve irá receber um e-mail a informá-lo do resultado do seu pedido.';
 $string['courserequestsupport'] = 'Informação de suporte para auxiliar o administrador a avaliar este pedido';
 $string['courserequestwarning'] = 'O utilizador que efetuou o pedido da disciplina será inscrito automaticamente e ser-lhe-á atribuído o papel de {$a}.';
@@ -1568,7 +1571,7 @@ $string['numyears'] = '{$a} anos';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Senha atual';
 $string['olduserdirectory'] = 'Esta é a ANTIGA pasta de utilizadores, que já não é necessário. Pode apagá-lo sem problemas. Os ficheiros nele contidos foram copiados para a NOVA pasta.';
-$string['opendrawerblocks'] = 'Abrir o painel dos blocos';
+$string['opendrawerblocks'] = 'Abrir painel dos blocos';
 $string['opendrawerindex'] = 'Abrir índice da disciplina';
 $string['opensinnewwindow'] = 'Abre numa nova janela';
 $string['operator_and'] = 'e';

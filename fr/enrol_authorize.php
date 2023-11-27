@@ -264,7 +264,7 @@ $string['testmode'] = '[MODE TEST]';
 $string['testwarning'] = 'Les opérations de saisie/annulation/crédit semblent fonctionner correctement en mode test. Aucun enregistrement n\'a cependant été mis à jour ni inséré dans la base de données.';
 $string['transid'] = 'No de transaction';
 $string['underreview'] = 'En cours de contrôle';
-$string['unenrolselfconfirm'] = 'Voulez-vous vraiment vous désinscrire du cours « {$a} »?';
+$string['unenrolselfconfirm'] = 'Voulez-vous vraiment vous désinscrire du cours « {$a} » ?';
 $string['unenrolstudent'] = 'Désinscrire l\'étudiant ?';
 $string['uploadcsv'] = 'Déposer un fichier CSV';
 $string['usingccmethod'] = 'S\'inscrire par <a href="{$a->url}"><strong>carte de crédit</strong></a>';

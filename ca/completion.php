@@ -146,6 +146,7 @@ $string['deletecompletiondata'] = 'Suprimeix les dades de compleció';
 $string['dependencies'] = 'Dependències';
 $string['dependenciescompleted'] = 'Compleció d\'altres cursos';
 $string['detail_desc:receivegrade'] = 'Rebre una qualificació';
+$string['detail_desc:receivepassgrade'] = 'Rep una qualificació d\'aprovat';
 $string['detail_desc:view'] = 'Visualitza';
 $string['done'] = 'Fet';
 $string['editcoursecompletionsettings'] = 'Edita els paràmetres de compleció del curs';

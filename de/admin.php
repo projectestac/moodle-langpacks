@@ -811,19 +811,19 @@ $string['lockoutduration'] = 'Kontosperrdauer';
 $string['lockoutduration_desc'] = 'Die Kontosperrung wird automatisch nach dieser Zeit aufgehoben.';
 $string['lockoutemailbody'] = 'Guten Tag,
 
-Ihr Konto mit dem Anmeldenamen {$a->username} wurde nach mehreren ungültigen Login-Versuchen auf dem Server \'{$a->sitename}\' gesperrt.
+Ihr Konto mit dem Anmeldenamen \'{$a->username}\' wurde nach mehreren ungültigen Anmeldeversuchen auf dem Server \'{$a->sitename}\' gesperrt.
 
-Um das Konto sofort zu entsperren, gehen Sie auf folgende Adresse {$a->link}. In den meisten Fällen sollte dies als klickbarer Link angezeigt werden. Sollte ein Klick nicht funktionieren, kopieren Sie die Adresse in das Adressfeld Ihres Webbrowsers.
+Um das Konto sofort zu entsperren, gehen Sie auf die folgende Adresse {$a->link}. In den meisten Fällen sollte dies als klickbarer Link angezeigt werden. Sollte ein Klick nicht funktionieren, kopieren Sie die Adresse in das Adressfeld Ihres Webbrowsers.
 
-Um Hilfe zu bekommen, wenden Sie sich an {$a->admin}.
+Falls Sie Hilfe benötigen, wenden Sie sich an {$a->admin}.
 
 Ihr E-Learning-Team';
-$string['lockoutemailsubject'] = 'Ihr Konto auf \'{$a}\' wurde gesperrt';
+$string['lockoutemailsubject'] = 'Ihr Konto auf \'{$a}\' wurde gesperrt.';
 $string['lockouterrorunlock'] = 'Ungültige Daten zur Kontofreigabe';
 $string['lockoutthreshold'] = 'Schwelle zur Kontosperrung';
 $string['lockoutthreshold_desc'] = 'Nach wie vielen erfolglosen Anmeldeversuchen soll ein Nutzerkonto vorübergehend gesperrt werden? Mit dieser Option werden Angriffe auf Ihr System erschwert.';
-$string['lockoutwindow'] = 'Kontrollzeitraum zur Kontosperrung';
-$string['lockoutwindow_desc'] = 'Kontrollzeitraum für die Schwelle zur Kontosperrung. Wenn keine weiteren Fehlversuche erfolgten, wird der Zähler nach dieser Zeit zurückgesetzt.';
+$string['lockoutwindow'] = 'Beobachtungszeit zur Kontosperrung';
+$string['lockoutwindow_desc'] = 'Beobachtungszeit zur Kontosperrung. Wenn während dieser Zeit keine weiteren Fehlversuche erfolgten, wird der Zähler nach dieser Zeit zurückgesetzt.';
 $string['lockrequestcategory'] = 'Kursbereichsauswahl sperren';
 $string['log'] = 'Logdaten';
 $string['logguests'] = 'Gastzugriff loggen';

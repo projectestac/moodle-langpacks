@@ -440,6 +440,7 @@ $string['courserequestdetails'] = 'Details van je gevraagde cursus';
 $string['courserequestfailed'] = 'Door een onbekende fout kon je aanvraag voor een nieuwe cursus niet bewaard worden.';
 $string['courserequestintro'] = 'Gebruik dit formulier om je site-beheerders te vragen een nieuwe cursus te maken.<br />Probeer zo veel mogelijk informatie te geven, zodat de site-beheerders begrijpen waarom je deze nieuwe cursus zou willen.';
 $string['courserequestreason'] = 'Motiveer je aanvraag voor een nieuwe cursus';
+$string['courserequestroleerror'] = 'De rol van de maker in de nieuwe cursusconfiguratie is niet geldig. Zie <a href="{$a}">user policies</a>.';
 $string['courserequestsuccess'] = 'Je aanvraag voor een nieuwe cursus is bewaard. Je kunt binnen enkele dagen een e-mail verwachten met een antwoord op je vraag';
 $string['courserequestsupport'] = 'Meer informatie die de beheerder helpt met het evalueren van deze aanvraag';
 $string['courserequestwarning'] = 'De gebruiker die deze cursus vraagt zal automatisch aangemeld worden met  "{$a}" als rol.';

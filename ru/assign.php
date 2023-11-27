@@ -72,7 +72,7 @@ $string['assign:viewgrades'] = 'Просматривать оценки';
 $string['assign:viewownsubmissionsummary'] = 'Видеть сводку своего ответа на задание.';
 $string['assignfeedback'] = 'Модуль отзыва';
 $string['assignfeedbackpluginname'] = 'Модуль отзыва';
-$string['assignmentisdue'] = 'Задание должно быть сдано';
+$string['assignmentisdue'] = 'Задание уже должно быть выполнено';
 $string['assignmentmail'] = 'Пользователь {$a->grader} дал отзыв на Ваш ответ на задание «{$a->assignment}».
 
 Вы можете просмотреть отзыв на странице отправки ответа на задание:
@@ -123,7 +123,7 @@ $string['blindmarking'] = 'Оценивание вслепую';
 $string['blindmarking_help'] = 'Оценивание вслепую скрывает личности студентов от оценщиков. Настройки оценивания вслепую будут заблокированы после того, как будет представлен ответ или выставлена оценка по этому заданию.';
 $string['blindmarkingenabledwarning'] = 'Для этого задания разрешен анонимный ответ. Оценки не будут добавлены в журнал оценок до тех пор, пока личности учащихся не будут раскрыты через меню действий по выставлению оценок.';
 $string['cachedef_overrides'] = 'Информация о переопределении пользователя и группы';
-$string['calendardue'] = '{$a} - надо сдать';
+$string['calendardue'] = '{$a} - срок сдачи';
 $string['calendargradingdue'] = '{$a} - должно быть оценено';
 $string['caneditsubmission'] = 'Вы можете отредактировать свой ответ и отправить его по истечении срока, но он будет помечен как опоздавший.';
 $string['changefilters'] = 'Изменить фильтры';
@@ -584,7 +584,7 @@ $string['submissionteam'] = 'Группы';
 $string['submissiontypes'] = 'Типы представлений ответов';
 $string['submitaction'] = 'Отправить';
 $string['submitassignment'] = 'Отправить на проверку';
-$string['submitassignment_help'] = 'Однажды представив ответ на это задание Вы больше не сможете  изменить его.';
+$string['submitassignment_help'] = 'После отправки ответа на это задание Вы больше не сможете изменить его.';
 $string['submitforgrading'] = 'Представить для оценивания';
 $string['submitted'] = 'Ответы и отзывы';
 $string['submittedearly'] = 'Ответ на задание представлен заранее - {$a}';

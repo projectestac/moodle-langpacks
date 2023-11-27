@@ -31,7 +31,7 @@ $string['continue'] = 'Cliquez ici pour retourner à Moodle';
 $string['cost'] = 'Coût';
 $string['currency'] = 'Devise';
 $string['description'] = 'Exige aux utilisateurs de faire un paiement via PayPal pour accéder à l\'activité ou à la ressource.';
-$string['eitherdescription'] = 'vous faites un <a href="{$a}"> paiement avec PayPal </a>';
+$string['eitherdescription'] = 'Vous faites un <a href="{$a}"> paiement avec PayPal</a>';
 $string['error_businessemail'] = 'Vous devez fournir un courriel professionnel.';
 $string['error_cost'] = 'Vous devez fournir un coût et celui-ci doit être supérieur à 0.';
 $string['error_itemname'] = 'Vous devez fournir un nom d\'élément.';

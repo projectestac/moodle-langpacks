@@ -440,6 +440,7 @@ $string['courserequestdetails'] = 'Eskatzen ari zaren ikastaroaren xehetasunak';
 $string['courserequestfailed'] = 'Zure ikastaro-eskaria arrazoi ezezagunengatik ezin izan da gorde';
 $string['courserequestintro'] = 'Erabili formulario hau ikastaroa sortzeko eskaria egiteko.<br />Kudeatzaileek ikastaroa zergatik eskatzen duzun jakin dezaten<br />ahalik eta informazio gehien eman, mesedez.';
 $string['courserequestreason'] = 'Ikastaroa eskatzeko arrazoiak';
+$string['courserequestroleerror'] = 'Ikastaro berrietako sortzailearen rolaren konfigurazioa baliogabea da. Ikusi mesedez <a href="{$a}">erabiltzaile-politikak</a>.';
 $string['courserequestsuccess'] = 'Ikastaro-eskaria ondo gorde da. Gutxi barru erantzuna  posta elektroniko bidez bidaliko zaizu eskaria onartu den edo ez jakinarazteko.';
 $string['courserequestsupport'] = 'Informazio lagungarria kudeatzaileak eskari hau ebaluatzeko';
 $string['courserequestwarning'] = 'Ikastaro honetan sartzeko eskatu duen erabiltzailea automatikoki matrikulatuko da eta {$a} rola esleituko zaio.';
@@ -696,7 +697,7 @@ $string['emaildigest'] = 'Posta elektroniko bidez laburpen-mezuak jasotzeko modu
 $string['emaildigest_help'] = 'Hau foroek eguneko jakinarazpen-mezuak bidaltzeko modu lehenetsian erabiliko duten ezarpena da.
 
 * Laburpenik ez - foroetako mezu bakoitzeko e-mail bana jasoko duzu;
-* Laburpena - mezuak osorik - egun bakoitzean foro bakoitzeko mezuen eduki guztiak dituen laburpen-mezu bat jasoko duzu;
+* Laburpena - mezu osoak - egun bakoitzean foro bakoitzeko mezuen eduki guztiak dituen laburpen-mezu bat jasoko duzu;
 * Laburpena - gaiak soilik - egun bakoitzean foro bakoitzeko mezuen izenburuak dituen laburpen-mezu bat jasoko duzu.
 
 Nahi izanez gero, foro bakoitzean ezarpen ezberdin bat aukeratu dezakezu.';
@@ -959,7 +960,7 @@ $string['formatplain'] = 'Testu laua';
 $string['formattext'] = 'Moodle formatu automatikoa';
 $string['forumpreferences'] = 'Foroen hobespenak';
 $string['framesetinfo'] = 'Dokumentu honek hau du:';
-$string['from'] = 'Igorlea';
+$string['from'] = 'Nondik';
 $string['frontpagecategorycombo'] = 'Ikastaro eta kategorien zerrenda';
 $string['frontpagecategorynames'] = 'Kategorien zerrenda';
 $string['frontpagecourselist'] = 'Ikastaroen zerrenda';
@@ -2182,7 +2183,7 @@ $string['timesplitting:upcomingfortnight_help'] = 'Analisi-tarte honek aurreikus
 $string['timesplitting:upcomingweek'] = 'Datorren astea';
 $string['timesplitting:upcomingweek_help'] = 'Analisi-tarte honek aurreikuspenak astero sortzen ditu. Adierazleen kalkuluak hurrengo astean oinarrituko da.';
 $string['timezone'] = 'Ordu eremua';
-$string['to'] = 'Jasotzailea';
+$string['to'] = 'Nora';
 $string['tocontent'] = '"{$a}" elementuaren aurrera';
 $string['tocreatenewaccount'] = 'Salto egin kontu berria sortzera';
 $string['today'] = 'Gaur';

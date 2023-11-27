@@ -33,7 +33,7 @@ $string['author'] = 'Courtoisie de <br />Peter Ertl,<br />Novartis';
 $string['configjmeoptions'] = 'Liste d\'options de l\'applet JME séparées par des virgules (voir <a href="http://www.molinspiration.com/jme/doc/jme_functions.html">la liste des options disponibles</a>)';
 $string['correctansweris'] = 'La réponse correcte est : {$a}';
 $string['correctanswers'] = 'Réponses correctes';
-$string['enablejava'] = 'Echec du chargement de l\'éditeur JME. Vous n\'avez pas un environnement JAVA fonctionnel dans votre navigateur.';
+$string['enablejava'] = 'Échec du chargement de l\'éditeur JME. Vous n\'avez pas un environnement JAVA fonctionnel dans votre navigateur.';
 $string['enablejavaandjavascript'] = 'Chargement de l\'éditeur JME. Si ce message n\'est pas remplacé par l\'éditeur JME cela signifie que vous n\'avez pas javascript ou un environnement JAVA fonctionnel dans votre navigateur.';
 $string['filloutanswers'] = 'Utilisez l\'Editeur Java de Molécule (JME) pour créer les réponses, puis appuyez sur le bouton "Insérer depuis l\'éditeur" pour insérer le code SMILES dans les champs réponse.';
 $string['filloutoneanswer'] = 'Utilisez l\'Editeur Java de Molécule (JME) pour créer la réponse, puis appuyez sur le bouton "Insérer depuis l\'éditeur" pour insérer le code SMILES dans le champ réponse.';

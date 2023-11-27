@@ -72,6 +72,7 @@ $string['nameinuse'] = 'الاسم المحدد مستعمل سابقًا. لا 
 $string['nomorestepsleft'] = 'لقد تم إكمال مخطط سير العمل.';
 $string['notallowedtodothisstep'] = 'ليست لديك صلاحية إجراء تغييرات لهذه الخطوة في الوقت الحاضر';
 $string['noworkflow'] = 'ليس هناك حاليًا سير عمل مُعَيَّن إلى هذه الصفحة';
+$string['overview'] = 'نظرة عامة';
 $string['overviewtitle'] = 'استعراض سير عمل {$a->workflowname} في {$a->contexttitle}';
 $string['quizclosedate'] = 'تاريخ إغلاق الاختبار';
 $string['quizopendate'] = 'تاريخ فتح الاختبار';

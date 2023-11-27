@@ -459,7 +459,7 @@ $string['coursesmovedout'] = 'Corsi spostati da {$a}';
 $string['coursespending'] = 'Corsi a richiesta in attesa di approvazione';
 $string['coursestart'] = 'Inizio corso';
 $string['coursesummary'] = 'Introduzione al corso';
-$string['coursesummary_help'] = 'L\'introduzione verrà visualizzata nell\'elenco dei corsi e sarà anche utilizzata per cercare corsi.';
+$string['coursesummary_help'] = 'Una breve descrizione del corso che sarà anche utilizzata nelle ricerche.';
 $string['coursetitle'] = 'Corso: {$a->course}';
 $string['coursetitleediting'] = 'Modifica corso: {$a->course}';
 $string['courseupdates'] = 'Aggiornamenti del corso';
@@ -980,15 +980,15 @@ $string['general'] = 'Generale';
 $string['geolocation'] = 'latitudine - longitudine';
 $string['gettheselogs'] = 'Ottieni i log';
 $string['go'] = 'Vai';
-$string['gpl'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas (http://moodle.com)
+$string['gpl'] = 'Copyright (C) dal 1999 di Martin Dougiamas (http://moodle.com)
 
 Questo programma è software libero; è possibile ridistribuirlo e/o modificarlo secondo le condizioni previste dalla licenza GNU General Public License  pubblicata dalla Free Software Foundation, licenza versione 2 oppure (a scelta) una qualsiasi versione successiva.
 
 Questo programma viene distribuito nell\'auspicio che possa essere utile, ma SENZA ALCUNA GARANZIA, ivi inclusa qualsiasi garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UN USO SPECIFICO.
 
 Per maggiori dettagli leggere la pagina relativa alla licenza di Moodle:
-http://docs.moodle.org/dev/License';
-$string['gpl3'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas
+https://moodledev.io/general/license';
+$string['gpl3'] = 'Copyright (C) dal 1999 di Martin Dougiamas
 (http://moodle.com)
 
 Questo programma è software libero; puoi ridistribuirlo e/o modificarlo secondo le condizioni previste dalla licenza GNU General Public License  pubblicata dalla Free Software Foundation\', licenza versione 3 oppure (a tua scelta) qualsiasi versione successiva.
@@ -996,7 +996,7 @@ Questo programma è software libero; puoi ridistribuirlo e/o modificarlo secondo
 Questo programma viene distribuito nell\'auspicio che possa essere utile, ma SENZA ALCUNA GARANZIA, ivi inclusa qualsiasi garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UN USO SPECIFICO.
 
 Per maggiori dettagli leggere la pagina informativa sulla Licenza di Moodle:
-https://docs.moodle.org/dev/License';
+https://moodledev.io/general/license';
 $string['gpllicense'] = 'Licenza GPL';
 $string['grade'] = 'Valutazione';
 $string['gradenoun'] = 'Valutazione';
@@ -1968,15 +1968,14 @@ $string['settings'] = 'Impostazioni';
 $string['shortname'] = 'Nome abbreviato';
 $string['shortnamecollisionwarning'] = '[*] = Questo Titolo abbreviato è già utilizzato da un corso e sarà necessario modificarlo all\'approvazione';
 $string['shortnamecourse'] = 'Titolo abbreviato';
-$string['shortnamecourse_help'] = '<p>Molte istituzioni assegnano ai corsi delle sigle come
-BP102 o COMMS. È possibile usare queste sigle come Titolo abbreviato, oppure utilizzare un titolo a piacere. Il Titolo abbreviato sarà usato al posto del Titolo del corso in tutte quelle situazioni dove è pratico usare stringhe di caratteri più brevi, come ad esempio nelle briciole di pane o nelle intestazioni delle email.</p>';
+$string['shortnamecourse_help'] = 'Il nome visualizzato in aree con spazio ridotto. Deve essere univoco.';
 $string['shortnametaken'] = 'Titolo abbreviato già in uso in un altro corso ({$a})';
 $string['shortnameuser'] = 'Nome utente abbreviato';
 $string['shortsitename'] = 'Nome abbreviato del sito (es. singola parola)';
 $string['show'] = 'Visualizza';
 $string['showactions'] = 'Visualizza azioni';
 $string['showactivitydates'] = 'Visualizza date dell\'attività';
-$string['showactivitydates_help'] = 'Le date dell\'attività vengono visualizzate nell\'elenco delle attività nella pagina home del corso.';
+$string['showactivitydates_help'] = 'Visualizza le date delle attività nella pagina home del corso.';
 $string['showadvancededitor'] = 'Avanzata';
 $string['showadvancedsettings'] = 'Visualizza impostazioni avanzate';
 $string['showall'] = 'Visualizza tutti i {$a}';
@@ -1990,7 +1989,7 @@ $string['showcommentsnonjs'] = 'Visualizza commenti';
 $string['showdescription'] = 'Visualizza descrizione nella home del corso';
 $string['showdescription_help'] = 'Consente di visualizzare la descrizione soprastante nella pagina home del corso, subito sotto il link della risorsa o dell\'attività.';
 $string['showgrades'] = 'Visualizza valutazioni agli studenti';
-$string['showgrades_help'] = 'Molte delle attività di un corso possono essere oggetto di valutazione. L\'impostazione determina se uno studente potrà visualizzare l\'elenco delle proprie valutazioni.';
+$string['showgrades_help'] = 'Gli studenti potranno visualizzare le valutazioni ricevute nel corso.';
 $string['showingacourses'] = 'Sono visualizzati tutti i {$a} corsi.';
 $string['showingxofycourses'] = 'Sono visualizzati i corsi da  {$a->start} a {$a->end} su {$a->total}';
 $string['showlistofcourses'] = 'Visualizza l\'elenco dei corsi';
@@ -2001,7 +2000,7 @@ $string['showperpage'] = 'Visualizza {$a} per pagina';
 $string['showpopoverwindow'] = 'Visualizza finestra popover';
 $string['showrecent'] = 'Visualizza le attività recenti';
 $string['showreports'] = 'Visualizza i report delle attività';
-$string['showreports_help'] = 'Per ciascun partecipante sono disponibili i report delle attività svolte nel corso. Nei report, oltre all\'elenco delle attività svolte, è presente anche il log di accesso. L\'impostazione determina se uno studente può visualizzare i propri report dalla pagina del profilo personale.';
+$string['showreports_help'] = 'Gli studenti potranno visualizzare il proprio report delle attività tramite la pagina del profilo utente.';
 $string['showsettings'] = 'Visualizza impostazioni';
 $string['showtheselogs'] = 'Visualizza i log';
 $string['showthishelpinlanguage'] = 'Visualizza l\'help nella lingua: {$a}';

@@ -202,6 +202,7 @@ $string['editor:tabtitleinputlinkurl'] = 'Collegamento/URL';
 $string['editor:textfield'] = 'campo di testo';
 $string['editor:thecontenttype'] = 'il tipo di contenuto';
 $string['editor:title'] = 'Titolo';
+$string['editor:toolong'] = 'Il nome del campo è troppo lungo, può contenere al massimo :max lettere';
 $string['editor:tryagain'] = 'Riprova';
 $string['editor:tutorial'] = 'Tutorial';
 $string['editor:unabletointerpreterror'] = 'Non è possibile interpretare la risposta';

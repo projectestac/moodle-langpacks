@@ -37,6 +37,7 @@ $string['exportlogs'] = 'تصدير سجلات الوقوعات';
 $string['forums_over_time'] = 'المنتديات بمرور الوقت';
 $string['forums_over_time_chart_title'] = 'النشاطات: المشاركات في المنتديات بمرور الوقت';
 $string['gismo:addinstance'] = 'إضافة كتلة جديدة من gismo';
+$string['help_docs'] = 'نظرة عامة قصيرة';
 $string['home'] = 'الصفحة الرئيسية لـ Gismo';
 $string['homepage_chart_activities_assignments_overview'] = 'النشاطات: استعراض الواجبات';
 $string['homepage_chart_resources_access_overview'] = 'الموارد: استعراض الدخولات';

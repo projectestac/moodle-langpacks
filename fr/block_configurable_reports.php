@@ -76,7 +76,7 @@ $string['comp_customsql'] = 'Rapport SQL personnalisé';
 $string['comp_customsql_help'] = '<p>Ajouter une requête SQL active. N\'utilisez pas le préfixe de la base de données moodle $CFG->prefix; à la place utilisez « prefix_ » sans les guillemets.</p>
 <p>Exemple : SELECT * FROM prefix_course</p>
 
-<p>Vous trouverez beaucoup de rapports SQL sous : <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Rapports ad-hoc contribués</a></p>
+<p>Vous trouverez beaucoup de rapports SQL sous : <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Rapports ad hoc contribués</a></p>
 
 <p>Étant donné que ce bloc prend en charge les rapports de requêtes SQL personnalisés de Tim Hunt, vous pouvez utiliser n\'importe quelle requête.</p>
 
