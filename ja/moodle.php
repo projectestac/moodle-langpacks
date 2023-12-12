@@ -440,7 +440,7 @@ $string['courserequestfailed'] = 'あなたのコースリクエストを何ら�
 $string['courserequestintro'] = 'あなたのコース作成をリクエストをするにはこのフォームを使用してください。<br />コース開設の理由を管理者が理解して承認するために必要な情報を可能な限りく<br />多く入力してください。';
 $string['courserequestreason'] = 'このコースを開設したい理由';
 $string['courserequestroleerror'] = '新しいコース設定の作成者ロールが無効です。<a href="{$a}">ユーザポリシ</a>をご覧ください。';
-$string['courserequestsuccess'] = 'あなたのコースリクエストが正常に保存されました。あなたのリクエスト承認の可否に関するメールが送信されます。';
+$string['courserequestsuccess'] = 'コースリクエストが送信されました。';
 $string['courserequestsupport'] = '管理者がこのリクエストを判断するための支援情報';
 $string['courserequestwarning'] = 'このコースをリクエストしたユーザは自動的に「 {$a} 」ロールが割り当てられた上で登録されます。';
 $string['courserestore'] = 'コースリストア';
@@ -2310,7 +2310,7 @@ $string['weekhide'] = '{$a} からこの週を隠す';
 $string['weeklyoutline'] = 'ウィークリーアウトライン';
 $string['weeks'] = '週';
 $string['weekshow'] = '{$a} にこの週を表示する';
-$string['welcomeback'] = 'おかえりなさい {$a->lastname} さん! 👋';
+$string['welcomeback'] = 'こんにちは {$a->lastname} さん! 👋';
 $string['welcometocourse'] = '{$a} へようこそ';
 $string['welcometocoursetext'] = '{$a->coursename} へようこそ!
 

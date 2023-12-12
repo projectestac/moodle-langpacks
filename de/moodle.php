@@ -440,7 +440,7 @@ $string['courserequestfailed'] = 'Ihr Kursantrag konnte nicht gespeichert werden
 $string['courserequestintro'] = 'Mit diesem Formular wird die Einrichtung eines neuen Kurses beantragt.<br />Nur wenn alle Informationen eingetragen sind, kann der Antrag bearbeitet werden.';
 $string['courserequestreason'] = 'Begründung des Kursantrags';
 $string['courserequestroleerror'] = 'Die Rolle \'Kursersteller/in\' in der Konfiguration neuer Kurse ist ungültig. Beachten Sie bitte die <a href="{$a}">Nutzerrichtlinien</a>.';
-$string['courserequestsuccess'] = 'Ihr Kursantrag wurde gespeichert. In Kürze erhalten Sie eine Mitteilung, ob der Kursantrag bestätigt wurde.';
+$string['courserequestsuccess'] = 'Der Kursantrag wurde übermittelt.';
 $string['courserequestsupport'] = 'Info für Administrator/innen, um diese Kursanfrage prüfen zu können';
 $string['courserequestwarning'] = 'Nutzer/innen, die einen Kurs beantragen, werden automatisch mit der Rolle \'{$a}\' dort eingeschrieben.';
 $string['courserestore'] = 'Kurswiederherstellung';
@@ -2338,7 +2338,7 @@ $string['weekhide'] = 'Diese Woche verbergen für {$a}';
 $string['weeklyoutline'] = 'Kursthemen';
 $string['weeks'] = 'Wochen';
 $string['weekshow'] = 'Diese Woche für {$a} anzeigen';
-$string['welcomeback'] = 'Willkommen zurück, {$a->firstname} {$a->lastname}! 👋';
+$string['welcomeback'] = 'Hallo, {$a->firstname} {$a->lastname}! 👋';
 $string['welcometocourse'] = 'Willkommen zu {$a}';
 $string['welcometocoursetext'] = 'Willkommen im Kurs \'{$a->coursename}\'!
 

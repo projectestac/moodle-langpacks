@@ -423,6 +423,7 @@ $string['savetemplate'] = 'Vorlage speichern';
 $string['search'] = 'Suche';
 $string['search:activity'] = 'Datenbank - Aktivitätsinfo';
 $string['search:entry'] = 'Datenbank - Einträge';
+$string['searchresults'] = 'Einträge, die "{$a}" enthalten';
 $string['selectedrequired'] = 'Gesamte Auswahl ist erforderlich';
 $string['selectexportoptions'] = 'Exportoptionen auswählen';
 $string['selectfields'] = 'Felder auswählen';

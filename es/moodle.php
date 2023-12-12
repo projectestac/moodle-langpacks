@@ -444,7 +444,7 @@ $string['courserequestfailed'] = 'Por alguna razón desconocida, su solicitud de
 $string['courserequestintro'] = 'Utilice este formulario para solcitar la creación de un curso.<br />Suministre toda la información posible para facilitar<br />a los administradores la comprensión de las razones por las que solicita el curso.';
 $string['courserequestreason'] = 'Razones para solicitar el curso';
 $string['courserequestroleerror'] = 'El rol de creador en la configuración de nuevos cursos no es válido. Por favor, consulte <a href="{$a}">políticas de usuario</a>.';
-$string['courserequestsuccess'] = 'Su solicitud de curso se ha guardado con éxito. Dentro de unos días se le notificará el resultado por correo electrónico.';
+$string['courserequestsuccess'] = 'Su solicitud de curso se ha guardado con éxito.';
 $string['courserequestsupport'] = 'Información de apoyo para ayudar al administrador a evaluar esta solicitud';
 $string['courserequestwarning'] = 'El usuario que solicite este curso será automáticamente matriculado y se le asignará el rol de {$a}.';
 $string['courserestore'] = 'Restaurar curso';
@@ -884,7 +884,7 @@ $string['eventuserinfofieldupdated'] = 'Campo de perfil de usuario actualizado';
 $string['eventuserlistviewed'] = 'Lista de usuarios vista';
 $string['eventuserloggedout'] = 'Usuario desconectado';
 $string['eventuserpasswordpolicyfailed'] = 'Fallo de contraseña de usuario por políticas de contraseña';
-$string['eventuserpasswordupdated'] = 'Contraseña usuario acutalizada';
+$string['eventuserpasswordupdated'] = 'Contraseña de usuario actualizada';
 $string['eventuserprofileviewed'] = 'Perfil de usuario visto';
 $string['eventuserupdated'] = 'Usuario actualizado';
 $string['everybody'] = 'Todos';
@@ -2340,7 +2340,7 @@ $string['weekhide'] = 'Ocultar esta semana a {$a}';
 $string['weeklyoutline'] = 'Diagrama semanal';
 $string['weeks'] = 'semanas';
 $string['weekshow'] = 'Mostrar esta semana a {$a}';
-$string['welcomeback'] = '¡Bienvenido/a de nuevo, {$a->firstname}! 👋';
+$string['welcomeback'] = '¡Hola, {$a->firstname}! 👋';
 $string['welcometocourse'] = 'Bienvenido/a a {$a}';
 $string['welcometocoursetext'] = 'Bienvenido/a a {$a->coursename}
 

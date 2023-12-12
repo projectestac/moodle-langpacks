@@ -370,14 +370,15 @@ $string['gradetype_help'] = '4種類の評定タイプがあります:
 
 値および尺度評定タイプのみ合計できます。活動ベースの評定項目は活動の更新ページで設定します。';
 $string['gradevaluetoobig'] = '許可された最大評点  {$a} を評点の1つが超えています。';
+$string['gradevaluetoosmall'] = '評定値のいずれかが許可される {$a} の評点最小値より小さくなっています。';
 $string['gradeview'] = '評定を表示する';
 $string['gradewasmodifiedduringediting'] = '最近他のユーザによって更新されたため、入力された {$a->itemname} に関する {$a->username} の評点は無視されました。';
 $string['gradeweighthelp'] = '評定加重ヘルプ';
 $string['gradingmodulename'] = '評定 ({$a})';
 $string['groupavg'] = 'グループ平均';
 $string['hidden'] = '隠す';
-$string['hidden_help'] = 'この設定を有効にした場合、学生から評定が隠されます。評定完了後に評定を開放するには「次の日時まで隠す」を設定することができます。';
-$string['hiddenasdate'] = '隠し評定項目の登録日付を表示する';
+$string['hidden_help'] = 'この設定を有効にした場合、学生から評定が秘匿されます。評定完了後に評定を公開するため、必要に応じて「次の日時まで隠す」を設定できます。';
+$string['hiddenasdate'] = '隠し評定項目の登録日時を表示する';
 $string['hiddenasdate_help'] = '隠し評定項目をユーザが閲覧できない場合、「-」の代わりに評定登録日時を表示します。';
 $string['hiddenuntil'] = '次の日時まで隠す';
 $string['hiddenuntildate'] = '次の日時まで隠す: {$a}';
@@ -395,14 +396,14 @@ $string['hidenooutcomes'] = 'アウトカムを表示する';
 $string['hidequickfeedback'] = 'クイックフィードバックを隠す';
 $string['hideranges'] = '範囲を隠す';
 $string['hidetotalifhiddenitems'] = '隠し評定項目が含まれている場合、合計を隠す';
-$string['hidetotalifhiddenitems_help'] = 'この設定では隠し評定項目が含まれている場合、学生に合計を表示するか、ハイフン (-) を表示するか指定します。表示する場合、合計に隠し評定項目を含むことも、含まないこともできます。
+$string['hidetotalifhiddenitems_help'] = 'この設定では隠し評定項目が含まれている場合、学生に合計を表示するか、ハイフン (-) で置換するか指定します。表示する場合、合計に隠し評定項目を含めて計算することも、除外して計算することもできます。
 
-隠す場合、隠し評定項目は除外されます。表示または非表示に係わらず、教師は常に項目すべての計算された合計を閲覧できるため、この場合、教師に表示される合計は異なります。隠し評定項目を含む場合、学生は隠し評定項目を算出できるかもしれません。';
-$string['hidetotalshowexhiddenitems'] = '隠し評定項目を除いて合計を表示する';
-$string['hidetotalshowinchiddenitems'] = '隠し評定項目を含んで合計を表示する';
+隠し評定項目を除外する場合、表示または非表示に係わらず教師は常に項目すべての計算された合計を閲覧できるため、この場合、教師に表示される評定者レポート内の合計とは異なります。隠し評定項目を含める場合、学生は隠し評定項目を計算できるかもしれません。';
+$string['hidetotalshowexhiddenitems'] = '隠し評定項目を除外して合計を表示する';
+$string['hidetotalshowinchiddenitems'] = '隠し評定項目を含めて合計を表示する';
 $string['hideverbose'] = '{$a->category} {$a->itemmodule} {$a->itemname} を隠す';
-$string['highgradeascending'] = '高評点の昇順で並べ替え';
-$string['highgradedescending'] = '高評点の降順で並べ替え';
+$string['highgradeascending'] = '高評点の昇順で並べ替える';
+$string['highgradedescending'] = '高評点の降順で並べ替える';
 $string['highgradeletter'] = '上限';
 $string['identifier'] = 'ユーザ識別方法:';
 $string['idnumbers'] = 'IDナンバー';
@@ -410,14 +411,14 @@ $string['ignore'] = '無視';
 $string['import'] = 'インポート';
 $string['importas'] = 'インポート形式:';
 $string['importcsv'] = 'CSVをインポートする';
-$string['importcsv_help'] = '以下のフォーマットのCSVファイルを使用して評定をインポートすることができます:
+$string['importcsv_help'] = '以下のフォーマットのCSVファイルを使用して評定をインポートできます:
 
-* ファイルのそれぞれの行には1レコードを含んでください。
-* それぞれのレコードは選択されたセパレータによって区切られた一連のデータです。
+* ファイルのそれぞれの行には1レコードを含めてださい。
+* それぞれのレコードは選択されたセパレータで区切られた一連のデータです。
 * 先頭レコードにはファイルの残りのフォーマットを定義するフィールド名一覧を含みます。
 * ユーザ識別データを含むフィールド名 (ユーザ名、IDナンバーまたはメールアドレス) は必須です。
 
-正しいフォーマットのファイルは最初に評定をエクスポートすることにより取得することができます。そのファイルを編集して、CSVファイルとして保存することができます。';
+最初に評定をエクスポートして正しいフォーマットのファイルを取得できます。そのファイルを編集してCSVファイルとして保存できます。';
 $string['importcsv_link'] = 'grade/import/csv/index';
 $string['importcustom'] = 'カスタムアウトカムとしてインポートする (このコースのみ)';
 $string['importdata'] = 'データ';
@@ -426,14 +427,14 @@ $string['importdata_help'] = '評定はOpenDocumentまたはExcelスプレッド
 * 少なくとも1つの列にはユーザ名、メールアドレス、IDナンバー等のユーザ識別データを含む必要があります。
 * その他の列には既存の活動または評定項目に応じた見出しを付ける必要があります。
 
-最初に正しいフォーマットのスプレッドシートはいくつかの評定をエクスポートして入手できます。次にスプレッドシートを編集して成績を追加および保存できます。
+正しいフォーマットのスプレッドシートは最初にいくつかの評定をエクスポートして入手できます。次にスプレッドシートを編集して成績を追加および保存できます。
 
 あなたがスプレッドシートからインポートしたい列を選択およびコピーしてこのフィールドに貼り付けてください。';
 $string['importerror'] = 'エラーが発生しました。このスクリプトは適正なパラメータでコールされていません。';
 $string['importfailed'] = 'インポートに失敗しました。データはインポートされませんでした。';
 $string['importfeedback'] = 'フィードバックをインポートする';
 $string['importfile'] = 'ファイルをインポートする';
-$string['importfilemissing'] = 'ファイルが受け取られていません。フォームに戻って、有効なファイルをアップロードしてください。';
+$string['importfilemissing'] = 'ファイルが受け取られていません。フォームに戻って有効なファイルをアップロードしてください。';
 $string['importfrom'] = 'インポート元';
 $string['importoutcomenofile'] = 'アップロードされたファイルが空または破損しています。このファイルが有効かどうか確認してください。問題は {$a} 行目で検出されました。これは最初の行 (ヘッダ行) のカラムと同数のカラムがデータ行に含まれていないか、インポートファイルに必要なヘッダ行が含まれていなことが原因です。有効なヘッダ行の例として、エクスポートされたファイルをご覧ください。';
 $string['importoutcomes'] = 'アウトカムインポート';

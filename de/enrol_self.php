@@ -102,7 +102,7 @@ Wenn das Feld leer bleibt, können sich alle Nutzer/innen im Kurs einschreiben.
 Wenn ein Einschreibeschlüssel angegeben ist, müssen alle Nutzer/innen notwendigerweise bei der Kurseinschreibung den Einschreibeschlüssel eingeben. Beachten Sie, dass Nutzer/innen den Einschreibeschlüssel nur einmal bei der Kurseinschreibung eingeben müssen und danach dauerhaft eingeschriebene Kursteilnehmer/innen sind.';
 $string['passwordinvalid'] = 'Falscher Einschreibeschlüssel';
 $string['passwordinvalidhint'] = 'Falscher Einschreibeschlüssel. Das erste Zeichen ist \'{$a}\'.';
-$string['passwordmatchesgroupkey'] = 'Der Einschreibeschlüssel stimmt mit einem vorhandenen Gruppenenschreibeschlüssel überein.';
+$string['passwordmatchesgroupkey'] = 'Der Einschreibeschlüssel wird bereits als Gruppeneinschreibeschlüssel verwendet.';
 $string['pluginname'] = 'Selbsteinschreibung';
 $string['pluginname_desc'] = 'Das Plugin \'Selbsteinschreibung\' erlaubt es Nutzer/innen, selber einen Kurs zur Teilnahme auszuwählen. Kurse können mit einem Einschreibeschlüssel gesichert oder ohne Einschreibeschlüssel offen sein. Intern nutzt die Selbsteinschreibung das Plugin \'Manuelle Einschreibung\', welches deswegen im Kurs ebenfalls aktiviert sein muss.';
 $string['privacy:metadata'] = 'Das Plugin Selbsteinschreibung speichert keine personenbezogenen Daten.';

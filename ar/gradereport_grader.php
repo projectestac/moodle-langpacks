@@ -30,6 +30,7 @@ $string['ajaxclicktoclose'] = 'انقر هذا المربع لحذفه';
 $string['ajaxerror'] = 'خطأ';
 $string['ajaxfailedupdate'] = 'تعذر تحديث [1] لـ [2]';
 $string['ajaxfieldchanged'] = 'الحقل الذي تقوم بتحريره حالياً قد تغير، هل ترغب باستعمال القيمة المحدثة؟';
+$string['editingmode_title'] = 'تحرير تقرير المقيِّم';
 $string['eventgradereportviewed'] = 'تقرير مقيم تمت معاينته';
 $string['grader:manage'] = 'إدارة تقرير المقيم';
 $string['grader:view'] = 'معاينة تقرير المقيم';

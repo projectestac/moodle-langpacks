@@ -424,6 +424,7 @@ $string['savetemplate'] = 'حفظ القالب';
 $string['search'] = 'بحث';
 $string['search:activity'] = 'قاعدة البيانات - معلومات النشاط';
 $string['search:entry'] = 'قاعدة البيانات - المدخلات';
+$string['searchresults'] = 'المُدخلات التي تتضمن "{$a}"';
 $string['selectedrequired'] = 'كل المختار مطلوب';
 $string['selectexportoptions'] = 'حدد خيارات التصدير';
 $string['selectfields'] = 'إختر الحقول';

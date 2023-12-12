@@ -441,7 +441,7 @@ $string['courserequestfailed'] = 'Zure ikastaro-eskaria arrazoi ezezagunengatik 
 $string['courserequestintro'] = 'Erabili formulario hau ikastaroa sortzeko eskaria egiteko.<br />Kudeatzaileek ikastaroa zergatik eskatzen duzun jakin dezaten<br />ahalik eta informazio gehien eman, mesedez.';
 $string['courserequestreason'] = 'Ikastaroa eskatzeko arrazoiak';
 $string['courserequestroleerror'] = 'Ikastaro berrietako sortzailearen rolaren konfigurazioa baliogabea da. Ikusi mesedez <a href="{$a}">erabiltzaile-politikak</a>.';
-$string['courserequestsuccess'] = 'Ikastaro-eskaria ondo gorde da. Gutxi barru erantzuna  posta elektroniko bidez bidaliko zaizu eskaria onartu den edo ez jakinarazteko.';
+$string['courserequestsuccess'] = 'Ikastaro-eskaria bidalita.';
 $string['courserequestsupport'] = 'Informazio lagungarria kudeatzaileak eskari hau ebaluatzeko';
 $string['courserequestwarning'] = 'Ikastaro honetan sartzeko eskatu duen erabiltzailea automatikoki matrikulatuko da eta {$a} rola esleituko zaio.';
 $string['courserestore'] = 'Ikastaroa berreskuratu';
@@ -2323,7 +2323,7 @@ $string['weekhide'] = 'Ezkutatu aste hau {$a}(e)ri';
 $string['weeklyoutline'] = 'Astea hitz bitan';
 $string['weeks'] = 'aste';
 $string['weekshow'] = 'Erakutsi aste hau {$a}(e)ri';
-$string['welcomeback'] = 'Kaixo berriz ere, {$a->firstname}! 👋';
+$string['welcomeback'] = 'Kaixo, {$a->firstname}! 👋';
 $string['welcometocourse'] = 'Ongi etorri {$a} gunera';
 $string['welcometocoursetext'] = 'Ongi etorri {$a->coursename} ikastarora!
 

@@ -423,6 +423,7 @@ $string['savetemplate'] = 'テンプレートを保存する';
 $string['search'] = '検索';
 $string['search:activity'] = 'データベース - 活動情報';
 $string['search:entry'] = 'データベース - エントリ';
+$string['searchresults'] = '「 {$a} 」を含むエントリ';
 $string['selectedrequired'] = '選択したすべてを含む';
 $string['selectexportoptions'] = 'エクスポートオプションを選択する';
 $string['selectfields'] = 'フィールドを選択する';

@@ -95,7 +95,7 @@ Matrikulazio-gako bat zehaztuz gero, matrikulatzen saiatzen den edozein erabiltz
 $string['passwordinvalid'] = 'Matrikulazio-gakoa ez da zuzena, mesedez, saiatu berriro';
 $string['passwordinvalidhint'] = 'Matrikulazio-gako hori ez da zuzena, mesedez saiatu berriro<br/>
 (Laguntza txiki bat - honela hasten da: \'{$a}\')';
-$string['passwordmatchesgroupkey'] = 'Matrikulazio-gakoa bat dator existitzen den taldeen matrikulazio-gako batekin';
+$string['passwordmatchesgroupkey'] = 'Matrikulazio-gako hau dagoeneko taldeen matrikulazio-gako gisa erabiltzen da.';
 $string['pluginname'] = 'Matrikulazio automatikoa';
 $string['pluginname_desc'] = 'Matrikulazio automatikoko pluginak erabiltzaileari parte-hartu nahi duen ikastaroak hautatzeko aukera ematen dio. Ikastaroek matrikulazio-gakoa eskatu dezakete. Barrutik matrikulazioa eskuzko matrikulazio gehigarriaren bitartez egiten da, eta beraz gehigarri hori ere ikastaro horretan gaituta egon behar da.';
 $string['privacy:metadata'] = 'Matrikulazio automatikoa pluginak ez du datu pertsonalik biltzen.';

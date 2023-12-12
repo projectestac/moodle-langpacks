@@ -222,7 +222,7 @@ $string['nattachments'] = 'Nombre màxim d\'adjuncions a la tramesa';
 $string['noexamples'] = 'Aquest taller encara no té exemples';
 $string['noexamplesformready'] = 'Heu de definir un formulari d\'avaluació abans d\'especificar trameses d\'exemple';
 $string['nogradeyet'] = 'Encara sense qualificar';
-$string['nosubmissionfound'] = 'No s\'ha trobat cap tramesa per aquest usuari';
+$string['nosubmissionfound'] = 'No s\'ha trobat cap tramesa d\'aquest usuari';
 $string['nosubmissions'] = 'Aquest taller encara no té trameses';
 $string['nosubmissiontype'] = 'Com a mínim ha d\'estar disponible un tipus de tramesa';
 $string['notassessed'] = 'No avaluat encara';
@@ -303,7 +303,7 @@ Si activeu aquesta característica, es recomana configurar també el mètode d\'
 $string['submissiongrade'] = 'Qualificació de la tramesa';
 $string['submissiongrade_help'] = 'Aquest paràmetre especifica la qualificació màxima que es pot obtenir per la feina tramesa.';
 $string['submissiongradeof'] = 'Qualificació de la tramesa (de {$a})';
-$string['submissionlastmodified'] = 'Darrera modificada';
+$string['submissionlastmodified'] = 'Darrera modificació';
 $string['submissionrequiredcontent'] = 'Cal que escriviu text o afegiu un fitxer.';
 $string['submissionrequiredfile'] = 'Heu d\'afegir un fitxer o introduir algun text.';
 $string['submissionsallocation'] = 'Assignació de trameses';
