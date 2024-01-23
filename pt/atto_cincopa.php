@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_static', language 'ru', version '4.1'.
+ * Strings for component 'atto_cincopa', language 'pt', version '4.1'.
  *
- * @package     cachestore_static
+ * @package     atto_cincopa
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,5 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Кэш статических запросов';
-$string['privacy:metadata'] = 'Плагин хранилища кэша «Кэш статических запросов» хранит некоторые данные, но они существуют только в течение жизни одиночного HTTP-запроса.';
+$string['pluginname'] = 'Plugin Atto Cincopa';

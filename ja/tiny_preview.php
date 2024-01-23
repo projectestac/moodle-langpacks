@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_static', language 'ru', version '4.1'.
+ * Strings for component 'tiny_preview', language 'ja', version '4.1'.
  *
- * @package     cachestore_static
+ * @package     tiny_preview
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,5 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Кэш статических запросов';
-$string['privacy:metadata'] = 'Плагин хранилища кэша «Кэш статических запросов» хранит некоторые данные, но они существуют только в течение жизни одиночного HTTP-запроса.';
+$string['buttontitle'] = 'プレビュー';
+$string['close'] = '閉じる';
+$string['layout'] = 'ページレイアウト';
+$string['layout_desc'] = 'サイトのテーマおよび目的に最も適したページレイアウトを選択してください。';
+$string['modaltitle'] = 'プレビュー';
+$string['pluginname'] = 'プレビュー';
+$string['preview:view'] = 'プレビューを表示する';
+$string['printcontent'] = 'コンテンツを印刷する';
+$string['privacy:metadata'] = 'Tinyプレビュープラグインはいかなる個人データも保存しません。';
+$string['settings'] = 'プレビュー設定';

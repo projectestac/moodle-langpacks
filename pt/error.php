@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['TODO'] = 'TODO';
 $string['activityisscheduledfordeletion'] = 'A atividade está a ser apagada...';
-$string['agedigitalconsentmapinvalidage'] = 'Não foi possível aceder a {$a->url} para verificar a notificação de pagamento instantâneo: {$a->result}';
+$string['agedigitalconsentmapinvalidage'] = '"{$a}" não é um valor válido para a idade.';
 $string['agedigitalconsentmapinvalidcomma'] = '"{$a}" tem mais ou menos que um separador de vírgula.';
 $string['agedigitalconsentmapinvalidcountry'] = '"{$a}" não é um valor válido para o país.';
 $string['agedigitalconsentmapinvaliddefault'] = 'O valor predefinido (*) está em falta.';

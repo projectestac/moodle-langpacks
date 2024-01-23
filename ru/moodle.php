@@ -287,7 +287,7 @@ $string['city'] = 'Город';
 $string['cleaningtempdata'] = 'Удаление временных данных';
 $string['clear'] = 'Очистить';
 $string['clearfilterrow'] = 'Удалить строку фильтра';
-$string['clearfilters'] = 'Сбросить фильтры';
+$string['clearfilters'] = 'Очистить фильтры';
 $string['clearsearch'] = 'Очистить поле поиска';
 $string['clickhelpiconformoreinfo'] = '...продолжение... Нажмите на значок справки, чтобы прочитать статью полностью';
 $string['clickhere'] = 'Нажмите здесь...';
@@ -1924,7 +1924,7 @@ $string['selectfiles'] = 'Выберите файлы';
 $string['selectfiltertype'] = 'Выбрать';
 $string['selectgroupsseparate'] = 'Выбрать изолированные группы';
 $string['selectgroupsvisible'] = 'Выбрать видимые группы';
-$string['selectitem'] = 'Выберите \'{$a}\'';
+$string['selectitem'] = 'Выберите «{$a}»';
 $string['selectmoduletoviewhelp'] = 'Выберите модуль элемента курса или ресурса, чтобы просмотреть информацию о нём.
 
 Двойной щелчок позволяет сразу перейти к добавлению этого модуля.';
@@ -2244,7 +2244,7 @@ $string['uploadnotallowed'] = 'Загрузки не разрешены';
 $string['uploadnotempdir'] = 'Отсутствует временная папка';
 $string['uploadoldfilesdeleted'] = 'Старый(е) файл(ы) в Вашей области загрузки был(и) удален(ы)';
 $string['uploadpartialfile'] = 'Файл был загружен лишь частично';
-$string['uploadproblem'] = 'Неизвестная проблема возникла при загрузке файла \'{$a}\' (возможно он был слишком большой?)';
+$string['uploadproblem'] = 'Неизвестная проблема возникла при загрузке файла «{$a}» (возможно он был слишком большой?)';
 $string['uploadrenamedchars'] = 'Файл был переименован из «{$a->oldname}» в «{$a->newname}», так как старое название содержало недопустимые символы.';
 $string['uploadrenamedcollision'] = 'Файл был переименован из {$a->oldname} в {$a->newname} из-за конфликта имен.';
 $string['uploadserverlimit'] = 'Загружаемый файл превысил ограничение на максимальный размер, установленный на сервере';

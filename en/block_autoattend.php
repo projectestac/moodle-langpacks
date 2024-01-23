@@ -81,6 +81,7 @@ $string['attenderror'] = 'Attendance has been ERROR taken!!!';
 $string['attendforsession'] = 'Attendance for the Session in this Course';
 $string['attendforthecourse'] = 'Attendance for the Course';
 $string['attendforuser'] = 'Attendance for User in this Course';
+$string['attendgpercent'] = 'Grade Rate';
 $string['attendgrade'] = 'Grade';
 $string['attendgradeshort'] = 'G';
 $string['attendkey'] = 'Attendance Keyword';
@@ -89,6 +90,7 @@ the keyword (alphabet) which a student should input is specified.
 When you check the "Random Key" checkbox, the small letter of five characters is generated automatically.<br />
 In the case of automatic and a manual mode, this is disregarded.';
 $string['attendnotstarted'] = 'Attendance has not started yet in this course';
+$string['attendnpercent'] = 'Attend Rate';
 $string['attendpercent'] = 'Percent';
 $string['attendreport'] = 'Attendance Report';
 $string['attendsubmiterr'] = 'Error occurred in submitting attendance';
@@ -119,6 +121,7 @@ This function can only be executed by an administrator.';
 $string['cleanupdbok'] = 'Cleanup';
 $string['cleanupeddb'] = 'DB has been cleanuped.';
 $string['clearall'] = 'Clear All';
+$string['client'] = 'Client';
 $string['correctuser'] = 'Correct';
 $string['courseidwrong'] = 'Course ID is wrong';
 $string['coursename'] = 'Course Name';
@@ -226,6 +229,11 @@ $string['novalue'] = '-';
 $string['nowtime'] = 'Time Now';
 $string['nowtime_help'] = 'When this  displayed time is not in same with the present time, the time of this autoattendance block are inaccurate. <br />
 If when the time is absolutely do not match, please check the time zone (date.timezone) in php.ini of PHP.';
+$string['numofattend'] = 'Num. of attendees';
+$string['numofdaysabsent'] = 'Num. of days absent';
+$string['numofdaysexcused'] = 'Num. of days excused';
+$string['numofdayslate'] = 'Num. of days late';
+$string['numofdayspresent'] = 'Num. of days present';
 $string['olddate'] = 'Old date';
 $string['oldsessionduration'] = 'Old Duration';
 $string['oldsessionendtime'] = 'Old End Time';

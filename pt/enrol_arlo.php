@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_static', language 'ru', version '4.1'.
+ * Strings for component 'enrol_arlo', language 'pt', version '4.1'.
  *
- * @package     cachestore_static
+ * @package     enrol_arlo
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,5 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Кэш статических запросов';
-$string['privacy:metadata'] = 'Плагин хранилища кэша «Кэш статических запросов» хранит некоторые данные, но они существуют только в течение жизни одиночного HTTP-запроса.';
+$string['customwelcomemessage_help'] = 'Uma mensagem de boas-vindas personalizada pode ser adicionada como texto simples ou no formato Moodle-auto, incluindo tags HTML e tags multilíngues.
+
+Os seguintes espaços reservados podem ser incluídos na mensagem:
+
+* Nome da disciplina {$a->coursename}
+* URL da disciplina {$a->courseurl}
+* Nome do utilizador {$a->firstname}
+* Nome completo do utilizador {$a->fullname}
+* Nome de utilizador {$a->username}
+* URL de esqueceu a senha {$a->forgotpasswordurl}';

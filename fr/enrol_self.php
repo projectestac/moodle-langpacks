@@ -94,7 +94,7 @@ Si le champ n\'est pas renseigné, n\'importe quel utilisateur peut s\'inscrire 
 Si une clef d\'inscription est spécifiée, les utilisateurs tentant de s\'inscrire au cours devront saisir cette clef, uniquement lors de leur premier accès au cours.';
 $string['passwordinvalid'] = 'Clef d\'inscription incorrecte. Veuillez réessayer';
 $string['passwordinvalidhint'] = 'Cette clef d\'inscription est incorrecte, veuillez réessayer<br />(La clef commence par « {$a} ».)';
-$string['passwordmatchesgroupkey'] = 'La clef d\'inscription est la même que la clef d\'inscription d\'un groupe';
+$string['passwordmatchesgroupkey'] = 'Cette clef d\'inscription est déjà utilisée comme clef d\'inscription d\'un groupe.';
 $string['pluginname'] = 'Auto-inscription';
 $string['pluginname_desc'] = 'Le plugin d\'auto-inscription permet aux utilisateurs de choisir les cours qu\'ils veulent suivre. Les cours peuvent être protégés par une clef d\'inscription. À l\'interne, l\'inscription est effectuée au moyen du plugin Inscription manuelles, qui doit être activé pour le même cours.';
 $string['privacy:metadata'] = 'Le plugin Auto-inscription n\'enregistre aucune donnée personnelle.';
@@ -114,7 +114,7 @@ $string['showhint'] = 'Afficher l\'indice';
 $string['showhint_desc'] = 'Afficher la première lettre de la clef d\'inscription.';
 $string['status'] = 'Laisser active la méthode d\'auto-inscription actuelle';
 $string['status_desc'] = 'Activer la méthode d\'auto-inscription dans les nouveaux cours.';
-$string['status_help'] = 'Si ce réglage est activé les utilisateurs s\'étant auto-inscrits au cours n\'y auront plus accès.';
+$string['status_help'] = 'Si ce réglage est désactivé, les utilisateurs s\'étant auto-inscrits au cours n\'y auront plus accès.';
 $string['syncenrolmentstask'] = 'Tâche de synchronisation des auto-inscriptions';
 $string['unenrol'] = 'Désinscrire l\'utilisateur';
 $string['unenrolselfconfirm'] = 'Voulez-vous vraiment vous désinscrire du cours « {$a} » ?';

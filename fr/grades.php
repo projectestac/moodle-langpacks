@@ -370,6 +370,7 @@ $string['gradetype_help'] = 'Il y a 4 types de notes :
 
 Seuls les types valeur et barème permettent le calcul d\'une tendance centrale. Le type de note pour un élément d\'évaluation basé sur une activité est géré dans les paramètres de l\'activité.';
 $string['gradevaluetoobig'] = 'Une des notes dépasse la note maximale autorisée {$a}';
+$string['gradevaluetoosmall'] = 'Une des notes est plus petite que la note minimale permise {$a}';
 $string['gradeview'] = 'Afficher la note';
 $string['gradewasmodifiedduringediting'] = 'La note saisie donnée à {$a->username} pour {$a->itemname} a été ignorée, car elle a été mise à jour ultérieurement par quelqu\'un d\'autre.';
 $string['gradeweighthelp'] = 'Aide sur les coefficients des notes';

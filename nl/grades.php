@@ -387,6 +387,7 @@ $string['gradetype_help'] = 'Er zijn 4 beoordelingstypes:
 
 Enkel de waarde en schaal kunnen geaggregeerd worden. Het beoordelingstype voor een activiteitsgebaseerd beoordelingsitem wordt op de instellingspagina van de activiteit ingesteld.';
 $string['gradevaluetoobig'] = 'Eén van de cijferswaarden is groter dan het maximumcijfer ({$a})';
+$string['gradevaluetoosmall'] = 'Eén van de cijfers is kleiner dan het toegestane minimum van {$a}';
 $string['gradeview'] = 'Bekijk beoordeling';
 $string['gradewasmodifiedduringediting'] = 'Het ingegeven cijfer voor {$a->itemname} van {$a->username} is weggelaten omdat het recent is aangepast door iemand anders.';
 $string['gradeweighthelp'] = 'Help bij gewogen beoordelingen';

@@ -370,6 +370,7 @@ $string['gradetype_help'] = 'Existem três tipos de notas:
 
 Apenas os tipos de notas Valor e Escala podem ser agregados. O tipo de nota de uma atividade é definido nas respetivas configurações.';
 $string['gradevaluetoobig'] = 'Um dos valores da nota é maior do que a nota máxima permitida de {$a}';
+$string['gradevaluetoosmall'] = 'Um dos valores da nota é menor que a nota mínima permitida de {$a}';
 $string['gradeview'] = 'Ver nota';
 $string['gradewasmodifiedduringediting'] = 'A nota inserida para {$a->itemname} de {$a->username} foi ignorada porque foi mais recentemente atualizada por outro utilizador.';
 $string['gradeweighthelp'] = 'Ajuda sobre Ponderação de notas';

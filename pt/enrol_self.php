@@ -94,7 +94,7 @@ Se este campo for deixado em branco, qualquer utilizador poderá inscrever-se ne
 Se for especificada uma senha, qualquer utilizador que tente aceder à disciplina terá que indicar esta senha. Este procedimento SÓ acontece no momento da inscrição nas disciplinas. Os acessos posteriores dos alunos inscritos dispensam a indicação desta senha.';
 $string['passwordinvalid'] = 'A senha de inscrição que indicou não é a correta. Por favor, tente novamente';
 $string['passwordinvalidhint'] = 'A senha de inscrição que indicou não é a correta. Por favor, tente novamente. Sugestão: A primeira letra é "{$a}"';
-$string['passwordmatchesgroupkey'] = 'A chave de inscrição corresponde a uma chave de inscrição de grupo existente';
+$string['passwordmatchesgroupkey'] = 'Esta chave de inscrição já está a ser usada como chave de inscrição de grupo.';
 $string['pluginname'] = 'Autoinscrição';
 $string['pluginname_desc'] = 'Este módulo permite aos utilizadores decidir em que disciplinas pretendem inscrever-se. As disciplinas podem ser protegidas por uma senha de inscrição. Internamente a inscrição é feita através do módulo de inscrições manuais, pelo que este módulo tem de estar igualmente ativo na disciplina.';
 $string['privacy:metadata'] = 'O módulo Autoinscrição não armazena quaisquer dados pessoais.';

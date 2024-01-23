@@ -440,7 +440,7 @@ $string['courserequestfailed'] = 'Votre demande n\'a pas pu être enregistrée p
 $string['courserequestintro'] = 'Utiliser ce formulaire pour demander l\'ouverture d\'un cours pour vous.<br />Veuillez remplir toutes les informations possibles pour permettre aux<br />administrateurs de comprendre les raisons de votre demande.';
 $string['courserequestreason'] = 'Pourquoi voulez-vous créer ce cours ?';
 $string['courserequestroleerror'] = 'La configuration du rôle des créateurs de cours dans les nouveaux cours n\'est pas valide. Veuillez corriger ceci dans les <a href="{$a}">politiques utilisateurs</a>.';
-$string['courserequestsuccess'] = 'Votre requête a été enregistrée. Vous recevrez prochainement un courriel pour vous informer du résultat de votre demande.';
+$string['courserequestsuccess'] = 'Demande de cours envoyée.';
 $string['courserequestsupport'] = 'Informations supplémentaires pour aider l\'administrateur à évaluer cette demande';
 $string['courserequestwarning'] = 'L\'utilisateur ayant demandé ce cours y sera inscrit automatiquement avec le rôle « {$a} ».';
 $string['courserestore'] = 'Restauration du cours';
@@ -2302,7 +2302,7 @@ $string['weekhide'] = 'Cacher cette semaine pour {$a}';
 $string['weeklyoutline'] = 'Aperçu des semaines';
 $string['weeks'] = 'semaines';
 $string['weekshow'] = 'Afficher cette semaine pour {$a}';
-$string['welcomeback'] = 'Bienvenue de nouveau, {$a->firstname} ! 👋';
+$string['welcomeback'] = 'Bonjour {$a->firstname} ! 👋';
 $string['welcometocourse'] = 'Bienvenue sur {$a}';
 $string['welcometocoursetext'] = 'Bienvenue au cours « {$a->coursename} » !
 

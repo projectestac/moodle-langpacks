@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Ajouter des tuiles';
+$string['addsections'] = 'Ajouter une tuile';
 $string['admintools'] = 'Outils d\'administration';
 $string['all'] = 'Toutes';
 $string['allcomplete'] = 'Toutes complètes';
@@ -120,7 +120,7 @@ $string['documentation'] = 'Documentation';
 $string['documentationurl'] = 'URL de la documentation';
 $string['documentationurl_descr'] = 'URL de la documentation du format Tuiles.';
 $string['download'] = 'Télécharger';
-$string['editoradvicesubtiles'] = 'Dans cette version du plugin Tuiles ({$a}), les activités n\'apparaîtront en tant que sous-tuiles que si le mode d\'édition est désactivé';
+$string['editoradvicesubtiles'] = 'Dans cette version du plugin Tuiles, les activités n\'apparaîtront en tant que sous-tuiles que si le mode d\'édition est désactivé';
 $string['editsection'] = 'Modifier la tuile';
 $string['editsectionname'] = 'Modifier le nom de la tuile';
 $string['embeddedurlerror'] = 'Si le site Web externe refuse de se connecter dans la fenêtre ci-dessus, utilisez ceci :';
@@ -266,8 +266,8 @@ $string['imagedeletedfrom'] = 'Image supprimée de « {$a} »';
 $string['imagesavedfor'] = 'Image enregistrée pour la tuile {$a}';
 $string['imagesize'] = 'Taille de l\'image';
 $string['items'] = 'Éléments';
-$string['jsactivate'] = 'Activer la navigation animée';
-$string['jsdeactivate'] = 'Désactiver la navigation animée';
+$string['jsactivate'] = 'Désactiver la navigation animée';
+$string['jsdeactivate'] = 'Activer la navigation animée';
 $string['jsdeactivated'] = 'Vous avez désactivé la navigation animée. Vous pouvez la réactiver à l\'aide du menu de navigation.';
 $string['jsnavsettings'] = 'Navigation Javascript';
 $string['jsreactivated'] = 'Vous avez activé la navigation animée. Cela peut être plus rapide à utiliser, mais nécessite l\'activation de JavaScript.';

@@ -439,10 +439,8 @@ $string['courserequestdetails'] = 'Detalhes da disciplina que está a pedir';
 $string['courserequestfailed'] = 'Por alguma razão a disciplina que pediu não pode ser gravada';
 $string['courserequestintro'] = 'Use este formulário para fazer um pedido de criação de disciplina.<br />Tente preencher o formulário quanto possível<br />para que os administradores possam compreender a sua razão para o pedido.';
 $string['courserequestreason'] = 'Justificação do pedido de criação da disciplina';
-$string['courserequestroleerror'] = 'The creators\' role in new courses configuration is invalid. Please see <a href="{$a}">user policies</a>.
-
-O papel de criador de disciplina na configuração de novas disciplinas é inválido. Consulte a <a href="{$a}">Política de utilizadores</a>.';
-$string['courserequestsuccess'] = 'O seu pedido de criação de disciplina foi registado com sucesso. Em breve irá receber um e-mail a informá-lo do resultado do seu pedido.';
+$string['courserequestroleerror'] = 'O papel de criador de disciplina na configuração de novas disciplinas é inválido. Consulte a <a href="{$a}">Política de utilizadores</a>.';
+$string['courserequestsuccess'] = 'Pedido de criação de disciplina submetido.';
 $string['courserequestsupport'] = 'Informação de suporte para auxiliar o administrador a avaliar este pedido';
 $string['courserequestwarning'] = 'O utilizador que efetuou o pedido da disciplina será inscrito automaticamente e ser-lhe-á atribuído o papel de {$a}.';
 $string['courserestore'] = 'Restauro da disciplina';
@@ -743,8 +741,7 @@ $string['emailpasswordchangeinfodisabled'] = 'Caro(a) {$a->firstname},
 
 Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
 
-Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o administrador da plataforma,
-$a->admin}.';
+Infelizmente, a sua conta neste site está desativada logo a senha não pode ser reposta. Por favor, contacte o administrador da plataforma, {$a->admin}.';
 $string['emailpasswordchangeinfofail'] = 'Caro(a) {$a->firstname},
 
 Foi pedida uma nova senha para a sua conta na plataforma de e-learning \'{$a->sitename}\'.
@@ -792,7 +789,7 @@ Se não fez o pedido de reposição da senha, ignore esta mensagem.
 Se precisar de ajuda, por favor, contacte o administrador da plataforma,
 {$a->admin}.';
 $string['emailresetconfirmationsubject'] = '{$a}: Pedido de reposição de senha';
-$string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e concluir a alteração da sua senha. Se precisar de ajuda, por favor, contacte o administrador do site, {$a->admin}.';
+$string['emailresetconfirmsent'] = 'Foi enviado um e-mail para o seu endereço em <b>{$a}</b>.<br />Este contém instruções para confirmar e concluir a alteração da sua senha. Se precisar de ajuda, por favor, contacte o administrador do site.';
 $string['emailstop'] = 'Desativar as notificações';
 $string['emailtoprivatefiles'] = 'Também pode enviar ficheiros como anexos de e-mail diretamente para a sua área de ficheiros privados. Basta anexar os seus ficheiros a um e-mail e enviá-lo para {$a}.';
 $string['emailtoprivatefilesdenied'] = 'O administrador desativou a possibilidade de carregar ficheiros privados.';
@@ -2318,7 +2315,7 @@ $string['weekhide'] = 'Ocultar esta semana a {$a}';
 $string['weeklyoutline'] = 'Agenda semanal';
 $string['weeks'] = 'semanas';
 $string['weekshow'] = 'Mostrar esta semana a {$a}';
-$string['welcomeback'] = 'Bem-vindo(a) novamente, {$a->firstname}! 👋';
+$string['welcomeback'] = 'Olá, {$a->firstname}! 👋';
 $string['welcometocourse'] = 'Bem-vindo à página da disciplina {$a}';
 $string['welcometocoursetext'] = 'Bem-vindo à página da disciplina {$a->coursename}!
 

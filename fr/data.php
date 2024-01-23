@@ -422,6 +422,7 @@ $string['savetemplate'] = 'Enregistrer modèle';
 $string['search'] = 'Recherche';
 $string['search:activity'] = 'Base de données – information sur l\'activité';
 $string['search:entry'] = 'Base de données – fiches';
+$string['searchresults'] = 'Fiches contenant « {$a} »';
 $string['selectedrequired'] = 'Toute la sélection requise';
 $string['selectexportoptions'] = 'Sélectionner les options d\'exportation';
 $string['selectfields'] = 'Sélectionner les champs';

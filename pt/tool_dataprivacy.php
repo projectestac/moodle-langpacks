@@ -157,7 +157,9 @@ $string['errorrequestalreadyexists'] = 'Já existe uma solicitação em processa
 $string['errorrequestnotfound'] = 'Pedido não encontrado';
 $string['errorrequestnotwaitingforapproval'] = 'A solicitação não está a aguardar aprovação. Ou ainda não está concluída ou já foi processada.';
 $string['errorsendingmessagetodpo'] = 'Ocorreu um erro ao tentar enviar uma mensagem para {$a}.';
-$string['exceptionnotificationbody'] = '<p>Exceção ocorreu enquanto processava <b>{\\$a->fullmethodname}</b>.<br>Isto significa que o módulo <b>{\\$a->component}</b> não completou o processamento de dados. Em baixo, pode encontrar informação da exceção que pode ser transmitida pelo programador do módulo.</p><pre>{\\$a->message}<br>\\n\\n{\\$a->backtrace}</pre>';
+$string['exceptionnotificationbody'] = '<p>Ocorreu uma exceção ao chamar <b>{$a->fullmethodname}</b>.<br>Isto significa que o plugin <b>{$a->component}</b> não concluiu o processamento dos dados. A seguinte informação de exceção pode ser transmitida ao desenvolvedor do plugin:</p><pre>{$a->message}<br>
+
+{$a->backtrace}</pre>';
 $string['exceptionnotificationsubject'] = 'Ocorreu uma exceção durante o processamento dos dados de privacidade';
 $string['expandplugin'] = 'Expandir e colapsar o módulo.';
 $string['expandplugintype'] = 'Expandir e colapsar o tipo de módulo.';

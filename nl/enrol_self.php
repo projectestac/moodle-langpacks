@@ -95,7 +95,7 @@ Indien een sleutel opgegeven wordt, dan zal elke gebruiker die de cursus wil bin
 $string['passwordinvalid'] = 'Je sleutel is fout - probeer nog eens';
 $string['passwordinvalidhint'] = 'Die \'Cursussleutel\' was niet correct. Probeer het nog eens.<br />
 (Hier een hint: Hij begint met \'{$a}\')';
-$string['passwordmatchesgroupkey'] = 'Aanmeldingssleutel komt overeen met een bestaande groep aanmeldingssleutel';
+$string['passwordmatchesgroupkey'] = 'Aanmeldingssleutel is al gebruikt als groep aanmeldingssleutel.';
 $string['pluginname'] = 'Zelf aanmelden';
 $string['pluginname_desc'] = 'De zelf aanmelden-plugin maakt het voor gebruikers mogelijk te kiezen in welke cursussen ze gaan deelnemen. De cursussen kunnen beschermd zijn door een cursussleutel. Intern wordt de aanmelding gedaan via de manuele aanmeldingsplugin die moet ingeschakeld zijn in dezelfde cursus.';
 $string['privacy:metadata'] = 'De zelf aanmeldenplugin bewaart geen persoonlijke gegevens.';
