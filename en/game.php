@@ -89,6 +89,7 @@ $string['cross_found_one'] = 'Found';
 $string['cross_layout'] = 'Layout';
 $string['cross_layout0'] = 'Phrases on the bottom of cross';
 $string['cross_layout1'] = 'Phrases on the right of cross';
+$string['cross_layout2'] = 'No phrases';
 $string['cross_max_attempts'] = 'Maximum number of attempts';
 $string['cross_maxcols'] = 'Maximum number of cols/rows';
 $string['cross_maxcomputetime'] = 'Maximum compute time in seconds';

@@ -41,10 +41,10 @@ $string['addingquestion'] = 'Galdera bat gehitzen';
 $string['addingquestions'] = '<p>Orriaren alde honetan zure galderen datu-basea kudeatuko duzu. Galderak kategoriaka gordetzen dira antolaketa errazteko eta horrela gainera galdetegi batean baino gehiagotan erabil daitezke edo ikastaro ezberdinetan, \'argitaratu\' aukeratzen baduzu.</p>
 <p>Galdera-kategoria bat aukeratu edo sortutakoan galderak sortu edo editatu ahal izango dituzu. Orri honen beste aldean agertzen diren galderetako bat aukera dezakezu zure galdetegira gehitzeko.</p>';
 $string['addmoreoverallfeedbacks'] = 'Gehitu feedbacketarako {no} eremu gehiago';
-$string['addnewgroupoverride'] = 'Gehitu talde-salbuespena';
+$string['addnewgroupoverride'] = 'Gehitu talde batentzako salbuespena';
 $string['addnewpagesafterselected'] = 'Gehitu beste orri batzuk aukeratutako galderen ondoren';
 $string['addnewquestionsqbank'] = 'Gehitu galderak kategoria honetara {$a->catname}: {$a->link}';
-$string['addnewuseroverride'] = 'Gehitu erabiltzaile-salbuespena';
+$string['addnewuseroverride'] = 'Gehitu erabiltzaile batentzako salbuespena';
 $string['addpagebreak'] = 'Gehitu orri-jauzia';
 $string['addpagehere'] = 'Gehitu orria hemen';
 $string['addquestion'] = 'Gehitu galdera';

@@ -1478,6 +1478,7 @@ $string['unsupportedphpversion74'] = 'Версия PHP 7.4 и выше не по
 $string['unsupportedphpversion80'] = 'Версия PHP 8.0 и выше не поддерживается.';
 $string['unsupportedphpversion81'] = 'Версия PHP 8.1 и выше не поддерживается.';
 $string['unsupportedphpversion82'] = 'Версии PHP 8.2 и выше не поддерживаются.';
+$string['unsupportedphpversion83'] = 'PHP версии 8.3 и выше не поддерживаются.';
 $string['unsuspenduser'] = 'Активировать учетную запись';
 $string['updateaccounts'] = 'Обновить существующие учетные записи';
 $string['updateautocheck'] = 'Автоматически проверять наличие обновлений';

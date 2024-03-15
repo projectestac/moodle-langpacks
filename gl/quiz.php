@@ -156,7 +156,6 @@ $string['cannotreviewopen'] = 'Non pode revisar este intento, aínda está abert
 $string['cannotsavelayout'] = 'Non foi posíbel gardar o deseño';
 $string['cannotsavenumberofquestion'] = 'Non foi posíbel  gardar o número de preguntas por páxina';
 $string['cannotsavequestion'] = 'Non é posíbel gardar a lista de preguntas';
-$string['cannotsetgrade'] = 'Non foi posíbel  estabelecer un grao máximo para a proba';
 $string['cannotsetsumgrades'] = 'Produciuse un fallo ao estabelecer a suma de cualificacións';
 $string['cannotstartgradesmismatch'] = 'Non é posíbel comezar un intento nesta proba. A proba está configurada para ser cualificada fóra de {$a>grade}, mais ningunha das preguntas na proba teñen unha cualificación. Isto pode arranxarse na páxina de «Editar proba».';
 $string['cannotstartmissingquestion'] = 'Non é posíbel comezar un intento nesta proba. A definición da proba inclúe unha pregunta que non existe.';

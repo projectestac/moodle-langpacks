@@ -1044,7 +1044,7 @@ $string['helpprefix2'] = 'Hilfe für {$a}';
 $string['helpwiththis'] = 'Hilfe für dies';
 $string['hiddenassign'] = 'Verborgene Zuweisung';
 $string['hiddenfromstudents'] = 'Für Teilnehmer/innen verborgen';
-$string['hiddenoncoursepage'] = 'Verfügbar, aber auf Kursseite verborgen';
+$string['hiddenoncoursepage'] = 'Verfügbar, aber auf Kursseite nicht anzeigen';
 $string['hiddensections'] = 'Verborgene Abschnitte';
 $string['hiddensections_help'] = 'Verborgene Abschnitte können den Teilnehmer/innen auf der Kursseite als "nicht verfügbar" angezeigt oder vollständig ausgeblendet bleiben.';
 $string['hiddensectionscollapsed'] = 'Verborgene Abschnitte werden als nicht verfügbar angezeigt';
@@ -1054,7 +1054,7 @@ $string['hide'] = 'Verbergen';
 $string['hideadvancedsettings'] = 'Optionale Felder verbergen';
 $string['hidechartdata'] = 'Grafikdaten verbergen';
 $string['hidefromstudents'] = 'Auf der Kursseite verbergen';
-$string['hideoncoursepage'] = 'Verfügbar, aber auf der Kursseite nicht anzeigen';
+$string['hideoncoursepage'] = 'Verfügbar, aber auf Kursseite nicht anzeigen';
 $string['hidepicture'] = 'Bild verbergen';
 $string['hidepopoverwindow'] = 'Popover-Fenster verbergen';
 $string['hidesection'] = 'Abschnitt {$a} verbergen';
@@ -1347,11 +1347,11 @@ $string['modvisible_help'] = '* Auf Kursseite anzeigen: Verfügbar für Teilnehm
 * Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer/innen.';
 $string['modvisiblehiddensection'] = 'Verfügbarkeit';
 $string['modvisiblehiddensection_help'] = '* Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer/innen.
-* Verfügbar, aber auf der Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer/innen, wenn sie einen Link haben. Aktivitäten werden weiterhin in den Bewertungen und in anderen Berichten angezeigt.';
+* Verfügbar, aber auf Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer/innen, die den Link haben. Aktivitäten werden weiterhin in den Bewertungen und in anderen Berichten angezeigt.';
 $string['modvisiblewithstealth'] = 'Verfügbarkeit';
 $string['modvisiblewithstealth_help'] = '* Auf Kursseite anzeigen: Verfügbar für Teilnehmer/innen (vorbehaltlich eventuell festgelegter Zugriffsbeschränkungen).
 * Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer/innen.
-* Verfügbar, aber auf der Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer/innen, wenn sie einen Link haben. Aktivitäten werden weiterhin in den Bewertungen und in anderen Berichten angezeigt.';
+* Verfügbar, aber auf Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer/innen, die den Link haben. Aktivitäten werden weiterhin in den Bewertungen und in anderen Berichten angezeigt.';
 $string['month'] = 'Monat';
 $string['months'] = 'Monate';
 $string['moodledocs'] = 'Dokumentation';
@@ -1737,7 +1737,7 @@ $string['publicsitefileswarning'] = 'Achtung: Jeder könnte die hier befindliche
 $string['publicsitefileswarning2'] = 'Achtung: Jeder könnte die hier befindlichen Dateien herunterladen, der die URL kennt (oder erraten kann). Aus Sicherheitsgründen sollten alle hochgeladenen Kurssicherungen sofort nach der Wiederherstellung gelöscht werden.';
 $string['publicsitefileswarning3'] = 'Achtung: Jeder könnte diese Dateien herunterladen, wenn er die URL kennt (oder sie erraten kann). Aus Sicherheitsgründen sollten Kurssicherungen ausschließlich im geschützen Verzeichnis \'backupdata\' liegen.';
 $string['question'] = 'Frage';
-$string['questionsinthequestionbank'] = 'Fragen in der Fragenliste';
+$string['questionsinthequestionbank'] = 'Fragen in der Fragensammlung';
 $string['queued'] = 'In Warteschlange';
 $string['quotausage'] = 'Aktuell sind {$a->used} vom möglichen Speicher {$a->total} belegt.';
 $string['readinginfofrombackup'] = 'Informationen der Sicherung lesen';
@@ -2279,7 +2279,7 @@ $string['uploadthisfile'] = 'Datei hochladen';
 $string['url'] = 'URL';
 $string['used'] = 'Verwendet';
 $string['usedinnplaces'] = 'An {$a} Stellen verwendet';
-$string['user'] = 'Nutzer';
+$string['user'] = 'Nutzer/in';
 $string['useraccount'] = 'Nutzerkonto';
 $string['useractivity'] = 'Aktivität';
 $string['userconfirmed'] = '{$a} bestätigt';

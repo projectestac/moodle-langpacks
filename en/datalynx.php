@@ -212,6 +212,7 @@ $string['disabled'] = 'Display disabled elements';
 $string['disapproved'] = 'Not approved';
 $string['displaytemplate'] = 'Display template';
 $string['displaytemplate_help'] = 'Specify HTML template to replace the field tag in browse mode. To specify the position of the actual value, use #value tag within the template.';
+$string['displayview'] = 'Display a datalynx view via shortcodes';
 $string['documenttype'] = 'Document type';
 $string['dots'] = '...';
 $string['download'] = 'Download';

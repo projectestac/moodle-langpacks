@@ -466,6 +466,7 @@ $string['coursestart'] = '课程开始';
 $string['coursesummary'] = '课程概要';
 $string['coursesummary_help'] = '课程简介会显示在课程列表中。搜索课程时会同时搜索课程名和课程简介。';
 $string['coursetitle'] = '课程： {$a->course}';
+$string['coursetitleediting'] = '课程修改:($a->course)';
 $string['courseupdates'] = '课程更新';
 $string['coursevisibility'] = '课程可见性';
 $string['coursevisibility_help'] = '该设置决定本课程是否出现在课程列表上，以及学生是否能够访问。如果设成隐藏，那么仅限有权查看隐藏文件的用户查看（比如老师）。';

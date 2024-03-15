@@ -326,7 +326,7 @@ $string['missinglogdata'] = 'Logdaten für existierendes Ergebnis fehlen.';
 $string['missingquestion'] = 'Diese Frage scheint nicht mehr zu existieren';
 $string['missinguserid'] = 'Identifikationsnummer fehlt! Barcode konnte nicht gelesen werden!';
 $string['modulename'] = 'Offline-Test';
-$string['modulename_help'] = 'Dieses Modul erlaubt die Erstellung von Fragebogen-Tests mit Multiple-Choice-Fragen. Die Fragen werden in der Moodle-Fragendatenbank gespeichert und können in anderen Offline- und Online-Tests wiederverwendet werden. Das Modul erstellt Frage- und Antwortbögen, die als PDF-, DOCX- oder LaTeX-Dateien heruntergeladen werden können. Auf den ausgedruckten Antwortbögen werden die Antworten von den Teilnehmer/innen angekreuzt.
+$string['modulename_help'] = 'Dieses Modul erlaubt die Erstellung von Fragebogen-Tests mit Multiple-Choice-Fragen. Die Fragen werden in der Fragensammlung in Moodle gespeichert und können in anderen Offline- und Online-Tests wiederverwendet werden. Das Modul erstellt Frage- und Antwortbögen, die als PDF-, DOCX- oder LaTeX-Dateien heruntergeladen werden können. Auf den ausgedruckten Antwortbögen werden die Antworten von den Teilnehmer/innen angekreuzt.
 Die Antwortbögen werden anschließend eingescannt, im Offline-Test hochgeladen und die markierten Antworten ausgewertet.';
 $string['modulenameplural'] = 'Offline-Tests';
 $string['moodleprocessing'] = 'Belege durch Moodle auswerten';

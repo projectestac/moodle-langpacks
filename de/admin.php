@@ -1505,6 +1505,7 @@ $string['unsupportedphpversion74'] = 'PHP 7.4 (und höher) wird nicht unterstüt
 $string['unsupportedphpversion80'] = 'PHP 8.0 (und höher) wird nicht unterstützt.';
 $string['unsupportedphpversion81'] = 'PHP 8.1 (und höher) wird nicht unterstützt.';
 $string['unsupportedphpversion82'] = 'PHP Version 8.2 und höher werden nicht unterstützt';
+$string['unsupportedphpversion83'] = 'PHP 8.3 und höher werden nicht unterstützt';
 $string['unsuspenduser'] = 'Nutzerkonto aktivieren';
 $string['updateaccounts'] = 'Bestehende Nutzerkonten aktualisieren';
 $string['updateautocheck'] = 'Automatisch auf Aktualisierungen prüfen';

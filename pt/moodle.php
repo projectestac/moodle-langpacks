@@ -936,7 +936,7 @@ $string['forcepasswordchange_help'] = 'Se ativar esta opção, o utilizador ter�
 $string['forcepasswordchangecheckfull'] = 'Tem a certeza de que pretende forçar a mudança de senha para {$a}?';
 $string['forcepasswordchangenot'] = 'Não é possível forçar a mudança de senha para {$a}';
 $string['forcepasswordchangenotice'] = 'Tem de alterar a sua senha para poder continuar.';
-$string['forcepasswordresetfailurenotice'] = 'A sua senha atual já não cumpre a política de senhas definida. Entre em contacto com o administrador do Moodle para obter assistência.
+$string['forcepasswordresetfailurenotice'] = 'A sua senha atual já não cumpre a política de senhas definida. Contacte o administrador do Moodle para obter assistência.
    {$a}';
 $string['forcepasswordresetnotice'] = 'A sua senha atual já não cumpre a política de senhas definida. Tem de repor a senha para entrar novamente.
    {$a}';

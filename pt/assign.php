@@ -94,7 +94,7 @@ $string['attemptheading'] = 'Tentativa {$a->attemptnumber}: {$a->submissionsumma
 $string['attempthistory'] = 'Tentativas anteriores';
 $string['attemptnumber'] = 'Número da tentativa';
 $string['attemptreopenmethod'] = 'Tentativas adicionais';
-$string['attemptreopenmethod_help'] = 'Esta configuração determina se um aluno pode fazer outras tentativas no trabalho. Para cada tentativa, a nota e o feedback são guardados e podem ser visualizados pelo professor e pelo aluno. As opções disponíveis são:
+$string['attemptreopenmethod_help'] = 'Esta configuração determina se o aluno pode realizar outras tentativas no trabalho. Para cada tentativa, a nota e o feedback são guardados e podem ser visualizados pelo professor e pelo aluno. As opções disponíveis são:
 
 * Nunca - apenas é possível uma tentativa.
 * Manualmente -  um professor pode adicionar tentativas adicionais

@@ -337,19 +337,11 @@ $string['cookiesenabled_help'] = 'Aquest lloc utilitza dues galetes:
 L\'essencial és la galeta de sessió, generalment anomenada MoodleSession. Heu de permetre aquesta galeta al vostre navegador per donar continuïtat i mantenir la connexió en navegar pel lloc. En finalitzar la sessió o tancar el navegador, aquesta galeta es destrueix (al vostre ordinador i al servidor).
 
 L\'altra galeta, sovint anomenada MOODLEID o alguna cosa semblant, és purament per comoditat. Simplement recorda el vostre nom d\'usuari dins del navegador. Això vol dir que quan torneu a aquest lloc el camp d\'usuari de la pàgina d\'entrada ja estarà emplenat amb el vostre nom. Refusar aquesta galeta és segur: en aquest cas simplement haureu d\'escriure el vostre nom d\'usuari cada vegada que inicieu la sessió.';
-$string['cookiesenabled_help_html'] = 'Aquest lloc web empra dues galetes:<br/><br/>\\n
-\\n
-L\'essencial és la galeta de sessió, anomenada usualment MoodleSession.
-Heu de permetre aquesta galeta al vostre navegador per tal de tenir
-continuïtat i romandre connectat mentre navegueu pel lloc web.
-Quan us desconnecteu o tanqueu el navegador, aquesta galeta es destrueix
-(tant al vostre navegador com al lloc web).<br/><br/>\\n
-\\n
-L\'altra galeta, anomenada MOODLEID o semblantment, és purament
-de conveniència. Simplement recorda el vostre nom d\'usuari al navegador.
-Això vol dir que quan retorneu a aquest lloc, s\'omplirà automàticament
-el nom d\'usuari a la pàgina d\'entrada. Podeu refusar aquesta galeta:
-simplement haureu de reescriure el nom d\'usuari cada vegada que torneu a entrar.';
+$string['cookiesenabled_help_html'] = 'Aquest lloc web empra dues galetes:<br/><br/>
+
+L\'essencial és la galeta de sessió, anomenada usualment MoodleSession. Heu de permetre aquesta galeta al vostre navegador per tal de tenir continuïtat i romandre connectat mentre navegueu pel lloc web. Quan us desconnecteu o tanqueu el navegador, aquesta galeta es destrueix (tant al vostre navegador com al servidor).<br/><br/>
+
+L\'altra galeta, anomenada MOODLEID o similar, és purament de conveniència. Tan sols recorda el vostre nom d\'usuari al navegador. Això vol dir que quan retorneu a aquest lloc, s\'omplirà automàticament el nom d\'usuari a la pàgina d\'entrada. Podeu refusar aquesta galeta: en aquest cas només haureu de reescriure el nom d\'usuari cada vegada que torneu a entrar.';
 $string['cookiesenabledonlysession'] = 'Les galetes han d\'estar habilitades en el vostre navegador';
 $string['cookiesenabledonlysession_help'] = 'Aquest lloc utilitza una sessió de galetes, anomenada MoodleSession. Heu de permetre l\'ús d\'aquestes galetes al vostre navegador per poder continuar i romandre autenticat mentre navegueu pel lloc. Quan tanqueu la sessió o tanqueu el navegador, aquestes galetes seran eliminades (del vostre navegador i del servidor).';
 $string['cookiesnotenabled'] = 'Malauradament no teniu les galetes habilitades al navegador';

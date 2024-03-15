@@ -1476,6 +1476,7 @@ $string['unsupportedphpversion74'] = 'Ez da PHP 7.4 edo goragoko bertsioa onartz
 $string['unsupportedphpversion80'] = 'Ez da PHP 8.0 edo goragoko bertsioa onartzen.';
 $string['unsupportedphpversion81'] = 'Ez da PHP 8.1 edo goragoko bertsioa onartzen.';
 $string['unsupportedphpversion82'] = 'Ez da PHP 8.2 edo goragoko bertsioa onartzen.';
+$string['unsupportedphpversion83'] = 'Ez da PHP 8.3 edo goragoko bertsioa onartzen.';
 $string['unsuspenduser'] = 'Aktibatu erabiltzailearen kontua';
 $string['updateaccounts'] = 'Eguneratu dauden kontuak';
 $string['updateautocheck'] = 'Bilatu eskuragarri dauden eguneraketak automatikoki';

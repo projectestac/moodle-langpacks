@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accessibility'] = 'Acessibilidade';
-$string['accessibilitydisabled'] = 'A ferramenta de acessibilidade Brickfield não está ativada neste site. Entre em contacto com o administrador do site para ativar.';
+$string['accessibilitydisabled'] = 'A ferramenta de acessibilidade Brickfield não está ativada neste site. Contacte o administrador do site para ativar.';
 $string['accessibilityreport'] = 'Ferramenta de acessibilidade';
 $string['accessibilitytool'] = 'Ferramenta de acessibilidade Brickfield';
 $string['accessibilitytools'] = 'Ferramentas de acessibilidade Brickfield';
@@ -107,7 +107,7 @@ $string['cmpercent'] = 'Percentagem global das atividades';
 $string['cmpercenterrors'] = 'Percentagem global dos erros';
 $string['cmpercenttitle'] = 'Percentagem global da análise das atividades versus erros';
 $string['confirmationmessage'] = 'Esta disciplina foi agendada para análise. A análise será concluída o mais breve possível por {$a}. Depois de concluída, verifique novamente.';
-$string['contactadmin'] = 'Entre em contacto com o seu administrador para concluir o registo.';
+$string['contactadmin'] = 'Contacte o seu administrador para concluir o registo.';
 $string['contactus'] = 'Contacte-nos';
 $string['contentfive'] = 'Corrigir automaticamente as tags HTML desatualizadas.';
 $string['contentfour'] = 'Identifica que atividades têm mais problemas de acessibilidade para dar prioridade ao esforço.';

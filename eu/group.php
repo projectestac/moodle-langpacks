@@ -115,7 +115,7 @@ $string['groupmembersselected'] = 'Aukeratutako taldeko kideak';
 $string['groupmode'] = 'Talde-modua';
 $string['groupmode_help'] = '* Talderik ez
 * Taldeek ezin elkar ikusi - Ikasleak taldeetan banatuta daude eta bakoitzak bere taldearen lana baino ezin du ikusi.
-* Taldeek elkar ikusten dute - Ikasleak taldeetan banatuta daude eta bakoitzak bere taldean egiten du lan baina gainerako taldeen lana ere ikusten ditu.
+* Taldeek elkar ikusten dute - Ikasleak taldeetan banatuta daude eta bakoitzak bere taldean egiten du lan baina gainerako taldeen lana ere ikusi dezake.
 
 Ikastaro mailan zehaztutako talde-modua jarduera guztietan lehenetsitakoa da. Ikastaro mailan talde-modua behartzen bada ezin da jardueretan aldatu.';
 $string['groupmodeforce'] = 'Behartu talde-modua';

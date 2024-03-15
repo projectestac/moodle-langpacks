@@ -439,6 +439,7 @@ $string['courserequestdetails'] = 'Dettagli del corso che desideri sia attivato'
 $string['courserequestfailed'] = 'Per qualche motivo, non è stato possibile salvare la tua richiesta';
 $string['courserequestintro'] = 'Utilizzare questo modulo per richiedere la creazione di un corso.<br /> Fornire più informazioni possibili per consentire agli amministratori di capire la motivazione della richiesta.';
 $string['courserequestreason'] = 'Motivazione della richiesta';
+$string['courserequestroleerror'] = 'Il ruolo dei creatori nella configurazione dei nuovi corsi non è valido. Consultare le <a href="{$a}">politiche utente</a>.';
 $string['courserequestsuccess'] = 'La tua richiesta di corso è stata inviata.';
 $string['courserequestsupport'] = 'Informazioni aggiuntive per consentire agli Amministratori di valutare al meglio la richiesta';
 $string['courserequestwarning'] = 'L\'utente che ha richiesto il corso verrà automaticamente iscritto con il ruolo di {$a}.';
@@ -464,7 +465,8 @@ $string['coursetitle'] = 'Corso: {$a->course}';
 $string['coursetitleediting'] = 'Modifica corso: {$a->course}';
 $string['courseupdates'] = 'Aggiornamenti del corso';
 $string['coursevisibility'] = 'Visibilità del corso';
-$string['coursevisibility_help'] = 'Consente di definire la visibilità di un corso nell\'elenco dei corsi e se uno studente può accedervi. Se il corso è nascosto, potranno accedervi solo i ruoli con il privilegio di visualizzare corsi nascosti.';
+$string['coursevisibility_help'] = '* Visualizza: il corso appare nell\'elenco dei corsi e gli studenti possono accedervi.
+* Nascondi: l\'accesso è limitato ai docenti e ad altri utenti con la possibilità di visualizzare i corsi nascosti.';
 $string['create'] = 'Crea';
 $string['createaccount'] = 'Crea il mio nuovo account';
 $string['createcategory'] = 'Crea categoria';
@@ -807,7 +809,7 @@ $string['emptysectionids'] = 'L\'ID della sezione è vuoto';
 $string['enable'] = 'Abilita';
 $string['encryptedcode'] = 'Codice criptato';
 $string['enddate'] = 'Data di fine corso';
-$string['enddate_help'] = 'La data di fine del corso viene utilizzata per stabilire se includere o meno un corso nell\'elenco dei corsi dell\'utente. La data di fine corso può anche essere utilizzata da report personalizzati. Gli utenti potranno continuare ad accedere al corso dopo la data di fine, data che non rappresenta impedimento all\'accesso.';
+$string['enddate_help'] = 'La data di fine non limita l’accesso degli studenti al corso. Determina se un corso è elencato come Passato ne I miei corsi.';
 $string['english'] = 'Inglese';
 $string['enrolmentmethods'] = 'Metodi di iscrizione';
 $string['entercourse'] = 'Clicca per accedere a questo corso';
@@ -970,7 +972,7 @@ $string['frontpagesettings'] = 'Impostazioni pagina home del sito';
 $string['fulllistofcourses'] = 'Tutti i corsi';
 $string['fullname'] = 'Nome';
 $string['fullnamecourse'] = 'Titolo del corso';
-$string['fullnamecourse_help'] = 'Il titolo del corso viene visualizzato nella parte superiore delle pagine del corso e nell\'elenco dei corsi.';
+$string['fullnamecourse_help'] = 'Il titolo visualizzato in I miei corsi e nell\'elenco dei corsi disponibili nella Home page..';
 $string['fullnamedisplay'] = '{$a->firstname} {$a->lastname}';
 $string['fullnameuser'] = 'Nome completo dell\'utente';
 $string['fullprofile'] = 'Descrizione completa';
@@ -1041,7 +1043,7 @@ $string['hiddenassign'] = 'Attribuzione nascosta';
 $string['hiddenfromstudents'] = 'Nascosta agli studenti';
 $string['hiddenoncoursepage'] = 'Disponibile ma non visibile sulla pagina del corso';
 $string['hiddensections'] = 'Sezioni nascoste';
-$string['hiddensections_help'] = 'L\'impostazione determina come visualizzare le sezioni nascoste agli studenti (ad esempio una settimana di vacanze quando il formato del corso è settimanale) oppure se deve essere nascosta del tutto.';
+$string['hiddensections_help'] = 'Le sezioni nascoste possono essere visualizzate agli studenti come "non disponibili" nella pagina del corso o mantenute completamente nascoste.';
 $string['hiddensectionscollapsed'] = 'Le sezioni nascoste sono visualizzate come non disponibili';
 $string['hiddensectionsinvisible'] = 'Le sezioni nascoste non sono visibili';
 $string['hiddenwithbrackets'] = '(nascosto)';
@@ -1077,7 +1079,7 @@ $string['icon'] = 'Icona';
 $string['icqnumber'] = 'Numero ICQ';
 $string['idnumber'] = 'Codice identificativo';
 $string['idnumbercourse'] = 'Codice identificativo del corso';
-$string['idnumbercourse_help'] = 'Il codice identificativo del corso viene utilizzato solamente per identificare il corso rispetto ad un sistema esterno e non viene mai visualizzato nel sito. Può essere utilizzato se il corso ha una codifica ufficiale, altrimenti il campo può essere lasciato vuoto.';
+$string['idnumbercourse_help'] = 'Utilizzato solo per collegare il corso con sistemi esterni. Lasciare vuoto se non si dispone di un codice identificativo ufficiale.';
 $string['idnumbercoursecategory'] = 'Codice identificativo della categoria';
 $string['idnumbercoursecategory_help'] = 'Il codice identificativo della categoria di corsi viene utilizzato solamente per identificare la categoria rispetto ad un sistema esterno e non viene mai visualizzato nel sito. Può essere utilizzato se la categoria ha una codifica ufficiale, altrimenti il campo può essere lasciato vuoto.';
 $string['idnumbergroup'] = 'Codice identificativo del gruppo';
@@ -1258,9 +1260,7 @@ $string['maximumgrade'] = 'Voto massimo';
 $string['maximumgradex'] = 'Voto massimo: {$a}';
 $string['maximumshort'] = 'Massimo';
 $string['maximumupload'] = 'Dimensione massima file caricabili';
-$string['maximumupload_help'] = '<p>Questa impostazione determina la dimensione massima dei file che gli studenti e i docenti possono caricare. L\'impostazione influenza solo i file caricabili nell\'ambito del corso ed è a sua volta limitata nel suo valore massimo dalla analoga impostazione effettuata a livello di sito dagli Amministratori del sistema.</p>
-
-<p>È inoltre possibile limitare ulteriormente la dimensione massima dei file caricabili per ciascuna attività del corso.</p>';
+$string['maximumupload_help'] = 'La dimensione massima del file consentita per i caricamenti degli studenti nel corso. Inoltre, È possibile limitare ulteriormente la dimensione massima di caricamento per ciascuna attività.';
 $string['maxnumberweeks'] = 'Numero massimo di sezioni';
 $string['maxnumberweeks_desc'] = 'Il numero massimo di sezioni presenti nel meni a discesa delle sezioni (si applica solamente ad alcuni formati di corso).';
 $string['maxnumcoursesincombo'] = 'Visualizza <a href="{$a->link}">{$a->numberofcourses} corsi</a>.';
@@ -1298,6 +1298,7 @@ $string['messageprovider:messagecontactrequests'] = 'Notifiche di richieste di c
 $string['messageprovider:newlogin'] = 'Notifiche di nuove autenticazione';
 $string['messageprovider:notices'] = 'Notifiche di problemi minori';
 $string['messageprovider:notices_help'] = 'Si tratta di note che dovrebbero essere rese note l\'amministratore.';
+$string['messageprovider:reportbuilderschedule'] = 'Pianificazioni personalizzate di Report builder';
 $string['messageselect'] = 'Seleziona questo utente come destinatario del messaggio';
 $string['messageselectadd'] = 'Invia un messaggio';
 $string['middlename'] = 'Secondo nome';
@@ -1455,9 +1456,9 @@ $string['newsitems'] = 'annunci';
 $string['newsitemsnumber'] = 'Numero di annunci da visualizzare';
 $string['newsitemsnumber_help'] = 'Il forum annunci è un forum particolare creato automaticamente con sottoscrizione obbligatoria di default e dove possono intervenire solo utenti con appositi privilegi (di default i docenti).
 
-L\'impostazione stabilisce il numero di annunci più recenti che appariranno nel blocco \'Annunci recenti\'.
+Se nel corso non si desidera il forum annunci, impostare il valore pari a zero.
 
-Se nel corso non si desidera il forum annunci, impostare il valore pari a zero.';
+L\'impostazione stabilisce il numero di annunci più recenti che appariranno nel blocco \'Annunci recenti\'.';
 $string['newuser'] = 'Nuovo utente';
 $string['newusernewpasswordsubj'] = 'Registrazione nuovo utente';
 $string['newusernewpasswordtext'] = 'Gentile {$a->firstname},
@@ -2052,7 +2053,9 @@ $string['specifyname'] = 'Devi specificare un nome.';
 $string['standard'] = 'Standard';
 $string['starpending'] = '([*] = corso in attesa di approvazione)';
 $string['startdate'] = 'Data di inizio del corso';
-$string['startdate_help'] = 'L\'impostazione stabilisce l\'inizio della prima settimana nei corsi con formato settimanale. L\'impostazione stabilisce anche la data da cui partono i log delle attività del corso. Se il corso viene resettato e le date vengono modificate, tutte le date presenti nel corso verranno spostate in accordo alla nuova data di inizio.';
+$string['startdate_help'] = 'Questa data determina l\'inizio della prima settimana per un corso in formato settimanale. È anche la data di inizio dei log delle attività del corso.
+
+Se si reimposta il corso e si cambia questa data, tutte le date del corso verranno spostate rispetto alla nuova data di inizio.';
 $string['startingfrom'] = 'Inizio da';
 $string['startsignup'] = 'Crea un account';
 $string['state'] = 'Stato/Provincia';

@@ -77,7 +77,7 @@ $string['eventpredictionactionstarted'] = 'S\'ha iniciat el procés de predicci�
 $string['fixedack'] = 'Accepta';
 $string['incorrectlyflagged'] = 'Marcat incorrectament';
 $string['insightinfomessageaction'] = '{$a->text}: {$a->url}';
-$string['insightinfomessagehtml'] = 'El sistema ha generat algunes prediccions: <a href="{$a}">{$a}</a>.';
+$string['insightinfomessagehtml'] = 'El sistema ha generat algunes prediccions.';
 $string['insightinfomessageplain'] = 'El sistema ha generat algunes prediccions: {$a}';
 $string['insightmessagesubject'] = 'Informació nova per a «{$a}»';
 $string['invalidanalysablefortimesplitting'] = 'No es pot analitzar utilitzant l\'interval d\'anàlisi {$a}.';

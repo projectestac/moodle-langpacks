@@ -1505,6 +1505,7 @@ $string['unsupportedphpversion74'] = 'الإصدار 7.4 من لغة PHP وما 
 $string['unsupportedphpversion80'] = 'الإصدار 8.0 من PHP وما بعده غير مدعوم.';
 $string['unsupportedphpversion81'] = 'الإصدار 8.1 من PHP وما بعده غير مدعوم.';
 $string['unsupportedphpversion82'] = 'الإصدار 8.2 من PHP فما بعده ليس مدعومًا.';
+$string['unsupportedphpversion83'] = 'إصدار PHP 8.3 وما بعده غير مدعوم.';
 $string['unsuspenduser'] = 'تفعيل حساب المستخدم';
 $string['updateaccounts'] = 'حدّث الحسابات الموجودة';
 $string['updateautocheck'] = 'تحقق تلقائياً من وجود التحديثات';
