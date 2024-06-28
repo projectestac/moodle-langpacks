@@ -358,6 +358,7 @@ $string['gradessettings'] = 'Impostazioni generali';
 $string['gradetype'] = 'Tipo valutazione';
 $string['gradetype_help'] = '<p>Specifica il tipo di valutazione da usare: Nessuno (non è possibile dare un voto), Valore (consente l\'impostazione del Voto massimo e minimo), Scala (consente l\'uso di una scala di valutazione), Testo (consente solo l\'uso dei feedback). Solamente i tipi Valore e Scala possono essere aggregati. Il tipo di valutazione per un elemento basato su un\'attività si imposta nella pagina di modifica dell\'attività.</p>';
 $string['gradevaluetoobig'] = 'Un voto è più grande del voto massimo consentito {$a}';
+$string['gradevaluetoosmall'] = 'Uno dei valori delle valutazioni inferiore alla valutazione minima consentita di {$a}';
 $string['gradeview'] = 'Visualizza valutazione';
 $string['gradewasmodifiedduringediting'] = 'La valutazione inserita per {$a->itemname} e riferita a {$a->username}, è stata ignorata poiché è stata aggiornata da altri più recentemente.';
 $string['gradeweighthelp'] = 'Help peso valutazioni';

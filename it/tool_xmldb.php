@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actual'] = 'Reale';
+$string['addpersistent'] = 'Aggiungi campi permanenti obbligatori';
 $string['aftertable'] = 'Dopo la tabella:';
 $string['back'] = 'Indietro';
 $string['backtomainview'] = 'Torna alla vista principale';
@@ -160,6 +161,7 @@ $string['newtable'] = 'Nuova tabella';
 $string['newtablefrommysql'] = 'Nuova tabella da MySQL';
 $string['nofieldsspecified'] = 'Non sono stati specificati campi';
 $string['nomasterprimaryuniquefound'] = 'Le colonnae referenziata dalla foreign key devonoe essere incluse in una primary o unique KEY della tabella referenziata. Da notare che la colonna in UNIQUE INDEX non è sufficiente.';
+$string['nomissingorextraindexesfound'] = 'Non sono stati trovati indici mancanti o aggiuntivi, quindi non sono necessarie ulteriori azioni.';
 $string['noreffieldsspecified'] = 'Non sono stati specificati campi di riferimento';
 $string['noreftablespecified'] = 'La tabella di riferimento specificata non è stata trovata';
 $string['noviolatedforeignkeysfound'] = 'Non sono state trovate violazioni di Foreign key';

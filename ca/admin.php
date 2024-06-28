@@ -533,7 +533,7 @@ $string['devicedetectregexvalue'] = 'Valor de retorn';
 $string['devicetype'] = 'Tipus de dispositiu';
 $string['devlibdirpresent'] = 'Els directoris amb biblioteques de desenvolupament com <em>vendor</em> o <em>node_modules</em> no haurien d\'estar presents en llocs públics. Per obtenir més informació, consulteu l\'<a href="{$a->moreinfourl}">informe general de seguretat </a>.';
 $string['disabled'] = 'Desactivat';
-$string['disableuserimages'] = 'Deshabilita les imatges en els perfils d\'usuari';
+$string['disableuserimages'] = 'Inhabilita les imatges en els perfils d\'usuari';
 $string['displayerrorswarning'] = 'Es recomana no habilitar el paràmetre de PHP <em>display_errors</em> en llocs en producció perquè alguns missatges d\'error poden mostrar informació important sobre el vostre servidor.';
 $string['displayloginfailures'] = 'Mostra els inicis de sessió erronis';
 $string['divertallemails'] = 'Desviament de correu electrònic';
@@ -1470,6 +1470,7 @@ $string['unsupportedphpversion74'] = 'No s\'admet la versió 7.4 i superior de P
 $string['unsupportedphpversion80'] = 'No s\'admeten la versió 8.0 i superior de PHP.';
 $string['unsupportedphpversion81'] = 'No s\'admet la versió 8.1 i superior de PHP.';
 $string['unsupportedphpversion82'] = 'No s\'admet la versió 8.2 i superior de PHP.';
+$string['unsupportedphpversion83'] = 'La versió 8.3 i superiors del PHP no tenen suport.';
 $string['unsuspenduser'] = 'Activeu el compte d\'usuari';
 $string['updateaccounts'] = 'Actualitza els comptes existents';
 $string['updateautocheck'] = 'Comprova automàticament si hi ha actualitzacions disponibles';

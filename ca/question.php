@@ -213,7 +213,7 @@ Alternativament, podeu voler que els estudiants responguin cada pregunta i obtin
 
 Aquests probablement són els dos modes de comportament usats més comunament.';
 $string['howquestionsbehave_link'] = 'question/behaviour';
-$string['idnumber'] = 'Nombre ID';
+$string['idnumber'] = 'Número ID';
 $string['idnumber_help'] = 'Si l\'utilitzeu, el nombre ID ha de ser únic dins de cada categoria de preguntes. Ofereix una manera alternativa d\'identificar la pregunta que us pot ser útil, però que usualment podeu deixar en blanc.';
 $string['ignorebroken'] = 'Ignora enllaços trencats';
 $string['import'] = 'Importa';

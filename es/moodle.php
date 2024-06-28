@@ -48,7 +48,7 @@ $string['activityreport'] = 'Reporte de Actividad';
 $string['activityreports'] = 'Reportes de Actividad';
 $string['activityselect'] = 'Seleccione esta actividad para moverse a otro lugar';
 $string['activitysince'] = 'Actividad desde {$a}';
-$string['activitytypetitle'] = '{$a->actividad} - {$a->tipo}';
+$string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'Actividad por usuario';
 $string['add'] = 'Añadir';
 $string['addactivity'] = 'Agregar una actividad ...';
@@ -752,7 +752,7 @@ $string['emailpasswordchangeinfofail'] = 'Hola, {$a->firstname}.
 
 Alguien (probablemente usted) ha solicitado una nueva contraseña para su cuenta en \'{$a->sitename}\'.
 
-Desafotunadamente las contraseñas no pueden cambiarse en este sitio. Por favor, contacte con el administrador del sitio, {$a->admin}.';
+Desafortunadamente las contraseñas no pueden cambiarse en este sitio. Por favor, contacte con el administrador del sitio, {$a->admin}.';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Información sobre cambiar la contraseña';
 $string['emailpasswordconfirmation'] = 'Hola, {$a->firstname}.
 

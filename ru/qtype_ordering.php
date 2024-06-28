@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['answer'] = 'Текстовый элемент';
 $string['answerheader'] = 'Перемещаемый элемент {no}';
 $string['correctorder'] = 'Для этих элементов правильный порядок выглядит так:';
+$string['defaultanswerformat'] = 'Формат ответа по умолчанию';
 $string['defaultquestionname'] = 'Расположите следующие события в правильном порядке.';
 $string['horizontal'] = 'Горизонтально';
 $string['layouttype'] = 'Расположение элементов';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errbadxmlformat'] = 'Eroare - format XML greșit';
-$string['errduplicategradeidnumber'] = 'Eroare - sunt două intrări cu id-ul \'{$a}\' la acest curs. Acest lucru ar trebui să fie imposibil.';
+$string['errduplicategradeidnumber'] = 'Eroare - sunt două elemente de notare cu id-ul \'{$a}\' la acest curs. Acest lucru ar trebui să fie imposibil.';
 $string['errduplicateidnumber'] = 'Eroare - duplicare de id';
 $string['errincorrectgradeidnumber'] = 'Eroare - id-ul \'{$a}\' din fișierul importat nu se potrivește cu nico intrare din note.';
 $string['errincorrectidnumber'] = 'Eroare - id incorect';

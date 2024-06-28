@@ -29,6 +29,8 @@ $string['activitypost'] = 'Activity posts';
 $string['activityview'] = 'Activity views';
 $string['add'] = 'Add';
 $string['addreport'] = 'Add report';
+$string['allowedsqlusers'] = 'SQL report users';
+$string['allowedsqlusersinfo'] = 'If you wish to only allow certain admin users to manage sql reports, add a list of usernames separated by commas. They must also have the block/configurable_reports:managesqlreports capability.';
 $string['anyone'] = 'Anyone';
 $string['anyone_summary'] = 'Any user in the Campus will be able to view this report';
 $string['availablemarks'] = 'Available marks';
@@ -48,9 +50,12 @@ $string['cellalign'] = 'Cell align';
 $string['cellsize'] = 'Cell size';
 $string['cellwrap'] = 'Cell wrap';
 $string['checksql_execution'] = 'Block Configurable Reports SQL execution';
-$string['checksql_execution_details'] = 'By allowing SQL code execution there is a potential security issue with users adding arbitrary code. SQL code execution should be disable to only allow SQL queries for reading/retreaving data. SQL execution can be disabled in your config.php file by setting $CFG->block_configurable_reports_enable_sql_execution to 0';
+$string['checksql_execution_details'] = 'By allowing SQL code execution there is a potential security issue with users adding
+arbitrary code. SQL code execution should be disable to only allow SQL queries for reading/retreaving data. SQL execution can
+be disabled in your config.php file by setting $CFG->block_configurable_reports_enable_sql_execution to 0';
 $string['checksql_execution_ok'] = 'SQL execution is disabled.';
-$string['checksql_execution_warning'] = 'It is recommended to disable SQL execution to avoid execution of arbitrary SQL code in your server.';
+$string['checksql_execution_warning'] = 'It is recommended to disable SQL execution to avoid execution of arbitrary SQL code in
+your server.';
 $string['cohorts'] = 'Cohorts';
 $string['column'] = 'Column';
 $string['columnandcellproperties'] = 'Column and cell properties';
@@ -270,7 +275,8 @@ $string['forcemidnight'] = 'Force midnight';
 $string['fsearchuserfield'] = 'User field search box';
 $string['fuserfield'] = 'User field filter';
 $string['generalcolorpalette'] = 'Unmapped Palette';
-$string['generalcolorpalette_help'] = 'Hexadecimal color codes for general use in the pie chart. Codes should be separated by new lines in the order you wish them to be used in the pie chart.';
+$string['generalcolorpalette_help'] = 'Hexadecimal color codes for general use in the pie chart. Codes should be separated
+by new lines in the order you wish them to be used in the pie chart.';
 $string['generalcolorpaletteheader'] = 'General color palette';
 $string['global'] = 'Global report';
 $string['global_help'] = 'Global report can be accessed from any course in the platform just appending &courseid=MY_COURSE_ID in the report URL';
@@ -283,7 +289,8 @@ $string['head_size'] = 'Graph size';
 $string['header'] = 'Header';
 $string['height'] = 'Height';
 $string['idnumber'] = 'ID Number';
-$string['idnumber_help'] = 'Used to differentiate between filters of the same type. Case-sensitive. Example usage: %%FILTER_SEARCHTEXT_username:u.username:~%%';
+$string['idnumber_help'] = 'Used to differentiate between filters of the same type. Case-sensitive.
+Example usage: %%FILTER_SEARCHTEXT_username:u.username:~%%';
 $string['importfromrepository'] = 'Import report from repository';
 $string['importreport'] = 'Import report';
 $string['includesubcats'] = 'Include subcategories';
@@ -302,7 +309,8 @@ $string['legendheaderdesc'] = 'Map color codes to specific keys in the pie chart
 $string['limitcategories'] = 'Limit categories in a graph';
 $string['line'] = 'Line graph';
 $string['linesummary'] = 'A line graph with multiple series of data';
-$string['listofsqlreports'] = 'Press F11 when cursor is in the editor to toggle full screen editing. Esc can also be used to exit full screen editing.<br/><br/><a href="http://docs.moodle.org/en/ad-hoc_contributed_reports" target="_blank">List of SQL Contributed reports</a>';
+$string['listofsqlreports'] = 'Press F11 when cursor is in the editor to toggle full screen editing. Esc can also be used to exit
+full screen editing.<br/><br/><a href="http://docs.moodle.org/en/ad-hoc_contributed_reports" target="_blank">List of SQL Contributed reports</a>';
 $string['managereports'] = 'Manage reports';
 $string['max'] = 'Maximum';
 $string['min'] = 'Minimum';
@@ -374,7 +382,8 @@ $string['reportcategories'] = '1) Choose a remote report categories';
 $string['reportcolumn'] = 'Other report column';
 $string['reportcreated'] = 'Report successfully created';
 $string['reportlimit'] = 'Report row limit';
-$string['reportlimitinfo'] = 'Limit the number of rows that are displayed in the report table (Default is 5000 rows. Better to have some limit, so users will not over load the DB engine)';
+$string['reportlimitinfo'] = 'Limit the number of rows that are displayed in the report table
+    (Default is 5000 rows. Better to have some limit, so users will not over load the DB engine)';
 $string['reports'] = 'Reports';
 $string['reportscapabilities'] = 'Report Capabilities';
 $string['reportscapabilities_summary'] = 'Users with the capability moodle/site:viewreports enabled';
@@ -384,7 +393,8 @@ $string['reporttable_help'] = '<p>This is the width of the table that will displ
 
 <p>If you use a Template this option has no effect</p>';
 $string['reporttableui'] = 'Report table UI';
-$string['reporttableuiinfo'] = 'Display the report table as: Simple scrollable HTML table, jQuery with column sorting Or DataTables JS library (Column sort, fixed header, search, paging...)';
+$string['reporttableuiinfo'] = 'Display the report table as: Simple scrollable HTML table, jQuery with column sorting Or
+DataTables JS library (Column sort, fixed header, search, paging...)';
 $string['repository'] = 'Reports repository';
 $string['repository_help'] = 'You can import sample reports from a public shared repository.
 
@@ -459,7 +469,8 @@ $string['usersincurrentcourse_summary'] = 'Users with the role/s selected in the
 $string['userstats'] = 'User statistics';
 $string['value'] = 'Value';
 $string['value_fields'] = 'Value fields';
-$string['value_fields_help'] = 'Fields that should be represented in the graph. Ctrl+click (Cmd+click on Mac) to select multiple. If you select the Label field or a field with non-numeric values it will be ignored';
+$string['value_fields_help'] = 'Fields that should be represented in the graph. Ctrl+click (Cmd+click on Mac) to select multiple.
+If you select the Label field or a field with non-numeric values it will be ignored';
 $string['viewreport'] = 'View report';
 $string['width'] = 'Width';
 $string['xandynotequal'] = 'X and Y axis need to be different';

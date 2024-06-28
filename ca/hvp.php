@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['action'] = 'Acció';
+$string['add'] = 'Afegeix';
 $string['addedandupdatedpp'] = 'S\'han afegit {$a->%new} biblioteques H5P noves i se n\'han actualitzat {$a->%old} d\'antigues.';
 $string['addedandupdatedps'] = 'S\'han afegit {$a->%new} biblioteques H5P noves i se n\'ha actualitzat {$a->%old} d\'antiga.';
 $string['addedandupdatedsp'] = 'S\'ha afegit {$a->%new} biblioteca H5P nova i se n\'han actualitzat {$a->%old} d\'antigues.';

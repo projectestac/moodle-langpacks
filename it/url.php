@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = 'Scegli una variabile...';
-$string['clicktoopen'] = 'Per aprire la risorsa fai click sul link {$a}';
+$string['clicktoopen'] = 'Per aprire la risorsa fai click su {$a}';
 $string['configdisplayoptions'] = 'Seleziona le opzioni che desideri rendere disponibili. Le impostazioni già in essere non saranno modificate. Per selezionare più opzioni tenere premuti il tasto CTRL.';
 $string['configframesize'] = 'Se si desidera visualizzare un URL usando i frame, è possibile specificare la dimensione in pixel del frame superiore che conterrà l\'intestazione di pagina con l\'interfaccia di navigazione del sito.';
 $string['configrolesinparams'] = 'Rende possibile utilizzare i nomi personalizzati dei ruoli nell\'elenco dei parametri.';

@@ -976,7 +976,7 @@ $string['shuffle'] = 'Nahastu';
 $string['shuffleanswers'] = 'Nahastu erantzunak';
 $string['shuffledrandomly'] = 'Ausaz nahastuta';
 $string['shufflequestions'] = 'Nahastu';
-$string['shufflequestions_help'] = 'Gaituz gero, galdetegia erantzuteko saiakera bakoitzean galderak ausaz nahastu eta ordena berri batean erakutsiko dira.
+$string['shufflequestions_help'] = 'Gaituz gero, galdetegia erantzuteko saiakera bakoitzean atal honetako galderak ausaz nahastu eta ordena berri batean erakutsiko dira.
 
 Honek ikasleek galdera trukatzea zaildu dezake, baina ikasleek irakaslearekin galdera zehatz bati buruz jardutea ere zailtzen du.';
 $string['shufflewithin'] = 'Nahastu galderen barruan';

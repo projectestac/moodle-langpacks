@@ -172,6 +172,7 @@ $string['downloadasfolders_help'] = 'Se le consegne sono formate da più di un f
 $string['downloadselectedsubmissions'] = 'Scarica le consegne selezionate';
 $string['duedate'] = 'Termine consegne';
 $string['duedate_help'] = 'La data di consegna del compito. Eventuali consegne successive alla data di fine consegne saranno considerate in in ritardo. Per impedire consegne in ritardo è necessario impostare la data limite';
+$string['duedateaftersubmissionvalidation'] = 'La data limite deve essere successiva alla data di inizio consegne.';
 $string['duedatecolon'] = 'Termine consegne: {$a}';
 $string['duedatereached'] = 'La data di scadenza del compito è già trascorsa';
 $string['duedatevalidation'] = 'La data di scadenza non può essere antecedente alla data di inizio consegne';

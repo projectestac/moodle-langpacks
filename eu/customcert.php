@@ -69,6 +69,9 @@ $string['deliveryoptiondownload'] = 'Bidali nabigatzailera eta behartu fitxategi
 $string['deliveryoptioninline'] = 'Bidali fitxategia nabigatzailean erakusteko';
 $string['deliveryoptions'] = 'Bidalketa aukerak';
 $string['description'] = 'Deskribapena';
+$string['downloadallissuedcertificates'] = 'Jaitsi emandako ziurtagiri guztiak';
+$string['downloadallsitecertificates'] = 'Jaitsi guneko ziurtagiri guztiak';
+$string['downloadallsitecertificatesdesc'] = 'Ekintza honek guneko ziurtagiri guztiak ZIP fitxategi bakarrean jaitsiko ditu.';
 $string['duplicate'] = 'Bikoiztu';
 $string['duplicateconfirm'] = 'Bikoiztu baieztapena';
 $string['duplicatetemplateconfirm'] = 'Ziur zaude ziurtagiri-txantiloi hau bikoiztu nahi duzula?';
@@ -199,6 +202,7 @@ $string['showposxy'] = 'Erakutsi X eta Y ardatzetako kokapena';
 $string['showposxy_desc'] = 'Honek elementu bat editatzean X eta Y kokapenak erakutsiko ditu, erabiltzaileari kokapena zehatzago zehazteko aukera emanez.
 
 Ez da beharrezkoa elementuak soilik hartu eta eraman interfazearekin erabiliz antolatuko badituzu.';
+$string['subplugintype_customcertelement_plural'] = 'Elementuak';
 $string['taskemailcertificate'] = 'Ziurtagirien posta elektronikoen bidalketak kudeatzen ditu.';
 $string['templatename'] = 'Txantiloiaren izena';
 $string['templatenameexists'] = 'Txantiloi-izen hori dagoeneko erabilita dago; aukeratu ezazu beste bat, mesedez.';

@@ -28,6 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['autoupdate'] = 'Marca quan es completen els mòduls';
 $string['comments'] = 'Comentaris';
 $string['duedatesoncalendar'] = 'Afegeix dates de venciment al calendari';
+$string['eventeditpageviewed'] = 'S\'ha visualitzat la pàgina d\'edició';
+$string['eventreportviewed'] = 'S\'ha visualitzat l\'informe';
 $string['export'] = 'Exporta elements';
 $string['gradetocomplete'] = 'Qualificació per a complet:';
 $string['import'] = 'Importa elements';

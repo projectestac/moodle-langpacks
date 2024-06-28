@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['advance'] = 'Següent';
 $string['comments'] = 'Comentaris';
 $string['edit'] = 'Edita';
+$string['grade'] = 'Qualificació';
 $string['highlighted'] = 'Realçat';
 $string['next'] = 'Següent';
 $string['questions'] = 'Preguntes';

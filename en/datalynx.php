@@ -70,6 +70,7 @@ $string['behaviors'] = 'Behaviors';
 $string['between'] = 'between';
 $string['blankfilter'] = 'Blank filter';
 $string['browse'] = 'Browse';
+$string['cachedef_patterns'] = 'Patterns (Cache)';
 $string['check_enable'] = 'You must mark \'enable\' checkbox to confirm the validity of the selected value.';
 $string['columns'] = 'columns';
 $string['comment'] = 'Comment';
@@ -492,7 +493,9 @@ $string['message_entry_created'] = 'Hello {$a->fullname},
 
 the content in {$a->datalynxlink} has been modified by {$a->senderprofilelink}.
 
-The following entry has been created: {$a->viewlink}.';
+The following entry has been created: {$a->viewlink}.
+
+{$a->messagecontent}';
 $string['message_entry_deleted'] = 'Hello {$a->fullname},
 
 the content in {$a->datalynxlink} has been modified by {$a->senderprofilelink}.
@@ -507,7 +510,9 @@ $string['message_entry_updated'] = 'Hello {$a->fullname},
 
 the content in {$a->datalynxlink} has been modified by {$a->senderprofilelink}.
 
-The following entry has been updated: {$a->viewlink}.';
+The following entry has been updated: {$a->viewlink}.
+
+{$a->messagecontent}';
 $string['message_rating_added'] = 'Datalynx rating added';
 $string['message_rating_updated'] = 'Datalynx rating updated';
 $string['message_team_updated'] = 'Dear {$a->fullname},

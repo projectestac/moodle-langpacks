@@ -36,6 +36,7 @@ $string['contextual'] = 'Contextual';
 $string['enablepreview'] = 'Activați previzualizarea';
 $string['example'] = 'Exemplu';
 $string['figure'] = 'Cifră';
+$string['generalsettings'] = 'General';
 $string['keyconcept'] = 'Concept cheie';
 $string['min'] = 'min';
 $string['notintendedforstudents'] = 'Nedestinat studenților';

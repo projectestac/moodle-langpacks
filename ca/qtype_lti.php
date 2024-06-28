@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['generalfeedback'] = 'Retroacció general';
+$string['generalfeedback_help'] = 'Es mostra la mateixa retroacció general, independentment de la resposta triada.';
 $string['miscellaneous'] = 'Miscel·lània';
 $string['modulename_link'] = 'mod/lti/view';
 $string['never'] = 'Mai';

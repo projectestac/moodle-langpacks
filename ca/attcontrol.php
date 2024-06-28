@@ -35,3 +35,4 @@ $string['newduration'] = 'Durada nova';
 $string['session'] = 'Sessió';
 $string['showduration'] = 'Mostra la durada';
 $string['student'] = 'Estudiant';
+$string['studentid'] = 'ID de l\'estudiant';

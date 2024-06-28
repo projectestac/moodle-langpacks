@@ -69,6 +69,9 @@ $string['deliveryoptiondownload'] = 'An den Browser schicken und einen Datei-Dow
 $string['deliveryoptioninline'] = 'Die Datei Inline an den Browser schicken';
 $string['deliveryoptions'] = 'Zustellmöglichkeiten';
 $string['description'] = 'Beschreibung';
+$string['downloadallissuedcertificates'] = 'Alle ausgestellten Zertifikate herunterladen';
+$string['downloadallsitecertificates'] = 'Alle Zertifikate der Website herunterladen';
+$string['downloadallsitecertificatesdesc'] = 'Alle Zertifikate der Website werden in einem ZIP-Ordner heruntergeladen';
 $string['duplicate'] = 'Duplikat';
 $string['duplicateconfirm'] = 'Duplikatsbestätigung';
 $string['duplicatetemplateconfirm'] = 'Möchten Sie diese Zertifikatsvorlage wirklich duplizieren?';
@@ -199,6 +202,7 @@ $string['showposxy'] = 'X- und Y-Position anzeigen';
 $string['showposxy_desc'] = 'Zeigt die X- und Y-Position von Elementen während der Bearbeitung an und erlaubt so deren exakte Positionierung.
 
 Wenn Sie ausschließlich per Drag & Drop arbeiten möchten, benötigen Sie diese Einstellung wahrscheinlich nicht.';
+$string['subplugintype_customcertelement_plural'] = 'Elemente';
 $string['taskemailcertificate'] = 'E-Mail-Versand der Zertifikate.';
 $string['templatename'] = 'Name der Vorlage';
 $string['templatenameexists'] = 'Dieser Vorlagenname existiert bereits. Wählen Sie einen anderen Namen.';

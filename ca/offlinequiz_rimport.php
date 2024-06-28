@@ -25,4 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['import'] = 'Importa';
+$string['idnumber'] = 'Número ID';
+$string['import'] = 'Avalua';
+$string['importedon'] = 'Es va avaluar el';
+$string['importforms'] = 'Penja els formularis de respostes';

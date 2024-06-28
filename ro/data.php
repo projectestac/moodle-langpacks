@@ -48,13 +48,11 @@ $string['autogenallforms'] = 'Generează toate şabloanele implicite';
 $string['autolinkurl'] = 'Autolink the URL';
 $string['availablefromdate'] = 'Disponibil de la';
 $string['availabletags'] = 'Etichete disponibile';
-$string['availabletags_help'] = 'Tag-urile sunt substituenţi în şablon, care vor fi înlocuiți de date sau alți itemi, cum ar fi de ex o icoană de editare, atunci când intrările sunt editate sau vizionate.
+$string['availabletags_help'] = 'Tag-urile sunt substituenţi în şablon, care vor fi înlocuiți de date sau alte elemente, cum ar fi de ex o icoană de editare, atunci când intrările sunt editate sau vizionate.
 
 Câmpurile au formatul [[numecâmp]]. Toate celălalte tag-uri sunt de formatul ##numetag##.
 
-Numai tag-urile care sunt în lista "Tag-uri Disponibile" pot fi folosite pentru şablonul curent.
-
-';
+Numai tag-urile care sunt în lista "Tag-uri Disponibile" pot fi folosite pentru şablonul curent.';
 $string['availabletodate'] = 'Disponibil până la';
 $string['availabletodatevalidation'] = 'Disponibil până în prezent nu poate fi setat înainte de disponibil de la data de.';
 $string['blank'] = 'Blank';

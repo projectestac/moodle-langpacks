@@ -73,14 +73,14 @@ $string['assign:viewownsubmissionsummary'] = 'Ikusi norbere bidalketaren laburpe
 $string['assignfeedback'] = 'Feedbackaren plugina';
 $string['assignfeedbackpluginname'] = 'Feedbackaren plugina';
 $string['assignmentisdue'] = 'Epea amaitu da';
-$string['assignmentmail'] = '{$a->grader}-k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako.
+$string['assignmentmail'] = '{$a->grader}(e)k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako.
 
 Zure zereginaren bidalketaren eranskin gisa ikus dezakezu:
 
  {$a->url}';
 $string['assignmentmailhtml'] = '<p>{$a->grader}(e)k feedbacka bidali du zure \'<i>{$a->assignment}</i>\' zereginaren bidalketarako.</p>
 <p>Zure <a href="{$a->url}">zereginaren bidalketaren eranskin gisa ikus dezakezu</a>.</p>';
-$string['assignmentmailsmall'] = '{$a->grader}-k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako. Zure zereginaren bidalketaren eranskin gisa ikus dezakezu.';
+$string['assignmentmailsmall'] = '{$a->grader}(e)k feedbacka bidali du zure \'{$a->assignment}\' zereginaren bidalketarako. Zure zereginaren bidalketaren eranskin gisa ikus dezakezu.';
 $string['assignmentname'] = 'Zereginaren izena';
 $string['assignmentplugins'] = 'Zereginaren pluginak';
 $string['assignmentsperpage'] = 'Zereginak orriko';
@@ -160,7 +160,7 @@ $string['cutoffdatefromdatevalidation'] = 'Itxiera-data ezin da bidalketaren ire
 $string['cutoffdatevalidation'] = 'Itxiera-data ezin da entregatze-data baino lehenagokoa izan.';
 $string['defaultlayout'] = 'Berrezarri lehenetsitako diseinua';
 $string['defaultsettings'] = 'Lehenetsitako zereginaren ezarpenak';
-$string['defaultsettings_help'] = 'Ezarpen hauek zeregin berri guztietarako berezko balioak definitzen dituzte.';
+$string['defaultsettings_help'] = 'Ezarpen hauek zeregin berri guztietarako balio lehenetsiak definitzen dituzte.';
 $string['defaultteam'] = 'Talde lehenetsia';
 $string['deleteallsubmissions'] = 'Ezabatu bidalketa guztiak';
 $string['description'] = 'Deskribapena';
@@ -224,7 +224,7 @@ $string['eventworkflowstateupdated'] = 'Lan-fluxu egoera eguneratu da.';
 $string['expandreviewpanel'] = 'Zabaldu berrikusketa-panela';
 $string['extensionduedate'] = 'Luzapenaren entregatze-data';
 $string['extensionnotafterduedate'] = 'Luzapenaren datak entregatze-data baino beranduago izan behar du';
-$string['extensionnotafterfromdate'] = 'Luzapenaren datak bidaltzeko hasiera-data baino beranduago izan behar du';
+$string['extensionnotafterfromdate'] = 'Luzapenaren datak bidaltzeko hasiera-data baino beranduagokoa izan behar da';
 $string['feedback'] = 'Feedbacka';
 $string['feedbackavailableanonhtml'] = 'Feedback berri bat daukazu \'<i>{$a->assignment}</i>\' zereginaren zure bidalketan<br /><br />
 Zereginaren <a href="{$a->url}"> zure bidalketarekin batera</a> ikusi dezakezu.';

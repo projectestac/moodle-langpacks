@@ -471,7 +471,6 @@ $string['printstudycodefield_help'] = 'Si coché, le champ code d’étude sera 
 $string['privacy:data_folder_name'] = 'Données Offlinequiz';
 $string['privacy:metadata:core_files'] = 'Test hors-ligne utilise l’API fichier pour stocker les feuilles de questions, les feuilles de réponses et les feuilles de correction générées, ainsi que les feuilles de réponses remplies.';
 $string['privacy:metadata:core_question'] = 'Offlinequiz utilise l’API de question pour enregistrer les questions des tests';
-$string['privacy:metadata:mod_quiz'] = 'Offlinequiz utilise l’API de quiz pour enregistrer les résultats des tests.';
 $string['privacy:metadata:offlinequiz'] = 'La table test hors-ligne enregistre toutes les informations spécifiques à une instance Test hors-ligne.';
 $string['privacy:metadata:offlinequiz:course'] = 'La colonne « course » de la table offlinequiz enregistre le cours dans lequel ce offlinequiz est stocké.';
 $string['privacy:metadata:offlinequiz:decimalpoints'] = 'Le nombre de points décimaux pour calculer les notes.';

@@ -616,6 +616,7 @@ $string['standard'] = 'Estándar';
 $string['starttutorial'] = 'Iniciar tutorial sobre el examen';
 $string['statistics'] = 'Estadística';
 $string['statisticsplural'] = 'Estadísticas';
+$string['statisticsviewheader'] = '3. Estadísticas';
 $string['statsoverview'] = 'Resumen de estadísticas';
 $string['studycode'] = 'Código de estudio';
 $string['tabattendances'] = 'Asistentes';

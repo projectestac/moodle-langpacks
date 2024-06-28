@@ -445,6 +445,7 @@ $string['courserequestdetails'] = '您正申请的课程的详细信息';
 $string['courserequestfailed'] = '由于某些原因，无法保存您的课程申请。';
 $string['courserequestintro'] = '通过下面的表单可以申请创建一个新课程。<br />请尽量仔细填写以便管理员了解您有多需要这门课。';
 $string['courserequestreason'] = '申请此课程的原因';
+$string['courserequestroleerror'] = '创建者的角色在新课程配置中是无效的。请参阅<a href="{$a}">用户政策</a>。';
 $string['courserequestsuccess'] = '已经保存了您的课程申请。到时会有 Email 告知您此申请是否得到批准。';
 $string['courserequestsupport'] = '一些额外的信息，帮助管理员来评估您的请求';
 $string['courserequestwarning'] = '允许用户自助选课请求并分配 {$a}角色。';
@@ -459,6 +460,7 @@ $string['coursesearch_help'] = '您可以一次使用多关键字搜索，并按
 *-word: 结果中不含该关键词';
 $string['coursesectionsummaries'] = '课程小节概述';
 $string['coursesectiontitle'] = '课程： {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
+$string['coursesectiontitleediting'] = '编辑{$a->sectionname}：{$a->sectiontitle}|{$a->course}';
 $string['coursesettings'] = '课程缺省设置';
 $string['coursesmovedout'] = '课程已从 {$a} 中移出';
 $string['coursespending'] = '待审批的课程';
@@ -708,7 +710,9 @@ $string['emaildigestsubjects'] = '主题(每天一封，只包含主题)';
 $string['emaildisable'] = '这个email地址已禁用';
 $string['emaildisableclick'] = '点击此处不再向此地址发送任何邮件';
 $string['emaildisplay'] = '显示Email';
-$string['emaildisplay_help'] = '特权用户（例如教师或管理员）将看到您的邮箱地址。';
+$string['emaildisplay_help'] = '* 隐藏 - 只有具有适当权限的用户（如教师）才能查看您的电子邮件地址。
+* 对所有人可见 - 网站上的所有用户都可以查看您的电子邮件地址。
+* 课程参与者可见 - 只有您已注册的课程的参与者才能查看您的电子邮件地址。';
 $string['emaildisplaycourse'] = '仅允许其他课程参与者查看我的电子邮件地址';
 $string['emaildisplaycoursemembersonly'] = '(对课程其它参与者可见)';
 $string['emaildisplayeveryone'] = '(对所有人可见)';

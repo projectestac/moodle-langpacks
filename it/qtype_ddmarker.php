@@ -48,6 +48,8 @@ $string['dropzones_help'] = 'Le aree di rilascio vengono definite inserendo le c
 * Rettangolo: sinistra, alto, larghezza, altezza<br>Esempio: <code>20, 60; 80, 40</code>';
 $string['followingarewrong'] = 'I seguenti indicatori sono stati posizionati in un\'area sbagliata: {$a}.';
 $string['followingarewrongandhighlighted'] = 'I seguenti indicatori non sono stati posizionati correttamente: {$a}. Gli indicatori evidenziati sono ora visualizzati nelle posizioni corrette.<br />Fai click su un marker per evidenziare l\'area corrispondente.';
+$string['formerror_dragrequired'] = 'È necessarioaggiungere almeno un indicatore a questa domanda.';
+$string['formerror_droprequired'] = 'È necessario definire almeno una zona di rilascio per questa domanda.';
 $string['formerror_nobgimage'] = 'Devi selezionare l\'immagine da utilizzare come sfondo per l\'area dove trascinare e rilasciare.';
 $string['formerror_noitemselected'] = 'È stata definita un\'area di rilascio ma non è stato selezionato l\'indicatore da trascinarci.';
 $string['formerror_nosemicolons'] = 'Nelle coordinate inserite non sono presenti punti e virgola. Le coordinate per la forma {$a->shape} devono essere inserite nel seguente modo: {$a->coordsstring}.';

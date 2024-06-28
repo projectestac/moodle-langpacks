@@ -471,7 +471,6 @@ $string['printstudycodefield_help'] = 'Hier können Sie festlegen, ob am Deckbla
 $string['privacy:data_folder_name'] = 'Offline-Test-Daten';
 $string['privacy:metadata:core_files'] = 'Der Offline-Test nutzt die File-API, um die erstellten Fragen-, Antwort- und Korrekturbögen sowie die ausgefüllten Antwortbögen zu speichern.';
 $string['privacy:metadata:core_question'] = 'Der Offline-Test nutzt die Question-API, um die Fragen der Tests zu speichern.';
-$string['privacy:metadata:mod_quiz'] = 'Der Offline-Test nutzt die Quiz-API, um die Ergebnisse der Tests zu speichern.';
 $string['privacy:metadata:offlinequiz'] = 'Die Offline-Test-Tabelle speichert alle Informationen einer Offline-Test-Instanz.';
 $string['privacy:metadata:offlinequiz:course'] = 'Die Spalte \'course\' in der Offline-Test-Tabelle speichert die Information, in welchem Kurs der Offline-Test hinterlegt ist.';
 $string['privacy:metadata:offlinequiz:decimalpoints'] = 'Die Anzahl an Dezimalstellen, um die Bewertung zu berechnen.';

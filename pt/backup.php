@@ -164,7 +164,7 @@ $string['confirmcancel'] = 'Cancelar cópia de segurança';
 $string['confirmcancelimport'] = 'Cancelar importação';
 $string['confirmcancelno'] = 'Não cancelar';
 $string['confirmcancelquestion'] = 'Tem a certeza de que pretende cancelar?
-Toda a informação que tiver inserido será perdida.';
+Toda a informação que inseriu será perdida.';
 $string['confirmcancelrestore'] = 'Cancelar restauro';
 $string['confirmcancelyes'] = 'Cancelar cópia de segurança';
 $string['confirmnewcoursecontinue'] = 'Novo aviso da disciplina';
@@ -198,7 +198,7 @@ $string['enableasyncbackup'] = 'Ativar cópias de segurança assíncronas';
 $string['enableasyncbackup_help'] = 'Se ativar esta opção, todas as operações de cópia de segurança e de restauro serão executadas de forma assíncrona. Isto não afeta importações e exportações. Cópias de segurança e restauros assíncronos permitem que os utilizadores executem outras operações enquanto uma cópia de segurança ou um restauro está em andamento.';
 $string['enterasearch'] = 'Insira uma pesquisa';
 $string['error_block_for_module_not_found'] = 'Foi encontrada uma instância para bloco (id: {$a->bid}) para a disciplina (id: {$a->mid}). Este bloco não pode ser incluído.';
-$string['error_course_module_not_found'] = 'Foi encontrada a disciplina órfã (id: {$a}). Esta não pode ser guardada na cópia de segurança.';
+$string['error_course_module_not_found'] = 'Foi encontrada um módulo disciplina órfão (id: {$a}). Não pode ser guardado na cópia de segurança.';
 $string['errorcopyingbackupfile'] = 'Erro ao copiar o ficheiro da cópia de segurança para a pasta temporária antes de proceder ao restauro.';
 $string['errorfilenamemustbezip'] = 'O ficheiro inserido tem de ser do tipo Zip com a extensão .mbz';
 $string['errorfilenamerequired'] = 'Tem de inserir um nome de ficheiro válido para esta cópia de segurança';

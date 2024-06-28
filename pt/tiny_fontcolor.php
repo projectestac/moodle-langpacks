@@ -38,6 +38,7 @@ $string['colorPickerErrRgbCode'] = 'Código RGB da cor inválido: {0}';
 $string['colorPickerSave'] = 'Aplicar';
 $string['colorPickerTitle'] = 'Seletor de cor';
 $string['customColor'] = 'Cor personalizada';
+$string['helplinktext'] = 'Cor do texto Tiny';
 $string['menuItemBgcolor'] = 'Cor fundo do texto';
 $string['menuItemFgcolor'] = 'Cor do texto';
 $string['placeholdercolorname'] = 'Descrição da cor';

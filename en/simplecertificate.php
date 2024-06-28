@@ -39,6 +39,10 @@ $string['certificateimage_help'] = 'This is the picture that will be used in the
 $string['certificatename'] = 'Certificate Name';
 $string['certificatename_help'] = 'Certificate Name';
 $string['certificatenot'] = 'Simple certificate instance not found';
+$string['certificatepath'] = 'Certificate path';
+$string['certificatepath_help'] = 'Only .crt files are allowed';
+$string['certificates'] = 'Certificates';
+$string['certificatestitle'] = 'My certificates';
 $string['certificatetext'] = 'Certificate Text';
 $string['certificatetext_help'] = 'This is the text that will be used in the certificate back, some special words will be replaced with variables such as course name, student\'s name, grade ...
 These are:
@@ -53,11 +57,6 @@ These are:
 <li>{FIRSTNAME} -> User first name</li>
 <li>{LASTNAME} -> User last name</li>
 <li>{EMAIL} -> User e-mail</li>
-<li>{ICQ} -> User ICQ</li>
-<li>{SKYPE} -> User Skype</li>
-<li>{YAHOO} -> User yahoo messenger</li>
-<li>{AIM} -> User AIM</li>
-<li>{MSN} -> User MSN</li>
 <li>{PHONE1} -> User 1° Phone Number</li>
 <li>{PHONE2} -> User 2° Phone Number</li>
 <li>{INSTITUTION} -> User institution</li>
@@ -65,7 +64,6 @@ These are:
 <li>{ADDRESS} -> User address</li>
 <li>{CITY} -> User city</li>
 <li>{COUNTRY} -> User country</li>
-<li>{URL} -> User Home-page</li>
 <li>{CERTIFICATECODE} -> Unique certificate code text</li>
 <li>{USERROLENAME} -> User role name in course</li>
 <li>{TIMESTART} -> User Enrollment start date in course</li>
@@ -89,6 +87,7 @@ $string['coursegrade'] = 'Course Grade';
 $string['coursename'] = 'Alternative Course Name';
 $string['coursename_help'] = 'Alternative Course Name';
 $string['coursenotfound'] = 'Course not found';
+$string['coursesections'] = 'Course sections';
 $string['coursestartdate'] = 'Course Start Date';
 $string['coursetimereq'] = 'Required minutes in course';
 $string['coursetimereq_help'] = 'Enter here the minimum amount of time, in minutes, that a student must be logged into the course before they will be able to receive the certificate.';
@@ -178,6 +177,7 @@ $string['multipdf'] = 'Download certificates in a zip file';
 $string['neverdeleteoption'] = 'Never delete';
 $string['nocertificatesissued'] = 'There are no certificates that have been issued';
 $string['nodelivering'] = 'No delivering, user will receive this certificate using others ways';
+$string['nohavecertificates'] = 'You don\'t have certificates yet';
 $string['notreceived'] = 'No issued certificate';
 $string['onepdf'] = 'Download certificates in a one pdf file';
 $string['openbrowser'] = 'Open in new window';
@@ -211,12 +211,29 @@ $string['secondtextposition'] = 'Certificate Back Text Position';
 $string['secondtextposition_help'] = 'These are the XY coordinates (in millimeters) of the certificate back page text';
 $string['sendtoemail'] = 'Send to user\'s email';
 $string['showusers'] = 'Show';
+$string['signame_help'] = '';
+$string['signhead'] = 'Sign setting';
+$string['signheight'] = 'Default height';
+$string['signheight_help'] = '';
+$string['signimage'] = 'Default image';
+$string['signimage_help'] = '';
+$string['signinfo'] = '';
+$string['signinfo_help'] = 'A property by line. Use the structure: key=value';
+$string['signname'] = 'Name';
+$string['signposx'] = 'Default horizontal position';
+$string['signposx_help'] = '';
+$string['signposy'] = 'Default vertical position';
+$string['signposy_help'] = '';
+$string['signwidth'] = 'Default width';
+$string['signwidth_help'] = '';
 $string['simplecertificate:addinstance'] = 'Add Simple Certificate Activity';
 $string['simplecertificate:manage'] = 'Manage Simple Certificate Activity';
 $string['simplecertificate:view'] = 'View Simple Certificate Activity';
 $string['size'] = 'Certificate Size';
 $string['size_help'] = 'These are the Width and Height size (in millimetres) of the certificate, Default size is A4 Landscape';
 $string['standardview'] = 'Issue a test certificate';
+$string['subtitleallcertificates'] = 'Certificates from all courses';
+$string['subtitlecoursecertificates'] = 'Course certificates';
 $string['summaryofattempts'] = 'Summary of Previously Received Certificates';
 $string['textposition'] = 'Certificate Text Position';
 $string['textposition_help'] = 'These are the XY coordinates (in millimetres) of the certificate text';

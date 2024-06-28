@@ -118,7 +118,7 @@ $string['mode'] = 'Modus';
 $string['mode_help'] = 'Treffen Sie hier die Entscheidung, ob die Aktivität als “Upload-Platz” für Teilnehmer/innen dienen soll oder Sie eine Aufgabe als Ursprung der Dateien festgelegen wollen.';
 $string['modeimport'] = 'Dateien aus Aufgabe importieren';
 $string['modeupload'] = 'Teilnehmer/innen dürfen Dateien hochladen';
-$string['modulename'] = 'Studierendenordner';
+$string['modulename'] = 'Studierenden&shy;ordner';
 $string['modulename_help'] = 'Der Studierendenordner bietet folgendes:
 <ul><li>Teilnehmer/innen können Dokumente hochladen, welche sofort nachdem Sie diese überprüft und freigegeben haben für die anderen Teilnehmer/innen sichtbar werden.</li>
 <li>Eine Aufgabe kann als Grundlage für einen Studierendenordner genutzt werden. Der Trainer kann entscheiden, welche Dokumente der Aufgabe für alle Teilnehmer/innen sichtbar sein sollen. Trainer können auch die Teilnehmer/innen selbst entscheiden lassen, ob ihre Dateien für andere Teilnehmer/innen sichtbar sein sollen.</li></ul>';

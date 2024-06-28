@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['bookingduration'] = 'Durada';
 $string['cancelbooking'] = 'Cancel·la la reserva';
 $string['comments'] = 'Comentaris';
+$string['csvfile'] = 'Fitxer CSV';
 $string['eventduration'] = 'Durada de l\'esdeveniment';
 $string['location'] = 'Ubicació';
 $string['next'] = 'Següent';

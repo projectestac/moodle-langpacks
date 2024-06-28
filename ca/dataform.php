@@ -130,6 +130,7 @@ $string['fieldname'] = 'Nom del camp';
 $string['fieldnew'] = 'Nou camp {$a}';
 $string['fields'] = 'Camps';
 $string['fieldsadded'] = 'Camps afegits';
+$string['import'] = 'Importa';
 $string['index'] = 'Índex';
 $string['invalidurl'] = 'L\'URL que heu introduït no és vàlid';
 $string['multiexport'] = 'Exporta';

@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['autosavefailed'] = 'Ezin izan da zerbitzarira konektatu. Orri hau berriz bidaltzen baduzu, agian aldaketak galduko dira.';
-$string['autosavefrequency'] = 'Automatikoki gordetzeko maiztasuna';
+$string['autosavefrequency'] = 'Gordetze automatikoaren maiztasuna';
 $string['autosavefrequency_desc'] = 'Gordetze automatikoen arteko segundo-kopurua da hau. Attok editoreko testua automatikoki gordeko du ezarpen honen arabera, eta horrela testua automatikoki berreskuratu ahal izango da erabiltzaile berdina formulario horretara bueltatzen denean.';
-$string['autosaves'] = 'Editoreko gordetze-automatikoaren informazioa';
+$string['autosaves'] = 'Editoreko gordetze automatikoaren informazioa';
 $string['autosavesucceeded'] = 'Zirriborroa gorde da.';
 $string['editor_command_keycode'] = 'Cmd + {$a}';
 $string['editor_control_keycode'] = 'Ctrl + {$a}';

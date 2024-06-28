@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['done'] = 'Fet';
 $string['randomsummaryreport'] = 'Informe de resum de la pregunta aleatòria';

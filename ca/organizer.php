@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['confignever'] = 'Mai';
 $string['configrequiremodintro'] = 'Inhabiliteu aquesta opció si no voleu forçar els usuaris a introduir una descripció de cada activitat.';
 $string['duedate'] = 'Data de venciment';
+$string['grade'] = 'Qualificació màxima';
 $string['location'] = 'Ubicació';
 $string['multipleappointmentenddate'] = 'Data de finalització';
 $string['slotperiodendtime'] = 'Data de finalització';
