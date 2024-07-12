@@ -226,6 +226,7 @@ $string['config_welcome_default'] = 'Standaard welkomstbericht';
 $string['config_welcome_default_description'] = 'Het welkomstbericht wordt getoond wanneer deelnemers de ruimte betreden. Als het veld leeg gelaten wordt, dan wordt het bericht getoond dat op de BigBlueButton-server is ingesteld.';
 $string['config_welcome_editable'] = 'Standaard welkomstbericht is bewerkbaar door leraren';
 $string['config_welcome_editable_description'] = 'Welkomstbericht kan bewerkt worden wanneer de ruimte wordt toegevoegd of bewerkt';
+$string['credentials_warning'] = 'Het gebruik van standaard serverreferenties vervalt binnenkort (zie opmerking hierboven om nieuwe inloggegevens te verkrijgen).';
 $string['dpainfonotsigned'] = 'Voordat je deze plug-in inschakelt, moet je bevestigen dat je de <a href="{$a}">Blindside Networks-gegevensverwerkingsovereenkomst</a> hebt gelezen en geaccepteerd.';
 $string['enablingbigbluebutton'] = 'BigBlueButton-activiteit inschakelen';
 $string['enablingbigbluebuttondpainfo'] = 'Om te voldoen aan je gegevensbeschermingsverplichtingen moet je voor je deze plugin gebruikt, de <a href="{$a}" target="_blank">Blindside Networds gegevensverwerkingsovereenkomst</a>  gelezen en aanvaard hebben.

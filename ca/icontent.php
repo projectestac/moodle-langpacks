@@ -31,5 +31,6 @@ $string['edit'] = 'Edita';
 $string['grade'] = 'Qualificació';
 $string['highlighted'] = 'Realçat';
 $string['next'] = 'Següent';
+$string['preview'] = 'Previsualització';
 $string['questions'] = 'Preguntes';
 $string['reply'] = 'Respon';

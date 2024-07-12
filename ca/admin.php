@@ -76,6 +76,9 @@ $string['alternativefullnameformat_desc'] = 'Defineix la manera com es mostren e
 $string['always'] = 'Sempre';
 $string['appearance'] = 'Aparença';
 $string['aspellpath'] = 'Camí d\'aspell';
+$string['asyncbackupdisabled'] = 'El vostre lloc està configurat actualment per utilitzar còpies de seguretat síncrones. Les còpies de seguretat asíncrones proporcionen una millor experiència d\'usuari.
+Les còpies de seguretat asíncrones s\'habilitaran a tots els llocs a partir del Moodle LMS 4.5 LTS.
+Les còpies de seguretat síncrones s\'eliminaran de Moodle LMS a la versió posterior a la 4.5 LTS';
 $string['authentication'] = 'Autenticació';
 $string['authpreventaccountcreation'] = 'Evita la creació de comptes nous durant el procediment d\'autenticació';
 $string['authpreventaccountcreation_help'] = 'Quan un usuari s\'autentica, es crea automàticament un compte, si encara no existeix. Si s\'utilitza una base de dades externa, com el LDAP, però voleu restringir l\'accés al lloc només per als usuaris que disposen d\'un compte, aleshores heu d\'activar aquesta opció.
@@ -635,6 +638,7 @@ $string['environmentrequirecustomcheck'] = 'cal passar aquesta prova';
 $string['environmentrequireinstall'] = 'cal instal·lar-lo i habilitar-lo';
 $string['environmentrequireversion'] = 'esteu executant la versió {$a->current} i es requereix la {$a->needed}';
 $string['environmentsettingok'] = 'paràmetre recomanat detectat';
+$string['environmentshouldfixcustomcheck'] = 's\'ha d\'activar per obtenir els millors resultats';
 $string['environmentshouldfixsetting'] = 'S\'hauria de canviar el paràmetre PHP';
 $string['environmentxmlerror'] = 'S\'ha produït un error en llegir les dades de l\'entorn ({$a->error_code})';
 $string['errordeletingconfig'] = 'S\'ha produït un error mentre se suprimien les dades de configuració del connector \'{$a}\'.';
@@ -946,7 +950,7 @@ $string['nonexistentbookmark'] = 'La drecera que heu sol·licitat no existeix.';
 $string['noreplyaddress'] = 'Adreça per no rebre respostes';
 $string['noreplydomain'] = 'No-resposta i domini';
 $string['noreplydomaindetail'] = 'Configuració per als dominis configurats i els sense resposta';
-$string['noresults'] = 'No s\'han trobat resultats';
+$string['noresults'] = 'No s\'ha trobat cap resultat.';
 $string['noroles'] = 'Cap perfil';
 $string['nosupportedlogstore'] = 'No s\'ha trobat cap magatzem de registres compatible';
 $string['noteunneededblocks'] = 'Nota: Els blocs que es mostren no es llistaran al menú «Afegeix un bloc» en un curs si s\'especifiquen al paràmetre del tema «Blocs no necessaris».';

@@ -521,13 +521,13 @@ $string['manualgradequestion'] = 'Qualifica la pregunta {$a->question} de forma 
 $string['manualgrading'] = 'S\'està qualificant';
 $string['mark'] = 'Tramet';
 $string['markall'] = 'Tramet la pàgina';
-$string['marks'] = 'Punts';
+$string['marks'] = 'Notes';
 $string['marks_help'] = 'Les puntuacions numèriques per a cada pregunta i la puntuació global de l\'intent.';
 $string['match'] = 'Aparellament';
 $string['matchanswer'] = 'Resposta correcta';
 $string['matchanswerno'] = 'Resposta correcta {$a}';
 $string['max'] = 'Màx.';
-$string['maxmark'] = 'Puntuació màxima';
+$string['maxmark'] = 'Nota màxima';
 $string['messageprovider:attempt_overdue'] = 'Avís quan el vostre intent del qüestionari arribi al termini de venciment';
 $string['messageprovider:confirmation'] = 'Confirmació de les vostres trameses de qüestionaris';
 $string['messageprovider:submission'] = 'Notificació de trameses de qüestionari';
@@ -556,7 +556,7 @@ $string['modulename_link'] = 'mod/quiz/view';
 $string['modulenameplural'] = 'Qüestionaris';
 $string['moveselectedonpage'] = 'Mou les preguntes seleccionades a la pàgina: {$a}';
 $string['multichoice'] = 'Opció múltiple';
-$string['multipleanswers'] = 'Trieu almenys una resposta';
+$string['multipleanswers'] = 'Trieu almenys una resposta.';
 $string['mustbesubmittedby'] = 'Aquest intent s\'ha de trametre abans de {$a}.';
 $string['name'] = 'Títol';
 $string['navigatenext'] = 'Pàgina següent';
@@ -573,7 +573,7 @@ $string['newpage'] = 'Pàgina nova';
 $string['newpage_help'] = 'En qüestionaris molt llargs té sentit partir el qüestionari en diverses pàgines limitant el nombre de preguntes per pàgina. Quan afegiu preguntes al qüestionari, els salts de pàgina s\'introduiran automàticament d\'acord amb els paràmetres que hàgiu triat aquí. Tanmateix, després podreu canviar de lloc aquests salts de pàgina a mà en la pàgina d\'edició.';
 $string['newpageevery'] = 'Afegeix una pàgina nova automàticament';
 $string['noanswers'] = 'No s\'ha seleccionat cap resposta';
-$string['noattempts'] = 'No s\'han fet intents en aquest qüestionari';
+$string['noattempts'] = 'No s\'ha fet cap intent en aquest qüestionari';
 $string['noattemptsfound'] = 'No s\'han trobat intents';
 $string['noattemptstoshow'] = 'No hi ha intents per mostrar';
 $string['nocategory'] = 'No heu especificat una categoria o la categoria és incorrecta';
@@ -607,7 +607,7 @@ $string['notenoughrandomquestions'] = 'No hi ha prou preguntes a la categoria {$
 $string['notenoughsubquestions'] = 'No heu definit prou subpreguntes!<br />
 Voleu tornar enrere i arreglar aquesta pregunta?';
 $string['notimedependentitems'] = 'A hores d\'ara, els elements depenents del temps no funcionen amb el mòdul de qüestionaris. De manera provisional, podeu definir un límit de temps per a tot el qüestionari. Voleu triar un altre element diferent o, malgrat tot, preferiu utilitzar aquest?';
-$string['notyetgraded'] = 'Encara no s\'ha avaluat';
+$string['notyetgraded'] = 'Encara no s\'ha qualificat';
 $string['notyetviewed'] = 'Encara no s\'ha visualitzat';
 $string['notyourattempt'] = 'No és el vostre intent!';
 $string['noview'] = 'L\'usuari identificat no pot veure aquest qüestionari';
@@ -623,11 +623,11 @@ $string['open'] = 'Sense resposta';
 $string['openclosedatesupdated'] = 'S\'han actualitzat les dates d\'inici i tancament del qüestionari';
 $string['optional'] = 'opcional';
 $string['orderandpaging'] = 'Ordre i paginació';
-$string['orderandpaging_help'] = 'Els números 10, 20, 30,... a l\'altre costat de cada pregunta indiquen l\'ordre de les preguntes. Els números augmenten de 10 en 10 per permetre un espai per a inserir preguntes addicionals. Per a reordenar les preguntes, canvieu els números i feu clic al botó «Reordena les preguntes».
+$string['orderandpaging_help'] = 'Els números 10, 20, 30... davant cada pregunta n\'indiquen l\'ordre. Els números augmenten en intervals de 10 per deixar espais per inserir-hi preguntes addicionals. Per reordenar les preguntes, canvieu els números i feu clic al botó «Reordena les preguntes».
 
-Per a afegir salts de pàgina després d\'una pregunta determinada, marqueu els quadres de selecció després de les preguntes i feu clic al botó «Afegeix més pàgines després de les preguntes seleccionades».
+Per a afegir salts de pàgina després d\'una pregunta determinada, marqueu les caselles devora les preguntes i feu clic al botó «Afegeix més pàgines després de les preguntes seleccionades».
 
-Per a distribuir les preguntes en un nombre de pàgines feu clic al botó «Repagina» i seleccioneu el nombre de preguntes per pàgina que vulgueu.';
+Per distribuir les preguntes en un nombre de pàgines feu clic al botó «Repagina» i seleccioneu el nombre de preguntes per pàgina que vulgueu.';
 $string['orderingquiz'] = 'Ordre i paginació';
 $string['orderingquizx'] = 'Ordre i paginació: {$a}';
 $string['outcomesadvanced'] = 'Els resultats són paràmetres avançats';

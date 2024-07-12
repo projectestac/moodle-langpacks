@@ -357,6 +357,7 @@ $string['preventsharedip'] = 'Evita que els estudiants comparteixin una adreça 
 $string['preventsharedip_help'] = 'Impedeix que els estudiants utilitzin el mateix dispositiu (identificat mitjançant l\'adreça IP) per registrar l\'assistència d\'altres estudiants.';
 $string['preventsharediptime'] = 'Temps per permetre la reutilització de l\'adreça IP (minuts)';
 $string['preventsharediptime_help'] = 'Permetre que es reutilitzi una adreça IP per prendre assistència en aquesta sessió després d\'haver transcorregut aquest temps.';
+$string['preview'] = 'Previsualització del fitxer';
 $string['priorto'] = 'La data de la sessió és anterior a la data d\'inici del curs ({$a}), perquè les noves sessions programades abans d\'aquesta data quedaran ocultes (no accessibles). Podeu canviar la data d\'inici del curs en qualsevol moment (consulteu la configuració del curs) per poder accedir a sessions anteriors. <br> <br> Canvieu la data de la sessió o simplement feu clic de nou al botó «Afegeix una sessió» per confirmar.';
 $string['privacy:metadata:attendancelog'] = 'Registre d\'assistències d\'usuaris gravat.';
 $string['privacy:metadata:attendancesessions'] = 'Sessions a les quals es registrarà l\'assistència.';

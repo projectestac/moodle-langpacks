@@ -35,6 +35,7 @@ $string['export'] = 'exporta';
 $string['grade'] = 'Qualificació';
 $string['gradingdue'] = 'Recorda\'m que qualifiqui abans de';
 $string['gradingdue_help'] = 'És la data esperada en què s\'hauria d\'haver completat la qualificació de les trameses. Aquesta data s\'utilitza per prioritzar les notificacions del Tauler per als professors.';
+$string['noattempts'] = 'No s\'ha fet cap intent en aquesta marca de selecció';
 $string['privacy:metadata:timedue'] = 'Data de venciment per a la tramesa.';
 $string['str_userid'] = 'ID de l\'estudiant';
 $string['strprintpreview'] = 'Exporta';

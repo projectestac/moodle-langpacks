@@ -127,6 +127,7 @@ $string['changesession'] = 'Modifier la session';
 $string['checkweekdays'] = 'Sélectionnez la semaine qui tombe dans la plage de dates de la session sélectionnée.';
 $string['closed'] = 'Cette session n’est pas disponible actuellement pour l’auto-marquage';
 $string['column'] = 'Colonne';
+$string['columnmap'] = 'Correspondance des colonnes';
 $string['columnmap_help'] = 'Pour chacun des champs présentés, sélectionner la colonne correspondante dans le fichier CSV.';
 $string['columns'] = 'Colonnes';
 $string['commonsession'] = 'Tous les étudiants';
@@ -302,7 +303,9 @@ $string['indicator:cognitivedepth_help'] = 'Cet indicateur est basé sur la prof
 $string['indicator:cognitivedepthdef'] = 'Présence cognitive';
 $string['indicator:cognitivedepthdef_help'] = 'Le participant a atteint ce pourcentage de l’engagement cognitif offert par l’assistance au cours de cet intervalle d’analyse (Niveaux = pas de vue, vue).';
 $string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
+$string['indicator:socialbreadth'] = 'Assiduité sociale';
 $string['indicator:socialbreadth_help'] = 'Cet indicateur est basé sur l’étendue sociale atteinte par l’étudiant dans le cadre d’une activité de participation.';
+$string['indicator:socialbreadthdef'] = 'Assiduité sociale';
 $string['indicator:socialbreadthdef_help'] = 'Le participant a atteint ce pourcentage de l’engagement social offert par l’activité Présence pendant cet intervalle d’analyse (Niveaux = Pas de participation, Participant seul)';
 $string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['invalidaction'] = 'Vous devez choisir une action à effectuer';

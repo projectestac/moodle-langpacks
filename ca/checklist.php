@@ -35,6 +35,7 @@ $string['gradetocomplete'] = 'Qualificació per a complet:';
 $string['import'] = 'Importa elements';
 $string['itemcomplete'] = 'Completat';
 $string['modulename_link'] = 'mod/checklist/view';
+$string['preview'] = 'Previsualització';
 $string['progress'] = 'Progrés';
 $string['showprogressbars'] = 'Mostra les barres de progrés';
 $string['updatecompletescore'] = 'Desa les qualificacions de la compleció';

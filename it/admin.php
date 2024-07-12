@@ -77,6 +77,9 @@ $string['alternativefullnameformat_desc'] = 'Imposta la visualizzazione del nome
 $string['always'] = 'Sempre';
 $string['appearance'] = 'Aspetto';
 $string['aspellpath'] = 'Percorso di aspell';
+$string['asyncbackupdisabled'] = 'Il sito è attualmente configurato per utilizzare backup sincroni. I backup asincroni offrono un\'esperienza utente migliore.
+I backup asincroni saranno abilitati per tutti i siti da Moodle LMS 4.5 LTS.
+I backup sincroni verranno rimossi da Moodle LMS nella versione successiva alla 4.5 LTS';
 $string['authentication'] = 'Autenticazione';
 $string['authpreventaccountcreation'] = 'Evita la creazione di account durante l\'autenticazione';
 $string['authpreventaccountcreation_help'] = 'Un utente privo di account che si autentica tramite sistemi esterni (ad esempio LDAP), vedrà il suo account creato automaticamente. L\'impostazione è utile per impedire che gli account vengano creati automaticamente, consentendo l\'accesso solo agli account già esistenti. Sarà necessario creare gli account manualmente o caricarli tramite la funzione Importa utenti. L\'impostazione non ha effetto sulla autenticazione MNet';
@@ -635,6 +638,7 @@ $string['environmentrequirecustomcheck'] = 'questo test deve passare con success
 $string['environmentrequireinstall'] = 'Installazione e attivazione obbligatoria';
 $string['environmentrequireversion'] = 'Versione minima necessaria: {$a->needed}. Versione in uso: {$a->current}';
 $string['environmentsettingok'] = 'Sono state riscontrate le impostazioni consigliate';
+$string['environmentshouldfixcustomcheck'] = 'abilitare per ottenere risultati migliori';
 $string['environmentshouldfixsetting'] = 'Le impostazioni del PHP dovrebbero essere modificate.';
 $string['environmentxmlerror'] = 'Errore durante la lettura dei dati dell\'ambiente ({$a->error_code})';
 $string['errordeletingconfig'] = 'Si è verificato un errore durante l\'eliminazione del record di configurazioni del plugin \'{$a}\'.';

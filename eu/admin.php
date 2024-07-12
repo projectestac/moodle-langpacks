@@ -76,6 +76,9 @@ $string['alternativefullnameformat_desc'] = 'Ezarpen honek definitzen du izenak 
 $string['always'] = 'Beti';
 $string['appearance'] = 'Itxura';
 $string['aspellpath'] = 'aspell-erako bidea';
+$string['asyncbackupdisabled'] = 'Zure gunea segurtasun-kopia sinkronoak erabiltzeko konfiguratuta dago une honetan. Segurtasun-kopia asinkronoek erabiltzaile-esperientzia hobea eskaintzen dute.
+Segurtasun-kopia asinkronoak gune guztietan gaituko dira Moodle LMS 4.5 LTS bertsioan.
+Segurtasun-kopia sinkronoak Moodle LMS 4.5 LTS bertsioaren ondorengo bertsioan kenduko dira.';
 $string['authentication'] = 'Autentifikazioa';
 $string['authpreventaccountcreation'] = 'Galarazi kontuen sorrera identifikatzean';
 $string['authpreventaccountcreation_help'] = 'Erabiltzaile batek izena eman eta bere kontua oraindik ere ez badago, automatikoki sortuko da bat gunean. Izena emateko kanpoko datu-basea erabiltzen bada, LDAP esterako, baina aldez aurretik kontua duten erabiltzaileei baino ez bazaie gunean sartzen utzi nahi, gaitu egin behar da aukera hau. Kontu berriak eskuz sortu beharko dira edo erabiltzaileak igotzeko funtzioa erabilita. Kontuan izan ezarpen honek ez diola eragiten MNet autentifikazioari.';
@@ -631,6 +634,7 @@ $string['environmentrequirecustomcheck'] = 'test hau pasatu beharra dago';
 $string['environmentrequireinstall'] = 'derrigorrezkoa da instalatuta eta gaituta izatea';
 $string['environmentrequireversion'] = '{$a->needed} bertsioa beharrezkoa da eta zu {$a->current} ari zara exekutatzen';
 $string['environmentsettingok'] = 'gomendatutako ezarpena aurkitu da';
+$string['environmentshouldfixcustomcheck'] = 'gaituta egon beharko litzateke emaitza hobeak lortzeko';
 $string['environmentshouldfixsetting'] = 'PHP ezarpenak aldatu egin beharko lirateke.';
 $string['environmentxmlerror'] = 'Errorea inguruari buruzko informazioa irakurtzean ({$a->error_code})';
 $string['errordeletingconfig'] = 'Errorea gertatu da  \'{$a}\' pluginerako konfigurazio-erregistroak ezabatzean.';

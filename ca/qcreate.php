@@ -28,3 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['exportquestions'] = 'Exporta preguntes a un fitxer';
 $string['grade'] = 'Qualificació';
 $string['modulename_link'] = 'mod/qcreate/view';
+$string['overview'] = 'Resum';
+$string['preview'] = 'Previsualització';
+$string['previewquestion'] = 'Previsualitza la pregunta';

@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['errorusernotincourse'] = 'L\'usuari no és al curs';
 $string['idnumber'] = 'Número ID';
 $string['import'] = 'Avalua';
 $string['importedon'] = 'Es va avaluar el';

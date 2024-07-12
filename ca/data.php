@@ -332,6 +332,7 @@ $string['portfolionotfile'] = 'Exporta a un portafolis abans que a un fitxer (no
 $string['presetinfo'] = 'Desar la plantilla com a predefinida farà que es publiqui. Altres usuaris podran utilitzar-la en les seves bases de dades.';
 $string['presets'] = 'Predefinits';
 $string['presetshelp'] = 'Trieu una preconfiguració per emprar-la com a punt de partida.';
+$string['preview'] = 'Previsualització de {$a}';
 $string['radiobutton'] = 'Botons d\'opció';
 $string['recordapproved'] = 'S\'ha aprovat l\'entrada';
 $string['recorddeleted'] = 'S\'ha suprimit l\'entrada';

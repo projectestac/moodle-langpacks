@@ -226,6 +226,7 @@ $string['config_welcome_default'] = 'Mensagem de boas vindas predefinida';
 $string['config_welcome_default_description'] = 'A mensagem de boas-vindas é exibida quando os participantes entram na sala. Se o campo for deixado em branco, será exibida a mensagem definida no servidor BigBlueButton.';
 $string['config_welcome_editable'] = 'Mensagem de boas-vindas predefinida editável';
 $string['config_welcome_editable_description'] = 'A mensagem de boas-vindas pode ser editada pelos professores quando a instância é adicionada ou atualizada';
+$string['credentials_warning'] = 'O uso de credenciais de servidor padrão expirará em breve (veja a nota acima para obter novas credenciais).';
 $string['dpainfonotsigned'] = 'Antes de ativar este módulo, tem de confirmar que leu e aceitou o <a href="{$a}" target="_blank">contrato de processamento de dados da Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'A ativar a atividade BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Para cumprir as suas obrigações de proteção de dados, antes de ativar este módulo, tem de confirmar que leu e aceitou o <a href="{$a}" target="_blank">contrato de processamento de dados da Blindside Networks</a>. Consulte os seus próprios conselheiros de privacidade para obter mais informações.';

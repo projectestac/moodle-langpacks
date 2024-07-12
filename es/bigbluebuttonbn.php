@@ -224,6 +224,7 @@ $string['config_welcome_default'] = 'Mensaje de bienvenida por defecto';
 $string['config_welcome_default_description'] = 'El mensaje de bienvenida se muestra cuando los participantes entran en la sala. Si el campo está en blanco, entonces se muestra un mensaje configurado en el servidor BigBlueButton.';
 $string['config_welcome_editable'] = 'Los profesores pueden editar el mensaje de bienvenida predeterminado';
 $string['config_welcome_editable_description'] = 'El mensaje de bienvenida puede editarse cuando se crea o se actualiza la instancia';
+$string['credentials_warning'] = 'El uso de las credenciales de servidor por defecto expirará pronto (vea la nota superior para obtener nuevas credenciales).';
 $string['dpainfonotsigned'] = 'Antes de habilitar esta extensión, debe confirmar que ha leído y aceptado el <a href="{$a}">acuerdo de procesamiento de datos de Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'Habilitar la actividad de BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Para cumplir con sus obligaciones de protección de datos, antes de habilitar este plugin, usted podría necesitar asegurarse de que ha leído y aceptado el  <a href="{$a}" target="_blank">Acuerdo de Procesamiento de datos de Blindside Networks</a>. Por favor consulte con sus propios profesionales de privacidad para asesoría.';

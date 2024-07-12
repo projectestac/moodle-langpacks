@@ -31,6 +31,7 @@ $string['duedate'] = 'Data de venciment';
 $string['grade'] = 'Qualificació màxima';
 $string['location'] = 'Ubicació';
 $string['multipleappointmentenddate'] = 'Data de finalització';
+$string['participants_help'] = 'Llista de participants que han reservat aquest espai buit a l\'agenda.';
 $string['slotperiodendtime'] = 'Data de finalització';
 $string['teacher'] = 'Professor';
 $string['th_appdetails'] = 'Detalls';

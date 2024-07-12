@@ -176,6 +176,7 @@ $string['mobileservice'] = 'Servizi mobile abilitati ({$a})';
 $string['module'] = 'Modulo';
 $string['modulename'] = 'Nome';
 $string['moreinfo'] = 'Ulteriori informazioni';
+$string['newwindowphrases'] = 'nuova finestra|nuova-finestra|nuova_finestra';
 $string['noerrorsfound'] = 'Non sono stati trovati errori di accessibilità utilizzando i parametri di ricerca impostati. Congratulazioni!';
 $string['norecords'] = 'Non sono stati trovati record rilevanti utilizzando i parametri di ricerca impostati.';
 $string['notregistered'] = 'Il toolkit per l\'accessibilità deve essere registrato.';

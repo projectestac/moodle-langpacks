@@ -119,4 +119,6 @@ $string['eval_max_text_interest'] = 'L\'interès és una dimensió de la motivac
 $string['evaluation'] = 'Avaluació';
 $string['export'] = 'Exporta';
 $string['import'] = 'Importa';
+$string['overview'] = 'Resum';
+$string['preview'] = 'Previsualització:';
 $string['user_list_progress'] = 'Progrés';

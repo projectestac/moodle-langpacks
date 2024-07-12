@@ -30,5 +30,6 @@ $string['files'] = 'Fitxers';
 $string['formatcreole_link'] = 'mod/socialwiki/creole';
 $string['formatnwiki_link'] = 'mod/socialwiki/nwiki';
 $string['modulename_link'] = 'mod/socialwiki/view';
+$string['newpage'] = 'Nova';
 $string['noattachments'] = '<strong>Cap fitxer adjunt</strong>';
 $string['view'] = 'Visualitza';

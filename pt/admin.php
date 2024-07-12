@@ -76,6 +76,9 @@ $string['alternativefullnameformat_desc'] = 'Isto define como os nomes são exib
 $string['always'] = 'Sempre';
 $string['appearance'] = 'Aparência';
 $string['aspellpath'] = 'Caminho para o programa <strong>aspell</strong>';
+$string['asyncbackupdisabled'] = 'O seu site está atualmente configurado para usar cópias de segurança síncronas. As cópias de segurança assíncronas proporcionam uma melhor experiência para o utilizador.
+As cópias de segurança assíncronas serão ativadas para todos os sites a partir do Moodle LMS 4.5 LTS.
+As cópias de segurança síncronas serão removidas do Moodle LMS nas versões posteriores à 4.5 LTS';
 $string['authentication'] = 'Autenticação';
 $string['authpreventaccountcreation'] = 'Impedir a criação de contas na autenticação';
 $string['authpreventaccountcreation_help'] = 'Quando um utilizador que ainda não tem conta no site se autentica com sucesso, é criada automaticamente a sua conta. Se for usada uma base de dados externa para a autenticação, como o LDAP, mas pretende limitar o acesso ao site apenas aos utilizadores que já têm uma conta existente, então deve ativar esta opção. As novas contas terão de ser criadas manualmente ou através do carregamento de ficheiro de utilizadores. Tenha em atenção que esta configuração não se aplica à autenticação MNet.';
@@ -619,6 +622,7 @@ $string['environmentrequirecustomcheck'] = 'Este teste tem de passar';
 $string['environmentrequireinstall'] = 'tem de estar instalada e ativa';
 $string['environmentrequireversion'] = 'é requerida a versão {$a->needed} e está a usar a versão {$a->current}';
 $string['environmentsettingok'] = 'foi detetada uma configuração recomendada';
+$string['environmentshouldfixcustomcheck'] = 'deve estar ativa para melhores resultados';
 $string['environmentshouldfixsetting'] = 'A configuração do PHP deve ser alterada.';
 $string['environmentxmlerror'] = 'Erros ao ler dados do ambiente ({$a->error_code})';
 $string['errordeletingconfig'] = 'Ocorreu um erro ao apagar os registos de configuração do módulo  \'{$a}\' .';

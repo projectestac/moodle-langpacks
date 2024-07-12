@@ -224,6 +224,7 @@ $string['config_welcome_default'] = 'Messaggio di benvenuto di default';
 $string['config_welcome_default_description'] = 'Il messaggio di benvenuto è visualizzato quando i partecipanti accedono alla stanza. Se il campo è lasciato vuoto viene visualizzato il messaggio impostato sul server BigBlueButton.';
 $string['config_welcome_editable'] = 'Il messaggio di benvenuto di default è modificabile dai docenti';
 $string['config_welcome_editable_description'] = 'Il messaggio di benvenuto sarà modificabile quando un\'istanza viene aggiunta o modificata';
+$string['credentials_warning'] = 'L\'utilizzo delle credenziali del server di default scadrà a breve (vedere la nota sopra per ottenere nuove credenziali).';
 $string['dpainfonotsigned'] = 'Prima di abilitare questo plugin, devi confermare di aver letto e accettato l\'<a href="{$a}">Accordo sul trattamento dei dati di Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'Abilitazione dell\'attività BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Per adempiere agli obblighi di protezione dei dati, prima di abilitare questo plugin, devi assicurarti di aver letto e accettato l\'<a href="{$a}" target="_blank">Accordo sul trattamento dei dati di Blindside Networks</ un>. Si prega di consultare i propri professionisti della privacy per un consiglio.';

@@ -194,9 +194,10 @@ $string['subqtext_help'] = 'Aquí es poden especificar el text de la part i els 
 
 <pre class="prettyprint">{_0}<br>{_1}<br>{_2}<br>...<br>{_u}</pre>
 
-Els <tt> {_0}, {_1}, {_2} </tt> són els camps d\'entrada de coordenades i <tt> {_u} </tt> és el camp d\'entrada per a la unitat.
+Els <code>{_0}, {_1}, {_2}</code> són els diferents camps d\'entrada per als valors i <code>{_u}</code> és el camp d\'entrada per a la unitat.
 
-Tots els camps que falten s\'afegeixen de manera automàtica al final del text de la part. Un cas especial seria el de <tt> {_0}, {_u} </tt>, que, si s’especifica de manera consecutiva, i només hi ha una coordenada i una unitat, per exemple, <tt> {_0}{_u} </tt>, es fusionaran en un únic camp de resposta d\'entrada llarg per a la resposta i la unitat.';
+Tots els camps que falten s\'afegeixen de manera automàtica al final del text de la part. Un cas especial seria si <code>{_0}</code> i <code>{_u}</code> s’especifiquen de manera consecutiva en el camp Text de la part, i només hi ha un camp de resposta i una unitat, per exemple, <code>{_0}{_u}</code>, aleshores es fusionaran en un únic camp de resposta d\'entrada llarg per a la resposta numèrica i la unitat.';
+$string['uniquecorrectansweris'] = 'La resposta correcta és: {$a}';
 $string['unit'] = 'Unitat';
 $string['unitpenalty'] = 'Penalització per error en les unitats (0-1)*';
 $string['unitpenalty_help'] = 'Aquesta opció especifica la puntuació amb la qual es vol penalitzar l\'error per una unitat incorrecta.

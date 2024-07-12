@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accredible:addinstance'] = 'Afegiu una instància de certificat/insígnia';
+$string['accredible:manage'] = 'Gestiona una instància de certificat o d\'insígnia';
 $string['accredible:view'] = 'Visualitza un certificat o insígnia';
 $string['activityname'] = 'Nom de l\'activitat';
 $string['additionalactivitiesone'] = 'Avís: esteu afegint més d\'una activitat a un curs.<br/>Les dues activitats són visibles pels estudiants, així que assegureu-vos de donar-los noms diferents.';

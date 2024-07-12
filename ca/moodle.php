@@ -1521,7 +1521,7 @@ Aquí teniu el contingut del vostre missatge:';
 $string['noreplybouncesubject'] = '{$a} - missatge retornat';
 $string['noreplyname'] = 'No respongueu a aquest missatge';
 $string['noresetrecord'] = 'No hi ha constància de la sol·licitud de restabliment. Faci una sol·licitud nova de restabliment de contrasenya.';
-$string['noresults'] = 'Sense resultats';
+$string['noresults'] = 'No hi ha cap resultat';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Filtre normal';
 $string['nosite'] = 'No s\'ha pogut trobar el curs del nivell de lloc';
@@ -1554,7 +1554,7 @@ $string['nousersmatching'] = 'No s\'han trobat usuaris que coincideixin amb \'{$
 $string['nousersyet'] = 'Encara no hi ha usuaris';
 $string['novalidcourses'] = 'No hi ha cursos vàlids per mostrar';
 $string['now'] = 'ara';
-$string['numattempts'] = '{$a} intents d\'inici de sessió fallits';
+$string['numattempts'] = 'Nombre d\'intents d\'inici de sessió que han fallat: {$a}';
 $string['numberofcourses'] = 'Nombre de cursos';
 $string['numberweeks'] = 'Nombre de temes/setmanes';
 $string['numday'] = '{$a} dia';

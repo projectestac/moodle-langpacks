@@ -30,5 +30,6 @@ $string['generalfeedback_help'] = 'Es mostra la mateixa retroacció general, ind
 $string['miscellaneous'] = 'Miscel·lània';
 $string['modulename_link'] = 'mod/lti/view';
 $string['never'] = 'Mai';
+$string['noattempts'] = 'No s\'ha fet cap intent en aquesta instància de l\'eina';
 $string['password'] = 'Contrasenya secreta compartida';
 $string['pluginname_link'] = 'question/type/lti';

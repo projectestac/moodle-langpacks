@@ -225,6 +225,7 @@ $string['config_welcome_default'] = 'Mesaj implicit de bun venit';
 $string['config_welcome_default_description'] = 'Mesajul de bun venit este afișat când participanții intră în cameră. Dacă câmpul este lăsat necompletat, atunci este afișat un mesaj setat pe serverul BigBlueButton.';
 $string['config_welcome_editable'] = 'Mesajul implicit de bun venit poate să fie editat de către profesori';
 $string['config_welcome_editable_description'] = 'Mesajul de bun venit poate fi editat când o instanță este adăugată sau actualizată';
+$string['credentials_warning'] = 'Utilizarea credențialelor implicite pentru server va expira în curând (vezi nota de mai sus pentru obținerea de noi credențiale).';
 $string['dpainfonotsigned'] = 'Înainte de a activa acest plugin, trebuie să confirmi că ai citit și ai acceptat acordul de prelucrare a datelor <a href="{$a}">Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'Se activează activitatea BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Pentru a vă îndeplini obligațiile de protecție a datelor, înainte de a activa acest plugin, poate fi necesar să vă asigurați că ați citit și acceptat <a href="{$a}" target="_blank">acordul de prelucrare a datelor</a> cu Blindside Networks Inc.<br/>

@@ -26,46 +26,63 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Aktionen';
+$string['activityname'] = 'Aktivitätsname';
+$string['activityname_help'] = 'Text, der im Aktivitätsnamen enthalten sein muss. Groß-/Kleinschreibung wird dabei nicht beachtet.';
 $string['activityoresourceis'] = 'Die Aktivität oder das Material ist {$a}';
 $string['addacondition'] = 'Eine Bedingung hinzufügen';
 $string['addarule'] = 'Eine Regel hinzufügen';
-$string['addinstructions'] = 'Fügen Sie weitere Informationen hinzu';
+$string['addinstructions'] = 'Fügen Sie weitere Infos hinzu';
 $string['additionalresources'] = 'Weitere Ressourcen';
 $string['addlevel'] = 'Level hinzufügen';
-$string['addoninstallationerror'] = 'Beim Add-on (local_xp) wurde ein Problem festgestellt, denn es scheint nicht richtig installiert zu sein. Ein Administrator sollte die Installation abschließen.';
+$string['addoninstallationerror'] = 'Das Plugin local_xp scheint nicht richtig installiert zu sein. Administrator/innen sollten die Installation abschließen.';
 $string['addonnotactivated'] = 'Das Plugin ist nicht aktiv.';
 $string['addrulesformhelp'] = 'Die letzte Spalte definiert die Menge an Erfahrungspunkte, wenn die Kriterien erfüllt sind.';
 $string['admindefaultrulesintro'] = 'Die folgenden Regeln werden in Kursen, in denen der Block hinzugefügt wird, als Standard verwendet.';
-$string['admindefaultsettingsintro'] = 'Die folgenden Einstellungen werden als Standard verwendet, wenn der Block neu in einen Kurs eingefügt wird. Einige Einstellungen können gesperrt werden, in diesem Fall wird ihr Wert in allen Instanzen des Plugins strikt durchgesetzt.';
-$string['admindefaultvisualsintro'] = 'Das folgende wird als Standard genutzt, wenn der Block neu in einen Kurs eingefügt wird.';
+$string['admindefaultsettingsintro'] = 'Die folgenden Einstellungen werden als Standard verwendet, wenn der Block neu in einen Kurs eingefügt wird. Einige Einstellungen können gesperrt werden, wobei dann deren Wert in allen Instanzen des Plugins festgesetzt wird.';
+$string['admindefaultvisualsintro'] = 'Das Folgende wird als Standard genutzt, wenn der Block neu in einen Kurs eingefügt wird.';
 $string['adminscanearnxp'] = 'Administrator/innen können Punkte sammeln';
-$string['adminscanearnxp_desc'] = 'Standardmäßig können Administrator/innen keine Punkte sammeln, da sie die Berechtigung _block/xp:earnxp_ haben. Diese Berechtigung erlaubt es ihnen überall in allen Kontexten Punkte zu sammeln. Sie können diese Einstellung verwenden, um auch Administrator/innen Punkte sammeln zu lassen.';
+$string['adminscanearnxp_desc'] = 'Standardmäßig können Administrator/innen keine Punkte sammeln, da sie die Berechtigung _block/xp:earnxp_ haben. Diese Berechtigung erlaubt es, überall in allen Kontexten Punkte zu sammeln. Sie können diese Einstellung verwenden, um auch Administrator/innen Punkte sammeln zu lassen.';
+$string['allcoursesreset'] = 'Alle Kurse wurden zurückgesetzt';
 $string['anonymity'] = 'Anonymität';
-$string['anonymity_help'] = 'Diese Einstellung gibt an, ob Teilnehmer/innen die Namen und Avatare anderer Teilnehmer/innen sehen können.';
+$string['anonymity_help'] = 'Diese Einstellung gibt an, ob Namen und Avatare anderer Teilnehmer/innen gesehen werden können.';
 $string['apply'] = 'Anwenden';
 $string['awardaxpwhen'] = '<strong>{$a}</strong> Erfahrungspunkte werden verdient wenn:';
 $string['badgeaward'] = 'Badge verleihen';
-$string['badgeawarddesc'] = 'Ein Badge, der verliehen wird, wenn die Nutzer/innen dieses Level erreichen.';
+$string['badgeawarddesc'] = 'Ein Badge, der verliehen wird, wenn Nutzer/innen dieses Level erreichen.';
 $string['basepoints'] = 'Basispunkte';
 $string['basepointslineardesc'] = 'Der Mindestpunktezuwachs zwischen jedem Level.';
 $string['basepointsrelativedesc'] = 'Die Anzahl an Punkten, mit denen gestartet wird.';
 $string['basexp'] = 'Basis des Algorithmus';
-$string['blockappearance'] = 'Block-Darstellung';
-$string['blockappearancemovedtopluginsettings'] = 'Der Block Darstellungseinstellungen wurde in die Plugineinstellungen verschoben.';
-$string['cachedef_filters'] = 'Level Filter';
+$string['blockappearance'] = 'Blockdarstellung';
+$string['blockappearancemovedtopluginsettings'] = 'Die Einstellungen Blockdarstellung wurde in die Plugineinstellungen verschoben.';
+$string['cachedef_filters'] = 'Level-Filter';
 $string['cachedef_ruleevent_eventslist'] = 'Liste einiger Ereignisse';
 $string['cannotbesetindefaults'] = 'Dies kann nicht in den Standardeinstellungen festgelegt werden.';
 $string['cannotearnpoints'] = 'Kann keine Punkte sammeln.';
-$string['cannotshowblockconfig'] = 'Normalerweise würden hier die Einstellungen angezeigt, aber Ihr Block konnte nicht gefunden werden. Um das Aussehen des Blocks zu ändern, gehen Sie zurück [here] ({$ a}) (oder wo Sie den Block eingefügt haben), aktivieren den Bearbeitungsmodus und folgen der "Konfigurieren" -Option im Dropdown-Menü des Blocks. Wenn Sie den Block nicht finden können, fügen Sie ihn erneut zu Ihrem Kurs hinzu.';
-$string['cannotshowblockconfigsys'] = 'Normalerweise würden hier die Einstellungen angezeigt, aber Ihr Block konnte nicht gefunden werden. Er fehlt möglicherweise auf der [front page] ({$ a-> fp}) und dem [default dashboard] ({$ a-> mysys}) Ihrer Benutzer oder wird auf beiden angezeigt. Um die Einstellungen von hier aus zu bearbeiten, stellen Sie sicher, dass er nur in einem von beiden erscheint.';
-$string['changelevelformhelp'] = 'Wenn Sie die Anzahl der Level ändern, werden die individuellen Levelabzeichen vorübergehend deaktiviert, um Level ohne Abzeichen zu verhindern. Wenn Sie die Levelanzahl ändern,  gehen Sie zu der Seite "Visuals" , um wieder die benutzerdefinierten Abzeichen zu aktivieren, sobald Sie dieses Formular gespeichert haben.';
+$string['cannotshowblockconfig'] = 'Normalerweise würden hier die Einstellungen angezeigt, aber Ihr Block konnte nicht gefunden werden. Um das Aussehen des Blocks zu ändern, gehen Sie [hierher]({$a}) zurück (oder wo Sie den Block eingefügt haben), aktivieren den Bearbeitungsmodus und folgen der "Konfigurieren"-Option im Dropdown-Menü des Blocks. Wenn Sie den Block nicht finden können, fügen Sie ihn erneut zu Ihrem Kurs hinzu.';
+$string['cannotshowblockconfigsys'] = 'Normalerweise würden hier die Einstellungen angezeigt, aber Ihr Block konnte nicht gefunden werden. Er fehlt möglicherweise auf der [Startseite] ({$a->fp}) und dem [standardmäßigen Dashboard] ({$a->mysys}) Ihrer Nutzer/innen oder wird auf beiden angezeigt. Um die Einstellungen von hieraus zu bearbeiten, stellen Sie sicher, dass er nur in einem von beiden erscheint.';
+$string['changecourse'] = 'Kurs wechseln';
+$string['changelevelformhelp'] = 'Wenn Sie die Anzahl der Level ändern, werden die individuellen Levelbadges vorübergehend deaktiviert, um Level ohne Badge zu verhindern. Wenn Sie die Levelanzahl ändern,  gehen Sie zu der Seite "Visuals" , um die benutzerdefinierten Badges wieder zu aktivieren, sobald Sie dieses Formular gespeichert haben.';
+$string['changetocourse'] = 'Zum Kurs wechseln';
+$string['changetositewide'] = 'Zurück zu systemweit';
 $string['cheatguard'] = 'Schutz gegen Betrug';
+$string['chooseacondition'] = 'Eine Bedingung wählen';
+$string['clearfilter'] = 'Filter löschen';
 $string['clicktoselectcm'] = 'Klicken Sie, um eine Aktivität oder ein Material auszuwählen';
-$string['cmselector'] = 'Kursmodul-Auswahl';
+$string['cmselector'] = 'Auswahl der Kursmodule';
 $string['coefxp'] = 'Koeffizient des Algorithmus';
 $string['colon'] = '{$a->a}: {$a->b}';
 $string['compatibilitycheck'] = 'Kompatibilitätsüberprüfung';
-$string['configblockrankingsnapshot'] = 'Bestenlisten-Schnappschuss anzeigen';
+$string['completionrules'] = 'Abschlussregeln';
+$string['completionrules_help'] = 'Die Abschlussregeln sind in drei Kategorien unterteilt: Aktivitätsabschluss, Abschnittsabschluss und Kursabschluss. Durch das Hinzufügen von Bedingungen zu den Kategorien wird bestimmt, wann und wie viele Punkte vergeben werden.
+
+Die Regeln werden in der Reihenfolge ausgewertet, in der sie auf dem Bildschirm angezeigt werden. Sobald eine Bedingung erfüllt ist, werden die entsprechenden Punkte vergeben und weitere Regeln werden nicht ausgewertet.
+
+[Weitere Infos](https://docs.levelup.plus/xp/docs/completion-rules?ref=blockxp_help)';
+$string['completionrulesintro'] = 'Teilnehmer/innen Punkte zuweisen, wenn sie Aktivitäten, Abschnitte oder Kurse abschließen.';
+$string['completionruleslegacyusednotice'] = 'Sie haben bestehende "Ereignisregeln" mit Abschlussbedingungen. Wir empfehlen dringend, diese zu entfernen und stattdessen die unten aufgeführten Methoden zu verwenden, da die gleichzeitige Verwendung von "Ereignisregeln" und "Abschlussregeln" die vergebenen Punkte verdoppeln könnte.';
+$string['condition'] = 'Bedingung';
+$string['configblockrankingsnapshot'] = 'Bestenlisten-Snapshot anzeigen';
 $string['configblockrankingsnapshot_help'] = 'Der Bestenlisten-Snapshot zeigt den Rang der Person an. Dabei wird versucht, die beiden Personen anzuzeigen, die die Person umgeben. Für diese Funktion muss die Bestenliste aktiviert sein und die Ränge müssen angezeigt werden.';
 $string['configdescription'] = 'Beschreibung';
 $string['configdescription_help'] = 'Kurze Einführungsnachricht, die im Block angezeigt wird. Die Teilnehmer/innen können die Nachricht zu verwerfen, in diesem Fall sehen sie sie nicht mehr.';
@@ -76,6 +93,7 @@ $string['configtitle'] = 'Titel';
 $string['configtitle_help'] = 'Titel des Blocks';
 $string['congratulationsyouleveledup'] = 'Herzlichen Glückwunsch!';
 $string['coolthanks'] = 'Cool, Danke!';
+$string['coursea'] = 'Kurs "{$a}"';
 $string['courselog'] = 'Kurslog';
 $string['coursereport'] = 'Kursbericht';
 $string['courserules'] = 'Kursregeln';
@@ -98,7 +116,7 @@ $string['deletecondition'] = 'Bedingung löschen';
 $string['deleterule'] = 'Regel löschen';
 $string['description'] = 'Beschreibung';
 $string['difference'] = 'Diff.';
-$string['difficulty'] = 'Punkte-Berechnungsmethode';
+$string['difficulty'] = 'Methode zur Punkteberechnung';
 $string['difficultyflat'] = 'Gleich';
 $string['difficultyflatdesc'] = 'Alle Level benötigen die gleiche Anzahl an Punkten, um erreicht zu werden.';
 $string['difficultylinear'] = 'Zuwachs';
@@ -106,34 +124,35 @@ $string['difficultylineardesc'] = 'Level benötigen zunehmend mehr Punkte, um er
 $string['difficultylinearincrdesc'] = 'Die Anzahl an Punkten, die für den fortschreitenden Schwierigkeitsgrad verwendet wird.';
 $string['difficultypointincrease'] = 'Punktezuwachs';
 $string['difficultyrelative'] = 'Schneeballeffekt';
-$string['difficultyrelativedesc'] = 'Level werden exponentiell schwieriger zu erreichen';
+$string['difficultyrelativedesc'] = 'Level werden exponentiell schwieriger zu erreichen.';
 $string['difficultyrelativeincrdesc'] = 'Der Prozentsatz des Punktezuwachses vom vorhergehenden Level.';
 $string['discoverlevelupplus'] = 'Level Up XP+ entdecken';
 $string['dismissnotice'] = 'Nachricht schließen';
 $string['displayeveryone'] = 'Alle anzeigen';
 $string['displaynneighbours'] = '{$a} Nachbarn anzeigen';
 $string['displayoneneigbour'] = 'Einen Nachbarn anzeigen';
-$string['displayparticipantsidentity'] = 'Identität der Teilnehmer anzeigen';
+$string['displayparticipantsidentity'] = 'Identität der Teilnehmer/innen anzeigen';
 $string['displayrank'] = 'Rang anzeigen';
 $string['displayrelativerank'] = 'Relativen Rang anzeigen';
 $string['documentation'] = 'Dokumentation';
-$string['drops'] = 'Drops';
-$string['drops_help'] = 'In Computerspielen können einige Charaktere Gegenstände oder Erfahrungspunkte fallen lassen, die die Spieler dann einsammeln können. Diese Gegenstände und Erfahrungspunkte werden als Drops bezeichnet.
+$string['drops'] = 'Tropfen';
+$string['drops_help'] = 'In Computerspielen können einige Charaktere Gegenstände oder Erfahrungspunkte fallen lassen, die die Spieler/innen dann einsammeln können. Diese Gegenstände und Erfahrungspunkte werden als Tropfen bezeichnet.
 
-Drops in Level Up sind Shortcodes (z.B.`[xpdrop abcdef]`), die Trainer/innen im Kurs platzieren können. Wenn diese von einer Person gefunden werden, werden sie automatisch _eingesammelt_ und die Punkte zu den bereits gesammelten Erfahrungspunkten dazugezählt.
+In Level Up XP sind Tropfen Shortcodes (z.B.`[xpdrop id=1 secret=abcdef]`), die Trainer/innen im Kurs vergeben können. Wenn diese von einer Person gefunden werden, werden sie automatisch _eingesammelt_ und die Punkte zu den bereits gesammelten Erfahrungspunkten dazugezählt.
 
-Derzeit sind Drops unsichtbar für die Nutzer/innen. Die Punkte werden automatisch erhöht, wenn ein Drop gefunden wurde.
+Derzeit sind Tropfen für die Nutzer/innen unsichtbar. Die Punkte werden automatisch erhöht, wenn ein Tropfen gefunden wurde.
 
-Drops können verwendet werden, um Punkte zu vergeben, wenn ein bestimmter Inhalt von den Teilnehmer/innen aufgerufen wurde. Einige Ideen für die Platzierung von Drops:
+Tropfen können verwendet werden, um Punkte zu vergeben, wenn ein bestimmter Inhalt von den Teilnehmer/innen aufgerufen wurde. Einige Ideen für die Platzierung von Tropfen:
 
 - Im Feedback von Tests, wenn alle Punkte erreicht wurden
 - In schwierigem Inhalt, um die Auseinandersetzung damit zu belohnen
 - In einer interessanten Forumsdiskussion
 - In einer schwer erreichbaren Seite einer Lektion
 
-[Weitere Informationen (Englisch)](https://docs.levelup.plus/xp/docs/how-to/use-drops?ref=blockxp_help)';
-$string['dropsintro'] = 'Drops sind Shortcodes, die im Kurs platziert werden können und Punkte vergeben, wenn sie von einer Person gefunden werden.';
-$string['editingdefaultsettingsinwholesitemodenotice'] = '**Achtung!** Sie verändern nicht die aktiven Einstellungen, sondern die Standardeinstellungen. Da Level Up auf der gesamten Seite verwendet wird, haben Ihre Änderungen Auswirkungen auf alle Level Up Blöcke. Ändern Sie die [Einstellungen des einzelnen Blocks]({$a->url}) oder klicken Sie auf Einstellungen im jeweiligen Level Up Block.';
+[Weitere Infos (Englisch)](https://docs.levelup.plus/xp/docs/how-to/use-drops?ref=blockxp_help)';
+$string['dropsintro'] = 'Tropfen sind Shortcodes, die im Kurs platziert werden können und Punkte vergeben, wenn sie von einer Person gefunden werden.';
+$string['editcondition'] = 'Bedingung bearbeiten';
+$string['editingdefaultsettingsinwholesitemodenotice'] = '**Achtung!** Sie verändern nicht die aktiven Einstellungen, sondern die Standardeinstellungen. Da Level Up XP systemweit verwendet wird, haben Ihre Änderungen Auswirkungen auf alle Level Up Blöcke. Ändern Sie die [Einstellungen des einzelnen Blocks]({$a->url}) oder klicken Sie auf Einstellungen im jeweiligen Level Up Block.';
 $string['editinstructions'] = 'Informationen bearbeiten';
 $string['enablecheatguard'] = 'Schummelwächter aktivieren';
 $string['enablecheatguard_help'] = 'Der Schummelwächter (Cheat Guard) ist ein einfacher Mechanismus, der verhindert, dass Teilnehmer/innen das System mit simplen Techniken missbrauchen, z.B. indem sie Seiten endlos auffrischen oder Aktionen ständig wiederholen.
@@ -175,6 +194,7 @@ Zusätzliche Infos finden Sie hier:
 $string['eventsrulesintro'] = 'Interaktion beobachten und Punkte vergeben.';
 $string['eventtime'] = 'Eventzeitpunkt';
 $string['filterbyuser'] = 'Filter nach Person';
+$string['filterellipsis'] = 'Filter ...';
 $string['filtermodules'] = 'Filter Module';
 $string['for1day'] = 'Für einen Tag';
 $string['for1month'] = 'Für einen Monat';
@@ -202,8 +222,8 @@ $string['hasname'] = 'Name vorhanden';
 $string['hasnobadgeaward'] = 'Kein Badge, das verliehen wird';
 $string['hasnodescription'] = 'Keine Beschreibung';
 $string['hasnoname'] = 'Kein Name';
-$string['hasnopopupmessage'] = 'Keine PopUp Nachricht';
-$string['haspopupmessage'] = 'PupUp Nachricht vorhanden';
+$string['hasnopopupmessage'] = 'Keine PopUp-Nachricht';
+$string['haspopupmessage'] = 'PopUp-Nachricht vorhanden';
 $string['hideparticipantsidentity'] = 'Identität der Teilnehmer/innen verbergen';
 $string['hiderank'] = 'Rang verbergen';
 $string['importpoints'] = 'Punkte importieren';
@@ -216,7 +236,7 @@ $string['ineffective'] = 'Ineffektiv';
 $string['infos'] = 'Information';
 $string['installed'] = 'Installiert';
 $string['instructions'] = 'Weitere Informationen';
-$string['invalidxp'] = 'Ungültiger Punkte-Wert';
+$string['invalidxp'] = 'Ungültiger Punktewert';
 $string['keeplogs'] = 'Logdaten behalten';
 $string['ladder'] = 'Bestenliste';
 $string['ladderadditionalcols'] = 'Zusätzliche Spalten';
