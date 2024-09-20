@@ -277,7 +277,7 @@ $string['info_text_teacher_settings'] = 'Avec ce plugin, vous avez la possibilit
         <br>
         Terminé. Maintenant, les étudiants peuvent aussi voir leurs camarades de groupe. En tant que document, vous pouvez ajuster manuellement les groupes à tout moment dans Moodle (par exemple avec des retardataires).';
 $string['input'] = 'Entrée :';
-$string['invalid'] = 'Statut invalide';
+$string['invalid'] = 'Statut non valide';
 $string['jobget_name'] = 'Formation de groupes et nettoyage';
 $string['justpass'] = 'Il suffit de passer';
 $string['knowledge'] = 'Connaissance';

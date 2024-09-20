@@ -77,6 +77,10 @@ $string['alternativefullnameformat_desc'] = 'هذا يحدد كيفية إظها
 $string['always'] = 'دائماً';
 $string['appearance'] = 'المظهر';
 $string['aspellpath'] = 'المسار إلى aspell';
+$string['asyncbackupdisabled'] = 'موقعك مهيأ لاستعمال الحفظ الاحتياطي التزامني.
+الحفظ الاحتياطي اللاتزامني يوفر تجربة مستخدم أفضل.
+سيتم تمكين الحفظ الاحتياطي اللاتزامني بدءًا من مودل 4.5.
+ستتم إزالة الحفظ الاحتياطي التزامني من مودل بعد الإصدار 4.5';
 $string['authentication'] = 'المصادقة';
 $string['authpreventaccountcreation'] = 'إمنع إنشاء الحساب عند المصادقة';
 $string['authpreventaccountcreation_help'] = 'عند المُصادقة على مستخدم، يتم إنشاء حساب له في الموقع تلقائياً إذا لم يكن موجوداً حتى الآن. إذا تم استعمال قاعدة بيانات خارجية، مثل LDAP للمصادقة، ولكن كنت ترغب في تقييد الوصول إلى الموقع وجعله مقتصراً على المستخدمين الذين لديهم حسابات موجودة مُسبقاً فقط، فهذا الخيار يجب تفعيله. الحسابات الجديدة ستتطلب إنشاءها إما يدوياً أو عن طريق ميزة رفع المستخدمين. لاحظ أن هذا الإعداد لا ينطبق على مصادقة شبكة مودل.';
@@ -642,6 +646,7 @@ $string['environmentrequirecustomcheck'] = 'هذا الاختبار لا بد أ
 $string['environmentrequireinstall'] = 'يجب تنصيبه/تمكينه';
 $string['environmentrequireversion'] = 'يتطلب الإصدار {$a->needed}، وأنت تستعمل الإصدار {$a->current}';
 $string['environmentsettingok'] = 'تم الكشف عن الإعداد المستحسن';
+$string['environmentshouldfixcustomcheck'] = 'ينبغي تمكينه للحصول على النتائج الأفضل';
 $string['environmentshouldfixsetting'] = 'إعداداتPHP  يفضل أن تغير';
 $string['environmentxmlerror'] = 'خطأ عند قراءة بيانات البيئة ({$a->error_code})';
 $string['errordeletingconfig'] = 'وقع خطأ عند حذف سجلات تهيئة الإضافة \'{$a}\'.';

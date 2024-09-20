@@ -145,7 +145,7 @@ $string['config_presentation_default_description'] = 'Pode ser fornecido um fich
 $string['config_preuploadpresentation'] = 'Pré-carregar a apresentação';
 $string['config_preuploadpresentation_description'] = 'Estas configurações ativam ou desativam opções na interface do utilizador (IU) e também definem os respetivos valores predefinidos. Esta funcionalidade só funciona se o servidor do Moodle estiver acessível para o BigBlueButton.';
 $string['config_preuploadpresentation_editable'] = 'Pré-carregamento da apresentação editável';
-$string['config_preuploadpresentation_editable_description'] = 'O recurso de pré-carregamento da apresentação está editável na IU quando a sala ou conferência é adicionada ou atualizada.';
+$string['config_preuploadpresentation_editable_description'] = 'A funcionalidade de pré-carregamento da apresentação está editável na IU quando a sala ou conferência é adicionada ou atualizada.';
 $string['config_recording'] = 'Gravação';
 $string['config_recording_all_from_start_default'] = 'Iniciar gravação desde o início';
 $string['config_recording_all_from_start_default_description'] = 'A configuração \'Iniciar gravação desde o início\' deve estar ativada por predefinição ao adicionar uma nova sala BigBlueButton?';
@@ -226,7 +226,6 @@ $string['config_welcome_default'] = 'Mensagem de boas vindas predefinida';
 $string['config_welcome_default_description'] = 'A mensagem de boas-vindas é exibida quando os participantes entram na sala. Se o campo for deixado em branco, será exibida a mensagem definida no servidor BigBlueButton.';
 $string['config_welcome_editable'] = 'Mensagem de boas-vindas predefinida editável';
 $string['config_welcome_editable_description'] = 'A mensagem de boas-vindas pode ser editada pelos professores quando a instância é adicionada ou atualizada';
-$string['credentials_warning'] = 'O uso de credenciais de servidor padrão expirará em breve (veja a nota acima para obter novas credenciais).';
 $string['dpainfonotsigned'] = 'Antes de ativar este módulo, tem de confirmar que leu e aceitou o <a href="{$a}" target="_blank">contrato de processamento de dados da Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'A ativar a atividade BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Para cumprir as suas obrigações de proteção de dados, antes de ativar este módulo, tem de confirmar que leu e aceitou o <a href="{$a}" target="_blank">contrato de processamento de dados da Blindside Networks</a>. Consulte os seus próprios conselheiros de privacidade para obter mais informações.';

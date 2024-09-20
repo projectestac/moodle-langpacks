@@ -196,6 +196,7 @@ $string['startquiz'] = 'Comença el qüestionari';
 $string['studentquizinst'] = '<p>Espereu que l\'instructor comenci el qüestionari. Un cop hagi començat, veureu un temporitzador amb un compte enrere per al començament de la primera pregunta.</p>';
 $string['successregrade'] = 'El qüestionari s\'ha requalificat correctament';
 $string['teacherjoinquizinstruct'] = 'Utilitzeu-ho si voleu provar un qüestionari vosaltres mateixos<br />(també haureu d\'iniciar-lo en una finestra independent)';
+$string['theattempt'] = 'L\'intent';
 $string['timecompleted'] = 'Temps completat';
 $string['timemodified'] = 'Temps modificat';
 $string['timertext'] = 'La vostra pregunta finalitzarà i s\'enviarà automàticament en:';

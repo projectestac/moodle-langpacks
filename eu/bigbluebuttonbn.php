@@ -224,7 +224,6 @@ $string['config_welcome_default'] = 'Ongi-etorri mezu lehenetsia';
 $string['config_welcome_default_description'] = 'Ongi-etorri mezua parte-hartzaile bat bilera-gelan sartzean erakusten da. Eremua hutsik utziz gero BigBlueButton zerbitzarian zehaztutako mezua erakutsiko da.';
 $string['config_welcome_editable'] = 'Irakasleek lehenetsitako ongi-etorri mezua editatu dezakete';
 $string['config_welcome_editable_description'] = 'Instantzia gehitu ala eguneratzean ongi-etorri mezua editatu daiteke';
-$string['credentials_warning'] = 'Lehenetsitako zerbitzariaren kredentzialak laster iraungiko dira (ikusi goiko oharrean nola lortu ditzakezun kredentzial berriak).';
 $string['dpainfonotsigned'] = 'Plugin hau gaitu aurretik, <a href="{$a}">Blindside Networks Inc.-eko datu-prozesatzen onespena</a> irakurri eta onartu duzula baieztatu behar duzu.';
 $string['enablingbigbluebutton'] = 'BigBlueButton jarduera gaitzen';
 $string['enablingbigbluebuttondpainfo'] = 'Datu-babeserako betebeharrak betetzeko, plugin hau gaitu aurretik <a href="{$a}" target="_blank">Blindside Networks Inc.-eko datu-prozesatzen onespena</a> irakurri eta onartu duzula ziurtatu behar duzu. Gomendioetarako harremanetan jarri zaitez zure pribatutasun adituekin.';

@@ -32,6 +32,7 @@ $string['helplinktext'] = 'Collegamento';
 $string['link'] = 'Collegamento';
 $string['openinnewwindow'] = 'Apri in una nuova finestra';
 $string['pluginname'] = 'Collegamento Tiny';
+$string['privacy:metadata'] = 'Il plugin Link per TinyMCE non memorizza dati personali.';
 $string['texttodisplay'] = 'Testo da visualizzare';
 $string['unlink'] = 'Rimuovi collegamento';
 $string['updatelink'] = 'Aggiorna collegamento';

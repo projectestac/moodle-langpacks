@@ -32,6 +32,7 @@ $string['edit'] = 'Edita';
 $string['export'] = 'Exporta';
 $string['name'] = 'Nom';
 $string['overview'] = 'Resum';
+$string['remove'] = 'Suprimeix';
 $string['state_history'] = 'Historial';
 $string['stepactivation_link'] = 'block/workflow';
 $string['stepcompletion_link'] = 'block/workflow';

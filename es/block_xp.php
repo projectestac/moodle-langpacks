@@ -103,7 +103,7 @@ $string['coursevisuals'] = 'Visuales del curso';
 $string['currencysign'] = 'Símbolo de puntos';
 $string['currencysign_help'] = 'Con este ajuste usted puede cambiar el significado de los puntos. Se mostrará junto a la cantidad de puntos que tiene cada usuario como sustituto de la referencia a _puntos de experiencia_.
 
-Elja uno de los símbolos existentes, ¡o suba los suyos!';
+Elija uno de los símbolos existentes, ¡o suba los suyos!';
 $string['currencysignxp'] = 'XP (puntos de experiencia)';
 $string['customizelevels'] = 'Personalizar los niveles';
 $string['dangerzone'] = 'Zona de peligro';
@@ -155,7 +155,7 @@ $string['editcondition'] = 'Editar condición';
 $string['editingdefaultsettingsinwholesitemodenotice'] = '**¡Atención!** Usted no está modificando la configuración activa actualmente, sino que está editando los valores por defecto. Como Level Up XP se usa en todo el sitio, su intención probablemente es cambiar los ajustes de todo el sitio. [Venga aquí]({$a->url}) para cambiar esos ajustes, o siga el enlace "Ajustes" del propio bloque XP.';
 $string['editinstructions'] = 'Editar información';
 $string['enablecheatguard'] = 'Activar medidas contra trampas';
-$string['enablecheatguard_help'] = 'Las medidas contra trampas son un mecanismo sencillo para evitar que los estudiantes abusen del sistema usando trucos obvios, como refrescar la misma página sin parar, o repetir la misma accción una y otra vez.';
+$string['enablecheatguard_help'] = 'Las medidas contra trampas son un mecanismo sencillo para evitar que los estudiantes abusen del sistema usando trucos obvios, como refrescar la misma página sin parar, o repetir la misma acción una y otra vez.';
 $string['enableinfos'] = 'Habilitar página de información';
 $string['enableinfos_help'] = 'Cuando se configura a "No", los estudiantes no podrán ver la página de información.';
 $string['enableladder'] = 'Habilitar el ranking';
@@ -186,6 +186,8 @@ Puede usar el formulario siguiente para añadir sus propias reglas y modificar l
 
 Se recomienda comprobar la página de _log_  del plugin para identificar eventos que se disparan cuando los estudiantes realizar acciones en el curso.
 
+Recursos adicionales:
+
 - [¿Cómo se calculan puntos de experiencia?](https://docs.levelup.plus/xp/docs/getting-started/points-calculation?ref=blockxp_help)
 - [Solución de problemas de reglas](https://docs.levelup.plus/xp/docs/troubleshooting/event-rule-not-working?ref=blockxp_help)';
 $string['eventsrulesintro'] = 'Observe acciones y dé puntos a los estudiantes cuando las realizan.';
@@ -205,7 +207,7 @@ $string['graderules'] = 'Reglas de calificación';
 $string['graderules_help'] = 'Los estudiantes ganarán tantos puntos como su calificación.
 Tanto una calificación de 5/10 como una de 5/100 le darán al estudiante 5 puntos.
 Cuando la calificación de un estudiante varíe varias veces, ganarán puntos equivalentes a la calificación máxima que hayan recibido.
-A los estudiantes nunca se les quitan npuntos, y se ignoran las calificaciones negativas.
+A los estudiantes nunca se les quitan puntos, y se ignoran las calificaciones negativas.
 
 Ejemplo: Alicia entrega una tarea y recibe una calificación de 40/100. En _Level Up XP_, Alicia recibe 40 puntos por su calificación.
 Alicia hace un nuevo intento en la misma tarea, pero esta vez su calificación baja a 25/100. Los puntos de Alicia en _Level Up XP_ no varían.
@@ -225,7 +227,7 @@ $string['haspopupmessage'] = 'Configuración de mensaje emergente';
 $string['hideparticipantsidentity'] = 'Ocultar identidad de los participantes';
 $string['hiderank'] = 'Esconder posición';
 $string['importpoints'] = 'Importar puntos';
-$string['importpoints_help'] = 'La importación puede usarse para _aumentar_ la puntuación de los estudiantes, no para _sobreescribirla_ con el valor dado.
+$string['importpoints_help'] = 'La importación puede usarse para _aumentar_ la puntuación de los estudiantes, o para _sobreescribirla_ con el valor dado.
 
 Observe que la importación _no_ usa el mismo formato que el informe exportado. El formato requerido se describe en la [documentación](https://docs.levelup.plus/xp/docs/how-to/import-points/importing-points-from-csv?ref=localxp_help), donde hay un [archivo de ejemplo](https://docs.levelup.plus/xp/docs/how-to/import-points/importing-points-from-csv?ref=localxp_help#sample-file) disponible.';
 $string['importpointsintro'] = 'Importar puntos desde un archivo CSV, y opcionalmente enviar un mensaje al receptor.';
@@ -251,7 +253,7 @@ Recomendamos imágenes de 100x100 píxeles, en cualquiera de los siguientes form
 $string['levelbadgesformhelp'] = 'Nombre los archivos [nivel].[extensión del archivo],por ejemplo: 1.png, 2.jpg, etc... El tamaño recomendado de imagen es 100x100.';
 $string['levelcount'] = 'Número de niveles';
 $string['leveldesc'] = 'Descripción del nivel';
-$string['leveldesc_help'] = 'Una breve descripción del nivel. Esto se muestra en la página de información junto al nivel mismo. Puede usarlo para describir una recompensa a estudiantes que hayan alcanzado el nivel, para incluir instrucciones sobre cómo trabajar para conseguir este nivel, para describir el nivel de forma lúdia (p.ej.: _Sólo los más intrépidos han llegado a conseguir este nivel_), etc.';
+$string['leveldesc_help'] = 'Una breve descripción del nivel. Esto se muestra en la página de información junto al nivel mismo. Puede usarlo para describir una recompensa a estudiantes que hayan alcanzado el nivel, para incluir instrucciones sobre cómo trabajar para conseguir este nivel, para describir el nivel de forma lúdica (p.ej.: _Sólo los más intrépidos han llegado a conseguir este nivel_), etc.';
 $string['leveldescriptiondesc'] = 'Breve descripción del nivel, mostrada a los estudiantes en la página de información.';
 $string['levelname'] = 'Nombre del nivel';
 $string['levelname_help'] = 'Un nombre corto para mostrar en vez del _Nivel #1_, _Nivel #2_, etc que aparece por defecto a veces. ¡Si da nombre a algunos niveles, recomendamos que dé nombre a todos!';
@@ -272,7 +274,7 @@ $string['list'] = 'Lista';
 $string['logging'] = 'Accediendo';
 $string['manually'] = 'Manualmente';
 $string['maxactionspertime'] = 'Máximo de acciones en el lapso de tiempo';
-$string['maxactionspertime_help'] = 'El número máximo de acciones que contarán para puntuar durante el lapso de tiempo dado. Cualquier acción subsiguiente se ignorará.';
+$string['maxactionspertime_help'] = 'El número máximo de acciones que contarán para puntuar durante el lapso de tiempo dado. Cualquier acción subsiguiente se ignorará. Cuando este valor esta vacío o es igual a cero "0", no aplicará.';
 $string['maxlevelexcl'] = '¡Nivel máximo!';
 $string['menu'] = 'Menú';
 $string['missing'] = 'Falta';
@@ -377,7 +379,7 @@ $string['questreleasenotice'] = '🎉 Nos emociona anunciar **nuestro nuevo plug
 $string['quickeditpoints'] = 'Edición rápida de puntos';
 $string['rank'] = 'Ranking';
 $string['ranking'] = 'Ranking';
-$string['ranking_help'] = 'El ranking es la posición absoluta del usuario actual en el tablero de ranking. El ranking relativo es la diferencia en puntos de experiencia entre un usuario y sus vecinos.';
+$string['ranking_help'] = 'El rank es la posición absoluta del usuario actual en el tablero de ranking. El ranking relativo es la diferencia en puntos de experiencia entre un usuario y sus vecinos.';
 $string['reallydeleteuserstate'] = 'Borrar un usuario solamente es útil para borrarlo del tablero. Para otros casos, recomendamos poner sus puntos a 0 en vez de borrarlo. Borrar usuarios no afecta su posibilidad de ganar puntos en el futuro.
 
 Importante: Cuando se usa _Level Up XP_ para todo el sitio, borrarlos hará que desaparezcan del informe, en cuyo caso usted no podrá volver a darles puntos. Sin embargo, si está usando _Level Up XP_ por curso, el estudiante aún podrá aparecer en el informe si aún está matriculado.
@@ -480,7 +482,7 @@ $string['rulesscope_help'] = 'El alcance de las reglas determina cuándo se apli
 Las reglas se pueden crear con dos alcances: para todo el sitio o específicas para un curso. Cuando sea posible, se evaluarán primero las reglas de curso, seguidas de las reglas de sitio. Esto permite a los educadores crear reglas más amplias aplicables a todo el sitio y ajustarlas para cursos individual.
 
 - Para todo el sitio: Estas reglas son efectivas para todo el sitio, excepto cuando haya reglas específicas para cursos.
-- Para el curso: Estas reglas se aplican sólo en un curso específico. Tienen prioridad sobre las de todo el sitio.';
+- Para el curso: Estas reglas se aplican sólo en un curso específico. Tienen prioridad sobre las reglas de todo el sitio.';
 $string['ruletypecmcompletion'] = 'Finalización de actividad';
 $string['ruletypecmcompletiondesc'] = 'Otorgar puntos cuando una actividad se ha marcado como completada.';
 $string['ruletypecoursecompletion'] = 'Finalización de curso';

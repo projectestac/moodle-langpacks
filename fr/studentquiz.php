@@ -120,7 +120,7 @@ $string['editedcomment_last_edit'] = 'Dernière modification :';
 $string['editedcommenthistory'] = 'Modifié par {$a->lastesteditedcommentauthorname} à {$a->lastededitedcommenttime}';
 $string['editedcommenthistorylinktext'] = 'Historique';
 $string['editedcommenthistorywithuserlink'] = 'Modifié par <a href="{$a->lastesteditedcommentauthorprofileurl}">{$a->lastesteditedcommentauthorname}</a> le {$a->lastededitedcommenttime}';
-$string['editorplaceholder'] = 'Saisissez votre commentaire ici...';
+$string['editorplaceholder'] = 'Saisissez votre commentaire ici…';
 $string['emailautomationnote'] = 'Veuillez prendre note qu’il s’agit d’un message automatisé – cette adresse courriel n’est pas vérifiée.';
 $string['emailcommentaddedbody'] = 'Bonjour {$a->recepientname},
 

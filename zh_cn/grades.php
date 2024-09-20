@@ -293,7 +293,7 @@ $string['gradeexportcolumntype'] = '{$a->name} ({$a->extra})';
 $string['gradeexportcustomprofilefields'] = '成绩导出自定义个人档案字段';
 $string['gradeexportcustomprofilefields_desc'] = '在成绩导出中包含这些自定义个人档案字段，用逗号分隔。';
 $string['gradeexportdecimalpoints'] = '成绩导出的小数位数';
-$string['gradeexportdecimalpoints_desc'] = '导出时显示的小数位数。在导出时可以更改这个选项。';
+$string['gradeexportdecimalpoints_desc'] = '显示导出的小数位数。在导出过程中，可以覆盖此属性。';
 $string['gradeexportdisplaytype'] = '导出成绩的显示类型';
 $string['gradeexportdisplaytype_desc'] = '成绩在导出时可以以实际分数、百分比（基于最低分和最高分计算）或分数段（优秀、良好、及格等等）类型显示。在导出时可以更改这个选项。';
 $string['gradeexportdisplaytypes'] = '成绩导出显示类型';
@@ -406,14 +406,14 @@ $string['idnumbers'] = 'ID号';
 $string['ignore'] = '忽视';
 $string['import'] = '导入';
 $string['importcsv'] = '导入 CSV';
-$string['importcsv_help'] = '成绩可以通过 CSV 文件导入，格式如下：
+$string['importcsv_help'] = '成绩可以通过CSV文件导入，格式如下：
 
 * 文件的每一行包含一条记录
-* 每一条记录是一系列以逗号(或其他分隔符号)分隔的数据
-* 第一条记录是包含所有字段名称的清单，用来定义文件其余部分的格式
-* 其中一个字段名称必须要包含用户的识别数据，可以是用户名、ID号或EMAIL地址
+* 每条记录都是由选定的分隔符分隔的一系列数据
+* 第一条记录包含字段名称列表，用于定义文件其余部分的格式
+* 包含用户身份数据的字段名是必需的 - 用户名或 ID 号或电子邮件地址
 
-您可以先导出一些成绩来获得这个文件的正确格式。然后将这一文件加以编辑并保存为 CSV 文件。';
+通过先导出一些成绩，可以获得正确格式的文件。然后，可以编辑该文件并将其另存为 CSV 文件。';
 $string['importcsv_link'] = 'grade/import/csv/index';
 $string['importcustom'] = '作为自定义成果导入（仅在此课程中）';
 $string['importdata'] = '数据';
@@ -568,7 +568,7 @@ $string['noidnumber'] = '没有 ID 号';
 $string['nolettergrade'] = '无分数段给';
 $string['nomode'] = '无';
 $string['nonnumericweight'] = '收到的非数字值';
-$string['nonunlockableverbose'] = '只有{$a->itemname}解锁后成绩才能解锁。';
+$string['nonunlockableverbose'] = '要解锁成绩，您需要解锁 {$a->itemname}。';
 $string['nonweightedpct'] = '非加权%';
 $string['nooutcome'] = '没有成果';
 $string['nooutcomes'] = '成果项必须链接到一个课程成果，但是此课程没有成果。您想添加一个吗？';
@@ -712,7 +712,7 @@ $string['recovergradesdefault_help'] = '当用户重新加入课程时默认恢�
 $string['refreshpreview'] = '刷新预览';
 $string['regradeanyway'] = '仍然重新评分';
 $string['removeallcoursegrades'] = '删除所有成绩';
-$string['removeallcoursegrades_help'] = '如果选中，则将删除所有手动添加到成绩册的成绩项，以及与覆盖、例外、隐藏和锁定的成绩有关的成绩和数据。 只保留与活动相关的成绩项。';
+$string['removeallcoursegrades_help'] = '如果勾选，则将删除手动添加到成绩簿中的所有成绩项目和成绩，以及被覆盖、排除、隐藏和锁定的成绩的数据。仅保留与活动关联的等级项目和等级。';
 $string['removeallcourseitems'] = '删除所有成绩项和类别';
 $string['removeallcourseitems_help'] = '如果选中，则将删除所有手动添加到成绩册的成绩项，以及与覆盖、例外、隐藏和锁定的成绩有关的成绩和数据。 只保留与活动相关的成绩项。';
 $string['report'] = '报表';

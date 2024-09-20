@@ -596,7 +596,7 @@ $string['displayingrecords'] = '{$a} elementu erakusten';
 $string['displayingusers'] = 'Ikasleak erakusten {$a->start}, lehena; {$a->end}, azkena';
 $string['displayonpage'] = 'Erakutsi orrian';
 $string['dndcourse'] = 'Ikastaro hau hartu eta eraman dezakezu ordena aldarazteko edo beste kategoria batera mugitzeko.';
-$string['dndenabled_inbox'] = 'Fitxategiak gehitzeko, hartu eta eraman ahal dituzu.';
+$string['dndenabled_inbox'] = 'Fitxategiak gehitzeko hartu eta eremu honetara eraman ahal dituzu.';
 $string['dndnotsupported'] = 'Hartu eta eraman bidezko igoera ez da onartzen';
 $string['dndnotsupported_help'] = 'Zure nabigatzaileak ez du onartzen hartu eta eraman bidezko igoera. Aukera honek funtzionatzen du Chrome-ren, Firefox-en eta Safari-ren azken bertsio guztietan, baita ere Internet Explorer v10-etik gorakoetan.';
 $string['dndnotsupported_insentence'] = '\'hartu eta eraman\' ez da onartzen';
@@ -1098,7 +1098,7 @@ $string['importdata'] = 'Inportatu ikastaroko datuak';
 $string['importdataexported'] = 'Ikastaroko datuak ondo esportatu dira.<br />Zure ikastarora inportatzen jarraitu.';
 $string['importdatafinished'] = 'Inportazioa ondo burutua da! Segi zure ikastarora!';
 $string['importdatafrom'] = 'Bilatu ikastaro bat datuak inportatzeko hemendik:';
-$string['inactive'] = 'Ez aktibo';
+$string['inactive'] = 'Ez aktiboa';
 $string['include'] = 'Sartu';
 $string['includeallusers'] = 'Sartu erabiltzaile guztiak';
 $string['includecoursefiles'] = 'Sartu ikastaroko fitxategiak';
@@ -1757,7 +1757,7 @@ $string['registrationcontactyes'] = 'Bai, beste Moodlezale batzuk nirekin harrem
 $string['registrationemail'] = 'Posta elektroniko bidezko jakinarazpenak';
 $string['registrationinfo'] = '<p>Orria honek zure webgunea moodle.org-en erregistratzea ahalbidetzen dizu.
 Erregistroa doakoa da. Izango duzun etekina zure webgunea posta-zerrenda batean sartzea da, ohar garrantzitsu,
-segurtasun-jakinarazpenak eta Moodleko eskaintzak jasotzeko.</p>
+segurtasun-alertak eta Moodleko eskaintzak jasotzeko.</p>
 <p>Zure informazioa konfidentziala izango da, eta ez zaio inoiz inori salduko edo helaraziko. Informazio hau biltzeko
 arrazoi bakarra zu lagundu eta Moodle komunitatearen koadro estatistikoa sortzea da.</p>
 <p>Nahi izanez gero, zure webgunearen izenburua, herria eta URLa idatz ditzakezu Moodle erabiltzen duten guneen zerrenda agertzeko.</p>

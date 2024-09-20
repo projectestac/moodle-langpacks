@@ -148,6 +148,7 @@ $string['difficultytitlea'] = 'Dificultat A';
 $string['difficultytitleb'] = 'Dificultat B';
 $string['difficultytitlediff'] = 'Diferència';
 $string['disableimgnewlines'] = 'Inhabilita les línies noves abans i després de les imatges';
+$string['disableimgnewlines_help'] = 'Aquesta opció inhabilita les línies noves abans i després de les imatges dels fulls de preguntes en PDF. Atenció: això pot generar problemes de format.';
 $string['displayoptions'] = 'Opcions de visualització';
 $string['documentschanged'] = 'S’han modificat una o més preguntes del qüestionari fora de línia d’ençà que es van crear els documents.<br>Els resultats futurs es tornaran a qualificar de manera automàtica durant l’avaluació d’acord amb la versió actual de la/les pregunta/es seleccionada/es aquí. La versió original de la/les pregunta/es encara es mostrarà als documents.';
 $string['documentschangedwithresults'] = 'S’han modificat una o més preguntes del qüestionari fora de línia d’ençà que es van crear els documents.<br>Els resultats actuals s’han tornat a qualificar de manera automàtica d’acord amb la versió actual de la/les pregunta/es seleccionada/es aquí. La versió original de la/les pregunta/es encara es mostrarà als documents.';
@@ -162,7 +163,7 @@ $string['editgroupquestions'] = 'Edita les preguntes del grup';
 $string['editgroups'] = 'Edita els grups fora de línia';
 $string['editingofflinequiz'] = 'S\'estan editant les preguntes del grup';
 $string['editingofflinequiz_help'] = 'En crear un qüestionari fora de línia, els conceptes principals són els següents:
-<ul><li> El qüestionari fora de línia, que conté les preguntes en una pàgina o més</li>
+<ul><li> El qüestionari fora de línia, que conté les preguntes en una o més pàgines</li>
 <li> El banc de preguntes, que emmagatzema còpies de totes les preguntes organitzades dins categories </li></ul>';
 $string['editingofflinequizx'] = 'Preguntes';
 $string['editlist'] = 'Edita la llista';
@@ -217,7 +218,7 @@ $string['forautoanalysis'] = 'Per a l\'anàlisi automàtica';
 $string['formforcorrection'] = 'Formulari de correcció del grup {$a}';
 $string['formforgroup'] = 'Formulari de preguntes per al grup {$a}';
 $string['formforgroupdocx'] = 'Formulari de preguntes per al grup {$a} (DOCX)';
-$string['formforgrouplatex'] = 'Formulari de preguntes per al grup {$a} (LATEX)';
+$string['formforgrouplatex'] = 'Formulari de preguntes per al grup {$a} (LaTeX)';
 $string['forms'] = 'Formularis';
 $string['formsexist'] = 'Ja s’han creat els formularis.';
 $string['formsexistx'] = 'Ja s’han creat els formularis (<a href="{$a}">Descarrega els formularis</a>)';
@@ -295,7 +296,7 @@ $string['isnotchecked'] = 'La participació no està marcada';
 $string['itemdata'] = 'Dades de l’element';
 $string['keepfilesfordays'] = 'Conserva els fitxers durant dies';
 $string['legend'] = 'Llegenda';
-$string['legenddone'] = 'S’ha completat la passa amb èxit (no es requereix cap altra acció).';
+$string['legenddone'] = 'S\'ha completat la passa amb èxit (no es requereix cap altra acció).';
 $string['legendnextitem'] = 'Es requereix una acció en el flux de treball posterior (això pot dependre de passes prèvies).';
 $string['legendnoaction'] = 'No es requereix cap acció.';
 $string['legendwarning'] = 'Es requereix una acció immediata.';
@@ -322,8 +323,8 @@ $string['missinglogdata'] = 'Falten dades del registre del resultat actual.';
 $string['missingquestion'] = 'Sembla que aquesta pregunta ja no existeix';
 $string['missinguserid'] = 'Falta el número d’identificació de l’usuari. No s’ha pogut llegir el codi de barres.';
 $string['modulename'] = 'Qüestionari fora de línia';
-$string['modulename_help'] = 'El professor pot dissenyar qüestionaris fora de línia de preguntes d’elecció múltiple amb aquest mòdul.
-Aquestes preguntes es conserven al banc de preguntes de Moodle i poden tornar a emprar-se dins el mateix curs o en cursos varis. Els qüestionaris fora de línia es poden descarregar en format PDF, DOCX o LaTeX. Els estudiants marquen les respostes als fulls de respostes. Aquests fulls s’escanegen i les respostes s’importen al sistema.';
+$string['modulename_help'] = 'El professor pot dissenyar qüestionaris fora de línia de preguntes d\'elecció múltiple amb aquest mòdul.
+Aquestes preguntes es conserven al banc de preguntes de Moodle i poden tornar a emprar-se dins el mateix curs o en cursos varis. Els qüestionaris fora de línia es poden descarregar en format PDF, DOCX o LaTeX. Els estudiants marquen les respostes als fulls de respostes. Aquests fulls s\'escanegen i les respostes s\'importen al sistema.';
 $string['modulenameplural'] = 'Qüestionaris fora de línia';
 $string['moodleprocessing'] = 'Permet que Moodle processi les dades';
 $string['movecorners'] = 'Modifica la posició de les marques dels cantons en primer lloc. Fes servir la funció d’arrossegar i deixar anar.';
@@ -387,7 +388,7 @@ $string['offlinequizisclosedwillopen'] = 'El qüestionari fora de línia està t
 $string['offlinequizisopen'] = 'El qüestionari fora de línia està obert';
 $string['offlinequizisopenwillclose'] = 'El qüestionari fora de línia està obert (es tancarà el {$a})';
 $string['offlinequizopenedon'] = 'Aquest qüestionari fora de línia es va obrir el {$a}';
-$string['offlinequizopens'] = 'El qüestionari fora de línia s’obre';
+$string['offlinequizopens'] = 'S\'obre el qüestionari fora de línia';
 $string['offlinequizsettings'] = 'Configuració fora de línia';
 $string['offlinequizwillopen'] = 'El qüestionari fora de línia s’obre el {$a}';
 $string['oneclickenrol'] = 'Inscripció d\'un sol clic';
@@ -456,7 +457,7 @@ $string['preventsamequestion'] = 'Evita l\'ús repetit de la mateixa pregunta en
 $string['preview'] = 'Previsualització';
 $string['previewforgroup'] = 'Grup {$a}';
 $string['previewquestion'] = 'Previsualitza la pregunta';
-$string['printstudycodefield'] = 'Imprimeix el camp del codi de l’estudi al full de preguntes';
+$string['printstudycodefield'] = 'Imprimeix el camp del codi de l\'estudi al full de preguntes';
 $string['printstudycodefield_help'] = 'Si es marca, el camp del codi de l’estudi s’imprimirà a la primera pàgina del full de preguntes.';
 $string['privacy:data_folder_name'] = 'Dades del qüestionari fora de línia';
 $string['privacy:metadata:core_files'] = 'El qüestionari fora de línia fa servir l’API dels fitxers per emmagatzemar els fulls de preguntes, respostes i correcció generats, així com els fulls de respostes emplenats.';
@@ -466,7 +467,7 @@ $string['privacy:metadata:offlinequiz:course'] = 'La columna \'curs\' de la taul
 $string['privacy:metadata:offlinequiz:decimalpoints'] = 'El nombre de decimals per calcular les qualificacions.';
 $string['privacy:metadata:offlinequiz:disableimgnewlines'] = 'Caldria inhabilitar les línies noves abans i després de les imatges.';
 $string['privacy:metadata:offlinequiz:docscreated'] = 'En cas que es creïn els documents, el valor d’aquest camp serà 1. En cas contrari, serà 0.';
-$string['privacy:metadata:offlinequiz:fileformat'] = 'El format en què s’imprimeixen els fulls de preguntes: 0 per a PDF, 1 per a docx, 2 per a LaTeX.';
+$string['privacy:metadata:offlinequiz:fileformat'] = 'El format en què s\'imprimeixen els fulls de preguntes: 0 per a PDF, 1 per a docx, 2 per a LaTeX.';
 $string['privacy:metadata:offlinequiz:fontsize'] = 'La mida del tipus de lletra dels fulls de preguntes.';
 $string['privacy:metadata:offlinequiz:grade'] = 'La qualificació mostra el nombre màxim de punts que es poden obtenir en aquest qüestionari fora de línia.';
 $string['privacy:metadata:offlinequiz:id_digits'] = 'Desa el nombre de dígits del número d’ID en el moment de crear els fulls de respostes. Això serà necessari per assegurar la retrocompatibilitat en cas que augmenti el nombre de dígits entre el moment de creació i el d’importació dels fulls de respostes.';
@@ -514,18 +515,81 @@ $string['privacy:metadata:offlinequiz_hotspots:scannedpageid'] = 'Pàgina escane
 $string['privacy:metadata:offlinequiz_hotspots:time'] = 'La darrera vegada que s’ha actualitzat aquest punt d\'interès.';
 $string['privacy:metadata:offlinequiz_hotspots:x'] = 'El valor x del punt d\'interès.';
 $string['privacy:metadata:offlinequiz_hotspots:y'] = 'El valor y del punt d\'interès.';
+$string['privacy:metadata:offlinequiz_p_choices'] = 'Aquesta taula desa totes les creus de les llistes de participants.';
+$string['privacy:metadata:offlinequiz_p_choices:scannedpageid'] = 'La pàgina escanejada a la qual fa referència aquesta opció.';
+$string['privacy:metadata:offlinequiz_p_choices:userid'] = 'L’ID d’usuari al qual fa referència aquesta opció.';
+$string['privacy:metadata:offlinequiz_p_choices:value'] = 'Si s’ha marcat amb una creu o no (0 per a no marcat, 1 per a marcat, -1 per a poc clar).';
+$string['privacy:metadata:offlinequiz_p_lists'] = 'Aquesta taula desa informació sobre les llistes de participants. Els professors poden marcar-hi l’assistència o falta d’assistència dels estudiants.';
+$string['privacy:metadata:offlinequiz_p_lists:name'] = 'El nom de la llista de participants.';
+$string['privacy:metadata:offlinequiz_p_lists:number'] = 'El número de la llista del qüestionari fora de línia.';
+$string['privacy:metadata:offlinequiz_p_lists:offlinequizid'] = 'El qüestionari fora de línia al qual pertany aquesta llista.';
+$string['privacy:metadata:offlinequiz_page_corners'] = 'Aquesta taula desa totes les cantonades de cada pàgina escanejada per agilitar-ne les avaluacions o correccions futures.';
+$string['privacy:metadata:offlinequiz_page_corners:position'] = 'Informació sobre la posició de la cantonada. A dalt o a baix, a la dreta o a l’esquerra.';
 $string['privacy:metadata:offlinequiz_page_corners:scannedpageid'] = 'La pàgina escanejada on es troba aquesta cantonada.';
 $string['privacy:metadata:offlinequiz_page_corners:x'] = 'El valor x de la cantonada.';
 $string['privacy:metadata:offlinequiz_page_corners:y'] = 'El valor y de la cantonada.';
+$string['privacy:metadata:offlinequiz_participants'] = 'La taula de participants desa si l’usuari ha participat o no en el qüestionari fora de línia.';
+$string['privacy:metadata:offlinequiz_participants:checked'] = 'La informació sobre si s’ha marcat aquest usuari a la llista de participants.';
+$string['privacy:metadata:offlinequiz_participants:listid'] = 'L’ID de la llista on es troba aquest participant.';
+$string['privacy:metadata:offlinequiz_participants:userid'] = 'L’ID de l’usuari.';
+$string['privacy:metadata:offlinequiz_queue'] = 'Aquesta taula desa les cues de les pujades. La taula conté un objecte propi per a cada pujada.';
+$string['privacy:metadata:offlinequiz_queue:importuserid'] = 'L’ID d’usuari del professor que ha importat els fitxers.';
+$string['privacy:metadata:offlinequiz_queue:offlinequizid'] = 'L’ID del qüestionari fora de línia de la cua.';
+$string['privacy:metadata:offlinequiz_queue:status'] = 'L’estat de la cua que es requereix.';
+$string['privacy:metadata:offlinequiz_queue:timecreated'] = 'L\'hora en què s\'han importat aquests qüestionaris fora de línia';
+$string['privacy:metadata:offlinequiz_queue:timefinish'] = 'L’hora en què s’ha acabat l’avaluació de la cua.';
+$string['privacy:metadata:offlinequiz_queue:timestart'] = 'L’hora en què s’ha començat l’avaluació de la cua.';
+$string['privacy:metadata:offlinequiz_queue_data'] = 'Aquesta taula desa les dades de cada cua, ja que cada fitxer de la cua tindrà un objecte de dades.';
+$string['privacy:metadata:offlinequiz_queue_data:error'] = 'Si l’estat és d’error, aquí apareixerà un missatge d’error més detallat.';
+$string['privacy:metadata:offlinequiz_queue_data:filename'] = 'El nom de fitxer del fitxer al qual fa referència aquesta cua.';
+$string['privacy:metadata:offlinequiz_queue_data:queueid'] = 'La cua a la qual pertany aquesta informació.';
+$string['privacy:metadata:offlinequiz_queue_data:status'] = 'L\'estat de les dades de la cua.';
+$string['privacy:metadata:offlinequiz_results'] = 'Aquesta taula desa totes les dades del resultat, ja que no es poden desar a l\'API del qüestionari.';
+$string['privacy:metadata:offlinequiz_results:offlinegroupid'] = 'El grup del qüestionari fora de línia al qual pertany aquest resultat.';
+$string['privacy:metadata:offlinequiz_results:offlinequizid'] = 'El qüestionari fora de línia al qual pertany aquest resultat.';
+$string['privacy:metadata:offlinequiz_results:status'] = 'L\'estat del resultat (complet o incomplet).';
+$string['privacy:metadata:offlinequiz_results:sumgrades'] = 'La suma de totes les qualificacions d’aquest resultat.';
+$string['privacy:metadata:offlinequiz_results:teacherid'] = 'El professor que ha penjat el resultat.';
+$string['privacy:metadata:offlinequiz_results:timefinish'] = 'L\'hora de finalització de la primera entrada del resultat.';
+$string['privacy:metadata:offlinequiz_results:timemodified'] = 'La data de modificació del resultat.';
+$string['privacy:metadata:offlinequiz_results:timestart'] = 'L\'hora de començament de la primera entrada del resultat.';
+$string['privacy:metadata:offlinequiz_results:usageid'] = 'L\'ID de la plantilla de l\'API del qüestionari on es desa aquest resultat.';
+$string['privacy:metadata:offlinequiz_results:userid'] = 'L’usuari al qual pertany aquest resultat.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages'] = 'Aquesta taula desa les pàgines de participants i la informació general associada.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:error'] = 'L\'error que ha generat aquesta pàgina durant el processament (en cas que n\'hi hagi).';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:filename'] = 'El nom del fitxer de la pàgina escanejada.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:listnumber'] = 'El número de la llista.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:offlinequizid'] = 'El qüestionari fora de línia al qual pertany aquesta pàgina de participants.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:status'] = 'L\'estat d\'aquesta pàgina escanejada.';
+$string['privacy:metadata:offlinequiz_scanned_p_pages:time'] = 'L\'hora en què s\'ha processat aquesta pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages'] = 'La taula desa informació sobre una pàgina escanejada d\'un qüestionari fora de línia.';
+$string['privacy:metadata:offlinequiz_scanned_pages:error'] = 'L\'error detallat d\'aquesta pàgina (en cas que n\'hi hagi).';
+$string['privacy:metadata:offlinequiz_scanned_pages:filename'] = 'El nom de fitxer de la pàgina escanejada.';
+$string['privacy:metadata:offlinequiz_scanned_pages:groupnumber'] = 'l número del grup al qual pertany aquest qüestionari fora de línia.';
+$string['privacy:metadata:offlinequiz_scanned_pages:offlinequizid'] = 'El qüestionari fora de línia de la pàgina escanejada.';
+$string['privacy:metadata:offlinequiz_scanned_pages:pagenumber'] = 'El número de pàgina d’aquesta pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages:resultid'] = 'El resultat que fa referència a aquesta pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages:status'] = 'L\'estat d\'aquesta pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages:time'] = 'L\'hora en què s\'ha processat la pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages:userkey'] = 'La clau (no l\'ID d’usuari) de l\'usuari ratllat a la pàgina.';
+$string['privacy:metadata:offlinequiz_scanned_pages:warningfilename'] = 'El nom de fitxer que es crea quan es corregeix un qüestionari fora de línia emplenat de manera incorrecta i l\'usuari en rep un avís.';
 $string['questionanalysis'] = 'Anàlisi de preguntes';
 $string['questionanalysistitle'] = 'Taula d’anàlisi de preguntes';
+$string['questionandansweranalysis'] = 'Anàlisi de preguntes i respostes';
 $string['questionbankcontents'] = 'Contingut del banc de preguntes';
-$string['questionname'] = 'Nom de pregunta';
+$string['questionforms'] = 'Formularis de preguntes';
+$string['questioninfoanswers'] = 'Nombre de respostes correctes';
+$string['questioninfocorrectanswer'] = 'resposta correcta';
+$string['questioninfocorrectanswers'] = 'respostes correctes';
+$string['questioninfonone'] = 'Res';
+$string['questioninfoqtype'] = 'Tipus de pregunta';
+$string['questionname'] = 'Nom de la pregunta';
+$string['questionpage'] = 'Pàgina';
 $string['questionsheet'] = 'Full de preguntes';
 $string['questionsin'] = 'Preguntes a';
 $string['questionsingroup'] = 'Grup';
 $string['questionsinthisofflinequiz'] = 'Preguntes en aquest qüestionari fora de línia';
-$string['questiontextisempty'] = '[Text de pregunta buit]';
+$string['questiontextisempty'] = '[Text de la pregunta en blanc]';
 $string['quizdate'] = 'Data del qüestionari fora de línia';
 $string['quizopenclose'] = 'Dates d’obertura i de tancament';
 $string['quizopenclose_help'] = 'La revisió en línia es pot restringir a un període de temps específic. Cliqueu a «Mostra» per modificar la configuració del dia i l’hora.
@@ -533,123 +597,172 @@ $string['quizopenclose_help'] = 'La revisió en línia es pot restringir a un pe
 **Atenció:** Si no activeu un període de temps per a la revisió en línia, no es restringeix la revisió mentre els participants puguin visualitzar el qüestionari fora de línia.
 
 En qualsevol cas, només es mostren les opcions marcades sota «La revisió inclou».';
+$string['qversioncannotupdate'] = 'No es pot actualitzar la versió de la pregunta';
+$string['qversionnumbersdiffer'] = 'El nombre de respostes a la versió antiga i a la versió nova és diferent. Això generarà inconsistències.';
+$string['qversionupdated'] = 'La versió de la pregunta s\'ha actualitzat';
+$string['qversionupdatedwarning'] = 'Ja s’havien creat els formularis.<br>Si ja existien resultats, aquests s’han tornat a qualificar automàticament d\'acord amb la versió actual de la pregunta modificada marcada aquí. La versió original de la pregunta encara es mostra als documents.';
+$string['qversionupdateerror'] = 'Hi ha hagut un error amb l\'actualització de la versió de la pregunta.';
+$string['randomfromexistingcategory'] = 'Pregunta aleatòria d’una categoria existent';
+$string['randomnumber'] = 'Nombre de preguntes aleatòries';
+$string['randomquestionusinganewcategory'] = 'Pregunta aleatòria d\'una categoria nova';
 $string['readjust'] = 'Reajusta';
+$string['reallydeletepdfs'] = 'Confirmeu que voleu suprimir els fitxers dels formularis?';
+$string['reallydeleteupdatepdf'] = 'Confirmeu que voleu suprimir i actualitzar la llista de participants?';
+$string['recordupdateanddocscreated'] = 'S\'han actualitzat les preguntes. No obstant això, la versió anterior de la pregunta encara està activa, perquè els formularis ja existeixen. Per passar a la versió nova, heu de suprimir els formularis i modificar la versió manualment.';
+$string['recordupdateanddocscreatedversion'] = 'S\'han actualitzat les preguntes, però els formularis ja existeixen. Assegureu-vos que les modificacions no afectin el procés de qualificació.';
 $string['recreatepdfs'] = 'Torna a crear els PDF';
+$string['recurse'] = 'Inclou també les preguntes de les subcategories';
 $string['rediswrong'] = 'creu errònia o absent';
-$string['refreshpreview'] = 'Actualitza la vista prèvia';
-$string['regrade'] = 'Torna a qualificar';
-$string['regradedisplayexplanation'] = '<b>Atenció:</b> Tornar a qualificar no canviarà les puntuacions que s’han sobreescrit manualment!';
+$string['refreshpreview'] = 'Actualitza la previsualització';
+$string['regrade'] = 'S\'està tornant a qualificar';
+$string['regradedisplayexplanation'] = '<b>Atenció:</b> Tornar a qualificar no canviarà les puntuacions que s\'han sobreescrit manualment.';
 $string['regradinginfo'] = 'Si modifiqueu la puntuació d’una pregunta, heu de tornar a qualificar el qüestionari fora de línia per actualitzar els resultats dels participants.';
 $string['regradingquiz'] = 'S\'està tornant a qualificar';
-$string['regradingresult'] = 'Resultat de l’usuari {$a} després de tornar a qualificar...';
-$string['reloadpreview'] = 'Torna a carregar la vista prèvia';
+$string['regradingresult'] = 'Resultat de l\'usuari {$a} després de tornar a qualificar...';
+$string['reloadpreview'] = 'Torna a carregar la previsualització';
 $string['reloadquestionlist'] = 'Torna a carregar la llista de preguntes';
 $string['remove'] = 'Suprimeix';
 $string['removeemptypage'] = 'Suprimeix la pàgina buida';
-$string['removeselected'] = 'Suprimeix la tria';
+$string['removepagebreak'] = 'Suprimeix el salt de pàgina';
+$string['removeselected'] = 'Elimina la selecció';
 $string['reordergroupquestions'] = 'Reordena les preguntes de grup';
 $string['reorderquestions'] = 'Reordena les preguntes';
-$string['reordertool'] = 'Mostra l’eina de reordenació';
-$string['repaginate'] = 'Torna a paginar amb {$a} preguntes per pàgina';
-$string['repaginatecommand'] = 'Torna a paginar';
+$string['reordertool'] = 'Mostra l\'eina de reordenació';
+$string['repaginate'] = 'Repagina amb {$a} preguntes per pàgina';
+$string['repaginatecommand'] = 'Repagina';
 $string['repaginatenow'] = 'Torna a paginar ara';
+$string['reportends'] = 'La revisió de resultats acaba';
+$string['reportoverview'] = 'Resum';
 $string['reportstarts'] = 'Comença a revisar els resultats';
 $string['resetofflinequizzes'] = 'Reinicia les dades del qüestionari fora de línia';
-$string['resultexists'] = 'Ja existeix el mateix resultat per a {$a}. No s’ha pogut completar la importació';
+$string['resultexists'] = 'Ja existeix el mateix resultat per a {$a}; s\'ha ignorat la importació';
 $string['resultimport'] = 'Penja';
 $string['results'] = 'Resultats';
+$string['resultsavailable'] = 'Nombre de resultats disponibles:';
 $string['review'] = 'Revisa';
 $string['reviewbefore'] = 'Permet fer la revisió mentre el qüestionari fora de línia estigui obert';
 $string['reviewclosed'] = 'Després que el qüestionari fora de línia s’hagi tancat';
-$string['reviewcloses'] = 'Tancament de la revisió';
-$string['reviewimmediately'] = 'Immediatament després de l’intent';
+$string['reviewcloses'] = 'Es tanca la revisió';
+$string['reviewimmediately'] = 'Immediatament després de l\'intent';
 $string['reviewincludes'] = 'La revisió inclou';
 $string['reviewofresult'] = 'Revisió del resultat';
-$string['reviewopens'] = 'Obertura de la revisió';
+$string['reviewopens'] = 'S\'obre la revisió';
 $string['reviewoptions'] = 'Els estudiants poden veure';
-$string['reviewoptions_help'] = 'Podeu controlar el que veuen els estudiants després d’importar els resultats amb aquestes opcions. Així mateix, podeu definir l’hora de començament i finalització de l’informe dels resultats.
+$string['reviewoptions_help'] = 'Podeu controlar el que veuen els estudiants després d\'importar els resultats amb aquestes opcions. Així mateix, podeu definir l\'hora de començament i finalització de l\'informe dels resultats.
 
 Els quadres volen dir:
 
-**L’intent** - Es mostrarà el text de preguntes i de respostes als estudiants. Podran veure les respostes que han triat, però no quines són les correctes.
+**L’intent**. Es mostrarà el text de preguntes i de respostes als estudiants. Podran veure les respostes que han triat, però no quines són les correctes.
 
-**Correcte o incorrecte** - Aquesta opció només es pot activar si es tria l’opció "L’intent". En aquest cas, els estudiants podran veure quines de les respostes marcades són correctes (fons verd) o incorrectes (fons vermell).
+**Correcte o incorrecte**. Aquesta opció només es pot activar si es tria l\'opció «L’intent». En aquest cas, els estudiants podran veure quines de les respostes marcades són correctes (fons verd) o incorrectes (fons vermell).
 
-**Qualificacions** - Es mostren el grup (p. ex., B), les puntuacions (qualificació obtinguda, qualificació total de les preguntes, percentatge assolit, p. ex., 40/80 (50)) i la puntuació (p. ex., 50 sobre un màxim de 100). Així mateix, si es marca "L’intent", es mostren la qualificació obtinguda i la puntuació màxima de cada pregunta.
+**Qualificacions**. Es mostren el grup (p. ex., B), les puntuacions (qualificació obtinguda, qualificació total de les preguntes, percentatge assolit, p. ex., 40/80 (50)) i la puntuació (p. ex., 50 sobre un màxim de 100). Així mateix, si es marca «L’intent», es mostren la qualificació obtinguda i la puntuació màxima de cada pregunta.
 
-**Retroacció específica** - Retroacció que depèn de la resposta de l’estudiant.
+**Retroacció específica**. Retroacció que depèn de la resposta de l’estudiant.
 
-**Retroacció general** - Es mostra la retroacció general a l’estudiant després d’importar els resultats. A diferència de la retroacció específica, que depèn del tipus de pregunta i de la resposta de l’estudiant, es mostra el mateix text de la retroacció general a tots els estudiants. Podeu fer servir la retroacció general per donar als estudiants una resposta més completa i, opcionalment, un enllaç amb informació addicional de consulta en cas que no hagin entès les preguntes.
+**Retroacció general**. Es mostra la retroacció general a l\'estudiant després d\'importar els resultats. A diferència de la retroacció específica, que depèn del tipus de pregunta i de la resposta de l\'estudiant, es mostra el mateix text de la retroacció general a tots els estudiants. Podeu fer servir la retroacció general per donar als estudiants una resposta més completa i, opcionalment, un enllaç amb informació addicional de consulta en cas que no hagin entès les preguntes.
 
-**Respostes correctes** - Es mostren les respostes correctes i incorrectes. Aquesta opció només està disponible si s’activa "L’intent".
+**Respostes correctes**. Es mostren les respostes correctes i incorrectes. Aquesta opció només està disponible si s’activa «L’intent».
 
-**Formulari escanejat** - Es mostren els formularis de respostes escanejats. Els quadres triats apareixen marcats en verd.
+**Formulari escanejat**.Le Es mostren els formularis de respostes escanejats. Les caselles seleccionades apareixen marcades en verd.
 
-**Formulari escanejat amb qualificacions** - Es mostren els formularis de respostes escanejats. Els quadres triats apareixen marcats en verd. Es destaquen les marques incorrectes o absents. Així mateix, una taula mostra la puntuació màxima i la qualificació obtinguda per a cada pregunta.';
+**Formulari escanejat amb qualificacions**. Es mostren els formularis de respostes escanejats. Les caselles seleccionades apareixen marcades en verd. Es destaquen les marques incorrectes o absents. Així mateix, una taula mostra la puntuació màxima i la qualificació obtinguda per a cada pregunta.';
 $string['reviewoptionsheading'] = 'Opcions de revisió';
 $string['rimport'] = 'Puja';
 $string['rotate'] = 'Gira';
 $string['rotatingsheet'] = 'El full es gira...';
 $string['save'] = 'Desa';
-$string['saveandshow'] = 'Desa i mostra els canvis a l’estudiant';
-$string['savescannersettings'] = 'Desa la configuració de l’escàner';
+$string['saveandshow'] = 'Desa i mostra els canvis a l\'estudiant';
+$string['savescannersettings'] = 'Desa la configuració de l\'escàner';
 $string['scannedform'] = 'Formulari escanejat';
 $string['scannerformfortype'] = 'Formulari per al tipus {$a}';
-$string['scanneroptions'] = 'Configuració de l’escàner';
+$string['scanneroptions'] = 'Configuració de l\'escàner';
 $string['scannerpdfs'] = 'Formularis buits';
-$string['scannerpdfstext'] = 'Descarregau els formularis buits següents si voleu fer servir programari d’escàner propi.';
-$string['scanningoptionsheading'] = 'Opcions d’escaneig';
+$string['scannerpdfstext'] = 'Descarregueu els formularis buits següents si voleu fer servir programari d\'escàner propi.';
+$string['scanningoptionsheading'] = 'Opcions d\'escaneig';
 $string['score'] = 'Puntua';
-$string['select'] = 'Tria';
-$string['selectagroup'] = 'Tria un grup';
-$string['selectall'] = 'Tria’ls tots';
-$string['selectcategory'] = 'Tria una categoria';
-$string['selectdifferentgroup'] = 'Triau un grup diferent!';
-$string['selectedattempts'] = 'Intents triats...';
-$string['selectformat'] = 'Tria el format...';
-$string['selectgroup'] = 'Tria el grup';
-$string['selectlist'] = 'Triau una llista o intentau reajustar el full:';
-$string['selectnone'] = 'Desmarca’ls tots';
-$string['selectpage'] = 'Triau el número de pàgina o intentau reajustar el full:';
-$string['selectquestiontype'] = '—Tria un tipus de pregunta --';
+$string['search:activity'] = 'Qüestionari fora de línia: informació de l\'activitat';
+$string['select'] = 'Selecciona';
+$string['selectagroup'] = 'Selecciona un grup';
+$string['selectall'] = 'Selecciona-ho tot';
+$string['selectcategory'] = 'Selecciona una categoria';
+$string['selectdifferentgroup'] = 'Seleccioneu un grup diferent.';
+$string['selectedattempts'] = 'Intents seleccionats...';
+$string['selectformat'] = 'Selecciona el format...';
+$string['selectgroup'] = 'Selecciona el grup';
+$string['selectlist'] = 'Trieu una llista o intenteu reajustar el full:';
+$string['selectmultipletoolbar'] = 'Selecciona una barra d\'eines múltiple';
+$string['selectnone'] = 'Desselecciona-ho tot';
+$string['selectpage'] = 'Seleccioneu el número de pàgina o intenteu reajustar el full:';
+$string['selectquestiontype'] = '-- Selecciona un tipus de pregunta --';
 $string['showallparts'] = 'Mostra tots els participants {$a}';
-$string['showcopyright'] = 'Mostra l’avís de drets d’autor';
-$string['showcopyrightdesc'] = 'Si activau aquesta opció, es mostrarà un avís de drets d’autor a la pàgina de revisió dels resultats de l’estudiant.';
+$string['showcopyright'] = 'Mostra la declaració de drets d’autor';
+$string['showcopyrightdesc'] = 'Si activeu aquesta opció, es mostrarà una declaració de drets d\'autor a la pàgina de revisió dels resultats de l\'estudiant.';
 $string['showgrades'] = 'Imprimeix les qualificacions de les preguntes';
-$string['showgrades_help'] = 'Aquesta opció determina si les puntuacions màximes de les preguntes del qüestionari fora de línia s’han d’imprimir al full de preguntes.';
+$string['showgrades_help'] = 'Aquesta opció determina si les puntuacions màximes de les preguntes del qüestionari fora de línia s\'han d\'imprimir al full de preguntes.';
 $string['showmissingattemptonly'] = 'Mostra tots els participants marcats sense resultat';
 $string['showmissingcheckonly'] = 'Mostra tots els participants no marcats amb resultat';
 $string['shownumpartsperpage'] = 'Mostra {$a} participants per pàgina';
-$string['showstudentview'] = 'Mostra la visualització de l’estudiant';
-$string['showtutorial'] = 'Mostra un tutorial dels qüestionaris sense connexió als estudiants.';
+$string['showquestioninfo'] = 'Imprimeix informació sobre les respostes';
+$string['showquestioninfo_help'] = 'Aquesta opció permet determinar quina informació addicional sobre les preguntes s’imprimeix al full de preguntes.
+Podeu triar les opcions següents:
+<ul>
+<li> Cap
+<li> Tipus de pregunta. En funció del tipus de pregunta, s’imprimirà: resposta única, opció múltiple, opció múltiple de tipus tot o res
+<li> Nombre de respostes correctes. S’imprimirà el nombre de respostes correctes
+</ul>';
+$string['showstudentview'] = 'Mostra la visualització de l\'estudiant';
+$string['showtutorial'] = 'Mostra un tutorial dels qüestionaris fora de línia als estudiants';
 $string['showtutorial_help'] = 'Aquesta opció determina si els estudiants poden veure un tutorial bàsic dels qüestionaris fora de línia.
 El tutorial proporciona informació sobre com gestionar els diferents tipus de documents als qüestionaris fora de línia, i conté una secció interactiva on els estudiants aprenen a marcar el seu ID d’estudiant correctament.<br />
 <b>Nota:</b><br />
 Si marqueu aquesta opció amb «Sí», però amagueu el qüestionari fora de línia, l’enllaç al tutorial no serà visible. En aquest cas, podeu afegir un enllaç al tutorial a la pàgina del curs.';
-$string['showtutorialdescription'] = 'Podeu afegir un enllaç al tutorial a la pàgina del curs amb l’URL següent:';
+$string['showtutorialdescription'] = 'Podeu afegir un enllaç al tutorial a la pàgina del curs amb l\'URL següent:';
 $string['shuffleanswers'] = 'Mescla les respostes';
 $string['shufflequestions'] = 'Mescla les preguntes';
 $string['shufflequestionsanswers'] = 'Mescla les preguntes i les respostes';
-$string['shufflequestionsselected'] = 'S’ha activat l’opció de mesclar preguntes. Per tant, algunes accions relatives a les pàgines no estan disponibles. Per modificar l’opció de mesclar, {$a}.';
-$string['shufflewithin'] = 'Mescla dins les preguntes';
-$string['shufflewithin_help'] = 'Si habilitau aquesta opció, es mesclaran aleatòriament les parts que componen les preguntes cada vegada que pitge el botó "Torna a carregar" a la vista prèvia del formulari. NOTA: Aquesta opció de configuració només s’aplica a les preguntes que tenen l’opció de mesclar activada.';
+$string['shufflequestionsselected'] = 'S\'ha activat l\'opció de mesclar les preguntes; per tant, algunes accions relatives a les pàgines no estan disponibles. Per modificar l\'opció de mesclar, {$a}.';
+$string['shufflewithin'] = 'Mescla dins de les preguntes';
+$string['shufflewithin_help'] = 'Si activeu aquesta opció, les parts que componen les preguntes es mesclaran aleatòriament cada vegada que pitgeu el botó de tornar a carregar a la vista prèvia del formulari. NOTA: Aquesta opció de configuració només s\'aplica a les preguntes que tenen l\'opció de mesclar activada.';
 $string['signature'] = 'Signatura';
+$string['singlechoice'] = 'Opció única';
 $string['standard'] = 'Estàndard';
-$string['starttutorial'] = 'Comença el tutorial de l’examen';
+$string['starttutorial'] = 'Comença el tutorial de l\'examen';
 $string['statistics'] = 'Estadístiques';
 $string['statisticsplural'] = 'Estadístiques';
+$string['statisticsviewheader'] = '3. Estadístiques';
 $string['statsoverview'] = 'Resum de les estadístiques';
-$string['studycode'] = 'Codi de l’estudi';
+$string['studycode'] = 'Codi de l\'estudi';
+$string['tabattendances'] = 'Assistències';
+$string['tabattendancesoverview'] = 'Assistències';
+$string['tabdownloadparticipantsforms'] = 'Formularis';
+$string['tabdownloadquizforms'] = 'Formularis';
+$string['tabeditgrades'] = 'Qualificacions';
+$string['tabeditgroupquestions'] = 'Preguntes';
+$string['tabofflinequizcontent'] = 'Preparació';
+$string['tabofflinequizupload'] = 'Penja';
+$string['tabparticipantlists'] = 'Llistes d\'assistència';
+$string['tabparticipantscorrect'] = 'Corregeix';
+$string['tabparticipantsupload'] = 'Penja';
+$string['tabpreview'] = 'Formularis';
+$string['tabquestionandanswerstats'] = 'Anàlisi de preguntes i respostes';
+$string['tabquestionstats'] = 'Anàlisi de preguntes';
+$string['tabresults'] = 'Resultats';
+$string['tabresultsoverview'] = 'Resultats';
+$string['tabstatistics'] = 'Estadístiques';
 $string['tabstatsoverview'] = 'Informació del qüestionari';
-$string['theattempt'] = 'L’intent';
-$string['timesup'] = 'S’ha exhaurit el temps!';
+$string['temporaryfiledeletiontask'] = 'Suprimeix els fitxers temporals';
+$string['theattempt'] = 'L\'intent';
+$string['timesup'] = 'S\'ha acabat el temps';
+$string['totalmarksx'] = 'Total de les notes: {$a}';
 $string['totalpointsx'] = 'Total de qualificacions: {$a}';
 $string['totalquestionsinrandomqcategory'] = 'Total de {$a} preguntes a la categoria.';
 $string['trigger'] = 'límit inferior/superior';
-$string['tutorial'] = 'Tutorial dels qüestionaris sense connexió';
+$string['tutorial'] = 'Tutorial dels qüestionaris fora de línia';
 $string['type'] = 'Tipus';
-$string['uncheckparts'] = 'Marca els participants marcats com a absents';
-$string['updatedsumgrades'] = 'La suma de totes les qualificacions del grup {$a->letter} s’ha recalculat a {$a->grade}.';
+$string['uncheckparts'] = 'Marca els participants seleccionats com a absents';
+$string['updatedsumgrades'] = 'La suma de totes les qualificacions del grup {$a->letter} s\'ha recalculat a {$a->grade}.';
+$string['upgradingfilenames'] = 'S\'estan actualitzant els noms de fitxer dels documents: qüestionari fora de línia {$a->done}/{$a->outof} (ID del qüestionari fora de línia {$a->info})';
 $string['upgradingilogs'] = 'S\'estan actualitzant les pàgines escanejades: pàgina escanejada {$a->done}/{$a->outof} <br/>(ID del qüestionari fora de línia {$a->info})';
 $string['upgradingofflinequizattempts'] = 'S\'estan actualitzant els intents del qüestionari fora de línia: qüestionari fora de línia {$a->done}/{$a->outof} <br/>(Offline Quiz ID {$a->info})';
 $string['upload'] = 'Penja';
@@ -658,18 +771,19 @@ $string['uppertrigger'] = 'Segon límit superior';
 $string['uppertriggerzero'] = 'El segon límit superior és 0';
 $string['upperwarning'] = 'Primer límit superior';
 $string['upperwarningzero'] = 'El primer límit superior és 0';
-$string['useradded'] = 'S’ha afegit l’usuari {$a}';
-$string['userdoesnotexist'] = 'L’usuari {$a} no existeix al sistema';
-$string['useridentification'] = 'Identificació de l’usuari';
-$string['userimported'] = 'S’ha importat i qualificat l’usuari {$a}';
-$string['usernotincourse'] = 'L’usuari {$a} no forma part del curs.';
-$string['usernotinlist'] = 'L’usuari no apareix a la llista!';
-$string['usernotregistered'] = 'L’usuari {$a} no està registrat al curs';
-$string['userpageimported'] = 'S’ha importat una sola pàgina per a l’usuari {$a}';
+$string['useradded'] = 'S\'ha afegit l\'usuari {$a}';
+$string['userdoesnotexist'] = 'L\'usuari {$a} no existeix al sistema';
+$string['useridentification'] = 'Identificació de l\'usuari';
+$string['useridviolation'] = 'S\'han trobat múltiples usuaris';
+$string['userimported'] = 'S\'ha importat i qualificat l\'usuari {$a}';
+$string['usernotincourse'] = 'L\'usuari {$a} no forma part del curs.';
+$string['usernotinlist'] = 'L\'usuari no apareix a la llista';
+$string['usernotregistered'] = 'L\'usuari {$a} no està registrat al curs';
+$string['userpageimported'] = 'S\'ha importat una sola pàgina per a l\'usuari {$a}';
 $string['valuezero'] = 'El valor no pot ser zero';
 $string['viewresults'] = 'Mostra els resultats';
 $string['white'] = 'Blanc';
 $string['withselected'] = 'Amb el que s\'ha seleccionat...';
 $string['zerogradewarning'] = 'Atenció: la qualificació del vostre qüestionari fora de línia és 0,0';
 $string['zipfile'] = 'Fitxer ZIP';
-$string['zipok'] = 'S’ha importat el fitxer ZIP';
+$string['zipok'] = 'S\'ha importat el fitxer ZIP';

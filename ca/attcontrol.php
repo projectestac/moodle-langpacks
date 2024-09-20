@@ -32,6 +32,7 @@ $string['changeduration'] = 'Canvia la durada';
 $string['duration'] = 'Durada';
 $string['export'] = 'Exporta';
 $string['newduration'] = 'Durada nova';
+$string['save'] = 'Desa l\'assistència';
 $string['session'] = 'Sessió';
 $string['showduration'] = 'Mostra la durada';
 $string['student'] = 'Estudiant';

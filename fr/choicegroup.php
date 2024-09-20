@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activitydate:closingbeforeopening'] = 'La date d\'ouverture doit être antérieure à la date de clôture.';
-$string['activitydate:exceeded'] = 'Date d\'échéance dépassée.';
+$string['activitydate:closingbeforeopening'] = 'La date d’ouverture doit être antérieure à la date de clôture.';
+$string['activitydate:exceeded'] = 'Date d’échéance dépassée.';
 $string['activitydate:hasopened'] = 'Ouvert le :';
 $string['activitydate:notavailableyet'] = 'Pas disponible pour le moment.';
 $string['activitydate:willclose'] = 'Fermeture :';

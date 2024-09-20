@@ -161,7 +161,7 @@ $string['recordinghdr'] = 'Enregistrements';
 $string['removeparticipant'] = 'Enlever';
 $string['removepresenter'] = 'Enlever';
 $string['roletoassign'] = 'Rôle à attribuer';
-$string['samemeettime'] = 'Heure de réunion invalide';
+$string['samemeettime'] = 'Heure de réunion non valide';
 $string['savechanges'] = 'Enregistrer';
 $string['selectparticipants'] = 'Attribuer des rôles';
 $string['settingblurb'] = '<center><img src = "{$a->image}" /> </center><br />

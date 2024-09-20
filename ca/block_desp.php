@@ -26,4 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['import'] = 'importa';
+$string['save'] = 'desa';
 $string['sp_history_zeitraum'] = 'durada / any';

@@ -138,7 +138,7 @@ $string['documentation'] = 'Dokumentazioa';
 $string['drops'] = 'Utzitako elementuak (drops)';
 $string['drops_help'] = 'Bideo-jokoetan pertsonaia batzuk elementuak edo esperientzia puntuak lurrean _utzi_  ditzakete jokalariak hartu ditzan. Elementu hauei \'drop\' edo utzitako elementuak deitu ohi zaie.
 
-Maila gora XPn utzitako elementuak irakasleek Moodleko ohiko edukian kokatu ditzaketen kode laburrak dira (esaterako `[xpdrop abcdef]`). Erabiltzaile batek aurkitzen dituenean, utzitako elementu horiek _hartuko_ ditu eta ondorioz puntu kopuru zehatz bat eskuratuko du.
+Maila gora XPn utzitako elementuak irakasleek Moodleko ohiko edukian kokatu ditzaketen kode laburrak dira (esaterako `[xpdrop id=1 secret=abcdef]`). Erabiltzaile batek aurkitzen dituenean, utzitako elementu horiek _hartuko_ ditu eta ondorioz puntu kopuru zehatz bat eskuratuko du.
 
 Une honetan, utzitako elementuak erabiltzailearentzat ikusezinak dira eta modu pasiboan puntuak ematen dituzte lehen aldiz aurkituak izaten direnean.
 
@@ -170,8 +170,8 @@ $string['enablexpgain_help'] = '\'Ez\' aukeratuz gero, ikastaroan inork ez du pu
 
 Kontuan izan aukera hau zehatzago kontrolatu daitekeela _block/xp:earnxp_ gaitasuna erabilita.';
 $string['entersearchterm'] = 'Idatzi bilatu beharreko terminoa';
-$string['errorcontextcoursemismatchforwholesite'] = '<em>Maila gora XP</em> pluginaren orri honen URLa ez dator bat pluginaren oraingo konfigurazioarekin. Zure oraingo konfigurazioak <em>Maila gora XP</em> plugina \'Gune osorako\' erabiliko dela zehazten du, baina orri hau \'Ikastaro bakoitzean\' erabiltzea espero da. <a href="{$a->nexturl}">Egin klik hemen</a> mesedez orri zuzenera nabigatzeko. Bilatu ezazu \'block_xp_context\' konfigurazio-ezarpena konfigurazio hau aldatu nahi baduzu.';
-$string['errorcontextcoursemismatchpercourse'] = '<em>Maila gora XP</em> pluginaren orri honen URLa ez dator bat pluginaren oraingo konfigurazioarekin. Zure oraingo konfigurazioak <em>Maila gora XP</em> plugina \'Ikastaro bakoitzean\' erabiliko dela zehazten du, baina orri hau \'Gune osorako\' erabiltzea espero da. Hau ziur aski konfigurazio ezberdin bat zegoenean aginte-panelean edo hasiera-orrian gehitutako <em>bloke</em> batek eragingo zuen. Esandako orri horietatik blokea kendu beharko zenuke, eta blokea banakako ikastaroetan soilik erabili.';
+$string['errorcontextcoursemismatchforwholesite'] = '<em>Maila gora XP</em> pluginaren orri honen URLa ez dator bat pluginaren oraingo konfigurazioarekin. Zure oraingo konfigurazioak <em>Maila gora XP</em> plugina \'Gune mailan\' erabiliko dela zehazten du, baina orri hau \'Ikastaro bakoitzean\' erabiltzea espero da. <a href="{$a->nexturl}">Egin klik hemen</a> mesedez orri zuzenera nabigatzeko. Bilatu ezazu \'block_xp_context\' konfigurazio-ezarpena konfigurazio hau aldatu nahi baduzu.';
+$string['errorcontextcoursemismatchpercourse'] = '<em>Maila gora XP</em> pluginaren orri honen URLa ez dator bat pluginaren oraingo konfigurazioarekin. Zure oraingo konfigurazioak <em>Maila gora XP</em> plugina \'Ikastaro bakoitzean\' erabiliko dela zehazten du, baina orri hau \'Gune mailan\' erabiltzea espero da. Hau ziur aski konfigurazio ezberdin bat zegoenean aginte-panelean edo hasiera-orrian gehitutako <em>bloke</em> batek eragingo zuen. Esandako orri horietatik blokea kendu beharko zenuke, eta blokea banakako ikastaroetan soilik erabili.';
 $string['errorformvalues'] = 'Arazo batzuk daude formularioko balioetan, konpondu itzazu mesedez.';
 $string['errorlevelsincorrect'] = 'Gutxienez 2 maila egon behar dira';
 $string['errornotalllevelsbadgesprovided'] = 'Ez dira maila guztientzako dominak eman. Falta direnak: {$a}';
@@ -218,6 +218,7 @@ $string['haspopupmessage'] = 'Zorion-mezua multzoa';
 $string['hideparticipantsidentity'] = 'Ezkutatu partaideen identitatea';
 $string['hiderank'] = 'Ezkutatu rankinga';
 $string['importpoints'] = 'Inportatu puntuak';
+$string['importpointsintro'] = 'Inportatu puntuak CSV fitxategi batetik, eta (aukeran) bidali mezu bat jasotzaileari.';
 $string['incourses'] = 'Ikastaroetan';
 $string['ineffective'] = 'Ez-eraginkorra';
 $string['infos'] = 'Informazioa';
@@ -364,17 +365,19 @@ $string['ranking'] = 'Rankinga';
 $string['ranking_help'] = 'Rankinga oraingo erabiltzaileak lider-panelean duen kokapen absolutua da. Ranking erlatiboa erabiltzailearen esperientzia-puntuen eta bere aldamenekoen arteko diferentzia da.';
 $string['reallydeleteuserstate'] = 'Erabiltzaile bat ezabatzea lider-paneletik kentzeko soilik da erabilgarria. Beste edozein arrazoietarako, horren ordez bere puntuak 0ra aldatzea gomendatzen dugu. Kontuan izan erabiltzaileak ezabatzeak ez duela etorkizunean puntuak lortzeko gaitasunean eragiten.
 
-_Maila gora XP_ gune osorako erabiltzean, erabiltzaileak ezabatzeak txostenetik desagertzea suposatuko du, eta ondorioz ezingo diezu puntuak berriz esleitu. _Maila gora XP_ ikastaroetan erabiliz gero ordea, ikaslea txostenean agertzen jarraituko du ikastaroan matrikulatuta badago.
+_Maila gora XP_ gune mailan erabiltzean, erabiltzaileak ezabatzeak txostenetik desagertzea suposatuko du, eta ondorioz ezingo diezu puntuak berriz esleitu. _Maila gora XP_ ikastaroetan erabiliz gero ordea, ikaslea txostenean agertzen jarraituko du ikastaroan matrikulatuta badago.
 
 Ziur zaude erabiltzaile honen puntuak ezabatu nahi dituzula?';
 $string['reallydeleteuserstateandlogs'] = 'Erabiltzaile bat ezabatzeak erabiltzailea lider-paneletik kendu eta berarekin lotutako erregistroak kentzen ditu.
 
 Erregistroak kentzeak erabiltzaileak aurretiko ekintzengatik puntuak berriz lortzea gaitu lezake. Zure asmoa soilik bere puntuazioa berrabiaraztea bada, honen ordez bere puntuazioan 0 jartzea gomendatzen dizugu. Kontuan izan erabiltzaileak ezabatzeak ez duela etorkizunean puntuak lortzeko gaitasunean eragiten.
 
-_Maila gora XP_ gune osorako erabiltzean, erabiltzaileak ezabatzeak txostenetik desagertzea suposatuko du, eta ondorioz ezingo diezu puntuak berriz esleitu. _Maila gora XP_ ikastaroetan erabiliz gero ordea, ikaslea txostenean agertzen jarraituko du ikastaroan matrikulatuta badago.
+_Maila gora XP_ gune mailan erabiltzean, erabiltzaileak ezabatzeak txostenetik desagertzea suposatuko du, eta ondorioz ezingo diezu puntuak berriz esleitu. _Maila gora XP_ ikastaroetan erabiliz gero ordea, ikaslea txostenean agertzen jarraituko du ikastaroan matrikulatuta badago.
 
 Ziur zaude erabiltzaile honen puntuak eta erregistroak ezabatu nahi dituzula?';
-$string['reallyresetallcoursestodefaults'] = 'Ziur zaude ikastaro GUZTIETAKO arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcourselevelstodefaults'] = 'Benetan ziur zaude ikastaro GUZTIETAKO mailak lehenetsitako mailetara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcoursestodefaults'] = 'Ziur zaude ikastaro guztietako arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcoursevisualstodefaults'] = 'Benetan ziur zaude ikastaro GUZTIETAKO itxura lehenetsitako itxurara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
 $string['reallyresetcourselevelstodefaults'] = 'Ziur zaude ikastaro mailak lehenetsitako balioetara berrabiarazi nahi dituzula? Ekintza honek ez dauka atzera bueltarik.';
 $string['reallyresetcourserulestodefaults'] = 'Ziur zaude ikastaro honetako arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
 $string['reallyresetcoursevisualstodefaults'] = 'Ziur zaude ikastaro mailen itxura lehenetsitako balioetara berrabiarazi nahi dituzula? Ekintza honek ez dauka atzera bueltarik.';
@@ -543,7 +546,7 @@ Puntuen estiloa erabiltzailearen puntuak ala zehaztutako balioa erakutsiko denar
 [xppoints 123 plain]
 ```';
 $string['shortcode:xpprogressbar'] = 'Oraingo erabiltzailea hurrengo mailara heltzeko aurrerapen-barra.';
-$string['sitewide'] = 'Gune mailakoa';
+$string['sitewide'] = 'Gune mailan';
 $string['somefeaturesrequireotherplugins'] = 'Funtzionalitate batzuk plugin gehigarriak instalatzea behar dute.';
 $string['someoneelse'] = 'Beste norbait';
 $string['somethinghappened'] = 'Zerbait gertatu da';
@@ -590,7 +593,7 @@ $string['visualsintro'] = 'Pertsonalizatu mailen itxura eta puntuen esanahia.';
 $string['wewillreplyat'] = 'Hurrengo helbidean erantzungo zaitugu: _{$a}_.';
 $string['when'] = 'Noiz';
 $string['wherearexpused'] = 'Non erabiltzen dira puntuak?';
-$string['wherearexpused_desc'] = '\'Ikastaroetan\' zehaztuz gero, lortutako puntuak soilik blokea gehitu zeneko  ikastaroan zenbatuko dira. \'Gune osoan\' zehaztuz gero, erabiltzaile batek ikastaro bakoitzean izan ordez "maila gora" gune osoan egingo du, eta gune osoan lortutako puntuak erabiliko dira.';
+$string['wherearexpused_desc'] = '\'Ikastaroetan\' zehaztuz gero, lortutako puntuak soilik blokea gehitu zeneko  ikastaroan zenbatuko dira. \'Gune mailan\' zehaztuz gero, erabiltzaile batek ikastaro bakoitzean izan ordez "maila gora" gune osoan egingo du, eta gune osoan lortutako puntuak erabiliko dira.';
 $string['whoops'] = 'Ups!';
 $string['xp'] = 'Esperientzia-puntuak';
 $string['xp:addinstance'] = 'Gehitu bloke berri bat';

@@ -225,7 +225,6 @@ $string['config_welcome_default'] = 'Mesaj implicit de bun venit';
 $string['config_welcome_default_description'] = 'Mesajul de bun venit este afișat când participanții intră în cameră. Dacă câmpul este lăsat necompletat, atunci este afișat un mesaj setat pe serverul BigBlueButton.';
 $string['config_welcome_editable'] = 'Mesajul implicit de bun venit poate să fie editat de către profesori';
 $string['config_welcome_editable_description'] = 'Mesajul de bun venit poate fi editat când o instanță este adăugată sau actualizată';
-$string['credentials_warning'] = 'Utilizarea credențialelor implicite pentru server va expira în curând (vezi nota de mai sus pentru obținerea de noi credențiale).';
 $string['dpainfonotsigned'] = 'Înainte de a activa acest plugin, trebuie să confirmi că ai citit și ai acceptat acordul de prelucrare a datelor <a href="{$a}">Blindside Networks</a>.';
 $string['enablingbigbluebutton'] = 'Se activează activitatea BigBlueButton';
 $string['enablingbigbluebuttondpainfo'] = 'Pentru a vă îndeplini obligațiile de protecție a datelor, înainte de a activa acest plugin, poate fi necesar să vă asigurați că ați citit și acceptat <a href="{$a}" target="_blank">acordul de prelucrare a datelor</a> cu Blindside Networks Inc.<br/>
@@ -253,7 +252,7 @@ $string['event_recording_viewed'] = 'Înregistrare văzută';
 $string['event_unknown'] = 'Eveniment necunoscut';
 $string['general_error_cannot_create_meeting'] = 'Nu se poate crea sesiune.';
 $string['general_error_cannot_get_recordings'] = 'Nu se pot accesa înregistrări.';
-$string['general_error_no_answer'] = 'Răspuns gol. Vă rugăm să verificați adresa URL a serverului BigBlueButton ȘI să vedeți dacă serverul BigBlueButton rulează.';
+$string['general_error_no_answer'] = 'Răspuns necompletat. Vă rugăm să verificați adresa URL a serverului BigBlueButton ȘI să vedeți dacă serverul BigBlueButton rulează.';
 $string['general_error_not_allowed_to_create_instances'] = 'Utilizatorul nu are permisiunea să creeze niciun fel de instanță.';
 $string['general_error_not_found'] = 'Nu se poate găsi activitatea BigBlueButton cu ID-ul {$a}.';
 $string['general_error_unable_connect'] = 'Imposibil de realizat conectarea. Vă rugăm să verificați URL-ul serverului BigBlueButton ȘI să verificați dacă serverul BigBlueButton ruleaza.

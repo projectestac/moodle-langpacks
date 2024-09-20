@@ -35,3 +35,4 @@ $string['group'] = 'Grup';
 $string['history'] = 'Historial';
 $string['historypage'] = 'Historial: {$a}';
 $string['markpostread'] = 'Marca el missatge del fòrum com a llegit';
+$string['remove'] = 'Suprimeix';

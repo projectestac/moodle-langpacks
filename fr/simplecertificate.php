@@ -78,7 +78,7 @@ Certificat Courriel : Cette option envoie le certificat à l’étudiant en piè
 Après qu’un utilisateur a reçu son certificat, s’il clique sur le lien du certificat de la page d’accueil du cours, il verra la date à laquelle il a reçu son certificat et sera en mesure d’examiner son certificat reçu.';
 $string['designoptions'] = 'Options de design';
 $string['download'] = 'Forcer le téléchargement';
-$string['emailcertificate'] = 'Email (Vous devez aussi choisir de sauvegarder)';
+$string['emailcertificate'] = 'Courriel (Vous devez aussi choisir de sauvegarder)';
 $string['emailfrom'] = 'Adresse de courriel';
 $string['emailfrom_help'] = 'Adresse secondaire de courriel';
 $string['emailoncompletion'] = 'Courriel suite à l’achèvement du cours';
@@ -112,7 +112,7 @@ $string['gradepoints'] = 'Niveau par points';
 $string['height'] = 'Hauteur du certificat';
 $string['hours'] = 'heures';
 $string['intro'] = 'Introduction';
-$string['invalidcode'] = 'Code certificat invalide';
+$string['invalidcode'] = 'Code certificat non valide';
 $string['issued'] = 'Délivré';
 $string['issueddate'] = 'Date de délivrance';
 $string['issuedview'] = 'Certificats délivrés';

@@ -323,7 +323,7 @@ $string['contentbank'] = 'Inhaltsspeicher';
 $string['contentexport_aboutthiscourse'] = 'Kursbeschreibung';
 $string['contentexport_coursesummary'] = 'Diese Datei ist Teil des Inhalts, der von <a href="{$a->courselink}">{$a->coursename}</a> heruntergeladen wurde.';
 $string['contentexport_footersummary'] = 'Diese Datei ist Teil des Inhalts, der am {$a->date} von {$a->userfullname}  von <a href="{$a->courselink}">{$a->coursename}</a> heruntergeladen wurde.';
-$string['contentexport_modulesummary'] = 'Diese Seite ist Teil des Inhalts, der am {$a->date} von <a href="{$a->modulelink}">{$a->modulename}</a> heruntergeladen wurde.';
+$string['contentexport_modulesummary'] = 'Diese Seite ist Teil des Inhalts, der von <a href="{$a->modulelink}">{$a->modulename}</a> am {$a->date} heruntergeladen wurde. Beachten Sie, dass einige Inhalte und alle Dateien, die größer als {$a->maxfilesize} sind, nicht heruntergeladen werden.';
 $string['contentexport_viewfilename'] = 'Datei \'{$a}\' anzeigen';
 $string['context'] = 'Kontext';
 $string['contexturl'] = 'Kontext-URL';
@@ -417,7 +417,7 @@ $string['courselegacyfilesofcourse'] = 'Alte Kursdateien: {$a}';
 $string['coursenotaccessible'] = 'Dieser Kurs ist nicht öffentlich zugänglich.';
 $string['courseoverview'] = 'Kursbeschreibung';
 $string['courseoverviewfiles'] = 'Kursbild';
-$string['courseoverviewfiles_help'] = 'Das Kursbild wird unter „Meine Kurse“ und in der Liste der verfügbaren Kurse auf der Startseite angezeigt. In der Website-Administratiom können zusätzliche Dateitypen und die Verwendung mehrerer Dateien aktiviert werden. Wenn Sie mehrere Dateien verwenden, werden diese alle in der Liste der verfügbaren Kurse angezeigt.';
+$string['courseoverviewfiles_help'] = 'Das Kursbild wird unter "Meine Kurse" und in der Liste der verfügbaren Kurse auf der Startseite angezeigt. In der Website-Administratiom können zusätzliche Dateitypen und die Verwendung mehrerer Dateien aktiviert werden. Wenn Sie mehrere Dateien verwenden, werden diese alle in der Liste der verfügbaren Kurse angezeigt.';
 $string['courseoverviewfilesext'] = 'Dateitypen für Kursbild';
 $string['courseoverviewfileslimit'] = 'Max. Anzahl von Kursbildern';
 $string['courseoverviewgraph'] = 'Kursübersichtsgrafik';
@@ -1007,7 +1007,7 @@ $string['grade'] = 'Bewertung';
 $string['gradenoun'] = 'Bewertung';
 $string['grades'] = 'Bewertungen';
 $string['gradeverb'] = 'Bewerten';
-$string['gravatarenabled'] = '<a href="https://www.gravatar.com/">Gravatar</a> ist für diese Website aktiviert. Wenn Sie selber kein eigenes Profilbild hochladen, zeigt Moodle ein Profilbild von Gravatar an.';
+$string['gravatarenabled'] = 'Für diese Website ist <a href="https://www.gravatar.com/">Gravatar</a> aktiviert. Wenn Sie selber kein eigenes Profilbild in Moodle hochladen, wird ein Profilbild von Gravatar angezeigt.';
 $string['group'] = 'Gruppe';
 $string['groupadd'] = 'Neue Gruppe hinzufügen';
 $string['groupaddusers'] = 'Auswahl zur Gruppe hinzufügen';
@@ -1458,7 +1458,7 @@ $string['newsitemsnumber_help'] = 'Im Ankündigungsforum ist standardmäßig ein
 
 Wenn Sie kein Ankündigungsforum benötigen, setzen Sie diesen Wert auf Null.
 
-Die Einstellung bestimmt auch, wie viele Ankündigungen im Block „Neue Ankündigungen“ angezeigt werden.';
+Die Einstellung bestimmt auch, wie viele Ankündigungen im Block "Neue Ankündigungen" angezeigt werden.';
 $string['newuser'] = 'Neues Nutzerprofil';
 $string['newusernewpasswordsubj'] = 'Neuer Nutzerzugang';
 $string['newusernewpasswordtext'] = 'Guten Tag {$a->firstname},
@@ -1963,7 +1963,7 @@ $string['separateandconnectedinfo'] = 'Die Skala basiert auf der Theorie von sac
 $string['servererror'] = 'Während der Kommunikation mit dem Server ist ein Fehler aufgetreten';
 $string['serverlocaltime'] = 'Lokale Serverzeit';
 $string['sessionforceclean'] = 'Aus Sicherheitsgründen wurden nutzergenerierte Skripte innerhalb dieser Sitzung deaktiviert.';
-$string['sessiontimeoutsoon'] = 'Ihre Sitzung ist bald abgelaufen. Möchten Sie die Sitzung verlängern?';
+$string['sessiontimeoutsoon'] = 'Ihre Sitzung läuft bald ab. Möchten Sie die Sitzung verlängern?';
 $string['setcategorytheme'] = 'Kategoriedesign festlegen';
 $string['setmode'] = 'Modus setzen';
 $string['setpassword'] = 'Kennwort setzen';
@@ -2309,7 +2309,7 @@ $string['userselectorsearchanywhere'] = 'Suchtext in den angezeigten Feldern fin
 $string['usersnew'] = 'Neue Nutzer/innen';
 $string['usersnoaccesssince'] = 'Inaktivität länger als';
 $string['userswithfiles'] = 'Nutzer/innen mit Dateien';
-$string['useruploadtype'] = 'Art des Nutzeruploads';
+$string['useruploadtype'] = 'Benutzertyp für Upload: {$a}';
 $string['userzones'] = 'Nutzerzonen';
 $string['usetheme'] = 'Design wählen';
 $string['usingexistingcourse'] = 'Vorhandenen Kurs benutzen';

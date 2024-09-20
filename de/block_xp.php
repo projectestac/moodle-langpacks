@@ -170,8 +170,8 @@ $string['enablexpgain_help'] = 'Wenn die Einstellung \'Nein\' gewählt wird, erw
 
 _Hinweis_: Mithilfe der Berechtigung \'block/xp:earnxp\' kann dies u. U. genauer gesteuert werden.';
 $string['entersearchterm'] = 'Suchbegriff eingeben';
-$string['errorcontextcoursemismatchforwholesite'] = 'Die URL dieser <em> Level Up XP </em> Seite stimmt nicht mit der aktuellen Plugin-Konfiguration überein. Dort wird <em> Level up XP </em> als "Für die gesamte Seite" deklariert. Auf dieser Seite wurde jedoch erwartet, dass "Pro Kurs" verwendet wird. Bitte <a href="{$a-> nexturl} "> hier klicken </a>, um zur rechten Seite zu navigieren. Suchen Sie nach der Administratoreinstellung \'block_xp_context\', wenn Sie Ihre Konfiguration ändern möchten.';
-$string['errorcontextcoursemismatchpercourse'] = 'Die URL dieser <em> Level Up XP </em> Seite stimmt nicht mit der aktuellen Plugin-Konfiguration überein. Dort wird <em> Level up XP </em> als "Pro Kurs" deklariert. Auf dieser Seite wird jedoch erwartet, dass "Für die gesamte Seite" verwendet wird. Es stammt höchstwahrscheinlich aus einem <em> Block </em>, der in einer anderen Konfiguration zum Dashboard oder zur Startseite hinzugefügt wurde. Sie sollten den Block entfernen und nur innerhalb einzelner Kurse verwenden.';
+$string['errorcontextcoursemismatchforwholesite'] = 'Die URL dieser <em>Level Up XP</em> Seite stimmt nicht mit der aktuellen Plugin-Konfiguration überein. Dort wird <em>Level up XP</em> als "Für die gesamte Seite" deklariert. Auf dieser Seite wurde jedoch erwartet, dass "Pro Kurs" verwendet wird. Bitte <a href="{$a->nexturl}">hier klicken </a>, um zur richtigen Seite zu navigieren. Suchen Sie nach der Administratoreinstellung \'block_xp_context\', wenn Sie Ihre Konfiguration ändern möchten.';
+$string['errorcontextcoursemismatchpercourse'] = 'Die URL dieser <em>Level Up XP</em> Seite stimmt nicht mit der aktuellen Plugin-Konfiguration überein. Dort wird <em>Level up XP</em> als "Pro Kurs" deklariert. Auf dieser Seite wird jedoch erwartet, dass "Für die gesamte Seite" verwendet wird. Es stammt höchstwahrscheinlich aus einem <em>Block</em>, der in einer anderen Konfiguration zum Dashboard oder zur Startseite hinzugefügt wurde. Sie sollten den Block entfernen und nur innerhalb einzelner Kurse verwenden.';
 $string['errorformvalues'] = 'Prüfen Sie bitte die Formulareinträge.';
 $string['errorlevelsincorrect'] = 'Die minimale Anzahl der Level ist 2.';
 $string['errornotalllevelsbadgesprovided'] = 'Nicht für alle Level wurden Abzeichen bereitgestellt. Fehlend: {$a}';
@@ -281,9 +281,12 @@ $string['missing'] = 'Fehlend';
 $string['movecondition'] = 'Bedingung verschieben';
 $string['moverule'] = 'Regel verschieben';
 $string['name'] = 'Name';
+$string['namecontains'] = 'Enthält "{$a}"';
+$string['nameequalsto'] = 'Ist gleich wie "{$a}"';
 $string['navbardisplay'] = 'In Navigationsleiste anzeigen';
 $string['navbardisplay_desc'] = 'Wenn aktiviert, wird das Level der Teilnehmer/innen in der Navigationsleiste oben angezeigt. Wenn Level Up! pro Kurs verwendet wird, wird das Level nur im Kurs angezeigt. Bitte beachten Sie, dass diese Funktion vom Theme abhängt und nicht mit allen Drittanbieter-Themes kompatibel ist.
  [Weitere Informationen](https://docs.levelup.plus/xp/docs/navbar-display)';
+$string['navcompletionrules'] = 'Abschluss';
 $string['navdrops'] = 'Drops';
 $string['naveventrules'] = 'Eventregeln';
 $string['navgraderules'] = 'Bewertungsregeln';
@@ -300,12 +303,16 @@ $string['navrules'] = 'Regeln';
 $string['navsettings'] = 'Einstellungen';
 $string['navvisuals'] = 'Darstellung';
 $string['nextlevelin'] = 'nächster Level in';
+$string['noconditionsyet'] = 'Noch keine Bedingungen!';
+$string['noconditionsyetintro'] = 'Beginnen Sie, indem Sie eine Bedingung hinzufügen.';
 $string['nodescription'] = 'Keine Beschreibung';
 $string['noissuesidentified'] = 'Keine Probleme gefunden';
 $string['nologsrecordedyet'] = 'Es wurden bisher noch keine Logdaten aufgezeichnet.';
 $string['noname'] = 'Kein Name';
+$string['noneareavailable'] = 'Keine sind verfügbar';
 $string['notecompatibilityissues'] = 'Bitte beachten Sie die Kompatibilitätsprobleme:';
 $string['notesomesettingslocked'] = 'Beachten Sie, dass manche Einstellungen nicht bearbeitet werden können, wenn sie von einem Administrator gesperrt wurden.';
+$string['nothingmatchesfilter'] = 'Nichts entspricht dem Filter.';
 $string['numberoflevels'] = 'Anzahl der Level';
 $string['occasionally'] = 'Manchmal';
 $string['outofsync'] = 'Versionsunterschiede';
@@ -328,9 +335,12 @@ $string['pluginxmaybeincompatible'] = 'Diese Version von {$a->name} ({$a->compon
 $string['pointsintimelinker'] = 'pro';
 $string['pointsperlevel'] = 'Punkte pro Level';
 $string['pointsrequired'] = 'Erforderliche Punkte';
+$string['pointstoaward'] = 'Zu vergebende Punkte';
+$string['pointstoaward_help'] = 'Die Anzahl der Punkte, die vergeben werden, wenn die Bedingung erfüllt ist.';
 $string['popupnotificationmessage'] = 'PopUp Nachricht';
 $string['popupnotificationmessagedesc'] = 'Optionale Nachricht, die im PopUp angezeigt wird und den Teilnehmer/innen zum Erreichen des Levels gratuliert.';
 $string['potentialmoodleincompatibility'] = 'Potenzielle Moodle Inkompatibilität';
+$string['previewpopupnotification'] = 'Vorschau der Benachrichtigung';
 $string['privacy:metadata:log'] = 'Speichert ein Ereignisprotokoll';
 $string['privacy:metadata:log:eventname'] = 'Name des Ereignisses';
 $string['privacy:metadata:log:time'] = 'Das Datum, an dem es stattfindet';
@@ -383,7 +393,9 @@ Durch das Entfernen von Protokollen kann eine Person erneut Punkte für frühere
 Wichtig: Wenn Sie _Level Up XP_ für die gesamte Website verwenden, wird eine Person durch das Löschen aus dem Bericht verschwinden und Sie können keine Punkte neu zuweisen. Wenn Sie jedoch _Level Up XP_ pro Kurs verwenden, kann die Person trotzdem im Bericht erscheinen, wenn sie für den Kurs eingeschrieben ist.
 
 Möchten Sie die Punkte und Protokolle dieser Person wirklich löschen?';
+$string['reallyresetallcourselevelstodefaults'] = 'Wirklich alle Kurslevels auf die Standardwerte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.';
 $string['reallyresetallcoursestodefaults'] = 'Wirklich alle Kursregeln auf die Standardwerte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.';
+$string['reallyresetallcoursevisualstodefaults'] = 'Wirklich das Erscheinungsbild aller Kurslevels auf das Standarderscheinungsbild zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.';
 $string['reallyresetcourselevelstodefaults'] = 'Möchten Sie die Kurslevel wirklich zu den Standardleveln zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.';
 $string['reallyresetcourserulestodefaults'] = 'Die Kursregeln wirklich auf die Standardwerte zurücksetzen? Diese Aktion kann nicht rückgängig gemacht werden.';
 $string['reallyresetcoursevisualstodefaults'] = 'Möchten Sie die Darstellung der Level wirklich zur Standarddarstellung zurücksetzen? Diese Aktion kann nicht rückängig gemacht werden.';
@@ -419,6 +431,7 @@ $string['rule:gte'] = 'ist größer oder gleich';
 $string['rule:lt'] = 'ist kleiner als';
 $string['rule:lte'] = 'ist kleiner oder gleich';
 $string['rule:regex'] = 'entspricht dem Regex';
+$string['ruleadded'] = 'Die Bedingung wurde hinzugefügt.';
 $string['rulecm'] = 'Aktivität oder Material';
 $string['rulecm_help'] = 'Diese Bedingung ist erfüllt, wenn das Ereignis in der angegebenen Akktivität oder im Material auftritt.';
 $string['rulecmdesc'] = 'Die Aktivität oder das Material ist \'{$a->contextname}\'.';
@@ -427,6 +440,23 @@ $string['rulecminfo'] = 'Diese Bedingung erfordert, dass die Aktion in einer bes
 $string['ruleevent'] = 'Konkretes Ereignis';
 $string['ruleeventdesc'] = 'Das Ereignis ist \'{$a->eventname}\'';
 $string['ruleeventinfo'] = 'Wählen Sie die Aktion aus, die Nutzer/innen aus einer Liste von Ereignissen ausführen müssen.';
+$string['rulefilterany'] = 'Jede';
+$string['rulefilteranycm'] = 'Jede Aktivität';
+$string['rulefilteranycmdesc'] = 'Diese Bedingung trifft auf jede Aktivität zu.';
+$string['rulefilteranycourse'] = 'Jeder Kurs';
+$string['rulefilteranycoursedesc'] = 'Diese Bedingung trifft auf jeden Kurs zu.';
+$string['rulefilteranydesc'] = 'Diese Bedingung trifft auf alles zu.';
+$string['rulefilteranysection'] = 'Jeder Abschnitt';
+$string['rulefilteranysectiondesc'] = 'Diese Bedingung trifft auf jeden Abschnitt zu.';
+$string['rulefiltercm'] = 'Spezifische Aktivität';
+$string['rulefiltercmdesc'] = 'Eine bestimmte Aktivität oder Ressource im Kurs anvisieren.';
+$string['rulefiltercmname'] = 'Name der Aktivität';
+$string['rulefiltercmnamedesc'] = 'Bedingung basierend auf dem Namen der Aktivität.';
+$string['rulefilternone'] = 'Nichts';
+$string['rulefiltersection'] = 'Bestimmter Abschnitt';
+$string['rulefiltersectiondesc'] = 'Einen bestimmtem Abschnitt im Kurs anvisieren.';
+$string['rulefilterthiscourse'] = 'Diesen Kurs';
+$string['rulefilterthiscoursedesc'] = 'Diesen Kurs anvisieren.';
 $string['ruleproperty'] = 'Ereignis-Eigenschaft';
 $string['rulepropertydesc'] = 'Die Eigenschaft \'{$a->property}\' {$a->compare} \'{$a->value}\'.';
 $string['rulepropertyinfo'] = 'Diese Bedingung ist für Power-User mit einem technischen Verständnis der Ereignisse und ihrer Eigenschaften.';
@@ -445,8 +475,22 @@ $string['rulesformhelp'] = '<p>Dieses Plugin greift auf Events zurück, um den T
 <li>und Events, die nicht mit aktiver Teilnahme in Verbindung stehen (the events of educational level not equal to <em>Participating</em>).</li>
 </ul>
 </p>';
+$string['rulesscope'] = 'Anwendungsbereich';
+$string['rulesscope_help'] = 'Der Anwendungsbereich von Regeln bestimmt, wann sie gelten.
+
+Regeln können für zwei Bereiche erstellt werden: systemweit und für einzelne Kurse. Wann immer möglich, werden zuerst die kursspezifischen Regeln bewertet, gefolgt von den systemweiten Regeln. Auf diese Weise können Dozierende allgemeine Regeln erstellen, die für die gesamte Website (systemweit) gelten, und diese dann für einzelne Kurse anpassen.
+
+- Systemweit: Diese Regeln gelten für die gesamte Website, es sei denn, es sind kursspezifische Regeln vorhanden.
+- Kurs: Diese Regeln gelten nur innerhalb eines bestimmten Kurses. Sie haben Vorrang vor den systemweiten Regeln.';
+$string['ruletypecmcompletion'] = 'Aktivitätsabschluss';
+$string['ruletypecmcompletiondesc'] = 'Vergibt Punkte, wenn eine Aktivität als abgeschlossen markiert wird.';
+$string['ruletypecoursecompletion'] = 'Kursabschluss';
+$string['ruletypecoursecompletiondesc'] = 'Vergibt Punkte, wenn ein Kurs als abgeschlossen markiert wird.';
+$string['ruletypesectioncompletion'] = 'Abschnittsabschluss';
+$string['ruletypesectioncompletiondesc'] = 'Vergibt Punkte, wenn ein Abschnitt als abgeschlossen markiert wird.';
 $string['searchandselectcourse'] = 'Suchen und wählen Sie einen Kurs';
 $string['searchandselectmodule'] = 'Suchen und wählen Sie eine Aktivität oder ein Material';
+$string['selectcourse'] = 'Kurs wählen';
 $string['send'] = 'Senden';
 $string['setpoints'] = 'Punkte vergeben';
 $string['shortcode:xpbadge'] = 'Die Auszeichnung entspricht dem aktuellen Nutzerlevel.';
@@ -526,6 +570,7 @@ Die Darstellung der Punkte hängt davon ab, ob ein zufälliger Wert oder die akt
 [xppoints 123 plain]
 ```';
 $string['shortcode:xpprogressbar'] = 'Der Fortschrittsbalken der Person zeigt auf den nächsten Level.';
+$string['sitewide'] = 'Systemweit';
 $string['somefeaturesrequireotherplugins'] = 'Für einige Funktionen müssen zusätzliche Plugins installiert werden.';
 $string['someoneelse'] = 'Jemand anderes';
 $string['somethinghappened'] = 'Etwas ist passiert';
@@ -545,8 +590,14 @@ $string['tinytimeseconds'] = '{$a}s';
 $string['tinytimeweeks'] = '{$a}w';
 $string['tinytimewithinayearformat'] = '%b %e';
 $string['total'] = 'Gesamt';
+$string['tryme'] = 'Probieren Sie mich aus';
+$string['unavailable'] = 'Nicht verfügbar';
+$string['unknownactivitya'] = 'Unbekannte Aktivität ({$a})';
 $string['unknownbadgea'] = 'Unbekannter Badge ({$a})';
+$string['unknownconditiona'] = 'Unbekannter Bedingung ({$a})';
 $string['unknowneventa'] = 'Unbekanntes Ereignis ({$a})';
+$string['unknownsectiona'] = 'Unbekannter Abschnitt ({$a})';
+$string['unknowntypea'] = 'Unbekannter Typ ({$a})';
 $string['unlockfeaturewithxpplus'] = 'Schalten Sie dieses Feature mit XP+ frei. <a href="{$a}">Weitere Informationen</a>';
 $string['updateandpreview'] = 'Aktualisieren und Vorschau';
 $string['upgradingplugins'] = 'Die Plugins aktualisieren';

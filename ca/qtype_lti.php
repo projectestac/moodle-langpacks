@@ -33,3 +33,4 @@ $string['never'] = 'Mai';
 $string['noattempts'] = 'No s\'ha fet cap intent en aquesta instància de l\'eina';
 $string['password'] = 'Contrasenya secreta compartida';
 $string['pluginname_link'] = 'question/type/lti';
+$string['search:activity'] = 'Eina externa: informació de l\'activitat';

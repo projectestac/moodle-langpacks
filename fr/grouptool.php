@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['overview'] = 'Vue d’ensemble';
 $string['start'] = 'Démarrer';

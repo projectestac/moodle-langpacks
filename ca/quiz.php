@@ -717,7 +717,7 @@ $string['questiondependencyremove'] = 'La pregunta {$a->thisq} no es pot intenta
 $string['questiondependsonprevious'] = 'Aquesta pregunta  no es pot intentar fins que hàgiu completat la pregunta prèvia.';
 $string['questioninuse'] = 'La pregunta «{$a->questionname}» s\'està utilitzant actualment a:<br />{$a->quiznames}<br />Només se suprimirà la pregunta de la llista de categories, no dels qüestionaris que la utilitzen.';
 $string['questionmissing'] = 'La pregunta d\'aquesta sessió ha desaparegut';
-$string['questionname'] = 'Títol de la pregunta';
+$string['questionname'] = 'Nom de la pregunta';
 $string['questionnonav'] = '<span class="accesshide">Pregunta </span>{$a->number}<span class="accesshide"> {$a->attributes}</span>';
 $string['questionnonavinfo'] = '<span class="accesshide">Informació </span>{$a->number}<span class="accesshide"> {$a->attributes}</span>';
 $string['questionnotloaded'] = 'La pregunta {$a} no s\'ha pogut carregar des de la base de dades';
@@ -763,7 +763,7 @@ $string['quizisopen'] = 'El qüestionari està obert';
 $string['quizisopenwillclose'] = 'El qüestionari està obert (es tanca el dia {$a})';
 $string['quiznavigation'] = 'Navegació pel qüestionari';
 $string['quizopen'] = 'Obre el qüestionari';
-$string['quizopenclose'] = 'Dates d\'obertura i tancament';
+$string['quizopenclose'] = 'Dates d\'obertura i de tancament';
 $string['quizopenclose_help'] = 'Els estudiants només poden iniciar els seus intents després de l\'obertura i els han d\'acabar abans del tancament.';
 $string['quizopenclose_link'] = 'mod/quiz/timing';
 $string['quizopened'] = 'El qüestionari està obert.';
@@ -782,7 +782,7 @@ $string['randomfromexistingcategory'] = 'Pregunta aleatòria d\'una categoria ex
 $string['randomnosubcat'] = 'Preguntes només d\'aquesta categoria, no de les seves subcategories.';
 $string['randomnumber'] = 'Nombre de preguntes aleatòries';
 $string['randomquestiontags'] = 'Etiquetes';
-$string['randomquestionusinganewcategory'] = 'Pregunta aleatòria fent servir una categoria nova.';
+$string['randomquestionusinganewcategory'] = 'Pregunta aleatòria d\'una categoria nova';
 $string['randomwithsubcat'] = 'Pregunta d\'aquesta categoria i de les seves subcategories.';
 $string['readytosend'] = 'Ara enviareu el qüestionari complet perquè sigui qualificat. Esteu segur que voleu continuar?';
 $string['reattemptquiz'] = 'Reintenta el qüestionari';
@@ -906,8 +906,9 @@ $string['seequestions'] = '(Vegeu les preguntes)';
 $string['select'] = 'Selecciona';
 $string['selectall'] = 'Selecciona-ho tot';
 $string['selectcategory'] = 'Selecciona una categoria';
-$string['selectedattempts'] = 'Intents seleccionats';
+$string['selectedattempts'] = 'Intents seleccionats...';
 $string['selectmultipleitems'] = 'Seleccioneu diversos elements';
+$string['selectmultipletoolbar'] = 'Selecciona una barra d\'eines múltiple';
 $string['selectnone'] = 'Desselecciona-ho tot';
 $string['selectquestiontype'] = '-- Selecciona un tipus de pregunta --';
 $string['serveradded'] = 'S\'ha afegit el servidor';
@@ -937,13 +938,13 @@ $string['showteacherattempts'] = 'Mostra els intents del professor';
 $string['showuserpicture'] = 'Mostra la fotografia de l\'usuari';
 $string['showuserpicture_help'] = 'Si s\'activa, el nom i la fotografia de l\'estudiant apareixen a la pantalla mentre es realitza l\'intent, i a la pantalla de revisió, cosa que fa més fàcil comprovar que l\'alumne ha iniciat sessió com a si mateix en un entorn d\'examen supervisat.';
 $string['shuffle'] = 'Barreja';
-$string['shuffleanswers'] = 'Barreja respostes';
+$string['shuffleanswers'] = 'Mescla les respostes';
 $string['shuffledrandomly'] = 'Barreja aleatòriament';
-$string['shufflequestions'] = 'Barreja preguntes';
+$string['shufflequestions'] = 'Mescla';
 $string['shufflequestions_help'] = 'Si ho habiliteu, cada vegada que el qüestionari s\'intenti l\'ordre de les preguntes en aquesta secció canviarà de forma aleatòria.
 
 Això pot fer difícil als alumnes compartir les respostes, però també fa difícil als alumnes preguntar-vos dubtes sobre una pregunta particular.';
-$string['shufflewithin'] = 'Barreja dins de les preguntes';
+$string['shufflewithin'] = 'Mescla dins de les preguntes';
 $string['shufflewithin_help'] = 'Si activeu aquesta opció, les parts que componen una pregunta es barrejaran aleatòriament cada vegada que un estudiant intenti resoldre el qüestionari, sempre que l\'opció estigui habilitada també en els paràmetres de la pregunta.
 
 Aquesta opció només s\'aplica a preguntes que tinguin  diverses parts, com ara les preguntes d\'opció múltiple o les d\'aparellament.';
@@ -999,7 +1000,7 @@ $string['tofile'] = 'al fitxer';
 $string['tolerance'] = 'Tolerància';
 $string['toomanyrandom'] = 'Es necessiten més preguntes aleatòries de les que hi ha encara disponibles en aquesta categoria.';
 $string['top'] = 'Dalt de tot';
-$string['totalmarksx'] = 'Nombre de puntuacions: {$a}';
+$string['totalmarksx'] = 'Total de les notes: {$a}';
 $string['totalquestionsinrandomqcategory'] = 'Total de {$a} preguntes a la categoria.';
 $string['true'] = 'Vertader';
 $string['truefalse'] = 'Vertader/Fals';

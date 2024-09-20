@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['correcterror'] = 'Corregeix';
 $string['errorusernotincourse'] = 'L\'usuari no és al curs';
 $string['idnumber'] = 'Número ID';
 $string['import'] = 'Avalua';

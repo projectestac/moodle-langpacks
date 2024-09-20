@@ -33,5 +33,6 @@ $string['limit'] = 'límit';
 $string['nogroups'] = 'No hi ha cap grup en aquest curs.';
 $string['overview'] = 'Resum';
 $string['preview'] = 'Previsualització';
+$string['select'] = 'Selecciona';
 $string['show_members'] = 'Mostra els membres del grup';
 $string['start'] = 'Comença';

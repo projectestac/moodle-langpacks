@@ -32,4 +32,6 @@ $string['formatnwiki_link'] = 'mod/socialwiki/nwiki';
 $string['modulename_link'] = 'mod/socialwiki/view';
 $string['newpage'] = 'Nova';
 $string['noattachments'] = '<strong>Cap fitxer adjunt</strong>';
+$string['save'] = 'Desa';
+$string['upload'] = 'Carrega i Suprimeix';
 $string['view'] = 'Visualitza';

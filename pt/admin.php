@@ -1356,7 +1356,7 @@ $string['task_starttime'] = 'Hora de início';
 $string['task_stats:dbreads'] = '{$a} lidas';
 $string['task_stats:dbwrites'] = '{$a} escritas';
 $string['task_status'] = 'Estado da tarefa';
-$string['task_status_desc'] = 'Estado da tarefa \'{$a->name}\': {$a->status}. Para mais detalhes, consulte {$a->extradescription} em <a href="{$a->gotourl}">Tarefas agendadas</a>.';
+$string['task_status_desc'] = 'Estado da tarefa \'{$a->name}\': {$a->status}. Para mais detalhes, consulte {$a->class}{$a->extradescription} em <a href="{$a->gotourl}">Tarefas agendadas</a>.';
 $string['task_type:adhoc'] = 'Ad hoc';
 $string['task_type:scheduled'] = 'Agendada';
 $string['taskadmintitle'] = 'Tarefas';

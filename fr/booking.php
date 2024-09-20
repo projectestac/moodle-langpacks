@@ -531,14 +531,14 @@ $string['enablecompletion'] = 'Activer la réalisation d’activité.';
 $string['enablecompletiongroup'] = 'Réalisation d’activité';
 $string['endtimenotset'] = 'Date de fin non rensignée';
 $string['entervalidurl'] = 'Veuillez entrer une URL valide!';
-$string['error:failedtosendconfirmation'] = 'L’utilisateur suivant ne’a pas reçu d’email de confirmation
+$string['error:failedtosendconfirmation'] = 'L’utilisateur suivant n’a pas reçu d’email de confirmation
 
-Statut de réservation: {$a->status}
-Participant: {$a->participant}
-Cours: {$a->title}
-Date: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
-Lien: {$a->bookinglink}
-Cours associé: {$a->courselink}';
+Statut de réservation : {$a->status}
+Participant : {$a->participant}
+Cours : {$a->title}
+Date : {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Lien : {$a->bookinglink}
+Cours associé : {$a->courselink}';
 $string['eventduration'] = 'Durée de l’évènement';
 $string['eventpoints'] = 'Points';
 $string['eventreport_viewed'] = 'Rapport vu';
@@ -574,7 +574,7 @@ $string['limit'] = 'Limite';
 $string['limitanswers'] = 'Limiter le nombre de participants';
 $string['limitanswers_help'] = 'Si vous changez cette option et que vous avez enregistré des personnes, vous pouvez les enlever sans notification!';
 $string['location'] = 'Lieu';
-$string['mailconfirmationsent'] = 'Vous allez recevoir sous peu une confirmation par email';
+$string['mailconfirmationsent'] = 'Vous allez recevoir sous peu une confirmation par courriel';
 $string['managebooking'] = 'Gérer';
 $string['maxoverbooking'] = 'Nombre max. de places sur la liste d’attente';
 $string['maxparticipantsnumber'] = 'Nombre max. de participants';
@@ -747,7 +747,7 @@ $string['select'] = 'Sélection';
 $string['selectatleastoneuser'] = 'Merci de sélectionner au moins 1 utilisateur!';
 $string['selectcategory'] = 'Sélectionner la catégorie';
 $string['sendcustommessage'] = 'Envoyer un message personnalisé';
-$string['sendmailtobooker'] = 'Page de réservation pour les autres utilisateurs : Envoyer un email aux utilisateurs qui réservent plutôt qu’aux utilisateurs qui sont réservés';
+$string['sendmailtobooker'] = 'Page de réservation pour les autres utilisateurs : Envoyer un courriel aux utilisateurs qui réservent plutôt qu’aux utilisateurs qui sont réservés';
 $string['sendmailtobooker_help'] = 'Activez cette option afin d’envoyer des mails de confirmation de réservation à l’utilisateur qui inscrit d’autres utilisateurs au lieu des utilisateurs, qui ont été ajoutés à une option de réservation.
 Ceci n’est pertinent que pour les réservations effectuées sur la page "inscrire d’autres utilisateurs".';
 $string['showactive'] = 'Ne montrer que les réservations actives';
@@ -783,6 +783,7 @@ $string['statuschangetext_help'] = 'Laissez ce champ vide pour utiliser le texte
 <li>{qr_username} - Insère le QR code avec le nom d’utilisateur</li>
 </ul>';
 $string['submitandaddnew'] = 'Sauvegarder et ajouter un nouveau';
+$string['submitandgoback'] = 'Enregistrer et retour';
 $string['subscribersto'] = 'Professeurs pour « {$a} »';
 $string['subscribetocourse'] = 'Inscrivez les utilisateurs au cours';
 $string['subscribeuser'] = 'Voulez-vous vraiment inscrire les utilisateurs au cours suivant';

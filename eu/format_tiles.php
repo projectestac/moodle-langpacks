@@ -52,6 +52,7 @@ $string['checkforproblemcourses'] = 'Egiaztatu eta konpondu ikastaroetako arazoa
 $string['clearphoto'] = 'Berrabiarazi lauza hau';
 $string['clickiffailstoload'] = 'Egin klik orria kargatzeak huts egiten badu';
 $string['close'] = 'Itxi';
+$string['closetopsection'] = 'Tolestu goiko atala';
 $string['collapse'] = 'Tolestu atala';
 $string['collapsesections'] = 'Tolestu guztiak';
 $string['colourblue'] = 'Urdina';
@@ -72,7 +73,7 @@ Bestelako kasuetan, jarduera osatutzat markatzeko zirkulu hutsean klik egin ahal
 $string['completionswitchhelp'] = '<p>Lauza bakoitzean osaketaren jarraipena erakustea aukeratu duzu. Ondorioz, beheragoko "Osaketaren jarraipena > Gaitu" aukeran "Bai" jarri dugu.</p>
 <p>Horretaz gain, osaketaren jarraipena egin nahi diozun <b>elementu bakoitzean</b> aukera hori gaitu beharko duzu. Esaterako, PDF fitxategi batean, egin klik "Editatu ezarpenak" aukeran, Jarduera-osaketa atalera joan, eta bertan aukeratu ezazu behar duzun ezarpena.</p>
 <p>Ezarpen hau <b>masiboki</b> aldatu dezakezu <a href="https://docs.moodle.org/en/Activity_completion_settings" target="_blank">moodle.org-ko osaketaren jarraipenaren azalpen zehatzak</a> erakusten duen moduan.</p>';
-$string['completionwarning'] = 'Osaketaren jarraipena ikastaro mailan gaituta dago baina jarduera mailan ez dago osaketaren jarraipena gaituta daukan elementurik, eta beraz ezin da ezerren jarraipena egin.';
+$string['completionwarning'] = 'Osaketaren jarraipena gaituta dago ikastaro mailan baina ez dago jarduera mailan osaketaren jarraipena gaituta daukan elementurik, eta beraz une honetan ezin da ezeren jarraipena egin.';
 $string['completionwarning_changeinbulk'] = 'Aldatu masiboki';
 $string['completionwarning_help'] = 'Elementu bakoitzaren jarraipena gaitu behar duzu horietako bakoitza editatuz (Jarduera-osaketa > Osaketaren jarraipena) edo masiboki egin dezakezu Ikastaroaren Kudeaketa > Ikastaro-osaketa > Masiboki editatu jardueren osaketa';
 $string['contact'] = 'Jarri harremanetan';
@@ -135,6 +136,7 @@ $string['existingimage'] = 'Lauza honentzat existitzen den irudia';
 $string['expand'] = 'Zabaldu';
 $string['expandall'] = 'Zabaldu guztiak';
 $string['expandsections'] = 'Erakutsi jarduera guztiak (atal guztietakoak)';
+$string['expandtopsection'] = 'Zabaldu goiko atala';
 $string['experimental'] = 'esperimentala';
 $string['experimentalfeatures'] = 'Funtzio esperimentalak';
 $string['fileaddedtobottom'] = 'Fitxategia atalaren amaieran gehitu da';
@@ -380,6 +382,7 @@ $string['style'] = 'Estiloa';
 $string['subtileszeczerotoggled'] = '0 atalaren formatua zerrenda eta azpi-lauzen artean aldatu da';
 $string['suremigratelegacyoptions'] = 'Ziur zaude ikastaro honetako {$a} lauzetako argazki ala ikonoak migratu nahi dituzula?';
 $string['sureresetcolours'] = 'Ziur zaude ikastaro guztietako lauzen kolorea lehenetsitakora berrabiarazi nahi duzula? Honek {$} ikastarori eragingo die.';
+$string['tilearialabel'] = '{$a}, xehetasunak pop-up leihoan zabaltzen ditu, esteka';
 $string['tilecolourgeneral'] = 'Kolore-paleta - hautazko kolorea';
 $string['tilecolourgeneral_descr'] = 'Ezarpen hauek kudeatzaileari aukera ematen diote irakasleek ikastaroetan erabili ahalko dituzten koloreak aukeratzeko. Kolore bat desgaitzeko beltza (#000) aukeratu ezazu. Hemen koloreak aldatzen badituzu ikastaroetan ez da aldaketarik egingo irakasleak lauzen koloreak aldatzen saiatu arte. Une horretan irakasleak soilik hemen zehaztutako koloreak aukeratu ahalko ditu.';
 $string['tilecolourschanged'] = 'Lauzen kolorea berrabiarazi da. Orain lauza guztiak azpian zehaztutako koloreekin bat datoz.';
