@@ -95,9 +95,9 @@ Ce message est envoyé par courriel quand un utilisateur s’inscrit à une sess
 $string['confirmationsent'] = 'Vous devriez recevoir un courriel de confirmation immédiatement.';
 $string['confirmationsentmgr'] = 'Vous et votre responsable devriez recevoir un courriel de confirmation immédiatement.';
 $string['confirmmanageremailaddress'] = 'Confirmez l’adresse courriel de votre responsable';
-$string['confirmmanageremailaddressquestion'] = 'Est-ce que <b>{$a}</b> est toujours l’adresse courriel de votre responsable?';
+$string['confirmmanageremailaddressquestion'] = 'Est-ce que <b>{$a}</b> est toujours l’adresse de courriel de votre responsable ?';
 $string['confirmmanageremailinstruction1'] = 'Vous avez précédemment fourni l’adresse courriel suivante comme étant celle de votre responsable.';
-$string['confirmmanageremailinstruction2'] = 'Est-ce que c’est toujours l’adresse courriel de votre responsable?';
+$string['confirmmanageremailinstruction2'] = 'Est-ce que c’est toujours l’adresse de courriel de votre responsable ?';
 $string['continuetologin'] = 'Cliquez sur Continuer pour vous connecter.';
 $string['copy'] = 'Copier';
 $string['copyingsession'] = 'Copier en tant que nouvelle session';
@@ -291,7 +291,7 @@ $string['remindermessage'] = 'Message de rappel';
 $string['remindermessage_help'] = '# Message de rappel
 
 Ce message est envoyé par courriel quelques jours avant le début de la session.';
-$string['reminderperiod'] = 'Envoyer le rappel combien de jours avant?';
+$string['reminderperiod'] = 'Envoyer le rappel combien de jours avant ?';
 $string['reminderperiod_help'] = '# Période de rappel
 
 Le message de rappel sera envoyé ce nombre de jours avant le début de la session.';

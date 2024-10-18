@@ -251,7 +251,7 @@ $string['icontitle-star'] = 'Étoile (pleine)';
 $string['icontitle-star-half-o'] = 'Étoile (à moitié pleine)';
 $string['icontitle-star-o'] = 'Étoile (vide)';
 $string['icontitle-survey'] = 'Sondage';
-$string['icontitle-tags'] = 'Etiquettes';
+$string['icontitle-tags'] = 'Étiquettes';
 $string['icontitle-tasks'] = 'Tâches';
 $string['icontitle-television'] = 'Écran';
 $string['icontitle-thinking-person'] = 'Personne avec ampoule';
@@ -333,7 +333,7 @@ $string['registerclicktocomplete'] = 'Cliquez sur D’accord pour terminer le pr
 $string['registeredthanks'] = 'Votre plugin est enregistré. Je vous remercie.';
 $string['registeremailno'] = 'Non, je ne souhaite recevoir aucun courriel';
 $string['registeremailyes'] = 'Oui, je désire recevoir des notifications de mise à jour occasionnelles et d’autres informations sur le plugin Tuiles';
-$string['registerintro1'] = 'Nous serions ravis de rester en contact! Lorsque vous vous inscrivez';
+$string['registerintro1'] = 'Nous serions ravis de rester en contact ! Lorsque vous vous inscrivez';
 $string['registerintro2'] = 'vous soutenez le développement futur de ce plugin';
 $string['registerintro3'] = 'vous pouvez être averti rapidement des mises à jour importantes et des projets futurs';
 $string['registerintro4'] = 'nous aimerions en savoir plus sur ce que vous aimeriez faire de ce plugin.';
@@ -399,7 +399,7 @@ $string['tootall'] = 'Trop grand pour la tuile';
 $string['toowide'] = 'Trop large pour la tuile';
 $string['transparenttitleadjustments'] = 'Ajustements de transparence de titre';
 $string['transparenttitleadjustments_desc'] = 'Sur les tuiles photo avec des arrière-plans de titre transparents, en fonction de votre thème, vous souhaiterez peut-être les ajuster pour vous assurer que les lignes transparentes du titre ne se chevauchent pas lorsqu’elles sont enveloppées.
-Notez que celles-ci varient également un peu selon les navigateurs. Valeurs suggérées pour Chrome: Thèmes basés sur Boost et Clean: 30,5 et 4 | Adaptable: 32 et 4 | Moove: 32 et 2 | Remui: 32 et 2,5';
+Notez que celles-ci varient également un peu selon les navigateurs. Valeurs suggérées pour Chrome : Thèmes basés sur Boost et Clean : 30,5 et 4 | Adaptable : 32 et 4 | Moove : 32 et 2 | Remui : 32 et 2,5';
 $string['unmigratedcoursesintro'] = 'Il semble que toutes les icônes et photos des cours suivants {$a} n\'aient pas été migrées suite à une mise à jour du système. Cliquez sur le bouton pour traiter un cours maintenant. Si vous attendez, le processus "cron" en arrière-plan devrait traiter tout cela, mais si vous souhaitez traiter un cours donné maintenant, cliquez sur le bouton';
 $string['uploadnewphoto'] = 'Déposer une nouvelle photo';
 $string['uploadnewphoto_help'] = 'Importez une image à utiliser sur cette tuile';

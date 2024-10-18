@@ -191,6 +191,7 @@ $string['rightmargin_help'] = 'Правый отступ сертификата 
 $string['save'] = 'Сохранить';
 $string['saveandclose'] = 'Сохранить и закрыть';
 $string['saveandcontinue'] = 'Сохранить и продолжить';
+$string['savechanges'] = 'Сохранить изменения';
 $string['savechangespreview'] = 'Сохранить изменения и начать предварительный просмотр';
 $string['savetemplate'] = 'Сохранить шаблон';
 $string['search:activity'] = 'Пользовательский сертификат - информация об активном элементе';
@@ -200,6 +201,7 @@ $string['showposxy'] = 'Показать позиции X и Y';
 $string['showposxy_desc'] = 'Это покажет позиции X и Y при редактировании элемента, позволяя пользователю указать точное местоположение.
 
 Данное действие не требуется, если Вы планируете использовать для этой цели только интерфейс перетаскивания.';
+$string['subplugintype_customcertelement'] = 'Элемент';
 $string['subplugintype_customcertelement_plural'] = 'Элементы';
 $string['taskemailcertificate'] = 'Управление рассылкой сертификатов по электронной почте.';
 $string['templatename'] = 'Название шаблона';

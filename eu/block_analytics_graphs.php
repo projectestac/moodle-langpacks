@@ -92,7 +92,6 @@ $string['old_messages'] = 'Mezuak bidali dira';
 $string['on_time'] = 'Garaiz';
 $string['options'] = 'Aukerak';
 $string['pluginname'] = 'Analisi grafikoa';
-$string['privacy:metadata'] = 'Analisi Grafikoa blokeak jadanik dauden egutegi-datak soilik erakusten ditu.';
 $string['ratio'] = 'Ratio';
 $string['red_tooltip'] = 'Azken astean ez da modulurik erabili';
 $string['remove_all'] = 'Ezabatu guztiak';

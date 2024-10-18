@@ -62,6 +62,7 @@ $string['pluginnameadding'] = 'Inserimento domanda Ordinamento';
 $string['pluginnameediting'] = 'Modifica domanda Ordinamento';
 $string['pluginnamesummary'] = 'Mettere gli elementi disordinati in un ordine significativo.';
 $string['positionx'] = 'Posizione {$a}';
+$string['regradeissuenumitemschanged'] = 'Il numero di elementi trascinabili è cambiato.';
 $string['relativeallpreviousandnext'] = 'Relativo all\'elemento successivo (escluso l\'ultimo)';
 $string['relativenextexcludelast'] = 'Relativo all\'elemento successivo (escluso l\'ultimo)';
 $string['relativenextincludelast'] = 'Relativo all\'elemento successivo (incluso l\'ultimo)';

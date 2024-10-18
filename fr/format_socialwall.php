@@ -43,8 +43,8 @@ $string['attachselectedactivities'] = 'activités attachées sauvegardées';
 $string['attachturnediton'] = 'Activer le mode édition pour attacher un post ou une activité';
 $string['cachedef_attachedrecentactivities'] = 'SocialWall : activités ajoutées récemment';
 $string['cachedef_commentformerrors'] = 'SocialWall :';
-$string['cachedef_postformerrors'] = 'SocialWall : Erreurs du formulaire de message';
-$string['cachedef_postformparams'] = 'SocialWall : Publier les paramètres du formulaire';
+$string['cachedef_postformerrors'] = 'SocialWall : erreurs du formulaire de message';
+$string['cachedef_postformparams'] = 'SocialWall : publier les paramètres du formulaire';
 $string['cachedef_timelinefilter'] = 'SocialWall : filtre par date';
 $string['cancel'] = 'Abandonner';
 $string['commentdeleted'] = 'Commentaire effacé';
@@ -61,7 +61,7 @@ $string['deleteafterunenrol_help'] = 'Lorsqu’un utilisateur est désinscrit, t
 $string['deleteafterunenroldesc'] = 'Lorsqu’un utilisateur est désinscrit, tous ces post et commentaires seront effacés';
 $string['deletemodspermanently'] = 'Efface automatiquement les activités';
 $string['deletemodspermanently_help'] = 'Lorsqu’elle est définie sur Oui, une activité est supprimée lorsque le dernier message auquel cette activité est associée est supprimé.
-Notez que les publications (et probablement les activités) sont également supprimées lorsqu’un utilisateur est supprimé. Alors s’il vous plaît, soyez prudent avec ce paramètre !';
+Notez que les publications (et probablement les activités) sont également supprimées lorsqu’un utilisateur est supprimé. Donc attention, soyez prudent avec ce paramètre !';
 $string['edited'] = 'Édité';
 $string['editnotification'] = 'Éditer le paramétrage des notifications';
 $string['enablelikes'] = 'Activer les "J’aime"';

@@ -262,4 +262,6 @@ $string['totalerrors'] = 'Errori totali';
 $string['totalgrouperrors'] = 'Errori totali (somma) per tipo di contenuto';
 $string['updatesummarydata'] = 'Aggiornamento dati di riepilogo del sito';
 $string['usersmobileregistered'] = 'Numero di utenti con dispositivi mobili registrati ({$a})';
+$string['validationerror'] = 'La convalida della chiave di registrazione non è andata a buon fine. Controllare che l\'URL e le chiavi del sito registrato siano corrette.';
+$string['warningcheckidbody'] = 'C\'è un problema con un controllo Brickfield che è attivo ma non elencato nel database. Si prega di indagare.';
 $string['warningcheckidsubject'] = 'Avviso checkID Brickfield Toolkit';

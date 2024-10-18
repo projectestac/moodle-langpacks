@@ -76,7 +76,7 @@ $string['evaluationmode_help'] = 'Bi ebaluazio-modu daude:
 * Konfiguratutakoa - Guneko datuak trebakuntzarako eta probetarako datuetan banatzen dira, ereduaren konfigurazioaren trebakuntza eta proben zehaztasuna neurtzeko.
 
 Trebatutako eredua soilik dago eskuragarri gunera lehendik trebatutako eredua inportatu bada eta oraindik guneko datuak erabilita berriz trebatu ez bada.';
-$string['evaluationmodecolconfiguration'] = 'Konfiguratutakoa';
+$string['evaluationmodecolconfiguration'] = 'Ezarpenak';
 $string['evaluationmodecoltrainedmodel'] = 'Trebatutako eredua';
 $string['evaluationmodeconfiguration'] = 'Ebaluatu ereduaren konfigurazioa';
 $string['evaluationmodeinfo'] = 'Eredu hau gunera inportatu da. Ereduaren errendimendua ebaluatu dezakezu, edo ereduaren konfigurazioaren errendimendua guneko datuak erabilita ebaluatu dezakezu.';

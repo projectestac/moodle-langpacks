@@ -170,6 +170,7 @@ $string['nowrongintsfound'] = 'Non sono stati trovati Integer errati. Il DB non 
 $string['nowrongoraclesemanticsfound'] = 'Non sono state trovate colonne che utilizzano le semantiche Oracle BYTE, il tuo database non ha bisogno di ulteriori azioni.';
 $string['numberincorrectdecimals'] = 'Numero errato di decimali per un campo number';
 $string['numberincorrectlength'] = 'Lunghezza errata per un campo number';
+$string['numberincorrectwholepart'] = 'La parte intera del numero è troppo grande per il campo numerico';
 $string['pendingchanges'] = 'Nota: hai effettuato modiche al file. Puoi salvarle in qualsiasi momento.';
 $string['pendingchangescannotbesaved'] = 'Il file è stato modificato ma non è possibile salvare le modifiche. Per favore verifice che il processo del web server abbia i permessi di scrittura per la cartella e per il file "install.xml".';
 $string['pendingchangescannotbesavedreload'] = 'Il file è stato modificato ma non è possibile salvare le modifiche. Per favore verifica che il processo del web server abbia i permessi di scrittura per la cartella e per il file "install.xml". Dopo la verifica ricarica la pagina per controllare se è possibile salvare le modifiche.';
@@ -180,6 +181,9 @@ $string['pluginname'] = 'Editor XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'La chiave primaria non può essere null';
 $string['privacy:metadata'] = 'Il plugin "Editor XMLDB" non memorizza dati personali.';
 $string['reconcile_files'] = 'Controlla se i file XMLDB richiedono riconciliazione';
+$string['reconcile_files_intro'] = 'Questa funzionalità esamina il contenuto di tutti i file XMLDB per verificare che corrispondano ai risultati della loro generazione dall\'editor XMLDB.
+
+Verrà visualizzato un elenco di file che devono essere riconciliati (rigenerati) e l\'editor XMLDB può essere utilizzato per correggerli.';
 $string['reconcile_files_no'] = 'Tutti i file sono OK, non è necessaria la riconciliazione.';
 $string['reconcile_files_yes'] = 'File da riconciliare:';
 $string['reconcilefiles'] = 'Riconcilia file XMLDB';

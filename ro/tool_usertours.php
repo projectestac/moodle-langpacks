@@ -199,7 +199,7 @@ $string['tour2_title_opendrawer'] = 'Deschideți sertarul de navigare';
 $string['tour2_title_participants'] = 'Participanții la curs';
 $string['tour2_title_welcome'] = 'Bine ai venit';
 $string['tour3_content_dashboard'] = 'Noul dvs. tablou de bord are multe funcții pentru a vă ajuta să accesați cu ușurință informațiile cele mai importante pentru dvs.';
-$string['tour3_content_displayoptions'] = 'Cursurile pot fi sortate după numele cursului, numele scurt al cursului sau data ultimei accesări.
+$string['tour3_content_displayoptions'] = 'Cursurile pot fi sortate după denumire, numele prescurtat sau data ultimei accesări.
 
 De asemenea, puteți alege să afișați cursurile într-o listă, cu informații de rezumat sau vizualizarea implicită „card”.';
 $string['tour3_content_overview'] = 'Blocul Prezentare generală a cursurilor arată toate cursurile la care sunteți înscris.

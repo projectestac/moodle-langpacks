@@ -30,6 +30,7 @@ $string['include'] = 'Includi il';
 $string['mustselectcols'] = 'Devi includere qualcosa.';
 $string['pagesize'] = 'Dimensione pagina';
 $string['pluginname'] = 'Risposte date';
+$string['privacy:preference:which_tries:all'] = 'tentativi di risposta a una domanda durante un tentativo di un utente.';
 $string['questiontext'] = 'testo domanda';
 $string['reportresponses'] = 'Risposte dettagliate';
 $string['response'] = 'risposta data';

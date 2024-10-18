@@ -26,18 +26,18 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptdpa'] = 'Je comprends et accepte l’accord sur le traitement des données';
-$string['activityoverview'] = 'Vous avez des sessions BigBlueButtonBN planifiées';
+$string['activityoverview'] = 'Vous avez des sessions BigBlueButton planifiées';
 $string['bbbduetimeoverstartingtime'] = 'La date de fermeture doit être postérieure à la date d’ouverture.';
 $string['bbbdurationwarning'] = 'La durée maximale de cette session est de %duration% minutes.';
 $string['bbbrecordallfromstartwarning'] = 'Cette session est enregistrée depuis le début.';
 $string['bbbrecordwarning'] = 'Cette session peut être enregistrée.';
 $string['bigbluebuttonbn'] = 'BigBlueButton';
-$string['bigbluebuttonbn:addinstance'] = 'Ajouter une salle BigBlueButtonBN';
+$string['bigbluebuttonbn:addinstance'] = 'Ajouter une salle BigBlueButton';
 $string['bigbluebuttonbn:addinstancewithmeeting'] = 'Créer instance de session en direct';
 $string['bigbluebuttonbn:addinstancewithrecording'] = 'Créer instance avec enregistrements';
 $string['bigbluebuttonbn:deleterecordings'] = 'Supprimer des enregistrements';
 $string['bigbluebuttonbn:importrecordings'] = 'Importer des enregistrements';
-$string['bigbluebuttonbn:join'] = 'Rejoindre une salle BigBlueButtonBN';
+$string['bigbluebuttonbn:join'] = 'Rejoindre une salle BigBlueButton';
 $string['bigbluebuttonbn:managerecordings'] = 'Gérer les enregistrements';
 $string['bigbluebuttonbn:protectrecordings'] = 'Protéger des enregistrements';
 $string['bigbluebuttonbn:publishrecordings'] = 'Publier des enregistrements';
@@ -61,7 +61,7 @@ $string['completionengagement_desc'] = 'S’engager dans des activités durant l
 $string['completionengagementchats'] = 'Chats';
 $string['completionengagementchats_desc'] = 'Participer à {$a} chat(s).';
 $string['completionengagementchats_event_desc'] = 'A participé à un chat {$a} fois';
-$string['completionengagementemojis'] = 'Emojis';
+$string['completionengagementemojis'] = 'Émojis';
 $string['completionengagementemojis_desc'] = 'Changer son emoji {$a} fois.';
 $string['completionengagementemojis_event_desc'] = 'A changé son emoji {$a} fois';
 $string['completionengagementgroup'] = 'Exiger une participation';

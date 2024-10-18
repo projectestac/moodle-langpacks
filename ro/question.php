@@ -223,9 +223,9 @@ $string['flagthisquestion'] = 'Puneți flag la această întrebare';
 $string['formquestionnotinids'] = 'Formular care conține întrebări care nu sunt în questionids';
 $string['fractionsnomax'] = 'Una din întrebări trebuie să aibă un punctaj de 100% astfel încât să fie posibilă obţinerea unei note maxime la această întrebare.';
 $string['generalfeedback'] = 'Feedback general';
-$string['generalfeedback_help'] = 'Feedback-ul general este prezentat studentului după ce a completat întrebarea. Spre deosebire de feedback-ul specific, care depinde de tipul de întrebare și de răspunsul dat de student, același text cu feedback-ul general este prezentat tuturor studenților.
+$string['generalfeedback_help'] = 'Feedback-ul general este prezentat studentului după ce a completat întrebarea. Spre deosebire de feedback-ul specific care depinde de tipul de întrebare și de răspunsul dat de student, același text cu feedback-ul general este prezentat tuturor studenților.
 
-Aveți posibilitatea să utilizați feedback-ul general, pentru a oferi studenților un răspuns complet și poate un link către mai multe informații pe care le pot folosi în cazul în care nu au înțeles întrebările.';
+Aveți posibilitatea să utilizați feedback-ul general pentru a oferi studenților un răspuns complet și poate un link către mai multe informații pe care le pot folosi în cazul în care nu au înțeles întrebările.';
 $string['getcategoryfromfile'] = 'Obţine categorie din fişier';
 $string['getcontextfromfile'] = 'Obţine context din fişier';
 $string['hintn'] = 'Sugestie {no}';
@@ -462,7 +462,7 @@ $string['showquestiontext_full'] = 'Da, cu imagini, fișiere media, etc';
 $string['showquestiontext_off'] = 'Nu';
 $string['showquestiontext_plain'] = 'Da, doar text';
 $string['specificfeedback'] = 'Feedback specific';
-$string['specificfeedback_help'] = 'Feedback care depinde răspunsul dat de cursant';
+$string['specificfeedback_help'] = 'Feedback care depinde de răspunsul dat de cursant';
 $string['started'] = 'Început';
 $string['state'] = 'Stare';
 $string['step'] = 'Pas';

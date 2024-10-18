@@ -176,7 +176,7 @@ $string['configallowcoursethemes'] = 'Si vous activez ce réglage, les thèmes p
 $string['configallowedemaildomains'] = 'La liste des domaines de courriel autorisés pour la section « De » du courriel sortant. Le réglage par défaut (vide) utilisera l’adresse de non-réponse pour tout le courrier sortant. L’utilisation de caractères joker est permise. Par exemple, *.exemple.fr autorise l’envoi de courriels depuis les adresses de courriel de tous les sous-domaines de exemple.fr, mais pas du domaine exemple.fr lui-même.';
 $string['configallowemailaddresses'] = 'Pour restreindre les nouvelles adresses de courriel à certains domaines déterminés, saisissez ici les domaines autorisés, séparés par des espaces. Les autres domaines seront rejetés. Pour autoriser un domaine et ses sous-domaines, indiquez le domaine deux fois : d’abord en le préfixant d’un point, puis normalement, par exemple <strong>.monecole.fr monecole.fr </strong>.';
 $string['configallowemojipicker'] = 'La palette émoji permet de sélectionner des émojis à ajouter aux messages et autres champs de texte au moyen d’une palette accessible au moyen d’un bouton dans la barre d’outils de Atto.';
-$string['configallowemojipickerincompatible'] = 'La configuration actuelle de votre base de données ne permet pas la prise en charge des émojis. Afin d’activer la palette émoji, vous devez <a href="https://docs.moodle.org/fr/Support_unicode_complet_pour_MySQL">mettre à jour votre base de données pour permettre la prise en charge complète d\'unicode</a>.';
+$string['configallowemojipickerincompatible'] = 'La configuration actuelle de votre base de données ne permet pas la prise en charge des émojis. Afin d’activer la palette émoji, vous devez <a href="https://docs.moodle.org/fr/Support_unicode_complet_pour_MySQL">mettre à jour votre base de données pour permettre la prise en charge complète d’unicode</a>.';
 $string['configallowguestmymoodle'] = 'Si ce réglage est activé, les utilisateurs anonymes peuvent accéder au tableau de bord. Dans le cas contraire, les utilisateurs anonymes sont dirigés vers la page d’accueil.';
 $string['configallowobjectembed'] = 'Par mesure de sécurité, les utilisateurs normaux n’ont pas les permissions requises pour intégrer des fichiers multimédias (par exemple Flash) dans des textes à l’aide de balises EMBED et OBJECT du code HTML. Ils peuvent cependant le faire de manière sûre avec le filtre multimédia. Si vous voulez permettre l’utilisation de ces balises, activez cette option.';
 $string['configallowoverride'] = 'Vous pouvez permettre aux utilisateurs ayant un rôle de la colonne de gauche de définir pour d’autres utilisateurs des dérogations aux rôles de chaque colonne';
@@ -555,7 +555,7 @@ $string['editorbackgroundcolor'] = 'Couleur de fond';
 $string['editordictionary'] = 'Dictionnaire de l’éditeur';
 $string['editorfontfamily'] = 'Famille de police';
 $string['editorfontlist'] = 'Liste des polices';
-$string['editorfontsize'] = 'Corps de police';
+$string['editorfontsize'] = 'Taille de police';
 $string['editorhidebuttons'] = 'Boutons cachés';
 $string['editorkillword'] = 'Filtre Word';
 $string['editorspelling'] = 'Correction orthographique de l’éditeur';
@@ -634,7 +634,7 @@ $string['environmentxmlerror'] = 'Erreur lors de la lecture des données d’env
 $string['errordeletingconfig'] = 'Une erreur est survenue lors de la suppression des enregistrements de configuration du plugin « {$a} ».';
 $string['errorsetting'] = 'Impossible d’enregistrer le réglage';
 $string['errorwithsettings'] = 'Certains réglages n’ont pas pu être modifiés en raison d’une erreur.';
-$string['eventshandlersinuse'] = 'Les plugins suivants de votre système utilisent les agents obsolètes suivants de l’Events API 1 : « {$a} ». Veuillez les mettre à jour pour qu’ils utilisent l’Event API 2. Consulter https://docs.moodle.org/dev/Events_API#Event_dispatching_and_observers.';
+$string['eventshandlersinuse'] = 'Les plugins suivants de votre système utilisent les agents obsolètes suivants de l’API d\'événements 1 : « {$a} ». Veuillez les mettre à jour pour qu’ils utilisent l’API d\'événements API 2. Consulter https://docs.moodle.org/dev/Events_API#Event_dispatching_and_observers.';
 $string['everyonewhocan'] = 'Tous les utilisateurs pouvant « {$a} »';
 $string['exceptions'] = 'Exceptions';
 $string['execpathnotallowed'] = 'Le réglage des chemins d’exécutables et chemins locaux est désactivé dans config.php';

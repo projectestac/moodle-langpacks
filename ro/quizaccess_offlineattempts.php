@@ -34,5 +34,5 @@ $string['mobileapp'] = 'Aplicație mobilă';
 $string['offlineattemptserror'] = 'Nu este posibil ca un test să fie parcurs offline dacă are o limită de timp sau necesită o adresă de rețea, dacă folosește orice comportament de întrebare, altul decât feedback-ul amânat (cu sau fără CBM) sau folosește navigarea secvențială.';
 $string['offlinedatamessage'] = 'Ați efectuat această activitate pe un dispozitiv mobil. Datele au fost salvate pe acest site în urmă cu {$a}.';
 $string['pleaseconfirm'] = 'Vă rugăm să bifați și să confirmați că nu aveți activități nesalvate.';
-$string['pluginname'] = 'Regula de acces la încercări offline';
+$string['pluginname'] = 'Regulă de acces la încercări offline';
 $string['privacy:metadata'] = 'Pluginul pentru regulă de acces la teste de încercări offline nu stochează date personale.';

@@ -181,7 +181,7 @@ $string['nopostmoodleoverflow'] = 'Désolé, vous n’êtes pas autorisé(e) à 
 $string['noratemoodleoverflow'] = 'Désolé, vous n’êtes pas autorisé(e) à voter dans ce forum.';
 $string['noratingchangeallowed'] = 'Vous n’êtes pas autorisé(e) à modifier vos évaluations.';
 $string['notexists'] = 'La discussion n’existe plus';
-$string['notpartofdiscussion'] = 'Ce message ne faitt partie d’une discussion!';
+$string['notpartofdiscussion'] = 'Ce message ne fait pas partie d’une discussion !';
 $string['notrackmoodleoverflow'] = 'Ne pas suivre les messages non lus';
 $string['notstartuser'] = 'Seulement l’initiateur de la discussion peut marquer une réponse comme utile.';
 $string['notteacher'] = 'Seulement les propriétaires de cours peuvent faire ça.';
@@ -295,11 +295,11 @@ $string['subscriptionmode_help'] = 'Quand un participant est abonné à un forum
 * Abonnement auto - Tout le monde est abonné initialement mais peut choisir de se désabonner n’importe quand
 * Abonnement désactivé - Les abonnements ne sont pas autorisés
 
-Note: Chaque modification du mode d’abonnement n’affectera que les futurs inscrits au cours mais pas les utilisateurs existants.';
+Note : chaque modification du mode d’abonnement n’affectera que les futurs inscrits au cours mais pas les utilisateurs existants.';
 $string['subscriptionoptional'] = 'Abonnement facultatif';
 $string['subscriptiontrackingheader'] = 'Abonnement et suivi';
 $string['taskcleanreadrecords'] = 'Moodleoverflow maintenance job pour nettoyer les vieux enregistrements lus';
-$string['tasksendmails'] = 'Moodleoverflow maintenance job pour envoyer les mails';
+$string['tasksendmails'] = 'Tâche de maintenance Moodleoverflow pour envoyer les courriels';
 $string['taskupdategrades'] = 'Tâche de maintenance Moodleoverflow pour mettre à jour les rangs';
 $string['teacherrating'] = 'Solution';
 $string['tracking'] = 'Suivi';
@@ -323,10 +323,10 @@ $string['unsubscribediscussionlink'] = 'Se désabonner de cete discussion : {$a
 $string['unsubscribelink'] = 'Se désabonner de ce forum : {$a}';
 $string['updategrades'] = 'Mise à jour des rangs';
 $string['upvotenotchangeable'] = 'Vote positif (non modifiable)';
-$string['votescaledownvote'] = 'Reputation : Vote négatif';
-$string['votescalehelpful'] = 'Reputation : Utile';
-$string['votescalesolved'] = 'Reputation : Solution';
-$string['votescaleupvote'] = 'Reputation : Vote positif';
+$string['votescaledownvote'] = 'Réputation : Vote négatif';
+$string['votescalehelpful'] = 'Réputation : Utile';
+$string['votescalesolved'] = 'Réputation : Solution';
+$string['votescaleupvote'] = 'Réputation : Vote positif';
 $string['votescalevote'] = 'Réputation : Vote.';
 $string['yournewtopic'] = 'Votre nouveau sujet de discussion';
 $string['yourreply'] = 'Votre réponse';

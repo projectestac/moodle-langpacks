@@ -167,7 +167,7 @@ $string['enablexpgain_help'] = 'Si ce réglage est à « Non », personne ne p
 
 Notez que ceci peut être contrôlé de manière plus fine par la permission \'block/xp:earnxp\'.';
 $string['entersearchterm'] = 'Entrez un terme de recherche';
-$string['errorcontextcoursemismatchforwholesite'] = 'L’URL de cette page <em>Progressez !</em> ne correspond pas à la configuration actuelle du plugin. Votre configuration actuelle déclare que <em>Progressez !</em> doit être utilisé « Pour l’ensemble du site », mais cette page s’attend à ce qu’il soit utilisé « Par cours ». S’il vos plait, <a href="{$a->nexturl}">cliquer ici</a> pour aller à la bonne page. Cherchez le paramètre « block_xp_context » si vous voulez changer votre configuration.';
+$string['errorcontextcoursemismatchforwholesite'] = 'L’URL de cette page <em>Progressez !</em> ne correspond pas à la configuration actuelle du plugin. Votre configuration actuelle déclare que <em>Progressez !</em> doit être utilisé « Pour l’ensemble du site », mais cette page s’attend à ce qu’il soit utilisé « Par cours ». Veuillez <a href="{$a->nexturl}">cliquer ici</a> pour aller à la bonne page. Cherchez le paramètre « block_xp_context » si vous voulez changer votre configuration.';
 $string['errorcontextcoursemismatchpercourse'] = 'L’URL de cette page <em>Progressez !</em> ne correspond pas à la configuration actuelle du plugin. Votre configuration actuelle déclare que <em>Progressez !</em> doit être utilisé « Par cours », mais cette page s’attend à ce qu’il soit utilisé « Pour l’ensemble du site ». Il provient très probablement d’un <em>bloc</em> qui a été ajouté au tableau de bord ou à la page d’accueil dans une configuration différente. Vous devez supprimer le bloc des dernières pages et n’utiliser le bloc que dans les cours individuels.';
 $string['errorformvalues'] = 'll y a quelques problèmes dans les valeurs de formulaire, veuillez les corriger.';
 $string['errorlevelsincorrect'] = 'Le nombre minimum de niveaux est 2';
@@ -248,7 +248,7 @@ $string['levelbadges_help'] = 'Télécharger des images pour remplacer individue
 
 Les fichiers doivent être appelés [niveau].[extension de fichier], soit 1.png, 2.jpg, etc.
 
-Nous recommandons des images d’une taille de 100x100 pixels, dans un de ces types: GIF, JPEG, PNG et SVG.';
+Nous recommandons des images d’une taille de 100x100 pixels, dans un de ces types : GIF, JPEG, PNG et SVG.';
 $string['levelbadgesformhelp'] = 'Nommez les fichiers [niveau].[extension de fichier] par exemple 1.png, 2.jpg, etc. La taille d’image recommandée est 100 x 100.';
 $string['levelcount'] = 'Nombre de niveaux';
 $string['leveldesc'] = 'Description du niveau';

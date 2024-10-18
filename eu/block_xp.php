@@ -40,6 +40,29 @@ $string['addrulesformhelp'] = 'Azken zutabeak irizpidea betetzen denean irabazte
 $string['admindefaultrulesintro'] = 'Hurrengo arauak lehenetsitako gisa erabiliko dira blokea ikastaro batean gehitzen denean.';
 $string['admindefaultsettingsintro'] = 'Azpiko ezarpenak lehenetsitako gisa erabiliko dira blokea ikastaro batean gehitzen denean. Ezarpen batzuk blokeatu daitezke, eta horrela pluginaren instantzia guztiak balio horiek erabiltzera behartuko dira.';
 $string['admindefaultvisualsintro'] = 'Hurrengoak lehenetsitako gisa erabiliko dira blokea ikastaro batean gehitzen denean.';
+$string['adminnoticeoutofsyncmessage'] = 'Maila gora XP eta Maila gora XP+ arteko bateraezintasun abisua!
+
+Mezu hau jaso duzu Maila Gora XP (block_xp) eta Maila gora XP+ (local_xp) pluginak une honetan "sinkronizatu gabe" daudelako eta elkarrekiko bateraezinak direlako. Arazo hau gertatzen da XP bertsio berriago batera eguneratu den bitartean XP+ eguneratu gabe geratu denean.
+
+Sinkronizazio falta honek funtzionalitate galera, arazoak eta bestelako ezusteko ondorioak izan ditzake. Arazo hau konpontzeko, Maila Gora XP+ eguneratu beharko duzu.
+
+**Garrantzitsua!** Etorkizunean, plugin hauek sinkronizatu gabe badaude, Maila Gora XP+ plugina automatikoki desgaituko da. Hori gertatzea ekiditeko, ziurtatu ezazu ez duzula Maila Gora XP bertsio nagusi berri batera eguneratzen aldi berean Maila Gora XP+ ere eguneratu gabe.
+
+- Maila Gora XP (block_xp) bertsioa: {$a->blockxpversion}
+- Maila Gora XP+ (local_xp) bertsioa: {$a->localxpversion}
+- Maila Gora XP+ esperotako bertsioa: {$a->localxpversionexpected}
+
+Baliabide gehigarriak:
+
+- [Eguneratze dokumentazioa](https://docs.levelup.plus/xp/docs/upgrade)
+- [Bateragarritasun dokumentazioa](https://docs.levelup.plus/xp/docs/requirements-compatibility)
+
+--
+
+Jakinarazpen hau kudeatzaile guztiei bidali zaie. Kudeatzaile jakinarazpen guztiak desgaitzeko, joan Maila Gora XP pluginaren kudeaketa-ezarpenetara.';
+$string['adminnoticeoutofsyncsubject'] = 'XP pluginen bateraezintasun abisua!';
+$string['adminnotices'] = 'Kudeatzaile jakinarazpenak';
+$string['adminnotices_desc'] = 'Gaituz gero, guneko kudeatzaileek bateragarritasunarekin, segurtasunarekin eta Maila Gora XP+ bertsio berriekin lotutako jakinarazpenak jaso ahalko dituzte.';
 $string['adminscanearnxp'] = 'Kudeatzaileek puntuak lortu ditzakete';
 $string['adminscanearnxp_desc'] = 'Modu lehenetsian, kudeatzaileak ez daude puntuak eskuratu ahal dituzten erabiltzaileen taldean. Honen arrazoia da kudeatzaileek beti _block/xp:earnxp_ baimena daukatela da, eta horrek etengabe edonon puntuak eskuratzeko aukera ematen die. Ezarpen hau erabili dezakezu kudeatzaileek ere puntuak eskuratu ahal izateko.';
 $string['allcoursesreset'] = 'Ikastaro guztiak berrabiarazi dira.';
@@ -66,6 +89,7 @@ $string['changelevelformhelp'] = 'Maila kopurua aldatzen baduzu, mailen domina p
 $string['changetocourse'] = 'Aldatu ikastaro honetara:';
 $string['changetositewide'] = 'Itzuli gune mailara';
 $string['cheatguard'] = 'Kopiatzearen kontrako babesa';
+$string['cheatguardsettingsmovednotice'] = 'Kopiatzearen kontrako babesaren ezarpenak [ekitaldi-arauen orrira]({$a->url}) mugitu dira.';
 $string['chooseacondition'] = 'Aukeratu baldintza bat';
 $string['clearfilter'] = 'Garbitu iragazkia';
 $string['clicktoselectcm'] = 'Egin klik jarduera edo baliabidea aukeratzeko';
@@ -94,8 +118,10 @@ $string['configtitle_help'] = 'Blokearen izenburua.';
 $string['congratulationsyouleveledup'] = 'Zorionak!';
 $string['coolthanks'] = 'Oso ondo, eskerrik asko!';
 $string['coursea'] = '"{$a}" ikastaroa';
-$string['courselog'] = 'Ikastaroaren erregistroa';
-$string['coursereport'] = 'Ikastaro-txostena';
+$string['courselog'] = 'Erregistroa';
+$string['courselogintro'] = 'Erregistroak antzemandako ekintzak erakusten ditu, baita horietan lortutako puntuak ere.';
+$string['coursereport'] = 'Txostena';
+$string['coursereportintro'] = 'Txostenak partaide bakoitzaren xehetasunak erakusten ditu, eta horien gainean banaka ala guztiekin batera ekintzak egitea ahalbidetzen du.';
 $string['courserules'] = 'Ikastaroko arauak';
 $string['courseselectedcolon'] = 'Aukeratutako ikastaroak:';
 $string['coursesettings'] = 'Ikastaroko ezarpenak';
@@ -107,6 +133,7 @@ Aukeratu emandako sinboloetako bat, edo beste bat igo ezazu!';
 $string['currencysignxp'] = 'XP (Esperientzia puntuak)';
 $string['customizelevels'] = 'Pertsonalizatu mailak';
 $string['dangerzone'] = 'Arrisku-eremua';
+$string['dataformat'] = 'Formatua';
 $string['defaultlevels'] = 'Maila lehenetsiak';
 $string['defaultrules'] = 'Arau lehenetsiak';
 $string['defaultrulesformhelp'] = 'Hauek pluginak eskainitako lehenetsitako arauak dira. Arau hauek puntuak modu lehenetsian ematen dituzte, ekitaldi erredundante batzuk alde batera utzita. Zure arau propioek hauekiko lehentasuna dute.';
@@ -193,9 +220,12 @@ Baliabide gehigarriak:
 - [Arazoen konponketa arauekin](https://docs.levelup.plus/xp/docs/troubleshooting/event-rule-not-working?ref=blockxp_help)';
 $string['eventsrulesintro'] = 'Ikuskatu ekintzak eta eman puntuak ekintza horiek betetzen dituzten ikasleei.';
 $string['eventtime'] = 'Ekitaldiaren denbora';
+$string['export'] = 'Esportatu';
+$string['exportdata'] = 'Esportatu datuak';
 $string['filterbyuser'] = 'Iragazi erabiltzailearen arabera';
 $string['filterellipsis'] = 'Iragazi...';
 $string['filtermodules'] = 'Iragazki-moduluak';
+$string['filterparticipants'] = 'Iragazi partaideak';
 $string['for1day'] = 'Egun baterako';
 $string['for1month'] = 'Hilabete baterako';
 $string['for1week'] = 'Astebeterako';
@@ -205,6 +235,16 @@ $string['forthewholesite'] = 'Gune osorako';
 $string['give'] = 'eman';
 $string['gotofullladder'] = 'Joan lider-panel osora';
 $string['graderules'] = 'Kalifikazio-arauak';
+$string['graderules_help'] = 'Ikasleek euren kalifikazioan beste puntuak lortuko ditu.
+10etik 5eko kalifikazioarekin zein 100etik 5eko kalifikazioarekin ikasleak 5 puntu lortuko ditu.
+Ikaslearen kalifikazioa hainbat aldiz aldatzen denean, ikasleak jasotako gehieneko kalifikazioaren puntuak lortuko ditu.
+Ikasleei inoiz ez zaizkie puntuak kentzen, eta kalifikazio negatiboak ez dira kontuan hartzen.
+
+Adibidez: Jonek zeregin batean bidalketa egiten du, eta 100etik 40ko kalifikazioa jasotzen du. _Maila gora XPn_ Jonek bere kalifikazioarengatik 40 puntu lortuko ditu.
+Jonek bere zereginean saiakera berria egiten du, baina oraingoan 100etik 25eko kalifikazioa jasotzen du. _Maila gora XPn_ Joneren kalifikazioa ez da aldatzen.
+Jonek hirugarren saiakera bat egiten du, eta bertan 100etik 60ko kalifikazioa jasotzen du, eta ondorioz _Maila gora XPn_ 20 puntu gehiago jasotzen ditu, 60 puntu guztira.
+
+[Informazio gehiago _Maila gora XPko_ dokumentazioan](https://docs.levelup.plus/xp/docs/how-to/grade-based-rewards?ref=blockxp_help)';
 $string['graderulesintro'] = 'Kalifikazio-arauek erabiltzaileek jasotako kalifikazioaren puntu berdinak jasotzea ahalbidetzen dute.';
 $string['grid'] = 'Lauki-sarea';
 $string['hasbadgeaward'] = 'Emateko domina multzoa';
@@ -218,21 +258,47 @@ $string['haspopupmessage'] = 'Zorion-mezua multzoa';
 $string['hideparticipantsidentity'] = 'Ezkutatu partaideen identitatea';
 $string['hiderank'] = 'Ezkutatu rankinga';
 $string['importpoints'] = 'Inportatu puntuak';
+$string['importpoints_help'] = 'Inportatzea ikasleen puntu kopurua _handitzeko_ edo emandako balioarekin _gainidazteko_ erabili daiteke.
+
+Kontuan izan inportatzeak __ez duela__ esportatutako txostenaren formatu berdina erabiltzen. Eskatutako formatua [dokumentazioan](https://docs.levelup.plus/xp/docs/how-to/import-points/importing-points-from-csv?ref=localxp_help) azaltzen da, eta bertan [adibiderako fitxategia](https://docs.levelup.plus/xp/docs/how-to/import-points/importing-points-from-csv?ref=localxp_help#sample-file) ere eskuragarri dago.';
 $string['importpointsintro'] = 'Inportatu puntuak CSV fitxategi batetik, eta (aukeran) bidali mezu bat jasotzaileari.';
 $string['incourses'] = 'Ikastaroetan';
 $string['ineffective'] = 'Ez-eraginkorra';
 $string['infos'] = 'Informazioa';
+$string['infos_help'] = 'Informazio-orriak ikasleen mailen ikuspegi orokorra erakusten du, baita horiek lortzeko behar diren puntuak ere. Horretaz gain maila bakoitzaren izena eta deskribapena ere erakusten dira.';
+$string['infosintro'] = 'Informazio-orriak mailen zerrenda bat eta euren xehetasun batzuk erakusten ditu.';
 $string['installed'] = 'Instalatuta';
-$string['instructions'] = 'Informazio gehiago';
+$string['instructions'] = 'Argibideak';
+$string['instructions_help'] = 'Argibideak informazio-orrian erakutsiko dira. Argibideak informazioa partekatzeko eta mailen inguruko azalpenak emateko erabili ditzakezu, esaterako puntuak nola lortzen diren.';
 $string['invalidxp'] = 'Balio-puntu baliobageak';
 $string['keeplogs'] = 'Gorde erregistroak';
 $string['ladder'] = 'Lider-panela';
+$string['ladder_help'] = 'Lider-panelak ikasleak euren puntuazioaren arabera sailkatzen ditu. Taldeak dituen ikastaro batean erabiltzen denean, talde bakoitzarentzako lider-panel bana sortu lezake.
+
+Lider-panela pertsonalizatzeko eta partaideen esperientzia hobetzeko hainbat aukera daude eskuragarri.';
 $string['ladderadditionalcols'] = 'Zutabe gehigarriak';
 $string['ladderadditionalcols_help'] = 'Ezarpen honek lider-panelean erakutsiko diren zutabe gehigarriak zehazten du. Zutabe bat baino gehiago aukeratzeko edo aukeratutako bat kentzeko sakatu ezazu CTRL edo CMD tekla klik egitean.';
 $string['ladderempty'] = 'Lider-panela hutsik dago une honetan, utzi zaitez hona beranduago!';
+$string['ladderintro'] = 'Lider-panelak ikasleak euren puntuazioaren arabera sailkatzen ditu.';
+$string['ladderiso'] = 'Banatu partaideak';
+$string['ladderiso_help'] = 'Partaide-multzo ezberdinentzako banatutako lider-panelak sortu daitezke.
+
+- Lehenetsia (talde-modua): Ikastaroaren talde-modua erabiltzen du talde bakoitzarentzako lider-panel bana sortzen du.
+- Kohorteak erabilita: Kohorte bereko partaideak lider-panel ezberdin batean agertuko dira.
+
+[Informazio gehiago](https://docs.levelup.plus/xp/docs/leaderboard-isolation)';
+$string['ladderisocohorts'] = 'Kohorteak erabilita';
+$string['ladderisodefault'] = 'Lehenetsia (talde-modua)';
+$string['laddersettingsmovednotice'] = 'Lider-panelaren ezarpenak [lider-panelaren orrira]({$a->url}) mugitu dira.';
 $string['learnmore'] = 'Ikasi gehiago';
 $string['level'] = 'Maila';
+$string['levelbadge'] = 'Mailaren domina';
 $string['levelbadges'] = 'Mailen dominak';
+$string['levelbadges_help'] = 'Igo irudiak erabiltzaileen itxura ordekatzeko.
+
+Fitxategiek [maila].[fitxategi-luzapena] izena izan behar dute, esaterako 1.png, 2.png, etabar.
+
+100x100 pixeleko irudiak gomendatzen ditugu, hurrengo formatuetako batean: GIF, JPEG, PNG ala SVG.';
 $string['levelbadgesformhelp'] = 'Izendatu fitxategiak [maila].[fitxategi luzapena] ereduarekin, esaterako 1.png, 2.jpg... Gomendatutako irudi-tamaina 100x100 da.';
 $string['levelcount'] = 'Maila kopurua';
 $string['leveldesc'] = 'Mailaren deskribapena';
@@ -260,6 +326,7 @@ $string['maxactionspertime'] = 'Gehieneko ekintza kopurua denbora-tartean';
 $string['maxactionspertime_help'] = 'Emandako denbora-tartean puntuak eskuratzeko zenbatuko diren gehieneko ekintza kopurua. Horien ondorengo ekintzak ez dira kontuan hartuko. Balio hau hutsik badago edo zero bada, ez da aplikatzen.';
 $string['maxlevelexcl'] = 'maila gorena!';
 $string['menu'] = 'Menua';
+$string['messageprovider:adminnotice'] = 'Kudeatzaileen jakinarazpena';
 $string['missing'] = 'Faltan';
 $string['movecondition'] = 'Mugitu baldintza';
 $string['moverule'] = 'Mugitu araua';
@@ -297,10 +364,13 @@ $string['notesomesettingslocked'] = 'Kontuan izan balitekeela ezarpen batzuk ezi
 $string['nothingmatchesfilter'] = 'Ez dago iragazkiarekin bat datorren ezer.';
 $string['numberoflevels'] = 'Maila kopurua';
 $string['occasionally'] = 'Noizean behin';
-$string['outofsync'] = 'Sinkronizatu gabe';
+$string['outofsync'] = 'XP pluginen bateraezintasuna';
 $string['outofsyncexcessive'] = 'Gehiegizko desinkronizazioa';
-$string['outofsyncexcessiveinfo'] = 'Maila gora XP+ Maila gora XP baino askoz zaharragoa da eta horrek ezusteko arazoak ekar ditzake. Horrelako arazoak saihesteko, baliteke etorkizunean Maila gora XP+ automatikoki desgaitzea.';
-$string['outofsyncinfo'] = 'Maila gora XP pluginak ez dira elkarri bateragarriak eta horrek ezusteko arazoak ekar ditzake.';
+$string['outofsyncexcessiveinfo'] = 'XP+ XP baino askoz zaharragoa da eta horrek ezusteko arazoak ekar ditzake. Etorkizunean XP+ automatikoki desgaituko da.';
+$string['outofsyncinfo'] = 'XP pluginak elkarri bateraezinak dira eta horrek ezusteko arazoak ekar ditzake. Etorkizunean XP+ automatikoki desgaituko da. XP+ pluginaren (local_xp) esperotako bertsioa {$a->localxpversion} da.';
+$string['pagecurrentnotvisibletoviewers'] = 'Orri hau ez dago ikasleentzat ikusgai une honetan.';
+$string['pagecurrentvisibletoviewers'] = 'Orri hau ikasleentzat ikusgai dago une honetan.';
+$string['pagesettings'] = 'Orriaren ezarpenak';
 $string['participant'] = 'Partaidea';
 $string['participants'] = 'Partaideak';
 $string['participatetolevelup'] = 'Ikastaroan parte hartu ezazu puntuak irabazi eta mailaz igotzeko!';
@@ -310,9 +380,9 @@ $string['pluginavailabilityxpdesc'] = 'Plugin honek irakasleari jardueren eskura
 $string['pluginenrolxpdesc'] = 'Plugin honek ikaslearen beste ikastaro bateko mailaren araberako ikastaroetako matrikulazio automatikoa gaitzen du.';
 $string['pluginname'] = 'Maila gora XP';
 $string['pluginshortcodesdesc'] = 'Plugin honek irakasleari edukietan XP-rekin lotutako elementuak erabilita (puntuak, maila, lider-panela) bere materialak pertsonalizatzeko aukera ematen dio, baita ikaslearen mailaren arabera edukiak erakutsi ala ezkutatu ere.';
-$string['pluginsoutofsync'] = '__Pluginak sinkronizatu gabe daude!__
+$string['pluginsoutofsync'] = '__XP pluginen bateraezintasuna!__
 
-Honek esan nahi du _Maila gora XP_ plugina eguneratu duzula baina _Maila gora XP+_ ez. Horrelakorik ez gertatzeko lana egiten dugun arren, baliteke aurrerantzean funtzio batzuk ondo ez funtzionatzea, baita _Maila gora XP_ bera ere.  _Maila gora XP+_ bertsio berrienera eguneratzea gomendatzen dizugu. [Irakurri gehiago]({$a->url})';
+_Maila gora XP_ eta  _Maila gora XP+_ arteko bateragarritasun-arazoak daude. Etorkizunean Maila gora XP+ plugina automatikoki desgaituko da bateragarria ez bada.  Hori gertatzea saihesteko, jarri zaitez harremanetan zure guneko kudeatzailearekin. [Irakurri gehiago]({$a->url})';
 $string['pluginxmaybeincompatible'] = 'Baliteke {$a->name}(r)en bertsio hau ({$a->component}) Moodleko {$a->version} bertsioarekin bateraezina izan daiteke.';
 $string['pointsintimelinker'] = 'denbora-tarte honetan:';
 $string['pointsperlevel'] = 'Maila bakoitzerako puntu kopurua';
@@ -375,13 +445,13 @@ Erregistroak kentzeak erabiltzaileak aurretiko ekintzengatik puntuak berriz lort
 _Maila gora XP_ gune mailan erabiltzean, erabiltzaileak ezabatzeak txostenetik desagertzea suposatuko du, eta ondorioz ezingo diezu puntuak berriz esleitu. _Maila gora XP_ ikastaroetan erabiliz gero ordea, ikaslea txostenean agertzen jarraituko du ikastaroan matrikulatuta badago.
 
 Ziur zaude erabiltzaile honen puntuak eta erregistroak ezabatu nahi dituzula?';
-$string['reallyresetallcourselevelstodefaults'] = 'Benetan ziur zaude ikastaro GUZTIETAKO mailak lehenetsitako mailetara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
-$string['reallyresetallcoursestodefaults'] = 'Ziur zaude ikastaro guztietako arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
-$string['reallyresetallcoursevisualstodefaults'] = 'Benetan ziur zaude ikastaro GUZTIETAKO itxura lehenetsitako itxurara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcourselevelstodefaults'] = 'Ziur zaude ikastaro GUZTIETAKO mailak lehenetsitako mailetara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcoursestodefaults'] = 'Ziur zaude ikastaro GUZTIETAKO arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
+$string['reallyresetallcoursevisualstodefaults'] = 'Ziur zaude ikastaro GUZTIETAKO itxura lehenetsitako itxurara berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
 $string['reallyresetcourselevelstodefaults'] = 'Ziur zaude ikastaro mailak lehenetsitako balioetara berrabiarazi nahi dituzula? Ekintza honek ez dauka atzera bueltarik.';
 $string['reallyresetcourserulestodefaults'] = 'Ziur zaude ikastaro honetako arauak lehenetsitako arauetara berrabiarazi nahi dituzuela? Ekintza honek ez du atzera bueltarik.';
 $string['reallyresetcoursevisualstodefaults'] = 'Ziur zaude ikastaro mailen itxura lehenetsitako balioetara berrabiarazi nahi dituzula? Ekintza honek ez dauka atzera bueltarik.';
-$string['reallyresetdata'] = 'Ziur zaude ikastaro honetako erabiltzaile guztien mailak eta puntuak berrabiarazi nahi dituzula?';
+$string['reallyresetdata'] = 'Ziur zaude ikastaro honetako erabiltzaile guztien mailak eta puntuak berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
 $string['reallyresetgroupdata'] = 'Ziur zaude talde honetako erabiltzaile guztien mailak eta puntuak berrabiarazi nahi dituzula?';
 $string['reallyreverttopluginsdefaults'] = 'Ziur zaude pluginak proposatutako lehenetsitako balioak berrabiarazi nahi dituzula? Ekintza honek ez du atzera bueltarik.';
 $string['recentrewards'] = 'Orain dela gutxiko sariak';
@@ -399,6 +469,7 @@ $string['resetcoursedata'] = 'Berrabiarazi ikastaroko datuak';
 $string['resetcourserulestodefaults'] = 'Berrabiarazi ikastaroko arauak lehenetsitako balioetara';
 $string['resetgroupdata'] = 'Berrabiarazi taldeko datuak';
 $string['resetlevelstodefaults'] = 'Berrabiarazi mailak lehenetsitako balioetara';
+$string['resettodefaults'] = 'Berrabiarazi lehenetsitako balioetara';
 $string['resetvisualstodefaults'] = 'Berrabiarazi mailen itxura lehenetsitako balioetara';
 $string['resultsfilteredforn'] = '{$a}(e)rako iragazitako emaitzak.';
 $string['reverttopluginsdefaults'] = 'Itzuli pluginaren lehenetsitako balioetara';
@@ -459,6 +530,12 @@ $string['rulesformhelp'] = '<p>Plugin honek ekitaldiak erabiltzen ditu ikasleek 
 </ul>
 </p>';
 $string['rulesscope'] = 'Esparrua';
+$string['rulesscope_help'] = 'Arauen esparruak non aplikatuko diren zehazten du.
+
+Arauak bi esparrutan sortu daitezke: gune-mailan eta ikastaro mailan. Posible den heinean, ikastaro mailako arauak lehenago ebaluatzen dira, eta ondoren gune-mailakoak. Modu honetan egiteak irakasleek gune-mailako arau orokorrak sortzea eta gero ikastaro bakoitzean moldatzea ahalbidetzen du.
+
+- Gune-mailan: Arau hauek gune osoan aplikatzen dira, ikastaro mailako arauak ez dauden kasuetan.
+- Ikastaro mailan: Arau hauek ikastaro zehatzetan aplikatzen dira. Gune-mailako arauek baino lehentasun handiagoa dute.';
 $string['ruletypecmcompletion'] = 'Jarduera osaketa';
 $string['ruletypecmcompletiondesc'] = 'Eman puntuak jarduera bat osatuta gisa markatzen denean.';
 $string['ruletypecoursecompletion'] = 'Ikastaro osaketa';
@@ -470,6 +547,7 @@ $string['searchandselectmodule'] = 'Bilatu eta aukeratu jarduera edo baliabidea'
 $string['selectcourse'] = 'Aukeratu ikastaroa';
 $string['send'] = 'Bidali';
 $string['setpoints'] = 'Zehaztu puntuazioak';
+$string['settingsoutdatedxppnotice'] = 'Mezu honen azpian ezarpenak ikusten badituzu, instalatutako XP+ pluginaren bertsioa zaharkituta dagoela esan nahi du. Jarri zaitez harremanetan zure guneko kudeatzailearekin arazoa konpondu dezan bertsio berriena instalatuta.';
 $string['shortcode:xpbadge'] = 'Oraingo erabiltzailearen mailari dagokion domina.';
 $string['shortcode:xpiflevel'] = 'Erakutsi edukia oraingo erabiltzailearen mailarekin bat datorrenean';
 $string['shortcode:xpiflevel_help'] = 'Ikusi azpiko adibideak kode labur hau formateatzeko. Maila konkretu bat zehazten denean, edukia beste arauak kontuan hartu gabe erakutsiko da.
@@ -550,8 +628,17 @@ $string['sitewide'] = 'Gune mailan';
 $string['somefeaturesrequireotherplugins'] = 'Funtzionalitate batzuk plugin gehigarriak instalatzea behar dute.';
 $string['someoneelse'] = 'Beste norbait';
 $string['somethinghappened'] = 'Zerbait gertatu da';
+$string['taskadminnotices'] = 'Kudeatzaileen jakinarazpenak';
 $string['taskcollectionloggerpurge'] = 'Garbitu bildutako erregistroak';
 $string['taskusagereport'] = 'Erabilera txostena';
+$string['teamleaderboard'] = 'Taldearen lider-panela';
+$string['teamleaderboard_help'] = 'Taldearen lider-panelak taldeko kideen lortutako puntuazioaren araberako sailkapena erakusten du.
+
+Taldeak ikastaroko taldeetan oinarrituta ala kohorteak erabiliz sortu daitezke. Taldeen tamaina ezberdinetara egokitzeko aukerak ere badaude.
+
+[Jakin gehiago](https://docs.levelup.plus/xp/docs/how-to/setup-team-leaderboard/team-leaderboard?ref=blockxp_help)';
+$string['teamleaderboardintro'] = 'Taldearen lider-panelak taldeko kideen lortutako puntuazioaren araberako sailkapena da';
+$string['teams'] = 'Taldeak';
 $string['thankyou'] = 'Eskerrik asko!';
 $string['timebetweensameactions'] = 'Ekintza berdinen arteko igaro beharreko denbora';
 $string['timebetweensameactions_help'] = 'Dagoeneko gertatu den ekintza baten ondoren berriz onartua izan dadin pasa beharreko gutxieneko denbora. Ekintza bat berdintzat hartzen da testuinguru eta objektu berean gertatu bada, esaterako foroko elkarrizketa bat berdintzat hartuko da elkarrizketa bera berriz irakurtzen bada. Balio hau hutsik badago, edo zero bada, ez da aplikatzen.';
@@ -575,6 +662,8 @@ $string['unknowneventa'] = 'Ekitaldi ezezaguna ({$a})';
 $string['unknownsectiona'] = 'Atal ezezaguna ({$a})';
 $string['unknowntypea'] = 'Mota ezezaguna ({$a})';
 $string['unlockfeaturewithxpplus'] = 'Desblokeatu funtzio hau Maila Gora XP+-rekin. <a href="{$a}">Gehiago jakin nahi dut</a>';
+$string['unstableversioninstalled'] = 'Garapeneko bertsioa instalatuta';
+$string['unstableversioninstalledinfo'] = 'Maila Gora XP (block_xp) pluginaren bertsio hau oraindik garapenean dago eta ezegonkorra izan daiteke, erabili ezazu mesedez kaleratze ofizial bat.';
 $string['updateandpreview'] = 'Eguneratu eta aurreikusi';
 $string['upgradingplugins'] = 'Pluginak eguneratzen';
 $string['urlaccessdeprecated'] = 'URL bidezko sarbidea zaharkituta dago, mesedez zure estekak eguneratu itzazu.';

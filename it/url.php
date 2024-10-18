@@ -67,6 +67,11 @@ Da notare che è possibile aggiungere URL ad altri tipi di risorse o attività t
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URL';
 $string['name'] = 'Nome';
+$string['name_help'] = 'Questo servirà come testo di collegamento per l\'URL.
+
+Inserire un testo significativo che descriva in modo conciso lo scopo dell\'URL.
+
+Evitare di usare la parola "link". Questo aiuterà gli utenti di screen reader poiché gli screen reader annunciano i link (ad esempio "Moodle.org, link"), quindi non c\'è bisogno di includere la parola "link" nel campo del nome.';
 $string['page-mod-url-x'] = 'Qualsiasi pagina con modulo URL';
 $string['parameterinfo'] = '&amp;parametro=variabile';
 $string['parametersheader'] = 'Parametri URL';

@@ -80,6 +80,7 @@ $string['previewareaheader'] = 'Anteprima';
 $string['previewareamessage'] = 'Seleziona un\'immagine di sfondo, inserisci le etichette di testo per gli indicatori e definisci  sull\'immagine di sfondo le zone di rilascio degli indicatori.';
 $string['privacy:metadata'] = 'Il plugin Tipo di domande \'Trascina e rilascia indicatori\' non memorizza dati personali.';
 $string['privacy:preference:defaultmark'] = 'Punteggio di default di una specifica domanda.';
+$string['privacy:preference:penalty'] = 'Penalità per ogni tentativo errato quando le domande vengono eseguite utilizzando il comportamento \'Interattivo con tentativi multipli\' o \'Modalità adattiva\'.';
 $string['privacy:preference:shuffleanswers'] = 'Randomizzazione automatica delle risposte.';
 $string['refresh'] = 'Aggiorna anteprima';
 $string['shape'] = 'Forma';

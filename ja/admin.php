@@ -101,7 +101,7 @@ $string['blockprotect'] = 'インスタンスを保護する';
 $string['blockprotect_help'] = 'あなたが特定のタイプのブロックをロックした場合、誰もインスタンスを追加または削除できなくなります (もちろん、あなたはできますが、インスタンス編集する場合はロック解除してください)。
 
 これは主に間違って削除された場合に元に戻すことが難しいナビゲーションおよび設定ブロックを保護することを目的としています。';
-$string['blocksettings'] = 'ブロック管理';
+$string['blocksettings'] = 'ブロックを管理する';
 $string['blockunprotect'] = '保護を解除する';
 $string['bloglevel'] = 'ブログ可視性';
 $string['bookmarkadded'] = 'ブックマークが追加されました。';
@@ -1150,7 +1150,7 @@ $string['rememberuserlicensepref_help'] = 'この設定を有効にした場合�
 $string['rememberusername'] = 'ユーザ名を記憶する';
 $string['rememberusername_desc'] = 'ユーザログイン中、あなたがユーザ名を永続クッキーに保存したい場合、この設定を有効にしてください。同意なしに使用した場合、永続的クッキーはプライバシー問題であると考えられる可能性があります。';
 $string['replacefrontsearch'] = 'サイトホームコース検索に使用する';
-$string['reportsmanage'] = 'レポートの管理';
+$string['reportsmanage'] = 'レポートを管理する';
 $string['required'] = '必須';
 $string['requiredentrieschanged'] = '注意: アップグレード後、設定「閲覧の前にエントリを必要とする」が次のデータベース活動で強制されます:<br/>{$a->text}<br/>';
 $string['requiremodintro'] = '活動説明を必須とする';

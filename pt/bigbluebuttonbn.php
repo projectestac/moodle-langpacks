@@ -187,7 +187,7 @@ $string['config_recordings_preview_editable_description'] = 'Se ativar esta opç
 $string['config_scheduled'] = 'Sessões agendadas';
 $string['config_scheduled_description'] = 'Estas configurações definem o comportamento predefinido para as sessões agendadas.';
 $string['config_scheduled_pre_opening'] = 'Disponível antes de hora de início';
-$string['config_scheduled_pre_opening_description'] = 'O período de tempo, em minutos, que a sala abre antes do horário de abertura programado.';
+$string['config_scheduled_pre_opening_description'] = 'O intervalo de tempo, em minutos, que a sala abre antes do horário de abertura programado.';
 $string['config_server_url'] = 'URL do servidor BigBlueButton';
 $string['config_server_url_description'] = 'As credenciais padrão são para um <a href="https://bigbluebutton.org/free-bigbluebutton-service-for-moodle/" target="_blank">serviço BigBlueButton gratuito para o Moodle</a > (abre numa nova janela) fornecido pela Blindside Networks com as seguintes restrições:
 <ol>

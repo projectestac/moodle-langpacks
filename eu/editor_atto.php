@@ -52,6 +52,6 @@ $string['subplugintype_atto'] = 'Atto plugina';
 $string['subplugintype_atto_plural'] = 'Atto pluginak';
 $string['taskautosavecleanup'] = 'Ezabatu iraungitako automatikoki gordetako zirriborroak';
 $string['textrecovered'] = 'Testu honen zirriborroa automatikoki berrezarri da.';
-$string['toolbarconfig'] = 'Konfiguratu tresna-barra';
+$string['toolbarconfig'] = 'Tresna-barraren ezarpenak';
 $string['toolbarconfig_desc'] = 'Pluginen zerrenda eta agertuko diren ordena hemen zehaztu daitezke. Konfigurazioa taldetan antolatzen da (talde bat lerroko) eta ondoren talde horretako pluginen zerrenda. Taldea eta pluginak berdin sinboloa batek banatzen ditu, eta pluginak koma bidez banatzen dira. Taldeen izenak gehigarriek komunean diten ezaugarria adierazi beharko luke. Gehigarri eta taldeen izenak ezin dira errepikatu eta karaktere alfanumerikoak baino ez dituzte izan behar.';
 $string['warningstatus'] = 'Kontuz';

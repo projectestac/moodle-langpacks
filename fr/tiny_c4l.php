@@ -68,8 +68,8 @@ $string['customimagesbank'] = 'Banque d\'images';
 $string['customimagesbankdesc'] = 'Pour insérer l\'une des images téléchargées dans votre code, ajoutez cette ligne :<br />
 <code>&lt;img src="{{filename.extension}}" alt="Image personnalisée"&gt;</code>';
 $string['custompreviewcss'] = 'Code CSS';
-$string['custompreviewcssdesc'] = 'CSS utilisé pour prévisualiser les composants dans l\'éditeur.
-<p>Tout code CSS ajouté ici doit également être inclus soit dans votre thème, soit dans les balises de style <code>&lt;style&gt;...&lt;style&gt;</code> et enregistré dans le paramètre <strong>additionalhtmlhead</strong. > {$a} ;
+$string['custompreviewcssdesc'] = 'CSS utilisé pour prévisualiser les composants dans l’éditeur.
+<p>Tout code CSS ajouté ici doit également être inclus soit dans votre thème, soit dans les balises de style <code>&lt;style&gt;…&lt;style&gt;</code> et enregistré dans le paramètre <strong>additionalhtmlhead</strong. > {$a} ;
  sinon vos styles ne seront pas appliqués à vos composants lors du rendu.</p>';
 $string['do-card'] = 'Carte à faire';
 $string['dodontcards'] = 'Cartes à faire/à ne pas faire';

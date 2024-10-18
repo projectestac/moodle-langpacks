@@ -153,7 +153,7 @@ $string['editingquestionnaire'] = 'Modification du questionnaire - page Généra
 $string['editquestion'] = 'Édition de la question {$a}';
 $string['email'] = 'Courriel';
 $string['emailextra'] = 'Envoyer le téléchargement aux adresses de courriel';
-$string['emailextra_help'] = 'Enverra le fichier téléchargé aux adresses e-mail indiquées, séparées par des virgules. Notez qu’aucune vérification de sécurité ou de confidentialité n’est effectuée.
+$string['emailextra_help'] = 'Enverra le fichier téléchargé aux adresses de courriel indiquées, séparées par des virgules. Notez qu’aucune vérification de sécurité ou de confidentialité n’est effectuée.
 « allowemailreporting » doit être activé dans les paramètres du module pour y accéder.';
 $string['emailroles'] = 'Envoyer le téléchargement aux rôles';
 $string['emailroles_help'] = 'Enverra le fichier de téléchargement à tous les rôles ayant la capacité « mod/questionnaire:submissionnotification » par courriel. « allowemailreporting » doit être activé dans les paramètres du module pour y accéder.';
