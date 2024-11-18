@@ -115,7 +115,7 @@ $string['calculationadd'] = 'Adaugă calculare';
 $string['calculationedit'] = 'Editare calculare';
 $string['calculationsaved'] = 'Calculare salvată';
 $string['calculationview'] = 'Afişează calculare';
-$string['cannotaccessgroup'] = 'Ne pare rău dar notele grupului selectat nu pot fi accesate.';
+$string['cannotaccessgroup'] = 'Ne pare rău, notele grupului selectat nu pot fi accesate.';
 $string['categories'] = 'Categorii';
 $string['category'] = 'Categorie';
 $string['categoryedit'] = 'Modificați categoria';
@@ -355,7 +355,7 @@ $string['gradepublishinglink'] = 'Descarcă: {$a}';
 $string['gradereport'] = 'Raport al notelor';
 $string['graderreport'] = 'Raportul evaluatorului';
 $string['grades'] = 'Note';
-$string['gradesforuser'] = 'Notele pentru {$a->user}';
+$string['gradesforuser'] = 'Notele lui {$a->user}';
 $string['gradesmoduledeletionpendingwarning'] = 'Avertizare: Are loc ștergerea activității! Unele note urmează să fie șterse.';
 $string['gradesmoduledeletionprefix'] = '[Eliminare în curs]';
 $string['gradesonly'] = 'Doar note';
@@ -421,9 +421,9 @@ Un fișier cu formatul corect poate fi obținut prin exportarea mai întâi a un
 $string['importcsv_link'] = 'grade/import/csv/index';
 $string['importcustom'] = 'Import sub formă de rezultate personalizate (numai acest curs)';
 $string['importdata'] = 'Date';
-$string['importdata_help'] = 'Notele pot fi lipite direct dintr-o foaie de calcul OpenDocument sau Excel cu formatul după cum urmează:
+$string['importdata_help'] = 'Notele pot fi lipite direct dintr-o foaie de calcul OpenDocument sau Excel având formatul după cum urmează:
 
-* Cel puțin o coloană trebuie să conțină date de identitate a utilizatorului - nume de utilizator, adresa de e-mail sau numărul de identificare.
+* Cel puțin o coloană trebuie să conțină date despre identitatea utilizatorului - nume de utilizator, adresa de e-mail sau numărul de identificare.
 * Celelalte coloane ar trebui să aibă anteturi ca pentru activitățile existente sau elemente de notare.
 
 O foaie de calcul formatată corect poate fi obținută prin exportarea mai întâi a unor note. Foaia de calcul poate fi apoi editată pentru a adăuga mai multe note și salvată.
@@ -798,7 +798,7 @@ $string['showlocks'] = 'Arată elemente blocate';
 $string['showlocks_help'] = 'Dacă se activează opțiunea, atunci când este activat modul de editare, o pictogramă blocare/deblocare va fi afișată pentru fiecare notă. Astfel se poate controla dacă nota se poate actualiza automat de către activitatea respectivă.  ';
 $string['shownohidden'] = 'Nu afișa';
 $string['shownooutcomes'] = 'Ascunde rezultate';
-$string['shownumberofgrades'] = 'Afișează numărul de clase în medii';
+$string['shownumberofgrades'] = 'Afișează numărul de note în medii';
 $string['shownumberofgrades_help'] = 'Dacă se activează opțiunea, numărul de note folosite la calcularea mediei aritmetice va fi afişat în paranteze după fiecare medie.';
 $string['showonlyactiveenrol'] = 'Afișează doar înrolările active';
 $string['showonlyactiveenrol_help'] = 'Această setare determină dacă doar utilizatorii activi inscriși vor fi vizibili în raportul din catalog. Dacă este dezactivată, utilizatorii suspendați nu vor fi afișați în catalog.';
@@ -813,7 +813,7 @@ $string['showrange_help'] = 'Afișează coloana pentru interval?';
 $string['showranges'] = 'Afişează intervale';
 $string['showranges_help'] = 'Dacă se activează opțiunea, raportul notelor va conţine un rând suplimentar care va afișa gama de note pentru fiecare categorie şi element al notei.';
 $string['showrank'] = 'Afișează rang';
-$string['showrank_help'] = 'Dacă se arată poziția cursantului în raport cu restul clasei pentru fiecare element de notă.';
+$string['showrank_help'] = 'Dacă se afișează poziția cursantului în raport cu restul clasei pentru fiecare element de notă.';
 $string['showuserimage'] = 'Afişează imagini profil utilizatori';
 $string['showuserimage_help'] = 'Afișează sau nu imaginea profilului utilizatorului lângă nume, în raportul notelor.';
 $string['showverbose'] = 'Afişează {$a->category} {$a->itemmodule} {$a->itemname}';

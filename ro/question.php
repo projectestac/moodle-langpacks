@@ -234,7 +234,7 @@ $string['hinttext'] = 'Textul sugestiei';
 $string['howquestionsbehave'] = 'Care este funcționalitatea întrebărilor';
 $string['howquestionsbehave_help'] = 'Cursanții pot interacționa cu întrebările din test în diferite moduri. De exemplu, ați putea dori ca studenții să introducă un răspuns la fiecare întrebare și apoi să trimită testul complet, înainte să primească notă sau feedback. Acesta ar fi modul „Feedback diferit”.
 
-Alternativ, ați putea dori ca cursanții să trimită fiecare întrebare pe măsură continuă testul pentru a obține feedback imediat și, dacă nu găsesc răspunsul corect  imediat, mai pot încerca încă odată și vor primi penalizări la nota finală. Acesta ar fi modul „Interactiv cu mai multe încercări”.
+Alternativ, ați putea dori ca utilizatorii să trimită fiecare întrebare pe măsură continuă testul pentru a obține feedback imediat și, dacă nu găsesc răspunsul corect  imediat, mai pot încerca încă odată și vor primi penalizări la nota finală. Acesta ar fi modul „Interactiv cu mai multe încercări”.
 
 Acestea sunt probabil cele două moduri de comportament cele mai utilizate.';
 $string['howquestionsbehave_link'] = 'question/behaviour';

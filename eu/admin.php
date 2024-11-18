@@ -339,7 +339,7 @@ $string['configoverride'] = 'config.php-n definituta';
 $string['configpasswordpolicy'] = 'Aukera hau gaituz gero, erabiltzaileen pasahitzak alderatuko dira pasahitzen baliozkotasunerako beheko zehaztapenekin. Pasahitzen politikak ez du eraginik izango erabiltzaileengan pasahitza aldatzea erabakitzen ez badute ala eskatzen ez bazaie edo \'Egiaztatu pasahitza saioa hastean\' ezarpena gaituta ez badago.';
 $string['configpasswordpolicycheckonlogin'] = 'Gaituz gero, erabiltzaileen pasahitzek pasahitzen politika betetzen duten egiaztatuko da erabiltzaile bakoitza sartzen den bakoitzean. Egiaztapenak huts egiten badu, erabiltzaileari aurrera egin aurretik pasahitza aldatzeko eskatuko zaio.
 Ezarpen hau gaitzea erabilgarria izan daiteke pasahitzen politika eguneratu ondoren.';
-$string['configpasswordresettime'] = 'Honek pasahitz baten berrabiaraztea iraungi aurretik balioesteko epea zehazten du. Normalean epe egokia 30 minutu izan daiteke.';
+$string['configpasswordresettime'] = 'Honek pasahitz baten berrabiaraztea iraungi aurretik balioztatzeko epea zehazten du. Normalean epe egokia 30 minutu izan daiteke.';
 $string['configpathtodu'] = 'du-rako bidea. Seguru asko honako zerbait: /usr/bin/du. Hori idazten baduzu, direktorioaren edukia erakusten duten orriak askoz azkarrago exekutatuko dira karpetek fitxategi asko dauzkatenean.';
 $string['configpathtophp'] = 'PHP CLI-rako bidea. Seguru asko /usr/bin/php antzeko zerbait. Hori sartuz gero, cron script-ak web-kudeaketako interfazetik exekutatu ahal izango da.';
 $string['configperfdebug'] = 'Aukera hau aktibatuz gero, azal estandarreko orri-oinean gunearen errendimenduaren inguruko informazioa azalduko da.';

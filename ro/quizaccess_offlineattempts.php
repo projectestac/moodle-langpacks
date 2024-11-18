@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowofflineattempts'] = 'Permiteți încercarea offline a testului utilizând aplicația mobilă';
-$string['allowofflineattempts_help'] = 'Dacă este activat, un utilizator de aplicație mobilă poate descărca testul și-l poate îparcurge offline.
+$string['allowofflineattempts_help'] = 'Dacă este activat, un utilizator de aplicație mobilă poate descărca testul și-l poate parcurge offline.
 
 Notă: nu este posibil ca un test să fie încercat offline dacă are o limită de timp, dacă necesită o adresă de rețea sau folosește orice comportament de întrebare, altul decât feedback-ul amânat (cu sau fără CBM) sau folosește navigarea secvențială.';
 $string['confirmdatasaved'] = 'Confirm că nu am activități pe care nu le-am salvat pe dispozitive mobile.';

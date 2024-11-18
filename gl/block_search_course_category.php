@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_courseoverview', language 'ru', version '4.1'.
+ * Strings for component 'block_search_course_category', language 'gl', version '4.1'.
  *
- * @package     report_courseoverview
+ * @package     block_search_course_category
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,6 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseoverview:view'] = 'Просматривать отчет «Обзор курсов»';
-$string['pluginname'] = 'Обзор курсов';
-$string['privacy:metadata'] = 'Плагин обзора курса не хранит никаких личных данных.';
+$string['courseformat_activity'] = 'Actividade única';

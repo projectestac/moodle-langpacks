@@ -243,7 +243,7 @@ Ce tirage peut se faire en définissant l’ensemble des possibilités :
 
 <pre class="prettyprint">A = {1,2,3};<br>C = {[1,-1], [2,-2], [3,-3]};<br>E = {10:100:10, 100, 1000};</pre>
 
-Les élément de l’ensemble peuvent être des nombres, des chaînes ou des listes de nombres ou de chaînes.
+Les éléments de l’ensemble peuvent être des nombres, des chaînes ou des listes de nombres ou de chaînes.
 Au début d’une tentative, un élément de l’ensemble au second membre sera tiré au sort et assigné à la variable au premier membre.
 Pour un ensemble de nombres, vous pouvez utiliser la notation intervalle comme 10:100:10 (voir exemple E ci-dessus.).';
 $string['varsrandom_link'] = 'http://code.google.com/p/moodle-coordinate-question/wiki/Documentation#Random_variables';

@@ -33,6 +33,7 @@ $string['attention'] = 'Atenție';
 $string['button_c4l'] = 'C4L';
 $string['c4l:viewplugin'] = 'Vizualizați pluginul C4L';
 $string['contextual'] = 'Contextual';
+$string['custompreviewcss'] = 'Cod CSS';
 $string['enablepreview'] = 'Activați previzualizarea';
 $string['example'] = 'Exemplu';
 $string['figure'] = 'Cifră';

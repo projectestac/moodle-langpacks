@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_courseoverview', language 'ru', version '4.1'.
+ * Strings for component 'qbehaviour_regexpadaptivewithhelpnopenalty', language 'ru', version '4.1'.
  *
- * @package     report_courseoverview
+ * @package     qbehaviour_regexpadaptivewithhelpnopenalty
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseoverview:view'] = 'Просматривать отчет «Обзор курсов»';
-$string['pluginname'] = 'Обзор курсов';
-$string['privacy:metadata'] = 'Плагин обзора курса не хранит никаких личных данных.';
+$string['getletter'] = 'Получить следующую букву';
+$string['getword'] = 'Получить следующее слово';
+$string['getwordorpunctuation'] = 'Получить следующее слово или знак препинания';
+$string['pluginname'] = '«Короткий ответ с регулярными выражениями» (адаптивный режим с помощью, без штрафа)';
+$string['privacy:metadata'] = '«Короткий ответ с регулярными выражениями» (адаптивный режим с помощью, без штрафа) не хранит персональных данных.';

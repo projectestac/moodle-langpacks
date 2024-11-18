@@ -40,6 +40,30 @@ $string['addrulesformhelp'] = 'Die letzte Spalte definiert die Menge an Erfahrun
 $string['admindefaultrulesintro'] = 'Die folgenden Regeln werden in Kursen, in denen der Block hinzugefügt wird, als Standard verwendet.';
 $string['admindefaultsettingsintro'] = 'Die folgenden Einstellungen werden als Standard verwendet, wenn der Block neu in einen Kurs eingefügt wird. Einige Einstellungen können gesperrt werden, wobei dann deren Wert in allen Instanzen des Plugins festgesetzt wird.';
 $string['admindefaultvisualsintro'] = 'Das Folgende wird als Standard genutzt, wenn der Block neu in einen Kurs eingefügt wird.';
+$string['adminnoticeoutofsyncmessage'] = 'Level Up XP und Level Up XP+ Inkompatibilitätshinweis!
+
+Sie erhalten diesen Hinweis als Warnung, weil die beiden Plugins Level Up XP (block_xp) und Level Up XP+ (local_xp) derzeit „nicht synchron“ und inkompatibel zueinander sind. Dieses Problem tritt auf, wenn XP auf eine neue Hauptversion aktualisiert wurde, während XP+ weiterhin veraltet ist.
+
+Diese Nichtübereinstimmung kann zu Funktionsverlusten, Fehlern und anderen unerwarteten Folgen führen. Um dieses Problem zu beheben, müssen Sie Level Up XP+ aktualisieren.
+
+**Wichtig!** Wenn diese Plugins in Zukunft nicht mehr synchron sind, wird sich Level Up XP+ automatisch deaktivieren. Um dies zu verhindern, stellen Sie sicher, dass Sie Level Up XP nicht auf eine neue Hauptversion aktualisieren, ohne auch Level Up XP+ zu aktualisieren.
+
+- Level Up XP (block_xp) Version: {$a->blockxpversion}
+- Level Up XP+ (local_xp) Version: {$a->localxpversion}
+- Level Up XP+ erwartete Version: {$a->localxpversionexpected}
+
+Zusätzliche Ressourcen:
+
+
+- [Dokumentation zum Upgrade](https://docs.levelup.plus/xp/docs/upgrade)
+- [Kompatibilitätsdokumentation](https://docs.levelup.plus/xp/docs/requirements-compatibility)
+
+--
+
+Dieser Hinweis wurde an alle Administratoren gesendet. Um alle Admin-Benachrichtigungen zu deaktivieren, besuchen Sie bitte die Admin-Einstellungen von Level Up XP.';
+$string['adminnoticeoutofsyncsubject'] = 'Hinweis zur Inkompatibilität der XP-Plugins!';
+$string['adminnotices'] = 'Admin Hinweise';
+$string['adminnotices_desc'] = 'Wenn diese Funktion aktiviert ist, können Website-Administratoren gelegentlich wichtige Benachrichtigungen über Kompatibilität, Sicherheit und die Verfügbarkeit neuerer Versionen von Level Up XP+ erhalten.';
 $string['adminscanearnxp'] = 'Administrator/innen können Punkte sammeln';
 $string['adminscanearnxp_desc'] = 'Standardmäßig können Administrator/innen keine Punkte sammeln, da sie die Berechtigung _block/xp:earnxp_ haben. Diese Berechtigung erlaubt es, überall in allen Kontexten Punkte zu sammeln. Sie können diese Einstellung verwenden, um auch Administrator/innen Punkte sammeln zu lassen.';
 $string['allcoursesreset'] = 'Alle Kurse wurden zurückgesetzt';
@@ -66,6 +90,7 @@ $string['changelevelformhelp'] = 'Wenn Sie die Anzahl der Level ändern, werden 
 $string['changetocourse'] = 'Zum Kurs wechseln';
 $string['changetositewide'] = 'Zurück zu systemweit';
 $string['cheatguard'] = 'Schutz gegen Betrug';
+$string['cheatguardsettingsmovednotice'] = 'Die Einstellungen zum Schutz gegen Betrug wurden auf die [Event Regeln Seite]({$a->url}) verschoben';
 $string['chooseacondition'] = 'Eine Bedingung wählen';
 $string['clearfilter'] = 'Filter löschen';
 $string['clicktoselectcm'] = 'Klicken Sie, um eine Aktivität oder ein Material auszuwählen';
@@ -94,8 +119,10 @@ $string['configtitle_help'] = 'Titel des Blocks';
 $string['congratulationsyouleveledup'] = 'Herzlichen Glückwunsch!';
 $string['coolthanks'] = 'Cool, Danke!';
 $string['coursea'] = 'Kurs "{$a}"';
-$string['courselog'] = 'Kurslog';
-$string['coursereport'] = 'Kursbericht';
+$string['courselog'] = 'Log';
+$string['courselogintro'] = 'Das Log zeigt an, welche Aktionen beobachtet wurden und wie viele Punkte dafür vergeben wurden.';
+$string['coursereport'] = 'Bericht';
+$string['coursereportintro'] = 'Der Bericht enthält Einzelheiten zu jede/r Teilnehmer/in und unterstützt das Handeln für jeden einzelnen oder für die Gesamtheit der Teilnehmer/innen.';
 $string['courserules'] = 'Kursregeln';
 $string['courseselectedcolon'] = 'Ausgewählter Kurs:';
 $string['coursesettings'] = 'Kurseinstellungen';
@@ -107,6 +134,7 @@ Wählen Sie aus den bereitgestellten Bezeichnungen oder laden Sie Ihre eigene ho
 $string['currencysignxp'] = 'XP (Erfahrungspunkte)';
 $string['customizelevels'] = 'Level anpassen';
 $string['dangerzone'] = 'Gefahrenzone';
+$string['dataformat'] = 'Format';
 $string['defaultlevels'] = 'Standardlevel';
 $string['defaultrules'] = 'Standardregeln';
 $string['defaultrulesformhelp'] = 'Dies sind die voreingestellten Regeln des Plugins. Sie vergeben automatisch Erfahrungspunkte und ignorieren redundante Events. Individuell festgelegte Regeln überschreiben diese Voreinstellungen.';
@@ -193,9 +221,12 @@ Zusätzliche Infos finden Sie hier:
 - [Fehlerbehebung](https://levelup.plus/docs/article/event-rule-not-working?ref=blockxp_help)';
 $string['eventsrulesintro'] = 'Interaktion beobachten und Punkte vergeben.';
 $string['eventtime'] = 'Eventzeitpunkt';
+$string['export'] = 'Export';
+$string['exportdata'] = 'Daten exportieren';
 $string['filterbyuser'] = 'Filter nach Person';
 $string['filterellipsis'] = 'Filter ...';
 $string['filtermodules'] = 'Filter Module';
+$string['filterparticipants'] = 'Teilnehmer/innen filtern';
 $string['for1day'] = 'Für einen Tag';
 $string['for1month'] = 'Für einen Monat';
 $string['for1week'] = 'Für eine Woche';
@@ -234,16 +265,34 @@ $string['importpointsintro'] = 'Punkte von einem CSV-Dokument importieren und op
 $string['incourses'] = 'In Kursen';
 $string['ineffective'] = 'Ineffektiv';
 $string['infos'] = 'Information';
+$string['infos_help'] = 'Die Informationsseite gibt den Teilnehmer/innen einen Überblick über die Level und die zum Erreichen der Level erforderlichen Punkte. Sie zeigt auch den Namen jedes Levels und die Beschreibung des Levels an.';
+$string['infosintro'] = 'Die Informationsseite zeigt die Liste der Levels und einige ihrer Details an.';
 $string['installed'] = 'Installiert';
-$string['instructions'] = 'Weitere Informationen';
+$string['instructions'] = 'Anleitungen';
+$string['instructions_help'] = 'Die Anleitungen werden auf der Informationsseite angezeigt. Sie können sie nutzen, um Informationen und Anleitungen zu den Levels, zur Punktevergabe usw. weiterzugeben.';
 $string['invalidxp'] = 'Ungültiger Punktewert';
 $string['keeplogs'] = 'Logdaten behalten';
 $string['ladder'] = 'Bestenliste';
+$string['ladder_help'] = 'In der Bestenliste werden die Teilnehmer/innen auf der Grundlage ihrer Punkte bewertet. Wenn sie in einem Kurs mit Gruppen verwendet wird, kann eine Bestenliste für jede Gruppe von Teilnehmer/innen erstellt werden.
+
+Es stehen mehrere Optionen zur Verfügung, um die Bestenliste und die Erfahrung, die sie den Teilnehmer/innen bietet, individuell zu gestalten.';
 $string['ladderadditionalcols'] = 'Zusätzliche Spalten';
 $string['ladderadditionalcols_help'] = 'Diese Einstellung bestimmt, welche zusätzlichen Spalten auf der Bestenliste angezeigt werden. Drücken Sie beim Klicken die STRG- oder CMD-Taste, um mehr als eine Spalte auszuwählen oder eine ausgewählte Spalte abzuwählen.';
 $string['ladderempty'] = 'Die Bestenliste ist im Moment leer. Versuchen Sie es später noch einmal!';
+$string['ladderintro'] = 'Die Bestenliste zeigt eine Rangliste der einzelnen Personen auf der Grundlage ihrer Gesamtpunktzahl.';
+$string['ladderiso'] = 'Teilnehmer/innen isolieren';
+$string['ladderiso_help'] = 'Erstellen Sie getrennte Bestenlisten für verschiedene Gruppen von Personen.
+
+- Standard (Gruppenmodus): Folgt dem Gruppenmodus des Kurses und erstellt Bestenlisten für jede Gruppe.
+- Globale Gruppen verwenden: Nur Mitglieder derselben Kohorte erscheinen in der Bestenliste einer Person.
+
+[Mehr Infos](https://docs.levelup.plus/xp/docs/leaderboard-isolation)';
+$string['ladderisocohorts'] = 'globale Gruppen verwenden';
+$string['ladderisodefault'] = 'Default (Gruppenmodus)';
+$string['laddersettingsmovednotice'] = 'Die Einstellungen für die Bestenliste wurden auf die [Seite Bestenliste]({$a->url}) verschoben.';
 $string['learnmore'] = 'Mehr erfahren';
 $string['level'] = 'Level';
+$string['levelbadge'] = 'Levelabzeichen';
 $string['levelbadges'] = 'Levelabzeichen';
 $string['levelbadges_help'] = 'Bilder hochladen, um das Erscheinungsbild der einzelnen Level zu ersetzen.
 
@@ -277,6 +326,7 @@ $string['maxactionspertime'] = 'Max. Aktionen im Zeitrahmen';
 $string['maxactionspertime_help'] = 'Die maximale Anzahl von Aktionen, die während des Zeitrahmens für Punkte gegeben werden. Jede nachfolgende Aktion wird ignoriert. Dies ist ausgeschaltet, wenn dieser Wert leer oder gleich Null ist.';
 $string['maxlevelexcl'] = 'max. Level!';
 $string['menu'] = 'Menü';
+$string['messageprovider:adminnotice'] = 'Admin Hinweis';
 $string['missing'] = 'Fehlend';
 $string['movecondition'] = 'Bedingung verschieben';
 $string['moverule'] = 'Regel verschieben';
@@ -315,10 +365,13 @@ $string['notesomesettingslocked'] = 'Beachten Sie, dass manche Einstellungen nic
 $string['nothingmatchesfilter'] = 'Nichts entspricht dem Filter.';
 $string['numberoflevels'] = 'Anzahl der Level';
 $string['occasionally'] = 'Manchmal';
-$string['outofsync'] = 'Versionsunterschiede';
+$string['outofsync'] = 'XP Plugins Inkompatibilität';
 $string['outofsyncexcessive'] = 'Große Versionsunterschiede';
 $string['outofsyncexcessiveinfo'] = 'XP+ ist wesentlich älter als XP, was zu unerwarteten Problemen führen kann. Um eine Fehlfunktion zu vermeiden, könnte sich XP+ automatisch deaktivieren.';
-$string['outofsyncinfo'] = 'Die XP Plugins haben unterschiedliche Versionen, was zu unerwarteten Problemen führen kann.';
+$string['outofsyncinfo'] = 'Die XP-Plugins sind nicht miteinander kompatibel, was zu unerwarteten Problemen führen kann. In Zukunft wird sich XP+ automatisch selbst deaktivieren. Die Version {$a->localxpversion} von Level Up XP+ (local_xp) wird erwartet.';
+$string['pagecurrentnotvisibletoviewers'] = 'Diese Seite ist derzeit für Teilnehmer/innen nicht sichtbar.';
+$string['pagecurrentvisibletoviewers'] = 'Diese Seite ist derzeit für Teilnehmer/innen sichtbar.';
+$string['pagesettings'] = 'Seiteneinstellungen';
 $string['participant'] = 'Teilnehmer/in';
 $string['participants'] = 'Teilnehmer/innen';
 $string['participatetolevelup'] = 'Beteiligen Sie sich am Kurs, um Erfahrungspunkte zu sammeln und Ihr Level zu verbessern!';
@@ -328,9 +381,9 @@ $string['pluginavailabilityxpdesc'] = 'Mit diesem Plugin können Trainer/innen d
 $string['pluginenrolxpdesc'] = 'Dieses Plugin ermöglicht die automatische Einschreibung in Kurse basierend auf dem erreichen Level in einem anderen Kurs.';
 $string['pluginname'] = 'Level Up XP';
 $string['pluginshortcodesdesc'] = 'Mit diesem Plugin können Trainer/innen ihr Material anpassen, indem sie XP-bezogene Elemente (Punkte, Level, Bestenliste usw.) in den Kurs aufnehmen und Inhalte basierend auf dem Level verbergen oder anzeigen.';
-$string['pluginsoutofsync'] = '__Die Plugins sind nicht synchronisiert__
+$string['pluginsoutofsync'] = '__Inkompatibilität der XP-Plugins!__
 
-Das bedeutet, dass Sie _Level Up XP_ upgegradet haben aber nicht _Level Up XP+_. Obwohl wir unser Bestes tun, um Probleme zu vermeiden, könnten einige Funktionen nicht mehr richtig funktionieren, auch in _Level Up XP_ selbst nicht. Wir empfehlen Ihnen, ein Upgrade _Level Up XP+_ auf die neueste Version zu aktualisieren. [Read more]({$a->url})';
+Es gibt Kompatibilitätsprobleme zwischen Level Up XP und Level Up XP+. In Zukunft wird sich Level Up XP+ automatisch deaktivieren, wenn es nicht kompatibel ist. Um dies zu verhindern, kontaktieren Sie bitte Ihren Website-Administrator. [Mehr lesen]({$a->url})';
 $string['pluginxmaybeincompatible'] = 'Diese Version von {$a->name} ({$a->component}) könnte nicht mit Moodle {$a->version} kompatibel sein.';
 $string['pointsintimelinker'] = 'pro';
 $string['pointsperlevel'] = 'Punkte pro Level';
@@ -417,6 +470,7 @@ $string['resetcoursedata'] = 'Kursdaten zurücksetzen';
 $string['resetcourserulestodefaults'] = 'Kursregeln auf Standardwerte zurücksetzen';
 $string['resetgroupdata'] = 'Gruppendaten zurücksetzen';
 $string['resetlevelstodefaults'] = 'Level zu Standardlevel zurücksetzen';
+$string['resettodefaults'] = 'Auf Standardwerte zurücksetzen';
 $string['resetvisualstodefaults'] = 'Darstellung zur Standarddarstellung zurücksetzen';
 $string['resultsfilteredforn'] = 'Ergebnisse gefiltert nach {$a}.';
 $string['reverttopluginsdefaults'] = 'Zurück zu den Standardeinstellungen des Plugins';
@@ -493,6 +547,7 @@ $string['searchandselectmodule'] = 'Suchen und wählen Sie eine Aktivität oder 
 $string['selectcourse'] = 'Kurs wählen';
 $string['send'] = 'Senden';
 $string['setpoints'] = 'Punkte vergeben';
+$string['settingsoutdatedxppnotice'] = 'Wenn Sie die folgenden Einstellungen sehen, bedeutet dies, dass eine veraltete Version von XP+ installiert ist. Bitten Sie Ihren Administrator, das Problem durch Installation der neuesten Versionen zu beheben.';
 $string['shortcode:xpbadge'] = 'Die Auszeichnung entspricht dem aktuellen Nutzerlevel.';
 $string['shortcode:xpiflevel'] = 'Inhalt anzeigen, wenn das Level der aktuellen Person passt.';
 $string['shortcode:xpiflevel_help'] = 'Beziehen Sie sich auf die folgenden Beispiele, um den Shortcode zu formatieren. Wenn eine Stufe exakt definiert ist, wird der Inhalt unabhängig von den anderen Regeln angezeigt.
@@ -574,8 +629,17 @@ $string['sitewide'] = 'Systemweit';
 $string['somefeaturesrequireotherplugins'] = 'Für einige Funktionen müssen zusätzliche Plugins installiert werden.';
 $string['someoneelse'] = 'Jemand anderes';
 $string['somethinghappened'] = 'Etwas ist passiert';
+$string['taskadminnotices'] = 'Admin Hinweise';
 $string['taskcollectionloggerpurge'] = 'Sammelprotokolle löschen';
 $string['taskusagereport'] = 'Nutzungsbericht';
+$string['teamleaderboard'] = 'Team Bestenliste';
+$string['teamleaderboard_help'] = 'Die Team Bestenliste zeigt eine Rangliste der Teams auf der Grundlage der kumulierten Gesamtpunkte ihrer Mitglieder.
+
+Die Teams können aus Kursgruppen oder globalen Gruppen gebildet werden. Es gibt auch Optionen zur Anpassung an unterschiedliche Teamgrößen.
+
+[Erfahren Sie mehr](https://docs.levelup.plus/xp/docs/how-to/setup-team-leaderboard/team-leaderboard?ref=blockxp_help)';
+$string['teamleaderboardintro'] = 'Die Team Bestenliste ist eine Rangliste der Teams auf der Grundlage der Punkte ihrer Mitglieder';
+$string['teams'] = 'Teams';
 $string['thankyou'] = 'Vielen Dank!';
 $string['timebetweensameactions'] = 'Erforderlicher Zeitabstand zwischen identischen Aktionen';
 $string['timebetweensameactions_help'] = 'Die Mindestdauer, die zwischen zwei gleichen Aktionen liegen muss. Eine Aktion gilt als identisch wenn sie im gleichen Objekt und Kontext erfolgt. Beispiel: Das Lesen eines Forenbeitrags ist identisch mit dem wiederholten Lesen des gleichen Forenbeitrags. Wenn dieser Wert leer oder gleich Null ist, gilt er nicht.';
@@ -599,6 +663,8 @@ $string['unknowneventa'] = 'Unbekanntes Ereignis ({$a})';
 $string['unknownsectiona'] = 'Unbekannter Abschnitt ({$a})';
 $string['unknowntypea'] = 'Unbekannter Typ ({$a})';
 $string['unlockfeaturewithxpplus'] = 'Schalten Sie dieses Feature mit XP+ frei. <a href="{$a}">Weitere Informationen</a>';
+$string['unstableversioninstalled'] = 'Instabile Version installiert';
+$string['unstableversioninstalledinfo'] = 'Diese Version von Level Up XP (block_xp) befindet sich noch in der Entwicklung und gilt als instabil, bitte verwenden Sie eine offizielle Version.';
 $string['updateandpreview'] = 'Aktualisieren und Vorschau';
 $string['upgradingplugins'] = 'Die Plugins aktualisieren';
 $string['urlaccessdeprecated'] = 'Zugriff über diese URL ist abgelaufen, bitte aktualisieren Sie Ihre Links.';

@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['passworderror'] = 'Parola completată nu este corectă';
 $string['pluginname'] = 'Regulă de acces de tip parolă';
 $string['privacy:metadata'] = 'Regulă de acces de tip parolă nu stochează date personale.';
-$string['quizpassword'] = 'Parola chestionarului';
+$string['quizpassword'] = 'Parola testului';
 $string['requirepasswordmessage'] = 'Pentru a putea răspunde la acest test aveţi nevoie de parolă';

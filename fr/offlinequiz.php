@@ -824,6 +824,7 @@ $string['statisticsplural'] = 'Statistiques';
 $string['statisticsviewheader'] = '3. Statistiques';
 $string['statsoverview'] = 'Vue d’ensemble des statistiques';
 $string['studycode'] = 'Code étudiant';
+$string['subplugintype_offlinequiz_plural'] = 'Rapports Offlinequiz';
 $string['tabattendances'] = 'Présences';
 $string['tabattendancesoverview'] = 'Présences';
 $string['tabdownloadparticipantsforms'] = 'Formulaires';

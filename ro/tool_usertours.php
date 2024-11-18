@@ -188,7 +188,7 @@ $string['tour2_content_customisation'] = 'Pentru a modifica setările cursului, 
 $string['tour2_content_end'] = 'Acesta este sfârșitul turului dvs. de utilizator. Nu se va afișa din nou decât dacă îl resetați folosind linkul din subsol. Administratorul site-ului poate crea și alte tururi pentru acest site, dacă este necesar.';
 $string['tour2_content_navigation'] = 'Navigarea se face acum prin acest sertar nav. Folosiți butonul din partea de sus pentru a-l ascunde sau a-l afișa. Veți vedea că există linkuri pentru secțiunile cursului dvs.';
 $string['tour2_content_opendrawer'] = 'Încercați să deschideți sertarul de navă acum.';
-$string['tour2_content_participants'] = 'Vizualizați participanții aici. Aici mergeți și pentru a adăuga sau a elimina studenți.';
+$string['tour2_content_participants'] = 'Vizualizați participanții aici. Aici mergeți și pentru a adăuga sau a elimina cursanții.';
 $string['tour2_content_welcome'] = 'Bine ai venit la tema Boost. Dacă site-ul dvs. a fost actualizat de la o versiune anterioară, s-ar putea să găsiți că lucrurile arată puțin diferit aici, pe pagina cursului.';
 $string['tour2_title_addblock'] = 'Adaugă un bloc';
 $string['tour2_title_addingblocks'] = 'Se adaugă blocuri';
@@ -218,7 +218,7 @@ Puteți alege să afișați activități în săptămâna următoare, luna urmă
 Puteți afișa, de asemenea, elemente care sunt restante.';
 $string['tour3_title_dashboard'] = 'Tabloul dvs. de bord';
 $string['tour3_title_displayoptions'] = 'Opțiuni de afișare';
-$string['tour3_title_overview'] = 'Cursurile mele';
+$string['tour3_title_overview'] = 'Privire de ansamblu asupra cursului';
 $string['tour3_title_recentcourses'] = 'Cursuri recent accesate';
 $string['tour3_title_starring'] = 'Cursuri cu vedete și ascunderi';
 $string['tour3_title_timeline'] = 'Bloc cronologie';

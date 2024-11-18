@@ -158,7 +158,7 @@ $string['errorrequestalreadyexists'] = 'Dagoeneko baduzu aribidean dagoen eskaer
 $string['errorrequestnotfound'] = 'Ez da eskaera aurkitu';
 $string['errorrequestnotwaitingforapproval'] = 'Eskaera ez dago onartzeko zai. Oraindik ez dago prest edo dagoeneko prozesatu da.';
 $string['errorsendingmessagetodpo'] = 'Errore bat gertatu da {$a}(r)i mezu bat bidaltzen saiatzean.';
-$string['exceptionnotificationbody'] = '<p>Salbuespena gertatu da <b>{$a->fullmethodname}</b>(e)ra deitzean.<br>Honek esan nahi du <b>{$a->component}</b> pluginak ez duela datu-prozesatzea osatu. Salbuespenaren inguruko hurrengo informazioa pluginaren garatzaileari helarazi ahal dioz:</p><pre>{$a->message}<br>
+$string['exceptionnotificationbody'] = '<p>Salbuespena gertatu da <b>{$a->fullmethodname}</b>(e)ra deitzean.<br>Honek esan nahi du <b>{$a->component}</b> pluginak ez duela datu-prozesatzea osatu. Salbuespenaren inguruko hurrengo informazioa pluginaren garatzaileari helarazi ahal diozu:</p><pre>{$a->message}<br>
 
 {$a->backtrace}</pre>';
 $string['exceptionnotificationsubject'] = 'Salbuespena gertatu da pribatutasun-datuak prozesatzean';

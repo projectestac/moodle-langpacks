@@ -58,7 +58,7 @@ SAGE : utilise le logiciel de mathématiques formelles Open Source <a href="htt
 
 Équivalence : ceci est la plus simple de toutes les méthodes. Elle n’effectue que les règles basiques de comparaisons entre des expressions algébriques.';
 $string['compareequiv'] = 'Equivalence';
-$string['compareeval'] = 'Evaluation';
+$string['compareeval'] = 'Évaluation';
 $string['comparesage'] = 'SAGE';
 $string['correctansweris'] = 'La réponse correcte est : {$a} qui donne';
 $string['correctanswers'] = 'Réponses correctes';
@@ -74,7 +74,7 @@ $string['dollars'] = '$$…$$';
 $string['duplicatevar'] = 'Nom de variable dupliqué : « {$a} » est déjà défini.';
 $string['dynamic'] = 'Utilisation d’un requête dynamique AJAX';
 $string['editingalgebra'] = 'Édition d’une question algèbre';
-$string['evalchecks'] = 'Evaluations de contrôle';
+$string['evalchecks'] = 'Évaluations de contrôle';
 $string['exceptionmessage'] = '{$a}';
 $string['filloutoneanswer'] = 'Vous devez fournir au moins une réponse possible. Les réponses laissées en blanc ne seront pas utilisés. \'*\' Peut être utilisé comme un joker pour tous les caractères. La première réponse correspondante sera utilisée pour déterminer le score et commentaires. Seules les variables définies ci-dessus sont autorisés';
 $string['filloutonevariable'] = 'Vous devez fournir au moins une variable.';

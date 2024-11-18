@@ -134,6 +134,7 @@ $string['data:viewrating'] = 'Visualitzar la valoració total rebuda per l\'usua
 $string['data:writeentry'] = 'Escriure entrades';
 $string['date'] = 'Data';
 $string['dateentered'] = 'Data d\'introducció';
+$string['datemodified'] = 'Última edició:';
 $string['defaultfielddelimiter'] = '(per defecte és una coma)';
 $string['defaultfieldenclosure'] = '(per defecte no s\'utilitza)';
 $string['defaultsortfield'] = 'Camp d\'ordenació per defecte';

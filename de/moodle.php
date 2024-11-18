@@ -2132,7 +2132,7 @@ $string['suspended'] = 'gesperrt';
 $string['suspendedusers'] = 'Gesperrte Nutzer/innen';
 $string['switchdevicedefault'] = 'Standarddesign';
 $string['switchdevicerecommended'] = 'Empfohlenes Design für dieses Gerät';
-$string['switchrolereturn'] = 'Zurück zur Ausgangsrolle';
+$string['switchrolereturn'] = 'Zur normalen Rolle';
 $string['switchroleto'] = 'Rolle wechseln …';
 $string['switchroleto_help'] = 'Wählen Sie eine Rolle, um eine Vorstellung davon zu bekommen, wie jemand mit dieser Rolle diesen Kurs sehen wird.
 

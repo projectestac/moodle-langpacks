@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['adhoc'] = 'Ad-hoc';
-$string['adhocempty'] = 'Die Warteschlange für Ad-hoc-Tasks ist leer';
+$string['adhocempty'] = 'Die Warteschlange für Ad-hoc-Tasks ist leer.';
 $string['adhocqueueold'] = 'Der älteste Task ist {$a->age}, was mehr ist als {$a->max}';
-$string['adhocqueuesize'] = 'Die Warteschlange für Ad-hoc-Tasks hat {$a} Tasks';
+$string['adhocqueuesize'] = 'Die Warteschlange für Ad-hoc-Tasks hat {$a} Tasks.';
 $string['adhoctaskid'] = 'Ad-hoc-Task-ID: {$a}';
 $string['adhoctasks'] = 'Ad-hoc-Tasks';
 $string['asap'] = 'ASAP';
@@ -76,7 +76,7 @@ $string['started'] = 'Gestartet';
 $string['taskdisabled'] = 'Vorgang deaktiviert';
 $string['taskfailures'] = '{$a} Task(s) schlagen fehl';
 $string['tasklogs'] = 'Task-Logdaten';
-$string['tasknofailures'] = 'Keine Tasks schlagen fehl';
+$string['tasknofailures'] = 'Keine Task ist fehlgeschlagen.';
 $string['taskscheduleday'] = 'Tag';
 $string['taskscheduleday_help'] = 'Zeitplanung: Tag des Monats. Das Feld verwendet das gleiche Format wie der Unix Cron. Einige Beispiele:
 

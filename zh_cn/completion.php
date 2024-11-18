@@ -138,6 +138,7 @@ $string['csvdownload'] = '以电子表格格式（UTF-8.csv）下载';
 $string['datepassed'] = '通过日期';
 $string['days'] = '天数';
 $string['daysoftotal'] = '{$a->days}天，总共有 {$a->total}天';
+$string['daysuntilcompletion'] = '完成时间';
 $string['defaultcompletion'] = '默认的活动完成设置';
 $string['defaultcompletionupdated'] = '修改已经保存';
 $string['deletecompletiondata'] = '删除已完成数据';

@@ -37,6 +37,7 @@ $string['cliexportstartexport'] = 'Esportazione lingua {$a}';
 $string['cliexportzipdone'] = 'Zip creato: {$a}';
 $string['cliexportzipfail'] = 'Non è possibile creare lo zip {$a}';
 $string['clifiles'] = 'File da importare su {$a}';
+$string['cliimporting'] = 'Importa file stringa (modalità {$a})';
 $string['climissingfiles'] = 'File validi mancanti';
 $string['climissinglang'] = 'Lingua mancante';
 $string['climissingmode'] = 'Modalità mancante o non valida (modalità valide: all, new, update)';
