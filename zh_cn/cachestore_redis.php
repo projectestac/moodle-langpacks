@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_redis', language 'zh_cn', version '4.1'.
+ * Strings for component 'cachestore_redis', language 'zh_cn', version '4.4'.
  *
  * @package     cachestore_redis
  * @category    string
@@ -25,9 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['ca_file'] = 'CA 文件路径';
+$string['ca_file_help'] = '证书颁发机构文件的位置';
+$string['clustermode'] = '集群模式';
+$string['clustermode_help'] = '启用集群模式将运行 Redis 集群功能，让您的服务器能够为多个服务器提供服务，同时处理并发请求。';
+$string['clustermodeunavailable'] = 'Redis 集群不可用，请确保 PHP Redis 扩展支持 Redis 集群功能。';
 $string['compressor_none'] = '没有压缩。';
 $string['compressor_php_gzip'] = '使用gzip压缩。';
 $string['compressor_php_zstd'] = '使用Zstandard压缩。';
+$string['encrypt_connection'] = '使用 TLS 加密';
+$string['encrypt_connection_help'] = '使用 TLS 连接到 Redis，请勿在 Redis 的主机名中使用“tls://”，而应使用此选项。';
 $string['password'] = '密码';
 $string['password_help'] = '这设置了Redis服务器的密码。';
 $string['pluginname'] = 'Redis公司';
@@ -42,14 +49,47 @@ $string['privacy:metadata:redis:data'] = '缓存中存储的各种数据';
 $string['serializer_igbinary'] = '二进制序列化程序。';
 $string['serializer_php'] = '默认PHP序列化程序。';
 $string['server'] = '服务器';
-$string['server_help'] = '这将设置要使用的Redis服务器的主机名或IP地址。';
+$string['server_help'] = '用于测试的 Redis 服务器。
+
+一些示例值：
+
+* testredis.abc.com - 按主机名连接到 Redis 服务器（默认为端口 6379）。
+* testredis.abc.com:1234 - 通过具有特定端口的主机名连接到 Redis 服务器。
+* 1.2.3.4 - 通过 IP 地址（默认为端口 6379）连接到 Redis 服务器。
+* 1.2.3.4：1234 - 通过具有特定端口的 IP 地址连接到 Redis 服务器。
+* unix:///var/redis.sock - 使用 Unix 套接字连接到 Redis 服务器。
+* /var/redis.sock - 使用 Unix 套接字（替代格式）连接到 Redis 服务器。
+如果启用了集群模式，请指定用新行分隔的服务器，例如：<br>
+  172.23.0.11<br>
+  172.23.0.12<br>
+  172.23.0.13<br>
+
+有关详细信息，请参阅 <a href=“https://redis.io/docs/reference/clients/#accepting-client-connections”>接受客户端连接</a>和 <a href=“https://redis.io/resources/clients/#php”>Redis PHP 客户端</a>。';
 $string['task_ttl'] = '释放 Redis 缓存中过期条目使用的内存';
+$string['test_clustermode'] = '集群模式';
+$string['test_clustermode_desc'] = '启用 Redis 集群模式下的测试';
 $string['test_password'] = '测试服务器密码';
 $string['test_password_desc'] = 'Redis测试服务器密码。';
 $string['test_serializer'] = '序列化程序';
 $string['test_serializer_desc'] = '用于测试的序列化程序。';
 $string['test_server'] = '测试服务器';
-$string['test_server_desc'] = '用于测试的Redis服务器。';
+$string['test_server_desc'] = '用于测试的 Redis 服务器。
+
+一些示例值：
+
+* testredis.abc.com - 按主机名连接到 Redis 服务器（默认为端口 6379）。
+* testredis.abc.com:1234 - 通过具有特定端口的主机名连接到 Redis 服务器。
+* 1.2.3.4 - 通过 IP 地址（默认为端口 6379）连接到 Redis 服务器。
+* 1.2.3.4：1234 - 通过具有特定端口的 IP 地址连接到 Redis 服务器。
+* unix:///var/redis.sock - 使用 Unix 套接字连接到 Redis 服务器。
+* /var/redis.sock - 使用 Unix 套接字（替代格式）连接到 Redis 服务器。
+
+如果启用了集群模式，请指定用新行分隔的服务器，例如：<br>
+  172.23.0.11<br>
+  172.23.0.12<br>
+  172.23.0.13<br>
+
+有关详细信息，请参阅 <a href=“https://redis.io/docs/reference/clients/#accepting-client-connections”>接受客户端连接</a>和 <a href=“https://redis.io/resources/clients/#php”>Redis PHP 客户端</a>。';
 $string['test_ttl'] = '测试 TTL';
 $string['test_ttl_desc'] = '使用需要TTL（较慢的集合）的缓存运行性能测试。';
 $string['usecompressor'] = '使用压缩器';

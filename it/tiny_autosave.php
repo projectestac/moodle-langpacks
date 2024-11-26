@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_autosave', language 'it', version '4.1'.
+ * Strings for component 'tiny_autosave', language 'it', version '4.4'.
  *
  * @package     tiny_autosave
  * @category    string
@@ -26,4 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['helplinktext'] = 'Salvataggio automatico';
-$string['pluginname'] = 'Salvataggio automatico Tiny';
+$string['pluginname'] = 'Salvataggio automatico';

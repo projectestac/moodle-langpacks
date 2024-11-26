@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'de', version '4.1'.
+ * Strings for component 'assignfeedback_editpdf', language 'de', version '4.4'.
  *
  * @package     assignfeedback_editpdf
  * @category    string
@@ -74,6 +74,7 @@ $string['oval'] = 'Oval';
 $string['pagenumber'] = 'Seite {$a}';
 $string['pagexofy'] = 'Seite {$a->page} von {$a->total}';
 $string['partialwarning'] = 'Einige der eingereichten Dateien in dieser Abgabe stehen nur zum direkten Download zur Verfügung.';
+$string['pathtogserror'] = 'Der Pfad zu Ghostscript ist nicht richtig konfiguriert: {$a}';
 $string['pathtogspathdesc'] = 'Beachten Sie, dass für Anmerkungen im PDF der Pfad zu Ghostscript in {$a} eingetragen sein muss.';
 $string['pen'] = 'Stift';
 $string['pluginname'] = 'Anmerkungen im PDF';

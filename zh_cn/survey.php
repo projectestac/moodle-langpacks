@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'zh_cn', version '4.1'.
+ * Strings for component 'survey', language 'zh_cn', version '4.4'.
  *
  * @package     survey
  * @category    string
@@ -29,7 +29,6 @@ $string['actual'] = '实际的';
 $string['actualclass'] = '班级实际的';
 $string['actualstudent'] = '{$a} 实际的';
 $string['allquestionrequireanswer'] = '所有题目都需要且必须作答。';
-$string['allquestions'] = '所有问题按序排列，所有学生';
 $string['allscales'] = '所有量表，所有学生';
 $string['alreadysubmitted'] = '您已经提交了这份问卷调查';
 $string['analysisof'] = '{$a} 的分析结果';
@@ -97,7 +96,6 @@ $string['ciq5'] = '什么事件让您最吃惊？';
 $string['ciq5short'] = '最吃惊';
 $string['ciqintro'] = '想想本班上周发生的事情，回答以下问题。';
 $string['ciqname'] = '关键事件';
-$string['clicktocontinue'] = '点击这里继续';
 $string['clicktocontinuecheck'] = '点击这里检查并继续';
 $string['colles1'] = '我只学让我感兴趣的东西。';
 $string['colles10'] = '我请求其他同学解释他们的观点。';
@@ -283,4 +281,3 @@ $string['surveytype_help'] = '有 3 种调查类型：
 $string['surveytype_link'] = 'mod/survey/mod';
 $string['thanksforanswers'] = '{$a}，谢谢您回答了这个问卷！';
 $string['time'] = '时间';
-$string['viewsurveyresponses'] = '查看 {$a} 个调查答卷';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'zh_cn', version '4.1'.
+ * Strings for component 'scorm', language 'zh_cn', version '4.4'.
  *
  * @package     scorm
  * @category    string
@@ -73,6 +73,7 @@ $string['browse'] = '预览';
 $string['browsed'] = '浏览';
 $string['browsemode'] = '预览模式';
 $string['browserepository'] = '浏览仓库';
+$string['cachedef_elements'] = '元素缓存';
 $string['calculatedweight'] = '计算重量';
 $string['calendarend'] = '{$a}关闭';
 $string['calendarstart'] = '{$a}打开';
@@ -117,8 +118,6 @@ $string['details'] = '查看详情';
 $string['directories'] = '显示目录链接';
 $string['disabled'] = '不显示';
 $string['display'] = '显示位置';
-$string['displayactivityname'] = '显示活动名称';
-$string['displayactivityname_help'] = '是否在 SCORM 播放器上方显示活动名称。';
 $string['displayattemptstatus'] = '显示尝试状态';
 $string['displayattemptstatus_help'] = '如果打开，以前尝试所得的分数和评级会显示在SCORM概要页面。';
 $string['displayattemptstatusdesc'] = '此选项设置显示尝试状态设置的缺省值';
@@ -214,7 +213,6 @@ $string['indicator:socialbreadth_help'] = '这个指标是基于学生在SCORM�
 $string['indicator:socialbreadthdef'] = 'SCORM社会';
 $string['indicator:socialbreadthdef_help'] = '在此分析间隔期间，参与者已达到SCORM活动提供的社会参与度的百分比（级别=无参与，仅参与者一人）';
 $string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
-$string['info'] = '信息';
 $string['interactions'] = '交互';
 $string['invalidactivity'] = 'Scorm 活动不正确';
 $string['invalidhacpsession'] = '无效的 HACP 会话';
@@ -223,6 +221,7 @@ $string['invalidmanifestresource'] = '警告：在您的 manifest 文件中描�
 $string['invalidstatus'] = '无效状态';
 $string['invalidurl'] = '指定的网址无效';
 $string['invalidurlhttpcheck'] = '指定的URL无效。调试消息：<pre>{$a->cmsg}</pre>';
+$string['largetrackupgrade'] = '下一个升级步骤可能需要一些时间才能完成，您的站点有{$a} SCORM跟踪记录需要迁移到新的表结构，由于无法显示进度条，请耐心等待。';
 $string['last'] = '最后访问时间';
 $string['lastaccess'] = '最后访问';
 $string['lastattempt'] = '上次完成的尝试';
@@ -240,6 +239,7 @@ $string['maximumattemptsdesc'] = '活动默认的学习次数';
 $string['maximumgradedesc'] = '活动默认的最高分';
 $string['menubar'] = '显示菜单栏';
 $string['min'] = '最低分值';
+$string['minimumscoregreater'] = '最低分数必须大于0分。';
 $string['missing_attribute'] = '标签 {$a->tag} 的属性 {$a->attr} 缺失';
 $string['missing_tag'] = '标签 {$a->tag} 缺失';
 $string['missingparam'] = '缺少了必须有的项目或项目取值错误';
@@ -322,7 +322,7 @@ $string['privacy:metadata:attempt'] = '尝试号码';
 $string['privacy:metadata:scoes_track:element'] = '要跟踪的元素的名称';
 $string['privacy:metadata:scoes_track:value'] = 'AICC HACP的会话信息';
 $string['privacy:metadata:scorm_aicc_session'] = 'AICC HACP的会话信息';
-$string['privacy:metadata:scorm_scoes_track'] = '属于活动的SCOE的跟踪数据';
+$string['privacy:metadata:scorm_attempt'] = '用户进行的SCORM尝试';
 $string['privacy:metadata:timemodified'] = '上次修改被跟踪元素的时间';
 $string['privacy:metadata:userid'] = '访问SCORM活动的用户的ID';
 $string['protectpackagedownloads'] = '保护软件包下载';

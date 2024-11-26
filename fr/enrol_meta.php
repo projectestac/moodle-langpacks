@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'fr', version '4.1'.
+ * Strings for component 'enrol_meta', language 'fr', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'Par défaut, toutes les attributions de rôles 
 $string['pluginname'] = 'Lien méta-cours';
 $string['pluginname_desc'] = 'Le plugin d’inscription lien méta-cours synchronise les inscriptions et rôle entre différents cours.';
 $string['privacy:metadata:core_group'] = 'Le plugin d’inscription Lien méta-cours peut créer un nouveau groupe ou utiliser un groupe existant pour y ajouter tous les participants du cours lié.';
+$string['samemetacourse'] = 'Il n’est pas possible d’ajouter un lien méta-cours vers le même cours.';
 $string['syncall'] = 'Synchroniser tous les utilisateurs inscrits';
 $string['syncall_desc'] = 'Si ce réglage est activé, tous les utilisateurs sont synchronisés même s’ils n’ont aucun rôle dans le cours parent. Dans le cas contraire, seuls les utilisateurs avec au moins un rôle synchronisé sont inscrits dans le cours enfant.';
+$string['unknownmetacourse'] = 'Nom abrégé du méta-cours inconnu';
 $string['wscannotcreategroup'] = 'Pas les permissions requises pour créer un groupe dans le cours lié, d’ID {$a}';
 $string['wsinvalidcourse'] = 'Le cours d’ID {$a} n’existe pas ou il n’y a pas les permissions requises pour le lier avec la méta-inscription.';
 $string['wsinvalidmetacourse'] = 'Le méta-cours d’ID {$a} n’existe pas ou il n’y a pas les permissions requises pour ajouter une instance d’inscription.';

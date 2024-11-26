@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'ro', version '4.1'.
+ * Strings for component 'moodle', language 'ro', version '4.4'.
  *
  * @package     moodle
  * @category    string
@@ -65,7 +65,8 @@ $string['addedtogroup'] = 'Adăugat la grup "{$a}"';
 $string['addedtogroupnot'] = 'Nu a fost adăugat la grup "{$a}"';
 $string['addedtogroupnotenrolled'] = 'Nu a fost adăugat la grup "{$a}", pentru că nu a fost înscris la curs';
 $string['addfilehere'] = 'Aruncă fișierele aici pentru a le adăuga în partea de jos a acestei secțiuni';
-$string['addinganew'] = 'Adăugare: {$a}';
+$string['addfilesdrop'] = 'Puteți să trageți și să lipiți fișierele aici pentru a le încărca sau dați click pentru a le selecta.';
+$string['addinganew'] = 'Nou {$a}';
 $string['addinganewto'] = 'Adăugare {$a->what} în {$a->to}';
 $string['addingdatatoexisting'] = 'Adăugarea datelor la cele existente';
 $string['additionalcustomnav'] = 'Navigare particularizată adițională';
@@ -130,7 +131,6 @@ $string['afterresource'] = 'După resursă "{$a}"';
 $string['aftersection'] = 'După secțiunea "{$a}"';
 $string['again'] = 'din nou';
 $string['agelocationverification'] = 'Verificarea vârstei și a localizării';
-$string['aimid'] = 'ID AIM';
 $string['ajaxuse'] = 'AJAX și Javascript';
 $string['all'] = 'Toate';
 $string['allactions'] = 'Toate acțiunile';
@@ -158,6 +158,7 @@ $string['and'] = '{$a->one} și {$a->two}';
 $string['answer'] = 'Răspuns';
 $string['any'] = 'Orice';
 $string['appearance'] = 'Aspect';
+$string['apply'] = 'Aplică';
 $string['applyfilters'] = 'Aplică filtre';
 $string['approve'] = 'Aprobă';
 $string['areyousure'] = 'Sunteți sigur?';
@@ -202,6 +203,7 @@ $string['backupfromthissite'] = 'Backup-ul a fost realizat pe acets site?';
 $string['backupgradebookhistoryhelp'] = 'Dacă este activat, istoricul catalogului va fi inclus în backup-ul automat. Rețineți că istoricul calificărilor nu trebuie să fie dezactivat în setările serverului (dezactivează istoricul catalogului), pentru ca acest lucru să funcționeze';
 $string['backupincludemoduleshelp'] = 'Alegeți dacă doriți să includeți module de curs, cu sau fără date de utilizator, în backup-ul automat';
 $string['backupincludemoduleuserdatahelp'] = 'Alegeți dacă doriți să includeți datele utilizatorului modulului în backup-ul automat.';
+$string['backupinfo'] = 'Fă o copie a acestui curs, incluzând tot conținutul și activitatea la zi. Poți folosi fișierul de rezervă pentru a restaura cursul.';
 $string['backuplogdetailed'] = 'Jurnal de execuție detaliat';
 $string['backuploglaststatus'] = 'Jurnal de execuție recent';
 $string['backupmissinguserinfoperms'] = 'Notă: Acest backup nu conține date de utilizator. Activitățile de exercițiu și atelier nu vor fi incluse în backup, deoarece nu sunt compatibile cu acest tip de backup.';
@@ -229,7 +231,9 @@ $string['blocksuccess'] = '{$a} tabelele au fost configurate corect';
 $string['brief'] = 'Rezumat';
 $string['bulkactions'] = 'Acțiuni în bloc';
 $string['bulkactionselect'] = '{$a} Selectarea acțiunilor în bloc';
+$string['bulkcancel'] = 'Încheie editarea în masă';
 $string['bulkmovecoursessuccess'] = 'Cursurile {$a->courses} au fost mutate cu succes în {$a->category}';
+$string['bulkselection'] = '{$a} selectate';
 $string['bycourseorder'] = 'După ordinea cursului';
 $string['byname'] = 'după {$a}';
 $string['bypassed'] = 'Evitat';
@@ -263,6 +267,7 @@ $string['changessaved'] = 'Modificări salvate';
 $string['check'] = 'Verifică';
 $string['checkactual'] = 'Real';
 $string['checkall'] = 'Verifică tot';
+$string['checkerror'] = 'Eroare la obținerea rezultatului verificării „{$a}”. Verificați consola browserului pentru mai multe informații.';
 $string['checkexpected'] = 'Presupus';
 $string['checkingbackup'] = 'Verificare backup';
 $string['checkingcourse'] = 'Verificare curs';
@@ -270,6 +275,7 @@ $string['checkingforbbexport'] = 'Verificarea exportului BlackBoard';
 $string['checkinginstances'] = 'Verificarea sesiunilor';
 $string['checkingsections'] = 'Se verifică secțiunile';
 $string['checklanguage'] = 'Verificarea limbii';
+$string['checkloading'] = 'Se obține rezultatul verificării {$a}\'';
 $string['checknone'] = 'Nu verifica';
 $string['checks'] = 'Verificări';
 $string['checksok'] = 'Toate verificările \'{$a}\' OK';
@@ -313,6 +319,7 @@ $string['completed'] = 'Completat';
 $string['completereport'] = 'Raport complet';
 $string['configuration'] = 'Configurare';
 $string['confirm'] = 'Confirmă';
+$string['confirmaccount'] = 'Confirmă cont';
 $string['confirmcheckfull'] = 'Sunteți sigur că doriți să confirmați {$a} ?';
 $string['confirmcoursemove'] = 'Sunteți sigur că doriți să transferați acest curs ({$a->course}) în această categorie ({$a->category})?';
 $string['confirmdeletesection'] = 'Sunteți sigur că doriți să ștergeți complet "{$a}" și toate activitățile pe care le conține?';
@@ -327,6 +334,9 @@ $string['contentexport_footersummary'] = 'Acest fișier face parte din conținut
 $string['contentexport_modulesummary'] = 'Această pagină este parte a conținutului descărcat de la <a href="{$a->modulelink}">{$a->modulename}</a> în {$a->date}. Luați în considerare că conținutul și fișierele mai mari de {$a->maxfilesize} nu sunt descărcate.';
 $string['contentexport_viewfilename'] = 'Vezi fișierul {$a}';
 $string['context'] = 'Context';
+$string['contextlevel'] = 'Nivelul contextului';
+$string['contextname'] = 'Denumirea contextului';
+$string['contextparent'] = 'Părinte';
 $string['contexturl'] = 'URL context';
 $string['continue'] = 'Continuă';
 $string['continuetocourse'] = 'Faceți click aici, pentru a accesa cursul dumneavoastră';
@@ -354,6 +364,7 @@ $string['copyingsitefiles'] = 'Copierea fișierelor site-ului care sunt utilizat
 $string['copyinguserfiles'] = 'Copierea fișierelor utilizatorului';
 $string['copyingzipfile'] = 'Copierea fișierelor zip';
 $string['copyrightnotice'] = 'Notificare privind drepturile de autor';
+$string['copytoclipboard'] = 'Copiază în clipboard';
 $string['coresystem'] = 'Sistem';
 $string['cost'] = 'Cost';
 $string['costdefault'] = 'Cost implicit';
@@ -361,8 +372,8 @@ $string['counteditems'] = '{$a->count} {$a->items}';
 $string['country'] = 'Țară';
 $string['course'] = 'Curs';
 $string['courseadministration'] = 'Administrare curs';
-$string['courseapprovedemail'] = 'Cursul solicitat de dumneavoastră, {$a->name}, a fost aprobat și ați devenit  {$a->teacher}.  Pentru a accesa noul dumneavoastră curs, mergeți la {$a->url}';
-$string['courseapprovedemail2'] = 'Cursul solicitat de dumneavoastră, {$a->name},  a fost aprobat.  Pentru a accesa noul dumneavoastră curs, mergeți la {$a->url}';
+$string['courseapprovedemail'] = 'Cursul solicitat de dumneavoastră a fost aprobat, <a href="{$a->url}">{$a->name}</a>, și sunteți un {$a->teacher}.';
+$string['courseapprovedemail2'] = 'Cursul solicitat de dumneavoastră este aprobat: <a href="{$a->url}">{$a->name}</a>.';
 $string['courseapprovedfailed'] = 'Cursul nu a putu fi salvat în formatul aprobat!';
 $string['courseapprovedsubject'] = 'Cursul dumneavoastră a fost aprobat!';
 $string['courseavailable'] = 'Acest curs este disponibil pentru cursanți';
@@ -422,7 +433,6 @@ $string['courseoverviewfiles_help'] = 'Imaginea cursului este afișată în pagi
 $string['courseoverviewfilesext'] = 'Extensii de fișiere pentru imaginea de curs';
 $string['courseoverviewfileslimit'] = 'Limita fișierelor de imagini ale cursului';
 $string['courseoverviewgraph'] = 'Grafic de prezentare generală a cursului';
-$string['coursepreferences'] = 'Preferințe curs';
 $string['courseprofiles'] = 'Profile curs';
 $string['coursereasonforrejecting'] = 'Motivele dumneavoastră pentru respingerea acestei solicitări';
 $string['coursereasonforrejectingemail'] = 'Acestea vor fi transmise prin e-mail către solicitant';
@@ -446,6 +456,7 @@ $string['courserequestsupport'] = 'Informații de sprijin pentru a ajuta adminis
 $string['courserequestwarning'] = 'Utilizatorul care solicită acest curs va fi înscris automat și i se va atribui rolul de {$a}.';
 $string['courserestore'] = 'Restaurează curs';
 $string['coursereuse'] = 'Reutilizare curs';
+$string['coursereusenavigationmenu'] = 'Meniul de navigare pentru reutilizarea cursului';
 $string['courses'] = 'Cursuri';
 $string['coursesearch'] = 'Caută cursuri';
 $string['coursesearch_help'] = 'Puteți căuta mai multe cuvinte simultan și puteți rafina căutarea după cum urmează:
@@ -455,6 +466,7 @@ $string['coursesearch_help'] = 'Puteți căuta mai multe cuvinte simultan și pu
 *-cuvânt - nu includeți rezultate care conțin acest cuvânt.';
 $string['coursesectionsummaries'] = 'Rezumatele secțiunii cursului';
 $string['coursesectiontitle'] = '{$a->sectionname}: {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitlebulkediting'] = 'Editare în masă {$a->sectionname}: {$a->sectiontitle} | {$a->course}';
 $string['coursesectiontitleediting'] = 'Editează {$a->sectionname}: {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'Setări implicite ale cursului';
 $string['coursesmovedout'] = 'Cursuri mutate din {$a}';
@@ -463,6 +475,7 @@ $string['coursestart'] = 'Începutul cursului';
 $string['coursesummary'] = 'Rezumatul cursului';
 $string['coursesummary_help'] = 'O scurtă descriere a cursului tău. Conținutul pe care îl adaugi aici poate fi căutat și indexat.';
 $string['coursetitle'] = 'Curs: {$a->course}';
+$string['coursetitlebulkediting'] = 'Editare în masă a cursului: {$a->course}';
 $string['coursetitleediting'] = 'Editează cursul: {$a->course}';
 $string['courseupdates'] = 'Actualizări curs';
 $string['coursevisibility'] = 'Vizibilitate curs';
@@ -478,7 +491,6 @@ $string['createnewcourse'] = 'Creează curs nou';
 $string['createnewsubcategory'] = 'Creează subcategorie nouă';
 $string['createsubcategoryof'] = 'Creează subcategoria {$a}';
 $string['createuser'] = 'Creează utilizator';
-$string['createuserandpass'] = 'Alegeți numele de utilizator și parola';
 $string['createziparchive'] = 'Creează arhivă zip';
 $string['creatingblocks'] = 'Crearea blocurilor';
 $string['creatingblocksroles'] = 'Crearea alocărilor și a suprascrierilor de roluri la nivel de bloc';
@@ -510,6 +522,7 @@ $string['currentlanguage'] = 'Limba curentă';
 $string['currentlocaltime'] = 'ora locală curentă';
 $string['currentpicture'] = 'Imaginea curentă';
 $string['currentrelease'] = 'Informații actuale despre versiune';
+$string['currenttheme'] = 'Tema actuală';
 $string['currentversion'] = 'Versiune curentă';
 $string['databasechecking'] = 'Actualizarea bazei de date Moodle de la versiunea {$a->oldversion} la versiunea {$a->newversion}';
 $string['databaseperformance'] = 'Performanța bazei de date';
@@ -569,7 +582,7 @@ $string['deletedactivity'] = 'A fost șters {$a}';
 $string['deletedcourse'] = '{$a} a fost complet șters';
 $string['deletednot'] = 'Nu a putu fi șters {$a} !';
 $string['deletepicture'] = 'Șterge imaginea';
-$string['deletesection'] = 'Șterge secțiunea';
+$string['deletesection'] = 'Șterge';
 $string['deleteselected'] = 'Șterge selecția';
 $string['deleteselectedkey'] = 'Șterge cheia selectată';
 $string['deletingcourse'] = 'Ștergere {$a}';
@@ -579,7 +592,6 @@ $string['department'] = 'Departament';
 $string['deprecatedeventname'] = '{$a} (nu mai este utilizat)';
 $string['desc'] = 'Descrescător';
 $string['description'] = 'Descriere';
-$string['descriptiona'] = 'Descriere: {$a}';
 $string['deselectall'] = 'Deselectează tot';
 $string['deselectnos'] = 'Deselectați tot ce a fost selectat "Nu"';
 $string['detailedless'] = 'Detaliat mai puțin';
@@ -622,6 +634,7 @@ $string['doyouagree'] = 'Ați citit și înțeles aceste condiții?';
 $string['droptoupload'] = 'Plasați fișierele aici, pentru a le încărca';
 $string['duplicate'] = 'Duplicat';
 $string['duplicatedmodule'] = '{$a} (copie)';
+$string['duplicatedsection'] = '{$a} (copy)';
 $string['edhelpaspellpath'] = 'Pentru a utiliza verificarea ortografică în editor, TREBUIE să aveți instalat pe serverul dumneavoastră <strong>aspell 0.50</strong> sau mai recent și trebuie să specificați calea corectă, pentru a accesa binarul aspell.  Această cale este de obicei <strong>/usr/bin/aspell</strong> sau alta pe sistemele Unix / Linux.';
 $string['edhelpbgcolor'] = 'Definește culoarea fundalului zonelor de editare .<br />Valorile valabile sunt, de exemplu: #FFFFFF or white';
 $string['edhelpcleanword'] = 'Această setare activează sau dezactivează filtrarea formatului specific Word.';
@@ -652,8 +665,10 @@ $string['editorpreferences'] = 'Opțiuni pentru editor';
 $string['editorresettodefaults'] = 'Restaurează valorile implicite';
 $string['editorsettings'] = 'Setările editorului';
 $string['editorshortcutkeys'] = 'Combinaţii de taste pentru editor';
-$string['editsection'] = 'Editarea secțiunii';
+$string['editsection'] = 'Editare setări';
 $string['editsectionname'] = 'Editează numele secțiunii';
+$string['editsectionsettings'] = 'Editați setările secțiunii';
+$string['editsectiontitle'] = 'Editare secțiunea: {$a}';
 $string['editsettings'] = 'Editează setările';
 $string['editsummary'] = 'Editează rezumatul';
 $string['editthisactivity'] = 'Editează această activitate';
@@ -729,7 +744,7 @@ $string['emailformat'] = 'Format e-mail';
 $string['emailmustbereal'] = 'Notă: adresa dumneavoastră de e-mail trebuie să fie una reală';
 $string['emailnotallowed'] = 'Adresele de e-mail din aceste domenii nu sunt permise ({$a})';
 $string['emailnotfound'] = 'Adresa de e-mail nu a fost găsită în baza de date';
-$string['emailonlyallowed'] = 'Acest e-mail nu este unul dintre cele permise ({$a})';
+$string['emailonlyallowed'] = 'Acest email nu poate fi folosit. Domeniile de email acceptate sunt: {$a}.';
 $string['emailpasswordchangeinfo'] = 'Bună {$a->firstname},
 
 Cineva (probabil dvs.) a solicitat o nouă parolă pentru
@@ -796,8 +811,8 @@ $string['emailresetconfirmation'] = 'Bună ziua {$a->firstname},
 
 A fost solicitată resetarea parolei contului tău "{$a->username}" la {$a->sitename}.
 
-Pentru a confirma această solicitare și a seta o nouă parolă pentru contul dumneavoastră, te rugăm să accesezi următoarea adresă web:
-{$a->link}
+Pentru a confirma această solicitare și a seta o nouă parolă pentru contul tău, te rugăm să accesezi următoarea adresă web:
+<a href="{$a->link}">{$a->link}</a>
 
 (Acest link este valabil pentru {$a->resetminutes} minute din momentul în care această resetare a fost solicitată pentru prima dată)
 
@@ -829,6 +844,8 @@ $string['enable'] = 'Permite';
 $string['encryptedcode'] = 'Cod criptat';
 $string['enddate'] = 'Data de finalizare a cursului';
 $string['enddate_help'] = 'Data de încheiere nu restricționează accesul studenților la curs. Acesta determină dacă un curs este afișat ca Trecut în pagina Cursurile mele.';
+$string['enddatewithtaskenabled'] = 'Data încheierii cursului';
+$string['enddatewithtaskenabled_help'] = 'Data când cursul va fi ascuns pentru cursanți și nu îl vor mai putea accesa.';
 $string['english'] = 'Engleză';
 $string['enrolmentmethods'] = 'Metode de înscriere';
 $string['entercourse'] = 'Faceți click pentru a accesa acest curs';
@@ -855,6 +872,7 @@ $string['eventcoursecategoryviewed'] = 'Categorie vizualizată';
 $string['eventcoursecontentdeleted'] = 'Conținut curs șters';
 $string['eventcoursecreated'] = 'Curs creat';
 $string['eventcoursedeleted'] = 'Curs șters';
+$string['eventcourseended'] = 'Curs încheiat';
 $string['eventcourseinformationviewed'] = 'Rezumatul cursului vizualizat';
 $string['eventcoursemodulecreated'] = 'Modul curs creat';
 $string['eventcoursemoduledeleted'] = 'Modul curs șters';
@@ -868,6 +886,7 @@ $string['eventcoursesectioncreated'] = 'Secțiune curs creată';
 $string['eventcoursesectiondeleted'] = 'Secțiune curs ștearsă';
 $string['eventcoursesectionupdated'] = 'Secțiune curs actualizată';
 $string['eventcoursessearched'] = 'Cursuri căutate';
+$string['eventcoursestarted'] = 'Curs început';
 $string['eventcourseupdated'] = 'Cursuri actualizate';
 $string['eventcourseuserreportviewed'] = 'Raportul utilizatorului cursului vizualizat';
 $string['eventcourseviewed'] = 'Curs vizualizat';
@@ -881,7 +900,9 @@ $string['eventname'] = 'Nume eveniment';
 $string['eventrecentactivityviewed'] = 'Activitate recentă vizualizată';
 $string['eventsearchindexed'] = 'Date de căutare îndexate';
 $string['eventsearchresultsviewed'] = 'Rezultate de căutare vizualizate';
+$string['eventsectionviewed'] = 'Secțiune vizualizată';
 $string['eventunknownlogged'] = 'Eveniment necunoscut';
+$string['eventurlblocked'] = 'URL-ul a fost blocat';
 $string['eventusercreated'] = 'Utilizator creat';
 $string['eventuserdeleted'] = 'Utilizator șters';
 $string['eventuserfeedbackgiven'] = 'S-a dat click pe link-ul de feedback';
@@ -916,6 +937,11 @@ $string['explanationdigitalminor'] = 'Aceste informații sunt necesare pentru a 
 $string['extendperiod'] = 'Extinde perioada';
 $string['extendsession'] = 'Extindeți sesiunea';
 $string['failedloginattempts'] = '{$a->attempts} conectări eșuate de la ultima dumneavoastră conectare';
+$string['failedtaskbody'] = '<p>Bună {$a->firstname},</p>
+<p>Sarcina de lucru <b>{$a->taskname}</b> nu a fost îndeplinită cu succes de mai multe ori și trebuie să o analizați.</p>
+<p><a href="{$a->link}">Vedeți sarcina de lucru</a></p>';
+$string['failedtaskcontexturlname'] = 'Status raport';
+$string['failedtasksubject'] = 'Task eșuat: {$a}';
 $string['favourites'] = 'Evidențiate';
 $string['feedback'] = 'Feedback';
 $string['file'] = 'Fișier';
@@ -967,10 +993,10 @@ $string['forgotteninvalidurl'] = 'Adresa URL de resetare a parolei nu este valid
 $string['format'] = 'Format';
 $string['format_help'] = 'Formatul cursului determină aspectul paginii cursului.
 
-* Formatul o singură activitate - Pentru afișarea unei singure activități sau resurse (cum ar fi un pachet Quiz sau SCORM) pe pagina cursului
-* Format social - Un forum este afișat pe pagina cursului
-* Format secțiuni - Pagina cursului este organizată în secțiuni tematice
-* Format săptămânal - Pagina cursului este organizată în secțiuni săptămânale, prima săptămână începând cu data de începere a cursului';
+* O singură activitate - Cursul conține doar o activitate sau o resursă.
+* Social - Cursul este centrat în jurul unui forum principal de pe pagina cursului. Pot fi adăugate activități și resurse adiționale folosind blocul Activități sociale.
+* Secțiuni particularizate - Cursul este împărțit în secțiuni particularizabile.
+* Secțiuni săptămânale - Cursul este împărțit în secțiuni corespunzătoare fiecărei săptămâni, începând cu data de inițiere a cursului.';
 $string['formathtml'] = 'Format HTML';
 $string['formatmarkdown'] = 'Format redus';
 $string['formatplain'] = 'Format text simplu';
@@ -978,6 +1004,8 @@ $string['formattext'] = 'Format automat Moodle';
 $string['forumpreferences'] = 'Preferințe forum';
 $string['framesetinfo'] = 'Acest set de documente conține:';
 $string['from'] = 'De la';
+$string['fromdate'] = 'De la';
+$string['fromsender'] = 'De la';
 $string['frontpagecategorycombo'] = 'Lista combo';
 $string['frontpagecategorynames'] = 'Lista de categorii';
 $string['frontpagecourselist'] = 'Lista de cursuri';
@@ -1017,7 +1045,6 @@ Acest program este distribuit în speranța că va fi util, dar FĂRĂ NICIO GAR
 
 Consultați pagina cu informații despre licența Moodle pentru detalii complete: https://moodledev.io/general/license';
 $string['gpllicense'] = 'Licență GPL';
-$string['grade'] = 'Notă';
 $string['gradenoun'] = 'Notă';
 $string['grades'] = 'Note';
 $string['gradeverb'] = 'Notă';
@@ -1069,7 +1096,6 @@ $string['hideadvancedsettings'] = 'Ascunde setările avansate';
 $string['hidechartdata'] = 'Ascunde datele graficului';
 $string['hidefromstudents'] = 'Ascunde pe pagina cursului';
 $string['hideoncoursepage'] = 'Setează ca fiind disponibil, dar nu afișa pe pagina cursului';
-$string['hidepicture'] = 'Ascunde imaginea';
 $string['hidepopoverwindow'] = 'Ascunde fereastra popover';
 $string['hidesection'] = 'Ascunde secțiunea {$a}';
 $string['hidesettings'] = 'Ascunde setările';
@@ -1093,7 +1119,6 @@ $string['htmleditordisabledbrowser'] = 'Editorul HTML nu este disponibil pentru 
 $string['htmlfilesonly'] = 'Numai fișierele HTML';
 $string['htmlformat'] = 'Format HTML';
 $string['icon'] = 'Simbol';
-$string['icqnumber'] = 'Număr ICQ';
 $string['idnumber'] = 'Număr ID';
 $string['idnumbercourse'] = 'Număr ID curs';
 $string['idnumbercourse_help'] = 'Folosit doar pentru a conecta cursul cu sisteme externe. Lăsați necompletat dacă nu aveți un ID oficial al cursului.';
@@ -1114,6 +1139,7 @@ $string['importdata'] = 'Importă date privind cursul';
 $string['importdataexported'] = 'Date exportate din cursul "from" cu succes .<br /> Continuați să importați în cursul dumneavoastră "to" .';
 $string['importdatafinished'] = 'Import finalizat! Conținuați cursul';
 $string['importdatafrom'] = 'Găsiți un curs din care să importați date:';
+$string['importinfo'] = 'Importă elemente din alte cursuri, cum ar fi activități, blocuri sau evenimente din calendar. Nu vor fi importate date despre utilizator.';
 $string['inactive'] = 'Inactiv';
 $string['include'] = 'Include';
 $string['includeallusers'] = 'Include toți utilizatorii';
@@ -1127,6 +1153,7 @@ $string['includeneededusers'] = 'Include utilizatorii necesari';
 $string['includenoneusers'] = 'Nu include utilizatori';
 $string['includeroleassignments'] = 'Include alocările rolurilor';
 $string['includesitefiles'] = 'Include fișierele site-ului utilizate în acest curs';
+$string['includesubcategories'] = 'Include subcategoriile';
 $string['includeuserfiles'] = 'Include fișierele utilizatorilor';
 $string['increasesections'] = 'Mărește numărul de secțiuni';
 $string['indicator:accessesafterend'] = 'Curs accesat după data de finalizare';
@@ -1167,6 +1194,7 @@ $string['indicator:userforumstracking'] = 'Utilizatorul urmărește forumurile';
 $string['indicator:userforumstracking_help'] = 'Acest indicator reprezintă dacă un cursant a activat sau nu urmărirea discuțiilor din forumuri.';
 $string['info'] = 'Informații';
 $string['inprogress'] = 'În desfășurare';
+$string['insertresourceoractivitybefore'] = 'Include o activitate sau o resursă înaintea \'{$a->activityname}\'';
 $string['institution'] = 'Instituție';
 $string['instudentview'] = 'în atenția cursantului';
 $string['interests'] = 'Preocupări';
@@ -1174,6 +1202,8 @@ $string['interestslist'] = 'Lista de preocupări';
 $string['interestslist_help'] = 'Introduceți interesele dvs., unul câte unul, care vor fi apoi afișate pe pagina de profil ca etichete.';
 $string['invalidemail'] = 'Adresă de e-mail incorectă';
 $string['invalidlogin'] = 'Autentificare incorectă, vă rugăm să încercați din nou';
+$string['invalidtaskclassname'] = 'Clasa sarcinii de lucru {$a} nu este validă';
+$string['invalidtaskid'] = 'ID-ul sarcinii de lucru nu este validă';
 $string['invalidusername'] = 'Numele de utilizator poate conține numai caractere alfanumerice minuscule (litere și cifre), subliniere (_), cratimă (-), punct (.) Sau la simbol (@).';
 $string['invalidusernameupload'] = 'Numele de utilizator nu este valid';
 $string['ip_address'] = 'Adresă IP';
@@ -1249,6 +1279,7 @@ $string['mailteachers'] = 'Informează formatorii';
 $string['maincoursepage'] = 'Pagina principală a cursului';
 $string['makeafolder'] = 'Creează folder';
 $string['makeavailable'] = 'Faceți-l(o) disponibil(ă)';
+$string['makeavailablecmtitle'] = 'Setează activitatea ca fiind disponibilă';
 $string['makeeditable'] = 'Dacă modificați "{$a}" prin procesul de server web (de exemplu, apache), puteți edita acest fișier direct din această pagină';
 $string['makethismyhome'] = 'Setează această pagină ca pagină principală';
 $string['makeunavailable'] = 'Setați ca indisponibil';
@@ -1265,8 +1296,8 @@ $string['managefilters'] = 'Filtre';
 $string['managemodules'] = 'Module';
 $string['manageroles'] = 'Roluri și permisiuni';
 $string['markallread'] = 'Marcați-le pe toate ca citite';
-$string['markedthistopic'] = 'Acest subiect este evidențiat ca subiect curent';
-$string['markthistopic'] = 'Evidențiați acest subiect ca subiect curent';
+$string['markedthistopic'] = 'Această secțiune este evidențiată ca secțiune curentă';
+$string['markthistopic'] = 'Evidențiați această secțiune ca secțiune curentă';
 $string['match'] = 'Potrivire';
 $string['matchingsearchandrole'] = 'Potrivire "{$a->search}" și {$a->role}';
 $string['matchofthefollowing'] = 'sau următoarele:';
@@ -1305,8 +1336,10 @@ $string['messageprovider:coursecontentupdated'] = 'Modificări în conținutul c
 $string['messageprovider:courserequestapproved'] = 'Notificare de aprobare a cererii de creare a cursului';
 $string['messageprovider:courserequested'] = 'Notificare cerere de creare a cursului';
 $string['messageprovider:courserequestrejected'] = 'Notificare cerere de creare a cursului';
+$string['messageprovider:enrolcoursewelcomemessage'] = 'Mesaj de bun venit pentru cursanții nou înscriși';
 $string['messageprovider:errors'] = 'Erori importante la site';
 $string['messageprovider:errors_help'] = 'Acestea sunt erori importante, pe care ar trebui să le cunoască un administrator.';
+$string['messageprovider:failedtaskmaxdelay'] = 'Sarcina de lucru a atins limita maximă de întârziere a rulării';
 $string['messageprovider:gradenotifications'] = 'Notificări privind notele';
 $string['messageprovider:infected'] = 'Notificări de nefuncționare antivirus.';
 $string['messageprovider:insights'] = 'Statistici generate de modele de predicție';
@@ -1352,6 +1385,7 @@ $string['moddoesnotsupporttype'] = 'Modulul {$a->modname} nu suportă încărcă
 $string['modhide'] = 'Ascunde';
 $string['modified'] = 'Modificat';
 $string['modshow'] = 'Afișează';
+$string['modshowcmtitle'] = 'Afișează activitate';
 $string['moduleintro'] = 'Descriere';
 $string['modulesetup'] = 'Configurarea tabelelor modulului';
 $string['modulesuccess'] = '{$a} tabelele au fost configurate corect';
@@ -1369,8 +1403,41 @@ $string['modvisiblewithstealth_help'] = '* Afișează pe pagina cursului: dispon
 $string['month'] = 'Lună';
 $string['months'] = 'Luni';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodledocslink'] = 'Ajutor și documentație';
+$string['moodledocslink'] = 'Documentația acestei pagini';
 $string['moodlelogo'] = 'Logo Moodle';
+$string['moodlenet:cannotconnecttoserver'] = 'Nu se poate conecta la serverul MoodleNet';
+$string['moodlenet:columnname'] = 'Denumire';
+$string['moodlenet:columnsenddate'] = 'Data trimiterii';
+$string['moodlenet:columnsendstatus'] = 'Trimitere status';
+$string['moodlenet:columntype'] = 'Tip';
+$string['moodlenet:configoauthservice'] = 'Selectează un serviciu OAuth 2 pentru a activa partajarea pe acel site MoodleNet. Dacă serviciul nu există încă, va trebui să îl <a href="{$a}">creezi</a>.';
+$string['moodlenet:deletedactivity'] = 'Activitata ștearsă';
+$string['moodlenet:deletedcourse'] = 'Curs șters';
+$string['moodlenet:eventresourceexported'] = 'Resursă exportată';
+$string['moodlenet:gotomoodlenet'] = 'Mergi la ciornele MoodleNet';
+$string['moodlenet:issuerisnotauthorized'] = 'Emitentul MoodleNet nu este autorizat';
+$string['moodlenet:issuerisnotenabled'] = 'Emitentul MoodleNet nu este activat';
+$string['moodlenet:issuerisnotset'] = 'Emitentul MoodleNet nu este setat la administrarea site-ului';
+$string['moodlenet:nosharedresources'] = 'În prezent nu există resurse distribuite care să fie afișate.';
+$string['moodlenet:outboundsettings'] = 'Setările de conectare la MoodleNet';
+$string['moodlenet:packagingandsending'] = 'Complilare fișier și trimitere către MoodleNet...';
+$string['moodlenet:sharefailtext'] = 'A apărut o eroare la partajarea conținutului tău înMoodleNet.<br>Te rugăm să încerci mai târziu.';
+$string['moodlenet:sharefailtextwithsitesupport'] = 'A apărut o eroare la partajarea conținutului tău către MoodleNet.<br>Te rugăm să încerci mai târziu sau să contactezi suportul site-lui</a>.';
+$string['moodlenet:sharefailtitle'] = 'A apărut o eroare';
+$string['moodlenet:sharefilesizelimitexceeded'] = 'Dimensiunea resursei partajate ({$a->filesize} bytes) depășește limita de {$a->filesizelimit} biți.';
+$string['moodlenet:sharenoticeactivity'] = 'Această activitate este partajată în MoodleNet ca o resursă.';
+$string['moodlenet:sharenoticecourse'] = 'Acest curs este partajat în MoodleNet ca o resursă.';
+$string['moodlenet:sharenoticepartial'] = 'Activitățile selectate sunt distribuite în MoodleNet sub formă de resursă.';
+$string['moodlenet:sharenoticepartialactivitynumber'] = '{$a} activități vor fi incluse în curs.';
+$string['moodlenet:shareprogress'] = 'Partajarea progresului în MoodleNet';
+$string['moodlenet:shareprogressinfo'] = 'Lista afișează cursurile și activitățile pe care le-ai distribuit în.<br>Dă click pe denumirea resursei pentru a o vedea în MoodleNet.';
+$string['moodlenet:sharesuccesstext'] = 'Aproape gata! Vizualizează ciornele tale în MoodleNet pentru a termina de partajat conținutul.';
+$string['moodlenet:sharesuccesstitle'] = 'Salvat în ciornele MoodleNet';
+$string['moodlenet:sharetomoodlenet'] = 'Partajează către MoodleNet';
+$string['moodlenet:sharetyperesource'] = 'resursă';
+$string['moodlenet:sharinglargefile'] = 'Fișierele de dimensiuni mai mari pot necesita mai mult timp pentru încărcare.';
+$string['moodlenet:sharingstatus'] = 'Partajare către MoodleNet';
+$string['moodlenet:sharingto'] = 'Partajare către:';
 $string['moodlerelease'] = 'Versiune Moodle';
 $string['moodleservicesandsupport'] = 'Servicii si suport';
 $string['moodleversion'] = 'Versiune Moodle';
@@ -1409,7 +1476,6 @@ $string['moveselectedcategoriesto'] = 'Mută categoriile selectate în';
 $string['moveselectedcoursesto'] = 'Mută cursurile selectate în...';
 $string['movetoanotherfolder'] = 'Mută în alt folder';
 $string['moveup'] = 'Mută sus';
-$string['msnid'] = 'ID MSN';
 $string['mustchangepassword'] = 'Noua parolă trebuie să fie diferită de cea actuală';
 $string['mustconfirm'] = 'Trebuie să confirmaţi contul dumneavoastră';
 $string['mycourses'] = 'Cursurile mele';
@@ -1485,22 +1551,16 @@ $string['newusernewpasswordtext'] = 'Bună ziua {$a->firstname},
 A fost creat un nou cont pentru dumneavoastră pe "{$a->sitename}"
 și vi s-a emis o nouă parolă temporară.
 
-Informațiile dvs. actuale de conectare sunt:
+Informațiile dumneavoastră actuale de conectare sunt:
    nume utilizator: {$a->username}
    parolă: {$a->newpassword}
-             (va trebui să modificați parola,
+             (va trebui să modificați parola
               atunci când vă conectați pentru prima dată)
 
 Pentru a începe să utilizați "{$a->sitename}", conectați-vă la
    {$a->link}
 
-În majoritatea programelor de e-mail, aceasta ar trebui să apară sub forma unui link de culoare albastră
-pe care puteți să faceți click. Dacă nu funcționează,
-tăiați și lipiți adresa în linia
-din partea superioară a ferestrei browser-ului web.
-
-Salutări din partea administratorului "{$a->sitename}" ,
-{$a->signoff}';
+Dacă aveți nevoie de ajutor, puteți contacta adminsitratorul site-ului, {$a->admin}';
 $string['newusers'] = 'Utilizatori noi';
 $string['newwindow'] = 'Fereastră nouă';
 $string['next'] = 'Următorul';
@@ -1543,6 +1603,7 @@ $string['noreplybouncesubject'] = '{$a} - e-mail respins.';
 $string['noreplyname'] = 'Nu răspundeți la acest e-mail';
 $string['noresetrecord'] = 'Nu există nicio înregistrare a acelei cereri de resetare. Vă rugăm să inițiați o nouă solicitare de resetare a parolei.';
 $string['noresults'] = 'Fără rezultate';
+$string['noresultsfor'] = 'Nu există rezultate pentru "{$a}"';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Căutare normală';
 $string['nosite'] = 'Nu am putut găsi un curs la nivel de site';
@@ -1675,11 +1736,12 @@ $string['pluginarea'] = 'Zonă';
 $string['plugincheck'] = 'Verificare plugin-uri';
 $string['plugindeletefiles'] = 'Toate datele asociate cu plugin-ul "{$a->name}" au fost șterse din baza de date. Pentru a preveni reinstalarea plugin-ului, ar trebui să ștergeți acum acest director de pe server: {$a->directory}';
 $string['pluginitemid'] = 'Identificator element';
+$string['pluginmissingfromdisk'] = '{$a->name} (Missing from disk)';
 $string['pluginsetup'] = 'Configurarea tabelelor pentru plugin-uri';
 $string['policyaccept'] = 'Înțeleg și sunt de acord';
 $string['policyagree'] = 'Trebuie să fiți de acord cu această politică, pentru a continua să utilizați acest site.  Sunteți de acord?';
 $string['policyagreement'] = 'Acord privind politica site-ului';
-$string['policyagreementclick'] = 'Link către acordul privind politica site-ului';
+$string['policyagreementclick'] = 'Acord privind politica site-ului';
 $string['popup'] = 'popup';
 $string['popupwindow'] = 'Deschide fișierul într-o fereastră nouă';
 $string['popupwindowname'] = 'Fereastră pop-up';
@@ -1697,6 +1759,7 @@ $string['preprocessingbackupfile'] = 'Procesarea preliminară a fișierului de b
 $string['prev'] = 'Prev';
 $string['preview'] = 'Previzualizare';
 $string['previeworchoose'] = 'Previzualizați sau alegeți o temă';
+$string['previewthemename'] = 'Previzualizare tema \'{$a}\'';
 $string['previous'] = 'Anterior';
 $string['previouslyselectedusers'] = 'Utilizatorii selectați anterior nu se potrivesc "{$a}"';
 $string['previouspage'] = 'Pagina anterioară';
@@ -1724,6 +1787,14 @@ $string['privacy:metadata:log:module'] = 'modul';
 $string['privacy:metadata:log:time'] = 'Momentul în care a avut loc acțiunea';
 $string['privacy:metadata:log:url'] = 'Adresa URL aferentă evenimentului';
 $string['privacy:metadata:log:userid'] = 'ID-ul utilizatorului care a realizat acțiunea';
+$string['privacy:metadata:moodlenet_share_progress'] = 'Detaliile partajării progresului în MoodleNet';
+$string['privacy:metadata:moodlenet_share_progress:cmid'] = 'ID-ul modulului de curs asociat';
+$string['privacy:metadata:moodlenet_share_progress:courseid'] = 'ID-ul cursului asociat';
+$string['privacy:metadata:moodlenet_share_progress:resourceurl'] = 'Adresa URL returnată de MoodleNet după o distribuire cu succes.';
+$string['privacy:metadata:moodlenet_share_progress:status'] = 'Statutus-ul rezultat al partajării';
+$string['privacy:metadata:moodlenet_share_progress:timecreated'] = 'Când s-a efectuat distribuirea';
+$string['privacy:metadata:moodlenet_share_progress:type'] = 'Tipul de distribuire care s-a efectuat';
+$string['privacy:metadata:moodlenet_share_progress:userid'] = 'Utilizatorul care a efectuat distribuirea';
 $string['privacy:metadata:oauth2_refresh_token'] = 'Actualizați tokenul utilizat în comunicarea OAuth 2.0';
 $string['privacy:metadata:oauth2_refresh_token:issuerid'] = 'ID-ul emitentului căruia îi corespunde tokenul';
 $string['privacy:metadata:oauth2_refresh_token:scopehash'] = 'ID-ul utilizatorului căruia îi corespunde tokenul';
@@ -1755,6 +1826,7 @@ $string['privatefilesmanage'] = 'Gestionați fișierele private';
 $string['proceed'] = 'Continuă';
 $string['profile'] = 'Profil';
 $string['profilenotshown'] = 'Această descriere a profilului nu va fi afișată, până când această persoană nu este înscrisă la cel puțin un curs.';
+$string['progress'] = 'Progres';
 $string['publicprofile'] = 'Profil public';
 $string['publicsitefileswarning'] = 'Notă: fișierele plasate aici pot fi accesate de orice utilizator';
 $string['publicsitefileswarning2'] = 'Notă: fișierele plasate aici pot fi accesate de oricine știe (sau poate ghici) adresa URL. Din motive de securitate, se recomandă ca orice fișier de backup să fie șters imediat după restaurare.';
@@ -1787,7 +1859,6 @@ pentru notificări importante, cum ar fi alertele de securitate și noile versiu
 <p>Dacă alegeți, puteți permite ca numele site-ului dvs., țara și adresa URL să fie adăugate la lista publică a site-urilor Moodle.</p>
 <p>Toate noile înregistrări sunt verificate manual, înainte de a fi adăugate la listă, dar odată ce au fost adăugate, puteți actualiza înregistrarea (și intrarea pe lista publică) în orice moment, trimițând din nou acest formular.</p>';
 $string['registrationinfotitle'] = 'Informaţii de înregistrare';
-$string['registrationno'] = 'Nu, nu vreau să primesc niciun e-mail de la sediul Moodle';
 $string['registrationsend'] = 'Trimiteți informațiile de înregistrare la moodle.org';
 $string['registrationyes'] = 'Da, anunțați-mă despre noile versiuni Moodle, alerte de securitate și alte noutăți importante';
 $string['reject'] = 'Respinge';
@@ -1819,11 +1890,11 @@ $string['requestreason'] = 'Motivul respingerii cursului';
 $string['requests'] = 'Solicitări';
 $string['required'] = 'Necesar';
 $string['requirespayment'] = 'Acest curs trebuie plătit pentru a obține acces la el';
-$string['resendemail'] = 'Retrimite email';
+$string['resendemail'] = 'Retrimite email de confirmare';
 $string['reset'] = 'Resetează';
 $string['resetcomponent'] = 'Componentă';
 $string['resetcourse'] = 'Resetează curs';
-$string['resetinfo'] = 'Această pagină vă permite să eliminați datele de utilizator dintr-un curs, păstrând în același timp activitățile și alte setări. Vă rugăm să rețineți că, alegând articolele de mai jos și trimitând această pagină, veți șterge pentru totdeauna datele de utilizator alese din acest curs!';
+$string['resetinfo'] = 'Șterge toate datele utilizatorului și resetează acest curs la starea inițială, păstrând intacte activitățile și setările.';
 $string['resetnotimplemented'] = 'Resetarea nu a fost implementată';
 $string['resetrecordexpired'] = 'Link-ul de resetare a parolei pe care l-ați folosit este mai vechi de {$a} minute și a expirat. Vă rugăm să inițiați o nouă resetare a parolei.';
 $string['resetstartdate'] = 'Resetează data de începere';
@@ -1854,6 +1925,7 @@ $string['restorecoursenow'] = 'Restaurează acest curs acum!';
 $string['restoredaccount'] = 'Cont restabilit';
 $string['restoredaccountinfo'] = 'Acest cont a fost importat de pe alt server și parola a fost pierdută. Pentru a seta o nouă parolă prin e-mail, faceți click pe „Continuați”';
 $string['restorefinished'] = 'Restabiilire finalizată cu succes';
+$string['restoreinfo'] = 'Utilizează un fișier de rezervă pentru a restaura o versiune anterioară a unui curs sau pentru a crea un nou curs.';
 $string['restoremnethostidmismatch'] = 'ID-ul de gazdă MNet al utilizatorului "{$a}"  nu se potrivește cu ID-ul de gazdă MNet local.';
 $string['restoreto'] = 'Reveniți la';
 $string['restoretositeadding'] = 'Avertisment: sunteți pe cale să restabiliți pagina de pornire a site-ului, adăugând date la acesta!';
@@ -1872,7 +1944,8 @@ $string['role'] = 'Rol';
 $string['roleassignments'] = 'Alocări rol';
 $string['rolemappings'] = 'Cartografieri rolului';
 $string['rolerenaming'] = 'Redenumirea rolului';
-$string['rolerenaming_help'] = 'Această setare permite schimbarea denumirii rolurilor utilizate în curs. Este modificat numai numele afișat, fără ca permisiunile de roluri să fie afectate.  Rolurile redenumite  vor apărea pe pagina participanților la curs și în alte părți ale cursului. Dacă rolul redenumit este unul pe care administratorul l-a selectat ca rol de manager de curs, atunci noul rol redenumit va apărea ca parte a listelor de cursuri.';
+$string['rolerenaming_help'] = 'Modifică afișarea denumirii rolurilor în acest curs.';
+$string['rolerenaming_success'] = 'Denumirea rolurilor din curs a fost actualizată.';
 $string['roles'] = 'Roluri';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Numărul de articole RSS recente';
@@ -1916,8 +1989,11 @@ $string['searchbyemail'] = 'Căutați după adresa de e-mail';
 $string['searchbyusername'] = 'Căutare după nume de utilizator';
 $string['searchcoursecategories'] = 'Caută categorii';
 $string['searchcourses'] = 'Caută cursuri';
+$string['searchgroups'] = 'Caută grupuri';
+$string['searchitems'] = 'Caută elemente';
 $string['searchoptions'] = 'Opțiuni căutare';
 $string['searchresults'] = 'Rezultate căutare';
+$string['searchusers'] = 'Caută utilizatori';
 $string['sec'] = 'sec';
 $string['seconds'] = 'secunde';
 $string['secondsleft'] = '{$a} secunde';
@@ -1933,6 +2009,7 @@ $string['secs'] = 'secunde';
 $string['section'] = 'Secțiune';
 $string['sectionactionnotsupported'] = 'Acțiunea secțiunii „{$a}” nu este acceptată aici';
 $string['sectionname'] = 'Nume secțiune';
+$string['sectionoutline'] = 'Contur secțiune';
 $string['sections'] = 'Secțiuni';
 $string['seealsostats'] = 'Vezi și: statistici';
 $string['selctauser'] = 'Selectați un utilizator';
@@ -1966,7 +2043,10 @@ $string['selectmoduletoviewhelp'] = 'Selectați o activitate sau o resursă pent
 Faceți dublu clic pe o activitate sau pe un nume de resursă pentru ao adăuga rapid.';
 $string['selectnos'] = 'Selectează toate \'Nu\'';
 $string['selectperiod'] = 'Selectează perioada';
+$string['selecttheme'] = 'Selectează tema';
+$string['selectthemename'] = 'Selectează tema \'{$a}\'';
 $string['senddetails'] = 'Trimiteți datele mele prin e-mail';
+$string['sent'] = 'Trimis';
 $string['separate'] = 'Separă';
 $string['separateandconnected'] = 'Modalități separate și conectate de cunoaștere';
 $string['separateandconnectedinfo'] = 'Scara bazată pe teoria cunoașterii separate și conectate. Această teorie descrie două moduri diferite prin care putem evalua și învăța despre lucrurile pe care le vedem și le auzim. <ul> <li> <strong> Cunoștințele separate </strong> rămân cât mai obiective posibil fără a include sentimente și emoții. Într-o discuție cu alte persoane, le place să-și apere propriile idei, folosind logica pentru a găsi găuri în ideile adversarului. </li> <li> <strong> Cunoscătorii conectați </strong> sunt mai sensibili la alte persoane. Sunt pricepuți la empatie și tind să asculte și să pună întrebări până când simt că se pot conecta și „înțelege lucrurile din punctul lor de vedere”. Ei învață încercând să împărtășească experiențele care au condus la cunoștințele pe care le găsesc la alte persoane. </li> </ul>';
@@ -1979,6 +2059,7 @@ $string['setmode'] = 'Setează modul';
 $string['setpassword'] = 'Setează parola';
 $string['setpasswordinstructions'] = 'Vă rugăm să introduceți noua parolă mai jos, apoi să salvați modificările.';
 $string['settings'] = 'Setări';
+$string['share'] = 'Partajează';
 $string['shortname'] = 'Denumire prescurtată';
 $string['shortnamecollisionwarning'] = '[*] = Această prescurtare a numelui este deja utilizată de un curs și va trebui să fie modificată după aprobare';
 $string['shortnamecourse'] = 'Denumirea scurtă a cursului';
@@ -2006,8 +2087,10 @@ $string['showgrades'] = 'Carnetul de note este afișat pentru cursanți';
 $string['showgrades_help'] = 'Permite cursanților să vadă o listă cu notele lor în pagina de curs.';
 $string['showingacourses'] = 'Se afișează toate {$a} cursuri';
 $string['showingxofycourses'] = 'Afișarea cursurilor {$a->start} la {$a->end} din {$a->total} cursuri';
+$string['showless'] = 'Afișează mai puțin';
 $string['showlistofcourses'] = 'Afișează lista cursurilor';
 $string['showmodulecourse'] = 'Afișează lista cursurilor care conțin activitate';
+$string['showmore'] = 'Afișează mai mult';
 $string['showoncoursepage'] = 'Afișare pe pagina cursului';
 $string['showonly'] = 'Afișează numai';
 $string['showperpage'] = 'Afișează {$a} pe pagină';
@@ -2019,8 +2102,8 @@ $string['showsettings'] = 'Afișează setările';
 $string['showtheselogs'] = 'Afișează aceste jurnale';
 $string['showthishelpinlanguage'] = 'Afișează această asistență în limba: {$a}';
 $string['sidepanel'] = 'Panou lateral';
-$string['signoutofotherservices'] = 'Deconectați-vă complet';
-$string['signoutofotherservices_help'] = 'Dacă este bifat, contul va fi deconectat de la toate dispozitivele și sistemele care utilizează servicii web, cum ar fi aplicația mobilă.';
+$string['signoutofotherservices'] = 'Deconectați-vă de la toate web apps';
+$string['signoutofotherservices_help'] = 'Deconectați-vă de la toate dispozitivele și sistemele care utilizează servicii web, de exemplu aplicația mobilă. Sesiunile de browser vor rămâne active.';
 $string['since'] = 'De când';
 $string['sincelast'] = 'de la ultima conectare';
 $string['site'] = 'Site';
@@ -2038,7 +2121,7 @@ $string['sitepartlist'] = 'Nu aveți permisiunile necesare pentru a vizualiza li
 $string['sitepartlist0'] = 'Trebuie să fiți formator de site pentru a avea permisiunea de a vedea lista participanților site-ului';
 $string['sitepartlist1'] = 'Trebuie să fiți formator pentru a avea permisiunea de a vedea lista participanților site-ului';
 $string['sites'] = 'Site-uri';
-$string['sitesection'] = 'Includeți o secțiune de subiecte';
+$string['sitesection'] = 'Adăugare conținut personalizat';
 $string['sitesettings'] = 'Setările site-ului';
 $string['siteteachers'] = 'Formatori site';
 $string['size'] = 'Dimensiune';
@@ -2052,7 +2135,6 @@ $string['skipped'] = 'Omis';
 $string['skiptocategorylisting'] = 'Treci la listele de categorii';
 $string['skiptocoursedetails'] = 'Treci la informațiile detaliate despre curs';
 $string['skiptocourselisting'] = 'Treci la listele cursurilor';
-$string['skypeid'] = 'Identificator Skype';
 $string['socialheadline'] = 'Forum social - ultimele subiecte';
 $string['someallowguest'] = 'Unele cursuri pot permite accesul vizitatorilor';
 $string['someerrorswerefound'] = 'Unele informații lipseau sau erau incorecte. Uitați-vă mai jos pentru detalii.';
@@ -2069,6 +2151,10 @@ $string['startdate'] = 'Data de începere a cursului';
 $string['startdate_help'] = 'Această dată determină începutul primei săptămâni pentru un curs în format săptămânal. Este, de asemenea, data de începere a jurnalelor de activități ale cursului.
 
 Dacă resetezi cursul și modifici această dată, toate datele din curs vor fi mutate în raport cu noua dată de începere.';
+$string['startdatewithtaskenabled'] = 'Data începerii cursului';
+$string['startdatewithtaskenabled_help'] = 'Data la care cursul devine vizibil pentru studenți. Înainte de această dată, aceștia nu vor putea accesa cursul.
+
+Această dată determină, de asemenea, începutul primei săptămâni pentru un curs în format săptămânal și este data de începere a jurnalelor de activități ale cursului. Dacă resetați cursul și modificați această dată, toate datele din curs vor fi mutate în raport cu noua dată de începere.';
 $string['startingfrom'] = 'Începând de la';
 $string['startsignup'] = 'Creează un cont nou';
 $string['state'] = 'Stat/ Provincie';
@@ -2116,6 +2202,7 @@ $string['statsuserreads'] = 'Vizualizări';
 $string['statsuserwrites'] = 'Postări';
 $string['statswrites'] = 'Postări';
 $string['status'] = 'Status';
+$string['statuschecks'] = 'Verificări status';
 $string['statuscritical'] = 'Critic';
 $string['statuserror'] = 'Eroare';
 $string['statusinfo'] = 'Info';
@@ -2137,7 +2224,6 @@ $string['successduration'] = 'Succes ({$a} secunde)';
 $string['summary'] = 'Rezumat';
 $string['summary_help'] = 'Rezumatul este un text scurt destinat pregătirii cursanților pentru activitățile din cadrul subiectului sau săptămânii. Textul este afișat pe pagina cursului sub numele secțiunii.';
 $string['summaryof'] = 'Rezumatul {$a}';
-$string['supplyinfo'] = 'Detalii suplimentare';
 $string['suspended'] = 'Suspendat';
 $string['suspendedusers'] = 'Utilizatori suspendați';
 $string['switchdevicedefault'] = 'Treceți la tema standard';
@@ -2167,6 +2253,8 @@ $string['textellipsis'] = '{$a}...';
 $string['textformat'] = 'Format text simplu';
 $string['thanks'] = 'Mulțumim';
 $string['theme'] = 'Temă';
+$string['themepreviewdescription'] = 'Descrierea temei {$a}';
+$string['themepreviewimage'] = 'imagine pentru previzualizare {$a}';
 $string['themes'] = 'Teme';
 $string['themesaved'] = 'Tema nouă a fost salvată';
 $string['therearecourses'] = 'Există {$a} cursuri';
@@ -2210,6 +2298,7 @@ $string['timezone'] = 'Fus orar';
 $string['to'] = 'La';
 $string['tocontent'] = 'La elementul "{$a}"';
 $string['tocreatenewaccount'] = 'Treci peste crearea unui cont nou';
+$string['todate'] = 'La';
 $string['today'] = 'Azi';
 $string['todaylogs'] = 'Jurnalele de astăzi';
 $string['toeveryone'] = 'tuturor';
@@ -2227,6 +2316,7 @@ $string['topichide'] = 'Ascunde acest subiect {$a}';
 $string['topicoutline'] = 'Schița subiectului';
 $string['topicshow'] = 'Arată acest subiect {$a}';
 $string['toplevelcategory'] = 'Categorie de nivel superior';
+$string['torecipient'] = 'La';
 $string['total'] = 'Total';
 $string['totopofsection'] = 'În partea de sus a secțiunii "{$a}"';
 $string['trackforums'] = 'Urmărirea forumului';
@@ -2299,6 +2389,7 @@ $string['userdescription_help'] = 'Această casetă vă permite să introduceți
 $string['userdetails'] = 'Detalii utilizator';
 $string['userfiles'] = 'Fișiere utilizator';
 $string['userlist'] = 'Lista de utilizatori';
+$string['usermatchedon'] = 'Acest utilizator corespunde căutării pe baza următorului câmp';
 $string['usermenu'] = 'Meniul utilizatorului';
 $string['usermenugoback'] = 'Întoarce-te la meniul utilizatorului';
 $string['username'] = 'Nume de utilizator';
@@ -2314,7 +2405,10 @@ $string['userpreferences'] = 'Preferințele utilizatorilor';
 $string['users'] = 'Utilizatori';
 $string['userselectorautoselectunique'] = 'Dacă un singur utilizator se potrivește cu căutarea, selectați-l automat';
 $string['userselectorpreserveselected'] = 'Păstrați utilizatorii selectați, chiar dacă nu mai corespund căutării';
-$string['userselectorsearchanywhere'] = 'Potriviți textul de căutare oriunde în câmpurile afișate';
+$string['userselectorsearchanywhere'] = 'oriunde';
+$string['userselectorsearchexactmatchonly'] = 'doar potriviri exacte';
+$string['userselectorsearchfromstart'] = 'de la început';
+$string['userselectorsearchmatching'] = 'Se potrivește:';
 $string['usersnew'] = 'Utilizatori noi';
 $string['usersnoaccesssince'] = 'Inactiv pentru mai mult de';
 $string['userswithfiles'] = 'Utilizatori cu fișiere';
@@ -2328,11 +2422,13 @@ $string['version'] = 'Versiune';
 $string['view'] = 'Vizualizare';
 $string['viewallcourses'] = 'Vizualizați toate cursurile';
 $string['viewallcoursescategories'] = 'Vizualizați toate cursurile și categoriile';
+$string['viewallresults'] = 'Vezi toate rezultatele ({$a})';
 $string['viewallsubcategories'] = 'Vizualizați toate subcategoriile';
 $string['viewfileinpopup'] = 'Vizualizați fișierul într-o fereastră pop-up';
 $string['viewing'] = 'Vizualizare:';
 $string['viewmore'] = 'Vezi mai mult';
 $string['viewprofile'] = 'Vezi profil';
+$string['viewresults'] = 'Vezi rezultatele cursantului {$a}';
 $string['views'] = 'Vizualizări';
 $string['viewsolution'] = 'vizualizează soluția';
 $string['visible'] = 'Vizibil';
@@ -2351,9 +2447,9 @@ $string['welcomeback'] = 'Salut, {$a->firstname}! 👋';
 $string['welcometocourse'] = 'Bine ai venit la {$a}';
 $string['welcometocoursetext'] = 'Bine ai venit la {$a->coursename}!
 
-Dacă nu ai făcut deja acest lucru, ar trebui să îți editezi pagina de profil, astfel încât să putem afla mai multe despre tine.:
+Dacă nu ai făcut deja acest lucru, ar trebui să îți editezi pagina de profil ca să te cunoaștem mai bine:
 
-  {$a->profileurl}';
+<a href="{$a->profileurl}">{$a->profileurl}</a>';
 $string['welcometosite'] = 'Bine ai venit, {$a->firstname}! 👋';
 $string['whatforlink'] = 'Ce doriți să faceți cu link-ul?';
 $string['whatforpage'] = 'Ce doriți să faceți cu textul?';
@@ -2368,6 +2464,7 @@ $string['withdisablednote'] = '{$a} (disabled)';
 $string['withoutuserdata'] = 'fără date de utilizator';
 $string['withselectedusers'] = 'Cu utilizatorii selectați...';
 $string['withuserdata'] = 'cu datele utilizatorului';
+$string['wontrunfuturescheduledtask'] = 'Nu va rula sarcina care nu a eșuat și este programată să ruleze în viitor';
 $string['wordforstudent'] = 'Definirea termenului Cursant';
 $string['wordforstudenteg'] = 'De exemplu, cursant, participant etc';
 $string['wordforstudents'] = 'Cuvântul dumneavoastră pentru cursanți';
@@ -2392,7 +2489,6 @@ $string['writingmoduleinfo'] = 'Crearea informațiilor despre module';
 $string['writingscalesinfo'] = 'Crearea informațiilor despre scale';
 $string['writinguserinfo'] = 'Scrierea informațiilor despre utilizatori';
 $string['wrongpassword'] = 'Parolă incorectă pentru acest nume de utilizator';
-$string['yahooid'] = 'Identificator Yahoo';
 $string['year'] = 'an';
 $string['years'] = 'ani';
 $string['yes'] = 'Da';

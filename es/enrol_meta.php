@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'es', version '4.1'.
+ * Strings for component 'enrol_meta', language 'es', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'Por defecto, todas las asignaciones de rol a ni
 $string['pluginname'] = 'Meta-enlace de curso';
 $string['pluginname_desc'] = 'La extensión de matriculación meta-enlace sincroniza matrículas y roles entre dos cursos diferentes.';
 $string['privacy:metadata:core_group'] = 'Enroll meta plugin puede crear un nuevo grupo o usar un grupo existente para agregar a todos los participantes del curso vinculado.';
+$string['samemetacourse'] = 'Usted no puede crear un meta enlace del curso a sí mismo';
 $string['syncall'] = 'Sincronizar todos los usuarios inscritos';
 $string['syncall_desc'] = 'Si se habilita todos los usuarios matriculados están sincronizados, incluso si no tienen ningún rol en el curso-padre; si está deshabilitado sólo los usuarios que tienen al menos un rol sincronizado se matriculan en el curso-hijo.';
+$string['unknownmetacourse'] = 'Nombre corto de meta curso desconocido';
 $string['wscannotcreategroup'] = 'No hay permiso para crear grupo en curso enlazado con id = {$a}.';
 $string['wsinvalidcourse'] = 'El curso con id = {$a} no existe o no tiene permiso para enlazara a inscripción meta.';
 $string['wsinvalidmetacourse'] = 'El curso meta con id = {$a} no existe o no tiene permiso para añadir instancia de inscripción.';

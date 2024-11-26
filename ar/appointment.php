@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'appointment', language 'ar', version '4.1'.
+ * Strings for component 'appointment', language 'ar', version '4.4'.
  *
  * @package     appointment
  * @category    string
@@ -69,6 +69,7 @@ $string['attendanceinstructions'] = 'حدد المستخدمين الذين حض
 $string['attendedsession'] = 'حضر الجلسة';
 $string['attendees'] = 'الحاضرين';
 $string['attendeestablesummary'] = 'الأشخاص الذين يخططون لهذه الجلسة أو حضروها.';
+$string['availableplaceholders'] = 'العناصر النائبة المتاحة';
 $string['availableseats'] = '{$a} المقاعد المتاحة';
 $string['book'] = 'احجز';
 $string['bookedat'] = '<strong>الحجز:</strong> {$a}';
@@ -100,6 +101,7 @@ $string['capacity_help'] = '**الاستيعاب** هو عدد المقاعد ا
 عندما تصل جلسة الموعد إلى حد استيعابها، لا تظهر تفاصيل الجلسة في صفحة المقرر. ستظهر التفاصيل بلون رمادي في صفحة \'معاينة كل الجلسات\' ولن يعود المتعلم قادرًا على الانضمام إلى الجلسة.
 &nbsp;';
 $string['closed'] = 'مغلق';
+$string['completionattended'] = 'حجز موعد والحضور إليه';
 $string['completionattended_help'] = 'إذا تم تمكينه، فسيتم اعتبار النشاط مكتملًا إذا تم وضع علامة "حضور كامل" أو "حضور جزئي" على حجز حضور المتعلم.';
 $string['completionbooked'] = 'يجب على المتعلم حجز موعد لإكمال هذا النشاط';
 $string['completionbooked_help'] = 'في حالة التمكين، سيتم اعتبار النشاط مكتملًا إذا كانت حالة المتعلم "محجوزًا" أو "حضر بالكامل" أو "حضر جزئيًا". إذا قام المتعلم بإلغاء الحضور، أو تم إدراجه في قائمة الانتظار، أو تم وضع علامة "عدم الحضور" على حضوره، فلن يعتبر النشاط مكتملاً.';
@@ -195,6 +197,8 @@ $string['placeholder:lastname'] = '[lastname]';
 $string['placeholder:reminderperiod'] = '[lastname]';
 $string['placeholder:sessiondate'] = '[sessiondate]';
 $string['placeholder:starttime'] = '[وقت البدء]';
+$string['placeholdersdesc'] = 'العناصر النائبة';
+$string['placeholdersdesc_help'] = 'تتيح لك العناصر النائبة إضافة محتوى ديناميكي، على سبيل المثال. سيتم استبدال العنصر النائب [firstname] بالاسم الأول للمستخدم في الإشعار الذي يتم تسليمه إلى المستخدم.';
 $string['pluginadministration'] = 'إدارة التعيين';
 $string['pluginname'] = 'الموعد';
 $string['potentialattendees'] = 'الحضور المحتملين';
@@ -373,5 +377,6 @@ $string['usersignedup'] = 'الحالة: تم الاشتراك';
 $string['usersignedupon'] = 'قام المستخدم بالتسجيل في {$a}';
 $string['userwillbewaitlisted'] = 'هذه الجلسة ممتلئة حاليًا. بالنقر على زر "التسجيل"، سيتم وضعك على قائمة انتظار الجلسات.';
 $string['venue'] = 'المكان';
+$string['waitlistedat'] = '<strong>قائمة الانتظار:</strong> {$a}';
 $string['waitlistedmessage'] = 'رسالة قائمة الانتظار';
 $string['waitlistedmessage_help'] = 'يتم إرسال هذه الرسالة عندما يقوم المستخدمون بالتسجيل في جلسة قائمة الانتظار.';

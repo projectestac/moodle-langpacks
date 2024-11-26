@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'ar', version '4.1'.
+ * Strings for component 'format_topcoll', language 'ar', version '4.4'.
  *
  * @package     format_topcoll
  * @category    string
@@ -37,7 +37,6 @@ $string['defaulttgbgcolour_desc'] = 'لون خلفية التبديل بالنظ
 $string['defaulttogglealignment'] = 'تبديل محاذاة النص';
 $string['defaulttoggleiconsize_desc'] = 'حجم الأيقونة: صغير= 16px، متوسط= 24px وكبير= 32px.';
 $string['deletesection'] = 'إحذف المقطع';
-$string['duplicate'] = 'نسخ مطابق';
 $string['editsection'] = 'تحرير المقطع';
 $string['editsectionname'] = 'تعديل اسم المقطع';
 $string['feedbackavailable'] = 'الإفادة متاحة';

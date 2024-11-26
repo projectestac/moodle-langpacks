@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'de', version '4.1'.
+ * Strings for component 'format_tiles', language 'de', version '4.4'.
  *
  * @package     format_tiles
  * @category    string
@@ -129,8 +129,8 @@ $string['documentationurl'] = 'Link zur Dokumentation';
 $string['documentationurl_descr'] = 'Link zur Dokumentation des Kachelformats';
 $string['download'] = 'Download';
 $string['editoradvicesubtiles'] = 'In dieser Version des Kachelformats erscheinen die Aktivitäten nur als Unterkacheln, wenn Bearbeiten ausgeschaltet ist.';
-$string['editsection'] = 'Kachel bearbeiten';
-$string['editsectionname'] = 'Kachelname bearbeiten';
+$string['editsection'] = 'Abschnitt bearbeiten';
+$string['editsectionname'] = 'Abschnittsname bearbeiten';
 $string['embeddedurlerror'] = 'Falls die externe Website nicht erreichbar ist, verwenden Sie diesen Link:';
 $string['enablelinebreakfilter'] = 'Zeilenumbruchfilter aktivieren';
 $string['enablelinebreakfilter_desc'] = 'Kacheltitel nach unsichtbarer Wortverbindung {$a} filtern und, falls vorhanden und der Titel lang ist, durch "-" ersetzen. Das ermöglicht Zeilenumbrüche. Andernfalls ersetzen Sie es durch nichts (d.h. kein Zeilenumbruch).';
@@ -261,13 +261,13 @@ $string['icontitle-volume-up'] = 'Lautsprecher';
 $string['icontitle-wrench'] = 'Schraubenschlüssel';
 $string['imagecannotbeused'] = 'Bild kann nicht verwendet werden';
 $string['imagedeletedfrom'] = 'Bild gelöscht von "{$a}"';
-$string['imagesavedfor'] = 'Bild gesichert für Kachel "{$a}"';
+$string['imagesavedfor'] = 'Bild gesichert für \'{$a}\'';
 $string['imagesize'] = 'Bildgröße';
 $string['jsactivate'] = 'Animierte Navigation ausschalten';
 $string['jsdeactivate'] = 'Animierte Navigation einschalten';
 $string['jsdeactivated'] = 'Sie haben die animierte Navigation in Ihrem Konto deaktiviert';
 $string['jsnavsettings'] = 'Navigation';
-$string['jsreactivated'] = 'Sie haben die animierte Navigation in Ihrem Konto aktiviert. Dies kann zu einer schnelleren Verwendung führen. Es muss JavaScript aktiviert sein.';
+$string['jsreactivated'] = 'Sie haben die animierte Navigation in Ihrem Konto aktiviert.';
 $string['legacytiledata'] = 'Anzahl von alten Kacheldaten';
 $string['links'] = 'Links';
 $string['loading'] = 'Laden';
@@ -316,6 +316,7 @@ $string['phototitletitlelineheight'] = 'Zeilenhöhe für Titel';
 $string['phototitletitlepadding'] = 'Vertikaler Seitenabstand für Titel';
 $string['picknewicon'] = 'Neues Icon auswählen';
 $string['picknewiconphoto'] = 'Neues Icon oder Hintergrundfoto auswählen';
+$string['plugin_description'] = 'Im Kachelformat werden Abschnitte und Aktivitäten ansprechend als Kacheln mit anpassbaren Fotos, Symbolen und Farben dargestellt.';
 $string['pluginname'] = 'Kachelformat';
 $string['previoustopic'] = 'Vorheriger Abschnitt';
 $string['privacy:metadata:preference:format_tiles_stopjsnav'] = 'Unabhängig davon, ob die animierte JavaScript-Navigation deaktiviert ist.';
@@ -324,7 +325,7 @@ $string['problemcourses'] = 'Problemkurse';
 $string['problemcoursesintro'] = 'Die folgenden Kurse haben Abschnittsnummern, die größer sind als erlaubt. Verwenden Sie bitte die nachfolgenden Tasten, um die Fehler zu beheben.';
 $string['progress'] = 'Fortschritt';
 $string['progresstitle'] = '{$a->numComplete} / {$a->numOutOf} Elemente abgeschlossen ({$a->percent}%)';
-$string['reactivate'] = 'reaktivieren';
+$string['reactivate'] = 'Reaktivieren';
 $string['register'] = 'Registrieren';
 $string['registeragreeprivacy'] = 'Ich stimme der {$a->privacypolicylink} der Plugin-Entwickler/innen zu';
 $string['registerclicktocomplete'] = 'Klicken Sie auf OK, um den Vorgang abzuschließen.';
@@ -349,7 +350,7 @@ $string['resetcolours'] = 'Farben zurücksetzen';
 $string['resetcolours_desc'] = 'Drücken Sie diese Taste, um die Kachelfarbe für alle Kurse zurückzusetzen, die die folgenden Farben nicht haben. Die Kurse werden in die angegebene Standardfarbe für Kacheln geändert. Sie können diese Option verwenden, nachdem Sie die Farbpalette geändert haben. Stellen Sie jedoch sicher, dass Sie alle Änderungen an den Farben gespeichert haben, bevor Sie auf die Taste klicken. Seien Sie vorsichtig, da dies die Farben vieler Kurse verändern kann!';
 $string['resetincomplete'] = 'Zurücksetzen unvollständig';
 $string['restorefailed'] = 'Wiederherstellung fehlgeschlagen';
-$string['restoreincorrectsections'] = 'Fehler: Der Quellkurs enthält falsch nummerierte Abschnitte (möglicherweise ist die Abschnittsnummer ({$a->sectionnum}) höher als die maximal zulässige ({$a->maxallowed}). Versuchen Sie, Abschnitte mit hohen Nummern auszuschließen oder zu löschen.';
+$string['restoreincorrectsections'] = 'Fehler: Der Vorgang kann nicht abgeschlossen werden. Der Quellkurs enthält falsch nummerierte Abschnitte (möglicherweise ist die Abschnittsnummer ({$a->sectionnum}) höher als die maximal zulässige Anzahl ({$a->maxallowed}) i den Kurseinstellungen. Versuchen Sie, Abschnitte mit hohen Nummern auszuschließen oder zu löschen.';
 $string['restoretoomanysections'] = 'Fehler: Der Kurs kann nicht gesichert oder wiederhergestellt werden, da er zu viele Abschnitte enthält ({$a->numsections}) und dies mehr als zulässig ist ({$a->maxallowed}). Versuchen Sie, einige Abschnitte auszuschließen oder zu löschen.';
 $string['revealcontents'] = 'Kachelinhalt aufdecken';
 $string['scheduleddeleteemptysections'] = 'Die Task, leere Abschnitte aus dem Kurs zu löschen, wurde eingeplant. Versuchen Sie es bitte später noch einmal.';
@@ -370,11 +371,13 @@ $string['showoverallprogress_desc'] = 'Zeigen Sie oben rechts im Kurs den Indika
 $string['showprogresssphototiles_desc'] = 'Wenn diese Option ausgewählt ist, wird der Teilnehmerfortschritt (z.B. Fortschritt 2/5) auf den Fotokacheln angezeigt';
 $string['showseczerocoursewide'] = 'Anzeige des Abschnittes "Allgemeines" in allen Abschnitten';
 $string['showseczerocoursewide_desc'] = 'Wenn diese Option aktiviert ist, wird der Abschnitt Null (der oberste Abschnitt) auf der Kursseite und oben auf jeder Seite des Kurses angezeigt (d.h. oben über dem Inhalt jeder Kachel). Wenn nicht angekreuzt (empfohlen), wird es nur auf der Kursseite angezeigt';
-$string['showseparatewin'] = 'Datei in einem separaten Fenster anzeigen';
+$string['showseparatewin'] = 'In einem separaten Fenster anzeigen';
 $string['sitename'] = 'Name der Website';
 $string['snapwarning'] = 'Es ist möglich, Ihren Kurs im Kachelformat mit einem anderen Design zu bearbeiten und dann nach der Bearbeitung wieder zum \'Snap-Design\' zurückzukehren.';
 $string['snapwarning_help'] = 'Designs > Einstellungen > Designwechsel für Nutzer/innen erlauben';
 $string['style'] = 'Stil';
+$string['subtileiconcolourbackground'] = 'Unterkachelsymbole – verwenden einen einfarbigen Hintergrundkreis';
+$string['subtileiconcolourbackground_desc'] = 'Wenn diese Option aktiviert ist, werden die Symbole der untergeordneten Kacheln als weiße Symbole in einem einfarbigen Hintergrundkreis angezeigt. Andernfalls sind die Symbole (1) selbst farbig und (2) in einem farbigen, aber nicht einfarbigen Kreis dargestellt.';
 $string['subtileszeczerotoggled'] = 'Der obere Abschnitt wird zwischen Listen- und Unterkachelformat umgeschaltet';
 $string['suremigratelegacyoptions'] = 'Möchten Sie wirklich die {$a} Kachelfoto- oder Symbolauswahl für diesen Kurs migrieren?';
 $string['sureresetcolours'] = 'Möchten Sie die Kachelfarben wirklich für alle Kurse zurücksetzen? Dies betrifft insgesamt {$a} Kurse.';
@@ -382,11 +385,12 @@ $string['tilearialabel'] = '{$a}, öffnet Details in Popup';
 $string['tilecolourgeneral'] = 'Farbpalette - optionale Farbe';
 $string['tilecolourgeneral_descr'] = 'Mit diesen Einstellungen wird festgelegt, welche Farben den Trainer/innen in ihren Kursen zur Verfügung stehen. Stellen Sie die Farbe auf Schwarz (#000000) ein, um diese Farbe zu deaktivieren. Wenn Sie die Farben nachträglich hier ändern, werden keine Änderungen an vorhandenen Kursen vorgenommen. Für die nächste Kursbearbeitung stehen den Trainer/innen aber dann nur die Farben zur Verfügung, die Sie hier festgelegt haben.';
 $string['tilecolourschanged'] = 'Die Kachelfarben wurden zurückgesetzt. Alle Kacheln haben jetzt Farben aus den angegebenen Bereich.';
-$string['tileicon'] = 'Symbol, das nur auf dieser Kachel angezeigt wird';
+$string['tileicon'] = 'Symbol / Foto, das nur auf dieser Kachel angezeigt wird';
 $string['tileicon_help'] = 'Das hier ausgewählte Element überschreibt nur für diese Kachel das Kachelsymbol, das auf der Kursebene festgelegt wurde.';
 $string['tileicons'] = 'Kachelsymbole';
 $string['tileoutcome'] = 'Ergebnis für diese Kachel';
 $string['tileoutcome_help'] = 'Wenn Sie ein Ergebnis für diese Kachel auswählen, können Sie dann unter Kurseinstellungen eine Reihe von <em>Filtertasten</em> anzeigen, eine für jedes Ergebnis, die beim Drücken die angezeigten Kacheln nach dem Ergebnis filtern, die ihnen zugewiesen wurde';
+$string['tileselecttip'] = 'Um das Kachelsymbol oder das Foto zu ändern, klicken Sie bei aktiviertem Bearbeitungsmodus einfach darauf. Die Symbolauswahl wird angezeigt.';
 $string['tilesformatregistration'] = 'Registrierung für Kachelformat';
 $string['tilesreset'] = 'Kacheln & Symbole wurden für diesen Kurs zurückgesetzt';
 $string['tilestyle'] = 'Kachelstil';

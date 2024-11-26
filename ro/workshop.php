@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ro', version '4.1'.
+ * Strings for component 'workshop', language 'ro', version '4.4'.
  *
  * @package     workshop
  * @category    string
@@ -209,7 +209,6 @@ $string['latesubmissions'] = 'Trimitere răspunsuri întârziate';
 $string['latesubmissions_desc'] = 'Permiteți răspunsuri după termenul limită';
 $string['latesubmissions_help'] = 'Dacă este activat, autorul poate trimite răspunsul după termenul limită de trimitere sau în timpul fazei de evaluare. Însă răspunsurile întârziate nu mai pot fi editate.';
 $string['latesubmissionsallowed'] = 'Este permisă trimiterea răspunsurilor întârziate, după data limită';
-$string['legacyallocationplugincron'] = 'Alocarea vechiului cron de atelier';
 $string['maxbytes'] = 'Dimensiunea maximă a atașamentului pentru un răspuns';
 $string['modulename'] = 'Atelier';
 $string['modulename_help'] = 'Activitatea de tip atelier permite colectarea, revizuirea și evaluarea  răspunsurilor colegilor într-un flux foarte bine definit.

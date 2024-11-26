@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'zh_cn', version '4.1'.
+ * Strings for component 'message', language 'zh_cn', version '4.4'.
  *
  * @package     message
  * @category    string
@@ -54,7 +54,6 @@ $string['contacts'] = '联系人';
 $string['conversationactions'] = '对话操作菜单';
 $string['decline'] = '拒绝';
 $string['defaultmessageoutputs'] = '通知设置';
-$string['defaults'] = '默认';
 $string['deleteallconfirm'] = '您确定要删除整个对话吗?这不会删除其他对话参与人的对话。';
 $string['deleteallmessages'] = '删除所有信息';
 $string['deleteallselfconfirm'] = '您确定要删除整个个人对话吗？';
@@ -97,11 +96,7 @@ $string['info'] = '用户信息';
 $string['isnotinyourcontacts'] = '{$a}不是您的联系人';
 $string['loadmore'] = '加载更多';
 $string['loggedin'] = '在线';
-$string['loggedin_help'] = '配置当你登录到Moodle时怎么接收消息';
-$string['loggedindescription'] = '当我在线时';
 $string['loggedoff'] = '离线';
-$string['loggedoff_help'] = '配置当你没有登录到Moodle时怎么接收消息';
-$string['loggedoffdescription'] = '当我离线时';
 $string['managemessageoutputs'] = '默认通知首选项';
 $string['message'] = '消息';
 $string['messagecontactrequest'] = '{$a->user} 请求添加为联系人。 访问您的<a href="{$a->url}">联系请求</a>页面以响应请求';
@@ -242,10 +237,8 @@ $string['sendbulkmessagesentsingle'] = '消息已发送给 1 人';
 $string['sendbulkmessagesingle'] = '向 1 人发送消息';
 $string['sendcontactrequest'] = '发送联系人请求';
 $string['sender'] = '{$a}:';
-$string['sendingvia'] = '正通过“{$a->processor}”发送“{$a->provider}”';
 $string['sendingviaenabled'] = '通过“{$a->processor}”启用状态发送“{$a->provider}”';
 $string['sendingvialocked'] = '通过“{$a->processor}”锁定状态发送“{$a->provider}”';
-$string['sendingviawhen'] = '{$a->state}时通过“{$a->processor}”发送“{$a->provider}”';
 $string['sendmessage'] = '发送消息';
 $string['sendmessageto'] = '发消息给 {$a}';
 $string['sendmessagetopopup'] = '发送消息给 {$a} - 新窗口';
@@ -278,6 +271,7 @@ $string['viewfullnotification'] = '查看完整通知';
 $string['viewmessageswith'] = '查看带有 {$a} 的消息';
 $string['viewnotificationresource'] = '转到：{$a}';
 $string['viewunreadmessageswith'] = '使用 {$a} 查看未读消息';
+$string['waitingforcontactaccept'] = '等待添加为联系人';
 $string['wouldliketocontactyou'] = '想和您联系';
 $string['writeamessage'] = '写一条消息...';
 $string['you'] = '您：';

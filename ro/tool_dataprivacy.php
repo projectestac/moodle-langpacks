@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'ro', version '4.1'.
+ * Strings for component 'tool_dataprivacy', language 'ro', version '4.4'.
  *
  * @package     tool_dataprivacy
  * @category    string
@@ -30,9 +30,13 @@ $string['addcategory'] = 'Adăugați categorie';
 $string['addnewdefaults'] = 'Adăugați un nou modul implicit';
 $string['addpurpose'] = 'Adăugați un scop';
 $string['addroleoverride'] = 'Adăugați suprascrierea rolului';
+$string['allowfiltering'] = 'Permite filtrarea de export pentru cursuri';
+$string['allowfiltering_desc'] = 'Dacă este activat, responsabilul de confidențialitate poate alege să exporte datele utilizatorilor doar din cursurile selectate nu din toate cursurile. Când această funcție este activată, cererile de export vor începe de la „În așteptare” și pot fi aprobate numai după finalizarea procesului din fundal.';
 $string['approve'] = 'Aproba';
 $string['approvedrequestsubmitted'] = 'Solicitarea dvs. a fost trimisă și va fi procesată în curând.';
 $string['approverequest'] = 'Aprobă cererea';
+$string['approverequestall'] = 'Aprobă cererea (toate datele)';
+$string['approveselectedcourses'] = 'Aprobă cursurile selectate';
 $string['automaticdatadeletionapproval'] = 'Aprobarea solicitării ștergerii automate a datelor';
 $string['automaticdatadeletionapproval_desc'] = 'Dacă este activată, solicitările de ștergere a datelor sunt aprobate automat. <br/> Rețineți că aprobarea automată se va aplica numai noilor solicitări de ștergere a datelor cu această setare activată. Solicitările de ștergere a datelor existente în așteptarea aprobării vor trebui în continuare aprobate manual de către responsabilul cu confidențialitatea.';
 $string['automaticdataexportapproval'] = 'Aprobarea solicitării exportului automat de date';
@@ -45,7 +49,7 @@ $string['cachedef_contextlevel'] = 'Nivelul contextului, scopul și categoria';
 $string['cachedef_purpose'] = 'Scopurile datelor';
 $string['cachedef_purpose_overrides'] = 'Scopul suprascrie în instrumentul de confidențialitate a datelor';
 $string['cancelrequest'] = 'Anulează cererea';
-$string['cancelrequestconfirmation'] = 'Sigur doriți să anulați această solicitare de date?';
+$string['cancelrequestconfirmation'] = 'Doriți să anulați această solicitare de date?';
 $string['cannotreset'] = 'Nu s-a putut reseta această solicitare. Numai cererile respinse pot fi resetate.';
 $string['categories'] = 'Categorii';
 $string['categorieslist'] = 'Lista categoriilor de date';
@@ -154,6 +158,7 @@ $string['errorinvalidrequeststatus'] = 'Stare solicitării nu este validă!';
 $string['errorinvalidrequesttype'] = 'Tipul de solicitare nu este valid!';
 $string['errornocapabilitytorequestforothers'] = 'Utilizatorul {$a->requestedby} nu are capacitatea de a efectua o cerere de date în numele utilizatorului {$a->userid}';
 $string['errornoexpiredcontexts'] = 'Nu există contexte expirate de procesat';
+$string['errornoselectedcourse'] = 'Trebuie să selectezi cel puțin un curs';
 $string['errorrequestalreadyexists'] = 'Aveți deja o solicitare în curs.';
 $string['errorrequestnotfound'] = 'Cererea nu a fost găsită';
 $string['errorrequestnotwaitingforapproval'] = 'Solicitarea nu așteaptă aprobarea. Fie nu este încă gata, fie a fost deja procesată.';
@@ -170,6 +175,7 @@ $string['expiry'] = 'Expirare';
 $string['explanationtitle'] = 'Pictogramele folosite pe această pagină și ce înseamnă.';
 $string['external'] = 'Adiţional';
 $string['externalexplanation'] = 'Un plugin suplimentar instalat pe acest site.';
+$string['filterexportdata'] = 'Aprobă cererea (date din cursurile selectate)';
 $string['filteroption'] = '{$a->category}: {$a->name}';
 $string['frontpagecourse'] = 'Curs de pe prima pagină';
 $string['gdpr_art_6_1_a_description'] = 'Persoana vizată și-a dat acordul pentru prelucrarea datelor sale personale pentru unul sau mai multe scopuri specifice';
@@ -227,6 +233,7 @@ $string['noassignedroles'] = 'Nu există roluri atribuite în acest context';
 $string['noblockstoload'] = 'Fără blocuri';
 $string['nocategories'] = 'Nu există încă categorii';
 $string['nocoursestoload'] = 'Fără activități';
+$string['nocoursetofilter'] = 'Utilizatorul nu este înscris la niciun curs de selectat';
 $string['nodatarequests'] = 'Nu există cereri de date';
 $string['nodatarequestsmatchingfilter'] = 'Nu există cereri de date care să corespundă filtrului dat';
 $string['noexpiredcontexts'] = 'Acest nivel de context nu are date pentru care perioada de păstrare a expirat.';
@@ -288,6 +295,7 @@ $string['requesttype_help'] = 'Selectați motivul pentru care contactați respon
 $string['requesttypedelete'] = 'Ștergeți toate datele mele personale';
 $string['requesttypedeleteshort'] = 'Șterge';
 $string['requesttypeexport'] = 'Exportați toate datele mele personale';
+$string['requesttypeexportallowfiltering'] = 'Exportă datele mele personale';
 $string['requesttypeexportshort'] = 'Export';
 $string['requesttypeothers'] = 'Cerere de informații generale';
 $string['requesttypeothersshort'] = 'Mesaj';
@@ -319,6 +327,7 @@ $string['roleoverride'] = 'Suprascrierea rolului';
 $string['roleoverrideoverview'] = 'Politica de păstrare implicită poate fi anulată pentru anumite roluri de utilizator, permițându-vă să specificați o politică de păstrare mai lungă sau mai scurtă. Un utilizator este expirat numai când toate rolurile sale au expirat.';
 $string['roleoverrides'] = 'Suprascrierile rolului';
 $string['selectbulkaction'] = 'Vă rugăm să selectați o acțiune în bloc.';
+$string['selectcourses'] = 'Selectează cursurile pentru export';
 $string['selectdatarequests'] = 'Vă rugăm să selectați cererile de date.';
 $string['selectuserdatarequest'] = 'Selectați cererea de date {$a->username} {$a->requesttype}.';
 $string['send'] = 'Trimite';
@@ -335,6 +344,7 @@ $string['statusdeleted'] = 'Șters';
 $string['statusdetail'] = 'Stare:';
 $string['statusexpired'] = 'Expirat';
 $string['statuspending'] = 'In asteptarea';
+$string['statuspreprocessing'] = 'Pre-procesare';
 $string['statusprocessing'] = 'Prelucrare';
 $string['statusready'] = 'Descărcare pregătiă';
 $string['statusrejected'] = 'Respins';

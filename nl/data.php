@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'nl', version '4.1'.
+ * Strings for component 'data', language 'nl', version '4.4'.
  *
  * @package     data
  * @category    string
@@ -83,7 +83,7 @@ $string['commentsn'] = '{$a} notitie(s)';
 $string['commentsoff'] = 'De commentaarfunctie is niet ingeschakeld.';
 $string['completiondetail:entries'] = 'Items toevoegen: {$a}';
 $string['completionentries'] = 'Items invoeren vereist';
-$string['completionentriescount'] = 'Aantal items';
+$string['completionentriescount'] = 'Voeg vermeldingen toe';
 $string['completionentriesdesc'] = 'Minimaal aantal ingevoerde items vereist: {$a}';
 $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor alle databanken. Je zult nog wel manueel de RSS-feeds moeten inschakelen voor elke databank.';
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
@@ -94,7 +94,7 @@ $string['createfields'] = 'Maak velden om gegevens te verzamelen.';
 $string['createtemplates'] = 'Sjablonen bepalen de interface voor jouw activiteit. Als je velden hebt gemaakt, worden de sjablonen automatisch gemaakt. Je kunt ook een voorinstelling gebruiken die velden en sjablonen bevat.';
 $string['csstemplate'] = 'Aangepaste CSS';
 $string['csvfailed'] = 'Kon de gegevens niet ut het CSV-bestand halen';
-$string['csvfile'] = 'CSV-bestand';
+$string['csvfile'] = 'CSV-bestand of ZIP met CSV-bestand';
 $string['csvimport'] = 'Imorteer CSV-bestand';
 $string['csvimport_help'] = '<p align="center"><strong>Importeren met een CSV bestand</strong></p>
 
@@ -175,6 +175,7 @@ $string['entrieslefttoadd'] = 'Je moet {$a->entriesleft} meer item(s) toevoegen 
 $string['entrieslefttoaddtoview'] = 'je moet nog {$a->entrieslefttoview} items toevoegen voor je de items van anderen kan zien.';
 $string['entry'] = 'Item';
 $string['entrysaved'] = 'Gegevens bewaard.';
+$string['errordatafilenotfound'] = 'Het bestand kon niet worden geïmporteerd. Geaccepteerde bestandstypen zijn CSV of een ZIP met een CSV-bestand in de indeling zoals die van de export van databankitems.';
 $string['errormustbeteacher'] = 'Je moet leraar zijn om deze pagina te kunnen gebruiken';
 $string['errormustsupplyvalue'] = 'Je moet hier een waarde geven.';
 $string['errorpresetexists'] = 'Er bestaat al een voorinstelling met de deze naam.';
@@ -222,7 +223,11 @@ $string['fieldnotmatched'] = 'Volgende velden in je bestand zijn niet bekend in 
 $string['fieldoptions'] = 'Opties (Eén per lijn)';
 $string['fields'] = 'Velden';
 $string['fieldshelp'] = 'Maak velden om verschillende soorten gegevens  te verzamelen. Velden bepalen de structuur van de items in je databank.';
+$string['fieldsinformationtags'] = 'Veldinformatie';
 $string['fieldsnavigation'] = 'Veld tertiaire navigatie';
+$string['fieldtagdescription'] = '{$a} beschrijving';
+$string['fieldtagid'] = '{$a} ID';
+$string['fieldtagname'] = '{$a} naam';
 $string['fieldupdated'] = 'Veld geüpdatet';
 $string['fieldwidth'] = 'Breedte';
 $string['fieldwidthlistview'] = 'Breedte (in pixels) in lijst';
@@ -257,6 +262,7 @@ $string['importpreset_desc'] = 'De voorinstelling wordt toegepast op deze activi
 $string['importpresetmissingcapability'] = 'Je hebt geen rechten om een voorinstelling te importeren.';
 $string['importsuccess'] = 'Voorinstelling toegepast.';
 $string['includeapproval'] = 'Goedkeuringsstatus mee opnemen';
+$string['includefiles'] = 'Bestanden opnemen in export';
 $string['includetags'] = 'Inclusief tags';
 $string['includetime'] = 'Tijd toegevoegd/gewijzigd mee opnemen';
 $string['includeuserdetails'] = 'Gebruikersdetails mee opnemen';
@@ -367,6 +373,7 @@ $string['openafterclose'] = 'Je hebt een startdatum opgegeven na de einddatum';
 $string['optionaldescription'] = 'Korte beschrijving (optioneel)';
 $string['optionalfilename'] = 'Bestandsnaam (optioneel)';
 $string['other'] = 'Andere';
+$string['otherfields'] = 'Alle andere velden';
 $string['overrwritedesc'] = 'Vervang de bestaande preset met deze naam en overschrijf de inhoud ervan';
 $string['overwrite'] = 'Overschrijf';
 $string['overwritesettings'] = 'Overschrijf huidige instellingen zoals opmerkingen, beoordelingen enz.';
@@ -384,6 +391,7 @@ $string['presetnotselected'] = 'Er is geen voorinstelling geselecteerd.';
 $string['presets'] = 'Voorinstellingen';
 $string['presetshelp'] = 'Kies een voorinstelling als startpunt';
 $string['preview'] = 'Voorbeeld van {$a}';
+$string['previewaction'] = 'Voorbeeld';
 $string['privacy:metadata:commentpurpose'] = 'Opmerkingen op databankgegevens.';
 $string['privacy:metadata:data_content'] = 'De inhoud van een veld';
 $string['privacy:metadata:data_content:content'] = 'Inhoud';
@@ -426,7 +434,7 @@ $string['resetalltemplates'] = 'Alle sjablonen terugzetten naar standaardinstell
 $string['resetalltemplatesconfirm'] = 'Je gaat alle sjablonen uit je huidige voorinstelling verwijderen. Als je de sjablonen later wil terugzetten, dan moet je de voorinstelling opnieuw kiezen in de \'Voorinstelling\'-tab.';
 $string['resetalltemplatesconfirmtitle'] = 'Alle sjablonen terugzetten naar standaardinstellingen?';
 $string['resetsettings'] = 'Reset filters';
-$string['resettemplate'] = 'Reset sjabloon';
+$string['resettemplate'] = 'Reset huidig sjabloon';
 $string['resettemplateconfirm'] = 'Dit zal permanent {$a} verwijderen van je huidige voorinstelling.';
 $string['resettemplateconfirmtitle'] = 'Sjabloon opnieuw instellen?';
 $string['resizingimages'] = 'Tumbnails van afbeeldingen herschalen';
@@ -479,19 +487,14 @@ $string['todatabase'] = 'naar deze database';
 $string['type'] = 'Veldtype';
 $string['undefinedprocessactionmethod'] = 'Geen methode gedefiniëerd in Data_Preset om de actie "{$a}" af te handelen.';
 $string['unknown'] = 'Onbekend veld';
-$string['unsupportedexport'] = '({$a->fieldtype}) kan niet geëxporteerd worden.';
 $string['unsupportedfields'] = 'Niet-ondersteunde velden';
 $string['unsupportedfieldslist'] = 'De volgende velden kunnen niet worden geëxporteerd:';
 $string['updatefield'] = 'Update een bestaand veld';
 $string['uploadfile'] = 'Upload bestand';
-$string['uploadrecords'] = 'Upload records uit een bestand';
-$string['uploadrecords_help'] = 'Items kunnen geüpload worden via een tekstbestand. De opmaak van dat bestand moet als volgt zijn:
+$string['uploadrecords'] = 'Importeer items';
+$string['uploadrecords_help'] = 'Importeer Items die je vanuit een andere databank geëxporteerd hebt via CSV of een ZIP met CSV-bestand (als er bestanden in de export zitten.
 
-* Elke lijn van het bestand bevat één record
-* Elke record is een reeks gegevens, gescheiden door het geselecteerde scheidingsteken
-* De eerste record bevat een lijst met veldnamen die de opmaak van de rest van het bestand bepalen.
-
-De velden kunnen ingesloten worden door een teken in elk veld van elke record, maar dit kan ook weggelaten worden.';
+Je kunt ook een CSV-bestand maken voor import. Voeg één item toe aan je databank, exporteer dat en bewerk het CSV-bestand om meer items toe te voegen.';
 $string['uploadrecords_link'] = 'mod/data/import';
 $string['url'] = 'URL';
 $string['usedate'] = 'Ook zoeken';

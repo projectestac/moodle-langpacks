@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_xp', language 'fr', version '4.1'.
+ * Strings for component 'block_xp', language 'fr', version '4.4'.
  *
  * @package     block_xp
  * @category    string
@@ -133,9 +133,9 @@ $string['displayrank'] = 'Afficher le rang';
 $string['displayrelativerank'] = 'Afficher un rang relatif';
 $string['documentation'] = 'Documentation';
 $string['drops'] = 'Drops';
-$string['drops_help'] = 'Dans les jeux vidéo, certains personnages peuvent _lâcher_ ("drop"en anglais) des objets ou des points d’expérience sur le sol pour que le joueur les ramasse. Ces objets et points sont communément appelés "drops".
+$string['drops_help'] = 'Dans les jeux vidéo, certains personnages peuvent _lâcher_ ("drop" en anglais) des objets ou des points d’expérience sur le sol pour que le joueur les ramasse. Ces objets et points sont communément appelés "drops".
 
-Dans Level Up XP, les drops sont des codes courts (par exemple `[xpdrop abcdef]`) que un instructeur peut placer dans le contenu Moodle régulier. Lorsqu’ils sont rencontrés par un utilisateur, ces drops seront ramassés et un certain nombre de points seront attribués.
+Dans Level Up XP, les drops sont des codes courts (par exemple `[xpdrop abcdef]`) qu’un enseignant peut placer dans le contenu Moodle. Lorsqu’ils sont rencontrés par un utilisateur, ces drops seront ramassés et un certain nombre de points seront attribués.
 
 Pour l’instant, les drops sont invisibles pour l’utilisateur et attribuent passivement des points la première fois qu’ils sont rencontrés.
 

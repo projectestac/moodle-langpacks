@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'fr', version '4.1'.
+ * Strings for component 'format_topcoll', language 'fr', version '4.4'.
  *
  * @package     format_topcoll
  * @category    string
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsection'] = 'Ajouter une section';
 $string['arrow'] = 'Flèche';
 $string['bulb'] = 'Ampoule';
 $string['cachedef_activitymodulecountcache'] = 'Met en cache le nombre d’étudiants qui peuvent accéder à un module donné dans un cours donné.';
@@ -63,7 +62,6 @@ $string['coursesectionactivityfurtherinformationlesson'] = 'Afficher les informa
 $string['coursesectionactivityfurtherinformationlessondesc'] = 'Permet de sélectionner les informations sur les leçons à afficher sur un cours. Pour les enseignants/administrateurs, afficher le nombre de rendus.';
 $string['coursesectionactivityfurtherinformationquiz'] = 'Afficher les informations du quiz';
 $string['coursesectionactivityfurtherinformationquizdesc'] = 'Permet de sélectionner les informations sur les tests à afficher sur un cours. Pour les enseignants/administrateurs, afficher le nombre de rendus.';
-$string['creatingsection'] = 'Créer une nouvelle section';
 $string['ctreset'] = 'Réinitialisation des options des sections réduites';
 $string['ctreset_help'] = 'Rétablir les paramètres par défaut des sections réduites.';
 $string['currentsection'] = 'Cette section';
@@ -74,6 +72,8 @@ $string['defaultdisplayblocksloc'] = 'Emplacement d’affichage du bloc';
 $string['defaultdisplayblocksloc_desc'] = 'Choisir l’emplacement d’affichage des blocs choisis ci-dessus, avant ou après le côté.';
 $string['defaultdisplayinstructions'] = 'Afficher les instructions aux utilisateurs';
 $string['defaultdisplayinstructions_desc'] = 'Afficher des instructions aux utilisateurs les informant de la manière d’utiliser les boutons.  Peut être oui ou non.';
+$string['defaultflexiblemodules'] = 'Modules flexibles';
+$string['defaultflexiblemodules_desc'] = 'Utiliser les Modules flexibles ?';
 $string['defaultheadingsub'] = 'Défauts';
 $string['defaultheadingsubdesc'] = 'Paramètres par défaut qui peuvent être remplacés au niveau du cours.';
 $string['defaultlayoutcolumnorientation'] = 'Orientation de la colonne';
@@ -146,9 +146,6 @@ $string['displayinstructions'] = 'Afficher les instructions';
 $string['displayinstructions_help'] = 'Définit si les instructions seront affichées aux utilisateurs';
 $string['donotshowdate'] = 'Ne pas afficher la date';
 $string['donotshowdate_help'] = 'Ne pas afficher la date lors de l’utilisation d’une structure hebdomadaire avec l’option ­« nom de la section par défaut » décochée.';
-$string['duplicate'] = 'Dupliquer';
-$string['duplicateconfirm'] = 'Voulez-vous vraiment dupliquer la section actuelle ? Cela peut prendre un certain temps en fonction de la quantité de ressources.';
-$string['duplicating'] = 'Duplication en cours';
 $string['editsection'] = 'Modifier la section';
 $string['editsectionname'] = 'Modifier le nom de la section';
 $string['em0_0'] = '0.0em';
@@ -194,7 +191,6 @@ $string['em3_9'] = '3.9em';
 $string['em4_0'] = '4.0em';
 $string['enableadditionalmoddata'] = 'Activer les informations supplémentaires';
 $string['enableadditionalmoddatadesc'] = 'Il s’agit d’un paramétrage au « niveau du site » permettant d’activer ou de désactiver les informations sur les activités.  Il doit être activé pour que les paramètres associés qui fonctionnent au niveau du cours prennent effet.  Comme cette fonctionnalité peut être coûteuse en termes de calcul, il est fortement conseillé d’effectuer des tests complets avant de l’utiliser sur un système de production.  Note : il faut purger les caches lorsqu’ils sont modifiés.';
-$string['errornosectioninfo'] = 'Le sujet indiqué n’a pas d’information';
 $string['eye'] = 'Œil';
 $string['feedbackavailable'] = 'Commentaire (feedback) disponible';
 $string['folder'] = 'Dossier';
@@ -204,7 +200,7 @@ $string['formatsettings'] = 'Réinitialisation des réglages du format';
 $string['formatsettingsinformation'] = '<br />Pour modifier les paramètres du format du cours, cliquez sur l’icône à droite.';
 $string['four'] = 'Quatre';
 $string['groundsignal'] = 'Signal de base';
-$string['hidefromothers'] = 'Cacher la section';
+$string['hidefromothers'] = 'Cacher';
 $string['information'] = 'Information';
 $string['informationsettings'] = 'Paramètres d’information';
 $string['informationsettingsdesc'] = 'Informations sur le format des Sections Réduites';
@@ -220,6 +216,7 @@ $string['maincoursepage'] = 'Page principale du cours';
 $string['markedthissection'] = 'Cette section est mise en évidence comme section actuelle';
 $string['markthissection'] = 'Mettre en évidence cette section comme section actuelle';
 $string['medium'] = 'Moyen';
+$string['newsection'] = 'Nouvelle section';
 $string['newsectionname'] = 'Nouveau nom pour la section {$a}';
 $string['numbersections'] = 'Nombre de section';
 $string['off'] = 'Off';
@@ -234,12 +231,9 @@ $string['point'] = 'Point';
 $string['power'] = 'Power';
 $string['privacy:metadata:preference:toggle'] = 'L’état des bascules dans un cours.';
 $string['privacy:request:preference:toggle'] = 'L’identifiant du cours « {$a->name} » a la valeur « {$a->value} » qui représente « {$a->decoded} » pour l’état des bascules.';
-$string['progresscounter'] = 'Duplication d’activités ({$a->current}/{$a->size})';
-$string['progressfull'] = 'Duplication de sujet';
 $string['radio'] = 'Radio';
 $string['readme_desc'] = 'Veuillez cliquer sur « {$a->url} » pour plus d’informations sur les Sections Réduites.';
 $string['readme_title'] = 'Fichier « lisez-moi » (en anglais)';
-$string['rebuildcoursecache'] = 'Reconstruire le cache du cours';
 $string['resetactivitymeta'] = 'Informations complémentaires sur les modules';
 $string['resetactivitymeta_help'] = 'Réinitialise les informations du module supplémentaire pour suivre la valeur par défaut du site.';
 $string['resetallactivitymeta'] = 'Toutes les informations supplémentaires sur les modules';

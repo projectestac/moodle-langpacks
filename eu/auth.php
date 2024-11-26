@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'eu', version '4.1'.
+ * Strings for component 'auth', language 'eu', version '4.4'.
  *
  * @package     auth
  * @category    string
@@ -44,6 +44,10 @@ $string['auth_fieldlocks'] = 'Blokeatu erabiltzaile-eremuak';
 $string['auth_fieldlocks_help'] = '<p>Erabiltzaileen datu-eremuak blokea ditzakezu, kudeatzaileek datuok eskuz mantentzen dituzten guneetan bereziki erabilgarria gertatzen dena, erabiltzaileen erregistroak editatuz edo \'Erabiltzaileak igo\' aplikazioaren bidez. Moodlek behar dituen eremuak blokeatzen badituzu, erabiltzaile-kontuak sortzean datu horiek ematen dituzula ziurtatu; bestela, kontuak ezingo dira erabili.</p><p>Pentsa ezazu ea \'Hutsik egotekotan desblokeatu\' aukera aktibatu behar duzun arazo hori ebitatzeko.</p>';
 $string['auth_fieldmapping'] = 'Datu-parekatzea ({$a})';
 $string['auth_invalidnewemailkey'] = 'Errorea: helbide elektronikoa aldatzea baieztatu nahian ari bazara, nahastu egingo zinen e-mailez bidali dugun URLa kopiatzean. Mesedez, kopiatu helbidea eta saiatu berriro.';
+$string['auth_loginpasswordtoggle'] = 'Pasahitza erakutsi/ezkutatzeko kontrola';
+$string['auth_loginpasswordtoggle_desc'] = 'Gehitu ikono bat saioa hasteko pantailako pasahitzaren eremuari erabiltzaileari idatzitako pasahitza erakutsi ala ezkutatzea baimentzeko.';
+$string['auth_loginrecaptcha'] = 'Gaitu reCAPTCHA saioa hasteko';
+$string['auth_loginrecaptcha_desc'] = 'Gehitu ikuspen/audio baieztapen bat saioa hasteko formulariora. Honek bermatu gabeko saio-hasiera saiakerak izateko arriskua txikitzen du. Xehetasun gehiagorako ikusi <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
 $string['auth_multiplehosts'] = 'Ostalari anitz zehaz daitezke (ad. ostalari1.com;ostalari2.com;ostalari3.com) edo (edo a. xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_notconfigured'] = '{$a} autentifikazio-metodoa ez dago konfiguratuta.';
 $string['auth_outofnewemailupdateattempts'] = 'Zure helbide elektronikoa eguneratzeko baimenduta dauden saiakerak agortuko dituzu. Bertan behera utzi da zure eguneratzeko eskaria.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'publication', language 'nl', version '4.1'.
+ * Strings for component 'publication', language 'nl', version '4.4'.
  *
  * @package     publication
  * @category    string
@@ -34,8 +34,6 @@ $string['allowsubmissionsanddescriptionfromdatesummary'] = 'De opdrachtinformati
 $string['allowsubmissionsfromdate'] = 'van';
 $string['allowsubmissionsfromdate_import'] = 'Goedkeuring van';
 $string['allowsubmissionsfromdate_upload'] = 'Gelegenheid voor uploaden vanaf';
-$string['allowsubmissionsfromdateh'] = 'Tijdslot voor uploaden/goedkeuren';
-$string['allowsubmissionsfromdateh_help'] = 'Je kunt de periode instellen waarbinnen leerlingen bestanden kunnen uploaden of hun goedkeuring voor publicatie kunnen geven. Gedurende deze periode kunnen leerlingen hun bestanden bewerken en kunnen ze ook hun goedkeuring voor publicatie intrekken.';
 $string['allowsubmissionsfromdatesummary'] = 'Deze opdracht aanvaardt inzendingen van <strong>{$a}</strong>';
 $string['alwaysshowdescription'] = 'Beschrijving altijd tonen';
 $string['alwaysshowdescription_help'] = 'Indien uitgeschakeld is de activiteitsbeschrijving alleen zichtbaar voor leerlingen vanaf de datum vanaf wanneer inzendingen zijn toegestaan.';
@@ -47,8 +45,6 @@ $string['assignment'] = 'Opdracht';
 $string['assignment_help'] = 'Selecteer de opdracht om bestanden van te importeren. Op dit moment worden groepsopdrachten nog niet ondersteund en is het niet mogelijk deze te selecteren.';
 $string['assignment_notfound'] = 'De opdracht waarvan de bestanden zijn geïmporteerd, kon niet meer worden gevonden.';
 $string['assignment_notset'] = 'Er is geen opdracht geselecteerd.';
-$string['autoimport'] = 'Automatisch synchroniseren met Opdracht';
-$string['autoimport_help'] = 'Indien ingeschakeld worden nieuwe inzendingen in ge gekoppelde Opdracht automatisch geïmporteerd in de activiteit Publicatie. (Optioneel) Goedkeuring van de leerling moet opnieuw worden verkregen voor nieuwe bestanden.';
 $string['availability'] = 'Tijdslot voor uploaden/goedkeuren';
 $string['choose'] = 'selecteer ...';
 $string['configautoimport'] = 'Als je de voorkeur hebt dat inzendingen van leerlingen automatisch worden geïmporteerd in instanties van Publicatie. Deze functie kan worden in-/uitgeschakeld voor iedere instantie van Publicatie.';
@@ -74,21 +70,6 @@ $string['duedate_upload'] = 'Gelegenheid voor uploaden tot';
 $string['duedatevalidation'] = 'De deadline voor insturen moet later zijn dan de datum vanaf wanneer insturen is toegestaan.';
 $string['edit_timeover'] = 'Bestanden kunnen alleen worden bewerkt tijdens de wijzigingsperiode.';
 $string['edit_uploads'] = 'Bewerk/upload bestanden';
-$string['emailstudentsmail'] = '{$a->username} heeft de goedkeuringsstatus van \'{$a->filename}\' gewijzigd voor \'{$a->publication}\' naar {4a->apstatus} op {$a->dayupdated} om {$a->timeupdated}.
-
-Het is hier beschikbaar:
-
-   {$a->url}';
-$string['emailstudentsmailhtml'] = '{$a->username} heeft de goedkeuringsstatus van \'{$a-filename}\' gewijzigd voor <i>\'{$a->publication}\'</i> naar <b>{$a->apstatus}</b> op {$a->dayupdated} om {$a->timeupdated}.<br /><br />
-Het is <a href="{$a->url}">beschikbaar op de website</a>.';
-$string['emailteachermail'] = '---------------------------------------------------------------------\\n{$a->username} heeft \'{$a->filename}\' geüpload
-voor  \'{$a->publication}\' op {$a->dayupdated} om {$a->timeupdated}.
-
-Het is hier beschikbaar:
-
-    {$a->url}---------------------------------------------------------------------\\n';
-$string['emailteachermailhtml'] = '{$a->username} heeft  \'{$a-filename}\' geüpload voor <i>\'{$a->publication}\'  op {$a->dayupdated} om {$a->timeupdated}</i>.<br /><br />
-Het is <a href="{$a->url}">beschikbaar op de website</a>.';
 $string['entiresperpage'] = 'Deelnemers tonen per pagina';
 $string['eventpublicationapprovalchanged'] = 'Bestandsgoedkeuring Publicatie gewijzigd';
 $string['eventpublicationduedateextended'] = 'Deadline van Publicatie is uitgesteld';
@@ -103,10 +84,6 @@ $string['filedetails'] = 'Informatie';
 $string['filesofthesetypes'] = 'Bestanden van deze types kunnen worden toegevoegd:';
 $string['go'] = 'Start';
 $string['grantextension'] = 'Uitstel verlenen';
-$string['groupapprovalmode'] = 'Groepsgoedkeuringsmodus';
-$string['groupapprovalmode_all'] = 'ALLE groepsleden moeten goedkeuren';
-$string['groupapprovalmode_help'] = 'Hier bepaal je of goedkeuring van alle groepsleden of van ten minste één groepslid vereist is voordat bestanden zichtbaar zijn. De bestanden zijn pas zichtbaar na goedkeuring van ofwel alle ofwel ten minste één groepslid.';
-$string['groupapprovalmode_single'] = 'Ten minste EEN groepslid moet goedkeuren';
 $string['guideline'] = 'zichtbaar voor iedereen:';
 $string['hidden'] = 'verborgen';
 $string['importfrom_err'] = 'Selecteer een opdracht waarvan je wilt importeren';
@@ -135,12 +112,6 @@ $string['nothing_to_show_groups'] = 'Er is niets om te tonen - er is geen groep 
 $string['nothing_to_show_users'] = 'Er is niets om te tonen - er zijn geen leerlingen beschikbaar';
 $string['nothingtodisplay'] = 'Er zijn geen bijdragen om te tonen';
 $string['notice'] = 'Let op:';
-$string['notice_groupimportrequireallapproval'] = 'Stel in of je bestanden voor iedereen zichtbaar zijn. Alle groepsleden moeten goedkeuring geven voordat het bestand zichtbaar is.';
-$string['notice_groupimportrequireoneapproval'] = 'Stel in of je bestanden voor iedereen zichtbaar zijn. Goedkeuring van één ander groepslid is voldoende om het bestand zichtbaar te maken. Bespreek in je groep of je bestand zichtbaar moet zijn voordat je dit goedkeurt.';
-$string['notice_importnoapproval'] = 'De volgende bestanden zijn voor iedereen zichtbaar.';
-$string['notice_importrequireapproval'] = 'Stel in of je bestanden voor iedereen zichtbaar zijn.';
-$string['notice_uploadnoapproval'] = 'Bestanden zijn na uploaden voor alle deelnemers zichtbaar. De moderator heeft het recht om geplaatste bestanden te verbergen.';
-$string['notice_uploadrequireapproval'] = 'Alle geüploade bestanden worden pas zichtbaar na beoordeling door de leraar';
 $string['notifications'] = 'Meldingen';
 $string['notifystudents'] = 'Melding naar leerlingen over wijzigingen in goedkeuring';
 $string['notifystudents_help'] = 'Indien ingeschakeld ontvangen leerlingen een bericht wanneer de goedkeuringsstatus van een van hun uploads verandert. Het is instelbaar hoe berichten worden verstuurd.';
@@ -224,9 +195,5 @@ $string['visible'] = 'zichtbaar';
 $string['visibleforstudents'] = 'zichtbaar voor iedereen';
 $string['visibleforstudents_no'] = 'Dit bestand is NIET zichtbaar voor leerlingen';
 $string['visibleforstudents_yes'] = 'Leerlingen kunnen dit bestand zien';
-$string['warning_changefromobtainstudentapproval'] = 'Als je deze wijziging doorvoert, kun jij als enige bepalen welke bestanden voor alle leerlingen zichtbaar zijn. De leerlingen wordt niet om goedkeuring gevraagd. Alle als goedgekeurd gemarkeerde bestanden worden voor alle leerlingen zichtbaar, ongeacht hun beslissingen.';
-$string['warning_changefromobtainteacherapproval'] = 'Zodra je deze instelling activeert, worden alle geüploade bestanden voor andere deelnemers zichtbaar. Alle geüploade bestanden worden zichtbaar. Je kunt handmatig bestanden voor bepaalde leerlingen verbergen.';
-$string['warning_changetoobtainstudentapproval'] = 'Als je deze wijziging doorvoert, wordt de leerlingen goedkeuring gevraagd voor alle als zichtbaar gemarkeerde bestanden. Bestanden worden pas na goedkeuring van de leerlingen zichtbaar.';
-$string['warning_changetoobtainteacherapproval'] = 'Zodra je deze instelling deactiveert, worden alle geüploade bestanden automatisch voor andere deelnemers verborgen. Je zult moeten bepalen welke bestanden zichtbaar zijn. Bestanden die al zichtbaar waren, worden verborgen.';
 $string['withselected'] = 'Met geselecteerde...';
 $string['zipusers'] = 'Download als ZIP';

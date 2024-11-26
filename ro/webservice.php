@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'ro', version '4.1'.
+ * Strings for component 'webservice', language 'ro', version '4.4'.
  *
  * @package     webservice
  * @category    string
@@ -147,22 +147,7 @@ $string['postrestparam'] = 'Cod PHP pentru REST (POST request)';
 $string['potusers'] = 'Utilizatori neautorizați';
 $string['potusersmatching'] = 'Niciun utilizator autorizat';
 $string['print'] = 'Tipărește tot';
-$string['privacy:metadata:serviceusers'] = 'O listă de utilizatori care pot utiliza un anumit serviciu extern';
-$string['privacy:metadata:serviceusers:iprestriction'] = 'IP restricționat de la utilizarea serviciului';
-$string['privacy:metadata:serviceusers:timecreated'] = 'Data cînd a fost creată înregistrarea';
-$string['privacy:metadata:serviceusers:userid'] = 'ID-ul utilizatorului';
-$string['privacy:metadata:serviceusers:validuntil'] = 'Data până când este validă autorizația';
-$string['privacy:metadata:tokens'] = 'O înregistrare de jetoane pentru interacțiunea cu Moodle prin servicii web sau aplicații mobile.';
-$string['privacy:metadata:tokens:creatorid'] = 'ID-ul utilizatorului care a creat token-ul';
-$string['privacy:metadata:tokens:iprestriction'] = 'IP restricționat de la utilizarea acestui token';
-$string['privacy:metadata:tokens:lastaccess'] = 'Când a fost utilizat token-ul ultima dată';
-$string['privacy:metadata:tokens:privatetoken'] = 'Un token mai privat folosit ocazional pentru a valida anumite operațiuni, cum ar fi SSO';
-$string['privacy:metadata:tokens:timecreated'] = 'Când a fost creat token-ul';
-$string['privacy:metadata:tokens:token'] = 'Token-ul utilizatorului';
-$string['privacy:metadata:tokens:tokentype'] = 'Tipul de token';
-$string['privacy:metadata:tokens:userid'] = 'Identificatorul utilizatorului căruia îi aparține token-ul';
-$string['privacy:metadata:tokens:validuntil'] = 'Până când este token-ul valid';
-$string['privacy:request:notexportedsecurity'] = 'Nu este exportat din motive de securitate';
+$string['privacy:metadata'] = 'API Servicii Web nu stochează date';
 $string['protocol'] = 'Protocol';
 $string['removefunction'] = 'Eliminare';
 $string['removefunctionconfirm'] = 'Sunteți sigur că doriți să ștergeți funcția "{$a->function}" din serviciul "{$a->service}"?';
@@ -211,11 +196,16 @@ $string['testwithtestclient'] = 'Testați serviciul';
 $string['testwithtestclientdescription'] = 'Simulati accesul extern la serviciu folosind testul clientului pentru servicii web. Utilizați un protocol activat cu token de autentificare. <strong>AVERTIZARE: Funcția pe care o testați VA FI EXECUTATĂ, deci alegeți cu atenție ceea ce va fi testat!</strong>';
 $string['token'] = 'Token';
 $string['tokenauthlog'] = 'Token autentificare';
+$string['tokencopied'] = 'Text copiat în clipboard.';
 $string['tokencreatedbyadmin'] = 'Poate fi resetat doar de către administrator (*)';
 $string['tokencreator'] = 'Creator';
 $string['tokenfilter'] = 'Filtru token-uri';
 $string['tokenfilterreset'] = 'Afișează toate token-urile';
 $string['tokenfiltersubmit'] = 'Alegeți doar token-urile care se potrivesc';
+$string['tokenname'] = 'Denumire';
+$string['tokennamehint'] = 'Dacă nu inserați un nume, se va folosi un nume aleatoriu.';
+$string['tokennameprefix'] = 'Webservice-{$a}';
+$string['tokennewmessage'] = 'Copiază token-ul acum. Nu va mai fi afișat din nou odată ce părăsești pagina.';
 $string['unknownoptionkey'] = 'Cheie opțională necunoscută ({$a})';
 $string['unnamedstringparam'] = 'Un parametru string nu este denumit';
 $string['updateusersettings'] = 'Actualizare';
@@ -226,12 +216,11 @@ $string['userasclientsdescription'] = 'Următorii pași vă ajută să configura
 $string['usermissingcaps'] = 'Lipsesc capabilități: {$a}';
 $string['usernameorid'] = 'Nume de utilizator  / ID utilizator';
 $string['usernameorid_help'] = 'Inserați un nume de utilizator sau un id de utilizator.';
-$string['usernameoridnousererror'] = 'Niciun utilizator nu s-a găsit cu acest nume de utilizator/id utilizator.';
-$string['usernameoridoccurenceerror'] = 'Mai mulți utilizatori au fost găsiți cu acest nume de utilizator. Inserați ID-ul utilizatorului.';
 $string['usernotallowed'] = 'Utilizatorului nu îi este permis acest serviciu. Prima dată trebuie să îi permiteți acestui utilizator accesul pe {$a}\' pagina de administrare.';
 $string['userservices'] = 'Serviciile utilizatorului: {$a}';
 $string['usersettingssaved'] = 'Setările utilizatorului sunt salvate';
 $string['validuntil'] = 'Valid până la';
+$string['validuntil_empty'] = 'Acest token nu are dată de expirare.';
 $string['validuntil_help'] = 'În cazul în care este setat, serviciul va fi inactivat după această dată pentru acest utilizator.';
 $string['webservice'] = 'Serviciu web';
 $string['webservices'] = 'Servicii web';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_messageinbound', language 'zh_cn', version '4.4'.
  *
  * @package     tool_messageinbound
  * @category    string
@@ -60,6 +60,7 @@ $string['messageinboundenabled_desc'] = '接收邮件处理程序必须开启才
 $string['messageinboundgeneralconfiguration'] = '基本配置';
 $string['messageinboundgeneralconfiguration_desc'] = '站内消息处理程序允许您在Moodle系统内接收和处理email。它可以用来以email来回复讨论区的贴文，或添加文件到用户的私人文件。';
 $string['messageinboundhost'] = '接收邮件服务器';
+$string['messageinboundhostoauth_help'] = 'OAuth 2服务用于访问IMAP服务器，使用XOAUTH2身份验证。如果服务还不存在，则需要创建它。';
 $string['messageinboundhostpass'] = '用户密码';
 $string['messageinboundhostpass_desc'] = '这是你的服务提供商提供给你的密码，用来登录你的邮件帐号';
 $string['messageinboundhostssl'] = '使用SSL';

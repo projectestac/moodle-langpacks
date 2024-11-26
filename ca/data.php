@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ca', version '4.1'.
+ * Strings for component 'data', language 'ca', version '4.4'.
  *
  * @package     data
  * @category    string
@@ -397,7 +397,6 @@ $string['timemodified'] = 'Hora de la modificació';
 $string['todatabase'] = 'en aquesta base de dades';
 $string['type'] = 'Tipus de camp';
 $string['undefinedprocessactionmethod'] = 'No hi ha un mètode definit en Data_Preset per gestionar l\'acció "{$a}"';
-$string['unsupportedexport'] = '({$a->fieldtype}) no pot ser exportat.';
 $string['updatefield'] = 'Actualitza un camp existent';
 $string['uploadfile'] = 'Penja un fitxer';
 $string['uploadrecords'] = 'Carrega entrades';

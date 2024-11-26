@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'bigbluebuttonbn', language 'sv', version '4.1'.
+ * Strings for component 'bigbluebuttonbn', language 'sv', version '4.4'.
  *
  * @package     bigbluebuttonbn
  * @category    string
@@ -44,6 +44,7 @@ $string['bigbluebuttonbn:publishrecordings'] = 'Publicera inspelningar';
 $string['bigbluebuttonbn:unprotectrecordings'] = 'Ta bort skydd';
 $string['bigbluebuttonbn:unpublishrecordings'] = 'Avpublicera inspelningar';
 $string['bigbluebuttonbn:view'] = 'Visa BigBlueButton-rum';
+$string['bigbluebuttonbn:viewallrecordingformats'] = 'Visa alla inspelningsformat';
 $string['bigbluebuttondisablednotification'] = 'Aktivitetsmodulen BigBlueButton har inaktiverats och befintliga BigBlueButton-kursaktiviteter är för närvarande inte tillgängliga. Innan du återaktiverar denna pluginmodul, se till att du har läst och accepterat <a href="{$a}" target="_blank">databehandlingsavtalet</a> med Blindside Networks Inc.';
 $string['bigbluebuttondisablednotification_subject'] = 'BBB-aktivitetsmodul inaktiverad.';
 $string['cachedef_currentfetch'] = 'Data för att lista senaste inspelning';

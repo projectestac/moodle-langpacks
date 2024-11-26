@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_generator', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_generator', language 'zh_cn', version '4.4'.
  *
  * @package     tool_generator
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['additionalmodules'] = '附加活动';
 $string['bigfile'] = '大文件{$a}';
 $string['courseexplanation'] = '此工具创建标准测试课程，其中包括许多章节、活动和文件。
 
@@ -71,6 +72,7 @@ $string['progress_createcourse'] = '正在创建课程{$a}';
 $string['progress_createforum'] = '创建论坛（{$a}帖子）';
 $string['progress_createpages'] = '正在创建页面（{$a}）';
 $string['progress_createsmallfiles'] = '创建小文件（{$a}）';
+$string['progress_createusers'] = '创建用户帐户（{$a}）';
 $string['progress_enrol'] = '为用户报名课程（{$a}）。';
 $string['progress_sitecompleted'] = '完成的站点（{$a}s）';
 $string['shortsize_0'] = '特小';
@@ -109,5 +111,14 @@ $string['testplansize_2'] = 'M（{$a->users}用户，{$a->loops}循环和{$a->ra
 $string['testplansize_3'] = 'L（{$a->users}用户，{$a->loops}循环和{$a->ramup}加速期）';
 $string['testplansize_4'] = 'XL（{$a->users}用户、{$a->loops}循环和{$a->rampup}加速期）';
 $string['testplansize_5'] = 'XXL（{$a->users}用户、{$a->loops}循环和{$a->rampup}加速期）';
+$string['testscenario'] = '创建测试场景';
+$string['testscenario_errorparsing'] = '解析特征文件错误：{$a}';
+$string['testscenario_file'] = '特征文件';
+$string['testscenario_invalidfile'] = '文件格式无效或包含无效步骤。';
+$string['testscenario_invalidstep'] = '未知的一步。创建测试场景只接受生成器步骤。';
+$string['testscenario_nosteps'] = '文件中没有要执行的步骤。';
+$string['testscenario_outline'] = '不支持场景概要。';
+$string['testscenario_scenarionosteps'] = '这个场景没有任何步骤。';
+$string['testscenario_steps'] = '测试场景步骤：';
 $string['updateuserspassword'] = '更新课程用户密码';
 $string['updateuserspassword_help'] = 'JMeter需要以课程用户身份登录，您可以在config.php中使用$CFG->tool_generator_users_password设置用户密码；此设置根据$CFG->tool_generator_users_password更新课程用户的密码。如果您使用的课程不是由tool_generator生成的，或者创建测试课程时未设置$CFG->tool_generator_users_password，则此选项非常有用。';

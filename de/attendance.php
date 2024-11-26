@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'attendance', language 'de', version '4.1'.
+ * Strings for component 'attendance', language 'de', version '4.4'.
  *
  * @package     attendance
  * @category    string
@@ -282,7 +282,7 @@ $string['hidensessiondetails'] = 'Verberge Termin-Details';
 $string['identifyby'] = 'Teilnehmer/innen auswählen nach';
 $string['import'] = 'Import';
 $string['importfile'] = 'Importdatei';
-$string['importfile_help'] = 'Importdatei';
+$string['importfile_help'] = 'Die CSV-Datei muss eine Kopfzeile und Felder zur Identifizierung der Gruppen, der Uhrzeit und der zu erstellenden Daten der Termine enthalten.<br/>Auf der nächsten Seite nach der Dateiablage werden Ihnen Beispiele aller Felder angezeigt, denen Sie Ihre eigenen Felder zuordnen können.<br/>Beispiel:<br/>groups;sessiondate;from;to<br/>groupA:05-10-2022;13:00;14:00<br/>groupB;05-10-2022;14:00;15:00';
 $string['importsessions'] = 'Termine importieren';
 $string['importstatus'] = 'Statusfeld';
 $string['importstatus_help'] = 'Dies ermöglicht es, einen Statuswert (zum Beispiel A,E,V,U) für den Import einzutragen.';

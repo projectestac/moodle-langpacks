@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_mobile', language 'zh_cn', version '4.4'.
  *
  * @package     tool_mobile
  * @category    string
@@ -35,6 +35,11 @@ $string['autologinkeygenerationlockout'] = '自动登录密钥生成被阻塞。
 $string['autologinmintimebetweenreq'] = '自动登录请求之间的最短间隔时间';
 $string['autologinmintimebetweenreq_desc'] = '来自移动应用程序的自动登录请求之间的最短时间间隔。如果经常要求用户在查看网站的内容时登陆账号，请设置较低的值。';
 $string['autologinnotallowedtoadmins'] = '站点管理员不允许自动登录。';
+$string['autologout'] = '强制用户自动注销';
+$string['autologout_desc'] = '出于安全原因，您可以强制用户在离开或关闭应用程序时自动退出，或者进入后台。当用户返回应用程序时，他们必须再次登录。';
+$string['autologoutcustom'] = '自定义用户离开或关闭应用程序后的时间';
+$string['autologoutinmediate'] = '在用户离开后立即关闭应用程序';
+$string['autologouttime'] = '自动注销定时器';
 $string['cachedef_plugininfo'] = '它存储包含移动插件的插件列表';
 $string['cachedef_subscriptiondata'] = '它存储Moodle应用的订阅信息。';
 $string['clickheretolaunchtheapp'] = '如果应用没有自动打开，请点击这里。';
@@ -96,7 +101,6 @@ $string['managefiletypes'] = '管理文件类型';
 $string['minimumversion'] = '如果指定了应用版本(3.8.0或更高版本)，任何使用较老版本应用的用户将被提示升级他们的应用，然后才能访问站点。';
 $string['minimumversion_key'] = '最低应用版本要求';
 $string['mobileapp'] = '移动应用';
-$string['mobileappconnected'] = '已连接移动应用';
 $string['mobileappearance'] = '移动设备外观';
 $string['mobileappenabled'] = '此站点已启用移动应用访问。<br /> <a href="{$a}">下载移动应用</a>。';
 $string['mobileappsubscription'] = 'Moodle应用订阅';
@@ -117,7 +121,6 @@ $string['notificationsseemore'] = '注意：Moodle应用使用情况统计信息
 $string['notificationssentnotifications'] = '已发送通知';
 $string['oauth2identityproviders'] = 'OAuth 2身份验证提供程序';
 $string['offlineuse'] = '离线使用';
-$string['openusingembeddedbrowser'] = '使用嵌入式浏览器打开';
 $string['pluginname'] = 'Moodle 应用工具';
 $string['pluginnotenabledorconfigured'] = '未启用或配置插件。';
 $string['privacy:metadata:core_userkey'] = '用户密钥，用于为当前用户创建自动登录密钥。';
@@ -132,6 +135,8 @@ $string['qrcodetypelogin'] = '带自动登录的二维码';
 $string['qrcodetypeurl'] = '带站点网址的二维码';
 $string['qrkeyttl'] = 'QR身份验证密钥持续时间';
 $string['qrkeyttl_desc'] = '用于自动登录的二维码有效的时间长度。';
+$string['qrsameipcheck'] = 'QR认证相同的IP检查';
+$string['qrsameipcheck_desc'] = '用户是否必须使用同一网络生成和扫描二维码进行登录。只有当用户报告QR登录问题时才禁用它。';
 $string['qrsiteadminsnotallowed'] = '出于安全原因，站点管理员或者以其他用户身份登录不允许通过二维码登录。';
 $string['readingthisemailgettheapp'] = '在邮件中阅读？<a href="{$a}">在您的移动设备上下载移动应用并接收通知</a>。';
 $string['remoteaddons'] = '远程附件';

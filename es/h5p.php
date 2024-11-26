@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5p', language 'es', version '4.1'.
+ * Strings for component 'h5p', language 'es', version '4.4'.
  *
  * @package     h5p
  * @category    string
@@ -127,6 +127,8 @@ $string['filter_displayh5p_description'] = 'El filtro para mostrar H5P convierte
 $string['fullscreen'] = 'Pantalla completa';
 $string['gpl'] = 'Licencia Pública General v3';
 $string['h5p'] = 'H5P';
+$string['h5pcustomcss'] = 'Personalizar CSS';
+$string['h5pcustomcss_help'] = 'CSS a aplicar en sus módulos H5P.';
 $string['h5peditor'] = 'Editor H5P';
 $string['h5pfilenotfound'] = 'Archivo H5P no encontrado';
 $string['h5pinvalidurl'] = 'URL de contenido H5P inválida';
@@ -139,6 +141,7 @@ $string['h5ppackage_help'] = 'Un tipo de contenido H5P es un archivo con  extens
 $string['h5pprivatefile'] = 'El contenido H5P no puede ser mostrado porque usted no tiene acceso al archivo .h5p.';
 $string['h5psettings'] = 'Configuraciones de H5P';
 $string['h5ptitle'] = 'Visitar H5P.org para revisar más contenido.';
+$string['height'] = 'altura';
 $string['helpChoosingLicense'] = 'Ayúdame a elegir una licencia';
 $string['hideadvanced'] = 'Ocultar avanzadas';
 $string['icon'] = 'Ícono';
@@ -207,6 +210,7 @@ $string['missinglibrary'] = 'Falta librería requerida {$a->@library}';
 $string['missinglibraryfile'] = 'El archivo "{$a->%file}" falta de la librería: "{$a->%name}"';
 $string['missinglibraryjson'] = 'No se pudo encontrar el archivo library.json con formato json válido para la librería {$a->%name}';
 $string['missinglibraryproperty'] = 'La propiedad requerida {$a->%property} está faltando de {$a->%library}';
+$string['missingmainlibrary'] = 'Falta biblioteca principal {$a->@library}';
 $string['missingmbstring'] = 'La extensión PHP mbstring no está cargada. H5P la necesita para funcionar adecuadamente.';
 $string['missinguploadpermissions'] = 'Tenga en cuenta que las librerías podrían existir en el archivo que subió, pero usted no tiene permitido subir nuevas librerías. Por favor póngase en contacto con su administrador.';
 $string['next'] = 'Siguiente';
@@ -288,6 +292,7 @@ $string['updatedlibraries'] = 'Actualizó  {$a->%old} librerías H5P.';
 $string['updatedlibrary'] = 'Actualizó  {$a->%old} librería H5P.';
 $string['uploadlibraries'] = 'Subir tipos de contenido H5P';
 $string['uploadsuccess'] = 'Tipos de contenido H5P subidos exitosamente';
+$string['width'] = 'ancho';
 $string['wrongversion'] = 'La versión de la librería H5P {$a->%machineName} usada en este contenido no es válida. El contenido contiene {$a->%contentLibrary}, pero debería de ser {$a->%semanticsLibrary}.';
 $string['year'] = 'Año';
 $string['years'] = 'Año(s)';

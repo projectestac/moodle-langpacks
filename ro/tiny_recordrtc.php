@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_recordrtc', language 'ro', version '4.1'.
+ * Strings for component 'tiny_recordrtc', language 'ro', version '4.4'.
  *
  * @package     tiny_recordrtc
  * @category    string
@@ -65,7 +65,7 @@ $string['nowebrtc'] = 'Browser-ul tău oferă suport limitat sau nu oferă înc�
 $string['nowebrtc_title'] = 'WebRTC nu este acceptat';
 $string['onlyaudio'] = 'Doar audio';
 $string['onlyvideo'] = 'Doar video';
-$string['pluginname'] = 'Tiny RecordRTC';
+$string['pluginname'] = 'RecordRTC';
 $string['privacy:metadata'] = 'Plugin-ul RecordRTC nu stochează date personale.';
 $string['recordagain'] = 'Înregistrează din nou';
 $string['recordagain_desc'] = 'Ai înregistrat deja conținut. Dacă înregistrezi din nou, se va șterge acest conținut. Sigur vrei să resetezi înregistrarea?';

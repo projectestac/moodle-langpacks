@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'es', version '4.1'.
+ * Strings for component 'feedback', language 'es', version '4.4'.
  *
  * @package     feedback
  * @category    string
@@ -58,7 +58,7 @@ $string['completed'] = 'Completada';
 $string['completed_feedbacks'] = 'Respuestas enviadas';
 $string['completedon'] = 'Completada en {$a}';
 $string['completiondetail:submit'] = 'Enviar retroalimentación';
-$string['completionsubmit'] = 'Ver como "completado" si se envía la encuesta';
+$string['completionsubmit'] = 'Enviar retroalimentación';
 $string['configallowfullanonymous'] = 'Si se establece a "sí", los usuarios pueden pueden completar una encuesta en la página principal del sitio sin necesidad de que inicien sesión.';
 $string['confirmdeleteentry'] = '¿Está seguro que quiere borrar esta entrada?';
 $string['confirmdeleteitem'] = '¿Está seguro que quiere borrar este elemento?';
@@ -158,7 +158,7 @@ $string['insufficient_responses_for_this_group'] = 'Este grupo no tiene suficien
 $string['insufficient_responses_help'] = 'Para mantener la encuesta anónima debe haber un mínimo de 2 respuestas.';
 $string['item_label'] = 'Etiqueta';
 $string['item_name'] = 'Pregunta';
-$string['label'] = 'Etiqueta';
+$string['label'] = 'Área de texto y medios';
 $string['labelcontents'] = 'Contenidos';
 $string['mapcourse'] = 'Asignar encuesta a cursos';
 $string['mapcourse_help'] = 'Por defecto, los formularios de encuesta creados en su página de inicio están disponibles en todo el sitio y aparecerá en todos los cursos utilizando el bloque de encuestas. Puede forzar que el formulario de encuestas se visualice haciendo que sea un bloque fijo o puede limitar los cursos en los que se mostrará el formulario de encuesta mediante su asignación a cursos específicos.';
@@ -192,7 +192,10 @@ $string['multichoiceoption'] = '<span class="weight">({$a->weight}) </span>{$a->
 $string['multichoicerated'] = 'Elección múltiple (clasificadas)';
 $string['multichoicetype'] = 'Tipo elección múltiple';
 $string['multiplesubmit'] = 'Permitir múltiples envíos';
-$string['multiplesubmit_help'] = 'Si se habilita en las encuestas anónimas, los usuarios pueden enviar sus opinión un número ilimitado de veces.';
+$string['multiplesubmit_help'] = 'Si se configura a "Sí":
+
+* Para encuesas anónimas: los participantes pueden enviar respuestas ilimitadas y las respuestas se almacenarán.
+* Para encuestas no anónimas: los participantes pueden enviar respuestas ilimitadas pero sólo quedará almacenada su última respuesta.';
 $string['name'] = 'Nombre';
 $string['name_required'] = 'Nombre requerido';
 $string['nameandlabelformat'] = '({$a->label}) {$a->name}';

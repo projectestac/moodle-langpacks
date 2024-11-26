@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'sv', version '4.1'.
+ * Strings for component 'format_tiles', language 'sv', version '4.4'.
  *
  * @package     format_tiles
  * @category    string
@@ -369,6 +369,7 @@ $string['tileicon_help'] = 'Det objekt som väljs här åsidosätter, endast fö
 $string['tileicons'] = 'Panelikoner';
 $string['tileoutcome'] = 'Resultat för denna panel';
 $string['tileoutcome_help'] = 'Om du väljer ett resultat för den här panelen kan du under kursinställningarna visa en uppsättning <em>filterknappar</em>, en för varje resultat, som när du trycker på den filtrerar de visade panelerna efter vilket resultat de har tilldelats';
+$string['tileselecttip'] = 'Här är ett enklare sätt att ändra en panelikon eller ett foto: klicka bara på ikonen eller fotot som du vill ändra i kursen, med redigeringsläge på. Fönstret ikonväljaren visas.';
 $string['tilesformatregistration'] = 'Registrera Panelformat-modulen.';
 $string['togglecompletion'] = 'Klicka för att växla slutförandestatus';
 $string['togglecompletioncomplete'] = 'Klicka för att växla slutförandestatus (slutförd)';

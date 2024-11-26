@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_recordrtc', language 'ru', version '4.1'.
+ * Strings for component 'tiny_recordrtc', language 'ru', version '4.4'.
  *
  * @package     tiny_recordrtc
  * @category    string
@@ -64,7 +64,7 @@ $string['nowebrtc'] = 'Ваш браузер пока не поддержива�
 $string['nowebrtc_title'] = 'WebRTC не поддерживается';
 $string['onlyaudio'] = 'Только аудио';
 $string['onlyvideo'] = 'Только видео';
-$string['pluginname'] = 'Tiny - запись RTC';
+$string['pluginname'] = 'Запись RTC';
 $string['privacy:metadata'] = 'Плагин «Запись RTC» не хранит никаких персональных данных.';
 $string['recordagain'] = 'Записать снова';
 $string['recordagain_desc'] = 'Вы уже записали некоторый контент. Повторная запись удалит этот контент. Вы уверены, что хотите сбросить запись?';

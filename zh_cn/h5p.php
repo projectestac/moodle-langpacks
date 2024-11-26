@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5p', language 'zh_cn', version '4.1'.
+ * Strings for component 'h5p', language 'zh_cn', version '4.4'.
  *
  * @package     h5p
  * @category    string
@@ -138,6 +138,7 @@ $string['h5ppackage_help'] = 'H5P 内容类型是具有 H5P 或 ZIP 扩展名的
 $string['h5pprivatefile'] = '无法显示此 H5P 内容，因为您无权访问 .h5p 文件。';
 $string['h5psettings'] = 'H5P设置';
 $string['h5ptitle'] = '访问 h5p.org 以检查更多内容。';
+$string['height'] = '高度';
 $string['helpChoosingLicense'] = '帮我选择一种许可证';
 $string['hideadvanced'] = '隐藏高级';
 $string['icon'] = '图标';
@@ -205,6 +206,7 @@ $string['missinglibrary'] = '缺少必需的库 {$a->@library}';
 $string['missinglibraryfile'] = '库中缺少文件“{$a->%file}”：“{$a->%name}”';
 $string['missinglibraryjson'] = '无法为库 {$a->%name} 找到具有有效 json 格式的 library.json 文件';
 $string['missinglibraryproperty'] = '{$a->%library} 缺少必需的属性 {$a->%property}';
+$string['missingmainlibrary'] = '丢失主库{$a->@library}';
 $string['missingmbstring'] = 'mbstring PHP 扩展未加载。 H5P 需要它才能正常运行。';
 $string['missinguploadpermissions'] = '请注意，您上传的文件中可能存在这些库，但您不能上传新的库。 请联系您的管理员。';
 $string['next'] = '下一步';
@@ -251,6 +253,8 @@ $string['reviewAndSave'] = '查看和保存';
 $string['reviewAndShare'] = '查看和分享';
 $string['reviewInfo'] = '查看信息';
 $string['reviewMessage'] = '请在分享之前查看下面的信息';
+$string['rotateLeft'] = '向左旋转';
+$string['rotateRight'] = '向右旋转';
 $string['saveChanges'] = '保存更改';
 $string['screenshots'] = '截图';
 $string['screenshotsDescription'] = '最多可向您的内容添加5张截图';
@@ -286,6 +290,7 @@ $string['updatedlibraries'] = '更新了 {$a->%old} H5P 库。';
 $string['updatedlibrary'] = '更新了 {$a->%old} H5P 库。';
 $string['uploadlibraries'] = '上传 H5P 内容类型';
 $string['uploadsuccess'] = 'H5P 内容类型上传成功';
+$string['width'] = '宽度';
 $string['wrongversion'] = '此内容中使用的 H5P 库 {$a->%machineName} 的版本无效。 内容包含 {$a->%contentLibrary}，但它应该是 {$a->%semanticsLibrary}。';
 $string['year'] = '年';
 $string['years'] = '年';

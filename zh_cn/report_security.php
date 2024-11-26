@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'zh_cn', version '4.1'.
+ * Strings for component 'report_security', language 'zh_cn', version '4.4'.
  *
  * @package     report_security
  * @category    string
@@ -80,10 +80,6 @@ $string['check_guestrole_error'] = '访客角色“{$a}”定义错误！';
 $string['check_guestrole_name'] = '访客角色';
 $string['check_guestrole_notset'] = '未设定访客角色。';
 $string['check_guestrole_ok'] = '访客角色定义正确。';
-$string['check_mediafilterswf_details'] = '<p>自动嵌入swf非常危险——任何注册用户都可能发起针对其它用户的XSS攻击。请在正式服务器禁用它。</p>';
-$string['check_mediafilterswf_error'] = 'Flash 媒体过滤器已经激活——对于大多数服务器而言，这是非常危险的。';
-$string['check_mediafilterswf_name'] = '激活的 .swf 媒体过滤器';
-$string['check_mediafilterswf_ok'] = 'Flash 媒体过滤器未激活。';
 $string['check_nodemodules_details'] = '<p>目录<code>{$a->path}</code>包含Node.js模块及其附属项，通常由NPM工具安装。这些模块可能是本地Moodle开发所需要的，比如使用grunt框架。在生产环境中运行Moodle站点不需要这些模块，而且它们可能含有使您的站点受到远程攻击的潜在危险代码。</p><p>如果网站可以通过公共URL访问，强烈建议删除该目录，或者至少在您的web服务器配置中禁止对其进行web访问。</p>';
 $string['check_nodemodules_info'] = 'node_modules目录不应出现在公共站点上。';
 $string['check_nodemodules_name'] = 'Node.js模块目录';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hub', language 'ja', version '4.1'.
+ * Strings for component 'hub', language 'ja', version '4.4'.
  *
  * @package     hub
  * @category    string
@@ -43,7 +43,9 @@ $string['coursename'] = '名称';
 $string['coursepublished'] = 'このコースが「 {$a} 」に正常に共有されました。';
 $string['courseshortname'] = '省略名';
 $string['courseshortname_help'] = 'あなたのコースの省略名を入力してください。省略名はユニークである必要はありません。';
+$string['coursesnodates'] = '終了日未設定のコース数 ({$a})';
 $string['coursesnumber'] = 'コース数 ({$a})';
+$string['dbtype'] = 'データベースタイプ ({$a})';
 $string['demourl'] = 'デモURL';
 $string['demourl_help'] = 'あなたのコースのデモURLを入力してください。デフォルトはこれはあなたのコースのURLです。デモURLは検索結果のリンクとして表示されます。';
 $string['downloadable'] = 'ダウンロード可';
@@ -98,6 +100,7 @@ $string['postaladdress'] = '住所';
 $string['postaladdress_help'] = 'このサイトの住所またはこのサイトが存在する場所です。';
 $string['postsnumber'] = '投稿数 ({$a})';
 $string['previousregistrationdeleted'] = '以前の登録は {$a} から削除されました。あなたは登録プロセスを再開できます。ありがとうございます。';
+$string['primaryauthtype'] = '主認証タイプ ({$a})';
 $string['questionsnumber'] = '問題数 ({$a})';
 $string['registeredactiveuserdevices'] = '通知を受信するモバイルデバイスを登録したアクティブユーザ数 ({$a})';
 $string['registeredcourses'] = '登録済みコース';
@@ -125,7 +128,7 @@ $string['restartregistration'] = '登録を再開する';
 $string['roleassignmentsnumber'] = 'ロール割り当て数 ({$a})';
 $string['search'] = '検索';
 $string['sendfollowinginfo'] = '詳細情報';
-$string['sendfollowinginfo_help'] = '次の情報はあなたのサイト登録が更新されるたびにMoodleに送信されます (デフォルトでは毎週の「サイト登録」スケジュールタスクの実行時)。この情報は全体的な統計にのみ寄与します。また、どのサイトリストでも公開されません。加えて毎週の自動サイトリンクチェックによりあなたのMoodleリリースバージョンが記録されます。';
+$string['sendfollowinginfo_help'] = '次の情報はあなたのサイト登録が更新されるたびにMoodleに送信されます (デフォルトでは毎週の「サイト登録」スケジュールタスクの実行時)。この情報は全体的な統計にのみ寄与します。また、どのサイトリストにおいても公開されません。加えて毎週の自動サイトリンクチェックによりあなたのMoodleリリースバージョンが記録されます。';
 $string['sendingsize'] = 'お待ちください、コースファイルアップロード中です ({$a->total}Mb) ...';
 $string['sent'] = '... 完了しました。';
 $string['siteadmin'] = '管理者';
@@ -161,6 +164,7 @@ $string['siteregistrationupdated'] = 'サイト登録が更新されました。
 $string['siterelease'] = 'Moodleリリース';
 $string['siterelease_help'] = 'このサイトのMoodleリリースナンバです。';
 $string['sitereleasenum'] = 'Moodleリリース ({$a})';
+$string['sitetheme'] = 'サイトテーマ ({$a})';
 $string['siteurl'] = 'サイトURL';
 $string['siteurl_help'] = 'URLはこのサイトのアドレスです。プライバシー設定で人のサイトアドレス閲覧を許可している場合、このURLが使用されます。';
 $string['siteversion'] = 'Moodleバージョン';

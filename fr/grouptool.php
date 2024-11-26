@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grouptool', language 'fr', version '4.1'.
+ * Strings for component 'grouptool', language 'fr', version '4.4'.
  *
  * @package     grouptool
  * @category    string
@@ -181,7 +181,7 @@ $string['number_of_groups'] = 'Nombre N de groupes';
 $string['number_of_students'] = 'Nombre de participants';
 $string['occupied'] = 'Occupé';
 $string['orientation'] = 'Orientation du PDF';
-$string['overview'] = 'Vue d’ensemble';
+$string['overview'] = 'Aperçu';
 $string['overview_tab'] = 'Vue du groupe';
 $string['overwrite_label'] = 'Remplacer les notes existantes';
 $string['portrait'] = 'Portrait';

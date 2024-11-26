@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'ar', version '4.1'.
+ * Strings for component 'enrol_self', language 'ar', version '4.4'.
  *
  * @package     enrol_self
  * @category    string
@@ -33,14 +33,16 @@ $string['cohortonly'] = 'فقط أعضاء الدفعة';
 $string['cohortonly_help'] = 'الانضمام الذاتي قد يكون محصوراً بأعضاء دفعة معينة. لاحظ أن تغيير هذا الإعداد ليس له تأثير على الانضمامات الحالية.';
 $string['confirmbulkdeleteenrolment'] = 'هل أنت متأكد من رغبتك في حذف انضمامات المستخدمين هذه؟';
 $string['customwelcomemessage'] = 'رسالة ترحيب مخصصة';
-$string['customwelcomemessage_help'] = 'يمكن إضافة رسالة ترحيبية مخصصة بتنسيق عادي أو بتنسيق مودل التلقائي، متضمنة وسوم HTML ووسوم متعدد اللغات.
-
-يمكن تضمين العناصر النائبة الآتية في الرسالة:
-
-* اسم المساق {$a->coursename}
-* رابط إلى صفحة الملف الشخصي للمستخدم {$a->profileurl}
-* بريد المستخدم {$a->email}
-* اسم المستخدم الكامل {$a->fullname}';
+$string['customwelcomemessage_help'] = 'التنسيقات المقبولة: النص العادي أو تنسيق مودل التلقائي، وسوم HTML ووسوم متعدد اللغات مقبولة أيضًا، فضلاً عن العناصر النائبة الآتية:
+<ul>
+<li>اسم المساق {$a->coursename}</li>
+<li>رابط إلى صفحة الملف الشخصي للمستخدم {$a->profileurl}</li>
+<li>بريد المستخدم {$a->email}</li>
+<li>اسم المستخدم الكامل {$a->fullname}</li>
+<li>الاسم الأول للمستخدم {$a->firstname}</li>
+<li>الاسم الأخير للمستخدم {$a->lastname}</li>
+<li>دور المستخدم في المساق {$a->courserole}</li>
+</ul>';
 $string['defaultrole'] = 'تحديد الدور الأساسي';
 $string['defaultrole_desc'] = 'إختر الدور الذي ينبغي منحه إلى المستخدمين خلال الانضمام الذاتي';
 $string['deleteselectedusers'] = 'إحذف انضمامات المستخدمين المحددة';
@@ -56,6 +58,12 @@ $string['enrolstartdate'] = 'تاريخ البدء';
 $string['enrolstartdate_help'] = 'عند تمكينه، سيكون بإمكان المستخدمين ضم أنفسهم من ذلك التاريخ فصاعداً.';
 $string['expiredaction'] = 'إجراء انتهاء صلاحية الانضمام';
 $string['expiredaction_help'] = 'إختر الإجراء المزمع تنفيذه عند انتهاء صلاحية انضمام المستخدم. لطفاً، لاحظ أن بعض بيانات المستخدم وإعداداته ستزول من المساق عند إلغاء انضمامه.';
+$string['expiryinactivemessageenrolledbody'] = 'مرحبًا {$a->user}،
+
+إن انضمامك إلى المساق {$a->course} ينتهي في {$a->timeend} نظرًا لكونك لم تقم بزيارته خلال {$a->inactivetime} من الأيام الماضية.
+
+للإبقاء على انضمامك ساريًا، سجل دخولك وقم بزيارة <a href="{$a->url}">{$a->course}</a> قبل {$a->timeend}.';
+$string['expiryinactivemessageenrolledsubject'] = 'انضمامك تنتهي صلاحيته: {$a->course}';
 $string['expirymessageenrolledbody'] = 'عزيزي {$a->user}،
 
 هذا إشعار بأن انضمامك إلى المساق \'{$a->course}\' قد استحق الانتهاء بتاريخ {$a->timeend}.

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'ca', version '4.1'.
+ * Strings for component 'tool_dataprivacy', language 'ca', version '4.4'.
  *
  * @package     tool_dataprivacy
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activitiesandresources'] = 'Activitats i recursos';
 $string['cancelrequest'] = 'Cancel·la la sol·licitud';
+$string['cancelrequestconfirmation'] = 'Voleu cancel·lar aquesta sol·licitud de dades?';
 $string['categories'] = 'Categories';
 $string['contactdataprotectionofficer'] = 'Contacta amb el delegat de privacitat';
 $string['contextlevelname10'] = 'Lloc';
@@ -115,6 +116,7 @@ $string['statusdeleted'] = 'Eliminat';
 $string['statusdetail'] = 'Estat:';
 $string['statusexpired'] = 'Caducat';
 $string['statuspending'] = 'Pendent';
+$string['statuspreprocessing'] = 'En preprocessament';
 $string['statusprocessing'] = 'En procés';
 $string['statusready'] = 'Descàrrega disponible';
 $string['statusrejected'] = 'Rebutjada';

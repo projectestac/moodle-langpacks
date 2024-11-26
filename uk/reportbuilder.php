@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'reportbuilder', language 'uk', version '4.1'.
+ * Strings for component 'reportbuilder', language 'uk', version '4.4'.
  *
  * @package     reportbuilder
  * @category    string
@@ -123,6 +123,7 @@ $string['errorsourceinvalid'] = 'Не вдалося знайти дійсне �
 $string['errorsourceunavailable'] = 'Джерело звіту недоступне';
 $string['filteradded'] = 'Додано фільтр "{$a}"';
 $string['filtercontains'] = 'Містить';
+$string['filterdatebefore'] = 'Раніше';
 $string['filterdatecurrent'] = 'Поточний';
 $string['filterdatedays'] = 'день(і)';
 $string['filterdatefrom'] = 'Дата від';

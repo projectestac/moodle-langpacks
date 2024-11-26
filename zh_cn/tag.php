@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'zh_cn', version '4.1'.
+ * Strings for component 'tag', language 'zh_cn', version '4.4'.
  *
  * @package     tag
  * @category    string
@@ -73,6 +73,7 @@ $string['eventtagupdated'] = '标签已更新';
 $string['exclusivemode'] = '仅显示标签{$a->tagarea}';
 $string['flag'] = '标记';
 $string['flagasinappropriate'] = '标记为不和谐的';
+$string['flagcount'] = '标签数量';
 $string['flagged'] = '标签已标记';
 $string['helprelatedtags'] = '相关标签用英文半角逗号分隔';
 $string['id'] = 'ID';

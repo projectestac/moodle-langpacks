@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_recordrtc', language 'es', version '4.1'.
+ * Strings for component 'tiny_recordrtc', language 'es', version '4.4'.
  *
  * @package     tiny_recordrtc
  * @category    string
@@ -65,7 +65,7 @@ $string['nowebrtc'] = 'Su navegador ofrece soporte limitado o no soporta la tecn
 $string['nowebrtc_title'] = 'WebRTC no soportado';
 $string['onlyaudio'] = 'Solo audio';
 $string['onlyvideo'] = 'Solo video';
-$string['pluginname'] = 'Tiny RecordRTC';
+$string['pluginname'] = 'RecordRTC';
 $string['privacy:metadata'] = 'El plugin RecordRTC no almacena ningún dato personal.';
 $string['recordagain'] = 'Grabar otra vez';
 $string['recordagain_desc'] = 'Usted ya ha grabado algunos contenidos. Grabar nuevamente quitará este contenido. ¿Está seguro de querer reiniciar la grabación?';

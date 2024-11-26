@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'ca', version '4.1'.
+ * Strings for component 'group', language 'ca', version '4.4'.
  *
  * @package     group
  * @category    string
@@ -133,7 +133,6 @@ $string['groupspreview'] = 'Previsualització de grups';
 $string['groupsseparate'] = 'Grups separats';
 $string['groupsvisible'] = 'Grups visibles';
 $string['grouptemplate'] = 'Grup @';
-$string['hidepicture'] = 'Oculta la imatge';
 $string['importgroups'] = 'Importa grups';
 $string['importgroups_help'] = 'Els grups poden ser importats amb el fitxer de text. El format del fitxer ha de ser de la manera següent:
 * Cada línia del fitxer conté un registre
@@ -171,6 +170,8 @@ $string['numgroups'] = 'Nombre de grups';
 $string['nummembers'] = 'Membres per grup';
 $string['othergroups'] = 'Altres grups';
 $string['overview'] = 'Resum';
+$string['participation'] = 'Mostra el grup al menú desplegable per a les activitats en mode de grup';
+$string['participation_help'] = 'Els membres del grup han de poder seleccionar aquest grup per a les activitats en mode de grups separats o visibles? (Només aplicable si la pertinença al grup és visible per a tothom o només visible per als membres.)';
 $string['potentialmembers'] = 'Membres en potència: {$a}';
 $string['potentialmembs'] = 'Membres potencials';
 $string['printerfriendly'] = 'Visualització per a imprimir de l\'agrupament';
@@ -190,3 +191,18 @@ $string['toomanygroups'] = 'No hi ha prou usuaris per a poblar aquest nombre de 
 $string['usercount'] = 'Nombre d\'usuaris';
 $string['usercounttotal'] = 'Nombre d\'usuaris ({$a})';
 $string['usergroupmembership'] = 'Grups als quals pertany l\'usuari seleccionat:';
+$string['visibility'] = 'Visibilitat de la pertinença al grup';
+$string['visibility_help'] = '* Visible per a tothom - tots els participants del curs poden veure qui hi ha al grup.
+* Només visible per als membres - els participants del curs que no formen part del grup no poden veure el grup ni els seus membres.
+* Només es pot veure la pròpia pertinença - un usuari pot veure que està al grup però no pot veure els altres membres del grup.
+* Oculta - només els professors poden veure el grup i els seus membres.
+
+Els usuaris amb la capacitat de veure grups ocults sempre poden veure la pertinença al grup.
+
+Tingueu en compte que no podeu canviar aquesta configuració si el grup té membres.';
+$string['visibilityall'] = 'Visible per a tothom';
+$string['visibilitymembers'] = 'Només visible per als membres';
+$string['visibilitynone'] = 'Oculta';
+$string['visibilityown'] = 'Només es pot veure la pròpia pertinença';
+$string['visibilityshort'] = 'Visibilitat';
+$string['withselected'] = 'Amb el que s\'ha seleccionat';

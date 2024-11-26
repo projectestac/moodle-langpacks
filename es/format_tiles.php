@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'es', version '4.1'.
+ * Strings for component 'format_tiles', language 'es', version '4.4'.
  *
  * @package     format_tiles
  * @category    string
@@ -255,7 +255,7 @@ $string['icontitle-volume-up'] = 'Bocina';
 $string['icontitle-wrench'] = 'Llave inglesa';
 $string['imagecannotbeused'] = 'La imagen no puede ser usada';
 $string['imagedeletedfrom'] = 'Imagen eliminada de "{$a}"';
-$string['imagesavedfor'] = 'Imagen guardada para mosaico "{$a}"';
+$string['imagesavedfor'] = 'Imagen guardada para "{$a}"';
 $string['imagesize'] = 'Tamaño de imagen';
 $string['jsactivate'] = 'Navegación animada - desactivar';
 $string['jsdeactivate'] = 'Navegación animada - activar';
@@ -270,7 +270,7 @@ $string['modalmodules_desc'] = 'Invocar estos módulos de curso en una ventana m
 $string['modalresources'] = 'Recursos modales';
 $string['modalresources_desc'] = 'Invocar estos recursos en ventana modal';
 $string['modalwindows'] = 'Ventanas modales';
-$string['newsectionname'] = 'Nuevo nombre para tópico {$a}';
+$string['newsectionname'] = 'Nuevo nombre para sección {$a}';
 $string['nexttopic'] = 'Siguiente tópico';
 $string['noconnectionerror'] = 'No se puede cargar contenido. Revise su conexión a internet';
 $string['nojswarning'] = 'Al parecer su navegador no soporta javascript o está deshabilitado. Si habilita javascript estará disponible una interfaz más completa';
@@ -315,7 +315,7 @@ $string['registeredthanks'] = 'Su extensión está registrada. Gracias';
 $string['registeremailno'] = 'No deseo recibir ningún correo electrónico';
 $string['registeremailyes'] = 'Si. Estoy de acuerdo en recibir notificaciones ocasionales sobre actualizaciones y otra información acerca del plugin Tiles (Mosaicos)';
 $string['registerintro1'] = '¡Nos encantaría estar en comunicación con Usted! Cuando se registre';
-$string['registerintro2'] = 'apoya el desarrollo futuro de este complemento';
+$string['registerintro2'] = 'Usted apoya el desarrollo futuro de este plugin';
 $string['registerintro3'] = 'Usted puede enterarse con prontitud acerca de planes futuros y actualizaciones importantes';
 $string['registerintro4'] = 'Nosotros podemos encontrar más acerca de lo que a Usted le gustaría que hiciera este plugin.';
 $string['registerintro5'] = 'Sus detalles se mantendrán privados por el desarrollador tal y como está descrito en la política de privacidad ligada abajo. ¡Gracias por su apoyo!';
@@ -350,7 +350,7 @@ $string['showoverallprogress_desc'] = 'Mostrar indicador de "Progreso General %"
 $string['showprogresssphototiles_desc'] = 'Si se selecciona, el progreso del estudiante (por ejemplo: Progreso 2/5) será mostrado en mosaicos de foto';
 $string['showseczerocoursewide'] = 'Mostrar sección cero en la parte superior de todas las secciones';
 $string['showseczerocoursewide_desc'] = 'Si se activa, la sección cero (la sección más superior) será mostrada en la página de inicio del curso y en la parte superior de <b>cada página de sección de curso</b> por ejemplo en la parte superior de cada contenido de mosaico). Si no se activa (recomendado), solamente será mostrado en la página inicial del curso';
-$string['showseparatewin'] = 'Mostrar archivo en ventana separada';
+$string['showseparatewin'] = 'Mostrar en ventana separada';
 $string['sitename'] = 'Nombre del sitio';
 $string['snapwarning'] = 'Sería posible editar su curso en formato Mosaicos usando otro tema, y después cambiar de regreso al tema Snap una vez que haya terminado de editar.';
 $string['snapwarning_help'] = 'Theme_settings#Allow_user_themes';
@@ -364,6 +364,7 @@ $string['tileicon_help'] = 'El ítem aquí seleccionado anulará, solamente para
 $string['tileicons'] = 'Iconos del mosaico';
 $string['tileoutcome'] = 'Resultado para este mosaico';
 $string['tileoutcome_help'] = 'Si selecciona un resultado para este mosaico podrá mostrar, debajo de configuraciones del curso, un conjunto de <em>botones filtro</em>, uno para cada resultado, los cuales cuando son presionados, filtran los mosaicos mostrados de acuerdo a los resultados que han sido asignados';
+$string['tileselecttip'] = 'Dentro del curso, hacer clic en el ícono que desea cambiar (con el modo de edición activado). Aparecerá el selector de archivo.';
 $string['tilesformatregistration'] = 'Registrar formato mosaicos';
 $string['togglecompletion'] = 'Hacer clic para alternar estado de finalización';
 $string['togglecompletioncomplete'] = 'Clic para alternar estado de finalización (completo)';

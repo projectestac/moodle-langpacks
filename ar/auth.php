@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ar', version '4.1'.
+ * Strings for component 'auth', language 'ar', version '4.4'.
  *
  * @package     auth
  * @category    string
@@ -48,6 +48,10 @@ $string['auth_fieldlocks'] = 'أغلق حقول المستخدم';
 $string['auth_fieldlocks_help'] = '<p>تستطيع تأمين حقول بيانات المستخدم. هذا مفيد للمواقعِ التي يقوم مشرفوها بتحرير بيانات المستخدمين يدوياً أو باستعمال خدمة \'رفع المستخدمين\'. إذا قمت بتأمين حقول مطلوبة من قبل مودل، تأكد من تزويدك لتلك البيانات عندما تنشئ حسابات المستخدمين؛ وإلا ستكون الحسابات غير صالحة للاستعمال.</p> p>خذ في اعتبارك وضع إعداد حالة التأمين على \'عدم التأمين إذا كان الحقل فارغاً\' لتفادي هذه المشكلة.</p>';
 $string['auth_fieldmapping'] = 'تعيين البيانات ({$a})';
 $string['auth_invalidnewemailkey'] = 'خطأ: إذا كنت تحاول تأكيد تغيير بريد إلكتروني، فلربما أخطأت في نسخ الرابط الذي أرسلناه لك إلى بريدك. رجاءً إنسخ العنوان وحاول مرة أخرى.';
+$string['auth_loginpasswordtoggle'] = 'مبدل إظهار كلمة المرور';
+$string['auth_loginpasswordtoggle_desc'] = 'إضافة أيقونة إلى حقل كلمة المرور في صفحة تسجيل الدخول يسمح للمستخدمين بإظهار أو إخفاء كلمة مرورهم التي أدخلوها.';
+$string['auth_loginrecaptcha'] = 'تمكين reCAPTCHA لغرض تسجيل الدخول';
+$string['auth_loginrecaptcha_desc'] = 'إضافة عنصر تأكيد مرئي/مسموع لنموذج صفحة تسجيل الدخول. هذا من شأنه تقليل مخاطر محاولات الدخول غير المرغوب بها. أنظر <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> لمزيد من التفاصيل.';
 $string['auth_multiplehosts'] = 'يمكن تحديد أكثر من مستضيف أو عنوان (host1.com, host2.net, host3.org)  أو  (eg xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_notconfigured'] = 'طريقة التوثيق {$a} لم يتم ضبطها.';
 $string['auth_outofnewemailupdateattempts'] = 'لقد وصلت للحد الأقصى المسموح به من المحاولات لتحديث عنوان بريدك الإلكتروني. طلبك للتحديث تم إلغاؤه .';

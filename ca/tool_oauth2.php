@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'ca', version '4.1'.
+ * Strings for component 'tool_oauth2', language 'ca', version '4.4'.
  *
  * @package     tool_oauth2
  * @category    string
@@ -27,11 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configured'] = 'Configurat';
 $string['configuredstatus'] = 'Configurat';
-$string['createnewfacebookissuer'] = 'Crea un servei de Facebook nou';
-$string['createnewgoogleissuer'] = 'Crea un servei de Google nou';
-$string['createnewissuer'] = 'Crea un servei personalitzat nou';
-$string['createnewmicrosoftissuer'] = 'Crea un servei de Microsoft nou';
-$string['createnewnextcloudissuer'] = 'Crea un servei de Nextcloud nou';
 $string['endpointname'] = 'Nom';
 $string['issueralloweddomains'] = 'Dominis d\'inici de sessió';
 $string['issueralloweddomains_link'] = 'OAuth_2_login_domains';

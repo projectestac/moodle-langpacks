@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'attendance', language 'ro', version '4.1'.
+ * Strings for component 'attendance', language 'ro', version '4.4'.
  *
  * @package     attendance
  * @category    string
@@ -280,7 +280,7 @@ $string['hidensessiondetails'] = 'Ascundere detalii sesiune';
 $string['identifyby'] = 'Identificarea cursantului după';
 $string['import'] = 'Import';
 $string['importfile'] = 'Importă fișier';
-$string['importfile_help'] = 'Importă fișier';
+$string['importfile_help'] = 'Fișierul CSV trebuie să conțină un antet și câmpuri pentru a identifica grupurile, data și ora și datele sesiunilor care vor fi create.<br/> Pagina următoare de după  încărcarea fișierului vă va afișa exemple ale tuturor câmpurilor la care vă puteți mapa propriile câmpuri.<br/>Exemplu :<br/>groups;sessiondate;from;to<br/>groupA:05-10-2022;13:00;14:00<br/>groupB;05-10-2022;14:00;15:00';
 $string['importsessions'] = 'Importă sesiuni';
 $string['importstatus'] = 'Status';
 $string['importstatus_help'] = 'Se permite ca o valoare a statusului să fie inclusă în raport, de ex. valori precum  P, Î, sau A';

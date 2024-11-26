@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ja', version '4.1'.
+ * Strings for component 'auth', language 'ja', version '4.4'.
  *
  * @package     auth
  * @category    string
@@ -44,6 +44,10 @@ $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
 $string['auth_fieldlocks_help'] = 'p>あなたはユーザデータフィールドをロックできます。ユーザレコードを管理者が手動で管理する方法、または「ユーザをアップロードする」機能を使用してユーザレコードをアップロードする方法をとっているサイトに有用です。Moodleが必要とするフィールドをロックする場合、ユーザアカウント作成時にそのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>この問題を避けるため、「空の場合はロックしない」設定をお勧めします。</p>';
 $string['auth_fieldmapping'] = 'データマッピング ({$a})';
 $string['auth_invalidnewemailkey'] = 'エラー: メールアドレスの変更確認を試みているのでしたら、あなたに送信されたメール内URLのコピーに失敗しているようです。URLをコピーして再度お試しください。';
+$string['auth_loginpasswordtoggle'] = 'パスワード可視性トグル';
+$string['auth_loginpasswordtoggle_desc'] = 'ログイン画面のパスワードフィールドにアイコンを追加してユーザが入力したパスワードを表示または非表示にできるようにします。';
+$string['auth_loginrecaptcha'] = 'ログインのreCAPTCHAを有効にする';
+$string['auth_loginrecaptcha_desc'] = 'ログインページに視覚/音声確認フォーム要素を追加します。これで不当なログイン試行のリスクを減らせます。詳細は<a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>をご覧ください。';
 $string['auth_multiplehosts'] = '複数のホストまたはアドレスを設定できます (例 host1.com;host2.com;host3.com) または (例 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_notconfigured'] = '認証方法 {$a} が設定されていません。';
 $string['auth_outofnewemailupdateattempts'] = 'あなたはメールアドレスの変更許容回数を超えました。あなたの更新リクエストはキャンセルされました。';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'nl', version '4.1'.
+ * Strings for component 'choice', language 'nl', version '4.4'.
  *
  * @package     choice
  * @category    string
@@ -54,7 +54,7 @@ $string['chooseaction'] = 'Kies een actie...';
 $string['chooseoption'] = 'Kies: {$a}';
 $string['closebeforeopen'] = 'Je hebt een afsluitdatum opgegeven die vroeger ligt dan de openingsdatum.';
 $string['completiondetail:submit'] = 'Een keuze maken';
-$string['completionsubmit'] = 'Toon als voltooid wanneer de gebruiker een keuze maakt';
+$string['completionsubmit'] = 'Een keuze maken';
 $string['description'] = 'Inleidende tekst';
 $string['deselectalloption'] = 'Deselecteer alles "{$a}"';
 $string['displayhorizontal'] = 'Toon horizontaal';

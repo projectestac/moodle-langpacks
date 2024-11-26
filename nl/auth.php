@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'nl', version '4.1'.
+ * Strings for component 'auth', language 'nl', version '4.4'.
  *
  * @package     auth
  * @category    string
@@ -44,6 +44,10 @@ $string['auth_fieldlocks'] = 'Blokkeer gebruikersvelden';
 $string['auth_fieldlocks_help'] = '<p>Je kunt gegevensvelden van de gebruikers blokkeren. Dit is nuttig voor sites waar het beheer van de gegevens van de gebruikers manueel of door de \'Upload gebruikers\'-functie gebeurt. Als je door Moodle vereiste velden blokkeert, zorg er dan voor dat je die gegevens voorziet wanneer je gebruikers aanmaakt of de accounts zullen onbruikbaar zijn.</p><p>Overweeg om de blokkeermodus in te stellen op \'Niet geblokkeerd als leeg\' om dit probleem te voorkomen.</p>';
 $string['auth_fieldmapping'] = 'Gegevenskoppeling  ({$a})';
 $string['auth_invalidnewemailkey'] = 'Fout. Als je probeert een wijziging van e-mailadres te bevestigen, dan heb je misschien een fout gemaakt bij het kopieëren van de URL van de e-mail die we je toezonden. Probeer opnieuw.';
+$string['auth_loginpasswordtoggle'] = 'Wachtwoordzichtbaarheid wisselen';
+$string['auth_loginpasswordtoggle_desc'] = 'Voeg een pictogram toe aan het wachtwoordveld op het inlogscherm waarmee gebruikers hun ingevoerde wachtwoord kunnen tonen of verbergen.';
+$string['auth_loginrecaptcha'] = 'Schakel reCAPTCHA in om in te loggen';
+$string['auth_loginrecaptcha_desc'] = 'Voeg een visueel/audio bevestigingsformulierelement toe aan de inlogpagina. Dit verkleint het risico op ongerechtvaardigde inlogpogingen. Zie <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a> voor meer details.';
 $string['auth_multiplehosts'] = 'Je kunt verschillende hosts ingeven (bijv. host1.com;host2.com;host3.com)';
 $string['auth_notconfigured'] = 'Authenticatiemethode {$a} is niet geconfigureerd';
 $string['auth_outofnewemailupdateattempts'] = 'Je hebt het maximale aantal pogingen om je wijziging van e-mailadres te bevestigen bereikt. Je wijzigingsaanvraag is geannuleerd.';

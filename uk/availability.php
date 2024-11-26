@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'uk', version '4.1'.
+ * Strings for component 'availability', language 'uk', version '4.4'.
  *
  * @package     availability
  * @category    string
@@ -30,6 +30,8 @@ $string['addrestriction'] = 'Додати обмеження...';
 $string['and'] = 'та';
 $string['condition_group'] = 'Складне обмеження';
 $string['condition_group_info'] = 'Додати набір вкладених обмежень для застосовування складної логіки.';
+$string['disabled_verb'] = 'Не можна змінити, оскільки набір правил включає правило, що містить особисті дані.';
+$string['editsettings'] = 'Редагувати параметри';
 $string['enableavailability'] = 'Увімкнути обмежений доступ';
 $string['enableavailability_desc'] = 'Якщо ввімкнено, можна встановити умови (на основі дати, класу, завершення тощо), щоб контролювати, чи можна отримати доступ до діяльності або ресурсу.';
 $string['error_list_nochildren'] = 'Складні обмеження повинні містити принаймні одну умову.';

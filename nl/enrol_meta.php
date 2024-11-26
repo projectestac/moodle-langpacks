@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'nl', version '4.1'.
+ * Strings for component 'enrol_meta', language 'nl', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'Standaard zijn alle roltoewijzingen op cursus n
 $string['pluginname'] = 'Link naar koepelcursus';
 $string['pluginname_desc'] = 'Koepelcursus aanmeldingsplugin synchroniseert aanmeldingen en rollen tussen twee verschillende cursussen';
 $string['privacy:metadata:core_group'] = 'Inschrijven meta-plug-in kan een nieuwe groep maken of een bestaande groep gebruiken om alle deelnemers aan de gekoppelde cursus toe te voegen.';
+$string['samemetacourse'] = 'Je kunt geen koepelcursus koppelen aan zichzelf.';
 $string['syncall'] = 'Synchroniseer alle aangemelde gebruikers';
 $string['syncall_desc'] = 'Indien ingeschakeld worden alle aangemelde gebruikers gesynchroniseerd, zelfs als ze geen rol hebben in de bovenliggende cursus.';
+$string['unknownmetacourse'] = 'Onbekende koepelcursus korte naam';
 $string['wscannotcreategroup'] = 'Geen toestemming om groep te maken in gekoppelde cursus-ID = {$a}.';
 $string['wsinvalidcourse'] = 'Cursus-ID = {$a} bestaat niet of geen toestemming om te linken bij koepelcursus aanmelding.';
 $string['wsinvalidmetacourse'] = 'Koepelcursus id = {$a} bestaat niet of geen toestemming om aanmeldingen toe te voegen.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_h5p', language 'ar', version '4.1'.
+ * Strings for component 'tiny_h5p', language 'ar', version '4.4'.
  *
  * @package     tiny_h5p
  * @category    string
@@ -43,5 +43,5 @@ $string['instructions'] = 'يمكنك إدراج محتوى H5P عبر
 $string['invalidh5purl'] = 'رابط غير صحيح';
 $string['modaltitle'] = 'إدراج محتوى H5P';
 $string['noh5pcontent'] = 'لم تتم إضافة محتوى H5P';
-$string['pluginname'] = 'إدراج H5P من Tiny';
+$string['pluginname'] = 'إدراج H5P';
 $string['privacy:metadata'] = 'إن ملحق H5P لمحرر TinyMCE لا يخزن أي بيانات شخصية.';

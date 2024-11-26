@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_brickfield', language 'ja', version '4.1'.
+ * Strings for component 'tool_brickfield', language 'ja', version '4.4'.
  *
  * @package     tool_brickfield
  * @category    string
@@ -178,6 +178,7 @@ $string['mobileservice'] = 'モバイルサービス有効 ({$a})';
 $string['module'] = 'モジュール';
 $string['modulename'] = '名称';
 $string['moreinfo'] = '詳細情報';
+$string['newwindowphrases'] = '新しいウィンドウ|新しいウィンドウ|新しいウィンドウ';
 $string['noerrorsfound'] = 'あなたの検索パラメータに一般的なアクセシビリティエラーは見つかりませんでした。おめでとうございます!';
 $string['norecords'] = 'あなたの検索パラメータに該当するレコードは見つかりませんでした。';
 $string['notregistered'] = 'あなたのアクセシビリティツールキットの登録が必要です。';

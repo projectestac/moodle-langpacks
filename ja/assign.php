@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assign', language 'ja', version '4.1'.
+ * Strings for component 'assign', language 'ja', version '4.4'.
  *
  * @package     assign
  * @category    string
@@ -44,10 +44,8 @@ $string['addsubmission_help'] = 'あなたはまだ提出していません。';
 $string['allocatedmarker'] = '割り当て採点者';
 $string['allocatedmarker_help'] = 'この提出に割り当てられた採点者です。';
 $string['allowsubmissions'] = 'この課題にユーザが継続して提出できるようにします。';
-$string['allowsubmissionsanddescriptionfromdatesummary'] = '課題詳細および提出フォームは <strong>{$a}</strong> から利用できます。';
 $string['allowsubmissionsfromdate'] = '開始日時';
 $string['allowsubmissionsfromdate_help'] = 'この設定を有効にした場合、学生はこの日時以前に提出することはできません。無効にした場合、学生は今すぐ提出を開始することができます。';
-$string['allowsubmissionsfromdatesummary'] = 'この課題は <strong>{$a}</strong> から提出を受け付けます。';
 $string['allowsubmissionsshort'] = '提出の変更を許可する';
 $string['alwaysshowdescription'] = '常に説明を表示する';
 $string['alwaysshowdescription_help'] = 'この設定を無効にした場合、上記の課題説明は「開始日時」以降のみ学生に表示されます。';
@@ -136,7 +134,7 @@ $string['collapsegradepanel'] = '評定パネルを折りたたむ';
 $string['collapsereviewpanel'] = 'レビューパネルを折りたたむ';
 $string['comment'] = 'コメント';
 $string['completiondetail:submit'] = '提出する';
-$string['completionsubmit'] = '学生は提出する必要があります。';
+$string['completionsubmit'] = '提出する';
 $string['configshowrecentsubmissions'] = 'すべてのユーザが提出の通知を「最近の活動」レポートで閲覧できます。';
 $string['confirmbatchgradingoperation'] = '本当に {$a->count} 名の学生に {$a->operation} してもよろしいですか?';
 $string['confirmstart'] = 'あなたにはこの課題の完了に {$a} あります。あなたが開始した場合、タイマーがカウントダウンを開始して一時停止はできません。';
@@ -223,6 +221,8 @@ $string['eventsubmissionviewed'] = '提出が閲覧されました。';
 $string['eventworkflowstateupdated'] = 'ワークフロー状態が更新されました。';
 $string['expandreviewpanel'] = 'レビューパネルを展開する';
 $string['extensionduedate'] = '延長提出期限';
+$string['extensionduedatecurrent'] = '現在の延長期限';
+$string['extensionduedatenone'] = 'なし';
 $string['extensionnotafterduedate'] = '延長日時は終了日時の後にする必要があります。';
 $string['extensionnotafterfromdate'] = '延長日時は開始日時の後にする必要があります。';
 $string['feedback'] = 'フィードバック';
@@ -339,6 +339,8 @@ $string['markerfilter'] = '採点者フィルタ';
 $string['markerfilternomarker'] = '採点者なし';
 $string['markingallocation'] = '採点割り当てを使用する';
 $string['markingallocation_help'] = 'この設定および採点ワークフローを有効にした場合、個別の学生に評定者を割り当てきるようになります。';
+$string['markinganonymous'] = '匿名で採点しながら評定を一部公開できるようにする';
+$string['markinganonymous_help'] = '匿名提出および採点ワークフローとともに有効にした場合、匿名で採点しながら評定の一部を公開できるようになります。';
 $string['markingworkflow'] = '採点ワークフローを使用する';
 $string['markingworkflow_help'] = 'この設定を有効にした場合、評点は学生にリリースされる前にワークフローステージに入ります。これで採点者が一連の評点を同じタイミングですべての学生にリリースすることができます。';
 $string['markingworkflowstate'] = '採点ワークフローステータス';
@@ -464,8 +466,6 @@ $string['quickgrading_help'] = 'クイック評定において、あなたは提
 $string['quickgradingchangessaved'] = '評定の変更が保存されました。';
 $string['quickgradingresult'] = 'クイック評定';
 $string['recordid'] = 'ID';
-$string['relativedatessubmissionduedateafter'] = 'コース開始 {$a->datediffstr} 後';
-$string['relativedatessubmissionduedatebefore'] = 'コース開始 {$a->datediffstr} 前';
 $string['relativedatessubmissiontimeleft'] = 'それぞれの学生に対する計算';
 $string['removeallgroupoverrides'] = 'すべてのグループオーバーライドを削除する';
 $string['removealluseroverrides'] = 'すべてのユーザオーバーライドを削除する';
@@ -477,7 +477,9 @@ $string['removesubmissionconfirmwithtimelimit'] = '本当にあなたの提出�
 $string['removesubmissionforstudent'] = '学生の提出を削除する: (id={$a->id} / フルネーム={$a->fullname})';
 $string['reopenuntilpassincompatiblewithblindmarking'] = '学生の個人情報が公開されるまで評定表に評点がリリースされないため、「合格するまで自動」オプションは匿名送信とは互換性がありません。';
 $string['requireallteammemberssubmit'] = 'グループメンバすべての提出を必要とする';
-$string['requireallteammemberssubmit_help'] = 'この設定を有効にした場合、グループ提出が提出されたとみなされるには学生グループメンバすべてが提出ボタンをクリックする必要があります。無効にした場合、学生グループのメンバの誰かが提出ボタンをクリックした時点でグループ提出は提出したとみなされます。';
+$string['requireallteammemberssubmit_help'] = 'この設定は提出設定の「学生に提出ボタンのクリックを求める」と同時に使用する必要があります。
+
+この設定が有効にされた場合、グループ提出を提出とみなすにはグループメンバ全員が提出ボタンをクリックする必要があります。無効の場合、どのグループメンバでも提出ボタンをクリックできます。';
 $string['requiresubmissionstatement'] = '学生に提出同意書の同意を求める';
 $string['requiresubmissionstatement_help'] = 'この課題提出すべてにおいて学生に提出同意書の同意を求めます。';
 $string['revealidentities'] = '学生の個人情報を公開する';
@@ -566,6 +568,7 @@ $string['submissionstatement'] = '提出同意書';
 $string['submissionstatement_help'] = '学生が課題提出に同意する必要のある同意書です。';
 $string['submissionstatementacceptedlog'] = 'ユーザ {$a} によって同意された提出同意書';
 $string['submissionstatementdefault'] = '他の人の作業結果であると私が認めたものを除き、この提出は私自身の作業結果です。';
+$string['submissionstatementrequired'] = 'あなたは提出前にこの声明に同意する必要があります。';
 $string['submissionstatementteamsubmission'] = 'グループ提出同意書';
 $string['submissionstatementteamsubmission_help'] = '学生がグループの作業結果を提出する場合に同意が必要な同意書です。';
 $string['submissionstatementteamsubmissionallsubmit'] = 'すべてのグループメンバの提出に関するグループ提出同意書';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topics', language 'ru', version '4.1'.
+ * Strings for component 'format_topics', language 'ru', version '4.4'.
  *
  * @package     format_topics
  * @category    string
@@ -25,19 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Добавить темы';
 $string['currentsection'] = 'Текущая тема';
-$string['deletesection'] = 'Удалить тему';
-$string['editsection'] = 'Редактировать тему';
-$string['editsectionname'] = 'Редактировать название темы';
-$string['hidefromothers'] = 'Скрыть тему';
+$string['hidefromothers'] = 'Скрыть';
 $string['indentation'] = 'Разрешить отступ на странице курса';
 $string['indentation_help'] = 'Разрешить учителям и другим пользователям с возможностью управления активными элементами устанавливать отступы элементов на странице курса.';
-$string['newsectionname'] = 'Новое название для темы {$a}';
+$string['legacysectionname'] = 'Тема';
+$string['newsection'] = 'Новый раздел';
 $string['page-course-view-topics'] = 'Главная страница любого курса формата «Разделы по темам»';
 $string['page-course-view-topics-x'] = 'Любая страница курса формата «Разделы по темам»';
+$string['plugin_description'] = 'Курс поделен на настраиваемые разделы.';
 $string['pluginname'] = 'Разделы по темам';
 $string['privacy:metadata'] = 'Плагин «формат Разделы по темам» не хранит никаких персональных данных.';
 $string['section0name'] = 'Общее';
+$string['section_highlight_feedback'] = 'Раздел {$a->name} выделен.';
+$string['section_unhighlight_feedback'] = 'Снято выделение раздела {$a->name}.';
 $string['sectionname'] = 'Тема';
-$string['showfromothers'] = 'Отобразить тему';
+$string['showfromothers'] = 'Отобразить';

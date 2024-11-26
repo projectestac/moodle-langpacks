@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'it', version '4.1'.
+ * Strings for component 'qtype_ddmarker', language 'it', version '4.4'.
  *
  * @package     qtype_ddmarker
  * @category    string
@@ -46,7 +46,7 @@ $string['dropzones_help'] = 'Le aree di rilascio vengono definite inserendo le c
 * Cerchio: centro_x, centro_y; raggio<br>Esempio: <code>80, 100; 50</code>
 * Poligono: x1, y1; x2, y2; ...; xn, yn<br>Esempio: <code>20, 60; 100, 60; 20, 100</code>
 * Rettangolo: sinistra, alto, larghezza, altezza<br>Esempio: <code>20, 60; 80, 40</code>';
-$string['followingarewrong'] = 'I seguenti indicatori sono stati posizionati in un\'area sbagliata: {$a}.';
+$string['followingarewrong'] = 'I seguenti indicatori sono stati posizionati in un\'area errata: {$a}.';
 $string['followingarewrongandhighlighted'] = 'I seguenti indicatori non sono stati posizionati correttamente: {$a}. Gli indicatori evidenziati sono ora visualizzati nelle posizioni corrette.<br />Fai click su un marker per evidenziare l\'area corrispondente.';
 $string['formerror_dragrequired'] = 'È necessarioaggiungere almeno un indicatore a questa domanda.';
 $string['formerror_droprequired'] = 'È necessario definire almeno una zona di rilascio per questa domanda.';

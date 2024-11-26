@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'it', version '4.1'.
+ * Strings for component 'error', language 'it', version '4.4'.
  *
  * @package     error
  * @category    string
@@ -115,7 +115,7 @@ $string['cannotinsertrecord'] = 'Non è possibile inserire il nuove rcord ID {$a
 $string['cannotmailconfirm'] = 'Si è verificato un errore durante l\'invio della email di conferma del cambio email';
 $string['cannotmanualctrack'] = 'L\'attività non prevede il completamento manuale';
 $string['cannotmapfield'] = 'Conflitto di mappatura - due campi sono mappati allo stesso elemento di valutazione {$a}';
-$string['cannotmarktopic'] = 'Non è stato possibile contrassegnare quell\'argomento in questo ccorso';
+$string['cannotmarktopic'] = 'Non è stato possibile contrassegnare quella sezione in questo corso';
 $string['cannotmigratedatacomments'] = 'Non è possibile migrare i commenti del modulo database';
 $string['cannotmodulename'] = 'Non è possibile ottenere il nome del modulo per costruire la navigazione';
 $string['cannotmoduletype'] = 'Non è possibile ottenere l\'id del modulo per costruire la navigazione';
@@ -233,6 +233,10 @@ $string['dmlparseexception'] = 'Si è verificato un errore durante l\'interpreta
 $string['dmlreadexception'] = 'Si è verificato un errore durante la lettura del database';
 $string['dmltransactionexception'] = 'Si è verificato un errore nella transazione del database';
 $string['dmlwriteexception'] = 'Si è verificato un errore durante la scrittura nel database';
+$string['dndmaxbytes'] = 'Il file è troppo grande. La dimensione massima è {$a->size}';
+$string['dndread'] = 'Si è verificato un errore durante la lettura del file';
+$string['dndunkownfile'] = 'Questo tipo di file non è supportato.';
+$string['dndupload'] = 'Si è verificato un errore sconosciuto durante il caricamento del file.';
 $string['downgradedcore'] = 'ERRORE! La versione del codice che stai usando è più vecchia della versione usata per creare il database!';
 $string['downloadedfilecheckfailed'] = 'Il controllo del file scaricato non è andato a buon fine.';
 $string['duplicatefieldname'] = 'È stato individuato un nome di campo duplicato: "{$a}"';
@@ -241,6 +245,7 @@ $string['duplicateparaminsql'] = 'Errore: query con nome duplicato del parametro
 $string['duplicaterolename'] = 'Esiste giù un ruolo con questo nome!';
 $string['duplicateroleshortname'] = 'Esiste giù un ruolo con questo nome abbreviato!';
 $string['duplicateusername'] = 'Nome utente duplicato - record saltato';
+$string['editedpagenotfound'] = 'Il sistema non è riuscito a determinare la pagina in cui ti trovi. Per favore ricarica la pagina e riprova.';
 $string['emailfail'] = 'Invio email fallito';
 $string['encryption_decryptfailed'] = 'La decifratura non è andata a buon fine';
 $string['encryption_encryptfailed'] = 'La cifratura non è andata a buon fine';
@@ -426,6 +431,10 @@ $string['moduledisable'] = 'Questo modulo ({$a}) è stato disabilitato per quest
 $string['moduledoesnotexist'] = 'Questo modulo non esiste';
 $string['moduleinstancedoesnotexist'] = 'L\'istanza di questo modulo non esiste';
 $string['modulemissingcode'] = 'Nel modulo {$a} manca il codice necessario per eseguire questa funzione';
+$string['moodlenet:invalidshareformat'] = 'Formato di condivisone MoodeNet non corretto';
+$string['moodlenet:invalidsharestatus'] = 'Stato di condivisone MoodeNet non corretto';
+$string['moodlenet:invalidsharetype'] = 'Tipo di condivisone MoodeNet non valido';
+$string['moodlenet:usernotconfigured'] = 'Non sei autorizzato a condividere contenuti su MoodleNet o il tuo account non è configurato correttamente.';
 $string['movecatcontentstoroot'] = 'Non è consentito spostare il contenuto di una categoria al livello radice. Devi spostarlo in una categoria già esistente.';
 $string['movecatcontentstoselected'] = 'Non è possibile spostare alcuni contenuto della categoria all\'interno della categoria selezionata.';
 $string['movecategorynotpossible'] = 'Non è possibile spostare la categoria \'{$a}\' nella categoria selezionata.';
@@ -497,8 +506,10 @@ $string['opensslsignerror'] = 'OpenSSL non è in grado di firmare i dati';
 $string['orderidnotfound'] = 'L\'ordine ID {$a} non è stato trovato';
 $string['pagenotexist'] = '<p>Si è verificato un errore inatteso durante la visualizzazione di una pagina non esistente.</p>{$a}';
 $string['pagenotexisttitle'] = 'Errore 404: File non trovato';
+$string['passwordexceeded'] = 'La password non può essere più lunga di {$a} caratteri.';
 $string['pathdoesnotstartslash'] = 'Non sono stati forniti argomenti validi, i percorsi non iniziano con lo slash!';
 $string['pleasereport'] = 'Se hai tempo, ti preghiamo di farci sapere cosa stavi cercando di fare quando l\'errore si è verificato:';
+$string['pluginnotexist'] = 'Il plugin {$a} non esiste';
 $string['pluginrequirementsnotmet'] = 'Non è possibile installare Il plugin "{$a->pluginname}" ({$a->pluginversion}). È necessaria una versione più recente di Moodle (versione in uso:  {$a->currentmoodle}, versione richiesta: {$a->requiremoodle}).';
 $string['pluginunsupported'] = 'Il plugin "{$a->pluginname}" {$a->pluginversion} non supporta la versione di Moodle installata, {$a->moodleversion}. Per favore verificare la disponibilità di versioni supportate.';
 $string['prefixcannotbeempty'] = '<p>Errore: il prefisso del database non può essere vuoto. ({$a})</p>
@@ -510,6 +521,7 @@ $string['processingstops'] = 'L\'elaborazione si è fermata qui. Rimangono dei r
 $string['protected_cc_not_supported'] = 'I cartridge protetti non sono supportati.';
 $string['querystringcannotbeempty'] = 'Il query string non può essere vuoto.';
 $string['redirecterrordetected'] = 'È stato individuato un redirect non supportato, l\'elaborazione dello script è stata interrotta';
+$string['redissessionhandlerproblem'] = 'La configurazione delle sessioni Redis. Si prega di avvisare l\'amministratore del server.';
 $string['refoundto'] = 'Può essere restituito a {$a}';
 $string['refoundtoorigi'] = 'Ammontare pagato restituito a {$a}';
 $string['registrationdisabled'] = 'La creazione di account non è abilitata';
@@ -584,7 +596,7 @@ $string['unknowncoursesection'] = 'Nel corso "{$a}" è presente una sezione scon
 $string['unknownevent'] = 'Evento sconosciuto';
 $string['unknownfiletype'] = 'Errore - Filtro sconosciuto';
 $string['unknowngroup'] = 'Il gruppo "{$a}" è sconosciuto';
-$string['unknownhelp'] = 'L\'argomento di help {$a} è sconosciuto';
+$string['unknownhelp'] = 'La sezione di help {$a} è sconosciuta';
 $string['unknownjsinrequirejs'] = 'Non è stato possibile trovare la libreria JavaScript {$a}.';
 $string['unknownmodulename'] = 'Per il form il nome del modulo è sconosciuto';
 $string['unknownrole'] = 'Il ruolo "{$a}" è sconosciuto';
@@ -612,6 +624,7 @@ $string['usermustbemnet'] = 'Gli utenti presenti nella access control list MNET 
 $string['usernamelowercase'] = 'Lo username deve contener solamente caratteri minuscoli';
 $string['usernotaddederror'] = 'Errore - L\'utente "{$a}" non è stato aggiunto';
 $string['usernotaddedregistered'] = 'L\'utente non è stato aggiunto - utente già  registrato';
+$string['usernotaddedusernameexists'] = 'Utente non aggiunto: il nome utente esiste già con un indirizzo email diverso';
 $string['usernotavailable'] = 'Non puoi visualizzare i dettagli di questo utente.';
 $string['usernotdeletedadmin'] = 'L\'utente non è stato eliminato - non è possibile eliminare l\'account amministrativi.';
 $string['usernotdeleteddeleted'] = 'L\'utente è già stato eliminato.';

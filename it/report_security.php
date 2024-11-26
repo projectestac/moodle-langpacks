@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'it', version '4.1'.
+ * Strings for component 'report_security', language 'it', version '4.4'.
  *
  * @package     report_security
  * @category    string
@@ -79,10 +79,6 @@ $string['check_guestrole_error'] = 'Il Ruolo di default per gli ospiti, "{$a}", 
 $string['check_guestrole_name'] = 'Ruolo per gli ospiti';
 $string['check_guestrole_notset'] = 'Il Ruolo per gli ospiti non è impostato.';
 $string['check_guestrole_ok'] = 'Definizione del Ruolo ospite OK.';
-$string['check_mediafilterswf_details'] = '<p>L\'inserimento automatico di file swf è molto pericoloso. Un qualsiasi utente autenticato potrebbe lanciare un attacco XSS contro altri utenti nello stesso server. Questa impostazione deve essere disabilitata nei server in produzione.</p>';
-$string['check_mediafilterswf_error'] = 'Il filtro Plugin multimediali per file .swf è abilitato - impostazione molto pericolosa su qualsiasi server.';
-$string['check_mediafilterswf_name'] = 'Abilitazione filtro .swf';
-$string['check_mediafilterswf_ok'] = 'Il filtro Plugin multimediali per file .swf è disabilitato.';
 $string['check_nodemodules_details'] = '<p>La cartella <em>{$a->path}</em> contiene i moduli Node.js e le relative dipendenze, generalmente installate dall\'utilityNPM. Queste librerie possono essere necessarie per lo sviluppo locale oppure per la installazione di framework grunt. La cartella può anche contenere codice potenzialmente pericoloso esponendo il sito ad attacchi da remoto.</p><p>Poichè il contenuto della cartella non è necessario per il funzionamento di Moodle in produzione, si raccomanda caldamente di rimuovere la cartella qualora il sito sia accessibile pubblicamente oppure di impedirne l\'accesso pubblico.</p>';
 $string['check_nodemodules_info'] = 'La cartella node_modules non deve essere presente siti pubblici.';
 $string['check_nodemodules_name'] = 'Cartella del modulo Node.js';

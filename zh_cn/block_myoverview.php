@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'zh_cn', version '4.1'.
+ * Strings for component 'block_myoverview', language 'zh_cn', version '4.4'.
  *
  * @package     block_myoverview
  * @category    string
@@ -44,22 +44,19 @@ $string['aria:groupingdropdown'] = '分组下拉菜单';
 $string['aria:hiddencourses'] = '显示隐藏课程';
 $string['aria:hidecourse'] = '隐藏{$a}';
 $string['aria:inprogress'] = '显示正在进行的课程';
-$string['aria:lastaccessed'] = '按最近访问日期排序课程';
 $string['aria:list'] = '切换到列表视图';
 $string['aria:past'] = '显示过期课程';
 $string['aria:removefromfavourites'] = '撤消星号标记';
-$string['aria:shortname'] = '按课程简称对课程进行排序';
 $string['aria:showcourse'] = '恢复{$a}的视图';
 $string['aria:sortingdropdown'] = '排序下拉菜单';
 $string['aria:summary'] = '切换到摘要视图';
-$string['aria:title'] = '按课程名称排序';
 $string['availablegroupings'] = '可用的过滤器';
 $string['availablegroupings_desc'] = '可供用户选择的课程筛选器。如果没有选择，将显示所有课程。';
 $string['card'] = '卡片';
 $string['cards'] = '卡片';
-$string['clearsearch'] = '清除搜索';
 $string['completepercent'] = '{$a}% 已完成';
 $string['courseprogress'] = '课程进度';
+$string['createcourse'] = '创建课程';
 $string['customfield'] = '自定义字段';
 $string['customfiltergrouping'] = '要使用的字段';
 $string['customfiltergrouping_nofields'] = '这个选项需要设置一个课程自定义字段，并对所有人可见。';
@@ -93,3 +90,10 @@ $string['sortbyshortname'] = '按简称排序';
 $string['sortbytitle'] = '按课程名称排序';
 $string['summary'] = '摘要';
 $string['title'] = '课程名称';
+$string['viewquickstart'] = '查看快速入门指南';
+$string['zero_default_intro'] = '一旦您注册了课程，它就会显示在此处。';
+$string['zero_default_title'] = '您未注册任何课程';
+$string['zero_nocourses_intro'] = '需要入门帮助吗？请查看 <a href=“{$a->dochref}” title=“{$a->doctitle}” target=“{$a->doctarget}”>Moodle 文档</a>，或使用我们的快速入门指南迈出第一步。';
+$string['zero_nocourses_title'] = '创建您的第一门课程';
+$string['zero_request_intro'] = '需要入门帮助吗？查看 <a href=“{$a->dochref}” title=“{$a->doctitle}” target=“{$a->doctarget}”>Moodle 文档</a>或使用我们的 <a href=“{$a->quickhref}” title=“{$a->quicktitle}” target=“{$a->quicktarget}”>快速入门指南</a>。';
+$string['zero_request_title'] = '申请您的第一门课程';

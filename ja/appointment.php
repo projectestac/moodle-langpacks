@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'appointment', language 'ja', version '4.1'.
+ * Strings for component 'appointment', language 'ja', version '4.4'.
  *
  * @package     appointment
  * @category    string
@@ -97,6 +97,7 @@ $string['capacity_help'] = '「 定員 」は、そのセッションに参加�
 
   アポイントメントのセッションが定員に達した場合、コースページにはセッションの詳細は表示されません。「全てのセッション」では詳細がグレーアウトし、学習者はそのセッションに申し込むことができません。';
 $string['closed'] = '受付終了';
+$string['completionattended'] = 'アポイントメントを予約して参加する';
 $string['completionattended_help'] = '有効になっている場合、受講者の予約出席が「フル出席」または「一部出席」とマークされていれば、アクティビティは完了したとみなされます。';
 $string['completionbooked'] = 'このアクティビティを完了するには、受講者はアポイントメントが必要です';
 $string['completionbooked_help'] = '有効にすると、受講者のステータスが「予約済み」、「フル参加」、「一部参加」の場合、アクティビティは完了したとみなされます。受講者がキャンセルした場合、キャンセル待ちの場合、または出席が「No show」と表示されている場合、アクティビティは完了したとはみなされません。';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'pt', version '4.1'.
+ * Strings for component 'auth_mnet', language 'pt', version '4.4'.
  *
  * @package     auth_mnet
  * @category    string
@@ -36,7 +36,6 @@ $string['pluginname'] = 'Rede Moodle';
 $string['privacy:metadata:external:mahara'] = 'Este módulo consegue enviar dados externamente para uma ligação da aplicação Mahara.';
 $string['privacy:metadata:external:moodle'] = 'Este módulo consegue enviar dados externamente para uma ligação da Aplicação móvel Moodle.';
 $string['privacy:metadata:mnet_external:address'] = 'A morada do utilizador.';
-$string['privacy:metadata:mnet_external:aim'] = 'O identificador AIM do utilizador';
 $string['privacy:metadata:mnet_external:alternatename'] = 'Um nome alternativo para o utilizador.';
 $string['privacy:metadata:mnet_external:autosubscribe'] = 'A preferência em se o utilizador deve ser subscrito automaticamente nos fóruns em que cria tópicos.';
 $string['privacy:metadata:mnet_external:calendartype'] = 'A preferência de utilizador para o tipo de calendário a usar.';
@@ -50,7 +49,6 @@ $string['privacy:metadata:mnet_external:emailstop'] = 'Uma preferência para par
 $string['privacy:metadata:mnet_external:firstaccess'] = 'A data em que o utilizador acedeu pela primeira vez ao site.';
 $string['privacy:metadata:mnet_external:firstname'] = 'O primeiro nome do utilizador';
 $string['privacy:metadata:mnet_external:firstnamephonetic'] = 'Os detalhes fonéticos sobre o primeiro nome do utilizador.';
-$string['privacy:metadata:mnet_external:icq'] = 'O número IQC do utilizador.';
 $string['privacy:metadata:mnet_external:id'] = 'ID do utilizador';
 $string['privacy:metadata:mnet_external:idnumber'] = 'Um número de identificação fornecido pela instituição';
 $string['privacy:metadata:mnet_external:imagealt'] = 'Um texto alternativo à imagem de utilizador.';
@@ -63,19 +61,15 @@ $string['privacy:metadata:mnet_external:lastnamephonetic'] = 'Os detalhes fonét
 $string['privacy:metadata:mnet_external:maildigest'] = 'A configuração para o envio de e-mails automáticos para este utilizador.';
 $string['privacy:metadata:mnet_external:maildisplay'] = 'A preferência para o utilizador sobre a exibição do seu e-mail para outros utilizadores.';
 $string['privacy:metadata:mnet_external:middlename'] = 'O nome do meio do utilizador';
-$string['privacy:metadata:mnet_external:msn'] = 'O identificador MSN do utilizador';
 $string['privacy:metadata:mnet_external:phone1'] = 'O número de telefone para o utilizador.';
 $string['privacy:metadata:mnet_external:phone2'] = 'Um número de telefone adicional para o utilizador.';
 $string['privacy:metadata:mnet_external:picture'] = 'Os detelhas de imagem associados a este utilizador.';
 $string['privacy:metadata:mnet_external:policyagreed'] = 'A marca para determinar se o utilizador concordou com a política do site.';
-$string['privacy:metadata:mnet_external:skype'] = 'O identificador Skype do utilizador';
 $string['privacy:metadata:mnet_external:suspended'] = 'A marca para exibir se o utilizador foi suspenso deste sistema.';
 $string['privacy:metadata:mnet_external:timezone'] = 'O fuso horário do utilizador';
 $string['privacy:metadata:mnet_external:trackforums'] = 'A preferência para fóruns e sinalização de mensagens não lidas.';
 $string['privacy:metadata:mnet_external:trustbitmask'] = 'Máscara de bits de confiança';
-$string['privacy:metadata:mnet_external:url'] = 'O URL relacionado com este utilizador.';
 $string['privacy:metadata:mnet_external:username'] = 'O nome de utilizador para este utilizador.';
-$string['privacy:metadata:mnet_external:yahoo'] = 'O identificador Yahoo do utilizador.';
 $string['privacy:metadata:mnet_log'] = 'Detalhes de ações remotas levadas a cabo pelo utilizador local autenticado num sistema remoto.';
 $string['privacy:metadata:mnet_log:action'] = 'Ações  levadas a cabo pelo utilizador.';
 $string['privacy:metadata:mnet_log:cmid'] = 'O ID do módulo da disciplina.';

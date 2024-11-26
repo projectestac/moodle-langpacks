@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', version '4.1'.
+ * Strings for component 'quiz', language 'ca', version '4.4'.
  *
  * @package     quiz
  * @category    string
@@ -128,7 +128,6 @@ $string['back'] = 'Torna a la previsualització de la pregunta';
 $string['backtocourse'] = 'Torna al curs';
 $string['backtoquestionlist'] = 'Torna a la llista de preguntes';
 $string['backtoquiz'] = 'Torna a l\'edició del qüestionari';
-$string['basicideasofquiz'] = 'Idees bàsiques sobre la preparació de qüestionaris';
 $string['bestgrade'] = 'La millor nota';
 $string['bothattempts'] = 'Mostra els estudiants amb intents i sense intents';
 $string['browsersecurity'] = 'Seguretat del navegador';
@@ -190,17 +189,12 @@ $string['comments'] = 'Comentaris';
 $string['completedon'] = 'Completat el';
 $string['completionattemptsexhausted'] = 'O que tots els intents disponibles s\'hagin completat';
 $string['completionattemptsexhausted_help'] = 'Marca el qüestionari com a completat quan l\'estudiant hagi exhaurit el nombre màxim d\'intents.';
-$string['completionattemptsexhausteddesc'] = 'Completa si s\'han exhaurit tots els intents disponibles';
 $string['completiondetail:minattempts'] = 'Contesta intents: {$a}';
-$string['completiondetail:passgrade'] = 'Rebre una nota d\'aprovat';
 $string['completiondetail:passorexhaust'] = 'Rebre una nota d\'aprovat o completar tots els intents disponibles';
 $string['completionminattempts'] = 'Nombre mínim d\'intents:';
 $string['completionminattemptsdesc'] = 'Nombre mínim d\'intents requerits: {$a}';
 $string['completionminattemptserror'] = 'El nombre mínim d\'intents ha de ser inferior o igual als intents permesos.';
 $string['completionminattemptsgroup'] = 'Intents requerits';
-$string['completionpass'] = 'Exigeix un aprovat';
-$string['completionpass_help'] = 'Si s\'habilita, aquesta activitat es considera completada quan l\'estudiant obté un aprovat o més (tal i com s\'especifica en la secció de Qualificació dels paràmetres del qüestionari.';
-$string['completionpassdesc'] = 'L\'estudiant ha d\'aconseguir un aprovat per a completar l\'activitat';
 $string['completionpassorattemptsexhausteddesc'] = 'L\'estudiant ha d\'aconseguir un aprovat o exhaurir tots els intents disponibles per a completar l\'activitat';
 $string['configadaptive'] = 'Si marqueu el Sí en aquesta opció l\'estudiant podrà intentar respondre diverses vegades una pregunta durant el mateix intent.';
 $string['configattemptsallowed'] = 'Restricció del nombre d\'intents de què disposen els estudiants per resoldre el qüestionari.';
@@ -444,6 +438,7 @@ $string['gradeaverage'] = 'Qualificació mitjana';
 $string['gradeboundary'] = 'Límit de qualificació';
 $string['gradeessays'] = 'Qualifica les preguntes de resposta oberta';
 $string['gradehighest'] = 'Qualificació més alta';
+$string['gradeitems'] = 'Elements de qualificació';
 $string['grademethod'] = 'Mètode de qualificació';
 $string['grademethod_help'] = 'En el cas que es permetin múltiples intents per respondre el qüestionari hi ha diferents formes per calcular la qualificació final.
 
@@ -454,7 +449,6 @@ $string['grademethod_help'] = 'En el cas que es permetin múltiples intents per 
 $string['gradesdeleted'] = 'S\'han suprimit les qualificacions del qüestionari';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}.';
 $string['gradetopassmustbeset'] = 'La qualificació per aprovar no pot ser zero, ja que aquest qüestionari té el mètode de compleció configurat per demanar la qualificació mínima per aprovar. Poseu un valor diferent a zero.';
-$string['gradetopassnotset'] = 'Aquest qüestionari encara no té configurada cap qualificació per aprovar. Podeu establir-la a l\'apartat de «Qualificació» dels paràmetres del qüestionari.';
 $string['gradetopassoutof'] = 'Qualificació per aprovar: {$a->grade} de {$a->maxgrade}';
 $string['gradingdetails'] = 'Punts per a aquesta tramesa: {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Amb les penalitzacions prèvies això dóna <strong>{$a->cur}/{$a->max}</strong>.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'ar', version '4.1'.
+ * Strings for component 'analytics', language 'ar', version '4.4'.
  *
  * @package     analytics
  * @category    string
@@ -97,7 +97,6 @@ $string['modeinstructionblendedhybrid'] = 'المخلوط أو الهجين';
 $string['modeinstructionfacetoface'] = 'وجهاً لوجه';
 $string['modeinstructionfullyonline'] = 'على الانترنت بالكامل';
 $string['modeloutputdir'] = 'مجلد تخريج النماذج';
-$string['modeloutputdirinfo'] = 'الدليل حيث تخزن معالجات التنبؤ جميع معلومات التقييم. مفيد للتصحيح والبحوث.';
 $string['modeloutputdirwithdefaultinfo'] = 'المجلد الذي تحفظ فيه معالجات التنبؤ كل بيانات التقييم. مفيد لأغراض تصحيح الأخطاء والبحث. إذا كان خالياً، سيتم استعمال {$a} بمثابة الافتراضي.';
 $string['modeltimelimit'] = 'الوقت الأقصى لتحليل كل نموذج';
 $string['modeltimelimitinfo'] = 'يحدد هذا الإعداد الوقت الذي يقضيه كل نموذج في تحليل محتويات الموقع.';

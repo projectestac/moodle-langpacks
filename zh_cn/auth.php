@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'zh_cn', version '4.1'.
+ * Strings for component 'auth', language 'zh_cn', version '4.4'.
  *
  * @package     auth
  * @category    string
@@ -45,6 +45,10 @@ $string['auth_fieldlocks_help'] = '<p>您可以锁定指定的用户数据字段
 <p>如果想要避免这个问题，可以考虑将锁定模式设定为“如果空则不锁定”。</p>';
 $string['auth_fieldmapping'] = '数据映射 ({$a})';
 $string['auth_invalidnewemailkey'] = '错误：URL 不正确，请完整拷贝后重试。';
+$string['auth_loginpasswordtoggle'] = '密码可见性切换';
+$string['auth_loginpasswordtoggle_desc'] = '在登录屏幕上的密码字段中添加一个图标，允许用户显示或隐藏他们输入的密码。';
+$string['auth_loginrecaptcha'] = '启用 reCAPTCHA 登录';
+$string['auth_loginrecaptcha_desc'] = '将视觉/音频确认表单元素添加到登录页面，这样可以降低不必要的登录尝试的风险。有关详细信息，请参阅 <a target=“_blank” href=“https://www.google.com/recaptcha”>Google reCAPTCHA</a>。';
 $string['auth_multiplehosts'] = '可以指定多个主机名或地址（如 host1.com;host2.com;host3.com 或 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx）';
 $string['auth_notconfigured'] = '认证方法{$a}尚未配置。';
 $string['auth_outofnewemailupdateattempts'] = '更改Email地址的许可次数已到，您的请求被取消。';

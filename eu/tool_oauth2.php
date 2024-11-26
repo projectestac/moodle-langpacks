@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'eu', version '4.1'.
+ * Strings for component 'tool_oauth2', language 'eu', version '4.4'.
  *
  * @package     tool_oauth2
  * @category    string
@@ -37,11 +37,6 @@ $string['connectsystemaccount'] = 'Konektatu sistemako kontura';
 $string['createfromtemplate'] = 'Sortu OAuth 2 zerbitzu bat txantiloitik';
 $string['createfromtemplatedesc'] = 'Aukeratu beheko Oauth2 zerbitzuko txantiloietako bat zerbitzu mota ezagunetarako konfigurazio egoki bat duen OAuth zerbitzu bat sortzeko. Honek OAuth2 zerbitzu bat sortuko du, autentifikaziorako beharrezkoak diren amaiera-puntu eta parametro guztiekin, baina zerbitzua erabili ahal izateko aurretik zure bezero IDa eta sekretua sartu beharko dituzu.';
 $string['createnewendpoint'] = 'Sortu amaiera-puntu berria "{$a}" emailearentzat';
-$string['createnewfacebookissuer'] = 'Sortu Facebook zerbitzu berria';
-$string['createnewgoogleissuer'] = 'Sortu Google zerbitzu berria';
-$string['createnewissuer'] = 'Sortu pertsonalizatutako zerbitzu berria';
-$string['createnewmicrosoftissuer'] = 'Sortu Microsoft zerbitzu berria';
-$string['createnewnextcloudissuer'] = 'Sortu nextcloud zerbitzu berria';
 $string['createnewservice'] = 'Sortu zerbitzu berria:';
 $string['createnewuserfieldmapping'] = 'Sortu erabiltzaile-eremu lotura berria "{$a}" emailearentzat';
 $string['custom_service'] = 'Pertsonalizatua';
@@ -111,6 +106,7 @@ $string['linkedin_service'] = 'LinkedIn';
 $string['logindisplay'] = 'Erakutsi sarrera-orrian honela:';
 $string['loginissuer'] = 'Baimendu saioa hastea';
 $string['microsoft_service'] = 'Microsoft';
+$string['moodlenet_service'] = 'MoodleNet';
 $string['nextcloud_service'] = 'Nextcloud';
 $string['notconfigured'] = 'Konfiguratu gabe';
 $string['notdiscovered'] = 'Zerbitzu-aurkikuntza ez da ondo egin';

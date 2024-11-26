@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'nl', version '4.1'.
+ * Strings for component 'cohort', language 'nl', version '4.4'.
  *
  * @package     cohort
  * @category    string
@@ -40,6 +40,7 @@ $string['cohortmember'] = 'Site-groep lid';
 $string['cohorts'] = 'Site-groepen';
 $string['cohortsin'] = '{$a}: beschikbare site-groepen';
 $string['component'] = 'Bron';
+$string['contextcohortnotallowed'] = 'Site-groep <b>{$a}</b> is niet toegestaan in deze context.';
 $string['contextnotfound'] = 'Context  <b>{$a}</b> niet gevonden of je hebt het recht niet om hier een site-groep te maken. De standaardcontext zal gebruikt worden.';
 $string['csvcontainserrors'] = 'Er zijn fouten gevonden in de CSV-gegevens. Kijk onderaan voor details.';
 $string['csvcontainswarnings'] = 'Er zijn waarschuwingen gevonden in de CSV-gegevens. Kijk onderaan voor details.';
@@ -48,7 +49,7 @@ $string['currentusers'] = 'Huidige gebruikers';
 $string['currentusersmatching'] = 'Huidige overeenkomende gebruikers';
 $string['defaultcontext'] = 'Standaard context';
 $string['delcohort'] = 'Verwijder site-groep';
-$string['delconfirm'] = 'Wil je echt site-groep \'{$a}\' verwijderen?';
+$string['delconfirm'] = 'Dit zal site-groep \'{$a}\' en alle bijhorende gegevens verwijderen.';
 $string['description'] = 'Beschrijving';
 $string['displayedrows'] = '{$a->displayed} rijen weergegeven uit {$a->total}.';
 $string['duplicateidnumber'] = 'Site-groep met hetzelfde ID-nummer bestaat al';
@@ -81,6 +82,7 @@ $string['privacy:metadata:cohort_members:userid'] = 'De ID van de gebruiker die 
 $string['removeuserwarning'] = 'Het verwijderen van gebruikers van een site-groep kan gebruikers afmelden van meerdere cursussen waarbij gebruikersinstellingen, cijfers, groepslidmaatschap en andere gebruikersinformatie van de betreffende cursussen verwijderd wordt';
 $string['search'] = 'Zoek';
 $string['searchcohort'] = 'Zoek site-groep';
+$string['selectcohort'] = 'Selecteer site-groep';
 $string['selectfromcohort'] = 'Selecteer site-groepsleden';
 $string['systemcohorts'] = 'Systeem site-groepen';
 $string['unknowncohort'] = 'Onbekende site-groep ({$a})';

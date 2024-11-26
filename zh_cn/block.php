@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block', language 'zh_cn', version '4.1'.
+ * Strings for component 'block', language 'zh_cn', version '4.4'.
  *
  * @package     block
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addblock'] = '添加 {$a} 版块';
 $string['anypagematchingtheabove'] = '任何符合上面条件的页面';
 $string['appearsinsubcontexts'] = '出现在子上下文';
 $string['assignrolesinblock'] = '在 {$a} 版块中分配角色';

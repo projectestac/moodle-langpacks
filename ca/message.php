@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ca', version '4.1'.
+ * Strings for component 'message', language 'ca', version '4.4'.
  *
  * @package     message
  * @category    string
@@ -54,7 +54,6 @@ $string['contacts'] = 'Contactes';
 $string['conversationactions'] = 'Menú d\'accions de la conversa';
 $string['decline'] = 'Rebutja';
 $string['defaultmessageoutputs'] = 'Paràmetres de notificació';
-$string['defaults'] = 'Per defecte';
 $string['deleteallconfirm'] = 'Confirmeu que voleu suprimir aquesta conversa per complet? Això no l\'eliminarà pels altres participants de la conversa.';
 $string['deleteallmessages'] = 'Suprimeix tots els missatges';
 $string['deleteallselfconfirm'] = 'Esteu segurs que voleu eliminar la conversa personal sencera?';
@@ -96,11 +95,7 @@ $string['info'] = 'Informació de l\'usuari';
 $string['isnotinyourcontacts'] = '{$a} no és a la vostra llista de contactes';
 $string['loadmore'] = 'Carrega\'n més';
 $string['loggedin'] = 'En línia';
-$string['loggedin_help'] = 'Configureu com voleu rebre notificacions quan esteu connectat a Moodle';
-$string['loggedindescription'] = 'Quan esteu connectat a Moodle';
 $string['loggedoff'] = 'Fora de línia';
-$string['loggedoff_help'] = 'Configureu com voleu rebre notificacions quan no esteu connectat a Moodle';
-$string['loggedoffdescription'] = 'Quan no esteu connectat a Moodle';
 $string['managemessageoutputs'] = 'Preferències de notificació per defecte';
 $string['message'] = 'Missatge';
 $string['messagecontactrequest'] = '{$a->user} demana que l\'afegiu com a contacte. Aneu a la pàgina de <a href="{$a->url}">peticions de contacte</a> per respondre-li';
@@ -209,8 +204,6 @@ $string['sendbulkmessagesentsingle'] = 'Missatge enviat a 1 persona';
 $string['sendbulkmessagesingle'] = 'Envia el missatge a una persona';
 $string['sendcontactrequest'] = 'Envia una sol·licitud de contacte';
 $string['sender'] = '{$a}:';
-$string['sendingvia'] = 'S\'està enviant "{$a->provider}" mitjançant "{$a->processor}"';
-$string['sendingviawhen'] = 'S\'està enviant "{$a->provider}" mitjançant "{$a->processor}" quan {$a->state}';
 $string['sendmessage'] = 'Envia missatge';
 $string['sendmessageto'] = 'Envia missatge a {$a}';
 $string['sendmessagetopopup'] = 'Envia el missatge a {$a} (finestra nova)';

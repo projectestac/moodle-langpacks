@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'ar', version '4.1'.
+ * Strings for component 'tag', language 'ar', version '4.4'.
  *
  * @package     tag
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['added'] = 'تمت إضافة وسم/وسوم قياسية';
 $string['addotags'] = 'أضف الوسوم القياسية';
 $string['addtagcoll'] = 'أضف مجموعة الوسوم';
-$string['addtagtomyinterests'] = 'إضف "{$a}" لاهتماماتي';
+$string['addtagtomyinterests'] = 'أضف "{$a}" لاهتماماتي';
 $string['alltagpages'] = 'كل صفحات الوسوم';
 $string['backtoallitems'] = 'عودة إلى كل العناصر الموسومة بـ "{$a}"';
 $string['changename'] = 'تغيير اسم الوسم';
@@ -73,6 +73,7 @@ $string['eventtagupdated'] = 'وسم تم تحديثه';
 $string['exclusivemode'] = 'أظهر فقط {$a->tagarea} الموسومة';
 $string['flag'] = 'عَلِّم';
 $string['flagasinappropriate'] = 'أشر لهذا كمحتوى غير مرغوب';
+$string['flagcount'] = 'عدد الأعلام';
 $string['flagged'] = 'تم تعليم الوسم';
 $string['helprelatedtags'] = 'وسوم ذات صلة بينها فواصل';
 $string['id'] = 'المُعرَّف';

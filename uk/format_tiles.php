@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'uk', version '4.1'.
+ * Strings for component 'format_tiles', language 'uk', version '4.4'.
  *
  * @package     format_tiles
  * @category    string
@@ -336,6 +336,7 @@ $string['tileicon_help'] = 'Елемент, вибраний тут, буде з
 $string['tileicons'] = 'Значки плитки';
 $string['tileoutcome'] = 'Підсумок для цієї плитки';
 $string['tileoutcome_help'] = 'Якщо ви вибрали підсумок для цієї плитки, ви зможете під час налаштувань курсу показати набір кнопок <em> фільтра </em>, по одному для кожного підсумку, який при натисканні фільтруватиме показані плитки, відповідно до тих результатів, які вони мають показати';
+$string['tileselecttip'] = 'Вам не потрібно кожного разу переходити до цієї форми, щоб змінити значок плитки. Простішим способом є натискання значка, який потрібно змінити (у режимі редагування)';
 $string['tilesformatregistration'] = 'Реєстрація формату плитки';
 $string['togglecompletion'] = 'Натисніть, щоб змінити статус завершення';
 $string['tootall'] = 'занадто висока для плитки';

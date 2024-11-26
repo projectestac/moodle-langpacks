@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'zh_cn', version '4.1'.
+ * Strings for component 'feedback', language 'zh_cn', version '4.4'.
  *
  * @package     feedback
  * @category    string
@@ -44,6 +44,7 @@ $string['bold'] = '加粗';
 $string['calendarend'] = '{$a}关闭';
 $string['calendarstart'] = '{$a}打开';
 $string['cannotaccess'] = '您只能从课程中访问此反馈';
+$string['cannotcreatepagebreak'] = '不能在开头添加分页符，并且只能在末尾添加一个分页符。';
 $string['cannotsavetempl'] = '不允许保存模板';
 $string['captcha'] = '验证码';
 $string['captchanotset'] = '验证码未设置。';
@@ -164,7 +165,7 @@ $string['insufficient_responses_for_this_group'] = '此组给出的答复数量�
 $string['insufficient_responses_help'] = '要使反馈是匿名的，必须至少有 2 个回复。';
 $string['item_label'] = '标签';
 $string['item_name'] = '问题';
-$string['label'] = '标签';
+$string['label'] = '文本和媒体区域';
 $string['labelcontents'] = '目录';
 $string['mapcourse'] = '映射反馈到课程';
 $string['mapcourse_help'] = '默认情况下，在您的主页创建的反馈表全站可用，并且会在所有使用了反馈版块的课程中出现。你可以把反馈表设成粘性版块来强制它出现，或者通过将它映射到指定的课程来限制此反馈表出现的课程。';
@@ -198,7 +199,10 @@ $string['multichoiceoption'] = '<span class=“weight”>（{$a->weight}）</spa
 $string['multichoicerated'] = '选择题（可评分）';
 $string['multichoicetype'] = '选择题';
 $string['multiplesubmit'] = '允许多次提交';
-$string['multiplesubmit_help'] = '如果对匿名调查也启用，那么用户就可以无限次提交反馈。';
+$string['multiplesubmit_help'] = '如果设置为“是”：
+
+* 对于匿名调查：参与者可以多次提交回复，所有回复都将被记录下来。
+* 对于非匿名调查：参与者可以多次提交回复，但只有他们的最新回复会被记录下来。';
 $string['name'] = '名称';
 $string['name_required'] = '必须输入名称';
 $string['nameandlabelformat'] = '（{$a->label}）{$a->name}';

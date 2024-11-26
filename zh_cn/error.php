@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'zh_cn', version '4.1'.
+ * Strings for component 'error', language 'zh_cn', version '4.4'.
  *
  * @package     error
  * @category    string
@@ -234,6 +234,10 @@ $string['dmlparseexception'] = '解析 SQL 查询时出错';
 $string['dmlreadexception'] = '读取数据库时发生错误';
 $string['dmltransactionexception'] = '数据库事务错误';
 $string['dmlwriteexception'] = '写入数据库时发生错误';
+$string['dndmaxbytes'] = '文件太大。允许的最大大小为 {$a->size}';
+$string['dndread'] = '读取文件时出错';
+$string['dndunkownfile'] = '不支持此文件类型';
+$string['dndupload'] = '上传文件时出现未知错误';
 $string['downgradedcore'] = '错误！！您使用的代码版本和创建现在数据库的版本比起来已经老掉牙了！';
 $string['downloadedfilecheckfailed'] = '下载文件检查失败';
 $string['duplicatefieldname'] = '发现重名文件"{$a}"';
@@ -242,6 +246,7 @@ $string['duplicateparaminsql'] = '错误：查询中出现重复的参数名';
 $string['duplicaterolename'] = '同名角色已经存在！';
 $string['duplicateroleshortname'] = '使用这个简称的角色已经存在！';
 $string['duplicateusername'] = '重复用户名 - 跳过记录';
+$string['editedpagenotfound'] = '系统无法确定您所在的页面。请刷新页面，然后重试。';
 $string['emailfail'] = '邮件发送失败';
 $string['encryption_decryptfailed'] = '解密失败';
 $string['encryption_encryptfailed'] = '加密失败';
@@ -427,6 +432,10 @@ $string['moduledisable'] = '模块({$a})对于该课程已经失效';
 $string['moduledoesnotexist'] = '此模块不存在';
 $string['moduleinstancedoesnotexist'] = '此模块的实例不存在';
 $string['modulemissingcode'] = '模块 {$a} 缺少了执行此功能的代码';
+$string['moodlenet:invalidshareformat'] = '不正确的 MoodleNet 共享格式';
+$string['moodlenet:invalidsharestatus'] = '不正确的 MoodleNet 共享状态';
+$string['moodlenet:invalidsharetype'] = '无效的 MoodleNet 共享类型';
+$string['moodlenet:usernotconfigured'] = '您没有将内容共享到 MoodleNet 的权限，或者您的帐户配置不正确。';
 $string['movecatcontentstoroot'] = '不允许将分类内容移动到根目录。您必须将内容移动到现有分类！';
 $string['movecatcontentstoselected'] = '某些类别内容无法移动到所选类别中。';
 $string['movecategorynotpossible'] = '不能将类别{$a}移到选定的类别';
@@ -499,8 +508,10 @@ $string['opensslsignerror'] = 'OpenSSL 无法对数据进行签名';
 $string['orderidnotfound'] = '订单ID {$a}未找到';
 $string['pagenotexist'] = '<p>尝试查看不存在的页面时发生异常错误：</p>{$a}';
 $string['pagenotexisttitle'] = '404 错误：找不到文件';
+$string['passwordexceeded'] = '密码不能超过 {$a} 个字符';
 $string['pathdoesnotstartslash'] = '未提供正确参数，路径不是以/开始！';
 $string['pleasereport'] = '如果您有时间，请让我们知道在错误发生的时候您在试图做什么';
+$string['pluginnotexist'] = '{$a} 插件不存在';
 $string['pluginrequirementsnotmet'] = '插件“{$a->pluginname}”({$a->pluginversion}) 不能安装。它需要新版本的 Mooodle（现在您正使用 {$a->currentmoodle}，您需要 {$a->requiremoodle}）';
 $string['pluginunsupported'] = '插件“{$a->pluginname}”{$a->pluginversion} 不支持此版本的 Moodle {$a->moodleversion}。 寻求插件信息以查找支持的版本。';
 $string['prefixcannotbeempty'] = '<p>错误：数据库表前缀不能为空({$a})</p>
@@ -512,6 +523,7 @@ $string['processingstops'] = '处理到此结束。剩余记录将被忽略。';
 $string['protected_cc_not_supported'] = '不支持受保护的CC格式。';
 $string['querystringcannotbeempty'] = '查询字符串不可空白';
 $string['redirecterrordetected'] = '检测到不支持的重定向，脚本执行终止';
+$string['redissessionhandlerproblem'] = '设置 redis 会话失败。请通知服务器管理员';
 $string['refoundto'] = '不能退款给{$a}';
 $string['refoundtoorigi'] = '向原账户退款：{$a}';
 $string['registrationdisabled'] = '本站已禁用注册功能';
@@ -612,6 +624,7 @@ $string['usermustbemnet'] = 'MNET访问控制列表中的用户必须是远程MN
 $string['usernamelowercase'] = '用户名必须小写';
 $string['usernotaddederror'] = '未添加用户-错误';
 $string['usernotaddedregistered'] = '用户未添加――已经注册过了';
+$string['usernotaddedusernameexists'] = '未添加用户 - 用户名已存在于不同的电子邮件下';
 $string['usernotavailable'] = '此用户的详细信息对您不可见';
 $string['usernotdeletedadmin'] = '无法删除作为管理员帐户的用户';
 $string['usernotdeleteddeleted'] = '用户已被删除。';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'eu', version '4.1'.
+ * Strings for component 'enrol_meta', language 'eu', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'Modu lehenetsian ikastaro-mailako rolen esleipe
 $string['pluginname'] = 'Ikastaroaren meta-esteka';
 $string['pluginname_desc'] = 'Ikastaroaren meta-esteka izeneko matrikulazio-pluginak bi ikastaro ezberdinetan matrikulazioak eta rolak sinkronizatzen ditu.';
 $string['privacy:metadata:core_group'] = 'Ikastaroaren meta-esteka pluginak talde berri bat sortu edo existitzen den talde bat erabil dezake lotutako ikastaroko partaideak bertara sartzeko.';
+$string['samemetacourse'] = 'Ezin duzu ikastaro beraren meta-esteka sortu.';
 $string['syncall'] = 'Sinkronizatu matrikulatutako erabiltzaile guztiak';
 $string['syncall_desc'] = 'Gaituz gero matrikulatutako erabiltzaile guztiak sinkronizatuko dira, goragoko ikastaroan inolako rolik ez badute ere, desgaituz gero soilik goragoko ikastaroan rolen bat esleituta duten erabiltzaileak sinkronizatuko dira beheragoko ikastaroetan.';
+$string['unknownmetacourse'] = 'Meta-estekarako ikastaroaren izen labur ezezaguna';
 $string['wscannotcreategroup'] = 'Ez duzu baimenik lotutako {$a} ikastaro-IDan taldeak sortzeko.';
 $string['wsinvalidcourse'] = '{$a} ikastaro-IDa ez da existitzen edo ez duzu meta-esteka bidezko matrikulazioa sortzeko baimenik.';
 $string['wsinvalidmetacourse'] = '{$a} metaikastaro-IDa ez da existitzen edo ez duzu matrikulazio-instantzia gehitzeko baimenik.';

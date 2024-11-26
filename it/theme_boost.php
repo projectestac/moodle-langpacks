@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'it', version '4.1'.
+ * Strings for component 'theme_boost', language 'it', version '4.4'.
  *
  * @package     theme_boost
  * @category    string
@@ -41,8 +41,7 @@ $string['pluginname'] = 'Boost';
 $string['preset'] = 'Preimpostazioni tema';
 $string['preset_desc'] = 'Seleziona una preimpostazione per cambiare il look globale del tema';
 $string['presetfiles'] = 'File addizionali di preimpostazione del tema';
-$string['presetfiles_desc'] = 'I file di preimpostazione possono modificare fortemente il tema. Per informazioni sulla creazione e sulla condivisioni di file: <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a>
-Per scaricare preimpostazioni: <a href="https://archive.moodle.net/boost">Presets repository</a>.';
+$string['presetfiles_desc'] = 'I file di preimpostazione possono essere utilizzati per modificare radicalmente l\'aspetto del tema. Consultare <a href="https://docs.moodle.org/dev/Boost_Presets">Potenzia le preimpostazioni</a> per informazioni sulla creazione e la condivisione dei tuoi file preimpostati e consulta <a href="https:// moodle.net/search?q=boost+presets">Archivio di preimpostazioni</a> per le preimpostazioni condivise da altri.';
 $string['privacy:metadata'] = 'Il tema Boost non memorizza dati personali.';
 $string['privacy:metadata:preference:draweropennav'] = 'Preferenza dell\'utente di nascondere o mostrare il menu di navigazione a comparsa.';
 $string['rawscss'] = 'SCSS grezzo';
@@ -51,6 +50,5 @@ $string['rawscsspre'] = 'SCSS grezzo iniziale';
 $string['rawscsspre_desc'] = 'Utilizzare il campo per impostare un SCSS di inizializzazione che sarò inserito prima di qualsiasi altra cosa. Generalmente utilizzato per definire variabili.';
 $string['region-side-pre'] = 'Destra';
 $string['showfooter'] = 'Visualizza piè di pagina';
-$string['totop'] = 'Vai all\'inizio';
 $string['unaddableblocks'] = 'Blocchi non necessari';
 $string['unaddableblocks_desc'] = 'I blocchi specificati non sono necessari per l\'utilizzo di questo tema e non verranno elencati nel menu "Aggiungi un blocco".';

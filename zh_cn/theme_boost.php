@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost', language 'zh_cn', version '4.1'.
+ * Strings for component 'theme_boost', language 'zh_cn', version '4.4'.
  *
  * @package     theme_boost
  * @category    string
@@ -60,6 +60,5 @@ $string['rawscsspre'] = '原始初始SCSS';
 $string['rawscsspre_desc'] = '可在此处提供初始化 SCSS 代码，代码将被添加到最开始。绝大多数情况下主要用于定义变量。';
 $string['region-side-pre'] = '右侧';
 $string['showfooter'] = '显示页脚';
-$string['totop'] = '回到顶部';
 $string['unaddableblocks'] = '不需要的版块';
 $string['unaddableblocks_desc'] = '使用此主题时指定不需要的版块，将不会列出在“添加版块”菜单中。';

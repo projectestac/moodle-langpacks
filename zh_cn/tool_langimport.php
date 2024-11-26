@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_langimport', language 'zh_cn', version '4.4'.
  *
  * @package     tool_langimport
  * @category    string
@@ -48,6 +48,7 @@ $string['langupdatecomplete'] = '语言包更新成功';
 $string['missingcfglangotherroot'] = '未设置配置变量 $CFG->langotherroot';
 $string['missinglangparent'] = '缺少语言参数。<em>{$a->lang}</em>的<em>{$a->parent}</em>';
 $string['noenglishuninstall'] = '无法卸载英语语言包。';
+$string['noenglishuninstalltitle'] = '无法卸载';
 $string['nolangupdateneeded'] = '您的语言包已经是最新的了，不需要升级。';
 $string['pluginname'] = '语言包';
 $string['privacy:metadata'] = '语言包插件不存储任何个人数据。';

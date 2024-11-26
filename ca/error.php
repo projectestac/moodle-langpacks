@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'error', language 'ca', version '4.1'.
+ * Strings for component 'error', language 'ca', version '4.4'.
  *
  * @package     error
  * @category    string
@@ -231,6 +231,10 @@ $string['dmlparseexception'] = 'Error de sintaxi a la consulta SQL';
 $string['dmlreadexception'] = 'S\'ha produït un error en llegir a la base de dades';
 $string['dmltransactionexception'] = 'S\'ha produït un error en fer una transacció a la base de dades';
 $string['dmlwriteexception'] = 'S\'ha produït un error en escriure a la base de dades.';
+$string['dndmaxbytes'] = 'El fitxer és massa gran. La mida màxima permesa és {$a->size}.';
+$string['dndread'] = 'S\'ha produït un error en llegir el fitxer';
+$string['dndunkownfile'] = 'Aquest tipus de fitxer no és compatible';
+$string['dndupload'] = 'S\'ha produït un error desconegut en pujar el fitxer';
 $string['downgradedcore'] = 'S\'ha produït un error perquè el codi que esteu utilitzant és més antic que la versió amb què es va construir aquesta base de dades.';
 $string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat';
 $string['duplicatefieldname'] = 'S\'ha detectat un duplicat del nom de camp "{$a}"';
@@ -239,6 +243,7 @@ $string['duplicateparaminsql'] = 'S\'ha produït un error perquè hi ha un nom d
 $string['duplicaterolename'] = 'Ja existeix un rol amb aquest nom.';
 $string['duplicateroleshortname'] = 'Ja existeix un rol amb aquest nom curt.';
 $string['duplicateusername'] = 'Nom d\'usuari duplicat - s\'ha omès aquest registre';
+$string['editedpagenotfound'] = 'El sistema no ha pogut determinar la pàgina on esteu. Actualitzeu la pàgina i torneu-ho a provar.';
 $string['emailfail'] = 'S\'ha produït un error en enviar el correu.';
 $string['encryption_decryptfailed'] = 'Ha fallat la desencriptació';
 $string['encryption_encryptfailed'] = 'Ha fallat l\'encriptació';
@@ -424,6 +429,8 @@ $string['moduledisable'] = 'S\'ha desactivat el mòdul ({$a}) per a aquest curs 
 $string['moduledoesnotexist'] = 'Aquest mòdul no existeix';
 $string['moduleinstancedoesnotexist'] = 'La instància d\'aquest mòdul no existeix.';
 $string['modulemissingcode'] = 'El mòdul {$a} no inclou el codi necessari per a la realització d\'aquesta funció';
+$string['moodlenet:invalidshareformat'] = 'El format de compartició de MoodleNet no és vàlid';
+$string['moodlenet:usernotconfigured'] = 'No teniu permís per compartir contingut a MoodleNet, o el vostre compte està configurat incorrectament.';
 $string['movecatcontentstoroot'] = 'No es permet moure el contingut de la categoria a l\'arrel. Heu de moure els continguts a una categoria existent!';
 $string['movecatcontentstoselected'] = 'No es pot moure el contingut d\'una categoria a la categoria seleccionada.';
 $string['movecategorynotpossible'] = 'No podeu moure la categoria \'{$a}\' dins de la categoria seleccionada.';

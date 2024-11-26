@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'ar', version '4.1'.
+ * Strings for component 'enrol_meta', language 'ar', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'إفتراضياً، كل تعيينات الأ
 $string['pluginname'] = 'رابط البيانات الوصفية للمساق';
 $string['pluginname_desc'] = 'تقوم إصافة التسجيل في رابط التعريف بالمساق بمزامنة عمليات التسجيل والأدوار في مساقين دراسيين مختلفين.';
 $string['privacy:metadata:core_group'] = 'إضافة انضمام ميتا يمكنه إنشاء مجموعة جديدة أو استعمال مجموعة موجودة لإضافة كل المشاركين في المساق المربوط.';
+$string['samemetacourse'] = 'لا يمكنك إضافة رابط ميتا لنفس.';
 $string['syncall'] = 'مزامنة كل المستخدمين المنضمين';
 $string['syncall_desc'] = 'عند تمكينه، ستتم مزامنة كل المستخدمين المنضمين حتى وإن لم يكن لديهم دور في المساق الأساسي. عند تعطيله، فقط المستخدمون الذين لديهم دور مُزَامن واحد على الأقل سيتم ضمهم إلى المساق الفرعي.';
+$string['unknownmetacourse'] = 'الاسم المختصر للمساق مجهول';
 $string['wscannotcreategroup'] = 'ليست هناك صلاحية إنشاء مجموعة في المساق المرتبط ذي المُعرَّف = {$a}.';
 $string['wsinvalidcourse'] = 'مُعرَّف المساق = {$a} ليس موجودًا أو ليست هناك صلاحية للربط مع انضمام Meta.';
 $string['wsinvalidmetacourse'] = 'المساق Meta ذي مُعرَّف = {$a} ليس موجودًا أو ليست هناك صلاحية لإضافة عيِّنة الانضمام.';

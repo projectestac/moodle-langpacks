@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ca', version '4.1'.
+ * Strings for component 'question', language 'ca', version '4.4'.
  *
  * @package     question
  * @category    string
@@ -299,7 +299,6 @@ $string['notchanged'] = 'No ha canviat des de l\'últim intent';
 $string['notenoughanswers'] = 'Aquest tipus de pregunta necessita almenys {$a} resposta/respostes';
 $string['notenoughdatatoeditaquestion'] = 'No s\'han especificat l\'identificador de la pregunta, ni el de la categoria i el tipus de pregunta.';
 $string['notenoughdatatomovequestions'] = 'Heu de proporcionar els identificadors de les preguntes que voleu moure.';
-$string['notflagged'] = 'Desmarcada';
 $string['notgraded'] = 'Sense qualificar';
 $string['notshown'] = 'No es mostra';
 $string['notyetanswered'] = 'No s\'ha respost encara';

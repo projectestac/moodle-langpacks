@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'zh_cn', version '4.1'.
+ * Strings for component 'mnet', language 'zh_cn', version '4.4'.
  *
  * @package     mnet
  * @category    string
@@ -38,6 +38,7 @@ $string['addtoacl'] = '添加到访问控制';
 $string['allhosts'] = '全部主机';
 $string['allhosts_no_options'] = '查看多台主机时无可用选项';
 $string['allow'] = '允许';
+$string['allowaccess'] = '允许访问';
 $string['applicationtype'] = '应用类型';
 $string['authfail_nosessionexists'] = '认证失败：mnet会话不存在';
 $string['authfail_sessiontimedout'] = '认证失败：mnet会话超时';
@@ -62,6 +63,7 @@ $string['deleteoutoftime'] = '删除密钥超过60秒，请重新操作。';
 $string['deleteuserrecord'] = 'SSO ACL：删除{$a->host}中\'{$a->user}\'的记录。';
 $string['deletewrongkeyvalue'] = '错误。如果不删除您服务器上的SSL密钥，您的服务器可能成为攻击的目标。';
 $string['deny'] = '拒绝';
+$string['denyaccess'] = '禁止访问';
 $string['description'] = '描述';
 $string['duplicate_usernames'] = '错误的在用户表中创建了“mnethostid”和“username”。<br />当您<a href="{$a}" target="_blank">在用户表中分配用户名的时候</a>.<br />更新应该完全成功。点击上面的链接，问题页将打开，可以在更新後看到。<br />';
 $string['enabled_for_all'] = '（服务器可以供所有主机使用）';

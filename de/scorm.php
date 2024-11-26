@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'de', version '4.1'.
+ * Strings for component 'scorm', language 'de', version '4.4'.
  *
  * @package     scorm
  * @category    string
@@ -74,6 +74,7 @@ $string['browse'] = 'Vorschau';
 $string['browsed'] = 'Durchsucht';
 $string['browsemode'] = 'Vorschaumodus';
 $string['browserepository'] = 'Repository durchsuchen';
+$string['cachedef_elements'] = 'Element-Cache';
 $string['calculatedweight'] = 'Berechnete Gewichtung';
 $string['calendarend'] = '\'{$a}\' endet.';
 $string['calendarstart'] = '{$a} beginnt';
@@ -95,7 +96,7 @@ $string['completionscorerequired_help'] = 'Wenn diese Option aktiviert ist, müs
 $string['completionscorerequireddesc'] = 'Die Mindestpunktzahl {$a} ist zum Abschluss erforderlich.';
 $string['completionstatus_completed'] = 'Erledigt';
 $string['completionstatus_passed'] = 'Bestanden';
-$string['completionstatusallscos'] = 'Alle Scos sind erforderlich, um den Abschlussstatus zurückzugeben';
+$string['completionstatusallscos'] = 'Alle SCOs müssen den Abschlussstatus zurückzugeben';
 $string['completionstatusallscos_help'] = 'Einige SCORM Pakete enthalten mehrere Komponenten oder "scos" - bei Aktivierung müssen alle scos innerhalb des Pakets den entsprechenden lesson_status für diese Aktivität zurücksenden um als abgeschlossen markiert zu werden.';
 $string['completionstatusrequired'] = 'Status erforderlich';
 $string['completionstatusrequired_help'] = 'Wenn Sie einen oder mehrere Punkte anwählen, müssen Teilnehmer/innen neben anderen Anforderungen auch mindestens einen dieser Punkte erledigen, um dieses Lernpaket als \'abgeschlossen\' markieren zu können.';
@@ -103,7 +104,7 @@ $string['completionstatusrequireddesc'] = 'Teilnehmer/in muss mindestens einen d
 $string['confirmloosetracks'] = 'Warnung: Das Lernpaket scheint verändert worden zu sein. Evtl. ist die Paketstruktur geändert worden. Beim Update könnten Protokolldaten der Nutzer/innen verloren gehen.';
 $string['contents'] = 'Inhalte';
 $string['coursepacket'] = 'Lernpaket';
-$string['coursestruct'] = 'Kursstruktur';
+$string['coursestruct'] = 'Inhaltsstruktur';
 $string['crontask'] = 'Hintergrundprozess für Lernpakete';
 $string['currentwindow'] = 'Aktuelles Fenster';
 $string['datadir'] = 'Fehler: Das Verzeichnis für die Kursdaten konnte nicht erstellt werden.';
@@ -118,12 +119,10 @@ $string['details'] = 'Trackingdetails';
 $string['directories'] = 'Verzeichnislinks anzeigen';
 $string['disabled'] = 'Deaktiviert';
 $string['display'] = 'Lernpaket anzeigen';
-$string['displayactivityname'] = 'Aktivitätsname anzeigen';
-$string['displayactivityname_help'] = 'Anzeige des Aktivitätsnamens über der Anzeige des Lernpakets';
 $string['displayattemptstatus'] = 'Status der Versuche anzeigen';
 $string['displayattemptstatus_help'] = 'Diese Option legt fest, ob eine Zusammenfassung der Nutzerversuche in der Kursübersicht im Dashboard und/oder auf der Anfangsseite des Lernpakets angezeigt wird.';
 $string['displayattemptstatusdesc'] = 'Die Option legt fest, ob eine Zusammenfassung der Nutzerversuche in der Kursübersicht im Dashboard und/oder der Anfangsseite des Lernpakets angezeigt werden soll.';
-$string['displaycoursestructure'] = 'Kursstruktur auf Einstiegsseite anzeigen';
+$string['displaycoursestructure'] = 'Inhaltsstruktur auf Einstiegsseite anzeigen';
 $string['displaycoursestructure_help'] = 'Wenn diese Option aktiviert ist, wird die Inhaltsstruktur des Lernpakets auf der Einstiegsseite angezeigt.';
 $string['displaycoursestructuredesc'] = 'Wenn diese Option aktiviert ist, wir die Inhaltsstruktur auf der Einstiegsseite angezeigt.';
 $string['displaydesc'] = 'Ob das Lernpaket in einem neuen Fenster gezeigt werden soll.';
@@ -197,7 +196,7 @@ $string['hidebrowse_help'] = 'Der Vorschaumodus erlaubt es, eine Aktivität von 
 $string['hidebrowsedesc'] = 'Diese Einstellung legt fest, ob eine Vorschau möglich ist bevor ein Versuch gestartet wird.';
 $string['hideexit'] = 'Taste \'Beenden\' verbergen';
 $string['hidereview'] = 'Taste \'Wiederholen\' verbergen';
-$string['hidetoc'] = 'Kursstruktur im Lernpaket anzeigen';
+$string['hidetoc'] = 'Inhaltsstruktur in der Lernpaketdarstellung anzeigen';
 $string['hidetoc_help'] = 'Diese Einstellung legt fest, wie die Kursstruktur im Lernpaket angezeigt wird.';
 $string['hidetocdesc'] = 'Diese Einstellung legt fest, wie die Kursstruktur im Lernpaket angezeigt wird.';
 $string['highestattempt'] = 'Bester Versuch';
@@ -213,7 +212,6 @@ $string['indicator:socialbreadth_help'] = 'Dieser Indikator basiert auf der sozi
 $string['indicator:socialbreadthdef'] = 'Lernpaket sozial';
 $string['indicator:socialbreadthdef_help'] = 'Die Person hat diesen Prozentsatz des soziale Engagements erreicht, das die Lernpaketaktivitäten während dieses Analyseintervalls aufzeigen (Ebenen = Keine Teilnahme, Teilnahme allein).';
 $string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
-$string['info'] = 'Info';
 $string['interactions'] = 'Interaktionen';
 $string['invalidactivity'] = 'Aktivität im Lernpaket ist falsch';
 $string['invalidhacpsession'] = 'Ungültige HACP Session';
@@ -222,6 +220,7 @@ $string['invalidmanifestresource'] = 'Warnung: folgende Ressourcen wurden im Man
 $string['invalidstatus'] = 'Ungültiger Status';
 $string['invalidurl'] = 'Ungültige URL angegeben';
 $string['invalidurlhttpcheck'] = 'Ungültige URL. Debug-Mitteilung: <pre>{$a->cmsg}</pre>';
+$string['largetrackupgrade'] = 'Dieser nächste Aktualisierungsschritt kann einige Zeit in Anspruch nehmen. Ihre Website hat über {$a} SCORM-Track-Records, die auf die neue Tabellenstruktur migriert werden müssen. Haben Sie bitte etwas Geduld, da hierfür kein Fortschrittsbalken angezeigt werden kann.';
 $string['last'] = 'Letzter Versuch am';
 $string['lastaccess'] = 'Letzter Versuch';
 $string['lastattempt'] = 'Letzter vollständiger Versuch';
@@ -239,6 +238,7 @@ $string['maximumattemptsdesc'] = 'Diese Einstellung legt die maximale Anzahl von
 $string['maximumgradedesc'] = 'Diese Einstellung setzt den Standardwert für die maximale Bewertung einer Aktivität';
 $string['menubar'] = 'Menüs anzeigen';
 $string['min'] = 'Niedrigste Punktzahl';
+$string['minimumscoregreater'] = 'Die minimale Punktzahl muss größer als 0 sein.';
 $string['missing_attribute'] = 'Fehlende Attribute {$a->attr} im Tag {$a->tag}';
 $string['missing_tag'] = 'Fehlendes Tag {$a->tag}';
 $string['missingparam'] = 'Parameter fehlt oder ist falsch.';
@@ -330,7 +330,7 @@ $string['privacy:metadata:attempt'] = 'Versuchsanzahl';
 $string['privacy:metadata:scoes_track:element'] = 'Name des getrackten Elements';
 $string['privacy:metadata:scoes_track:value'] = 'Wert des gegebenen Elements';
 $string['privacy:metadata:scorm_aicc_session'] = 'Session Information von AICC HACP';
-$string['privacy:metadata:scorm_scoes_track'] = 'Gespeicherte Daten der SCOs für die Aktivität';
+$string['privacy:metadata:scorm_attempt'] = 'Die von einer Person unternommenen SCORM-Versuche';
 $string['privacy:metadata:timemodified'] = 'Zeitpunkt zu dem das gespeicherte Element zuletzt geändert wurde';
 $string['privacy:metadata:userid'] = 'ID des Nutzers der die SCORM Aktivität nutzte';
 $string['protectpackagedownloads'] = 'Herunterladen des Lernpakets verhindern';

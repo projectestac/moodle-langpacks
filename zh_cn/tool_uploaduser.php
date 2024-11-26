@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_uploaduser', language 'zh_cn', version '4.4'.
  *
  * @package     tool_uploaduser
  * @category    string
@@ -51,6 +51,7 @@ $string['infoprefix'] = '信息：';
 $string['invalidtheme'] = '主题“{$a}”未安装，将被忽略。';
 $string['invalidupdatetype'] = '该选项不能与所选的上传类型一起选择。';
 $string['invaliduserdata'] = '检测到用户{$a}的无效数据，该数据已被自动清除。';
+$string['invaliduserdatavalues'] = '找到用户 {$a->username} 的数据 （{$a->values}） 不正确。此数据已被更正或删除。';
 $string['linex'] = '第{$a}行';
 $string['matchemail'] = '匹配电子邮件地址';
 $string['nochanges'] = '未改变';

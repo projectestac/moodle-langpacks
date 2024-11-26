@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lesson', language 'zh_cn', version '4.1'.
+ * Strings for component 'lesson', language 'zh_cn', version '4.4'.
  *
  * @package     lesson
  * @category    string
@@ -171,10 +171,11 @@ $string['displayinleftmenu'] = '在左侧菜单中显示？';
 $string['displayleftif'] = '显示左侧菜单，仅当成绩高于';
 $string['displayleftif_help'] = '此设置决定在看到左侧菜单之前是否必须先获得一定的分数。这将强制学生在第一次访问时必须浏览完整个练习。在达到分数线后，他们就可以使用左侧菜单进行复习了。';
 $string['displayleftmenu'] = '显示左侧菜单';
-$string['displayleftmenu_help'] = '开启此选项后，会显示页面列表。';
+$string['displayleftmenu_help'] = '如果启用，将显示一个允许用户浏览页面列表的菜单。';
+$string['displaymode'] = '显示模式';
 $string['displayofgrade'] = '显示成绩（仅适用于学生）';
 $string['displayreview'] = '提供重试一道题目的选项';
-$string['displayreview_help'] = '如果启用，当学生未能正确回答问题时，可以选择再答一次但不计分，或者继续练习。';
+$string['displayreview_help'] = '如果启用，当一个问题回答错误时，学生可以选择再试一次，没有加分，或者继续上课。如果学生点击移动到另一个问题，那么选择的（错误的）答案将紧随其后。默认情况下，错误答案跳转设置为“此页”，得分为0，因此建议您将错误答案跳转设置为不同的页面，以避免与您的学生混淆。';
 $string['displayscorewithessays'] = '<p>您在自动评分的题目中得分{$a->score}/{$a->tempmaxgrade}。</p>
 <p>您的{$a->essayquestions}道简答题将稍后评分，并添加到您的最终得分中。</p>
 <p>您当前不包含简答题的成绩是：{$a->score} /{$a->grade}。</p>';
@@ -188,7 +189,7 @@ $string['editendofcluster'] = '编辑一个簇结束页';
 $string['editessay'] = '编辑一个简答题页';
 $string['editinglesson'] = '编辑程序教学';
 $string['editingquestionpage'] = '编辑{$a}题目页面';
-$string['editlesson'] = '编辑{$a}';
+$string['editlesson'] = '编辑课程';
 $string['editlessonsettings'] = '修改程序教学的设置';
 $string['editmatching'] = '编辑一个匹配题页';
 $string['editmultichoice'] = '编辑一个选择题页';
@@ -538,6 +539,7 @@ $string['search:activity'] = '程序教学-活动信息';
 $string['secondpluswrong'] = '不完全正确，您想再试一次吗？';
 $string['selectallattempts'] = '选择所有尝试';
 $string['selectaqtype'] = '选择一个题目类型';
+$string['selectreport'] = '选择报告';
 $string['sent'] = '发送';
 $string['shortanswer'] = '填空题';
 $string['showanunansweredpage'] = '显示一个未回答的页面';

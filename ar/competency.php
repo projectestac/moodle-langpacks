@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'ar', version '4.1'.
+ * Strings for component 'competency', language 'ar', version '4.4'.
  *
  * @package     competency
  * @category    string
@@ -104,7 +104,6 @@ $string['evidence_manualoverrideincourse'] = 'تقييم الكفاءة تم و�
 $string['evidence_manualoverrideinplan'] = 'تقييم الكفاءة تم وضعه يدوياً لخطة التعلم \'{$a}\'.';
 $string['invalidevidencedesc'] = 'وصف الدليل غير صحيح.';
 $string['invalidgrade'] = 'تقييم غير صحيح.';
-$string['invalidpersistenterror'] = 'خطأ: {$a}';
 $string['invalidplan'] = 'خطة تعلم غير صحيحة';
 $string['invalidtaxonomy'] = 'تصنيف غير صحيح: {$a}';
 $string['invalidurl'] = 'الرابط غير صحيح. تأكد من أنه يبدأ بـ \'http://\' أو \'https://\'.';

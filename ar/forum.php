@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ar', version '4.1'.
+ * Strings for component 'forum', language 'ar', version '4.4'.
  *
  * @package     forum
  * @category    string
@@ -44,6 +44,8 @@ $string['allsubscribe'] = 'اشترك في كل المنتديات';
 $string['allunsubscribe'] = 'إلغي الاشتراك في كل المنتديات';
 $string['allusers'] = 'كل المستخدمين';
 $string['alreadyfirstpost'] = 'هذه هي المشاركة الأولى في المناقشة';
+$string['announcementsettings'] = 'الإعدادات الافتراضية لمنتدى الإعلانات';
+$string['announcementsettings_help'] = 'هذه الإعدادت تحدد الافتراضيات لكل منتديات الإعلانات.';
 $string['anyfile'] = 'أي ملف';
 $string['areaattachment'] = 'مرفقات';
 $string['areapost'] = 'رسائل';
@@ -64,6 +66,7 @@ $string['blockperiod_help'] = 'يمكن منع الطلاب من النشر إذ
 $string['blockperioddisabled'] = 'لا تمنع';
 $string['blogforum'] = 'منتدى قياسي يظهر بشكل مدونة';
 $string['bynameondate'] = 'بواسطة {$a->date} -  {$a->name}';
+$string['cachedef_forum_count_discussions'] = 'عدد مناقشات المنتدى';
 $string['cachedef_forum_is_tracked'] = 'حالة تعقب المنتدى للمستخدم';
 $string['calendardue'] = '{$a} قد استحق';
 $string['cancelreply'] = 'إلغاء الرد';
@@ -113,15 +116,16 @@ $string['closegrader'] = 'أغلق المقيِّم';
 $string['completiondetail:discussions'] = 'البدء بالمناقشات: {$a}';
 $string['completiondetail:posts'] = 'طرح منشورات في المنتدى: {$a}';
 $string['completiondetail:replies'] = 'تقديم الردود: {$a}';
-$string['completiondiscussions'] = 'ينبغي على الطلبة إنشاء مناقشات:';
+$string['completiondiscussions'] = 'بدء المناقشات';
 $string['completiondiscussionsdesc'] = 'ينبغي على الطالب إنشاء {$a} مناقشة/مناقشات على الأقل';
 $string['completiondiscussionsgroup'] = 'يتطلب مناقشات';
 $string['completiondiscussionshelp'] = 'يتطلب إكتمال المناقشات';
-$string['completionposts'] = 'ينبغي على الطلبة نشر المناقشات أو الرد عليها:';
+$string['completionposts'] = 'بدء المناقشات أو الرد عليها';
 $string['completionpostsdesc'] = 'ينبغي على الطالب إنشاء {$a} مناقشة/مناقشات أو رد/ردود على الأقل';
 $string['completionpostsgroup'] = 'يتطلب منشورات';
 $string['completionpostshelp'] = 'يتطلب إكتمال المناقشات أو الردود';
-$string['completionreplies'] = 'الطلاب يجب عليهم الرد';
+$string['completionpostsinforums'] = 'النشر في المنتديات';
+$string['completionreplies'] = 'نشر الردود';
 $string['completionrepliesdesc'] = 'ينبغي على الطالب إنشاء {$a} رد/ردود على الأقل';
 $string['completionrepliesgroup'] = 'يتطلب الرد';
 $string['completionreplieshelp'] = 'يتطلب إكتمال الردود';
@@ -257,6 +261,7 @@ $string['eventassessableuploaded'] = 'تم نشر بعض المحتوى';
 $string['eventcoursesearched'] = 'مساق تم البحث فيه';
 $string['eventdiscussioncreated'] = 'مناقشة تم إنشاؤها';
 $string['eventdiscussiondeleted'] = 'مناقشة تم حذفها';
+$string['eventdiscussionlockupdated'] = 'تأمين المناقشة تم تحديثه';
 $string['eventdiscussionmoved'] = 'مناقشة تم نقلها';
 $string['eventdiscussionpinned'] = 'مناقشة تم تثبيتها';
 $string['eventdiscussionsubscriptioncreated'] = 'اشتراك في مناقشة تم إنشاؤه';
@@ -264,6 +269,7 @@ $string['eventdiscussionsubscriptiondeleted'] = 'اشتراك في مناقشة 
 $string['eventdiscussionunpinned'] = 'مناقشة تم إلغاء تثبيتها';
 $string['eventdiscussionupdated'] = 'مناقشة تم تحديثها';
 $string['eventdiscussionviewed'] = 'مناقشة تمت معاينتها';
+$string['eventforumsubscriptionupdated'] = 'وضع الاشتراك  تم تحديثه';
 $string['eventpostcreated'] = 'منشور تم إنشاؤه';
 $string['eventpostdeleted'] = 'منشور تم حذفه';
 $string['eventpostupdated'] = 'منشور تم تحديثه';
@@ -298,6 +304,7 @@ $string['forum:addinstance'] = 'إضافة منتدى جديد';
 $string['forum:addnews'] = 'إضافة إعلانات';
 $string['forum:addquestion'] = 'إضافة سؤال';
 $string['forum:allowforcesubscribe'] = 'السماح بفرض الاشتراك';
+$string['forum:canmailnow'] = 'يمكن النشر في منتدى من نوع سؤال وجواب بدون تأخير وقت التحرير';
 $string['forum:canoverridecutoff'] = 'النشر في المنتديات بعد تاريخ التوقف فيها';
 $string['forum:canoverridediscussionlock'] = 'الرد على المناقشات المؤمنة';
 $string['forum:canposttomygroups'] = 'النشر إلى كل المجموعات التي يمكن الوصول إليها';
@@ -485,7 +492,8 @@ $string['noattachments'] = 'لا توجد مرفقات لهذا المنشور';
 $string['nodiscussions'] = 'لا يوجد موضوع للمناقشة بعد في هذا المنتدى';
 $string['nodiscussionsstartedby'] = '{$a} لم يبدأ بأي مناقشة';
 $string['nodiscussionsstartedbyyou'] = 'أنتَ لم تبدأ بأي مناقشات بعد';
-$string['noguestpost'] = 'عذراً، غير مسموح للضيوف بوضع المنشورات.';
+$string['noguestpost'] = 'عذراً، يقتصر النشر في هذا المنتدى على المستخدمين الذين سجلوا دخلوهم.';
+$string['noguestpost:title'] = 'سجل دخولك للمتابعة';
 $string['noguestsubscribe'] = 'عذراً، غير مسموح للضيوف بالاشتراك.';
 $string['noguesttracking'] = 'عذراً! لا يسمح للضيوف تفعيل خيارات المتابعة';
 $string['nomorepostscontaining'] = 'لاتوجد مشاركات إضافية تحتوي على \' {$a}\' تم اكتشافها';
@@ -543,9 +551,6 @@ $string['postbyuser'] = '{$a->post} من قِبَل {$a->user}';
 $string['postincontext'] = 'شاهد هذا المقال في السياق';
 $string['postisprivatereply'] = 'هذا رد خاص. (يمكن المعلمين وغيرهم ممن لديهم إمكانية معاينة الردود الخاصة مشاهدته أيضًا.)';
 $string['postmailinfo'] = 'هذه نسخة من رسالة نشرت في {$a}.';
-$string['postmailinfolink'] = 'هذه نسخة من الرسالة المنشورة في {$a->coursename}.
-
-للرد، أنقر على هذا الرابط: {$a->replylink}';
 $string['postmailnow'] = '<p>سيتم حالاً إرسال هذا المنشور بريدياً إلى كل مشتركي المنتدى.</p>';
 $string['postmailreply'] = 'للرد، أنقر على هذا الرابط: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';

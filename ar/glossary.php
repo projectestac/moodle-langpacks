@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ar', version '4.1'.
+ * Strings for component 'glossary', language 'ar', version '4.4'.
  *
  * @package     glossary
  * @category    string
@@ -92,7 +92,7 @@ $string['comments'] = 'التعليقات';
 $string['commentson'] = 'التعليقات على';
 $string['commentupdated'] = 'تم تحديث التعليق';
 $string['completiondetail:entries'] = 'تقديم المصطلحات: {$a}';
-$string['completionentries'] = 'ينبغي على الطلبة إنشاء المصطلحات:';
+$string['completionentries'] = 'إضافة المصطلحات';
 $string['completionentriesdesc'] = 'ينبغي على الطلبة إنشاء {$a} مصطلح/مصطلحات على الأقل';
 $string['completionentriesgroup'] = 'يتطلب مصطلحات';
 $string['concept'] = 'المفهوم';
@@ -282,6 +282,7 @@ $string['page-mod-glossary-edit'] = 'صفحة إضافة/تحرير مصطلح �
 $string['page-mod-glossary-view'] = 'معاينة صفحة تحرير قاموس المصطلحات';
 $string['page-mod-glossary-x'] = 'أي صفحة لوحدة القاموس';
 $string['pendingapproval'] = 'ينتظر الموافقة';
+$string['pendingapprovalcount'] = 'بانتظار الموافقة ({$a})';
 $string['pluginadministration'] = 'إدارة قاموس المصطلحات';
 $string['pluginname'] = 'قاموس المصطلحات';
 $string['popupformat'] = 'شكل الانبثاق';
@@ -335,7 +336,6 @@ $string['totalentries'] = 'إجمالي المصطلحات';
 $string['usedynalink'] = 'ربط مصطلحات القاموس تلقائياً';
 $string['usedynalink_help'] = 'إذا تم تمكين الربط التلقائي لقاموس المصطلحات على مستوى عموم الموقع من قبل المشرف مع تمكين هذا الإعداد، سيتضمن نموذج "أضف مصطلحاً جديداً" خيار ربطه تلقائياً حيثما ظهرت كلمات أو عبارات المصطلح في باقي أرجاء المقرر.';
 $string['visibletabs'] = 'التبويبات المرئية';
-$string['waitingapproval'] = 'تنتظر الموافقة';
 $string['warningstudentcapost'] = '(ينطبق فقط إذا لم يكن قاموس المصطلحات هو القاموس الرئيسي)';
 $string['withauthor'] = 'المفاهيم مع الكاتب';
 $string['withoutauthor'] = 'المفاهيم بدون الكاتب';

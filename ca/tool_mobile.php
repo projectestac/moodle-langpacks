@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'ca', version '4.1'.
+ * Strings for component 'tool_mobile', language 'ca', version '4.4'.
  *
  * @package     tool_mobile
  * @category    string
@@ -68,7 +68,6 @@ $string['logininthebrowser'] = 'A través d\'una finestra del navegador (per als
 $string['loginintheembeddedbrowser'] = 'A través d\'un navegador incrustat (per als connectors SSO)';
 $string['mainmenu'] = 'Menú principal';
 $string['mobileapp'] = 'Aplicació per a dispositius mòbils';
-$string['mobileappconnected'] = 'Aplicació mòbil connectada';
 $string['mobileappearance'] = 'Aparença de Moodle Mobile';
 $string['mobileappenabled'] = 'Aquest lloc té habilitat l\'accés amb l\'aplicació mòbil. <br /><a href="{$a}">Descarrega l\'aplicació per a dispositius mòbils</a>.';
 $string['mobileauthentication'] = 'Identificació de Moodle Mobile';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'ca', version '4.1'.
+ * Strings for component 'completion', language 'ca', version '4.4'.
  *
  * @package     completion
  * @category    string
@@ -134,6 +134,7 @@ $string['coursecompletedmessage'] = '<p>Enhorabona</p><p>Heu completat el curs <
 $string['coursecompletion'] = 'Compleció del curs';
 $string['coursecompletioncondition'] = 'Condició: {$a}';
 $string['coursecompletionnavigation'] = 'Navegació terciària per la compleció del curs';
+$string['coursecompletionsettings'] = 'Paràmetres de compleció del curs';
 $string['coursegrade'] = 'Qualificació del curs';
 $string['coursesavailable'] = 'Cursos disponibles';
 $string['coursesavailableexplaination'] = 'Avís: Cal configurar els criteris de compleció del curs per tal que un curs aparegui en la llista de dalt.';
@@ -141,6 +142,7 @@ $string['criteria'] = 'Criteris';
 $string['criteriagroup'] = 'Grup de criteris';
 $string['criteriarequiredall'] = 'Cal que es compleixin tots els criteris que es mostren a continuació';
 $string['criteriarequiredany'] = 'Cal que es compleixi algun dels criteris que es mostren a continuació';
+$string['criteriasummary'] = '{$a->type}: {$a->summary}';
 $string['csvdownload'] = 'Baixa en format de full de càlcul (UTF-8 .csv)';
 $string['datepassed'] = 'Data en què es va aprovar';
 $string['days'] = 'Dies';
@@ -238,6 +240,7 @@ $string['selfcompletion'] = 'Auto-compleció';
 $string['showcompletionconditions'] = 'Mostra les condicions de compleció de l\'activitat';
 $string['showcompletionconditions_help'] = 'Les condicions de compleció de l’activitat sempre es mostren a la pàgina de l’activitat. Aquest paràmetre determina si les condicions de compleció de l\'activitat també es mostren a sota de cada activitat a la pàgina del curs.';
 $string['showinguser'] = 'Visualitza usuaris';
+$string['studentsmust'] = 'Els estudiants han de';
 $string['timecompleted'] = 'Hora de finalització';
 $string['todo'] = 'Per fer';
 $string['unenrolingfromcourse'] = 'S\'està suprimint la inscripció al curs';
@@ -253,4 +256,4 @@ $string['viewingactivity'] = 'Visualitzar la {$a}';
 $string['withconditions'] = 'Amb condicions';
 $string['writingcompletiondata'] = 'Escrivint les dades de compleció';
 $string['xdays'] = '{$a} dies';
-$string['yourprogress'] = 'El vostre progrés';
+$string['youmust'] = 'Heu de';

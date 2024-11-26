@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_meta', language 'pt', version '4.1'.
+ * Strings for component 'enrol_meta', language 'pt', version '4.4'.
  *
  * @package     enrol_meta
  * @category    string
@@ -40,8 +40,10 @@ $string['nosyncroleids_desc'] = 'Por predefinição todas as atribuições de pa
 $string['pluginname'] = 'Sincronização com disciplina';
 $string['pluginname_desc'] = 'Este módulo de inscrição permite sincronizar inscrições e atribuições de papéis entre duas disciplinas.';
 $string['privacy:metadata:core_group'] = 'O módulo de inscrição por sincronização pode criar um novo grupo ou usar um grupo existente para adicionar todos os participantes da disciplina vinculada.';
+$string['samemetacourse'] = 'Não pode adicionar sincronização com disciplina com a própria disciplina.';
 $string['syncall'] = 'Sincronizar todos os utilizadores inscritos';
 $string['syncall_desc'] = 'Se ativar esta opção, todos os utilizadores inscritos são sincronizados mesmo que não possuam nenhum papel na disciplina de origem das inscrições. Caso contrário, apenas os utilizadores que possuem pelo menos um papel sincronizado na disciplina de origem serão inscritos na disciplina.';
+$string['unknownmetacourse'] = 'Nome curto da meta-disciplina desconhecido';
 $string['wscannotcreategroup'] = 'Sem permissão para criar grupo na disciplina vinculada com ID = {$a}.';
 $string['wsinvalidcourse'] = 'O ID da disciplina = {$a} não existe ou sem permissão para vincular na meta-inscrição.';
 $string['wsinvalidmetacourse'] = 'O ID da meta-disciplina = {$a} não existe ou sem permissão para adicionar instância de inscrição.';

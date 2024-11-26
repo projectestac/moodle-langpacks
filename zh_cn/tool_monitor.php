@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_monitor', language 'zh_cn', version '4.1'.
+ * Strings for component 'tool_monitor', language 'zh_cn', version '4.4'.
  *
  * @package     tool_monitor
  * @category    string
@@ -33,6 +33,7 @@ $string['areatomonitor'] = '监看的区域';
 $string['cachedef_eventsubscriptions'] = '这是用以保存个别课程的事件订阅的列表';
 $string['contactadmin'] = '联系你的管理员来启用它';
 $string['core'] = '核心';
+$string['coresubsystem'] = '子系统 ({$a})';
 $string['currentsubscriptions'] = '你目前的订阅';
 $string['defaultmessagetemplate'] = '规则名称: {rulename}<br />说明: {description}<br />事件名称: {eventname}';
 $string['deleterule'] = '删除规则';

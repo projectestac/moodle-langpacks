@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'ja', version '4.1'.
+ * Strings for component 'tag', language 'ja', version '4.4'.
  *
  * @package     tag
  * @category    string
@@ -73,6 +73,7 @@ $string['eventtagupdated'] = 'タグが更新されました。';
 $string['exclusivemode'] = '{$a->tagarea} のタグ付けのみ表示する';
 $string['flag'] = 'フラグ';
 $string['flagasinappropriate'] = '不適切としてフラグ付けする';
+$string['flagcount'] = 'フラグカウント';
 $string['flagged'] = 'タグにフラグが付けられました。';
 $string['helprelatedtags'] = 'カンマ区切り関連タグ';
 $string['id'] = 'id';

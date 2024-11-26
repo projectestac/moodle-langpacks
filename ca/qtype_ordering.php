@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ordering', language 'ca', version '4.1'.
+ * Strings for component 'qtype_ordering', language 'ca', version '4.4'.
  *
  * @package     qtype_ordering
  * @category    string
@@ -25,5 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['moved'] = 'S\'ha mogut {$a->item}. Nova posició: {$a->position} de {$a->total}.';
 $string['pluginname_link'] = 'question/type/ordering';
 $string['selectall'] = 'Selecciona-ho tot';

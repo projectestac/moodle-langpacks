@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'pt', version '4.1'.
+ * Strings for component 'tag', language 'pt', version '4.4'.
  *
  * @package     tag
  * @category    string
@@ -73,6 +73,7 @@ $string['eventtagupdated'] = 'Palavra-chave atualizada';
 $string['exclusivemode'] = 'Mostrar apenas palavras-chave de {$a->tagarea}';
 $string['flag'] = 'Sinalizar';
 $string['flagasinappropriate'] = 'Sinalizar como inapropriada';
+$string['flagcount'] = 'N.º de sinalizações';
 $string['flagged'] = 'Palavras-chave assinaladas';
 $string['helprelatedtags'] = 'Palavras-chave relacionadas, separadas por vírgulas';
 $string['id'] = 'ID';
