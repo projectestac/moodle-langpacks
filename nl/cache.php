@@ -78,6 +78,7 @@ $string['cachedef_message_processors_enabled'] = 'Status van ingeschakelde beric
 $string['cachedef_message_time_last_message_between_users'] = 'Tijdstip van het meest recente bericht tussen gebruikers';
 $string['cachedef_modelfirstanalyses'] = 'Eerste analyse per model en analyseerbaar';
 $string['cachedef_moodlenet_usercanshare'] = 'Gebruikers kunnen bronnen delen met MoodleNet';
+$string['cachedef_navigation_cache'] = 'Navigatiecache';
 $string['cachedef_navigation_expandcourse'] = 'Navigatie uitklapbare cursussen';
 $string['cachedef_observers'] = 'Actie wachters';
 $string['cachedef_plugin_functions'] = 'Plugins beschikbare callbacks';

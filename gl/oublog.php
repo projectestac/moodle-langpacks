@@ -107,7 +107,6 @@ $string['re'] = 'Re: {$a}';
 $string['rss'] = 'RSS';
 $string['rssfeed'] = 'Fonte RSS';
 $string['savegrades'] = 'Gardar cualificacións';
-$string['searchblogs'] = 'Buscar blogs';
 $string['siteentries'] = 'Ver entradas do sitio';
 $string['summary'] = 'Resumo';
 $string['tags'] = 'Etiquetas';

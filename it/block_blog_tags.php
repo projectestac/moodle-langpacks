@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['blog_tags:addinstance'] = 'Aggiungere blocco Tag dei blog';
 $string['configtitle'] = 'Titolo blocco tag dei blog';
 $string['pluginname'] = 'Tag dei blog';
-$string['privacy:metadata'] = 'Il blocco Tag del blog visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Tag del blog visualizza solamente dati memorizzati da altri componenti.';

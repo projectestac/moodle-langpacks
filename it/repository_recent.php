@@ -34,3 +34,4 @@ $string['privacy:metadata'] = 'Il plugin Repository \'File recenti\' non memoriz
 $string['recent:view'] = 'Visualizzare repository File recenti';
 $string['recentfilesnumber'] = 'Numero di file recenti';
 $string['timelimit'] = 'Limite di tempo';
+$string['timelimit_help'] = 'Recupera solo i file recenti entro il limite di tempo';

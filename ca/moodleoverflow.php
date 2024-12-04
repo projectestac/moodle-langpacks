@@ -29,4 +29,5 @@ $string['crontask'] = 'Tasques de manteniment del Moodleoverflow';
 $string['edit'] = 'Edita';
 $string['moodleoverflow:viewdiscussion'] = 'Visualitza el debat';
 $string['noviewdiscussionspermission'] = 'No teniu permís per visualitzar debats en aquest fòrum';
+$string['permalink'] = 'Enllaç permanent';
 $string['questions'] = 'Preguntes';

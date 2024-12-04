@@ -136,7 +136,7 @@ $string['updatewithdataonly'] = 'Enkel aanpassen met CSV-gegevens';
 $string['updatewithdataordefaults'] = 'Aanpassen met CSV-gegevens en standaardinstellingen';
 $string['uploadcourse:use'] = 'Gebruik de uploadcursustool';
 $string['uploadcourses'] = 'Cursussen uploaden';
-$string['uploadcourses_help'] = 'Cursussen kunnen via een tekstbestand geüploaded worden. De opmaak moet als volgt zijn:
+$string['uploadcourses_help'] = 'Cursussen kunnen via een tekstbestand geüpload worden. De opmaak moet als volgt zijn:
 
 * Elke lijn bevat één record
 * Elke record is een reeks gegevens, gescheiden door het geselecteerde scheidingsteken

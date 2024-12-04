@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['check_antivirus_details'] = 'Lo stato verifica se è stato rilevato un errore recente in base alla soglia impostata nelle impostazioni principali dell\'antivirus.';
 $string['check_antivirus_error'] = 'Sono stati rilevati {$a->errors} errori all\'interno dell\'ultimo {$a->lookback}';
 $string['check_antivirus_info'] = 'Nessuna analizzatore di virus è stato abilitato';
 $string['check_antivirus_logstore_not_supported'] = 'Non è stato possibile verificare lo stato degli scanner antivirus a causa del tipo di log store selezioanto';

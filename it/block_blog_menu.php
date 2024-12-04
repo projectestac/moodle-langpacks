@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blog_menu:addinstance'] = 'Aggiungere blocco Menu blog';
 $string['pluginname'] = 'Menu blog';
-$string['privacy:metadata'] = 'Il blocco Blog visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Blog visualizza solamente dati memorizzati da altri componenti.';

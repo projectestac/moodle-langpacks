@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['globalsearch:addinstance'] = 'Aggiungere blocco ricerca globale';
 $string['globalsearch:myaddinstance'] = 'Aggiungere blocco ricerca globale nella Dashboard';
 $string['pluginname'] = 'Ricerca globale';
-$string['privacy:metadata'] = 'Il blocco Ricerca globale visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Ricerca globale visualizza solamente dati memorizzati da altri componenti.';

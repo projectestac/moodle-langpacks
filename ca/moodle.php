@@ -962,13 +962,10 @@ $string['forgotteninvalidurl'] = 'L\'URL de canvi de contrasenya no és vàlid';
 $string['format'] = 'Format';
 $string['format_help'] = 'El format del curs determina la disposició de la pàgina del curs.
 
-* Format d\'activitat única: per mostrar una activitat o un recurs únics (com ara un qüestionari o un paquet SCORM) a la pàgina del curs.
-
-* Format social: es mostra un fòrum a la pàgina del curs.
-
-* Format per temes: la pàgina del curs s\'organitza en seccions temàtiques.
-
-* Format setmanal: la pàgina del curs s\'organitza en seccions setmanals, en les quals la primera setmana comença en la data d\'inici del curs.';
+* Activitat única - El curs conté una única activitat o recurs.
+* Social - El curs se centra al voltant d\'un fòrum principal a la pàgina del curs. Es poden afegir activitats i recursos addicionals mitjançant el bloc Activitats socials.
+* Seccions personalitzades - El curs es divideix en seccions personalitzables.
+* Seccions setmanals - El curs es divideix en seccions corresponents a cada setmana, a partir de la data d\'inici del curs.';
 $string['formathtml'] = 'Format HTML';
 $string['formatmarkdown'] = 'Format Markdown';
 $string['formatplain'] = 'Format text';
@@ -1069,7 +1066,7 @@ $string['hide'] = 'Oculta';
 $string['hideadvancedsettings'] = 'Oculta paràmetres avançats';
 $string['hidechartdata'] = 'Oculta dades del gràfic';
 $string['hidefromstudents'] = 'Oculta-ho a la plana del curs';
-$string['hideoncoursepage'] = 'Posa-ho disponible, però no ho mostris a la pàgina principal del curs';
+$string['hideoncoursepage'] = 'Fes disponible, però no ho mostris a la pàgina del curs';
 $string['hidepopoverwindow'] = 'Oculta la finestra emergent';
 $string['hidesection'] = 'Oculta secció {$a}';
 $string['hidesettings'] = 'Oculta paràmetres';
@@ -1365,19 +1362,15 @@ $string['modulesetup'] = 'S\'estan configurant les taules de mòduls';
 $string['modulesuccess'] = 'S\'han configurat correctament les taules {$a}';
 $string['modulesused'] = 'Mòduls utilitzats';
 $string['modvisible'] = 'Disponibilitat';
-$string['modvisible_help'] = 'Si la disponibilitat està establerta com a «Mostra-ho a la pàgina principal del curs», l\'activitat o el recurs estarà disponible per als alumnes (subjecte a qualsevol restricció d\'accés que pugui estar definida).
-
-Si la disponibilitat està establerta com a «Oculta-ho als estudiants», l\'activitat o el recurs estarà només disponible per als usuaris amb permisos per veure activitats ocultes (per defecte, usuaris amb el rol de professor o professor no editor).';
+$string['modvisible_help'] = '* Mostra a la pàgina del curs: Disponible per als estudiants (subjecte a les restriccions d\'accés que es puguin establir).
+* Amaga a la pàgina del curs: No disponible per als estudiants.';
 $string['modvisiblehiddensection'] = 'Disponibilitat';
-$string['modvisiblehiddensection_help'] = 'Si la disponibilitat està establerta com a «Oculta-ho als estudiants», l\'activitat o el recurs estarà només disponible als usuaris amb permisos per veure activitats ocultes (per defecte, usuaris amb el rol de professor o professor no editor).
-
-Si el curs conté moltes activitats o recursos, la pàgina principal del curs pot simplificar-se configurant la disponibilitat com a «Posa-ho disponible, però no ho mostris a la pàgina principal del curs». En aquest cas, s\'ha de proporcionar un enllaç des d\'algun altre lloc, com ara des d\'un recurs del tipus pàgina. L\'activitat s\'enumerarà al butlletí de qualificacions i en altres informes.';
+$string['modvisiblehiddensection_help'] = '* Amaga a la pàgina del curs: No disponible per als estudiants.
+* Fes disponible, però no ho mostris a la pàgina del curs: Disponible per als estudiants si els proporcioneu un enllaç. Les activitats apareixeran al llibre de qualificacions i altres informes.';
 $string['modvisiblewithstealth'] = 'Disponibilitat';
-$string['modvisiblewithstealth_help'] = 'Si la disponibilitat està establerta com a «Mostra-ho a la pàgina principal del curs», l\'activitat o el recurs estarà disponible per als alumnes (subjecte a qualsevol restricció d\'accés que pugui estar definida).
-
-Si la disponibilitat està com a «Oculta-ho als estudiants», l\'activitat o el recurs estarà només disponible per als usuaris amb permisos per veure activitats ocultes (per defecte, usuaris amb el rol de professor o professor no editor).
-
-Si el curs conté moltes activitats o recursos, la pàgina principal del curs pot simplificar-se configurant la disponibilitat com a «Posa-ho disponible, però no ho mostris a la pàgina del curs». En aquest cas, s\'ha de proporcionar un enllaç des d\'algun altre lloc, com ara des d\'un recurs del tipus pàgina. L\'activitat s\'enumerarà al butlletí de qualificacions i en altres informes.';
+$string['modvisiblewithstealth_help'] = '* Mostra a la pàgina del curs: Disponible per als estudiants (subjecte a les restriccions d\'accés que es puguin establir).
+* Amaga a la pàgina del curs: No disponible per als estudiants.
+* Fes disponible, però no ho mostris a la pàgina del curs: Disponible per als estudiants si els proporcioneu un enllaç. Les activitats apareixeran al llibre de qualificacions i altres informes.';
 $string['month'] = 'Mes';
 $string['months'] = 'Mesos';
 $string['moodledocs'] = 'Documentació de Moodle';
@@ -2062,7 +2055,7 @@ $string['showless'] = 'Mostra menys';
 $string['showlistofcourses'] = 'Mostra la llista de cursos';
 $string['showmodulecourse'] = 'Mostra llista de cursos que contenen l\'activitat';
 $string['showmore'] = 'Mostra\'n més';
-$string['showoncoursepage'] = 'Mostra-ho a la pàgina principal del curs';
+$string['showoncoursepage'] = 'Mostra-ho a la pàgina del curs';
 $string['showonly'] = 'Mostra només';
 $string['showperpage'] = 'Mostra {$a} per pàgina';
 $string['showpopoverwindow'] = 'Mostra una finestra emergent';

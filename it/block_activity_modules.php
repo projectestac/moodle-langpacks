@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activity_modules:addinstance'] = 'Aggiungere blocco Attività';
 $string['pluginname'] = 'Attività';
-$string['privacy:metadata'] = 'Il blocco Attività visualizza solamente dati memorizzati altrove.';
+$string['privacy:metadata'] = 'Il blocco Attività visualizza solamente dati memorizzati da altri componenti.';

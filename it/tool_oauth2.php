@@ -30,6 +30,7 @@ $string['acceptrisk_help'] = 'Disattivare la verifica dell\'e-mail può consenti
 $string['authconfirm'] = 'L\'azione garantirà all\'account autenticato un accesso permanente a Moodle via API. L\'uso deve essere inteso come account di sistema per la gestione di file il cui proprietario è Moodle.';
 $string['authconnected'] = 'L\'account di sistema è ora collegato per l\'accesso offline.';
 $string['authnotconnected'] = 'L\'account di sistema non è stato collegato per l\'accesso offline.';
+$string['clever_service'] = 'Buono';
 $string['configured'] = 'Configurato';
 $string['configuredstatus'] = 'Configurato';
 $string['connectsystemaccount'] = 'Collega ad un account di sistema';

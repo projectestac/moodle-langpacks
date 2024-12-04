@@ -35,6 +35,7 @@ $string['eventreportviewed'] = 'تقرير تمت معاينته';
 $string['eventstudentchecksupdated'] = 'تدقيقات طالب تم تحديثها';
 $string['eventteacherchecksupdated'] = 'تدقيقات معلم تم تحديثها';
 $string['guestsno'] = 'ليست لديك صلاحية معاينة قائمة التدقيق هذه';
+$string['import'] = 'استيراد العناصر';
 $string['linktomodule'] = 'النشاط المرتبط بهذا العنصر';
 $string['modulename_link'] = 'mod/checklist/view';
 $string['openlinkinnewwindow'] = 'أتريد الفتح في نافذة جديدة؟';

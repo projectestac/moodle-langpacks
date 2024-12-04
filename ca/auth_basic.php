@@ -26,6 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['password'] = 'Contrasenya';
-$string['usage'] = 'Ús';
 $string['username'] = 'Nom';
 $string['uses'] = 'Ús';

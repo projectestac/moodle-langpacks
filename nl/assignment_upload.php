@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['event_assessable_submitted'] = 'Er is een upload-opdracht ingestuurd.';
-$string['event_assessable_uploaded'] = 'Er is een bestand geüploaded.';
+$string['event_assessable_uploaded'] = 'Er is een bestand geüpload.';
 $string['pluginname'] = 'Upload';
 $string['privacy:metadata'] = 'De upload opdrachtplugin bewaart geen persoonlijke gegevens.';

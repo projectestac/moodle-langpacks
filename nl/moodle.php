@@ -917,7 +917,7 @@ $string['explanationdigitalminor'] = 'Deze informatie is vereist om te bepalen o
 $string['extendperiod'] = 'Verlengde periode';
 $string['extendsession'] = 'Sessie verlengen';
 $string['failedloginattempts'] = '{$a->attempts} mislukte aanmeldingen sinds je laatste aanmelding';
-$string['failedtaskbody'] = '<p>Hallo {$a->voornaam},</p>
+$string['failedtaskbody'] = '<p>Hallo {$a->firstname},</p>
 <p>De taak <b>{$a->taskname}</b> is meerdere keren mislukt en vereist aandacht.</p>
 <p><a href="{$a->link}">Zie taak</a></p>';
 $string['failedtaskcontexturlname'] = 'Statusrapport';

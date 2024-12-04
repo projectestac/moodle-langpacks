@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['event_assessable_uploaded'] = 'Er is een online tekst geüploaded.';
+$string['event_assessable_uploaded'] = 'Er is een online tekst geüpload.';
 $string['pluginname'] = 'Online';
 $string['privacy:metadata'] = 'De online opdrachtplugin bewaart geen persoonlijke gegevens.';

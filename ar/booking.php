@@ -191,6 +191,7 @@ $string['deletedtext_help'] = 'إتركه فارغاً لاستعمال النص
 <li>{times} - أوقات الجلسات</li>
 <li>{shorturl} - خيار مختصر عنوان الرابط</li>
 </ul>';
+$string['description'] = 'الوصف';
 $string['error:failedtosendconfirmation'] = 'المستخدم الآتي لم يتلق رسالة التأكيد
 
 حالة الحجز: {$a->status}
@@ -209,6 +210,13 @@ $string['eventuserprofilefields_updated'] = 'ملف شخصي لمستخدم تم
 $string['fillinatleastoneoption'] = 'ينبغي عليك إعطاء إجابتين محتملتين على الأقل.';
 $string['fullname'] = 'الاسم الكامل';
 $string['hidedescription'] = 'إخفاء الوصف';
+$string['importcsvbookingoption'] = 'استيراد CSV المحتوي على خيارات الحجز';
+$string['importcsvtitle'] = 'استيراد CSV';
+$string['importexcelbutton'] = 'استيراد إكمال النشاط';
+$string['importexceltitle'] = 'استيراد إكمال النشاط';
+$string['importfinished'] = 'استيراد إنتهى!';
+$string['importinfo'] = 'معلومة هامة: يمكنك استعمال الأعمدة الآتية في ملف الرفع الذي بصيغة csv
+(التوضيح بين الأقواس)';
 $string['infonobookingoption'] = 'من أجل إضافة خيار الحجز يرجى استعمال كتلة الإعدادات أو أيقونة الإعدادات في أعلى الصفحة';
 $string['lblacceptingfrom'] = 'تسمية الملصق: مقبول من';
 $string['lblbooking'] = 'تسمية الملصق: الحجز';

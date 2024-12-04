@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['contentitem_help'] = 'Si es marca, l\'opció «Selecciona el contingut» estarà disponible quan s\'afegeixi una eina externa.';
 $string['generalfeedback'] = 'Retroacció general';
 $string['generalfeedback_help'] = 'Es mostra la mateixa retroacció general, independentment de la resposta triada.';
 $string['miscellaneous'] = 'Miscel·lània';
@@ -34,3 +35,4 @@ $string['noattempts'] = 'No s\'ha fet cap intent en aquesta instància de l\'ein
 $string['password'] = 'Contrasenya secreta compartida';
 $string['pluginname_link'] = 'question/type/lti';
 $string['search:activity'] = 'Eina externa: informació de l\'activitat';
+$string['selectcontent'] = 'Selecciona el contingut';

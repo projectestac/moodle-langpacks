@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'لم توضع أي محددات';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'مستعرض الإنترنت لديك قد لا يسمح لهذ الملحق بالعمل ما لم يكن الاتصال عبر HTTPS أو من المضيف المحلي.';
 $string['insecurealert_title'] = 'اتصال غير آمن!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'لقد بلغت الحجم الأقصى المسموح به لرفع الملفات.';
 $string['maxfilesizehit_title'] = 'التسجيل توقف';
 $string['norecordingfound'] = 'يبدو أن أمراً خاطئاً قد حدث. لم يتم تسجيل شيء.';

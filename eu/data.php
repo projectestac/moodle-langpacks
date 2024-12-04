@@ -437,6 +437,7 @@ $string['searchresults'] = '"{$a}" duten sarrerak';
 $string['selectedrequired'] = 'Aukeratutako guztia beharrezko da';
 $string['selectexportoptions'] = 'Hautatu esportatze-aukerak';
 $string['selectfields'] = 'Aukeratu eremuak';
+$string['selectfordeletion'] = 'Aukeratu sarrera ezabatzeko';
 $string['showall'] = 'Erakutsi sarrera guztiak';
 $string['showmore'] = 'Erakutsi gehiago';
 $string['single'] = 'Ikusi banaka';

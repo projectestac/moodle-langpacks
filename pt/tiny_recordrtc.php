@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Não foram especificados os parâmetros';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'O seu navegador não permite o funcionamento deste módulo exceto se for em site HTTPS ou em localhost.';
 $string['insecurealert_title'] = 'Ligação insegura!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Atingiu o limite máximo para o tamanho do carregamento de ficheiros.';
 $string['maxfilesizehit_title'] = 'Gravação parou';
 $string['norecordingfound'] = 'Algo errado ocorreu. Nada foi gravado.';

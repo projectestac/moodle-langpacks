@@ -40,5 +40,6 @@ $string['librarygroup4_desc'] = 'Elenco dei comandi TeX da visualizzare nel tab 
 $string['modaltitle'] = 'Editor di equazioni';
 $string['pluginname'] = 'Editor equazioni';
 $string['preview'] = 'Anteprima equazione';
+$string['privacy:metadata'] = 'ID utente dell\'utente che ha creato la sessione di salvataggio automatico';
 $string['saveequation'] = 'Salva equazione';
 $string['settings'] = 'Impostazioni editor equazioni';

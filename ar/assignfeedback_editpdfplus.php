@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['admin_access_error'] = 'ليس مسموحًا لك بالوصول إلى هذه الصفحة، يرجى التواصل مع معلمك أو مشرفك: تحتاج أن تكون مقيِّم المقرر لتخصيص القائمة.';
 $string['adminaddtool'] = 'إضافة أداة جديدة';
 $string['adminaxisdelete_question'] = 'هل أنت متأكد من رغبتك في حذف المحور المحدد؟';
+$string['adminaxisimport_action'] = 'استيراد';
 $string['adminaxisimport_name'] = 'الاسم';
 $string['adminplugin_cartridge_x_desc'] = 'التباعد الأفقي النسبي للخرطوش بالنسبة إلى التعليق بالبكسل';
 $string['adminplugin_cartridge_y_desc'] = 'التباعد العمودي النسبي للخرطوش بالنسبة إلى التعليق بالبكسل';

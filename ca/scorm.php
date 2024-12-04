@@ -414,3 +414,4 @@ Notes sobre el maneig d\'intents múltiples:
 $string['whatgradedesc'] = 'Si s\'enregistra en el butlletí de qualificacions la qualificació més alta, la mitjana, la del primer o la del darrer intent completat, si es permeten diversos intents.';
 $string['width'] = 'Amplada';
 $string['window'] = 'Finestra';
+$string['youmustselectastatus'] = 'Heu de seleccionar un estat per requerir';

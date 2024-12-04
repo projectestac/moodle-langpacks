@@ -29,5 +29,5 @@ $string['blog_recent:addinstance'] = 'Aggiungere blocco Interventi Blog Recenti'
 $string['norecentblogentries'] = 'Non ci sono interventi recenti';
 $string['numentriestodisplay'] = 'Numero di interventi recenti da visualizzare';
 $string['pluginname'] = 'Interventi Blog recenti';
-$string['privacy:metadata'] = 'Il blocco Interventi blog recenti visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Interventi blog recenti visualizza solamente dati memorizzati da altri componenti.';
 $string['recentinterval'] = 'Intervallo di tempo entro il quale considerare "recente" un intervento';

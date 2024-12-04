@@ -54,6 +54,7 @@ $string['audiencemultiselectpostfix'] = '{$a->elements} più {$a->morecount} alt
 $string['audiencenotsaved'] = 'L\'audience non è stata salvata';
 $string['audiencesaved'] = 'L\'audience è stata salvata';
 $string['audienceupdated'] = 'Audience aggiornata';
+$string['audienceusedbyschedule'] = 'Questa audience è utilizzata in una pianificazione di questo report';
 $string['cardview'] = 'Visualizzazione a schede';
 $string['cardview_help'] = 'La visualizzazione a schede consente di impostare l\'impaginazione del report per la visualizzazione su dispositivi con schermo ridotto. Le colonne saranno ridotte al di sopra del limite configurato, con un pulsante per espandere la visualizzazione di tutte le colonne.';
 $string['cardviewfirstcolumntitle'] = 'Titolo della prima colonna';

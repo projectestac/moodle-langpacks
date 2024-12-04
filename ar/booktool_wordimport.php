@@ -25,4 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['importchapters'] = 'الاستيراد من مايكروسوفت Word';
+$string['pluginname'] = 'استيراد/تصدير ملف مايكروسوفت Word (كتاب)';
 $string['privacy:metadata'] = 'إن أداة استيراد/تصدير ملف مايكروسوفت Word للكُتب لا تخزن أي بيانات شخصية.';
+$string['settings'] = 'إعدادات استيراد/تصدير ملف مايكروسوفت Word (كتاب)';
+$string['wordimport:import'] = 'استيراد ملف مايكروسوفت Word';

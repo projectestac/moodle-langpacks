@@ -45,8 +45,8 @@ $string['prefix_help'] = 'هذه البادئة مستعملة لكل أسماء
 $string['prefixinvalid'] = 'بادئة غير صالحة. يمكنك فقط استخدام az AZ 0-9-_.';
 $string['privacy:metadata:redis'] = 'تقوم إضافة مخزن خبء Redis بتخزين البيانات لفترة وجيزة كجزء من وظائف التخبئة الخاصة به. يتم تخزين هذه البيانات في مخدم Redis حيث تتم إزالتها بانتظام.';
 $string['privacy:metadata:redis:data'] = 'البيانات المختلفة المخزنة في الخبء';
-$string['serializer_igbinary'] = 'المسلسل igbinary.';
-$string['serializer_php'] = 'التسلسل الافتراضي PHP .';
+$string['serializer_igbinary'] = 'المسلسل Igbinary.';
+$string['serializer_php'] = 'مسلسِل PHP الافتراضي';
 $string['server'] = 'الخادم/الخوادم';
 $string['server_help'] = 'مخدم Redis المزمع استعماله للاختبار.
 

@@ -437,6 +437,7 @@ $string['searchresults'] = 'Record contenenti "{$a}"';
 $string['selectedrequired'] = 'Necessari tutti i selezionati';
 $string['selectexportoptions'] = 'Seleziona opzioni di esportazione';
 $string['selectfields'] = 'Seleziona campi';
+$string['selectfordeletion'] = 'Selezionare la voce da eliminare';
 $string['showall'] = 'Visualizza tutti i record';
 $string['showmore'] = 'Visualizza altro';
 $string['single'] = 'Dettagli';

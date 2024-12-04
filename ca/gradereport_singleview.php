@@ -63,6 +63,7 @@ $string['savegradessuccess'] = 'S\'han establert les qualificacions de {$a} elem
 $string['selectagrade'] = 'Selecciona un element de qualificació';
 $string['selectgradeitemlink'] = 'Selecciona un element de qualificació';
 $string['singleview:view'] = 'Mostra l\'informe';
+$string['singleviewreport_gradeitem'] = 'Vista única per a aquest article';
 $string['summarygrade'] = 'Una taula d\'usuaris, amb columnes per l\'interval, qualificació, retroacció i si una qualificació concreta està exclosa o rectificada.';
 $string['summaryuser'] = 'Una taula d\'elements de qualificació, amb columnes per la categoria de qualificació, interval, qualificació, retroacció i si una qualificació concreta està exclosa o rectificada.';
 $string['userselect'] = 'Selecciona una activitat';

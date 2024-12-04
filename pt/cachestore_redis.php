@@ -45,8 +45,8 @@ $string['prefix_help'] = 'Este prefixo é usado para todos os nomes de chave do 
 $string['prefixinvalid'] = 'Prefixo inválido. Apenas pode usar a-z A-Z 0-9-_.';
 $string['privacy:metadata:redis'] = 'O armazenamento de cache do módulo Redis armazena dados temporariamente como parte da sua funcionalidade de armazenamento em cache. Esses dados são armazenados num servidor Redis e são removidos regularmente.';
 $string['privacy:metadata:redis:data'] = 'Vários dados armazenados na cache';
-$string['serializer_igbinary'] = 'Sequenciador igbinary.';
-$string['serializer_php'] = 'O sequenciador padrão PHP.';
+$string['serializer_igbinary'] = 'Sequenciador igbinary';
+$string['serializer_php'] = 'O sequenciador padrão PHP';
 $string['server'] = 'Servidor(es)';
 $string['server_help'] = 'Servidor Redis para usar em testes.
 

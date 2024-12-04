@@ -94,7 +94,7 @@ $string['uploadcohorts_help'] = 'Site-groepen kunnen geüpload worden via een te
 * De eerste record bevat een lijst met veldnamen die de opmaak van de rest van het bestand bepalen
 * Vereiste veldnaam is name
 * Optionele veldnamen zijn idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
-$string['uploadedcohorts'] = '{$a} site-groepen geüploaded';
+$string['uploadedcohorts'] = '{$a} site-groepen geüpload';
 $string['useradded'] = 'Gebruiker toegevoegd aan site-groep "{$a}"';
 $string['visible'] = 'Zichtbaar';
 $string['visible_help'] = 'Elke site-groep kan bekeken worden door gebruikers met de mogelijkheid  \'moodle/cohort:view\'  in de context van de site-groep.<br />

@@ -31,6 +31,7 @@ $string['check_configrw_ok'] = 'config.php no pot ser modificat pels scripts de 
 $string['check_configrw_warning'] = 'Els scripts de PHP poden modificar config.php.';
 $string['check_cookiesecure_details'] = '<p>Si habiliteu la comunicació https es recomana que habiliteu també les galetes segures. També hauríeu  d\'afegir una redirecció permanent des de http a https.</p>';
 $string['check_cookiesecure_error'] = 'Habiliteu les galetes segures';
+$string['check_cookiesecure_http'] = 'Heu d\'activar https per utilitzar galetes segures';
 $string['check_cookiesecure_name'] = 'Galetes segures';
 $string['check_cookiesecure_ok'] = 'Galetes segures habilitades.';
 $string['check_crawlers_details'] = '<p>El paràmetre «Obert a Google» permet que els motors de cerca accedeixin als cursos amb permís d\'accés als convidats. No té sentit habilitar aquest paràmetre si no es permet l\'inici de sessió dels convidats.</p>';

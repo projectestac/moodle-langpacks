@@ -166,6 +166,7 @@ $string['nouserevidence'] = 'Non è stata inserita nessuna attestazione della fo
 $string['nouserplans'] = 'Al momento non sono stati creati piani di formazione';
 $string['oneplanwascreated'] = 'È stato creato un piano di formazione';
 $string['outcome'] = 'Risultato';
+$string['overridegrade'] = 'Sovrascrivi l\'attuale livello di competenza al momento del completamento.';
 $string['parentcompetency'] = 'Genitore';
 $string['parentcompetency_edit'] = 'Modifica genitore';
 $string['parentcompetency_help'] = 'Il genitore sotto il quale sarà inserita la competenza. Può essere un\'altra competenza oppure la radice del quadro di competenze nel caso di competenze di primo livello.';

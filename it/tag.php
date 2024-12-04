@@ -73,6 +73,7 @@ $string['eventtagupdated'] = 'Aggiornamento tag';
 $string['exclusivemode'] = 'Visualizza solamente associati al tag {$a->tagarea}';
 $string['flag'] = 'Contrassegna';
 $string['flagasinappropriate'] = 'Contrassegna come non appropriato';
+$string['flagcount'] = 'Conteggio dei con rassegni';
 $string['flagged'] = 'Tag contrassegnato';
 $string['helprelatedtags'] = 'Tag correlati separati da virgola';
 $string['id'] = 'id';

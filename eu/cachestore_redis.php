@@ -45,8 +45,8 @@ $string['prefix_help'] = 'Aurrizki hau Redis zerbitzariko gakoen izen guztietan 
 $string['prefixinvalid'] = 'Aurrizki baliogabea. Ondoko hauek baino ezin dira erabili: a-z A-Z 0-9-_.';
 $string['privacy:metadata:redis'] = 'Redis cache-biltegi pluginak datuak laburki gordetzen ditu bere cache-funtzioaren baitan. Datu hauek Redis zerbitzari batean gordetzen dira, eta bertan datuak erregularki ezabatzen dira.';
 $string['privacy:metadata:redis:data'] = 'Cachean gordetako era askotako datuak';
-$string['serializer_igbinary'] = 'igbinary serializatzailea.';
-$string['serializer_php'] = 'PHP serializatzaile lehenetsia.';
+$string['serializer_igbinary'] = 'Igbinary serializatzailea';
+$string['serializer_php'] = 'PHP serializatzaile lehenetsia';
 $string['server'] = 'Zerbitzaria(k)';
 $string['server_help'] = 'Probetarako erabiliko den Redis zerbitzaria.
 

@@ -31,4 +31,4 @@ $string['mentees:addinstance'] = 'Aggiungere blocco Assistiti';
 $string['mentees:myaddinstance'] = 'Aggiungere blocco Assistiti nella Dashboard';
 $string['newmenteesblock'] = '(nuovo blocco Assistiti)';
 $string['pluginname'] = 'Assistiti';
-$string['privacy:metadata'] = 'Il blocco Assistiti visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Assistiti visualizza solamente dati memorizzati da altri componenti.';

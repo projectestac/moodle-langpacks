@@ -144,7 +144,6 @@ $string['filter_label_approved'] = 'Godkända frågor';
 $string['filter_label_comment'] = 'Antal kommentarer';
 $string['filter_label_createdate'] = 'Skapades';
 $string['filter_label_difficulty_level'] = 'Svårighet';
-$string['filter_label_fast_filters'] = 'Snabbfilter';
 $string['filter_label_myattempts'] = 'Mina försök';
 $string['filter_label_mydifficulty'] = 'Min svårighetsgrad';
 $string['filter_label_mylastattempt'] = 'Mitt senaste försök';

@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['additionalmodules'] = 'Attività aggiuntive';
+$string['additionalmodules_help'] = 'Selezionrea altre attività che implementano la funzione course_backend_generator_create_activity da includere nel corso di prova.';
 $string['bigfile'] = 'File grandi {$a}';
 $string['courseexplanation'] = 'Il tool crea un corso di test con diverse sezioni, attività e file.
 

@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Ez da murrizketarik zehaztu';
 $string['helplinktext'] = 'GrabatuRTC';
 $string['insecurealert'] = 'Baliteke zure nabigatzaileak plugin hau ez onartzea HTTPS bidez edo localhost batetik erabiltzen ez bada.';
 $string['insecurealert_title'] = 'Konexioa ez da segurua!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Igoerentzako gehieneko tamainaren mugara iritsi zara.';
 $string['maxfilesizehit_title'] = 'Grabazioa gelditu da';
 $string['norecordingfound'] = 'Zerbaitek huts egin du. Ez da ezer grabatu.';

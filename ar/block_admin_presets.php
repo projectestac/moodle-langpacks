@@ -45,6 +45,7 @@ $string['eventpresetreverted'] = 'تحضير مسبق تم التراجع عنه
 $string['eventpresetslisted'] = 'تحضيرات مسبقة تم سردها';
 $string['falseaction'] = 'الإجراء غير مدعوم في هذا الإصدار';
 $string['falsemode'] = 'النمط غير مدعوم في هذا الإصدار';
+$string['imported'] = 'مستورد';
 $string['newvalue'] = 'قيمة الإعداد الجديد';
 $string['oldvalue'] = 'قيمة الإعداد القديم';
 $string['privacy:null_reason'] = 'كتلة تحضيرات المشرف المسبقة لا تؤثر على أو تخزن أي بيانات مستخدمين';

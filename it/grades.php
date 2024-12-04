@@ -91,6 +91,7 @@ $string['allgrades'] = 'Valutazioni per categoria';
 $string['allstudents'] = 'Tutti gli studenti';
 $string['allusers'] = 'Tutti gli utenti';
 $string['aria-toggledropdown'] = 'Attiva/disattiva il seguente menu a discesa';
+$string['aria:dropdowngrades'] = 'Trovati elementi di valutazione';
 $string['autosort'] = 'Ordina automaticamente';
 $string['availableidnumbers'] = 'Codici identificativi disponibili';
 $string['average'] = 'Media';

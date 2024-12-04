@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['admin_bookmarks:addinstance'] = 'Aggiungere blocco Segnalibri amministratore';
 $string['admin_bookmarks:myaddinstance'] = 'Aggiungere blocco Segnalibri amministratore nella Dashboard';
 $string['pluginname'] = 'Segnalibri amministratore';
-$string['privacy:metadata'] = 'Il blocco Segnalibri amministratore visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Segnalibri amministratore visualizza solamente dati memorizzati da altri componenti.';

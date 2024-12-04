@@ -436,6 +436,7 @@ $string['searchresults'] = 'المُدخلات التي تتضمن "{$a}"';
 $string['selectedrequired'] = 'كل المختار مطلوب';
 $string['selectexportoptions'] = 'حدد خيارات التصدير';
 $string['selectfields'] = 'إختر الحقول';
+$string['selectfordeletion'] = 'إختر المُدخل لحذفه';
 $string['showall'] = 'عرض كل المدخلات';
 $string['showmore'] = 'إظهار المزيد';
 $string['single'] = 'معاينة فردية';

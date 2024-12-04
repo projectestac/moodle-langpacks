@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['feedback'] = 'Feedback';
 $string['feedback:addinstance'] = 'Aggiungere blocco Feedback';
 $string['pluginname'] = 'Feedback';
-$string['privacy:metadata'] = 'Il blocco Feedback visualizza solamente dati provenienti da altre parti.';
+$string['privacy:metadata'] = 'Il blocco Feedback visualizza solamente dati memorizzati da altri componenti.';

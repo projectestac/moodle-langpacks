@@ -63,7 +63,7 @@ Laguntza behar baduzu, mesedez jarri harremanetan zure guneko kudeatzailearekin,
 Kontu-eskaera hau zuk egin ez baduzu, norbait zure kontuan sarbidea lortzeko saiakera egiten egon daiteke.
 Mesedez zure guneko kudeatzailearekin harremanetan jarri zaitez lehen bai lehen.';
 $string['confirmlinkedloginemailsubject'] = '{$a}: lotutako sarbidearen berrespena';
-$string['createaccountswarning'] = 'Autentifikazio-plugin honek zure gunean kontuak sortzea ahalbidetzen du. Ezarpen hau erabili nahi baduzu baliteke "authpreventaccountcreation" ezarpena gaitzea nahi izatea.';
+$string['createaccountswarning'] = 'Autentifikazio-plugin honek zure gunean kontuak sortzea ahalbidetzen du. Ezarpen hau erabili nahi baduzu baliteke "Galarazi kontuen sorrera identifikatzean" ezarpena gaitu nahi izatea.';
 $string['createnewlinkedlogin'] = 'Estekatu beste kontu bat ({$a})';
 $string['emailconfirmlink'] = 'Estekatu zure kontuak';
 $string['emailconfirmlinksent'] = '<p>Helbide elektroniko hau duen kontu bat aurkitu da baina oraindik lotu gabe dago.</p>

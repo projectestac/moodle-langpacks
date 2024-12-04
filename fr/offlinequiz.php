@@ -103,8 +103,8 @@ $string['configpapergray'] = 'valeur-blanche du papier, qui est utilisée pour l
 $string['configshuffleanswers'] = 'Mélanger les réponses';
 $string['configshufflequestions'] = 'Si cette option est activée, l’ordre des questions des groupes de QCM papier sera déterminé aléatoirement lors de chaque création de l’aperçu dans l’onglet \'Formulaires PDF\'.';
 $string['configshufflewithin'] = 'Si vous activez cette option, alors les parties constituant une question seront mélangées aléatoirement lorsque la feuille de questions et les grilles de réponses sont créées.';
-$string['configuseridentification'] = 'Une formule décrivant l\'identification de l\'utilisateur. Cette formule est utilisée pour attribuer des formulaires de réponse aux utilisateurs du système. Le côté gauche de l\'équation définit le nombre de chiffres (entier uniquement, jusqu\'à 10 chiffres). Le côté droit de l\'équation doit désigner un champ dans la table utilisateur de Moodle (par exemple id, idnumber, phone1).
-De plus, l\'équation peut également traiter le préfixe et le suffixe qui sont ajoutés aux chiffres marqués (par exemple "a[7]=username" ou "b[5]cd=username"). Ces concaténations de chaînes et de nombres indiquent la valeur du champ utilisé dans la table utilisateur, utilisée pour l\'identification de l\'utilisateur.';
+$string['configuseridentification'] = 'Une formule décrivant l’identification de l’utilisateur. Cette formule est utilisée pour attribuer des formulaires de réponse aux utilisateurs du système. Le côté gauche de l’équation définit le nombre de chiffres (entier uniquement, jusqu’à 10 chiffres). Le côté droit de l’équation doit désigner un champ dans la table utilisateur de Moodle (par exemple id, idnumber, phone1).
+De plus, l’équation peut également traiter le préfixe et le suffixe qui sont ajoutés aux chiffres marqués (par exemple "a[7]=username" ou "b[5]cd=username"). Ces concaténations de chaînes et de nombres indiquent la valeur du champ utilisé dans la table utilisateur, utilisée pour l’identification de l’utilisateur.';
 $string['confirmremovequestion'] = 'Voulez-vous vraiment supprimer cette question {$a} ?';
 $string['copy'] = 'Copier';
 $string['copyright'] = '<strong>Attention : le contenu de cette page est uniquement destiné à votre information personnelle. Comme tout autre texte les questions sont soumises à des restrictions de copyright. Vous n’êtes pas autorisé à les copier ou à les communiquer à d’autres personnes !</strong>';
@@ -178,9 +178,9 @@ $string['difficultytitleb'] = 'Difficulté B';
 $string['difficultytitlediff'] = 'Différence';
 $string['disableimgnewlines'] = 'Supprimer les nouvelles lignes avant et après les images';
 $string['disableimgnewlines_help'] = 'Cette option supprime les nouvelles lignes avant et après les images dans la grille de réponses PDF. Attention : ceci peut causer des problèmes de mise en forme.';
-$string['discriminationindex_info'] = 'Étant donné que l\'indice de discrimination calcule la prédiction de la question entre les bonnes et les mauvaises notes, il ne peut pas être calculé si (l\'un ou l\'autre)
-- il n\'y a pas de réponses différentes des étudiants à cette question
-- il n\'y a pas de notes différentes à l\'examen';
+$string['discriminationindex_info'] = 'Étant donné que l’indice de discrimination calcule la prédiction de la question entre les bonnes et les mauvaises notes, il ne peut pas être calculé si (l’un ou l’autre)
+- il n’y a pas de réponses différentes des étudiants à cette question
+- il n’y a pas de notes différentes à l’examen';
 $string['displayoptions'] = 'Options d’affichage';
 $string['documentschanged'] = 'Une question ou plus dans le QCM papier a été changé depuis la création des documents.<br>Les résultats futurs seront réévalués automatiquement durant l’évaluation en fonction de la version des questions indiquée ici. Dans les documents, la version originale des questions reste affichée.';
 $string['documentschangedwithresults'] = 'Une question ou plus dans le QCM papier a été changée depuis la création des documents.<br>Les résultats existants ont été réévalués automatiquement en fonction de la version des questions indiquée ici. Dans les documents, la version originale des questions reste affichée.';

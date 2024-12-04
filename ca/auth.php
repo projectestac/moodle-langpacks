@@ -148,9 +148,9 @@ $string['privacy:metadata:userpref:loginlockout'] = 'Indica si el compte de l\'u
 $string['privacy:metadata:userpref:loginlockoutignored'] = 'Indica que el compte d\'un usuari no hauria d\'estar subjecte a cap bloqueig';
 $string['privacy:metadata:userpref:loginlockoutsecret'] = 'Quan estigui bloquejat, el secret que l\'usuari ha d\'utilitzar per a desbloquejar el seu compte';
 $string['recaptcha'] = 'reCAPTCHA';
-$string['recaptcha_help'] = 'El CAPTCHA s\'usa per evitar l\'abús dels programes automàtics. Simplement introduïu les paraules al quadre, en ordre i separades per un espai.
+$string['recaptcha_help'] = 'El CAPTCHA s\'usa per prevenir l\'abús de programes automatitzats. Seguiu les instruccions per verificar que sou una persona. Pot ser una casella per marcar, caràcters presentats en una imatge que heu d\'introduir o un conjunt d\'imatges per seleccionar.
 
-Si no sabeu segur quines paraules són, podeu provar un altre CAPTCHA o bé un CAPTCHA sonor.';
+Si no esteu segur de quines són les imatges, podeu provar d\'obtenir un altre CAPTCHA o un CAPTCHA d\'àudio.';
 $string['recaptcha_link'] = 'auth/email';
 $string['security_question'] = 'Pregunta de seguretat';
 $string['selfregistration'] = 'Autoregistre';

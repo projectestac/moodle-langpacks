@@ -141,6 +141,7 @@ $string['periodend'] = 'tot {$a}';
 $string['periodnone'] = 'aangemeld {$a}';
 $string['periodstart'] = 'van {$a}';
 $string['periodstartend'] = 'van {$a->start} tot {$a->end}';
+$string['plugindisabled'] = '{$a} aanmeldingsplugin is uitgeschakeld';
 $string['privacy:metadata:user_enrolments'] = 'Aanmeldingen';
 $string['privacy:metadata:user_enrolments:enrolid'] = 'Een aanmeldingsplugininstantie';
 $string['privacy:metadata:user_enrolments:modifierid'] = 'De ID van de gebruiker die laatst de gebruikersaanmelding heeft gewijzigd';

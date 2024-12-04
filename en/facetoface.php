@@ -233,6 +233,7 @@ $string['error:invalidnotificationtypespecified'] = 'Invalid notification type s
 $string['error:invalidstatusspecified'] = 'Invalid status specified. Expecting \'booked\', \'cancelled\', \'no_show\', \'partially_attended\', or \'fully_attended\'. Defaults to \'booked\' if empty. Value provided was \'{\\$a}\'';
 $string['error:invaliduserid'] = 'Invalid user ID';
 $string['error:manageremailaddressmissing'] = 'You are currently not assigned to a manager in the system. Please contact the site administrator.';
+$string['error:multipleusersessions'] = 'User {$a} has more than one session';
 $string['error:multipleusersmatched'] = 'Multiple users matched to identifier {$a}';
 $string['error:mustspecifycoursemodulefacetoface'] = 'Must specify a course module or a Face-to-Face ID';
 $string['error:nomanageremail'] = 'You didn\'t provide an email address for your manager';
