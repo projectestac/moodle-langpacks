@@ -39,6 +39,7 @@ $string['import'] = '导入';
 $string['importok'] = '文件"{$a}"已经成功导入。';
 $string['importprefix'] = '导入的前缀';
 $string['importproblem'] = '当导入文件{$a}时，发生一些问题。';
+$string['lastrun'] = '上次运行总结';
 $string['lastrunof'] = '{$a} 最后一次的运行摘要';
 $string['markreferencerun'] = '标记为 运行/评论';
 $string['memory'] = '内存使用';

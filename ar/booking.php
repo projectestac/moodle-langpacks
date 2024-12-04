@@ -191,6 +191,7 @@ $string['deletedtext_help'] = 'إتركه فارغاً لاستعمال النص
 <li>{times} - أوقات الجلسات</li>
 <li>{shorturl} - خيار مختصر عنوان الرابط</li>
 </ul>';
+$string['description'] = 'الوصف';
 $string['error:failedtosendconfirmation'] = 'المستخدم الآتي لم يتلق رسالة التأكيد
 
 حالة الحجز: {$a->status}

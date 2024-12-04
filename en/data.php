@@ -436,6 +436,7 @@ $string['searchresults'] = 'Entries containing "{$a}"';
 $string['selectedrequired'] = 'All selected required';
 $string['selectexportoptions'] = 'Select export options';
 $string['selectfields'] = 'Select fields';
+$string['selectfordeletion'] = 'Select entry for deletion';
 $string['showall'] = 'Show all entries';
 $string['showmore'] = 'Show more';
 $string['single'] = 'View single';

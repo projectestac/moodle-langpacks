@@ -198,6 +198,7 @@ $string['never'] = 'Nooit';
 $string['newevent'] = 'Nieuwe activiteit';
 $string['newmonthannouncement'] = 'Agenda is nu ingesteld op {$a}.';
 $string['nocalendarsubscriptions'] = 'Je hebt nog geen kalenderinschrijvingen. Wil je {$a}';
+$string['nocalendarsubscriptionsimportexternal'] = 'Nog geen kalenderinschrijvingen. a href="{$a}">Importeer een externe kalender</a>';
 $string['notitle'] = 'geen titel';
 $string['noupcomingevents'] = 'Er zijn geen activiteiten op komst';
 $string['oneevent'] = '1 activiteit';

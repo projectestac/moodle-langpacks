@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Actions';
-$string['activityname'] = 'Nom de l\'activité';
-$string['activityname_help'] = 'Texte que le nom de l\'activité doit contenir ou auquel il doit être égal. Ce n\'est pas sensible à la casse.';
+$string['activityname'] = 'Nom de l’activité';
+$string['activityname_help'] = 'Texte que le nom de l’activité doit contenir ou auquel il doit être égal. Ce n’est pas sensible à la casse.';
 $string['activityoresourceis'] = 'L’activité ou ressource est {$a}';
 $string['addacondition'] = 'Ajouter une condition';
 $string['addarule'] = 'Ajouter une règle';
@@ -70,14 +70,14 @@ $string['cmselector'] = 'Sélecteur de module';
 $string['coefxp'] = 'Coefficient de l’algorithme';
 $string['colon'] = '{$a->a} : {$a->b}';
 $string['compatibilitycheck'] = 'Test de compatibilité';
-$string['completionrules'] = 'Règles d\'achèvement';
-$string['completionrules_help'] = 'Les règles d\'achèvement sont réparties en trois catégories : achèvement de l\'activité, achèvement de la section et achèvement du cours. L\'ajout de conditions aux catégories détermine quand et combien de points sont attribués.
+$string['completionrules'] = 'Règles d’achèvement';
+$string['completionrules_help'] = 'Les règles d’achèvement sont réparties en trois catégories : achèvement de l’activité, achèvement de la section et achèvement du cours. L’ajout de conditions aux catégories détermine quand et combien de points sont attribués.
 
-Les règles sont évaluées dans l\'ordre dans lequel elles sont présentées à l\'écran. Dès qu\'une condition est remplie, les points correspondants sont attribués et les autres règles ne sont pas évaluées.
+Les règles sont évaluées dans l’ordre dans lequel elles sont présentées à l’écran. Dès qu’une condition est remplie, les points correspondants sont attribués et les autres règles ne sont pas évaluées.
 
 [En savoir plus](https://docs.levelup.plus/xp/docs/completion-rules?ref=blockxp_help)';
-$string['completionrulesintro'] = 'Attribuez des points aux étudiants lorsqu\'ils terminent des activités, des sections ou des cours.';
-$string['completionruleslegacyusednotice'] = 'Vous avez des « règles d\'événement » existantes qui utilisent des conditions d\'achèvement. Nous vous recommandons vivement de les supprimer au profit des méthodes ci-dessous, car l\'utilisation à la fois de « règles d\'événement » et de « règles d\'achèvement » pourrait doubler les points attribués.';
+$string['completionrulesintro'] = 'Attribuez des points aux étudiants lorsqu’ils terminent des activités, des sections ou des cours.';
+$string['completionruleslegacyusednotice'] = 'Vous avez des « règles d’événement » existantes qui utilisent des conditions d’achèvement. Nous vous recommandons vivement de les supprimer au profit des méthodes ci-dessous, car l’utilisation à la fois de « règles d’événement » et de « règles d’achèvement » pourrait doubler les points attribués.';
 $string['condition'] = 'Condition';
 $string['configblockrankingsnapshot'] = 'Afficher l’instantané du classement';
 $string['configblockrankingsnapshot_help'] = 'L’instantané du classement affiche le rang de l’utilisateur. Il tente également d’afficher les deux personnes qui entourent l’utilisateur. Cette fonctionnalité nécessite que le classement soit activé et que les rangs soient affichés.';

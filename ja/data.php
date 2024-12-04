@@ -435,6 +435,7 @@ $string['searchresults'] = '「 {$a} 」を含むエントリ';
 $string['selectedrequired'] = '選択したすべてを含む';
 $string['selectexportoptions'] = 'エクスポートオプションを選択する';
 $string['selectfields'] = 'フィールドを選択する';
+$string['selectfordeletion'] = '削除するエントリを選択する';
 $string['showall'] = 'すべてのエントリを表示する';
 $string['showmore'] = 'さらに表示する';
 $string['single'] = '個別表示';

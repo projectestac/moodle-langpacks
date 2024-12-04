@@ -92,7 +92,7 @@ $string['delete_index'] = 'إحذف الفهرس';
 $string['delete_key'] = 'إحذف المفتاح';
 $string['delete_table'] = 'إحذف الجدول';
 $string['delete_xml_file'] = 'إحذف ملف XML';
-$string['doc'] = 'الوثيقة';
+$string['doc'] = 'المستند';
 $string['docindex'] = 'فهرس الوثائق:';
 $string['documentationintro'] = 'يتم إنشاء هذه الوثائق تلقائيا من تعريف قاعدة البيانات XMLDB. هي متوفرة باللغة الإنجليزية فقط.';
 $string['down'] = 'أسفل';
@@ -131,7 +131,7 @@ $string['float2numbernote'] = 'تنبيه: على الرغم من أن الحق�
 $string['floatincorrectdecimals'] = 'عدد من الكسور العشرية غير صحيح لحقل عشري';
 $string['floatincorrectlength'] = 'حقل عشري طوله غير صحيح';
 $string['generate_all_documentation'] = 'جميع الوثائق';
-$string['generate_documentation'] = 'التوثيق';
+$string['generate_documentation'] = 'التوثيقات';
 $string['gotolastused'] = 'إذهب إلى آخر الملفات المستخدمة';
 $string['incorrectfieldname'] = 'اسم غير صحيح';
 $string['incorrectindexname'] = 'اسم فهرس غير صحيح';

@@ -436,6 +436,7 @@ $string['searchresults'] = 'Registos que contêm "{$a}"';
 $string['selectedrequired'] = 'Todos os selecionados são obrigatórios';
 $string['selectexportoptions'] = 'Selecione as opções da exportação';
 $string['selectfields'] = 'Selecionar campos';
+$string['selectfordeletion'] = 'Selecione o registo para apagar';
 $string['showall'] = 'Mostrar todos os registos';
 $string['showmore'] = 'Mostrar mais';
 $string['single'] = 'Ver registo';

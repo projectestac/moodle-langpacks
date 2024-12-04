@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['moodleversion'] = 'إصدار مودل';
 $string['moodleversion:addinstance'] = 'إضافة كتلة جديدة من إصدار مودل';
 $string['moodleversion:myaddinstance'] = 'إضافة كتلة جديدة من إصدار مودل إلى صفحة مودل الخاصة بي';
+$string['pluginname'] = 'كتلة إصدار مودل';

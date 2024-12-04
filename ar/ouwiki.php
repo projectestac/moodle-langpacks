@@ -117,4 +117,5 @@ $string['showwordcounts_help'] = 'عند تشغيله، سيتم احتساب ع
 $string['startannotation'] = 'بداية الشرح';
 $string['typeinpagename'] = 'أكتب اسم الصفحة هنا';
 $string['typeinsectionname'] = 'إطبع عنوان القسم هنا';
+$string['wikiintro'] = 'الوصف';
 $string['wikirecentchanges_from'] = 'تغييرات في الويكي (صفحة {$a})';

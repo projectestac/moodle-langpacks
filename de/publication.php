@@ -266,6 +266,7 @@ $string['total'] = 'Gesamt';
 $string['updatefiles'] = 'Dateien aktualisieren';
 $string['updatefileswarning'] = 'Bereits importierte Dateien werden ersetzt oder entfernt, wenn die ursprünglichen Dateien in der Aufgabe geändert oder gelöscht wurden. Die Freigabe zur Veröffentlichung durch Teinehmer/innen bleibt unverändert.';
 $string['uploaded'] = 'Hochgeladen';
+$string['uploadnotopen'] = 'Hochladen von Dateien ist geschlossen!';
 $string['visibility'] = 'Veröffentlicht';
 $string['visible'] = 'Veröffentlicht';
 $string['visibleforstudents'] = 'Veröffentlicht';

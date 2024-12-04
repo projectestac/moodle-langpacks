@@ -59,6 +59,7 @@ $string['eventtime'] = 'وقت الحدث';
 $string['for1day'] = 'ليوم واحد';
 $string['for3days'] = 'لثلاثة أيام';
 $string['forthewholesite'] = 'للموقع بأكمله';
+$string['hasdescription'] = 'ضبط الوصف';
 $string['invalidxp'] = 'قيمة النقاط غير صالحة';
 $string['keeplogs'] = 'الإبقاء على سجلات الوقوعات';
 $string['leveldesc'] = 'وصف المستوى';

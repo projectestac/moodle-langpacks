@@ -25,6 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['buttontitle'] = 'Editor d\'equacions';
+$string['cursorinfo'] = 'Una fletxa indica la posició on s\'inseriran els nous elements de la biblioteca d\'elements.';
+$string['editequation'] = 'Edita l\'equació utilitzant <a href="{$a}" target="_blank">TeX</a>';
+$string['helplinktext'] = 'Auxiliar d\'equacions';
 $string['librarygroup1'] = 'Operadors';
 $string['librarygroup1_desc'] = 'Ordres TeX que es llisten en la pestanya d\'operadors.';
 $string['librarygroup2'] = 'Fletxes';
@@ -33,4 +37,9 @@ $string['librarygroup3'] = 'Símbols grecs';
 $string['librarygroup3_desc'] = 'Ordres TeX que es llisten en la pestanya de símbols grecs.';
 $string['librarygroup4'] = 'Avançat';
 $string['librarygroup4_desc'] = 'Ordres TeX que es llisten en la pestanya avançada.';
+$string['modaltitle'] = 'Editor d\'equacions';
+$string['pluginname'] = 'Editor d\'equacions';
 $string['preview'] = 'Previsualització de l\'equació';
+$string['privacy:metadata'] = 'L\'editor d\'equacions del TinyMCE no desa cap dada personal';
+$string['saveequation'] = 'Desa l\'equació';
+$string['settings'] = 'Paràmetres de l\'editor d\'equacions';

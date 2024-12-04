@@ -323,13 +323,6 @@ $string['savefailtitle'] = 'La page ne peut être enregistrée';
 $string['savegrades'] = 'Enregistrer les notes';
 $string['savetemplate'] = 'Enregistrer le wiki comme un modèle';
 $string['search'] = 'Rechercher dans ce wiki';
-$string['search_help'] = 'Entrez une expression et appuyer sur Entrée ou cliquez sur le bouton.
-
-Pour rechercher une expression exacte, utilisez les guillemets.
-
-Pour exclure un mot de la recherche, mettez un trait d’union devant.
-
-Exemple: la recherche <tt>picasso -sculpture "premières œuvres"</tt>donnera des résultats pour ‘picasso’ ou l’expression ‘premières œuvres’ mais exclura le terme ‘sculpture’.';
 $string['seedetails'] = 'historique global';
 $string['showannotationicons'] = 'Afficher les annotations';
 $string['showwordcounts'] = 'Afficher le nombre de mots';

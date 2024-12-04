@@ -434,6 +434,7 @@ $string['searchresults'] = 'Fiches contenant « {$a} »';
 $string['selectedrequired'] = 'Toute la sélection requise';
 $string['selectexportoptions'] = 'Sélectionner les options d’exportation';
 $string['selectfields'] = 'Sélectionner les champs';
+$string['selectfordeletion'] = 'Sélectionner la fiche pour suppression';
 $string['showall'] = 'Afficher toutes les fiches';
 $string['showmore'] = 'Afficher plus';
 $string['single'] = 'Affichage fiche';

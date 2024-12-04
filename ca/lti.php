@@ -81,6 +81,7 @@ $string['configtoolurl'] = 'URL de l\'eina remota per defecte';
 $string['configtypes'] = 'Habilita les aplicacions LTI';
 $string['configured'] = 'Configurat';
 $string['confirmtoolactivation'] = 'Confirmeu que voleu activar aquesta eina?';
+$string['contentitem_deeplinking_help'] = 'Si es marca, l\'opció «Selecciona el contingut» estarà disponible quan s\'afegeixi una eina externa.';
 $string['course_tool_types'] = 'Eines del curs';
 $string['courseactivitiesorresources'] = 'Activitats del curs o recursos';
 $string['courseexternaltools'] = 'Eines externes LTI';
@@ -368,6 +369,8 @@ $string['secure_launch_url'] = 'URL de llançament segur';
 $string['secure_launch_url_help'] = 'Semblant al llançament d\'URL, però utilitzat quan el llançament d\'alta seguretat és obligatori. Moodle utilitzarà el llançament d\'URL segur en lloc del llançament d\'URL si s\'accedeix al lloc Moodle amb SSL, o si l\'eina de configuració està configurada per llançar sempre mitjançant SSL.
 
 El llançament d\'URL es pot configurar també cap a una adreça https de forma obligatòria, i aquest camp es deixarà en blanc.';
+$string['selectcontent'] = 'Selecciona el contingut';
+$string['selectcontentvalidationerror'] = 'Heu de seleccionar contingut per a aquesta activitat.';
 $string['send'] = 'Envia';
 $string['services'] = 'Serveis';
 $string['services_help'] = 'Seleccioneu els serveis que voleu oferir al proveïdor d\'eines. Es pot seleccionar més d\'un servei.';

@@ -266,6 +266,7 @@ $string['total'] = 'Total';
 $string['updatefiles'] = 'Update files';
 $string['updatefileswarning'] = 'Already imported files will be replaced or deleted if the original files in the assignment were refreshed or deleted. The student\'s settings like the approval for publishing remain as they are.';
 $string['uploaded'] = 'Uploaded';
+$string['uploadnotopen'] = 'File upload is closed!';
 $string['visibility'] = 'Published';
 $string['visible'] = 'Published';
 $string['visibleforstudents'] = 'Published';

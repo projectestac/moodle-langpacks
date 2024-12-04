@@ -81,6 +81,7 @@ $string['print'] = 'طباعة';
 $string['privacy:metadata:block_exacompcmassign:timemodified'] = 'الطابع الزمني';
 $string['privacy:metadata:block_exacompcmassign:userid'] = 'مُعرَّفات الطلاب';
 $string['privacy:metadata:block_exacompcrossstud_mm:studentid'] = 'الطالب';
+$string['privacy:metadata:block_exacompcrosssubjects:description'] = 'الوصف';
 $string['privacy:metadata:block_exacompdescrvisibility'] = 'واصفات الإظهار للمستخدمين';
 $string['privacy:metadata:block_exacompdescrvisibility:studentid'] = 'الطالب';
 $string['privacy:metadata:block_exacompexameval:additionalinfo'] = 'قيمة التقييم من المعلم (تستعمل في بعض أنواع التقييم)';

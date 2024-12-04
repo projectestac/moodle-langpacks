@@ -434,6 +434,7 @@ $string['searchresults'] = 'Записи, содержащие «{$a}»';
 $string['selectedrequired'] = 'Все выбранные требуются';
 $string['selectexportoptions'] = 'Выберите параметры экспорта';
 $string['selectfields'] = 'Выберите поля';
+$string['selectfordeletion'] = 'Выбор записи для удаления';
 $string['showall'] = 'Показать все записи';
 $string['showmore'] = 'Показать больше';
 $string['single'] = 'Просмотр по одной записи';

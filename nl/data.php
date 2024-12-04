@@ -460,6 +460,7 @@ $string['searchresults'] = 'Items die "{$a}" bevatten';
 $string['selectedrequired'] = 'Alle geselecteerde vereist';
 $string['selectexportoptions'] = 'Selecteer exportopties';
 $string['selectfields'] = 'Selecteer velden';
+$string['selectfordeletion'] = 'Select item om te verwijderen';
 $string['showall'] = 'Toon alles';
 $string['showmore'] = 'Toon meer';
 $string['single'] = 'Itemweergave';

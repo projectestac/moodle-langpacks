@@ -962,13 +962,10 @@ $string['forgotteninvalidurl'] = 'L\'URL de canvi de contrasenya no és vàlid';
 $string['format'] = 'Format';
 $string['format_help'] = 'El format del curs determina la disposició de la pàgina del curs.
 
-* Format d\'activitat única: per mostrar una activitat o un recurs únics (com ara un qüestionari o un paquet SCORM) a la pàgina del curs.
-
-* Format social: es mostra un fòrum a la pàgina del curs.
-
-* Format per temes: la pàgina del curs s\'organitza en seccions temàtiques.
-
-* Format setmanal: la pàgina del curs s\'organitza en seccions setmanals, en les quals la primera setmana comença en la data d\'inici del curs.';
+* Activitat única - El curs conté una única activitat o recurs.
+* Social - El curs se centra al voltant d\'un fòrum principal a la pàgina del curs. Es poden afegir activitats i recursos addicionals mitjançant el bloc Activitats socials.
+* Seccions personalitzades - El curs es divideix en seccions personalitzables.
+* Seccions setmanals - El curs es divideix en seccions corresponents a cada setmana, a partir de la data d\'inici del curs.';
 $string['formathtml'] = 'Format HTML';
 $string['formatmarkdown'] = 'Format Markdown';
 $string['formatplain'] = 'Format text';

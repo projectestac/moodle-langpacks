@@ -26,9 +26,28 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activitiesandresources'] = 'Activitats i recursos';
+$string['addcategory'] = 'Afegeix una categoria';
+$string['addnewdefaults'] = 'Afegeix un nou valor per defecte de mòdul';
+$string['addpurpose'] = 'Afegeix un propòsit';
+$string['addroleoverride'] = 'Afegeix una sobreescriptura de rol';
+$string['allowfiltering'] = 'Permet filtrar les exportacions per curs';
+$string['approve'] = 'Aprova';
+$string['approvedrequestsubmitted'] = 'La vostra petició s\'ha enviat i aviat serà processada';
+$string['approverequest'] = 'Aprova la petició';
+$string['approverequestall'] = 'Aprova la petició (totes les dades)';
+$string['approveselectedcourses'] = 'Aprova els cursos seleccionats';
+$string['automaticdatadeletionapproval'] = 'Aprovació de petició d\'esborrament automàtic de dades';
+$string['automaticdataexportapproval'] = 'Aprovació de petició d\'exportació automàtica de dades';
 $string['cancelrequest'] = 'Cancel·la la sol·licitud';
 $string['cancelrequestconfirmation'] = 'Voleu cancel·lar aquesta sol·licitud de dades?';
 $string['categories'] = 'Categories';
+$string['categorieslist'] = 'Llista de categories de dades';
+$string['category'] = 'Categoria';
+$string['categorycreated'] = 'S\'ha creat la categoria';
+$string['categorydefault'] = 'Categoria per defecte';
+$string['categoryupdated'] = 'S\'ha actualitzat la categoria';
+$string['close'] = 'Tanca';
+$string['compliant'] = 'Compatible';
 $string['contactdataprotectionofficer'] = 'Contacta amb el delegat de privacitat';
 $string['contextlevelname10'] = 'Lloc';
 $string['contextlevelname30'] = 'Usuaris';
@@ -81,6 +100,7 @@ $string['nopersonaldatarequests'] = 'No teniu cap sol·licitud de dades personal
 $string['nopurposes'] = 'Encara no hi ha finalitats';
 $string['pluginname'] = 'Privacitat de les dades';
 $string['pluginname_help'] = 'Connector de privacitat de les dades';
+$string['pluginregistry'] = 'Registre de privadesa dels connectors';
 $string['privacy'] = 'Privacitat';
 $string['purpose'] = 'Propòsit';
 $string['purposes'] = 'Finalitats';

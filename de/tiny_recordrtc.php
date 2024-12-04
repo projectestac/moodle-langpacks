@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Keine Grenzwerte definiert';
 $string['helplinktext'] = 'Hilfe für RecordRTC';
 $string['insecurealert'] = 'Ihr Browser könnte dieses Plugin blockieren, solange es nicht über HTTPS oder von localhost aus genutzt wird!';
 $string['insecurealert_title'] = 'Unsichere Verbindung';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Sie haben die maximal hochladbare Dateigröße erreicht.';
 $string['maxfilesizehit_title'] = 'Aufnahme gestoppt';
 $string['norecordingfound'] = 'Etwas ist schief gegangen. Es wurde nichts aufgezeichnet';

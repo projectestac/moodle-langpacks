@@ -436,6 +436,7 @@ $string['searchresults'] = 'Einträge, die "{$a}" enthalten';
 $string['selectedrequired'] = 'Gesamte Auswahl ist erforderlich';
 $string['selectexportoptions'] = 'Exportoptionen auswählen';
 $string['selectfields'] = 'Felder auswählen';
+$string['selectfordeletion'] = 'Eintrag zum Löschen auswählen';
 $string['showall'] = 'Alle Einträge anzeigen';
 $string['showmore'] = 'Mehr anzeigen';
 $string['single'] = 'Einzelansicht';

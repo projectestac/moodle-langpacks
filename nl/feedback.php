@@ -44,6 +44,7 @@ $string['bold'] = 'Vet';
 $string['calendarend'] = '{$a} sluit';
 $string['calendarstart'] = '{$a} opent';
 $string['cannotaccess'] = 'Je hebt alleen toegang tot deze feedback vanuit een cursus';
+$string['cannotcreatepagebreak'] = 'Er kan geen paginascheiding aan het begin ingevoegd worden en er kan slechts één paginascheiding op het einde zijn.';
 $string['cannotsavetempl'] = 'Bewaren van sjablonen is niet toegelaten';
 $string['captcha'] = 'Captcha';
 $string['captchanotset'] = 'Captcha is niet ingesteld';

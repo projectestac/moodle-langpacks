@@ -57,6 +57,7 @@ $string['gumtype_title'] = '制約が指定されていません。';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'あなたのブラウザはHTTPSまたはローカルホスト以外でのこのプラグインの動作を許可していないようです。';
 $string['insecurealert_title'] = '安全ではない接続!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'あなたはファイルアップロードの最大サイズ制限に到達しました。';
 $string['maxfilesizehit_title'] = 'レコーディングを停止しました。';
 $string['norecordingfound'] = '何か問題が発生しました。何もレコーディングされていません。';

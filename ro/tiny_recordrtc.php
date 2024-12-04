@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Nu sunt specificate restricții';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'Este posibil ca browserul tău să nu permită acestui plugin să funcționeze decât dacă este utilizat printr-o conexiune HTTPS sau localhost.';
 $string['insecurealert_title'] = 'Conexiune nesigură!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Ai atins limita maximă de dimensiune pentru încărcarea fișierelor';
 $string['maxfilesizehit_title'] = 'Înregistrarea s-a oprit';
 $string['norecordingfound'] = 'Ceva nu a funcționat. Nu s-a înregistrat nimic';

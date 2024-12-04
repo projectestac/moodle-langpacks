@@ -249,7 +249,6 @@ $string['savegrades'] = 'Enregistrer les "grades"';
 $string['search:activity'] = 'OU blog -  Information sur l’activité';
 $string['search:comments'] = 'Ou blog - commentaires des articles';
 $string['search:post'] = 'OU blog - articles';
-$string['searchblogs'] = 'Rechercher';
 $string['searchthisblog'] = 'rechercher : {$a}';
 $string['sendanddelete'] = 'Envoyer et supprimer';
 $string['separateindividual'] = 'Les individus sont séparés';

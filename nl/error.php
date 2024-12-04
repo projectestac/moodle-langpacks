@@ -510,6 +510,7 @@ $string['pagenotexisttitle'] = '404 Fout: bestand niet gevonden';
 $string['passwordexceeded'] = 'Wachtwoord mag niet langer zijn dan {$a} tekens.';
 $string['pathdoesnotstartslash'] = 'Geen geldig argumentenpad opgegeven, het pad begint niet met een schuine streep!';
 $string['pleasereport'] = 'Probeer tijd te maken om ons te laten weten wat je probeerde te doen toen de fout gebeurde.';
+$string['pluginnotexist'] = 'Plugin {$a} bestaat niet';
 $string['pluginrequirementsnotmet'] = 'Plugin "{$a->pluginname}" ({$a->pluginversion}) kon niet geïnstalleerd worden. Er is een nieuwere versie van Moodle nodig (je gebruikt nu {$a->currentmoodle} en je hebt {$a->requiremoodle} nodig).';
 $string['pluginunsupported'] = 'Plugin "{$a->pluginname}" {$a->pluginversion} ondersteunt Moodleversie {$a->moodleversion} niet. Zoek plugin-informatie over de ondersteunde versies.';
 $string['prefixcannotbeempty'] = '<p>Fout: databank tabel prefix kan niet leeg zijn ({$a})</p>

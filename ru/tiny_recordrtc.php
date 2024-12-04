@@ -56,6 +56,7 @@ $string['gumtype_title'] = 'Ограничения не заданы';
 $string['helplinktext'] = 'Запись RTC';
 $string['insecurealert'] = 'Ваш браузер может не разрешить этому плагину работать, если он не используется по HTTPS или с локального сервера';
 $string['insecurealert_title'] = 'Небезопасное соединение!';
+$string['kbrate'] = '{$a} кб/с';
 $string['maxfilesizehit'] = 'Вы достигли максимального размера файла для загрузки';
 $string['maxfilesizehit_title'] = 'Запись остановлена';
 $string['norecordingfound'] = 'Кажется что-то пошло не так. Ничего не записано.';

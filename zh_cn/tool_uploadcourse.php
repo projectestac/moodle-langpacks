@@ -70,6 +70,8 @@ $string['coursetemplatename'] = '上传之后，从这个课程开始恢复';
 $string['coursetemplatename_help'] = '输入一个已有的课程简称作为模板使用';
 $string['coursetorestorefromdoesnotexist'] = '要恢复的课程来源不存在';
 $string['courseupdated'] = '课程已更新';
+$string['courseuploadnotallowed'] = '没有权限上传类别：{$a}中的课程';
+$string['courseuploadupdatenotallowed'] = '存在一个具有此短名称的课程，所以您不能使用上传课程功能来更新它。';
 $string['createall'] = '建立全部，若需要增加简称';
 $string['createnew'] = '仅创建新课程，忽略已经存在的课程';
 $string['createorupdate'] = '创建新课程，或者更新已经存在的课程';
@@ -131,6 +133,7 @@ $string['updatemodedoessettonothing'] = '更新模式不允许任何东西被更
 $string['updateonly'] = '仅更新已存在的课程';
 $string['updatewithdataonly'] = '只以CSV文档资料来更新';
 $string['updatewithdataordefaults'] = '以CSV文档资料和默认值来更新';
+$string['uploadcourse:use'] = '使用上传课程工具';
 $string['uploadcourses'] = '上传课程';
 $string['uploadcourses_help'] = '课程可以通过文本文件上传。文件的格式应如下所示：
 
