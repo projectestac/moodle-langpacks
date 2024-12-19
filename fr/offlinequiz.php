@@ -118,18 +118,18 @@ $string['correctionerrors'] = 'Formulaires avec des erreurs de correction :';
 $string['correctionform'] = 'Formulaire de correction';
 $string['correctionforms'] = 'Formulaires de correction';
 $string['correctionheader'] = 'Correction';
-$string['correctionheader_help'] = '<p>Les formulaires de réponse affichés ici nécessitent votre attention et doivent être corrigés manuellement. Une évaluation automatique n\'est pas possible.</p>
+$string['correctionheader_help'] = '<p>Les formulaires de réponse affichés ici nécessitent votre attention et doivent être corrigés manuellement. Une évaluation automatique n’est pas possible.</p>
 <u>Les erreurs suivantes peuvent se produire...</u>
 <ul>
-  <li><strong>Marquages inexacts</strong> : certaines notes n\'ont pas pu être évaluées.</li>
-  <li><strong>Numéro de groupe non valide :</strong> Le numéro de groupe n\'a pas pu être évalué.</li>
-  <li><strong>Numéro de page invalide :</strong> le numéro de page n\'a pas pu être évalué.</li>
+  <li><strong>Marquages inexacts</strong> : certaines notes n’ont pas pu être évaluées.</li>
+  <li><strong>Numéro de groupe non valide :</strong> Le numéro de groupe n’a pas pu être évalué.</li>
+  <li><strong>Numéro de page invalide :</strong> le numéro de page n’a pas pu être évalué.</li>
   <li><strong>Non ajusté :</strong> le formulaire de réponse a été numérisé de travers et ne peut pas être évalué.</li>
   <li><strong>Un résultat différent existe :</strong> un résultat évalué avec un numéro de groupe différent existe déjà.</li>
-  <li><strong>Pages incomplètes :</strong> La feuille de réponses actuelle a été évaluée, mais il manque au moins une feuille supplémentaire pour compléter l\'évaluation du participant identifié. (Se produit uniquement avec les formulaires de réponse de plusieurs pages.)</li>
+  <li><strong>Pages incomplètes :</strong> La feuille de réponses actuelle a été évaluée, mais il manque au moins une feuille supplémentaire pour compléter l’évaluation du participant identifié. (Se produit uniquement avec les formulaires de réponse de plusieurs pages.)</li>
   <li><strong>Le résultat existe :</strong> un résultat évalué existe déjà.</li>
-  <li><strong>Utilisateur absent du cours</strong> : le participant identifié n\'est pas actuellement inscrit au cours.</li>
-  <li><strong>L\'utilisateur n\'existe pas :</strong> Le participant identifié est inconnu.</li>
+  <li><strong>Utilisateur absent du cours</strong> : le participant identifié n’est pas actuellement inscrit au cours.</li>
+  <li><strong>L’utilisateur n’existe pas :</strong> Le participant identifié est inconnu.</li>
 </ul>';
 $string['correctionoptionsheading'] = 'Options de correction';
 $string['correctupdated'] = 'Formulaire de correction mis à jour pour le groupe {$a}.';
@@ -158,7 +158,7 @@ $string['decimalplaces_help'] = 'Ce réglage vous permet de choisir le nombre de
 $string['defaultparticipantsusage'] = 'Enregistrer présence';
 $string['defaultparticipantsusagedesc'] = 'Détermine si les présences doivent être enregistrées avec les listes de présence par défaut.';
 $string['defaultpdffont'] = 'Police du formulaire par défaut';
-$string['defaultpdffont_help'] = 'La police par défaut que le questionnaire hors ligne utilisera pour les formulaires. Vous souhaiterez peut-être télécharger manuellement le package tcpdf et extraire son répertoire fonts/ dans votre $CFG->dataroot/fonts/ pour plus de polices. Il est recommandé d\'utiliser Freeserif par défaut car il prend en charge la plupart des caractères. Voir https://www.gnu.org/software/freefont/coverage.html pour la liste complète de compatibilité.';
+$string['defaultpdffont_help'] = 'La police par défaut que le questionnaire hors ligne utilisera pour les formulaires. Vous souhaiterez peut-être télécharger manuellement le package tcpdf et extraire son répertoire fonts/ dans votre $CFG->dataroot/fonts/ pour plus de polices. Il est recommandé d’utiliser Freeserif par défaut car il prend en charge la plupart des caractères. Voir https://www.gnu.org/software/freefont/coverage.html pour la liste complète de compatibilité.';
 $string['defaultpdffontsize'] = 'Taille de police par défaut';
 $string['defaultpdffontsize_help'] = 'La taille de police par défaut que tous les formulaires utiliseront.';
 $string['deletelistcheck'] = 'Voulez-vous vraiment supprimer la liste sélectionnée et tous ses participants ?';
@@ -486,7 +486,7 @@ $string['partuncheckedwithoutresult'] = '{$a} participants non cochés sans rés
 $string['partuncheckedwithresult'] = '<a href="{$a->url}">{$a->count} participants non cochés avec un résultat</a>';
 $string['pdfdeletedforgroup'] = 'Formulaire pour le groupe {$a} supprimé';
 $string['pdffont'] = 'Police du formulaire';
-$string['pdffont_help'] = 'Ici, vous pouvez choisir une police pour tous vos formulaires PDF : formulaires de réponse, formulaires de correction, formulaires de présence. Ainsi que des formulaires de questions, si vous choisissez un format PDF. Le choix doit également dépendre des caractères que vous utilisez dans vos formulaires. Avec les formats DOCX et LATEX les fiches de questions n\'en sont pas affectées.';
+$string['pdffont_help'] = 'Ici, vous pouvez choisir une police pour tous vos formulaires PDF : formulaires de réponse, formulaires de correction, formulaires de présence. Ainsi que des formulaires de questions, si vous choisissez un format PDF. Le choix doit également dépendre des caractères que vous utilisez dans vos formulaires. Avec les formats DOCX et LATEX les fiches de questions n’en sont pas affectées.';
 $string['pdfintro'] = 'Informations additionnelles';
 $string['pdfintro_help'] = 'Ces informations seront imprimées sur la première page de la feuille de questions et doivent contenir des informations générales sur la manière de remplir la grille des réponses.';
 $string['pdfintrotext'] = '<b>Important :</b><br />Reportez vos réponses sur la grille de réponses ! Elle sera scannée automatiquement. Attention de ne pas la plier ni la tacher. Utilisez un stylo noir ou bleu pour remplir les champs. Pour corriger une case cochée, remplissez complètement la case de couleur : elle sera interprétée comme non cochée.<br />';
@@ -892,46 +892,46 @@ $string['totalpointsx'] = 'Total des points : {$a}';
 $string['totalquestionsinrandomqcategory'] = 'Total des {$a} questions de la catégorie.';
 $string['trigger'] = 'bornes basse/haute';
 $string['tutorial'] = 'Tutoriel sur les QCMs papiers';
-$string['tutorial:feedback:1:1'] = 'Il n\'y a aucune question sur le formulaire de réponse. Le formulaire de réponse contient uniquement les cases pour marquer vos réponses.';
-$string['tutorial:feedback:1:2'] = 'La disposition de la feuille de questions ne doit pas nécessairement être exactement la même que celle de la capture d\'écran. Il s\'agit uniquement de vous montrer les questions et elles ne sont pas numérisées après l\'examen.';
-$string['tutorial:feedback:2:1'] = 'Cette croix est trop pâle. Il est possible qu\'elle ne soit pas scannée correctement.';
+$string['tutorial:feedback:1:1'] = 'Il n’y a aucune question sur le formulaire de réponse. Le formulaire de réponse contient uniquement les cases pour marquer vos réponses.';
+$string['tutorial:feedback:1:2'] = 'La disposition de la feuille de questions ne doit pas nécessairement être exactement la même que celle de la capture d’écran. Il s’agit uniquement de vous montrer les questions et elles ne sont pas numérisées après l’examen.';
+$string['tutorial:feedback:2:1'] = 'Cette croix est trop pâle. Il est possible qu’elle ne soit pas scannée correctement.';
 $string['tutorial:feedback:2:2'] = 'Une croix de largeur de ligne normale sera toujours interprétée correctement.';
 $string['tutorial:feedback:2:3'] = 'Une croix épaisse pourrait être interprétée comme ayant été corrigée (complètement remplie).';
 $string['tutorial:feedback:2:4'] = 'Une case vide ne sera jamais interprétée comme une croix.';
 $string['tutorial:feedback:2:5'] = 'Une case entièrement remplie est interprétée exactement de la même manière qu’une case vide.';
-$string['tutorial:feedback:3:1'] = 'Seules les croix dans les cases sont scannées. C\'est pourquoi il est si important de cocher les bonnes cases sous votre numéro d\'immatriculation.';
-$string['tutorial:feedback:3:2'] = 'Seules les croix dans les cases sont scannées. C\'est pourquoi il est si important de cocher les bonnes cases sous votre numéro d\'immatriculation.';
-$string['tutorial:feedback:3:3'] = 'Seules les croix dans les cases sont scannées. C\'est pourquoi il est si important de cocher les bonnes cases sous votre numéro d\'immatriculation.';
-$string['tutorial:feedback:3:4'] = 'Seules les croix dans les cases sont scannées. C\'est pourquoi il est si important de cocher les bonnes cases sous votre numéro d\'immatriculation.';
-$string['tutorial:feedback:4:0'] = 'Vous avez commis une erreur. Votre numéro d\'immatriculation est {$a->correctusernumber}, mais vous avez marqué {$a->selectedusernumber}';
+$string['tutorial:feedback:3:1'] = 'Seules les croix dans les cases sont scannées. C’est pourquoi il est si important de cocher les bonnes cases sous votre numéro d’immatriculation.';
+$string['tutorial:feedback:3:2'] = 'Seules les croix dans les cases sont scannées. C’est pourquoi il est si important de cocher les bonnes cases sous votre numéro d’immatriculation.';
+$string['tutorial:feedback:3:3'] = 'Seules les croix dans les cases sont scannées. C’est pourquoi il est si important de cocher les bonnes cases sous votre numéro d’immatriculation.';
+$string['tutorial:feedback:3:4'] = 'Seules les croix dans les cases sont scannées. C’est pourquoi il est si important de cocher les bonnes cases sous votre numéro d’immatriculation.';
+$string['tutorial:feedback:4:0'] = 'Vous avez commis une erreur. Votre numéro d’immatriculation est {$a->correctusernumber}, mais vous avez marqué {$a->selectedusernumber}';
 $string['tutorial:feedback:4:1'] = 'Vous avez terminé avec succès ce tutoriel.';
 $string['tutorial:feedback:correct'] = 'Correct !';
 $string['tutorial:feedback:wrong'] = 'Faux !';
-$string['tutorial:generatedusernumberwarning'] = 'Il s\'agit d\'un numéro d\'immatriculation généré puisque votre compte n\'en a pas !';
+$string['tutorial:generatedusernumberwarning'] = 'Il s’agit d’un numéro d’immatriculation généré puisque votre compte n’en a pas !';
 $string['tutorial:header:1'] = '1. Feuilles de questions et formulaires de réponses';
 $string['tutorial:header:2'] = '2. Croix et corrections';
 $string['tutorial:header:3'] = '3. Le formulaire de réponse';
-$string['tutorial:header:4'] = '4. Marquage de votre numéro d\'immatriculation';
+$string['tutorial:header:4'] = '4. Marquage de votre numéro d’immatriculation';
 $string['tutorial:header:5'] = '5. Enfin...';
-$string['tutorial:introduction:1'] = 'Lors de l\'examen, vous recevrez deux feuilles : une avec les questions et une avec des cases sur lesquelles noter vos réponses. Les questions sont numérotées, tout comme les cases du formulaire de réponse. Chaque réponse est marquée d\'une lettre. Après l\'examen, le formulaire de réponse est scanné et interprété par un ordinateur.';
+$string['tutorial:introduction:1'] = 'Lors de l’examen, vous recevrez deux feuilles : une avec les questions et une avec des cases sur lesquelles noter vos réponses. Les questions sont numérotées, tout comme les cases du formulaire de réponse. Chaque réponse est marquée d’une lettre. Après l’examen, le formulaire de réponse est scanné et interprété par un ordinateur.';
 $string['tutorial:introduction:2:1'] = 'Les cases de la feuille de réponses font 5 millimètres de large. Les cases appartenant à la même question sont sur une seule ligne. Le numéro de la question se trouve à gauche et la lettre correspondant à la réponse se trouve en haut de la colonne.';
 $string['tutorial:introduction:2:2'] = 'Utilisez un stylo noir ou bleu pour marquer les champs. Si vous souhaitez corriger une marque, remplissez complètement la case. Ce champ sera alors interprété comme une case vide.';
-$string['tutorial:introduction:3:1'] = 'Le formulaire de réponse contient un bloc pour votre nom (A), un bloc pour votre numéro de matricule (B) et un bloc pour les réponses (C). Remplissez d\'abord les cases contenant votre nom, votre signature et votre numéro d\'immatriculation. Notez que la machine n’essaiera pas d’interpréter votre écriture après l’examen. Ces cases sont uniquement à des fins de documentation.';
-$string['tutorial:introduction:3:2'] = 'Cochez soigneusement les cases correspondant à votre numéro d\'immatriculation, car l\'ordinateur aura besoin de ces marques pour identifier vos résultats. Des erreurs dans le bloc avec votre numéro d\'immatriculation peuvent entraîner des retards et des interprétations erronées.';
-$string['tutorial:introduction:4'] = 'A la fin de ce tutoriel nous vous proposons un petit test où vous pourrez apprendre à remplir correctement les notes de votre numéro de matricule. Sous la case correspondant à votre numéro d’immatriculation se trouve une matrice de cases. Chaque colonne représente un chiffre de votre numéro d\'immatriculation. Les lignes marquent les chiffres écrits à gauche et à droite. Cliquez sur les cases pour les marquer. Cliquez à nouveau pour supprimer votre marque. Si vous souhaitez recommencer, veuillez <a href="javascript: document.location.reload()">recharger la page</a>.';
-$string['tutorial:introduction:5'] = 'N\'oubliez pas que les formulaires de réponse sont interprétés par un ordinateur. Cette machine ne peut pas lire tout ce que vous écrivez à côté des cases. Pour le programme informatique, tout ce qui se trouve en dehors des cases n\'est qu\'un endroit qui empêche la machine d\'interpréter correctement le formulaire. Vous vous pénalisez si vous ne placez pas les marques correctement.';
+$string['tutorial:introduction:3:1'] = 'Le formulaire de réponse contient un bloc pour votre nom (A), un bloc pour votre numéro de matricule (B) et un bloc pour les réponses (C). Remplissez d’abord les cases contenant votre nom, votre signature et votre numéro d’immatriculation. Notez que la machine n’essaiera pas d’interpréter votre écriture après l’examen. Ces cases sont uniquement à des fins de documentation.';
+$string['tutorial:introduction:3:2'] = 'Cochez soigneusement les cases correspondant à votre numéro d’immatriculation, car l’ordinateur aura besoin de ces marques pour identifier vos résultats. Des erreurs dans le bloc avec votre numéro d’immatriculation peuvent entraîner des retards et des interprétations erronées.';
+$string['tutorial:introduction:4'] = 'A la fin de ce tutoriel nous vous proposons un petit test où vous pourrez apprendre à remplir correctement les notes de votre numéro de matricule. Sous la case correspondant à votre numéro d’immatriculation se trouve une matrice de cases. Chaque colonne représente un chiffre de votre numéro d’immatriculation. Les lignes marquent les chiffres écrits à gauche et à droite. Cliquez sur les cases pour les marquer. Cliquez à nouveau pour supprimer votre marque. Si vous souhaitez recommencer, veuillez <a href="javascript: document.location.reload()">recharger la page</a>.';
+$string['tutorial:introduction:5'] = 'N’oubliez pas que les formulaires de réponse sont interprétés par un ordinateur. Cette machine ne peut pas lire tout ce que vous écrivez à côté des cases. Pour le programme informatique, tout ce qui se trouve en dehors des cases n’est qu’un endroit qui empêche la machine d’interpréter correctement le formulaire. Vous vous pénalisez si vous ne placez pas les marques correctement.';
 $string['tutorial:option:1:1'] = 'Un formulaire de réponse';
 $string['tutorial:option:1:2'] = 'Une feuille de questions';
-$string['tutorial:option:3:1'] = 'Le système lit votre nom à l\'aide d\'un logiciel de reconnaissance optique de caractères.';
-$string['tutorial:option:3:2'] = 'Votre signature est numérisée à l\'aide d\'un logiciel utilisé pour les empreintes digitales dans les enquêtes criminelles';
+$string['tutorial:option:3:1'] = 'Le système lit votre nom à l’aide d’un logiciel de reconnaissance optique de caractères.';
+$string['tutorial:option:3:2'] = 'Votre signature est numérisée à l’aide d’un logiciel utilisé pour les empreintes digitales dans les enquêtes criminelles';
 $string['tutorial:option:3:3'] = 'Seules les croix dans les cases sous votre numéro de matricule sont interprétées.';
-$string['tutorial:option:3:4'] = 'Le système lit votre numéro de matricule à l\'aide d\'un logiciel de reconnaissance optique de caractères.';
+$string['tutorial:option:3:4'] = 'Le système lit votre numéro de matricule à l’aide d’un logiciel de reconnaissance optique de caractères.';
 $string['tutorial:question:1'] = 'Cette image montre :';
 $string['tutorial:question:2'] = 'Quelle marque sera certainement interprétée comme une croix ?';
 $string['tutorial:question:3'] = 'Comment l’ordinateur attribue-t-il le formulaire de réponse à la bonne personne ?';
 $string['tutorial:question:4'] = 'Numéro de matricule';
 $string['tutorial:question:5'] = 'Bonne chance !';
-$string['tutorial:questionsheet:1'] = '1)&nbsp;&nbsp; Combien de documents de quiz hors ligne vous seront remis lors d\'un examen ?';
+$string['tutorial:questionsheet:1'] = '1)&nbsp;&nbsp; Combien de documents de quiz hors ligne vous seront remis lors d’un examen ?';
 $string['tutorial:questionsheet:1:5'] = 'e)&nbsp;&nbsp;4';
 $string['tutorial:questionsheet:1:marks'] = '(Points: 1)';
 $string['tutorial:questionsheet:2'] = '2)&nbsp;&nbsp; Quel contenu est disponible sur un questionnaire du quiz offline ?';

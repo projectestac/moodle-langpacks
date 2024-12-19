@@ -153,7 +153,7 @@ $string['cliincorrectvalueerror'] = 'Errorea, "{$a->value}" balioa ez da egokia 
 $string['cliincorrectvalueretry'] = 'Balio ezegokia, mesedez saiatu berriro';
 $string['clistatusdisabled'] = 'Egoera: desgaituta';
 $string['clistatusenabled'] = 'Egoera: gaituta';
-$string['clistatusenabledlater'] = 'egoera: CLI mantenu-modua gaituko da hemen: {$a}';
+$string['clistatusenabledlater'] = 'egoera: CLI mantenu-modua gaituko da {$a} barru';
 $string['clitypevalue'] = 'Sartu balioa';
 $string['clitypevaluedefault'] = 'sartu balioa, sakatu Enter-i lehenetsitako balioa erabiltzeko ({$a})';
 $string['cliunknowoption'] = 'Aukera ezezagunak:
@@ -870,7 +870,7 @@ $string['logstoressupported'] = 'Txosten hau onartzen duten agerraldi-biltegiak'
 $string['longtimewarning'] = '<b>Mesedez, kontuan hartu prozesu hau oso luzea izan daitekeela.</b>';
 $string['mailnewline'] = 'Lerro berriaren karaktereak e-mailean';
 $string['maintenancemode'] = 'Mantenu-moduan';
-$string['maintenancemodeisscheduled'] = 'Gune hau mantenu-modura aldatuko da {$a->min} minutu eta {$a->sec} segundotan';
+$string['maintenancemodeisscheduled'] = 'Gune hau mantenu-moduan jarriko da {$a->min} minutu eta {$a->sec} segundotan';
 $string['maintenancemodeisscheduledlong'] = 'Gune hau mantenu-moduan jarriko da {$a->hour} ordu, {$a->min} minutu eta {$a->sec} segundo barru';
 $string['maintfileopenerror'] = 'Errorea mantenu-fitxategiak irekitzean';
 $string['maintinprogress'] = 'Mantenu-lana martxan dago...';
@@ -1323,12 +1323,12 @@ $string['simplexmlrequired'] = 'Moodlek orain beharrezkoa du SimpleXML PHP hedap
 $string['sitemailcharset'] = 'Karaktere-multzoa';
 $string['sitemaintenance'] = 'Gune hau mantenuan dago eta oraingoz ez da eskuragarria';
 $string['sitemaintenancemode'] = 'Mantenu-modua';
-$string['sitemaintenanceoff'] = 'Mantenu-modua ez dago indarrean eta gunea berriro normaltasunez funtzionatzen ari da';
-$string['sitemaintenanceon'] = 'Gunea mantenu-moduan dago (sarbidea kudeatzaileek dute soilik).';
-$string['sitemaintenanceoncli'] = 'Zure gunea  CLI mantenu-moduan dago, ez da web bidezko sarbiderik onartzen.';
+$string['sitemaintenanceoff'] = 'Mantenu-modua desgaitu da eta gunea berriro normaltasunez funtzionatzen ari da';
+$string['sitemaintenanceon'] = 'Zure gunea mantenu-moduan dago une honetan (kudeatzaileek soilik dute sarbidea).';
+$string['sitemaintenanceoncli'] = 'Zure gunea CLI mantenu-moduan dago, ez da web bidezko sarbiderik onartzen.';
 $string['sitemaintenancetitle'] = '{$a} mantenu-moduan dago';
-$string['sitemaintenancewarning'] = 'Gunea mantenu-moduan dago (sarbidea kudeatzaileek dute soilik). Berriro martxan jartzeko, <a href="maintenance.php">mantenu-modua desaktibatu</a>.';
-$string['sitemaintenancewarning2'] = 'Zure gunea une honetan mantenu-moduan dago (kudeatzaileek baino ezin dute saioa hasi). Gune hau egoera normalera itzultzeko, <a href="{$a}">mantenu-modua desgaitu</a>.';
+$string['sitemaintenancewarning'] = 'Zure gunea mantenu-moduan dago (kudeatzaileek soilik dute sarbidea). Berriro martxan jartzeko, <a href="maintenance.php">mantenu-modua desaktibatu</a>.';
+$string['sitemaintenancewarning2'] = 'Zure gunea une honetan mantenu-moduan dago (kudeatzaileek soilik dute sarbidea). Gune hau egoera normalera itzultzeko, <a href="{$a}">desgaitu ezazu mantenu-modua</a>.';
 $string['sitemenubar'] = 'Guneko nabigazioa';
 $string['sitenameintitle'] = 'Txertatu gunearen izena orriaren izenburuan';
 $string['sitenameintitle_help'] = 'Ezarpen honek gunearen izena gehituko du orriaren izenburuaren amaieran. Gomendagarria da orriaren izenburuan gunearen izena txertatzea honek gunearen irisgarritasuna hobetuko duelako erabiltzaileei une bakoitzean dauden orria modu errazean identifikatzen lagunduko dielako.';

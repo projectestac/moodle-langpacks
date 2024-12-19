@@ -45,8 +45,8 @@ $string['prefix_help'] = 'Acest prefix este utilizat pentru toate numele cheilor
 $string['prefixinvalid'] = 'Prefixul nu este valid. Puteți folosi doar a-z A-Z 0-9-_.';
 $string['privacy:metadata:redis'] = 'Plugin-ul Redis cachestore stochează datele pe scurt, ca parte a funcționalității sale de cache. Aceste date sunt stocate pe un server Redis unde datele sunt eliminate în mod regulat.';
 $string['privacy:metadata:redis:data'] = 'Diferitele date stocate în cache';
-$string['serializer_igbinary'] = 'Serializatorul igbinary.';
-$string['serializer_php'] = 'Serializatorul PHP implicit.';
+$string['serializer_igbinary'] = 'Serializator igbinary';
+$string['serializer_php'] = 'Serializator PHP implicit';
 $string['server'] = 'Server(e)';
 $string['server_help'] = 'Server Redis de folosit pentru testare.
 

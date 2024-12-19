@@ -456,6 +456,7 @@ $string['searchresults'] = 'Entradas que continen "{$a}"';
 $string['selectedrequired'] = 'Se requieren todos los seleccionados';
 $string['selectexportoptions'] = 'Seleccionar opciones de exportación';
 $string['selectfields'] = 'Seleccionar campos';
+$string['selectfordeletion'] = 'Seleccione entrada a borrar';
 $string['showall'] = 'Mostrar todas las entradas';
 $string['showmore'] = 'Mostrar más';
 $string['single'] = 'Ver individual';

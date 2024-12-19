@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Erreur de configuration';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'Votre navigateur n’autorise cette fonctionnalité que lors d’une connexion HTTPS ou locale.';
 $string['insecurealert_title'] = 'Connexion non sécurisée !';
+$string['kbrate'] = '{$a} kbit/s';
 $string['maxfilesizehit'] = 'Vous avez atteint le quota limite pour le dépôt de fichiers.';
 $string['maxfilesizehit_title'] = 'Enregistrement arrêté';
 $string['norecordingfound'] = 'Erreur inattendue ; l’enregistrement a échoué.';

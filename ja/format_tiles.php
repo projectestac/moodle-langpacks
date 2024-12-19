@@ -244,7 +244,6 @@ $string['imagedeletedfrom'] = '"{$a}"から画像が削除されました。';
 $string['imagesavedfor'] = '画像がタイル{$a}に保存されました';
 $string['imagesize'] = '画像サイズ';
 $string['jsactivate'] = 'アニメーション付きナビゲーション「オン」';
-$string['jsdeactivate'] = 'アニメーション付きナビゲーション「オフ」';
 $string['jsdeactivated'] = 'あなたのアカウントでアニメーション付きナビゲーションを無効にしました。';
 $string['jsnavsettings'] = 'JavaScriptナビゲーション';
 $string['jsreactivated'] = 'あなたのアカウントでは、アニメーション付きナビゲーションが有効になっています。こちらの方が早いかもしれません。JavaScriptを有効にする必要があります。';

@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = 'HTML tidy';
 $string['privacy:metadata'] = 'De HTML opschonenplugin bewaart geen persoonlijke gegevens.';
+$string['tidyextensionrequired'] = 'Om deze filter te kunnen gebruiken, met de "tidy" extensie van PHP geïnstalleerd zijn.';

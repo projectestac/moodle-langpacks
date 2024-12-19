@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_helixfeedback', language 'eu', version '4.4'.
+ * Strings for component 'quizaccess_onesession', language 'zh_cn', version '4.4'.
  *
- * @package     assignfeedback_helixfeedback
+ * @package     quizaccess_onesession
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,11 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['add_feedback'] = 'Gehitu Feedbacka';
-$string['default'] = 'Gaituta modu lehenetsian';
-$string['default_help'] = 'Markatuz gero, zeregin berri guztietan feedback metodo hau gaituta egongo da modu lehenetsian.';
-$string['enabled'] = 'Bideo Feedbacka';
-$string['enabled_help'] = 'Gaituz gero, ebaluatzaileak bidalketa bakoitzarentzako bideo-feedbacka utzi ahalko du.';
-$string['pluginname'] = 'MEDIAL Bideo Feedbacka';
-$string['privacy:metadata'] = 'MEDIAL Bideo Feedbacka pluginak ez du datu pertsonalik biltzen.';
-$string['view_feedback'] = 'Ikusi Bideo Feedbacka';
+$string['studentinfo'] = '重要提醒！！！
+在作答过程中禁止更换设备。请注意，开始作答后，同一账号使用其他计算机、设备（手机等）和浏览器试图访问本测验的任何行为都将会被阻止。
+请注意，千万不要在作答过程中，关闭当前测验的浏览器窗口。如果未完成作答而关闭了浏览器窗口，你将无法再继续作答来完成测验。';

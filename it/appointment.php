@@ -162,6 +162,7 @@ $string['eventsignup'] = 'Prenotazione sessione';
 $string['eventupdatesession'] = 'Aggiornamento sessione';
 $string['full'] = 'La data è al completo';
 $string['fullfilter'] = 'Completo';
+$string['fullybooked'] = 'Al completo';
 $string['goback'] = 'Indietro';
 $string['icalendarheading'] = 'Allegati iCal';
 $string['joinwaitlist'] = 'Entra in lista di attesa';

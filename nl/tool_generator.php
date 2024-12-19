@@ -74,6 +74,7 @@ $string['progress_createcourse'] = 'Cursus maken ({$a})';
 $string['progress_createforum'] = 'Forumberichten maken ({$a} berichten)';
 $string['progress_createpages'] = 'Pagina\'s maken ({$a})';
 $string['progress_createsmallfiles'] = 'Kleine bestanden maken ({$a})';
+$string['progress_createusers'] = 'Gebruikersaccounts maken ({$a})';
 $string['progress_enrol'] = 'Gebruikers in cursus aanmelden ({$a})';
 $string['progress_sitecompleted'] = 'Site voltooid ({$a}s)';
 $string['shortsize_0'] = 'XS';

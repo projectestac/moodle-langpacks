@@ -45,8 +45,8 @@ $string['prefix_help'] = 'Deze prefix wordt gebruikt voor alle sleutelnamen op d
 $string['prefixinvalid'] = 'Ongeldige prefix. Je mag alleen a-z A-Z 0-9-_ gebruiken.';
 $string['privacy:metadata:redis'] = 'De Redis cache store bewaart gegevens kort als deel van zijn cachingsfunctie. Deze gegevens worden bewaard op een Redis-server en daar regelmatig gewist.';
 $string['privacy:metadata:redis:data'] = 'De gegevens die in cache bewaard worden';
-$string['serializer_igbinary'] = 'De igbinary-serializer.';
-$string['serializer_php'] = 'De standaard PHP-serializer.';
+$string['serializer_igbinary'] = 'Igbinary-serializer.';
+$string['serializer_php'] = 'Standaard PHP-serializer.';
 $string['server'] = 'Server(s)';
 $string['server_help'] = 'Dit stelt de hostnaam, IP-adres of Unix-socket in van de te gebruiken Redis-server.
 

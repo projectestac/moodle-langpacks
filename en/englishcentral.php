@@ -167,6 +167,7 @@ $string['noconnection'] = 'WARNING: Your Moodle site cannot currently connect to
 $string['nocredentials'] = 'Poodll API user and secret not entered. Please enter them on <a href="{$a}">the settings page.</a> You can get them from <a href="https://poodll.com/member" target="EC">Poodll.com.</a>';
 $string['nodataavailable'] = 'No data available';
 $string['noenglishcentrals'] = 'Sorry, there are no EnglishCentral activities in this course.';
+$string['noitemsfound'] = 'No videos found. Please try a different search.';
 $string['noprogressreport'] = 'Sorry, but there is no progress to report.';
 $string['nosubscriptions'] = 'There is no current subscription for this site/plugin.';
 $string['notavailable'] = 'Sorry, this activity is not currently avialable to you.';

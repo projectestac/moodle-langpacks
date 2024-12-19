@@ -271,6 +271,7 @@ $string['viewfullnotification'] = 'Bekijk het volledige bericht';
 $string['viewmessageswith'] = 'Bekijk berichten met {$a}';
 $string['viewnotificationresource'] = 'Ga naar: {$a}';
 $string['viewunreadmessageswith'] = 'Bekijk ongelezen berichten met {$a}';
+$string['waitingforcontactaccept'] = 'Wacht op toevoeging als contact';
 $string['wouldliketocontactyou'] = 'Zou graag contact met je opnemen';
 $string['writeamessage'] = 'Schrijf een bericht...';
 $string['you'] = 'Jij:';

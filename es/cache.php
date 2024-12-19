@@ -78,6 +78,7 @@ $string['cachedef_message_processors_enabled'] = 'Estado habilitado de procesado
 $string['cachedef_message_time_last_message_between_users'] = 'Hora de creación del mensaje más reciente en una conversación';
 $string['cachedef_modelfirstanalyses'] = 'Primer análisis por modelo y analizable';
 $string['cachedef_moodlenet_usercanshare'] = 'Los usuarios pueden compartir recursos en MoodleNet';
+$string['cachedef_navigation_cache'] = 'Caché de navegación';
 $string['cachedef_navigation_expandcourse'] = 'Cursos expandibles en la navegación';
 $string['cachedef_observers'] = 'Observadores del evento';
 $string['cachedef_plugin_functions'] = 'Llamadas de retorno disponibles de Plugins';

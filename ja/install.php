@@ -26,12 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['admindirerror'] = '指定されたadminディレクトリが正しくありません。';
-$string['admindirname'] = 'Adminディレクトリ';
-$string['admindirsetting'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURLとして/adminディレクトリを使用しているウェブホストがあります。残念ですが、これはMoodle管理ページの標準的なロケーションと衝突します。あなたはインストール時にadminディレクトリをリネームすることができます。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirname'] = 'adminディレクトリ';
+$string['admindirsetting'] = 'まれにコントロールパネルまたはその他の管理ツールにアクセスするためのURLとして「/admin」ディレクトリを使用しているウェブホストがあります。残念ですが、これはMoodle管理ページの標準的なロケーションと衝突します。あなたはインストール時にadminディレクトリをリネームできます。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
 これでMoodleでのadminへのリンクを変更します。';
-$string['admindirsettinghead'] = '管理ディレクトリの設定中 ...';
-$string['admindirsettingsub'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURLとして/adminディレクトリを使用しているウェブホストがあります。残念ですが、これはMoodle管理ページの標準的なロケーションと衝突します。あなたはインストール時にadminディレクトリをリネームすることができます。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
-これでMoodleでのadminへのリンクを変更します。';
+$string['admindirsettinghead'] = 'adminディレクトリ設定中 ...';
+$string['admindirsettingsub'] = 'まれにコントロールパネルまたはその他の管理ツールにアクセスするためのURLとして/adminディレクトリを使用しているウェブホストがあります。残念ですが、これはMoodle管理ページの標準的なロケーションと衝突します。あなたはインストール時にadminディレクトリをリネームできます。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
+これでMoodleでのadminへのリンクが修正されます。';
 $string['availablelangs'] = '利用可能な言語パック';
 $string['caution'] = '警告';
 $string['chooselanguage'] = '言語を選択してください。';

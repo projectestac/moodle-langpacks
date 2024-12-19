@@ -259,7 +259,6 @@ $string['imagedeletedfrom'] = 'A imagem de "{$a}" foi apagada';
 $string['imagesavedfor'] = 'Imagem guardada para {$a}';
 $string['imagesize'] = 'Tamanho da imagem';
 $string['jsactivate'] = 'Navegação animada - desativar';
-$string['jsdeactivate'] = 'Navegação animada - ativar';
 $string['jsdeactivated'] = 'Navegação animada desativada';
 $string['jsnavsettings'] = 'Navegação com JavaScript';
 $string['jsreactivated'] = 'Ativou a navegação animada. Esta funcionalidade pode resultar numa navegação mais rápida. Requer o JavaScript ativado.';

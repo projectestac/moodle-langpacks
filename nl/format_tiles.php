@@ -259,7 +259,6 @@ $string['imagedeletedfrom'] = 'Afbeelding verwijderd van "{$a}"';
 $string['imagesavedfor'] = 'Afbeelding bewaard voor {$a}';
 $string['imagesize'] = 'Afmeting afbeelding';
 $string['jsactivate'] = 'Geanimeerde navigatie - zet uit';
-$string['jsdeactivate'] = 'Geanimeerde navigatie - zet aan';
 $string['jsdeactivated'] = 'Je hebt geanimeerde navigatie uitgeschakeld in je account';
 $string['jsnavsettings'] = 'JavaScriptnavigatie';
 $string['jsreactivated'] = 'Je hebt geanimeerde navigatie ingeschakeld in je account. Dit kan sneller zijn in gebruik. Het vereist dat JavaScript ingeschakeld staat.';

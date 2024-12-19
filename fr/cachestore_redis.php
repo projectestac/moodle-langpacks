@@ -45,8 +45,8 @@ $string['prefix_help'] = 'Ce préfixe est utilisé pour toutes les clefs du serv
 $string['prefixinvalid'] = 'Préfixe non valide. Les seuls caractères autorisés sont a-z A-Z 0-9-_.';
 $string['privacy:metadata:redis'] = 'Le plugin de stockage de cache Redis enregistre des données brièvement, de par sa fonction de mise en cache. Ces données sont enregistrées sur un serveur Redis, où les données sont supprimées régulièrement.';
 $string['privacy:metadata:redis:data'] = 'Les diverses données enregistrées en cache';
-$string['serializer_igbinary'] = 'Le sérialiseur igbinary.';
-$string['serializer_php'] = 'Le sérialiseur PHP par défaut.';
+$string['serializer_igbinary'] = 'Sérialiseur igbinary';
+$string['serializer_php'] = 'Sérialiseur PHP par défaut.';
 $string['server'] = 'Serveur(s)';
 $string['server_help'] = 'Le serveur Redis à utiliser pour les tests.
 

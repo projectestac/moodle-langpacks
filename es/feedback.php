@@ -44,6 +44,7 @@ $string['bold'] = 'Negrita';
 $string['calendarend'] = '{$a} cierra';
 $string['calendarstart'] = '{$a} abre';
 $string['cannotaccess'] = 'Sólo puedes acceder a este feedback desde un curso';
+$string['cannotcreatepagebreak'] = 'No se puede añadir un salto de página al principio, y sólo se puede añadir un salto de página al final.';
 $string['cannotsavetempl'] = 'No se permite guardar plantillas';
 $string['captcha'] = 'Captcha';
 $string['captchanotset'] = 'No se ha ajustado el Captcha.';
