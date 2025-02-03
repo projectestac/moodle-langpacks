@@ -73,7 +73,7 @@ $string['coursecommunication_desc'] = 'El servicio de comunicación por defecto 
 $string['coursecontentnotification'] = 'Enviar notificación de actualización de contenido';
 $string['coursecontentnotification_help'] = 'Marque la casilla para notificar a los participantes del curso sobre esta actividad o recurso nuevo o modificado. Solo los usuarios que puedan acceder a la actividad o recurso recibirán la notificación.';
 $string['coursecontentnotifnew'] = '{$a->coursename} contenido nuevo';
-$string['coursecontentnotifnewbody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> es nuevo en el curso <a href="{$a-> Courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Cambiar sus preferencias de notificación</a></p>';
+$string['coursecontentnotifnewbody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> es nuevo en el curso <a href="{$a-> courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Cambiar sus preferencias de notificación</a></p>';
 $string['coursecontentnotifupdate'] = '{$a->coursename} cambio de contenido';
 $string['coursecontentnotifupdatebody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> se ha cambiado en el curso <a href="{$a- >courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Cambiar sus preferencias de notificación</a></p>';
 $string['coursecount'] = 'Recuento de cursos';

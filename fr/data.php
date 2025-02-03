@@ -295,7 +295,7 @@ $string['missingfield'] = 'Erreur de programmation : veuillez indiquer le champ
 $string['missingfieldtype'] = 'Type de champ in trouvable pour {$a->name}';
 $string['missingfieldtypeimport'] = 'Les champs suivants n’ont pas été importés, car les types de champs correspondants ne sont pas installés :';
 $string['missingfieldtypes'] = 'Les champs suivants n’ont pas leur type de champ correspondant installé. Ils ne seront pas inclus dans le formulaire Ajouter une fiche.
-Veuillez contrôler le modèle Ajouter une fiche  et retirer les noms de ces champs.';
+Veuillez contrôler le modèle Ajouter une fiche et retirer les noms de ces champs.';
 $string['modulename'] = 'Base de données';
 $string['modulename_help'] = 'Une base de données permet aux participants de créer, afficher et rechercher une collection de fiches.
 

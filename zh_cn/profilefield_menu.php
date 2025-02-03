@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = '选择菜单';
+$string['pluginname'] = '下拉菜单';
 $string['privacy:metadata:profilefield_menu:data'] = '“用户个人资料”字段用户数据下拉菜单';
 $string['privacy:metadata:profilefield_menu:dataformat'] = '“用户个人资料”字段用户数据下拉菜单格式';
 $string['privacy:metadata:profilefield_menu:fieldid'] = '“个人资料”字段ID号';

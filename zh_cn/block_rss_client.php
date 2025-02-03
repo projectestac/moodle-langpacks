@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addfeed'] = '添加新种子链接：';
+$string['addfeed'] = '添加 RSS 源：';
 $string['addheadlineblock'] = '添加 RSS 标题块';
 $string['addnew'] = '添加新的';
 $string['addnewfeed'] = '添加一个新种子';
@@ -36,9 +36,9 @@ $string['clientnumentries'] = '缺省情况下每个种子显示多少条信息�
 $string['clientshowchannellinklabel'] = '是否显示原站链接(频道链接)?(如果在新闻种子中并未提供链接，则不会显示)';
 $string['clientshowimagelabel'] = '如果可能，显示频道的图片：';
 $string['configblock'] = '配置此区块';
-$string['couldnotfindfeed'] = '无法找到以如下 id 标识的种子';
+$string['couldnotfindfeed'] = '找不到 ID 的源';
 $string['couldnotfindloadrssfeed'] = '不能找到或者读取RSS种子';
-$string['customtitlelabel'] = '自定义题目(如果留空则使用种子内的标题)';
+$string['customtitlelabel'] = '自定义题目(如果留空则使用源内的标题)';
 $string['deletefeedconfirm'] = '您确定要删除这个种子么?';
 $string['disabledrssfeeds'] = 'RSS种子被禁用';
 $string['displaydescriptionlabel'] = '显示每个链接的描述?';

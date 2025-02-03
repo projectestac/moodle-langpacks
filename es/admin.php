@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accessdenied'] = 'Acceso denegado';
-$string['accountlocked'] = 'Su cuenta ha sido bloqueada. Se han enviado un enlace de desbloqueo al correo electrónico asociado a su cuenta.';
+$string['accountlocked'] = 'Su cuenta ha sido bloqueada. Se ha enviado un enlace de desbloqueo al correo electrónico asociado a su cuenta.';
 $string['accounts'] = 'Cuentas';
 $string['accountunlocked'] = 'Su cuenta se ha desbloqueado con éxito. Ahora puede iniciar sesión.';
 $string['addcategory'] = 'Añadir una categoría';
@@ -358,7 +358,7 @@ $string['configperfdebug'] = 'Si activa esta opción, aparecerá la información
 $string['configprofileroles'] = 'Roles listados en los perfiles de usuario y en la página de los participantes..';
 $string['configprofilesforenrolledusersonly'] = 'Para prevenir el abuso de los creadores de spam, se ocultan las descripciones del perfil de los usuarios que aún no están matriculados en ningún curso. Los usuarios nuevos deben matricularse en al menos un curso antes de que puedan agregar la descripción del perfil.';
 $string['configprotectusernames'] = 'Por defecto, forget_password.php no muestra ninguna indicación que permita adivinar nombres de usuario o direcciones de email.';
-$string['configproxybypass'] = 'Lista separada por comas de los nombres de host (parciales) o direcciones IP que deberían saltar el proxy (por ejemplo, 192.168., .mydomain.com)';
+$string['configproxybypass'] = 'Lista (parcial) de los nombres de host (parciales) o direcciones IP que deberían saltar el proxy. Separe cada elemento por comas, sin espacios. Por ejemplo, 192.168.0.0/16,*.mydomain.com.';
 $string['configproxyfixunsafe_help'] = 'Esto intenta reparar las llamadas internas que no pasan por el proxy añadiendo el agente de usuario de MoodleBot y usando el proxy.';
 $string['configproxyhost'] = 'Si este <b>servidor</b> necesita usar un proxy (e.g., un cortafuegos) para acceder a Internet, escriba aquí el nombre del proxy. En caso contrario, déjelo en blanco.';
 $string['configproxylogunsafe_help'] = 'Esto intenta registrar las llamadas internas que no pasan por el proxy y deberían.';

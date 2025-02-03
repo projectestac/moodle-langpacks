@@ -74,6 +74,7 @@ $string['publishstate_help'] = '备注上下文决定了谁可以在日常使用
 * 个人 - 只有您自己可以看见
 * 课程 - 该课程中的所有教师都可以看见
 * 网站 - 所有课程的教师都可以看见';
+$string['recipient'] = '收件人';
 $string['site'] = '全站';
 $string['sitenotes'] = '站点备注';
 $string['unknown'] = '未知';

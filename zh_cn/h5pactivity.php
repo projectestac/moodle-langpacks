@@ -30,6 +30,7 @@ $string['answer_checked'] = '已检查答案';
 $string['answer_correct'] = '您的回答正确';
 $string['answer_fail'] = '错误答案';
 $string['answer_incorrect'] = '您的回答错误';
+$string['answer_noanswer'] = '无';
 $string['answer_pass'] = '正确答案';
 $string['answer_text'] = '答案文本';
 $string['answer_unchecked'] = '未经检查的回答';

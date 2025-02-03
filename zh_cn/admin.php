@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accessdenied'] = '访问被拒绝';
+$string['accessdenied'] = '拒绝访问';
 $string['accountlocked'] = '您的账户已被锁定，解锁链接已发送到您的邮箱。';
 $string['accounts'] = '帐号';
 $string['accountunlocked'] = '您的账户已解锁，可以登录。';
@@ -363,7 +363,7 @@ $string['configperfdebug'] = '如果启用，在标准主题的页脚会显示�
 $string['configprofileroles'] = '在用户资料和参与者页面中列出的角色。';
 $string['configprofilesforenrolledusersonly'] = '为了防止个人信息被盗用，未加入任何课程的用户的信息将是隐藏的。新用户只有加入至少一门课程后，才可以添加个人信息描述。';
 $string['configprotectusernames'] = '如果启用，忘记密码表单将不会显示任何提示来允许猜测帐户用户名或电子邮件地址。';
-$string['configproxybypass'] = '半角逗号分隔的主机或IP列表。访问它们时不使用代理（例如，192.168.,.mydomain.com）';
+$string['configproxybypass'] = '半角逗号分隔的主机或IP列表。访问它们时不使用代理（例如，192.168.0.0,*.mydomain.com）';
 $string['configproxyfixunsafe_help'] = '这试图通过添加 MoodleBot 用户代理并使用代理来修复不通过代理的内部调用。';
 $string['configproxyhost'] = '如果此<b>服务器</b>是通过代理服务器(例如防火墙)上网，那么请填入代理的主机名，否则留空。';
 $string['configproxylogunsafe_help'] = '这会尝试记录不通过代理并且应该通过的内部调用。';

@@ -90,6 +90,7 @@ $string['runningfailedtasks'] = 'Запуск неудачных задач';
 $string['runningtasks'] = 'Выполняемые сейчас задачи';
 $string['runnow'] = 'Запустить сейчас';
 $string['runnow_confirm'] = 'Вы действительно хотите запустить эту задачу «{$a}» сейчас? Задача будет выполняться на веб-сервере и может занять некоторое время.';
+$string['runpattern'] = 'Пример запуска';
 $string['scheduled'] = 'Запланированная';
 $string['scheduledtaskchangesdisabled'] = 'Изменения в списке запланированных задач не разрешены в настройках Moodle';
 $string['scheduledtasks'] = 'Планировщик задач';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmdelete'] = '您确信要删除在“{$a->level}”中与角色“{$a->role}”有关的所有不支持的角色分配吗？';
+$string['confirmdelete'] = '是否确实要删除上下文级别 “{$a->role}” 中角色 “{-level}” 的所有不受支持的角色分配 “{$a->level}”？';
 $string['contextlevel'] = '场景级别';
 $string['count'] = '总数';
 $string['noprolbems'] = '没有不支持的角色分配。';

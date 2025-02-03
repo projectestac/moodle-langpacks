@@ -37,5 +37,5 @@ $string['privacy:metadata:userid'] = 'La ID del usuario a quien pertenece el est
 $string['privacy:metadata:xapi_states'] = 'Los estados de xAPI almacenados';
 $string['privacy:xapistate'] = 'estado xAPI';
 $string['xapicleanup'] = 'Limpieza de los estados de xAPI almacenados';
-$string['xapicleanupperiod'] = 'Limpierestados de xAPI';
+$string['xapicleanupperiod'] = 'Limpiar estados de xAPI';
 $string['xapicleanupperiod_help'] = 'Quitar cualquier xAPI almacena que no esté actualizado en el período seleccionado.';

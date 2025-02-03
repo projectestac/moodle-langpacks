@@ -32,9 +32,10 @@ $string['average'] = 'معدل';
 $string['categories'] = 'الاقسام';
 $string['cellalign'] = 'محاذاة الخلية';
 $string['cellsize'] = 'حجم الخلية';
-$string['comp_calcs_help'] = '</p>هنا يمكنك إضافة حسابات للخانات، على سبيل المثال: متوسط عدد المستخدمين المسجلين في الدورات التدريبية<p>
-<p>معلومات اكثر: <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Plugin documentation</a></p>';
-$string['comp_calculations_help'] = '<p> يمكنك هنا إضافة حسابات للخانات، على سبيل المثال: متوسط عدد المستخدمين المسجلين في الدورات </ p>';
+$string['comp_calcs_help'] = '<p>هنا يمكنك إضافة حسابات للأعمدة، على سبيل المثال: متوسط عدد المستخدمين المسجلين في المساقات</p>
+
+<p>مساعدة أكثر: <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Plugin documentation</a></p>';
+$string['comp_calculations_help'] = '<p>يمكنك هنا إضافة حسابات للأعمدة، على سبيل المثال: متوسط عدد المستخدمين المسجلين في المساقات</p>';
 $string['comp_columns'] = 'خانات';
 $string['comp_columns_help'] = '<p> يمكنك هنا اختيار الخانات المختلفة لتقريرك بناءً على نوع التقرير </ p>
 <p>معلومات اكثر: <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Plugin documentation</a></p>';

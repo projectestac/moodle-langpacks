@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['access_key'] = 'Zugangsschlüssel';
 $string['configplugin'] = 'Einstellungen für Amazon S3';
-$string['endpoint'] = 'Amazon S3 Endpoint';
+$string['endpoint'] = 'Amazon S3 Endpunkt';
 $string['needaccesskey'] = 'Zugangsschlüssel muss vorliegen';
 $string['pluginname'] = 'Amazon S3';
 $string['privacy:metadata'] = 'Das Amazon S3 Repository Plugin speichert keine personenbezogenen Daten. Es überträgt aber Nutzerdaten von Moodle an das externe System.';

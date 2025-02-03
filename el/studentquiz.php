@@ -93,7 +93,6 @@ $string['filter_label_approved'] = 'Εγκεκριμένες ερωτήσεις'
 $string['filter_label_comment'] = 'Σχόλια';
 $string['filter_label_createdate'] = 'Δημιουργία';
 $string['filter_label_difficulty_level'] = 'Δυσκολία';
-$string['filter_label_fast_filters'] = 'Γρήγορο φίλτρο για ερωτήσεις';
 $string['filter_label_myattempts'] = 'Οι προσπάθειές μου';
 $string['filter_label_mydifficulty'] = 'Η δυσκολία μου';
 $string['filter_label_mylastattempt'] = 'Η τελευταία μου προσπάθεια';

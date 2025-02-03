@@ -236,7 +236,6 @@ $string['icontitle-users'] = 'Люди';
 $string['icontitle-volume-up'] = 'Динамик';
 $string['icontitle-wrench'] = 'Гаечный ключ';
 $string['jsactivate'] = 'Включить анимированную навигацию';
-$string['jsdeactivate'] = 'Отключить анимированную навигацию';
 $string['jsdeactivated'] = 'Вы отключили анимированную навигацию для своей учетной записи. Вы можете повторно включить её с помощью меню навигации.';
 $string['jsnavsettings'] = 'Настройки навигации Javascript';
 $string['jsreactivated'] = 'Вы включили анимированную навигацию для своей учетной записи. Это может ускорить работу. Необходимо, чтобы был включен Javascript.';

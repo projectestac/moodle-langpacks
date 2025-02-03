@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['branding'] = 'Branding TinyMCE';
 $string['branding_desc'] = 'Sprijiniți TinyMCE afișând sigla în colțul de jos al editorului de text. Logo-ul trimite către site-ul web TinyMCE.';
+$string['extended_valid_elements'] = 'Elemente valide extinse';
+$string['extended_valid_elements_desc'] = 'Această acțiune vă permite să adăugați elemente HTML adiționale și atribute în editor.';
 $string['plugin_disabled'] = '{$a} dezactivat.';
 $string['plugin_enabled'] = '$a} activat.';
 $string['pluginname'] = 'Editor TinyMCE';

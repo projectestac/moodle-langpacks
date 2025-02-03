@@ -87,7 +87,7 @@ $string['completionentriescount'] = 'Voeg vermeldingen toe';
 $string['completionentriesdesc'] = 'Minimaal aantal ingevoerde items vereist: {$a}';
 $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor alle databanken. Je zult nog wel manueel de RSS-feeds moeten inschakelen voor elke databank.';
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
-$string['confirmdeleterecord'] = 'Je gaat deze record verwijderen. Ben je zeker?';
+$string['confirmdeleterecord'] = 'Je gaat dit item verwijderen. Ben je zeker?';
 $string['confirmdeleterecords'] = 'Weet je zeker dat je deze items wil verwijderen?';
 $string['createactivity'] = 'Maak je eigen velden om gegevens te verzamelen of gebruik een sjabloon dat al velden bevat.';
 $string['createfields'] = 'Maak velden om gegevens te verzamelen.';
@@ -96,27 +96,7 @@ $string['csstemplate'] = 'Aangepaste CSS';
 $string['csvfailed'] = 'Kon de gegevens niet ut het CSV-bestand halen';
 $string['csvfile'] = 'CSV-bestand of ZIP met CSV-bestand';
 $string['csvimport'] = 'Imorteer CSV-bestand';
-$string['csvimport_help'] = '<p align="center"><strong>Importeren met een CSV bestand</strong></p>
-
-<p>CSV betekent Comma-Separated-Values en is een algemeen gebruikte bestandsopmaak voor het uitwisselen van informatie.</p>
-
-<p>De verwachte bestandsopmaak is een tekstbestand met een lijst met veldnamen op de eerste regel. Daarna volgen dan de gegevens, één record per lijn.</p>
-
-<p>Het scheidingsteken tussen de velden is standaard een komma en het insluiten van velden is standaard niet ingesteld (met insluiten van velden wordt bedoeld dat er tekens voor en na elk veld staan). </p>
-
-<p>Record worden gescheiden door ze op een nieuwe regel te zetten (door op de enter-toets te drukken in een tekst editor). Tabs kunnen gespecifieeerd worde door t te gebruiken en nieuwe regels kun je specifieren met n.</p>
-
-<p>Voorbeeld:
-
-<pre>
-  naam,grootte,gewicht
-  Kai,180cm,80kg
-  Kim,170cm,60kg
-  Koo,190cm,20kg
-</pre>
-</p>
-
-<p>Waarschuwing: sommige veldtypes worden niet ondersteund.</p>';
+$string['csvimport_help'] = 'Items kunnen toegevoegd worden via een tekstbestand met een lijst veldnamen op de eerste rij, dan de gegevens met één item per lijn.';
 $string['csvwithselecteddelimiter'] = '<abbr title="Comma Separated Values">CSV</abbr> tekst met het gekozen scheidingsteken:';
 $string['data:addinstance'] = 'Voeg een nieuwe databank toe';
 $string['data:approve'] = 'Keur nieuwe items goed en verwerp goedgekeurde items';
@@ -184,9 +164,9 @@ $string['errorpresetnotfound'] = 'Voorinstelling met naam {$a} niet gevonden';
 $string['eventfieldcreated'] = 'Veld gemaakt';
 $string['eventfielddeleted'] = 'Veld verwijderd';
 $string['eventfieldupdated'] = 'Veld aangepast';
-$string['eventrecordcreated'] = 'Rapport gemaakt';
-$string['eventrecorddeleted'] = 'Rapport verwijderd';
-$string['eventrecordupdated'] = 'Rapport aangepast';
+$string['eventrecordcreated'] = 'Item toegevoegd';
+$string['eventrecorddeleted'] = 'Item verwijderd';
+$string['eventrecordupdated'] = 'Item aangepast';
 $string['eventtemplateupdated'] = 'Sjabloon aangepast';
 $string['eventtemplateviewed'] = 'Sjablonen bekeken';
 $string['example'] = 'Voorbeeld van een databankmodule';
@@ -238,8 +218,8 @@ $string['filesnotgenerated'] = 'Niet alle bestanden werden aangemaakt: {$a}';
 $string['filtername'] = 'Databank automatisch linken';
 $string['footer'] = 'Voettekst';
 $string['forcelinkname'] = 'Geforceerde naam voor de link';
-$string['foundnorecords'] = 'Geen records gevonden (<a href="{$a->reseturl}">Wis filters</a>)';
-$string['foundrecords'] = '{$a->num} van {$a->max} records gevonden. (<a href="{$a->reseturl}">Wis filter</a>)';
+$string['foundnorecords'] = 'Geen items gevonden (<a href="{$a->reseturl}">Wis filters</a>)';
+$string['foundrecords'] = '{$a->num} van {$a->max} ietms gevonden. (<a href="{$a->reseturl}">Wis filter</a>)';
 $string['fromfile'] = 'Importeer met zip-bestand';
 $string['fromfile_help'] = '<p align=\'center\'><strong>Sjabloonsets importeren vanuit Zip</strong></p>
 <p>Gebruik dit om sjabloonsets die je op je computer bewaard hebt met de exportfunctie te uploaden .</p>';
@@ -284,7 +264,7 @@ $string['invalidfieldname'] = 'Kies een andere naam voor dit veld';
 $string['invalidfieldtype'] = 'Veldtype is fout';
 $string['invalidid'] = 'Data ID is fout';
 $string['invalidpreset'] = '{$a} is geen voorinstelling.';
-$string['invalidrecord'] = 'Record fout';
+$string['invalidrecord'] = 'Fout item';
 $string['invalidurl'] = 'De URL die je net gaf is niet geldig';
 $string['jstemplate'] = 'Aangepast Javascript';
 $string['latitude'] = 'Breedtegraad';
@@ -295,7 +275,7 @@ $string['latlongkmllabelling'] = 'Hoe items labelen als KML-bestanden (Google Ea
 $string['latlonglinkservicesdisplayed'] = 'Te tonen services';
 $string['latlongotherfields'] = 'Andere velden';
 $string['list'] = 'Lijstweergave';
-$string['listtemplate'] = 'SJabloon lijst weergeven';
+$string['listtemplate'] = 'Sjabloon lijst weergeven';
 $string['listview'] = 'Lijstweergave';
 $string['longitude'] = 'Lengtegraad';
 $string['manageapproved'] = 'Bewerken van goedgekeurde items toestaan';
@@ -327,7 +307,7 @@ $string['modulename_help'] = 'De databank activiteitsmodule maakt het voor deeln
 
 De opmaak en structuur ervan wordt bepaald door de het gebruiken van verschillende veldtypes, zoals korte tekst, keuzevakjes, selectierondjes, rolmenu\'s, tekst zone\'s, URL\'s, afbeeldingen of geüploade bestanden.
 
-Als leraar kun je opmerkingen en beoordelingen geven op ingevoerde items. Je kunt dit ookdoor leerlingen laten doen (peer evaluatie). Beoordelingen kunnen samengeteld worden om een eindbeoordeling te vormen die in de cijferlijst opgeslagen wordt.
+Als leraar kun je opmerkingen en beoordelingen geven op ingevoerde items. Je kunt dit ook door leerlingen laten doen (peer evaluatie). Beoordelingen kunnen samengeteld worden om een eindbeoordeling te vormen die in de cijferlijst opgeslagen wordt.
 
 Als de databank auto-link-filter ingeschakeld is, dan kunnen items in de databank automatisch gelinkt worden aan woorden of zinnen in de cursus.
 
@@ -367,7 +347,7 @@ $string['notopenyet'] = 'Deze actieviteit is niet beschikbaar tot {$a}';
 $string['number'] = 'Getal';
 $string['numberrssarticles'] = 'Items in de RSS-feed';
 $string['numnotapproved'] = 'Wachtend';
-$string['numrecords'] = '{$a} records';
+$string['numrecords'] = '{$a} items';
 $string['ods'] = '<acronym title="OpenDocument Spreadsheet">ODS</acronym> (OpenOffice)';
 $string['openafterclose'] = 'Je hebt een startdatum opgegeven na de einddatum';
 $string['optionaldescription'] = 'Korte beschrijving (optioneel)';
@@ -392,7 +372,7 @@ $string['presets'] = 'Voorinstellingen';
 $string['presetshelp'] = 'Kies een voorinstelling als startpunt';
 $string['preview'] = 'Voorbeeld van {$a}';
 $string['previewaction'] = 'Voorbeeld';
-$string['privacy:metadata:commentpurpose'] = 'Opmerkingen op databankgegevens.';
+$string['privacy:metadata:commentpurpose'] = 'Opmerkingen op databank-items.';
 $string['privacy:metadata:data_content'] = 'De inhoud van een veld';
 $string['privacy:metadata:data_content:content'] = 'Inhoud';
 $string['privacy:metadata:data_content:content1'] = 'Bijkomende inhoud 1';
@@ -400,22 +380,22 @@ $string['privacy:metadata:data_content:content2'] = 'Bijkomende inhoud 2';
 $string['privacy:metadata:data_content:content3'] = 'Bijkomende inhoud 3';
 $string['privacy:metadata:data_content:content4'] = 'Bijkomende inhoud 4';
 $string['privacy:metadata:data_content:fieldid'] = 'Velddefinitie-ID';
-$string['privacy:metadata:data_records'] = 'Gegevens in de databank activiteitsmodule';
+$string['privacy:metadata:data_records'] = 'Items in de databank activiteitsmodule';
 $string['privacy:metadata:data_records:approved'] = 'Goedkeuringsstatus';
 $string['privacy:metadata:data_records:groupid'] = 'Groep';
-$string['privacy:metadata:data_records:timecreated'] = 'Tijdstip waarop het gegeven gemaakt is';
-$string['privacy:metadata:data_records:timemodified'] = 'Tijdstip waarop het gegeven laatst gewijzigd is';
-$string['privacy:metadata:data_records:userid'] = 'Gebruiker die het gegeven gemaakt heeft';
+$string['privacy:metadata:data_records:timecreated'] = 'Tijdstip waarop het item gemaakt is';
+$string['privacy:metadata:data_records:timemodified'] = 'Tijdstip waarop het item laatst gewijzigd is';
+$string['privacy:metadata:data_records:userid'] = 'Gebruiker die het item gemaakt heeft';
 $string['privacy:metadata:datafieldnpluginsummary'] = 'Velden voor de databank activiteitsmodule';
-$string['privacy:metadata:filepurpose'] = 'Bestand als bijlage bij het databankgegeven';
-$string['privacy:metadata:ratingpurpose'] = 'Beoordelingen om datbankgegevens';
-$string['privacy:metadata:tagpurpose'] = 'Tags op databankgegevens';
+$string['privacy:metadata:filepurpose'] = 'Bestand als bijlage bij het databank-item';
+$string['privacy:metadata:ratingpurpose'] = 'Beoordelingen om datbank-items';
+$string['privacy:metadata:tagpurpose'] = 'Tags op databank-items';
 $string['radiobutton'] = 'Keuzeknoppen';
 $string['recordapproved'] = 'Item goedgekeurd';
-$string['recorddeleted'] = 'Record verwijderd';
+$string['recorddeleted'] = 'Item verwijderd';
 $string['recorddisapproved'] = 'Item verworpen';
-$string['recordsnotsaved'] = 'Er werd geen record bewaard. Controleer de opmaak van het geüploade bestand.';
-$string['recordssaved'] = 'record(s) bewaard';
+$string['recordsnotsaved'] = 'Er werd geen item bewaard. Controleer de opmaak van het geüploade bestand.';
+$string['recordssaved'] = 'item(s) bewaard';
 $string['removealldatatags'] = 'Verwijder alle database-tags';
 $string['requireapproval'] = 'Goedkeuring nodig';
 $string['requireapproval_help'] = 'Een leraar moet de items goedkeuren voor ze zichtbaar zijn voor anderen.';
@@ -471,7 +451,7 @@ $string['subplugintype_datafield'] = 'Databank veldtype';
 $string['subplugintype_datafield_plural'] = 'Databank veldtypes';
 $string['subplugintype_datapreset'] = 'Voorinstelling';
 $string['subplugintype_datapreset_plural'] = 'Voorinstellingen';
-$string['tagarea_data_records'] = 'Data records';
+$string['tagarea_data_records'] = 'Data items';
 $string['tags'] = 'Tags';
 $string['tagsdeleted'] = 'Database-tags zijn verwijderd';
 $string['teachersandstudents'] = '{$a->teachers} en {$a->students}';

@@ -37,12 +37,12 @@ $string['asynccheckprogress'] = 'Der Fortschritt wird jederzeit auf der Seite <a
 $string['asyncemailenable'] = 'Systemnachrichten aktivieren';
 $string['asyncemailenabledetail'] = 'Wenn die Option aktiviert ist, werden Systemnachrichten versendet, sobald eine asynchrone Sicherung oder Wiederherstellung abgeschlossen ist.';
 $string['asyncgeneralsettings'] = 'Asynchrones Sichern / Wiederherstellen';
-$string['asyncmessagebody'] = 'Sytemnachricht';
+$string['asyncmessagebody'] = 'Systemnachricht';
 $string['asyncmessagebodydefault'] = '{operation} (ID: {backupid}) ist erfolgreich abgeschlossen. Sie können über die URL darauf zugreifen: <a href="{link}">{link}</a>.';
-$string['asyncmessagebodydetail'] = 'Diese Sytemnachricht soll gesendet werden, wenn asynchrone Sicherungen oder Wiederherstellungen abgeschlossen sind.';
+$string['asyncmessagebodydetail'] = 'Diese Systemnachricht soll gesendet werden, wenn asynchrone Sicherungen oder Wiederherstellungen abgeschlossen sind.';
 $string['asyncmessagesubject'] = 'Betreff';
 $string['asyncmessagesubjectdefault'] = 'Moodle {operation} abgeschlossen';
-$string['asyncmessagesubjectdetail'] = 'Betreff der Sytemnachricht';
+$string['asyncmessagesubjectdetail'] = 'Betreff der Systemnachricht';
 $string['asyncnowait'] = 'Sie müssen nicht warten, während der Prozess im Hintergrund ausgeführt wird.';
 $string['asyncprocesspending'] = 'Vorgang anstehend';
 $string['asyncrestorecomplete'] = 'Die Wiederherstellung ist abgeschlossen.';

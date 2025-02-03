@@ -46,8 +46,8 @@ $string['prefix_help'] = '此前缀用于Redis服务器上的所有密钥名称�
 $string['prefixinvalid'] = '⽆效的前缀。您只能使⽤a-z，A-Z， 0-9或 _。';
 $string['privacy:metadata:redis'] = '作为缓存功能的一部分，Redis 缓存存储插件可以短暂地存储数据。这些数据存储在Redis服务器上，在该服务器的数据会被定期删除。';
 $string['privacy:metadata:redis:data'] = '缓存中存储的各种数据';
-$string['serializer_igbinary'] = '二进制序列化程序。';
-$string['serializer_php'] = '默认PHP序列化程序。';
+$string['serializer_igbinary'] = '二进制序列化程序';
+$string['serializer_php'] = '默认PHP序列化程序';
 $string['server'] = '服务器';
 $string['server_help'] = '用于测试的 Redis 服务器。
 

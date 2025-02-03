@@ -49,7 +49,7 @@ $string['attls15short'] = '站在别人的立场';
 $string['attls16'] = '我分析问题的方式可称为“求证法”，因为我总是小心求证。';
 $string['attls16short'] = '小心求证';
 $string['attls17'] = '在解决问题时我重视逻辑推理胜于感情用事。';
-$string['attls17short'] = '我重视逻辑';
+$string['attls17short'] = '我最重视逻辑';
 $string['attls18'] = '我能通过移情来理解和我不同的观点。';
 $string['attls18short'] = '通过移情洞察';
 $string['attls19'] = '当我遇到与我观点相左的人，我会故意努力把自己“扩展”到那个人身上，看看他是如何获得这些观点的';
@@ -155,13 +155,13 @@ $string['collesaintro'] = '该问卷调查的目的是为了了解这个在线�
 
 非常感谢！';
 $string['collesaname'] = '建构主义在线学习环境问卷调查（实际的）';
-$string['collesapintro'] = '该问卷调查的目的是为了了解这个在线单元对促进您的学习有多大的作用。
+$string['collesapintro'] = '本问卷的目的是帮助我们了解本单元的在线交付对您学习的程度。
 
-以下有 24 个问题，每个问题要求您比较在此单元中，您所<b>希望的</b>（理想的）和<b>实际的</b>体会。
+以下 24 个陈述中的每两个都要求您比较您在本单元<b>中的首选</b>（理想）和<b>实际</b>体验。
 
-这里无所谓“正确”或“错误”答案；我们只对您的观点感兴趣。请相信我们对您的回答保持高度机密，也不必担心会影响对您的评分。
+没有“正确”或“错误”的答案;我们只对您的意见感兴趣。请放心，您的回答将受到高度保密，不会影响您的评估。
 
-您深思熟虑的回答将有助于我们对该单元作进一步的改善。
+您深思熟虑的回答将帮助我们改进本单元的在线呈现方式。
 
 非常感谢。';
 $string['collesapname'] = '建构主义在线学习环境问卷调查（希望的和实际的）';
@@ -189,8 +189,8 @@ $string['collespintro'] = '该问卷调查的目的是为了了解您对网上�
 非常感谢！';
 $string['collespname'] = '建构主义在线学习环境问卷调查（希望的）';
 $string['completiondetail:submit'] = '提交答案';
-$string['completionsubmit'] = '学生必须提交此活动才能完成它';
-$string['customintro'] = '自定义描述';
+$string['completionsubmit'] = '提交';
+$string['customintro'] = '描述';
 $string['deleteallanswers'] = '删除所有调查回复';
 $string['deleteanalysis'] = '删除所有分析回复';
 $string['done'] = '结束';
@@ -204,7 +204,7 @@ $string['errorunabletosavenotes'] = '保存笔记时出错。';
 $string['eventreportdownloaded'] = '已下载调查报告';
 $string['eventreportviewed'] = '查阅调查报告';
 $string['eventresponsesubmitted'] = '提交的调查答复';
-$string['guestsnotallowed'] = '访客不允许提交问卷';
+$string['guestsnotallowed'] = '只有注册用户才能提交调查';
 $string['howlong'] = '您完成这份问卷花了多长时间？';
 $string['howlongoptions'] = '1 分钟之内、1-2 分钟、2-3 分钟、3-4 分钟、4-5 分钟、5-10 分钟、超过 10 分钟';
 $string['ifoundthat'] = '我发现';
@@ -223,7 +223,9 @@ $string['invalidsurveyid'] = '调查 ID 不正确';
 $string['invalidtmptid'] = '无效的模板 id';
 $string['ipreferthat'] = '我希望';
 $string['modulename'] = '问卷调查';
-$string['modulename_help'] = '调查模块提供三种调查问卷，来评估和鼓励在线环境下的学习。教师可以用它们来收集数据，帮助他们了解课程情况，改进自己的教学。';
+$string['modulename_help'] = '调查模块提供了许多经过验证的调查工具，这些工具已被发现有助于评估和刺激在线环境中的学习。教师可以使用这些数据从学生那里收集数据，这将帮助他们了解他们的课程并反思自己的教学。
+
+请注意，这些调查工具预先填充了问题。希望创建自己的调查的教师应使用反馈活动模块。';
 $string['modulename_link'] = 'mod/survey/view';
 $string['modulenameplural'] = '问卷调查';
 $string['name'] = '名字';

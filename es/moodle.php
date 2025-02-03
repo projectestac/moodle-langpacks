@@ -652,7 +652,7 @@ $string['editcategorysettings'] = 'Editar ajustes de categoría';
 $string['editcategorythis'] = 'Editar esta categoría';
 $string['editcoursesettings'] = 'Editar la configuración del curso';
 $string['editfiles'] = 'Editar archivos';
-$string['editgroupprofile'] = 'Editar el perfil del grupo';
+$string['editgroupprofile'] = 'Editar descripción del grupo';
 $string['editinga'] = 'Editando {$a}';
 $string['editingteachershort'] = 'Editor';
 $string['editlock'] = 'Este valor no puede editarse.';
@@ -1535,23 +1535,21 @@ Si no necesita un foro de anuncios, configure esto a cero.
 Este ajuste también determina cuántos anuncios recientes aparecerán en el bloque de avisos recientes.';
 $string['newuser'] = 'Nuevo usuario';
 $string['newusernewpasswordsubj'] = 'Cuenta de nuevo usuario';
-$string['newusernewpasswordtext'] = 'Hola, {$a->firstname},
+$string['newusernewpasswordtext'] = 'Hola, {$a->firstname}.
 
-Se le ha abierto una nueva cuenta en \'{$a->sitename}\'
+Se le ha creado una nueva cuenta en "{$a->sitename}"
 y se le ha asignado una nueva contraseña temporal.
 
 La información para entrar es:
-nombre de usuario: {$a->username}
-contraseña: {$a->newpassword}
-(deberá cambiar su contraseña cuando acceda por primera vez)
+ nombre de usuario: {$a->username}
+ contraseña: {$a->newpassword}
+  (deberá cambiar su contraseña cuando acceda por primera vez)
 
-Para comenzar a usar \'{$a->sitename}\', entre en
+Para comenzar a usar "{$a->sitename}", entre en
 {$a->link}
 
-En la mayoría de programas de correo electrónico, debería aparecer en forma de enlace azul sobre el que simplemente puede hacer clic. Si eso no funciona, copie y pegue la dirección en la barra de direcciones del navegador.
-
-Un saludo del administrador de \'{$a->sitename}\',
-{$a->signoff}';
+Si necesita ayuda, puede contactar con el administrador del sitio,
+{$a->admin}';
 $string['newusers'] = 'Nuevos usuarios';
 $string['newwindow'] = 'Nueva ventana';
 $string['next'] = 'Siguiente';
@@ -1732,7 +1730,7 @@ $string['pluginsetup'] = 'Ajustando tablas de plugins';
 $string['policyaccept'] = 'Entiendo y estoy de acuerdo';
 $string['policyagree'] = 'Usted deberá estar de acuerdo con estas condiciones antes de seguir usando este sitio. ¿Está de acuerdo?';
 $string['policyagreement'] = 'Acuerdo con las Condiciones del Sitio';
-$string['policyagreementclick'] = 'Haga clic aquí para leer el acuerdo con las condiciones del sitio';
+$string['policyagreementclick'] = 'Acuerdo de privacidad del sitio';
 $string['popup'] = 'emergente';
 $string['popupwindow'] = 'Abrir el archivo en una ventana nueva';
 $string['popupwindowname'] = 'Ventana emergente';
@@ -2217,7 +2215,7 @@ $string['summary'] = 'Resumen';
 $string['summary_help'] = 'La idea de un resumen de tema es un texto corto que prepare a los alumnos para las actividades que realizará en ese tema o semana. El texto se muestra en la página del curso bajo el nombre de la sección.';
 $string['summaryof'] = 'Resumen de {$a}';
 $string['suspended'] = 'Suspendido';
-$string['suspendedusers'] = 'Usuarios suspendidos';
+$string['suspendedusers'] = 'Usuarios expulsados';
 $string['switchdevicedefault'] = 'Cambiar al tema estándar';
 $string['switchdevicerecommended'] = 'Cambiar al tema recomendado para su dispositivo';
 $string['switchrolereturn'] = 'Volver a mi rol normal';

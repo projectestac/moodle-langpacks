@@ -106,6 +106,7 @@ $string['linkedin_service'] = '领英';
 $string['logindisplay'] = '在登录页面上显示为';
 $string['loginissuer'] = '允许登陆';
 $string['microsoft_service'] = '微软';
+$string['moodlenet_service'] = 'MoodleNet';
 $string['nextcloud_service'] = 'Nextcloud';
 $string['notconfigured'] = '未配置';
 $string['notdiscovered'] = '服务发现失败';

@@ -106,7 +106,7 @@ $string['offline_session_comments_help'] = 'Décrivez le thème de la session de
 $string['offline_session_deleted'] = 'La session hors ligne est supprimée';
 $string['offline_session_end'] = 'Fin';
 $string['offline_session_ref_course'] = 'Référence du cours';
-$string['offline_session_ref_course_help'] = 'Sélectionnez le cours hors connexion où le travail  a été fait pour qu’il couvre le sujet du travail.';
+$string['offline_session_ref_course_help'] = 'Sélectionnez le cours hors connexion où le travail a été fait pour qu’il couvre le sujet du travail.';
 $string['offline_session_saved'] = 'Nouvelle session enregistrée Hors ligne';
 $string['offline_session_start'] = 'Démarrer';
 $string['offline_session_start_help'] = 'Sélectionnez le début, la date et l’heure de fin de la séance de travail hors ligne que vous souhaitez soumettre. La Session Hors ligne ne peut pas chevaucher n’importe quelle session précédemment enregistrée, que ce soit en ligne ou hors ligne, ni la session en cours en ligne.';
@@ -159,7 +159,7 @@ $string['registername'] = 'Nom du registre de présence';
 $string['registertype'] = 'Mode de contrôle de présence';
 $string['registertype_help'] = 'Les modes de suivi déterminent les cours suivis par le traqueur (c’est à dire quelles sont les activités des utilisateurs qui seront contrôlées) :
 * Ce cours seulement : l’activité sera contrôlée uniquement dans le cours où le module est installé.
- * Tous les cours de la catégorie : l’activité sera contrôlée sur tous les cours de la même catégorie que celle du cours.
+* Tous les cours de la catégorie : l’activité sera contrôlée sur tous les cours de la même catégorie que celle du cours.
 * Tous les cours liés : l’activité sera suivie dans ce cours et tous les cours liés par la liaison méta cours.';
 $string['schedule_reclalc_all_session'] = 'Recalcul des séances programmées au prochain CRON';
 $string['select_a_course'] = '- Sélectionnez un cours -';

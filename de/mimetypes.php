@@ -47,7 +47,7 @@ $string['application/vnd.openxmlformats-officedocument.wordprocessingml.document
 $string['application/x-iwork-keynote-sffkey'] = 'iWork Keynote Präsentation';
 $string['application/x-iwork-numbers-sffnumbers'] = 'iWork Numbers Tabelle';
 $string['application/x-iwork-pages-sffpages'] = 'iWork Pages Dokument';
-$string['application/x-javascript'] = 'Javascript Quelltext';
+$string['application/x-javascript'] = 'JavaScript Quelltext';
 $string['application/x-mpegURL'] = 'HTTP Live Streaming (HLS)';
 $string['application/x-mspublisher'] = 'Publisher Dokument';
 $string['application/x-shockwave-flash'] = 'Flash Animation';

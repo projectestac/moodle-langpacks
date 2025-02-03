@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availableplugins'] = 'الإضافات المتاحة';
-$string['configenableplagiarism'] = 'هذا سيسمح للمسؤولين بتهيئة إضافات منع الانتحال (إن كانت منصبة)';
+$string['configenableplagiarism'] = 'هذا سيسمح للمشرفين بتهيئة ملاحق منع الانتحال (إن كانت منصبة)';
 $string['configplagiarismplugins'] = 'رجاءً حدد إضافة الانتحال التي ترغب بإعدادها';
 $string['enableplagiarism'] = 'تمكين إضافات الانتحال';
 $string['manageplagiarism'] = 'إدارة إضافات منع الانتحال';

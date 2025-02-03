@@ -185,7 +185,7 @@ $string['noactionableunapprovedrequests'] = 'لا توجد طلبات غير م�
 $string['noremindersneedtobesent'] = 'لا يلزم إرسال أي تذكيرات.';
 $string['nosignedupusers'] = 'لم يقم أي مستخدم بالتسجيل في هذه الجلسة.';
 $string['notset'] = 'غير مضبوط';
-$string['notsignedup'] = 'أنت غير مسجل لهذه الدورة.';
+$string['notsignedup'] = 'أنت غير مسجل في هذه الجلسة.';
 $string['partiallyfull'] = 'مكتمل جزئياً';
 $string['placeholder:alldates'] = '[alldates]';
 $string['placeholder:appointmentname'] = '[appointmentname]';
@@ -207,7 +207,7 @@ $string['privacy:metadata:appointment_signups:id'] = 'مُعرَّف التسج�
 $string['privacy:metadata:appointment_signups:mailedreminder'] = 'وقت آخر إرسال للتذكير';
 $string['privacy:metadata:appointment_signups:sessionid'] = 'مُعرَّف الجلسة';
 $string['privacy:metadata:appointment_signups_status'] = 'حالة تسجيل المستخدم في الجلسة';
-$string['privacy:metadata:appointment_signups_status:grade'] = 'الدرجة المخصصة لحضور الدورة';
+$string['privacy:metadata:appointment_signups_status:grade'] = 'الدرجة المخصصة لحضور الجلسة';
 $string['privacy:metadata:appointment_signups_status:note'] = 'يخزن سبب إلغاء الجلسة';
 $string['privacy:metadata:appointment_signups_status:signupid'] = 'مُعرَّف التسجيل';
 $string['privacy:metadata:appointment_signups_status:statuscode'] = 'حالة الاشتراك، على سبيل المثال، تم الإلغاء،الرفض،الحضور الكامل';
@@ -370,7 +370,7 @@ $string['unknowntime'] = '(وقت مجهول)';
 $string['updatemessage'] = 'تحديث الرسالة';
 $string['updatemessage_help'] = 'يتم إرسال هذه الرسالة كلما تم تغيير الجلسة.';
 $string['usercalentry'] = 'إظهار الإدخال في تقويم المستخدم';
-$string['usercalentry_help'] = 'عندما يكون هذا الإعداد نشطًا، فإنه يضيف إدخال حدث مستخدم إلى تقويم أحد الحاضرين في جلسة الموعد. عند إيقاف التشغيل، يؤدي هذا إلى منع ظهور حدث مكرر في تقويم حضور الجلسة، حيث يتم تعيين إعدادات عرض التقويم على الدورة التدريبية أو الموقع.';
+$string['usercalentry_help'] = 'عندما يكون هذا الإعداد فعالاً، فإنه يضيف إدخال حدث مستخدم إلى تقويم أحد الحاضرين في جلسة الموعد. عند إيقاف تشغيله، يؤدي هذا إلى منع ظهور حدث مكرر في تقويم حضور الجلسة، حيثما يكون عرض التقويم معدًا للظهور في المساق أو الموقع.';
 $string['usercancelledon'] = 'تم إلغاء المستخدم في {$a}';
 $string['usernotsignedup'] = 'الحالة: غير مسجل';
 $string['usersignedup'] = 'الحالة: تم الاشتراك';

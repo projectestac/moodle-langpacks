@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['filtername'] = '整洁的HTML';
 $string['privacy:metadata'] = 'HTML tidy插件不存储任何个人数据。';
+$string['tidyextensionrequired'] = '要使用此过滤器，必须安装PHP 扩展 \'tidy\' 。';

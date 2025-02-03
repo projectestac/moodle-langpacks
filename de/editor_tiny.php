@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['branding'] = 'TinyMCE-Logo';
 $string['branding_desc'] = 'Mit dieser Option wird das Logo rechts unten im Editor sichtbar. Das Logo verlinkt zur Website von TinyMCE.';
+$string['extended_valid_elements'] = 'Erweiterte gültige Elemente';
+$string['extended_valid_elements_desc'] = 'Damit können Sie zusätzliche HTML-Elemente und Attribute im Editor verwenden.';
 $string['plugin_disabled'] = '{$a} deaktiviert';
 $string['plugin_enabled'] = '{$a} aktiviert';
 $string['pluginname'] = 'Editor TinyMCE';

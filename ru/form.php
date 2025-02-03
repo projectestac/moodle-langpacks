@@ -52,6 +52,7 @@ $string['filetypesnotall'] = 'Здесь нельзя выбрать «Все т
 $string['filetypesnotallowed'] = 'Эти типы файлов здесь не разрешены: {$a}';
 $string['filetypesothers'] = 'Другие файлы';
 $string['filetypesunknown'] = 'Неизвестные типы файлов: {$a}';
+$string['formactions'] = 'Форма действий';
 $string['general'] = 'Общее';
 $string['hideadvanced'] = 'Скрыть дополнительные настройки';
 $string['hour'] = 'Час';

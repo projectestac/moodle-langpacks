@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['adhoc'] = 'Ad hoc';
 $string['adhocempty'] = 'Coada de cereri ad hoc este goală';
-$string['adhocqueueold'] = 'Cea mai veche sarcină CRON neprocesată este {$a->age}, care depășește {$a->max}';
+$string['adhocqueueold'] = 'Cea mai veche sarcină de lucru CRON neprocesată este {$a->age}, care depășește {$a->max}';
 $string['adhocqueuesize'] = 'Coada de activități ad hoc are {$a} sarcini';
 $string['adhoctaskid'] = 'Codul sarcinii ad hoc: {$a}';
 $string['adhoctaskrun'] = 'Sarcina de lucru ad hoc a fost inițiată';
@@ -79,7 +79,7 @@ $string['resettasktodefaults_help'] = 'Aceasta va renunța la orice modificare l
 $string['run_adhoctasks'] = 'Rulează sarcini ad hoc';
 $string['runadhoc'] = 'Rulează sarcinile ad hoc acum?';
 $string['runadhoc_confirm'] = 'Procesul va rula pe server și poate dura ceva timp.';
-$string['runadhoctask'] = 'Rulează \'{$a->task}\' ID sarcină {$a->taskid}';
+$string['runadhoctask'] = 'Rulează \'{$a->task}\' ID sarcină de lucru {$a->taskid}';
 $string['runadhoctasks'] = 'Se rulează toate sarcinile \'{$a}\'';
 $string['runadhoctasksfailed'] = 'Rulează \'{$a}\' procese eșuate';
 $string['runagain'] = 'Rulează din nou';
@@ -102,7 +102,7 @@ $string['started'] = 'Început';
 $string['taskage'] = 'Cât timp a rulat';
 $string['taskdetails'] = 'Sarcina CRON rulează mai mult de {$a->time} (max {$a->maxtime}): {$a->count}';
 $string['taskdisabled'] = 'Sarcina dezactivată';
-$string['taskfailures'] = '{$a} sarcină (i) eșuată (e)';
+$string['taskfailures'] = '{$a} sarcină(i) eșuată(e)';
 $string['taskid'] = 'Id task';
 $string['tasklogs'] = 'Jurnalele de activități';
 $string['tasknofailures'] = 'Nu există sarcini care eșuează';

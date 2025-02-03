@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configconvertformat'] = '如果除了 <i>convert</i> 或 <i>dvisvgm</i> 之外还存在 <i>latex</i> 和 <i>dvips</i>，请选择首选图像类型（<i>convert</i> 生成 GIF 或 PNG;<i>dvisvgm</i> 生成 SVG）。否则<i>，mimeTeX</i>将用于创建GIF图像。';
 $string['convertformat'] = '输出图像格式';
-$string['filtername'] = 'TeX符号';
+$string['filtername'] = 'TeX 符号';
 $string['latexpreamble'] = 'LaTeX前缀';
 $string['latexsettings'] = 'LaTeX渲染器设置';
 $string['pathconvert'] = '<i>convert</i>程序的路径';

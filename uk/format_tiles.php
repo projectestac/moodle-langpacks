@@ -234,7 +234,6 @@ $string['imagedeletedfrom'] = 'Зображення видалено з "{$a}"';
 $string['imagesavedfor'] = 'Зображення збережено до плитки {$a}';
 $string['imagesize'] = 'Розмір зображення';
 $string['jsactivate'] = 'Увімкнено анімовану навігацію';
-$string['jsdeactivate'] = 'Вимкнено анімовану навігацію';
 $string['jsdeactivated'] = 'Ви вимкнули анімаційну навігацію у своєму обліковому записі';
 $string['jsnavsettings'] = 'Налаштування навігації Javascript';
 $string['jsreactivated'] = 'У вашому обліковому записі активована анімаційна навігація. Це може бути швидше. Для цього потрібно увімкнути JavaScript.';

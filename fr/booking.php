@@ -517,7 +517,7 @@ $string['deletedtext_help'] = 'Laissez ce champ vide si vous voulez utiliser le 
 <li>{qr_username} - Insère le QR code avec le nom d’utilisateur</li>
 </ul>';
 $string['deletesubcategory'] = 'Merci d’effacer toutes les sous-catégories de cette catégorie !';
-$string['deleteuserfrombooking'] = 'Voulez vous vraiment effacer les utilisateurs de la réservation ?';
+$string['deleteuserfrombooking'] = 'Voulez-vous vraiment effacer les utilisateurs de la réservation ?';
 $string['disablebookingusers'] = 'Désactiver les réservations des utilisateurs - masquer le bouton "Réserver maintenant".';
 $string['donotselectcourse'] = 'Pas de cours sélectionné';
 $string['download'] = 'Télécharger';

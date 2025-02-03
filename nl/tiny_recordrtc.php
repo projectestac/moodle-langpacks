@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Geen beperkingen bepaald';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'Jouw browser zou deze plugin kunnen weigeren tenzij die gebruikt wordt over HTTPS of van de localhost.';
 $string['insecurealert_title'] = 'Onveilige verbinding';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Je hebt de maximum uploadgrootte bereikt.';
 $string['maxfilesizehit_title'] = 'Opname gestopt';
 $string['norecordingfound'] = 'Er is wat mis gelopen. Er is niets opgenomen.';

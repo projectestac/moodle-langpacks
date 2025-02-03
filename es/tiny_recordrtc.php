@@ -57,6 +57,7 @@ $string['gumtype_title'] = 'Condiciones no especificadas';
 $string['helplinktext'] = 'RecordRTC';
 $string['insecurealert'] = 'Su navegador puede no permitir trabajar a este plugin si no utiliza HTTPS o se conecta de manera local';
 $string['insecurealert_title'] = '¡Conexión no segura!';
+$string['kbrate'] = '{$a} kb/s';
 $string['maxfilesizehit'] = 'Ha alcanzado el tamaño máximo para la subida de archivos';
 $string['maxfilesizehit_title'] = 'Grabación detenida';
 $string['norecordingfound'] = 'Parace que algo ha ido mal, no se ha grabado nada';

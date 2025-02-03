@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['contenthash'] = '内容哈希值';
 $string['eventfileaddedtodraftarea'] = '文件添加到草稿区';
 $string['eventfiledeletedfromdraftarea'] = '文件已从草稿区删除';
 $string['privacy:metadata:core_userkey'] = '生成并存储私有令牌。 此令牌可用于访问 Moodle 文件，而无需您登录。';
@@ -36,7 +37,7 @@ $string['privacy:metadata:files:contenthash'] = '文件内容的校验值';
 $string['privacy:metadata:files:filename'] = '文件区域中文件名称';
 $string['privacy:metadata:files:filepath'] = '文件在文件区域的路径';
 $string['privacy:metadata:files:filesize'] = '文件大小';
-$string['privacy:metadata:files:license'] = '文件内容的授权';
+$string['privacy:metadata:files:license'] = '文件内容的授权许可';
 $string['privacy:metadata:files:mimetype'] = '文件的MIME类型';
 $string['privacy:metadata:files:source'] = '文件来源';
 $string['privacy:metadata:files:timecreated'] = '文件创建时间';

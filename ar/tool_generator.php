@@ -126,4 +126,4 @@ $string['testscenario_outline'] = 'ملامح السيناريو غير مدعو
 $string['testscenario_scenarionosteps'] = 'لا يحتوي هذا السيناريو لى أي خطوات.';
 $string['testscenario_steps'] = 'خطوات السيناريو التجريبي:';
 $string['updateuserspassword'] = 'تحديث كلمة مرور مستخدمي المادة';
-$string['updateuserspassword_help'] = 'يحتاج JMeter إلى تسجيل الدخول كمستخدمين للمادة، يمكنك تعيين كلمة مرور المستخدمين باستخدام $CFG-> tool_generator_users_password في config.php؛ يقوم هذا الإعداد بتحديث كلمة مرور مستخدم المادة وفقًا لـ $CFG-> tool_generator_users_password. قد يكون ذلك مفيدًا إذا كنت تستخدم مادة لم يتم إنشاؤها بواسطة tool_generator أو لم يتم تعيين $CFG-> tool_generator_users_password عند إنشاء دورات الاختبار.';
+$string['updateuserspassword_help'] = 'يحتاج JMeter إلى تسجيل الدخول بمثابة مستخدمي المساق، يمكنك تعيين كلمة مرور المستخدمين باستعمال $CFG->tool_generator_users_password في ملف التهيئة config.php؛ يقوم هذا الإعداد بتحديث كلمة مرور مستخدم المساق وفقًا لـ $CFG->tool_generator_users_password. قد يكون ذلك مفيدًا إذا كنت تستعمل مساقًا لم يتم إنشاؤه بواسطة tool_generator أو لم يتم تعيين $CFG->tool_generator_users_password عند إنشاء المساقات التجريبية.';

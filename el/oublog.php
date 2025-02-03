@@ -119,7 +119,6 @@ $string['recentposts'] = 'Πρόσφατες αναρτήσεις';
 $string['rss'] = 'RSS';
 $string['rssfeed'] = 'Ανατροφοδότηση RSS';
 $string['savegrades'] = 'Αποθήκευση βαθμών';
-$string['searchblogs'] = 'Αναζήτηση';
 $string['start'] = 'Από';
 $string['strftimerecent'] = '%d %B %y, %H:%M';
 $string['summary'] = 'Περίληψη';

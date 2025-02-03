@@ -44,6 +44,7 @@ $string['bold'] = 'Îngroșat';
 $string['calendarend'] = 'Obiectul {$a} se închide';
 $string['calendarstart'] = '{$a} se deschide';
 $string['cannotaccess'] = 'Poți accesa feedback-ul doar de la un curs';
+$string['cannotcreatepagebreak'] = 'O pagină nouă nu poate fi adăugată la început, și doar o singură pagină nouă poate fi adăugată la sfârșit.';
 $string['cannotsavetempl'] = 'Nu este permisă salvarea șabloanelor';
 $string['captcha'] = 'Captcha';
 $string['captchanotset'] = 'Captcha nu a fost trimisă';

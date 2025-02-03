@@ -93,17 +93,18 @@ $string['courseexternaltooladd'] = '添加新的LTI外部工具';
 $string['courseexternaltooladdsuccess'] = '已添加{$a}';
 $string['courseexternaltooledit'] = '编辑{$a}';
 $string['courseexternaltooleditsuccess'] = '保存更改。';
+$string['courseexternaltooliconalt'] = '{$a} 的图标';
 $string['courseexternaltools'] = 'LTI 外部工具';
 $string['courseexternaltoolsinfo'] = 'LTI外部工具是可以集成到课程中的附加应用程序，例如交互式内容或评估。您的学生无需离开您的课程就可以访问和使用它们。';
 $string['courseexternaltoolsnoeditpermissions'] = '您没有编辑此工具的权限';
 $string['courseexternaltoolsnoviewpermissions'] = '查看课程外部工具';
-$string['courseid'] = '课程编号';
+$string['courseid'] = '课程ID编号';
 $string['courseinformation'] = '课程信息';
 $string['courselink'] = '去课程';
 $string['coursemisconf'] = '课程配置错误';
 $string['coursetooldeleted'] = '已删除{$a}';
 $string['createdon'] = '创建于';
-$string['curllibrarymissing'] = '要使用 LTI 必须安装 PHP Curl 库';
+$string['curllibrarymissing'] = '外部工具所需的 PHP cURL 扩展。';
 $string['custom'] = '自定义参数';
 $string['custom_config'] = '使用自定义工具配置。';
 $string['custom_help'] = '自定义参数是工具提供者使用的设置。例如，可以使用自定义参数来显示来自提供者的特定资源。每个参数都应该使用“name=value”的格式在单独的行中输入;例如,“章= 3”。除非由工具提供者指导，否则保持该字段不变是安全的。';
@@ -165,26 +166,17 @@ $string['errortooltypenotfound'] = '没有找到LTI工具类型。';
 $string['existing_window'] = '现有的窗口';
 $string['extensions'] = 'LTI拓展服务';
 $string['external_tool_type'] = '预配置工具';
-$string['external_tool_type_help'] = '工具配置的主要目的是为 Moodle 和工具提供商之间提供一个安全的沟通渠道。
-它也提供了由此工具提供的默认配置以及设置附加服务的机会。
+$string['external_tool_type_help'] = '* **自动，基于工具 URL** - 自动选择最佳工具配置。如果无法识别工具 URL，则可能需要手动输入工具配置详细信息。
+* **特定的预配置工具** - 在与外部工具提供商通信时，将使用指定工具的工具配置。如果工具 URL 似乎不属于工具提供者，则会显示警告。并不总是需要输入工具 URL。
+* **自定义配置** - 可能需要手动输入使用者密钥和共享密钥。使用者密钥和共享密钥可以从工具提供商处获取。但是，并非所有工具都需要使用者密钥和共享密钥，在这种情况下，字段可以留空。
 
-* **自动的，基于 Launch URL** - 该项设置几乎应该被应用在所有情况下。 Moodle 会
-       基于Launch URL 选择最合适的工具配置。由管理员或者课程内配置的工具将会被用到。
-       当指定了 Launch URL， 无论是否识别该 URL ，  Moodle都会提供一个反馈。如果 Moodle 未能识别 Launch URL，您可能需要
-       手动进入工具配置细节。
-* **一种特殊的工具类型** - 通过选择一种特殊的工具类型，在与外部工具提供者
-       进行交流的时候，您可以强制 Moodle 使用该工具配置。如果该 Launch URL 并不属于该工具提供者，一个警告将会出现。在
-       某些情况下，没有必要在提供一种特殊的工具类型时进入一个 Launch URL （如果对于工具提供者没有连接到特定的资源）。
-* **自定义配置** - 为了在这个实例中开始自定义工具配置，显示高级选项并进入使用者密匙和共享密匙。如果您没有用户密匙和共享密匙，您可以从工具提供者获得他们。
-       并不是所有的工具都需要一个用户密匙和共享密匙，在这种情况下相应的填写密匙处可以留空不填。
+### 预配置工具编辑
 
-### 工具类型编辑
+预配置工具下拉菜单后有三个图标可用：
 
-在外部工具类型的下拉菜单中，有三个图标可供使用：
-
-* **添加** - 建立一个课程级别的工具配置。在该课程下的所有外部工具实例都可以使用该工具配置。
-* **编辑** - 从该下拉菜单中选择课程级别工具类型，然后点击该图标。工具配置的细节可以被编辑。
-* **删除** - 删除已选择的课程级别工具类型。';
+* **添加** - 创建课程级别的工具配置。本课程中的所有外部工具实例都可以使用工具配置。
+* **编辑** - 从下拉菜单中选择一个课程级别工具，然后单击此图标。可以编辑工具配置的详细信息。
+* **删除** - 删除选定的课程级别工具。';
 $string['external_tool_types'] = '预配置工具';
 $string['failedtoconnect'] = 'Moodle无法与“{$a}”系统通讯';
 $string['failedtocreatetooltype'] = '创建新工具失败。请检查URL，然后再试一次。';
@@ -205,7 +197,7 @@ $string['global_tool_types'] = '全局预配置工具';
 $string['grading'] = '成绩路由';
 $string['icon_url'] = '图标的网址';
 $string['icon_url_help'] = 'icon URL允许修改在课程列表中显示的用于此活动的图标。可以指定一个表示活动类型的图标，而不是使用默认的LTI图标。';
-$string['id'] = 'id号';
+$string['id'] = 'ID 号';
 $string['indicator:cognitivedepth'] = 'LTI 活动认知深度';
 $string['indicator:cognitivedepth_help'] = '这个指标是基于学生在 LTI活动中所达到的认知深度。';
 $string['indicator:cognitivedepthdef'] = 'LTI 活动认知深度';
@@ -224,9 +216,9 @@ $string['keytype'] = '公钥类型';
 $string['keytype_help'] = '用于验证工具的身份验证方法。';
 $string['keytype_keyset'] = '密钥集 URL';
 $string['keytype_rsa'] = 'RSA 密钥';
-$string['launch_in_moodle'] = '在 moodle 中启动工具';
+$string['launch_in_moodle'] = '在 Moodle 中启动工具';
 $string['launch_in_popup'] = '在弹出窗口中启动工具';
-$string['launch_url'] = '启动 URL';
+$string['launch_url'] = '工具 URL';
 $string['launch_url_help'] = '工具URL表示外部工具的web地址，并且可能包含其他信息，例如要显示的资源。如果您不确定为工具URL输入什么内容，请向工具提供者查询更多信息。如果您有工具盒URL，您可以输入，其余的表单细节将自动填写。如果您选择了预配置的工具，您可能不需要输入工具URL。如果工具链接只是用于启动到工具提供者的系统，而不是指向特定的资源，那么很可能就是这种情况。';
 $string['launchinpopup'] = '启动容器';
 $string['launchinpopup_help'] = '启动容器将影响从课程启动时工具的显示。一些启动容器为工具提供了更多的屏幕空间，而另一些则提供了与Moodle环境更集成的感觉。** *默认** -使用工具配置指定的启动容器。** *嵌入** -该工具显示在现有的Moodle窗口中，其方式与大多数其他活动类型类似。** *嵌入，没有版块** -该工具显示在现有的Moodle窗口，只有导航控件在页面的顶部。** *新窗口** -该工具将在一个新窗口中打开，占据所有可用空间。根据浏览器的不同，它将在一个新标签页或弹出窗口中打开。浏览器可能会阻止新窗口打开。';
@@ -244,7 +236,7 @@ $string['lti:requesttooladd'] = '请求工具在站点范围内配置';
 $string['lti:view'] = '启动外部工具活动';
 $string['lti_administration'] = '编辑预配置工具';
 $string['lti_errormsg'] = '该工具返回了如下的错误信息：“{$a}”';
-$string['lti_launch_error'] = '启用该外部工具时发生了一个错误：';
+$string['lti_launch_error'] = '启用该外部工具时发生了错误：';
 $string['lti_launch_error_tool_request'] = '<p>
 为了提交一个使管理员完成工具配置的请求，点击<a href="{$a->admin_request_url}" target="_top">这里</a>。
 </p>';
@@ -276,7 +268,7 @@ $string['modulename_help'] = '外部工具活动模块使学生能够与其他�
 * 外部工具配置创建一个你的网站和工具提供者之间的信任关系,允许它们之间的安全通信';
 $string['modulename_link'] = 'mod/lti/view';
 $string['modulenameplural'] = '外部工具';
-$string['modulenamepluralformatted'] = 'LTI 实例';
+$string['modulenamepluralformatted'] = '外部工具';
 $string['name'] = '名称';
 $string['never'] = '从不';
 $string['new_window'] = '新窗口';
@@ -291,10 +283,10 @@ $string['no_tp_pending'] = '没有未完成的外部工具注册。';
 $string['no_tp_rejected'] = '没有被拒绝的外部工具注册。';
 $string['noattempts'] = '对该工具实例没有做任何尝试';
 $string['nocourseexternaltoolsnotice'] = '目前还没有LTI外部工具。';
-$string['noltis'] = '没有 lti 实例';
+$string['noltis'] = '没有外部工具实例';
 $string['noprofileservice'] = '没有找到个人档案服务';
 $string['noservers'] = '没有找到服务器';
-$string['notypes'] = '目前在 Moodle 中没有 LTI 工具设置。点击上方的安装按钮去添加一些。';
+$string['notypes'] = '目前，Moodle 中没有设置 LTI 工具。单击上面的 Install 链接以添加一些。';
 $string['noviewusers'] = '没有找到拥有使用该工具权限的用户';
 $string['oauthsecurity'] = 'LTI 1.0/1.1';
 $string['opensslconfiginvalid'] = 'LTI 1.3需要配置一个有效的openssl.cnf，并使其对您的web服务器可用。请与站点管理员联系，以便为该站点配置和启用openssl。';
@@ -326,7 +318,7 @@ $string['password_help'] = '对于预配置的工具，此处没有必要输入�
 
 不需要来自 Moodle 的保密通信以及不提供附加的服务（例如成绩报告）的工具可能不需要一个共享密匙。';
 $string['pending'] = '挂起';
-$string['pluginadministration'] = 'LTI 管理';
+$string['pluginadministration'] = '外部工具管理';
 $string['pluginname'] = '外部工具';
 $string['preferheight'] = '首选高度';
 $string['preferwidget'] = '首选小部件启动';
@@ -384,6 +376,7 @@ $string['resourcekey_admin'] = '使用者密匙';
 $string['resourcekey_admin_help'] = '使用者密匙可以被看作是用来授权访问工具的一个用户名。 它可以由工具用来唯一识别 Moodle 站点，通过 Moodle 站点，用户可以使用这种工具 用户密匙必须由工具提供。获得用户密匙的方法会随着工具 的不同而不同。 它可以是一个自动的过程，或者它可能需要和工具之间进行对话。 不需要来自 Moodle 的保密通信以及不提供附加的服务（例如成绩报告）的工具可能不需要一个资源密匙。';
 $string['resourcekey_help'] = '对于预配置的工具，这里不需要输入资源密钥，因为使用者密钥将作为配置过程的一部分提供。如果创建到尚未配置的工具提供程序的链接，则应输入此字段。如果在本课程中不止一次使用工具提供程序，添加课程工具配置是一个好主意。使用者密钥可以看作是用于对该工具的访问进行身份验证的用户名。工具提供者可以使用它来唯一地标识用户从哪个Moodle站点启动该工具。使用者密钥必须由工具提供程序提供。获取使用者密钥的方法因工具提供商的不同而不同。它可能是一个自动化的过程，也可能需要与工具提供者进行对话。不需要与Moodle进行安全通信且不提供其他服务(如成绩报告)的工具可能不需要资源密钥。';
 $string['resourceurl'] = '资源 URL';
+$string['restricttocategory'] = '限制为类别';
 $string['restricttocategory_help'] = '要将此工具的使用限制为类别中的课程，请从列表中选择类别。';
 $string['return_to_course'] = '点击<a href="{$a->link}" target="_top">这里</a>返回课程。';
 $string['saveallfeedback'] = '保存我所有的反馈';
@@ -466,7 +459,7 @@ $string['toolurl_contentitemselectionrequest_help'] = '内容选择URL将用于�
 $string['toolurl_help'] = '工具基地址用来和启动URL匹配，以确定使用正确的工具配置。http(s) 前缀可有可无。 此外，如果外部工具实例中未指定启动 URL，会使用此地址。 <table> <thead> <tr> <td> <b>基地址</b> </td> <td> <b>匹配</b> </td> </tr> </thead> <tbody> <tr> <td> tool.com </td> <td> tool.com, tool.com/quizzes, tool.com/quizzes/quiz.php?id=10, www.tool.com/quizzes </td> </tr> <tr> <td> www.tool.com/quizzes </td> <td> tool.com/quizzes, tool.com/quizzes/take.php?id=10, www.tool.com/quizzes </td> </tr> <tr> <td> quiz.tool.com </td> <td> quiz.tool.com, quiz.tool.com/take.php?id=10 </td> </tr> </tbody> </table> 如果同一个域名有两条不同的工具配置，那么会使用匹配度最高的。';
 $string['toolurlplaceholder'] = '工具 URL...';
 $string['typename'] = '工具名';
-$string['typename_help'] = '工具名用来在 Moodle 中区分不同的工具。教师在向课程添加外部工具时会看到工具名。';
+$string['typename_help'] = '工具名称用于标识 Moodle 中的工具提供程序。在课程中添加外部工具时，教师可以看到输入的名称。';
 $string['types'] = '类型';
 $string['unabletocreatetooltype'] = '无法创建工具';
 $string['unabletofindtooltype'] = '找不到工具 {$a->id}';

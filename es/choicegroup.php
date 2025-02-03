@@ -59,6 +59,7 @@ $string['choicegroupfull'] = 'Este grupo está completo y no es posible añadiir
 $string['choicegroupname'] = 'Título de la actividad';
 $string['choicegroupopen'] = 'Abierto';
 $string['choicegroupoptions'] = 'Opciones de elección.';
+$string['choicegroupoptions_description'] = 'Definir opciones de grupo disponibles para los participantes';
 $string['choicegroupoptions_help'] = 'Aquí es donde se especifican los grupos entre las que los participantes pueden escoger.
 
 La lista de la izquierda muestra todos los grupos y agrupamientos disponibles. Para añadir uno o varios grupos, selecciónelos de la lista y pulse "Añadir". Para añadir todos los grupos de un agrupamiento, seleccione el agrupamiento y pulse "Añadir".
@@ -74,6 +75,8 @@ $string['collapse_all_groupings'] = 'Colapsar todas las agrupaciones';
 $string['completiondetail:submit'] = 'Elegir un grupo';
 $string['completionsubmit'] = 'Mostrar como completo cuando un usuario realiza su elección.';
 $string['createdate'] = 'Fecha de creación del grupo';
+$string['defaultgroupdescriptionstate'] = 'Mostrar descripción de grupos predeterminada';
+$string['defaultgroupdescriptionstate_desc'] = 'Si la descripción de grupo debe mostrarse por defecto o no';
 $string['defaultsettings'] = 'Configuraciones por defecto';
 $string['del'] = 'Quitar';
 $string['del_group'] = 'Quitar grupo';

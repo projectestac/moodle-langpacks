@@ -36,36 +36,36 @@ $string['availablelangs'] = '利用可能な言語パック';
 $string['caution'] = '警告';
 $string['chooselanguage'] = '言語を選択してください。';
 $string['chooselanguagehead'] = '言語を選択してください。';
-$string['chooselanguagesub'] = 'インストールにのみ使用する言語を選択してください。この言語はサイトのデフォルト言語としても使用されます。後でサイト言語を変更することができます。';
+$string['chooselanguagesub'] = 'インストールに使用する言語を選択してください。この言語はサイトのデフォルト言語としても使用されますが、後で変更もできます。';
 $string['cliadminemail'] = '新しい管理ユーザメールアドレス';
 $string['cliadminpassword'] = '新しい管理者パスワード';
 $string['cliadminusername'] = '管理者アカウントユーザ名';
 $string['clialreadyconfigured'] = '設定ファイルconfig.phpはすでに登録されています。このサイトをインストールする場合、admin/cli/install_database.phpを使用してください。';
 $string['clialreadyinstalled'] = '設定ファイルconfig.phpはすでに登録されています。このサイトをアップグレードする場合、admin/cli/upgrade.phpを使用してください。';
 $string['cliinstallfinished'] = 'インストールが正常に完了しました。';
-$string['cliinstallheader'] = 'Moodle {$a} コマンドラインインストールプログラム';
+$string['cliinstallheader'] = 'Moodle {$a} コマンドラインインストレーションプログラム';
 $string['climustagreelicense'] = '非インタラクティブモードにおいて、あなたは「--agree-license」オプションを指定してライセンスに同意する必要があります。';
 $string['cliskipdatabase'] = 'データベースインストレーションをスキップしています。';
 $string['clisupportemail'] = 'サポートメールアドレス';
-$string['clitablesexist'] = 'データベーステーブルはすでに作成されています。CLIインストールを続けることはできません。';
+$string['clitablesexist'] = 'データベーステーブルがすでに存在するため、CLIインストールを継続できません。';
 $string['compatibilitysettings'] = 'あなたのPHP設定を確認しています ...';
 $string['compatibilitysettingshead'] = 'あなたのPHP設定を確認しています ...';
-$string['compatibilitysettingssub'] = 'Moodleを適切に動作させるために、あなたのサーバがこれらすべてのテストに合格する必要があります。';
-$string['configfilenotwritten'] = 'インストールスクリプトは自動的にあなたの選択した設定を反映したconfig.phpファイルを作成することができませんでした。恐らく、Moodleディレクトリに書き込み権がないためだと思われます。あなたは以下のコードをconfig.phpという名称のファイルとしてMoodleのルートディレクトリにコピーすることができます。';
+$string['compatibilitysettingssub'] = 'あなたのサーバはMoodleを適切に動作させるためにこれらすべてのテストに合格する必要があります。';
+$string['configfilenotwritten'] = 'インストールスクリプトは自動的にあなたの選択した設定を反映したconfig.phpファイルを作成できませんでした。恐らくMoodleディレクトリに書き込み権がないためだと思われます。あなたは以下のコードをconfig.phpという名称のファイルとしてMoodleのルートディレクトリにコピーできます。';
 $string['configfilewritten'] = 'config.phpが正常に作成されました。';
-$string['configurationcomplete'] = '設定が完了しました。';
-$string['configurationcompletehead'] = '設定が完了しました。';
-$string['configurationcompletesub'] = 'MoodleはあなたのMoodleインストレーションルートへの設定内容の保存を試みました。';
+$string['configurationcomplete'] = '設定を完了しました。';
+$string['configurationcompletehead'] = '設定を完了しました。';
+$string['configurationcompletesub'] = 'Moodleはあなたの設定をMoodleインストレーションのルートにあるファイルに保存しようと試みました。';
 $string['database'] = 'データベース';
 $string['databasehead'] = 'データベース設定';
-$string['databasehost'] = 'データベースホスト :';
-$string['databasename'] = 'データベース名 :';
-$string['databasepass'] = 'データベースパスワード :';
+$string['databasehost'] = 'データベースホスト';
+$string['databasename'] = 'データベース名';
+$string['databasepass'] = 'データベースパスワード';
 $string['databaseport'] = 'データベースポート';
 $string['databasesocket'] = 'Unixソケット';
 $string['databasetypehead'] = 'データベースドライバを選択する';
 $string['databasetypesub'] = 'Moodeではいくつかのデータベースサーバのタイプをサポートします。どのタイプを使用するか分からない場合、サーバ管理者にご連絡ください。';
-$string['databaseuser'] = 'データベースユーザ :';
+$string['databaseuser'] = 'データベースユーザ';
 $string['dataroot'] = 'データディレクトリ';
 $string['datarooterror'] = 'あなたが指定した「データディレクトリ」が見つからないか、作成されませんでした。パスを訂正するか、ディレクトリを手動作成してください。';
 $string['datarootpermission'] = 'データディレクトリパーミッション';
@@ -80,47 +80,47 @@ $string['dbtype'] = 'タイプ';
 $string['directorysettings'] = '<p>このMoodleのインストール先を確認してください。</p>
 
 <p><b>ウェブアドレス:</b>
-Moodleにアクセスする完全なウェブアドレスを指定してください。あなたのウェブサイトに複数のURLよりアクセス可能な場合、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
+Moodleにアクセスする完全なウェブアドレスを指定してください。あなたのウェブサイトに複数のURLでアクセスできる場合、学生が使用するであろう最も自然なものを選択してください。末尾にスラッシュを付けないでください。</p>
 
 <p><b>Moodleディレクトリ:</b>
-インストール先の完全なディレクトリパスを指定してください。大文字/小文字が正しいか確認してください。</p>
+インストール先の完全なディレクトリパスを指定してください。大文字/小文字が正しいことを確認してください。</p>
 
 <p><b>データディレクトリ:</b>
-Moodleにはアップロードされたファイルを保存する場所が必要です。 このディレクトリはウェブサーバのユーザ (通常は「nobody」または「apache」) が読み込みおよび書き込みできるようにしてください。ウェブから直接アクセスできないようにしてください。データディレクトリがない場合、インストーラーは作成を試みます。</p>';
-$string['directorysettingshead'] = 'Moodleのインストール先を確認してください。';
+Moodleにはアップロードされたファイルを保存する場所が必要です。 このディレクトリにはウェブサーバのユーザ (通常は「nobody」または「apache」) が読み込みおよび書き込みできるようにしてください。しかし、ウェブから直接アクセスできないようにしてください。データディレクトリが存在しない場合、インストーラは作成を試みます。</p>';
+$string['directorysettingshead'] = 'このMoodleのインストール先を確認してください。';
 $string['directorysettingssub'] = '<p><b>ウェブアドレス:</b>
-Moodleにアクセスする完全なウェブアドレスを指定してください。あなたのウェブサイトに複数のURLよりアクセス可能な場合、学生が利用する最も自然なURLを選択してください。末尾にスラッシュを付けないでください。</p>
+Moodleにアクセスする完全なウェブアドレスを指定してください。あなたのウェブサイトに複数のURLでアクセスできる場合、学生が使用するであろう最も自然なものを選択してください。末尾にスラッシュを付けないでください。</p>
 <br />
 <br />
 <p><b>Moodleディレクトリ:</b>
-インストール先の完全なディレクトリパスを指定してください。大文字/小文字が正しいか確認してください。</p>
+インストール先の完全なディレクトリパスを指定してください。大文字/小文字が正しいことを確認してください。</p>
 <br />
 <br />
 <p><b>データディレクトリ:</b>
-Moodleにはアップロードされたファイルを保存する場所が必要です。 このディレクトリはウェブサーバのユーザ (通常は「nobody」または「apache」) が読み込みおよび書き込みできるようにしてください。ウェブから直接アクセスできないようにしてください。データディレクトリがない場合、インストーラーは作成を試みます。</p>';
+Moodleにはアップロードされたファイルを保存する場所が必要です。 このディレクトリにはウェブサーバのユーザ (通常は「nobody」または「apache」) が読み込みおよび書き込みできるようにしてください。しかし、ウェブから直接アクセスできないようにしてください。データディレクトリが存在しない場合、インストーラは作成を試みます。</p>';
 $string['dirroot'] = 'Moodleディレクトリ';
 $string['dirrooterror'] = '「Moodleディレクトリ」設定が正しくないようです - インストール済みMoodleが見つかりませんでした。以下の値がリセットされました。';
 $string['download'] = 'ダウンロード';
 $string['downloadlanguagebutton'] = '「 {$a} 」言語パックをダウンロードする';
-$string['downloadlanguagehead'] = '言語パックのダウンロード';
-$string['downloadlanguagenotneeded'] = 'あなたはデフォルトの言語パック「 {$a} 」でインストール処理を続けることができます。';
-$string['downloadlanguagesub'] = 'あなたは言語パックをダウンロードして、この言語でインストールを継続することができます。<br /><br />もし、あなたが言語パックをダウンロードできない場合、インストールは英語で継続されます。 (インストール完了後、さらに言語パックをダウンロードして、インストールすることができます。)';
+$string['downloadlanguagehead'] = '言語パックをダウンロードする';
+$string['downloadlanguagenotneeded'] = 'あなたはデフォルトの言語パック「 {$a} 」を使用してインストールプロセスを続行できます。';
+$string['downloadlanguagesub'] = 'あなたは言語パックをダウンロードして、この言語でインストールプロセスを続行できます。<br /><br />もし、あなたが言語パックをダウンロードできない場合、インストールは英語で続行されます (インストール完了後、さらに言語パックをダウンロードして、インストールできます)。';
 $string['doyouagree'] = '同意しますか ? (yes/no):';
 $string['environmenthead'] = 'あなたの環境を確認しています ...';
-$string['environmentsub'] = 'あなたのシステムに関する様々な要素がシステム要件に合致するか確認しています。';
-$string['environmentsub2'] = 'それぞれのMoodleリリースにはPHPバージョンの最小必要条件および多くの必須PHP拡張モジュールがあります。完全な環境チェックはインストールおよびアップグレードごとに実行されます。新しいPHPバージョンのインストールまたはPHP拡張モジュールの有効化に関して分からない場合、あなたのサーバ管理者にご連絡ください。';
+$string['environmentsub'] = 'あなたのシステムの様々なコンポーネントがシステム要件を満たしているか確認しています。';
+$string['environmentsub2'] = 'それぞれのMoodleリリースにはPHPバージョンの最小必要条件および多くの必須PHP拡張モジュールがあります。完全な環境チェックはインストールおよびアップグレードごとに実行されます。新しいバージョンのインストールまたはPHP拡張モジュールの有効化に関して分からない場合、あなたのサーバ管理者にご連絡ください。';
 $string['errorsinenvironment'] = '環境チェックに失敗しました!';
 $string['fail'] = '失敗';
 $string['fileuploads'] = 'ファイルアップロード';
 $string['fileuploadserror'] = 'これは有効にしてください。';
-$string['fileuploadshelp'] = '<p>あなたのサーバではファイルのアップロードができないようです。</p>
+$string['fileuploadshelp'] = '<p>あなたのサーバではファイルのアップロードが無効にされているようです。</p>
 
-<p>Moodleのインストールは可能ですが、ファイルのアップロードができない状態ではコースファイルまたは新しいユーザプロファイルのイメージをアップロードすることができません。</p>
+<p>Moodleのインストールは可能ですが、ファイルのアップロードができない状態ではコースファイルまたは新しいユーザプロファイルのイメージをアップロードできません。</p>
 
-<p>ファイルアップロードを可能にするにはあなた (またはシステム管理者) があなたのシステムのメインのphp.iniファイルを編集して、<b>file_uploads</b> を「1」にする必要があります。</p>';
-$string['inputdatadirectory'] = 'データディレクトリ :';
+<p>ファイルアップロードを可能にするにはあなた (またはシステム管理者) があなたのシステムのメインのphp.iniファイルを編集して、<b>file_uploads</b> を「1」に変更する必要があります。</p>';
+$string['inputdatadirectory'] = 'データディレクトリ:';
 $string['inputwebadress'] = 'ウェブアドレス :';
-$string['inputwebdirectory'] = 'Moodleディレクトリ :';
+$string['inputwebdirectory'] = 'Moodleディレクトリ:';
 $string['installation'] = 'インストレーション';
 $string['invaliddbprefix'] = '無効な接頭辞です。接頭辞は半角小文字およびアンダースコアのみで構成できます。';
 $string['langdownloaderror'] = '残念ですが、言語「 {$a} 」をダウンロードできませんでした。インストール処理は英語で継続されます。';
@@ -169,10 +169,10 @@ $string['nativesqlsrvnodriver'] = 'Microsoft SQL Server Driver for PHP がイン
 $string['ociextensionisnotpresentinphp'] = 'PHPのOCI8拡張モジュールが適切に設定されていないため、Oracleと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['pass'] = 'パス';
 $string['paths'] = 'パス';
-$string['pathserrcreatedataroot'] = 'データディレクトリ ({$a->dataroot}) はインストーラーで作成できません。';
+$string['pathserrcreatedataroot'] = 'データディレクトリ ({$a->dataroot}) はインストーラで作成できません。';
 $string['pathshead'] = 'パスを確認する';
 $string['pathsrodataroot'] = 'datarootディレクトリに書き込み権がありません。';
-$string['pathsroparentdataroot'] = '親ディレクトリ ({$a->parent}) に書き込み権がありません。データディレクトリ ({$a->dataroot}) はインストーラーで作成できません。';
+$string['pathsroparentdataroot'] = '親ディレクトリ ({$a->parent}) に書き込み権がありません。データディレクトリ ({$a->dataroot}) はインストーラで作成できません。';
 $string['pathssubadmindir'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURLとして/adminディレクトリを使用しているウェブホストがあります。残念ですが、これはMoodle管理ページの標準的なロケーションと衝突します。あなたはインストール時にadminディレクトリをリネームすることができます。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
 これでMoodleでのadminへのリンクを変更します。';
 $string['pathssubdataroot'] = '<p>ユーザによってアップロードされたファイルコンテンツすべてをMoodleが保存するディレクトリです。</p>

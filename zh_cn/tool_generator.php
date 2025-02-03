@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['additionalmodules'] = '附加活动';
+$string['additionalmodules_help'] = '选择要包含在测试课程中的更多实现course_backend_generator_create_activity 功能的活动。';
 $string['bigfile'] = '大文件{$a}';
 $string['courseexplanation'] = '此工具创建标准测试课程，其中包括许多章节、活动和文件。
 
@@ -61,7 +62,7 @@ $string['fullname'] = '测试课程：{$a->size}';
 $string['maketestcourse'] = '制作测试课程';
 $string['maketestplan'] = '制定JMeter测试计划';
 $string['notenoughusers'] = '所选课程没有足够的用户';
-$string['pluginname'] = '随机课程生成器';
+$string['pluginname'] = '开发数据生成器';
 $string['privacy:metadata'] = '开发数据生成器插件不存储任何个人数据。';
 $string['progress_checkaccounts'] = '正在检查用户帐户（{$a}）';
 $string['progress_coursecompleted'] = '完成的课程（{$a}s）';
@@ -112,11 +113,13 @@ $string['testplansize_3'] = 'L（{$a->users}用户，{$a->loops}循环和{$a->ra
 $string['testplansize_4'] = 'XL（{$a->users}用户、{$a->loops}循环和{$a->rampup}加速期）';
 $string['testplansize_5'] = 'XXL（{$a->users}用户、{$a->loops}循环和{$a->rampup}加速期）';
 $string['testscenario'] = '创建测试场景';
+$string['testscenario_description'] = '创建测试方案 使用有限的功能文件语法来创建运行手动测试所需的所有元素。';
 $string['testscenario_errorparsing'] = '解析特征文件错误：{$a}';
 $string['testscenario_file'] = '特征文件';
 $string['testscenario_invalidfile'] = '文件格式无效或包含无效步骤。';
 $string['testscenario_invalidstep'] = '未知的一步。创建测试场景只接受生成器步骤。';
 $string['testscenario_nosteps'] = '文件中没有要执行的步骤。';
+$string['testscenario_notready'] = '尚未安装 Composer 和 Behat 库。<br><br>执行此命令以启用此工具：<strong>php admin/tool/generator/cli/runtestscenario.php</strong>';
 $string['testscenario_outline'] = '不支持场景概要。';
 $string['testscenario_scenarionosteps'] = '这个场景没有任何步骤。';
 $string['testscenario_steps'] = '测试场景步骤：';

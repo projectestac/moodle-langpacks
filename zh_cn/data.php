@@ -435,6 +435,7 @@ $string['searchresults'] = '包含“{$a}”的条目';
 $string['selectedrequired'] = '要求全选';
 $string['selectexportoptions'] = '数据库-条目';
 $string['selectfields'] = '数据库-条目';
+$string['selectfordeletion'] = '选择要删除的条目';
 $string['showall'] = '显示所有条目';
 $string['showmore'] = '显示更多';
 $string['single'] = '独立视图';

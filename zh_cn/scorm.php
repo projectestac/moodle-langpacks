@@ -64,7 +64,7 @@ $string['autocommit_help'] = '若启用，SCORM 数据将自动保存到数据�
 $string['autocommitdesc'] = '如果 SCORM 包未保存 SCORM 数据，则自动保存。';
 $string['autocontinue'] = '自动继续';
 $string['autocontinue_help'] = '如果启用，后续的学习对象会被自动执行，否则必须使用“继续”按钮。';
-$string['autocontinuedesc'] = '此选项设置活动默认情况下是否会自动继续';
+$string['autocontinuedesc'] = '如果启用，则后续学习对象将自动启动，否则必须使用继续按钮。';
 $string['averageattempt'] = '平均尝试次数';
 $string['badarchive'] = '您必须提供一个有效的 zip 文件';
 $string['badimsmanifestlocation'] = 'An imsmanifest.xml file was found but it was not in the root of your zip file, please re-package your SCORM';
@@ -95,7 +95,7 @@ $string['completionscorerequired_help'] = '启用这个设置，将会要求用�
 $string['completionscorerequireddesc'] = '完成课程的最低分数为{$a}';
 $string['completionstatus_completed'] = '已完成';
 $string['completionstatus_passed'] = '已通过';
-$string['completionstatusallscos'] = '要求所有SCO返回完成状态';
+$string['completionstatusallscos'] = '所有 SCO 都必须返回完成状态';
 $string['completionstatusallscos_help'] = '某些SCORM软件包包含多个组件或“SCO”-启用此功能后，软件包中的所有SCO必须返回相关的lesson_状态，才能将此活动标记为完成。';
 $string['completionstatusrequired'] = '要求地位';
 $string['completionstatusrequired_help'] = '若你勾选一个或多个状态，将会要求用户至少完成一个被勾选的状态，才能标示为完成这个SCORM活动，就如同其他活动完成的要求。';
@@ -119,13 +119,13 @@ $string['directories'] = '显示目录链接';
 $string['disabled'] = '不显示';
 $string['display'] = '显示位置';
 $string['displayattemptstatus'] = '显示尝试状态';
-$string['displayattemptstatus_help'] = '如果打开，以前尝试所得的分数和评级会显示在SCORM概要页面。';
-$string['displayattemptstatusdesc'] = '此选项设置显示尝试状态设置的缺省值';
+$string['displayattemptstatus_help'] = '此首选项允许在主控区和/或 SCORM 登录页面的课程概述块中显示用户尝试的摘要。';
+$string['displayattemptstatusdesc'] = '用户尝试的摘要是否显示在 Dashboard 和/或 SCORM 登录页面的课程概述块中。';
 $string['displaycoursestructure'] = '在进入页面显示课程结构';
 $string['displaycoursestructure_help'] = '如果允许，课件内容的列表会显示在SCORM概要页面上。';
-$string['displaycoursestructuredesc'] = '此选项设置进入页面显示课程结构设置的缺省值';
-$string['displaydesc'] = '活动默认情况下是否显示包';
-$string['displaysettings'] = '课件显示设置';
+$string['displaycoursestructuredesc'] = '如果启用，目录将显示在 SCORM 大纲页面上。';
+$string['displaydesc'] = '是否在新窗口中显示 SCORM 包';
+$string['displaysettings'] = '显示设置';
 $string['dnduploadscorm'] = '添加一个 SCORM 包';
 $string['domxml'] = '外部 DOMXML 库';
 $string['element'] = '项目';
@@ -156,10 +156,10 @@ $string['floating'] = '浮动';
 $string['forceattemptalways'] = '总是';
 $string['forceattemptoncomplete'] = '上次尝试完成、通过或失败时';
 $string['forcecompleted'] = '强制为完成';
-$string['forcecompleted_help'] = '如果打开，当前访问的状态会强制变为“完全的”。该项设置仅适用于SCORM1.2课件包。如果SCORM包在查看惑或浏览模式不能正确处理再次访问，或者不能正确处理完成状态时，非常有用。';
+$string['forcecompleted_help'] = '如果启用，则当前尝试的状态将强制为 “已完成”。（仅适用于 SCORM 1.2 软件包。';
 $string['forcecompleteddesc'] = '该参数设置强制完成的默认值';
 $string['forcejavascript'] = '强制用户打开JavaScript';
-$string['forcejavascript_desc'] = '如果设置为打开（推荐），在用户浏览器不支持或者关闭JavaScript时，拒绝对SCORM内容的访问。如果设置为标上，用户仍可以查看SCORM的内容，但是API不能通讯，SCORM课件成绩等信息不能保存到系统中。';
+$string['forcejavascript_desc'] = '如果启用（推荐），则当用户浏览器中不支持/启用 JavaScript 时，这将阻止访问 SCORM 对象。如果禁用，用户可以查看 SCORM，但 API 通信将失败，并且不会保存任何成绩信息。';
 $string['forcejavascriptmessage'] = '需要Javascript支持，请您打开浏览器中的JavaScript设置，然后再试一次。';
 $string['forcenewattempts'] = '强制为新尝试';
 $string['forcenewattempts_help'] = '有3种选择：
@@ -167,8 +167,8 @@ $string['forcenewattempts_help'] = '有3种选择：
 *上一次尝试完成、通过或失败时-这取决于SCORM包设置的状态为“已完成”、“通过”或“失败”。
 *始终-每次重新进入SCORM活动都将产生一次新的尝试，学生不会返回到上次尝试时达到的相同点。';
 $string['found'] = '找到 Manifest 文件';
-$string['frameheight'] = '活动的默认窗口高度';
-$string['framewidth'] = '活动的默认窗口宽度';
+$string['frameheight'] = '活动的默认窗口或框架高度';
+$string['framewidth'] = '活动的默认窗口或框架宽度';
 $string['fromleft'] = '从左';
 $string['fromtop'] = '自上而下';
 $string['fullscreen'] = '全屏显示';
@@ -185,7 +185,7 @@ $string['grademethod_help'] = '评分方法决定了对此活动的每次尝试�
 * 最高分 - 在所有已完成的学习对象中取最高分
 * 平均分 - 所有分数的平均分
 * 总分 - 所有分数的总和';
-$string['grademethoddesc'] = '活动的默认评分方法';
+$string['grademethoddesc'] = '评分方法定义如何确定活动的单次尝试的成绩。';
 $string['gradereported'] = '成绩报告';
 $string['gradescoes'] = '学习对象';
 $string['gradesettings'] = '评分设置';
@@ -194,12 +194,12 @@ $string['height'] = '高度';
 $string['hidden'] = '隐藏';
 $string['hidebrowse'] = '禁用预览模式';
 $string['hidebrowse_help'] = '预览模式允许学生在进入课件之前先进行浏览。如果预览模式被禁止，预览按钮会被隐藏';
-$string['hidebrowsedesc'] = '活动默认是否允许预览模式';
+$string['hidebrowsedesc'] = '预览模式允许学生在尝试活动之前浏览活动。';
 $string['hideexit'] = '隐藏退出链接';
 $string['hidereview'] = '隐藏复习按钮';
 $string['hidetoc'] = '在播放器中显示课程结构';
-$string['hidetoc_help'] = '该项设置设置内容列表出现在SCORM播放器中的位置';
-$string['hidetocdesc'] = '在 SCORM 播放器中默认显示还是隐藏课程结构（目录）';
+$string['hidetoc_help'] = '目录在 SCORM 播放器中的显示方式';
+$string['hidetocdesc'] = '此设置指定目录在 SCORM 播放器中的显示方式。';
 $string['highestattempt'] = '最高分尝试';
 $string['identifier'] = '问题标识符';
 $string['incomplete'] = '不完整';
@@ -214,7 +214,7 @@ $string['indicator:socialbreadthdef'] = 'SCORM社会';
 $string['indicator:socialbreadthdef_help'] = '在此分析间隔期间，参与者已达到SCORM活动提供的社会参与度的百分比（级别=无参与，仅参与者一人）';
 $string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['interactions'] = '交互';
-$string['invalidactivity'] = 'Scorm 活动不正确';
+$string['invalidactivity'] = 'SCORM 活动不正确';
 $string['invalidhacpsession'] = '无效的 HACP 会话';
 $string['invalidmanifestname'] = '只能选择imsmanifest.xml或.zip文件';
 $string['invalidmanifestresource'] = '警告：在您的 manifest 文件中描述了如下资源，但没有找到';
@@ -227,7 +227,7 @@ $string['lastaccess'] = '最后访问';
 $string['lastattempt'] = '上次完成的尝试';
 $string['lastattemptlock'] = '在最后一次尝试后锁定';
 $string['lastattemptlock_help'] = '如果打开，学生用完了分配给他们的尝试次数，学生将不能再打开SCORM播放器';
-$string['lastattemptlockdesc'] = '该参数设置在最后一次尝试后锁定的默认值';
+$string['lastattemptlockdesc'] = '如果启用，则学生在用完所有分配的尝试后将无法启动 SCORM 播放器。';
 $string['location'] = '显示地址栏';
 $string['masteryoverride'] = '掌握分数优先于状态';
 $string['masteryoverride_help'] = '如果启用并提供掌握分数，则当调用LMSFinish并设置原始分数时，将使用原始分数和掌握分数重新计算状态，并覆盖SCORM提供的任何状态（包括“未完成”）。';
@@ -242,7 +242,7 @@ $string['min'] = '最低分值';
 $string['minimumscoregreater'] = '最低分数必须大于0分。';
 $string['missing_attribute'] = '标签 {$a->tag} 的属性 {$a->attr} 缺失';
 $string['missing_tag'] = '标签 {$a->tag} 缺失';
-$string['missingparam'] = '缺少了必须有的项目或项目取值错误';
+$string['missingparam'] = '必需参数缺失或错误';
 $string['mode'] = '模式';
 $string['modulename'] = 'SCORM 课件';
 $string['modulename_help'] = 'SCORM和AICC是一套基于Web学习内容的规范，具有互用性、辅助性和复用性。通过SCORM/AICC模块可将SCORM/AICC课件包加入到课程中。';
@@ -270,11 +270,11 @@ $string['noactivity'] = '无报表';
 $string['noattemptsallowed'] = '允许尝试的次数';
 $string['noattemptsmade'] = '您已经尝试的次数';
 $string['nolimit'] = '不限';
-$string['nomanifest'] = '没找到 Manifest 文件';
-$string['noprerequisites'] = '对不起，您还有先修内容没有完成，不能学习此内容。';
+$string['nomanifest'] = '文件包不正确 - 缺少 imsmanifest.xml 或 AICC 结构';
+$string['noprerequisites'] = '很抱歉，您没有访问此活动所需的先决条件';
 $string['noreports'] = '无报表可显示';
 $string['normal'] = '普通';
-$string['noscriptnoscorm'] = '您的浏览器不支持 JavaScript 或其 JavaScript 功能被禁用。SCORM 课件可能无法正常播放或保存数据。';
+$string['noscriptnoscorm'] = '您的浏览器不支持 JavaScript 或已禁用 JavaScript 支持。此 SCORM 压缩包可能无法正确播放或保存数据。';
 $string['not_corr_type'] = '标签 {$a->tag} 类型错误';
 $string['notattempted'] = '未尝试';
 $string['notopenyet'] = '抱歉，这个活动直到{$a}才能进行';
@@ -284,7 +284,7 @@ $string['optallstudents'] = '全部用户';
 $string['optattemptsonly'] = '学习过的用户';
 $string['options'] = '选项（某些浏览器不支持）';
 $string['optionsadv'] = '高级选项';
-$string['optionsadv_desc'] = '如果选择，窗口的属性会以表格的形式显示为高级选项';
+$string['optionsadv_desc'] = '如果选中，宽度和高度将列为高级设置。';
 $string['optnoattemptsonly'] = '未学习过的用户';
 $string['organization'] = '组织';
 $string['organizations'] = '组织';
@@ -300,13 +300,13 @@ $string['page-mod-scorm-x'] = '任意 SCORM 模块页面';
 $string['pagesize'] = '页面大小';
 $string['passed'] = '已通过';
 $string['php5'] = 'PHP 5 (原生 DOMXML 库)';
-$string['pluginadministration'] = 'SCORM/AICC课件管理';
+$string['pluginadministration'] = 'SCORM 课件管理';
 $string['pluginname'] = 'SCORM 课件包';
 $string['popup'] = '新窗口';
 $string['popuplaunched'] = '此SCORM包已在弹出窗口中启动，如果您已查看完此资源，请单击此处返回课程页面';
-$string['popupmenu'] = '下拉菜单';
+$string['popupmenu'] = '在下拉菜单中';
 $string['popupopen'] = '在新窗口中显示';
-$string['popupsblocked'] = '弹出式窗口被阻拦了，使 scorm 模块不能播放。请检查您的浏览器设置，然后再开始。';
+$string['popupsblocked'] = '弹出窗口似乎被阻止，阻止了此 SCORM 包的播放。请检查您的浏览器设置，然后再试一次。';
 $string['position_error'] = '{$a->tag} 标签不能在 {$a->parent} 标签中';
 $string['preferencespage'] = '此页的参数设置';
 $string['preferencesuser'] = '此报告的参数设置';
@@ -349,7 +349,7 @@ $string['scorm:savetrack'] = '保存详情';
 $string['scorm:skipview'] = '跳过预览';
 $string['scorm:viewreport'] = '显示报表';
 $string['scorm:viewscores'] = '显示成绩';
-$string['scormclose'] = '直到';
+$string['scormclose'] = '对...可用';
 $string['scormcourse'] = '正在学习的课程';
 $string['scormloggingoff'] = 'API 日志已关闭';
 $string['scormloggingon'] = 'API 日志已开启';
@@ -363,8 +363,7 @@ $string['scormtype_help'] = '此设置决定课件如何放入课程。有 4 中
 * 上传课件 - 通过文件选取器选择 SCORM 课件
 * 外部 SCORM manifest - 指定一个 imsmanifest.xml 网址。注意：如果此 URL 与您的网站域名不同，那么最好用“下载课件”，否则不能保存成绩。
 * 下载课件 - 指定一个课件 URL。课件会被解压缩并保存在本地，并随着外部 SCORM 课件更新而更新。
-* 本地 IMS 内容容器 - 通过 IMS 容器选择一个课件
-* 外部 AICC URL - 独立 AICC 活动的启动 URL。会用它建立一个虚拟课件。';
+* 外部 AICC URL - 此 URL 是单个 AICC 活动的启动 URL。 将围绕此构建一个 psuedo 包。';
 $string['scrollbars'] = '窗口可以滚动';
 $string['search:activity'] = 'SCORM包-活动信息';
 $string['selectall'] = '全部选择';
@@ -439,15 +438,14 @@ $string['versionwarning'] = '标签 {$a->tag} 警告：Manifest 版本老于 1.3
 $string['viewallreports'] = '查看 {$a} 次学习该内容的报表';
 $string['viewalluserreports'] = '查看 {$a} 个用户的报表';
 $string['whatgrade'] = '多次学习评分策略';
-$string['whatgrade_help'] = '如果允许多次答题，那么此设置决定是将最高分、平均分、第一次得分还是最后一次完成的得分记入成绩单。
-“最后一次完成”选项不会包含处于“失败”状态的答题。
+$string['whatgrade_help'] = '如果允许多次尝试，则此设置指定在成绩簿中记录最高、平均（平均值）、第一次或最后一次完成的尝试。Last completed attempt （上次完成的尝试） 选项不包括状态为 \'failed\' 的尝试。
 
-对多次答题的处理
+多次尝试的处理说明：
 
-* 开始新试答的选项是一个复选框，它在内容结构页的进入按钮上面。因此，如果您想允许多次答题的话，一定要允许用户访问此页。
-* 有些scorm包能智能处理新试答，有些则不能。这意味着如果学习者重新进入一个已有的试答，当该SCORM没有避免旧试答被覆盖的逻辑时，它们就可能被覆盖，哪怕这些试答已经“完成”或者“通过”。
-* “强制完成”、“强制新试答”和“结束试答后锁定”三个设置提供了进一步的多次答题管理功能。';
-$string['whatgradedesc'] = '默认的多次学习评分策略';
+* 内容结构页面上 Enter 按钮上方的复选框提供了开始新尝试的选项，因此，如果要允许多次尝试，请确保提供对该页面的访问权限。
+* 一些 SCORM 课件对新尝试很智能，但许多则不是。这意味着，如果学习者重新输入现有尝试，如果 SCORM 内容没有内部逻辑来避免覆盖之前的尝试，则即使尝试已“完成”或“通过”，也可以覆盖这些尝试。
+* 设置“强制完成”、“强制新尝试”和“最终尝试后锁定”还提供对多次尝试的进一步管理。';
+$string['whatgradedesc'] = '如果允许多次尝试，则成绩簿中是否记录最高、平均（平均值）、第一次或最后一次完成的尝试。';
 $string['width'] = '宽度';
 $string['window'] = '窗口';
 $string['youmustselectastatus'] = '您必须选择需要的状态';

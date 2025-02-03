@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addsection'] = '添加周';
 $string['automaticenddate'] = '根据节数计算结束日期';
 $string['automaticenddate_help'] = '如果启用，将根据节数和课程开始日期自动计算课程的结束日期。';
 $string['currentsection'] = '本周';

@@ -465,7 +465,7 @@ $string['coursesearch_help'] = 'Vous pouvez saisir plusieurs termes comme critè
 * -terme : ne pas inclure les résultats contenant ce terme';
 $string['coursesectionsummaries'] = 'Résumés des sections de cours';
 $string['coursesectiontitle'] = '{$a->sectionname} : {$a->sectiontitle} | {$a->course}';
-$string['coursesectiontitlebulkediting'] = 'Modifier par lots  {$a->sectionname} : {$a->sectiontitle} | {$a->course}';
+$string['coursesectiontitlebulkediting'] = 'Modifier par lots {$a->sectionname} : {$a->sectiontitle} | {$a->course}';
 $string['coursesectiontitleediting'] = 'Modifier {$a->sectionname} : {$a->sectiontitle} | {$a->course}';
 $string['coursesettings'] = 'Réglages par défaut des cours';
 $string['coursesmovedout'] = 'Cours déplacés hors de {$a}';

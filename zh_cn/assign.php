@@ -222,6 +222,7 @@ $string['eventworkflowstateupdated'] = '工作流程状态已更新。';
 $string['expandreviewpanel'] = '展开检查面板';
 $string['extensionduedate'] = '延长到期日期';
 $string['extensionduedatecurrent'] = '当前延期到期日';
+$string['extensionduedatenone'] = '无';
 $string['extensionnotafterduedate'] = '延期日期必须在到期日期后面';
 $string['extensionnotafterfromdate'] = '延期日期必须在允许提交日期后面';
 $string['feedback'] = '反馈';

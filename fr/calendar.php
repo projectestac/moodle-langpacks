@@ -197,7 +197,7 @@ $string['never'] = 'Jamais';
 $string['newevent'] = 'Nouvel événement';
 $string['newmonthannouncement'] = 'Le calendrier est maintenant en {$a}.';
 $string['nocalendarsubscriptions'] = 'Aucun abonnement à un calendrier. Voulez-vous {$a}';
-$string['nocalendarsubscriptionsimportexternal'] = 'Aucun abonnement de calendrier.  <a href="{$a}">Importer un calendrier externe</a>';
+$string['nocalendarsubscriptionsimportexternal'] = 'Aucun abonnement de calendrier. <a href="{$a}">Importer un calendrier externe</a>';
 $string['notitle'] = 'sans titre';
 $string['noupcomingevents'] = 'Aucun événement à venir';
 $string['oneevent'] = '1 événement';

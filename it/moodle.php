@@ -793,7 +793,7 @@ $string['emailresetconfirmation'] = 'Gentile {$a->firstname},
 è stato richiesto un cambio password del tuo account \'{$a->username}\' su \'{$a->sitename}\'.
 
 Per confermare la richiesta ed impostare una nuova password, fare click sul link seguente:
-{$a->link}
+<a href="{$a->link}">{$a->link}</a>
 
 (Il link sarà valido per {$a->resetminutes} minuti a partire dal momento in cui è stata effettuata la richiesta)
 

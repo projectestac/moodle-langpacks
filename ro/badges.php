@@ -159,7 +159,7 @@ $string['badgeprivacysetting_help'] = 'Ecusoanele dobândite pot fi afișate pe 
 Puteți gestiona separat setările de confidențialitate ale ecusonului pe pagina dumneavoastră de ecusoane.';
 $string['badgeprivacysetting_str'] = 'Afișează în mod automat ecusoanele dobândite pe pagina mea de profil';
 $string['badges'] = 'Ecusoane';
-$string['badgesalt'] = 'Salt la hașurarea adreselor de e-mail ale destinatarilor';
+$string['badgesalt'] = 'Cheia de securizare pentru generarea hash-ului adreselor de e-mail ale destinatarilor';
 $string['badgesalt_desc'] = 'Utilizarea hașurării permite serviciilor backpack să confirme câștigătorul ecusonului fără să fie nevoie să expună adresa de e-mail a acestuia. Această setare va utiliza numai numere și litere.
 
 Note: În scopul verificării destinatarului, vă rugăm să evitați modificarea acestei setări din momentul inițierii ecusoanelor.';

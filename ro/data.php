@@ -436,6 +436,7 @@ $string['searchresults'] = 'Articole conținând "{$a}"';
 $string['selectedrequired'] = 'Toate elementele selectate sunt obligatorii';
 $string['selectexportoptions'] = 'Selectare opțiuni de export';
 $string['selectfields'] = 'Selectare câmpuri';
+$string['selectfordeletion'] = 'Selectați atricole pentru a fi șterse';
 $string['showall'] = 'Afişează toate articolele';
 $string['showmore'] = 'Afișați mai multe';
 $string['single'] = 'Afişează unul singur';

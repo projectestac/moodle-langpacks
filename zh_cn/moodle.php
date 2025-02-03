@@ -340,7 +340,7 @@ $string['contextparent'] = '父级';
 $string['contexturl'] = '上下文的链接';
 $string['continue'] = '继续';
 $string['continuetocourse'] = '点击这里进入您的课程';
-$string['convertingwikitomarkdown'] = '把Wiki转为Markdown';
+$string['convertingwikitomarkdown'] = '把 Wiki 转为 Markdown';
 $string['cookiesenabled'] = '您浏览器的 cookies 设置必须打开';
 $string['cookiesenabled_help'] = '本站使用两个cookie：
 
@@ -372,8 +372,8 @@ $string['counteditems'] = '{$a->count}{$a->items}';
 $string['country'] = '国家或地区';
 $string['course'] = '课程';
 $string['courseadministration'] = '课程管理';
-$string['courseapprovedemail'] = '您申请的课程《{$a->name}》已经被批准了，并且您已经是该课程的{$a->teacher}。要访问您的新课程，请点击 {$a->url}。';
-$string['courseapprovedemail2'] = '您申请的课程，{$a->name}，已经被批准。访问您的新课程，请到 {$a->url}';
+$string['courseapprovedemail'] = '您申请的课程已获批准，<a href=“{$a->url}”>{$a->name}</a>，并且您是 {$a->teacher}。';
+$string['courseapprovedemail2'] = '您申请的课程已获得批准：<a href=“{$a->url}”>{$a->name}</a>。';
 $string['courseapprovedfailed'] = '‎未能将课程保存为已批准！';
 $string['courseapprovedsubject'] = '您的课程已经通过';
 $string['courseavailable'] = '该课程允许学生学习';
@@ -653,7 +653,7 @@ $string['editcategorysettings'] = '编辑类别设置';
 $string['editcategorythis'] = '编辑该类别';
 $string['editcoursesettings'] = '编辑课程设定';
 $string['editfiles'] = '编辑文件';
-$string['editgroupprofile'] = '编辑组';
+$string['editgroupprofile'] = '编辑组描述';
 $string['editinga'] = '编辑{$a}';
 $string['editingteachershort'] = '编辑器';
 $string['editlock'] = '不能修改这个值!';
@@ -744,7 +744,7 @@ $string['emailformat'] = 'Email格式';
 $string['emailmustbereal'] = '注意：您的Email地址必须是真实的';
 $string['emailnotallowed'] = '禁止使用如下域名的Email地址：({$a})';
 $string['emailnotfound'] = '数据库中未找到此Email';
-$string['emailonlyallowed'] = '此Email不在允许的域名中: ({$a})';
+$string['emailonlyallowed'] = '此电子邮件无法使用。允许的电子邮件域为：{$a}。';
 $string['emailpasswordchangeinfo'] = '{$a->firstname}，您好:
 
 有人(一般情况下是您自己)为您在“{$a->sitename}”上的帐号  \'{$a->username}\' 申请了新的密码。
@@ -1028,7 +1028,7 @@ $string['gpl3'] = '版权所有 （C） 1999 年起 Martin Dougiamas （https://
 分发该程序是希望它有用，但没有任何保证;甚至没有对适销性或特定用途适用性的默示保证。
 
 有关详细信息，请参阅 Moodle 许可证信息页面： https://moodledev.io/general/license';
-$string['gpllicense'] = 'GPL许可证';
+$string['gpllicense'] = 'GPL 许可证';
 $string['gradenoun'] = '成绩';
 $string['grades'] = '成绩';
 $string['gradeverb'] = '成绩';
@@ -1190,7 +1190,7 @@ $string['invalidtaskclassname'] = '无效的任务类型 {$a}';
 $string['invalidtaskid'] = '无效的任务ID';
 $string['invalidusername'] = '用户名只能包含数字、小写字母、下划线（_）、横线（-）、小数点（.）或艾特符号（@）';
 $string['invalidusernameupload'] = '无效的用户名';
-$string['ip_address'] = 'IP地址';
+$string['ip_address'] = 'IP 地址';
 $string['jump'] = '跳';
 $string['jumpto'] = '跳至...';
 $string['keep'] = '保持';
@@ -1207,7 +1207,7 @@ $string['lastedited'] = '最近编辑';
 $string['lastip'] = '上一回IP地址';
 $string['lastlogin'] = '最近登录';
 $string['lastmodified'] = '最后修改';
-$string['lastname'] = '姓氏';
+$string['lastname'] = '姓';
 $string['lastnamephonetic'] = '姓氏（拼音）';
 $string['lastpage'] = '最后一页';
 $string['lastsiteaccess'] = '最近站点访问';
@@ -1249,7 +1249,7 @@ $string['loginstepsnone'] = '<p>嗨! </p>
 <p>为了完全访问课程您必须申请一个新帐号。</p>
 <p>您所需要做的是创建一个用户名和密码，并在本页面中使用。</p>
 <p>如果别人已经申请了相同的用户名，只好请您委屈一下用别的用户名重试。</p>';
-$string['loginto'] = '登录到{$a}';
+$string['loginto'] = '登录{$a}';
 $string['logoof'] = '{$a}的Logo图标';
 $string['logout'] = '退出登录';
 $string['logoutconfirm'] = '您真的要退出吗？';
@@ -1424,7 +1424,7 @@ $string['moodlenet:sharingstatus'] = '正在共享到MoodleNet';
 $string['moodlenet:sharingto'] = '共享到：';
 $string['moodlerelease'] = 'Moodle发行版本';
 $string['moodleservicesandsupport'] = '服务和支持';
-$string['moodleversion'] = 'Moodle版本';
+$string['moodleversion'] = 'Moodle 版本';
 $string['more'] = '更多';
 $string['moreactions'] = '更多操作';
 $string['morehelp'] = '更多帮助';
@@ -1527,24 +1527,20 @@ $string['newsitemsnumber_help'] = '默认情况下，公告讨论区已强制设
 此设置还确定在最新公告块中显示的最近公告数量。';
 $string['newuser'] = '新用户';
 $string['newusernewpasswordsubj'] = '新用户账号';
-$string['newusernewpasswordtext'] = '{$a->firstname}，您好，
+$string['newusernewpasswordtext'] = '您好 {$a->firstname}，
 
-已经为您在“{$a->sitename}”创建了一个新账号，并同时为您生成了一个临时密码。
+已在 \'{$a->sitename}\' 中为您创建了一个新帐户
+并且您已获得新的临时密码。
 
-您现在的登录信息是：
+您的登录信息为：
+   用户名：{$a->username}
+   密码：{$a->newpassword}
+             （您必须在首次登录时更改密码）
 
-  用户名：{$a->username}
-  密码：{$a->newpassword}
+要开始使用 \'{$a->sitename}\'，请登录{$a->link}
 
-（在首次登录时您会被要求更改密码）
-
-请点击 {$a->link} 并登录，开始使用“{$a->sitename}”。
-
-在大多数邮件程序中，上面的链接将呈现为蓝色可点击的链接。如果链接不能点击，请复制它，然后粘贴到浏览器上方的地址栏内。
-
-祝您使用愉快！
-“{$a->sitename}”管理员
-{$a->signoff}';
+如果您需要帮助，可以联系站点管理员，
+{$a->admin}';
 $string['newusers'] = '新用户';
 $string['newwindow'] = '新窗口';
 $string['next'] = '下一个';
@@ -1723,7 +1719,7 @@ $string['pluginsetup'] = '创建插件表格';
 $string['policyaccept'] = '我理解并同意';
 $string['policyagree'] = '如果要继续使用此站点，您必须同意此政策。您同意么?';
 $string['policyagreement'] = '站点政策协议';
-$string['policyagreementclick'] = '链接到站点政策协议';
+$string['policyagreementclick'] = '网站策略协议';
 $string['popup'] = '弹出';
 $string['popupwindow'] = '在新窗口中打开文件';
 $string['popupwindowname'] = '弹出窗口';
@@ -1865,7 +1861,7 @@ $string['requestreason'] = '申请理由';
 $string['requests'] = '申请';
 $string['required'] = '必需的';
 $string['requirespayment'] = '此课程需要付费才能访问';
-$string['resendemail'] = '重新发送电子邮件';
+$string['resendemail'] = '重新发送确认电子邮件';
 $string['reset'] = '重置';
 $string['resetcomponent'] = '组件';
 $string['resetcourse'] = '重置课程';
@@ -1977,7 +1973,7 @@ $string['secondstotime259200'] = '3天';
 $string['secondstotime345600'] = '4天';
 $string['secondstotime432000'] = '5天';
 $string['secondstotime518400'] = '6天';
-$string['secondstotime604800'] = '1周';
+$string['secondstotime604800'] = '一周';
 $string['secondstotime86400'] = '1天';
 $string['secretalreadyused'] = '更改密码确认链接已使用，密码未更改。';
 $string['secs'] = '秒';
@@ -2420,11 +2416,11 @@ $string['weeks'] = '周';
 $string['weekshow'] = '显示这个星期于{$a}';
 $string['welcomeback'] = '你好，{$a->firstname}！👋';
 $string['welcometocourse'] = '欢迎加入{$a}';
-$string['welcometocoursetext'] = '欢迎来到{$a->coursename}！
+$string['welcometocoursetext'] = '欢迎来到 {$a->coursename}！
 
-如果您没有这样做，您应该编辑您的个人资料页面，以便我们更多地了解您：
+如果您还没有这样做，您应该编辑您的个人资料页面，以便我们可以更多地了解您：
 
-<a href=“{$a->profileurl}”>{$a->profileurl}<a>';
+<a href=“{$a->profileurl}”>{$a->profileurl}</a>';
 $string['welcometosite'] = '欢迎，{$a->firstname}！👋';
 $string['whatforlink'] = '你要如何处理这一链接？';
 $string['whatforpage'] = '你要如何处理这段文字？';

@@ -199,4 +199,4 @@ $string['tooltobeprovided'] = 'zu veröffentlichendes Tool';
 $string['toolurl'] = 'Tool URL';
 $string['userdefaultvalues'] = 'Standardnutzerwerte';
 $string['viewplatformdetails'] = 'Plattformdetails anzeigen';
-$string['viewtoolendpoints'] = 'Tool-Endpoints anzeigen';
+$string['viewtoolendpoints'] = 'Tool-Endpunkte anzeigen';
