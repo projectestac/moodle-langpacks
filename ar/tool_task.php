@@ -36,7 +36,7 @@ $string['adhoctasksdue'] = 'مهمة مخصصة مستوجبة';
 $string['adhoctasksfailed'] = 'مهمة مخصصة فشلت';
 $string['adhoctasksfuture'] = 'مهمات مخصصة مستقبلية';
 $string['adhoctasksrunning'] = 'مهمات مخصصة شغالة';
-$string['asap'] = 'في أقرب وقت ممكن';
+$string['asap'] = '<abbr title="في أقرب وقت ممكن">ف أ و م</abbr>';
 $string['backtoadhoctasks'] = 'عودة إلى المهمات المخصصة';
 $string['backtoscheduledtasks'] = 'عودة إلى المهام المجدولة';
 $string['blocking'] = 'حجب';

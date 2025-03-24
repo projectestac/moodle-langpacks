@@ -222,6 +222,8 @@ $string['block'] = 'Blokea';
 $string['blockconfiga'] = '{$a} blokea ezartzen';
 $string['blockconfigbad'] = 'Bloke hau ez da modu egokian sortu eta, beraz, ezin dira ezarpenak ezarri.';
 $string['blocks'] = 'Blokeak';
+$string['blocks_main'] = 'Eduki-bloke nagusiak';
+$string['blocks_supplementary'] = 'Bloke gehigarriak';
 $string['blocksaddedit'] = 'Gehitu/Editatu blokeak';
 $string['blockseditoff'] = 'Desaktibatu blokeen edizioa';
 $string['blocksediton'] = 'Aktibatu blokeen edizioa';
@@ -1530,19 +1532,18 @@ $string['newuser'] = 'Erabiltzaile berria';
 $string['newusernewpasswordsubj'] = 'Erabiltzaile berriaren kontua';
 $string['newusernewpasswordtext'] = 'Kaixo, {$a->firstname}:
 
-Kontu berria ireki zaizu \'{$a->sitename}\'(e)n eta behin behineko pasahitza ezarri zaizu.
+Kontu bat sortu da \'{$a->sitename}\' gunean.
 
-Sartzeko zure datuak ondorengoak dira:
    erabiltzaile-izena: {$a->username}
    pasahitza: {$a->newpassword}
-             (pasahitza aldatu beharko duzu
-             lehen aldiz sartzen zarenean)
+
+(Pasahitza aldatzeko eskatuko zaizu lehen aldiz sartzen zarenean.)
 
 \'{$a->sitename}\' erabiltzen hasteko, egin klik hemen:
    {$a->link}
 
 Laguntza behar baduzu jarri zaitez harremanetan guneko kudeatzailearekin,
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'Erabiltzaile berriak';
 $string['newwindow'] = 'Leiho berria';
 $string['next'] = 'Hurrengoa';
@@ -2054,7 +2055,7 @@ $string['showactivitydates'] = 'Erakutsi jardueraren datak';
 $string['showactivitydates_help'] = 'Erakutsi jardueren datak ikastaro-orrian.';
 $string['showadvancededitor'] = 'Aurreratua';
 $string['showadvancedsettings'] = 'Erakutsi ezarpen aurreratuak';
-$string['showall'] = 'Erakutsi denak: {$a}';
+$string['showall'] = 'Erakutsi guztiak {$a}';
 $string['showallcourses'] = 'Erakutsi ikastaro guztiak';
 $string['showallusers'] = 'Erakutsi erabiltzaile guztiak';
 $string['showblockcourse'] = 'Erakutsi blokea duten ikastaroen zerrenda';
@@ -2205,7 +2206,7 @@ $string['successduration'] = 'Ondo ({$a} segundo)';
 $string['summary'] = 'Laburpena';
 $string['summary_help'] = 'Laburpenaren helburua irakasgaia testu motz batean laburtzea da, ikasleak atal horretan egingo diren jardueretarako prestatzeko. Testua ikastaroaren orrian erakusten da, atalaren izenaren azpian.';
 $string['summaryof'] = '{$a}-ren laburpena';
-$string['suspended'] = 'Kontua etenda';
+$string['suspended'] = 'Etenda';
 $string['suspendedusers'] = 'Kontua etenda duten erabiltzaileak';
 $string['switchdevicedefault'] = 'Aldatu azal estandarrera';
 $string['switchdevicerecommended'] = 'Aldatu zure gailurako gomendatzen den azalera';

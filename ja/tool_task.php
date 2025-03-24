@@ -36,7 +36,7 @@ $string['adhoctasksdue'] = 'アドホックタスク期限';
 $string['adhoctasksfailed'] = 'アドホックタスク失敗';
 $string['adhoctasksfuture'] = '今後のアドホックタスク';
 $string['adhoctasksrunning'] = '実行中アドホックタスク';
-$string['asap'] = '早急に';
+$string['asap'] = '<abbr title="早急に">早急に</abbr>';
 $string['backtoadhoctasks'] = 'アドホックタスクに戻る';
 $string['backtoscheduledtasks'] = 'スケジュールタスクに戻る';
 $string['blocking'] = 'ブロッキング';

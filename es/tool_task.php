@@ -36,7 +36,7 @@ $string['adhoctasksdue'] = 'Tareas ad hoc caducadas';
 $string['adhoctasksfailed'] = 'Tareas ad hoc que fallaron';
 $string['adhoctasksfuture'] = 'Tareas ad hoc futuras';
 $string['adhoctasksrunning'] = 'Tareas ad hoc ejecutándose';
-$string['asap'] = 'Tan pronto como sea posible';
+$string['asap'] = '<abbr title="Lo antes posible">ASAP</abbr>';
 $string['backtoadhoctasks'] = 'Volver a tareas ad hoc';
 $string['backtoscheduledtasks'] = 'Regresar a trabajos agendados';
 $string['blocking'] = 'Bloqueando';

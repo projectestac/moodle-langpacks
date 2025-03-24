@@ -153,6 +153,7 @@ $string['tagarea_blog_external'] = 'Entradas de blogue externas';
 $string['tagarea_course'] = 'Disciplinas';
 $string['tagarea_course_modules'] = 'Atividades e recursos';
 $string['tagarea_post'] = 'Entradas de blogue';
+$string['tagarea_tag'] = 'Tags relacionadas';
 $string['tagarea_user'] = 'Interesses do utilizador';
 $string['tagareaenabled'] = 'Ativa';
 $string['tagareaname'] = 'Nome';

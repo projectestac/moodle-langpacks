@@ -77,7 +77,7 @@ $string['capabilitiesrequired'] = 'Cet outil nécessite l’accès aux données 
 $string['cleanaccesstokens'] = 'Suppression des jetons d’accès échus de l’outil externe';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Cliquer pour continuer</a>';
 $string['clientidadmin'] = 'Identifiant du client';
-$string['clientidadmin_help'] = 'L’identifiant client peut être pensé comme un valeur unique utilisée pour identifier un outil. Il est créé automatiquement pour chaque outil utilisant le profil de sécurité introduit dans LTI 1.3 et doit faire partie des informations passées au fournisseur de l’outil, afin qu’il puisse configurer la connexion de son côté.';
+$string['clientidadmin_help'] = 'L’identifiant client peut être pensé comme une valeur unique utilisée pour identifier un outil. Il est créé automatiquement pour chaque outil utilisant le profil de sécurité introduit dans LTI 1.3 et doit faire partie des informations passées au fournisseur de l’outil, afin qu’il puisse configurer la connexion de son côté.';
 $string['comment'] = 'Commentaire';
 $string['configpassword'] = 'Mot de passe par défaut de l’outil distant';
 $string['configpreferheight'] = 'Hauteur préférée par défaut';
@@ -137,7 +137,7 @@ $string['deletecoursetoolconfirm'] = 'Cette action supprimera {$a} des outils LT
 $string['deletecoursetoolwithusageconfirm'] = '{$a} est actuellement utilisé dans au moins une activité de votre cours. Si cet outil est supprimé, les activités qui l’utilisent ne fonctionneront plus.<br><br>Voulez-vous vraiment supprimer {$a} ?';
 $string['deletetype'] = 'Supprimer l’outil préconfiguré';
 $string['display_description'] = 'Afficher la description de l’activité lorsque des étudiants accèdent à l’outil';
-$string['display_description_help'] = 'Le contenu de cet outil est affiché dans une page dans le cours. Ce réglage détermine si la description de l’activité est affiché dans cette page.';
+$string['display_description_help'] = 'Le contenu de cet outil est affiché dans une page dans le cours. Ce réglage détermine si la description de l’activité est affichée dans cette page.';
 $string['display_name'] = 'Afficher le nom de l’activité lorsque des étudiants accèdent à l’outil';
 $string['display_name_help'] = 'Le contenu de cet outil est affiché dans une page dans le cours. Ce réglage détermine si le nom de l’activité est affiché dans cette page.';
 $string['domain_mismatch'] = 'Le domaine de l’URL de l’outil ne correspond pas à la configuration de l’outil.';
@@ -206,7 +206,7 @@ $string['force_ssl_help'] = 'La sélection de cette option impose l’utilisatio
 
 De plus, toutes les requêtes de services web de ce fournisseur d’outil utiliseront SSL.
 
-Avant d’activer cette option, assurez-vous que ce site Moodle et que le fournisseur de l’outil prenne en charge le protocole SSL.';
+Avant d’activer cette option, assurez-vous que ce site Moodle et que le fournisseur de l’outil prennent en charge le protocole SSL.';
 $string['forced_help'] = 'Ce réglage a été imposé au niveau de la configuration du cours ou du site. Vous ne pouvez pas le modifier depuis cette interface.';
 $string['generaltool'] = 'Outil générique';
 $string['global_tool_types'] = 'Outils préconfigurés';
@@ -329,7 +329,7 @@ $string['organizationdescr'] = 'Description de l’institution';
 $string['organizationid_default'] = 'ID par défaut de l’institution';
 $string['organizationid_default_help'] = 'La valeur à utiliser par défaut pour l’ID de l’institution. L’ID du site identifie cette installation de Moodle.';
 $string['organizationidguid'] = 'ID de l’institution';
-$string['organizationidguid_help'] = 'Une identifiant unique pour cette instance de Moodle, envoyé à l’outil comme « Platform Instance GUID ».';
+$string['organizationidguid_help'] = 'Un identifiant unique pour cette instance de Moodle, envoyé à l’outil comme « Platform Instance GUID ».';
 $string['organizationurl'] = 'URL de l’institution';
 $string['organizationurl_help'] = 'L’URL de base de cette installation de Moodle.
 
@@ -430,7 +430,7 @@ $string['secure_icon_url_help'] = 'Analogue à l’URL de l’icône, mais utili
 $string['secure_launch_url'] = 'URL de l’outil sécurisé';
 $string['secure_launch_url_help'] = 'Analogue à l’URL de l’outil, mais utilisée en lieu et place si une sécurité plus élevée est requise. Moodle utilisera cette URL sécurisée si l’accès à Moodle a lieu via SSL, ou si l’outil est configuré de façon à être toujours lancé via SSL.
 
-Il est aussi possible de définir l’URL standard l’outil avec une adresse https, afin de forcer le lancement via SSL. Dans ce cas, ce champ peut être laissé vide.';
+Il est aussi possible de définir l’URL standard de l’outil avec une adresse https, afin de forcer le lancement via SSL. Dans ce cas, ce champ peut être laissé vide.';
 $string['selectcontent'] = 'Sélectionner un contenu';
 $string['selectcontentvalidationerror'] = 'Vous devez sélectionner le contenu de cette activité.';
 $string['send'] = 'Envoyer';
@@ -448,9 +448,9 @@ Ce fournisseur pourrait avoir besoin de cette adresse afin de distinguer des uti
 Ce réglage peut être court-circuité dans la configuration de l’outil.';
 $string['share_name'] = 'Partager le nom de l’utilisateur avec l’outil';
 $string['share_name_admin'] = 'Partager le nom de l’utilisateur avec l’outil';
-$string['share_name_admin_help'] = 'Spécifie si le nom complet de l’utilisateur qui lance l’outil sera partagée avec le fournisseur de l’outil.
+$string['share_name_admin_help'] = 'Spécifie si le nom complet de l’utilisateur qui lance l’outil sera partagé avec le fournisseur de l’outil.
 Ce fournisseur pourrait avoir besoin de ce nom pour afficher des informations pertinentes.';
-$string['share_name_help'] = 'Spécifie si le nom complet de l’utilisateur qui lance l’outil sera partagée avec le fournisseur de l’outil.
+$string['share_name_help'] = 'Spécifie si le nom complet de l’utilisateur qui lance l’outil sera partagé avec le fournisseur de l’outil.
 
 Ce fournisseur pourrait avoir besoin de ce nom pour afficher des informations pertinentes.
 

@@ -25,5 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['giveup'] = 'توقف واقرأ الإفادة النهائية';
+$string['notcomplete'] = 'غير مكتمل';
+$string['pluginname'] = 'تم اعتماد المتكيف مع coderunner';
+$string['precheck'] = 'الفحص الأولي';
+$string['precheckedresponse'] = 'المفحوص قبلاً: {$a}';
+$string['precheckresults'] = 'نتائج الفحص الأولي';
 $string['privacy:metadata'] = 'إن ملحق سلوك السؤال، النمط المتكيف لأسئلة coderunner لا يخزن أي بيانات شخصية.';
 $string['triesremaining'] = 'المحاولات المتبقية: {$a}';
+$string['tryagain'] = 'حاول مجددًا';

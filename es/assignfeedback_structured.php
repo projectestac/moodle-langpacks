@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['close'] = 'Cerrar';
 $string['criteria'] = 'Criterios de retroalimentación';
-$string['criteria_help'] = 'Ingrese un nombre ( y opcionalmente una descripción) para cada criterio al que quiera proporcionarle retroalimentación. Culaquier criterio no nombrado será ignorado. Todos los campos serán boqueados una vez que se haya dado retroalimentación par cualquier criterio.';
+$string['criteria_help'] = 'Introduzca un nombre (y opcionalmente una descripción) para cada criterio al que quiera proporcionarle retroalimentación. Culaquier criterio no nombrado se ignorará. Todos los campos serán bloqueados una vez que se haya dado retroalimentación para cualquier criterio.';
 $string['criteriafieldsadd'] = 'Añadir más campos de criterio';
 $string['criteriaset'] = 'Conjunto de criterios';
 $string['criteriaset_help'] = 'Haga clic en este botón para seleccionar un criterio guardado previamente para configurar automáticamente los detalles inferiores del criterio.';
@@ -38,7 +38,7 @@ $string['criteriasetemptytitle'] = 'El conjunto de criterios está vacío';
 $string['criteriasetname'] = 'Nombre de conjunto de criterios';
 $string['criteriasetname_help'] = 'El nombre de un conjunto de criterios debe de ser único para todo el sitio; por favor elíjalo cuidadosamente.';
 $string['criteriasetnameedit'] = 'Editar nombre de conjunto de criterios';
-$string['criteriasetnameenter'] = 'Ingresar un nombre único';
+$string['criteriasetnameenter'] = 'Introduzca un nombre único';
 $string['criteriasetnameused'] = 'Desafortunadamente ya hay un conjunto de criterios llamado"{$a}". Por favor intente un nombre diferente.';
 $string['criteriasetnameusedtitle'] = 'Nombre ya utilizado';
 $string['criteriasetnoname'] = 'Usted tiene que proporcionar un nombre para su conjunto de criterios';

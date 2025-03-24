@@ -223,6 +223,8 @@ $string['block'] = 'Bloque';
 $string['blockconfiga'] = 'Configurando un bloque {$a}';
 $string['blockconfigbad'] = 'Este bloque no se ha implementado correctamente y por consiguiente no se puede proporcionar una interfaz de configuración.';
 $string['blocks'] = 'Bloques';
+$string['blocks_main'] = 'Bloques de contenido principales';
+$string['blocks_supplementary'] = 'Bloques suplementarios';
 $string['blocksaddedit'] = 'Añadir/Editar bloques';
 $string['blockseditoff'] = 'Desactivar la edición de bloques';
 $string['blocksediton'] = 'Activar la edición de bloques';
@@ -1244,7 +1246,7 @@ $string['loggedinnot'] = 'Usted no se ha identificado.';
 $string['login'] = 'Acceder';
 $string['login_failure_logs'] = 'Registro de fallos de acceso';
 $string['loginactivity'] = 'Actividad de accesos';
-$string['loginagain'] = 'Ingresar nuevamente';
+$string['loginagain'] = 'Autenticarse nuevamente';
 $string['loginalready'] = 'Usted ya ha accedido al sistema';
 $string['loginas'] = 'Entrar como';
 $string['loginaspasswordexplain'] = '<p>Debe introducir la "loginas password" especial para usar esta característica.<br />Si no la sabe, pregunte al administrador de su servidor.</p>';
@@ -1537,13 +1539,12 @@ $string['newuser'] = 'Nuevo usuario';
 $string['newusernewpasswordsubj'] = 'Cuenta de nuevo usuario';
 $string['newusernewpasswordtext'] = 'Hola, {$a->firstname}.
 
-Se le ha creado una nueva cuenta en "{$a->sitename}"
-y se le ha asignado una nueva contraseña temporal.
+Se le ha creado una nueva cuenta en "{$a->sitename}".
 
-La información para entrar es:
- nombre de usuario: {$a->username}
- contraseña: {$a->newpassword}
-  (deberá cambiar su contraseña cuando acceda por primera vez)
+  Nombre de usuario: {$a->username}
+  Contraseña: {$a->newpassword}
+
+(Deberá cambiar su contraseña cuando acceda por primera vez)
 
 Para comenzar a usar "{$a->sitename}", entre en
 {$a->link}
@@ -2491,7 +2492,7 @@ $string['youhaveupcomingactivitiesdueinfo'] = 'Hola, {$a},
 
 <br/><br/>Tienes actividades próximas pendientes:';
 $string['youneedtoenrol'] = 'Para llevar a cabo esta acción necesita matricularse en este curso.';
-$string['yourlastlogin'] = 'Su último ingreso fue el';
+$string['yourlastlogin'] = 'Su último acceso fue el';
 $string['yourself'] = 'usted';
 $string['yourteacher'] = 'su {$a}';
 $string['yourwordforx'] = 'Su palabra para \'{$a}\'';

@@ -25,4 +25,16 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addingessaywiris'] = '';
+$string['addingessaywiris'] = 'Agregando una pregunta de ensayo - Matemáticas y Ciencias por WIRIS';
+$string['editingessaywiris'] = 'Editando una pregunta de ensayo - Matemáticas y Ciencias por WIRIS';
+$string['essaywiris'] = 'Ensayo - Ciencias';
+$string['essaywiris_algorithm'] = 'Algoritmo';
+$string['essaywiris_help'] = 'Igual que la pregunta estándar de Ensayo, pero se pueden crear enunciados y retroalimentaciones múltiples insertando variables con números, fórmulas o gráficas.';
+$string['essaywiris_wiris_variables'] = 'Variables WIRIS';
+$string['essaywirissummary'] = 'Igual que la pregunta estándar de Ensayo, pero se pueden crear enunciados y retroalimentaciones múltiples insertando variables con números, fórmulas o gráficas.';
+$string['pluginname'] = 'Ensayo - Ciencias';
+$string['pluginname_help'] = 'Igual que la pregunta estándar de Ensayo, pero se pueden crear enunciados y retroalimentaciones múltiples insertando variables con números, fórmulas o gráficas.';
+$string['pluginnameadding'] = 'Agregando una pregunta de ensayo - Matemáticas y Ciencias por WIRIS';
+$string['pluginnameediting'] = 'Editando una pregunta de ensayo - Matemáticas y Ciencias por WIRIS';
+$string['pluginnamesummary'] = 'Igual que la pregunta estándar de Ensayo, pero se pueden crear enunciados y retroalimentaciones múltiples insertando variables con números, fórmulas o gráficas.';
+$string['privacy:null_reason'] = 'El tipo de pregunta ensayo - Matemáticas y Ciencias por WIRIS no altera ni guarda datos personales por sí mismo.';

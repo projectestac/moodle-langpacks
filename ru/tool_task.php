@@ -36,7 +36,7 @@ $string['adhoctasksdue'] = 'Разовые задачи, подлежащие в
 $string['adhoctasksfailed'] = 'Неудачные разовые задачи';
 $string['adhoctasksfuture'] = 'Будущие разовые задачи';
 $string['adhoctasksrunning'] = 'Текущие разовые задачи';
-$string['asap'] = 'При первой же возможности';
+$string['asap'] = '<abbr title="Как можно скорее">Как можно скорее</abbr>';
 $string['backtoadhoctasks'] = 'Вернуться к разовым задачам';
 $string['backtoscheduledtasks'] = 'Вернуться к запланированным задачам';
 $string['blocking'] = 'Блокирующая задача';

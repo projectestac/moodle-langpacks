@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['browserepositories'] = 'Arakatu biltegiak...';
-$string['buttontitle'] = 'Konfiguratu H5P edukia';
+$string['buttontitle'] = 'Txertatu H5P edukia';
 $string['copyrightbutton'] = 'Copyright botoia';
 $string['downloadbutton'] = 'Baimendu deskarga';
 $string['embedbutton'] = 'Enbotatu botoia';

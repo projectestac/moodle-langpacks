@@ -33,7 +33,7 @@ $string['apppolicy_help'] = 'La URL de una política para los usuarios de la apl
 $string['apprequired'] = 'Esta funcionalidad sólo está disponible cuando se accede a través de la aplicación móvil de Moodle o la aplicación de escritorio.';
 $string['autologinkeygenerationlockout'] = 'La generación de claves de inicio de sesión automático está bloqueada. Debe esperar {$a} minutos entre solicitudes.';
 $string['autologinmintimebetweenreq'] = 'Tiempo mínimo entre solicitudes de inicio de sesión automático.';
-$string['autologinmintimebetweenreq_desc'] = 'El tiempo mínimo entre las solicitudes de inicio de sesión automático desde la aplicación móvil. Si a los usuarios de la aplicación se les solicita con frecuencia que ingresen sus credenciales cuando ven contenido incrustado desde el sitio, establezca un valor más bajo.';
+$string['autologinmintimebetweenreq_desc'] = 'El tiempo mínimo entre las solicitudes de inicio de sesión automático desde la aplicación móvil. Si a los usuarios de la aplicación se les solicita con frecuencia que introduzcan sus credenciales cuando ven contenido incrustado desde el sitio, establezca un valor más bajo.';
 $string['autologinnotallowedtoadmins'] = 'No se permite el inicio de sesión automático para los administradores del sitio.';
 $string['autologout'] = 'Forzar cerrado de sesión automático para sus usuarios';
 $string['autologout_desc'] = 'Por razones de seguridad, usted puede formar cerrado de sesión automático para sus usuarios cuando salgan de la aplicación o la cierren, o seguirá en segundo plano. Los usuarios tienen que volver a autenticarse cuando vuelven a la app.';
@@ -136,7 +136,7 @@ $string['qrcodetypeurl'] = 'Código QR con la URL del sitio';
 $string['qrkeyttl'] = 'Duración de la clave de autenticación QR';
 $string['qrkeyttl_desc'] = 'El período de tiempo durante el cual es válido un código QR para el inicio de sesión automático.';
 $string['qrsameipcheck'] = 'Autenticación QR comprobación de misma IP';
-$string['qrsameipcheck_desc'] = 'Si es que los usuarios deben o no usar la misma red para ambos: generar y escanear un código QR para ingresar. Deshabilítelo solamente en caso de que sus usuarios reporten problemas con el ingreso por QR.';
+$string['qrsameipcheck_desc'] = 'Si es que los usuarios deben o no usar la misma red para ambos: generar y escanear un código QR para autenticarse. Deshabilítelo solamente en caso de que sus usuarios reporten problemas con la autenticación por QR.';
 $string['qrsiteadminsnotallowed'] = 'Por razones de seguridad el inicio de sesión a través de código QR no está permitido para administradores de sitio o si usted ha iniciado sesión como otro usuario.';
 $string['readingthisemailgettheapp'] = '¿Está leyendo esto en un correo electrónico? <a href="{$a}">Descargue la aplicación móvil y reciba notificaciones en su dispositivo móvil</a>.';
 $string['remoteaddons'] = 'Complementos remotos';

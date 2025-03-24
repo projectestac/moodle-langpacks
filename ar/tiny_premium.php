@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'يصدّر';
 $string['premiumplugin:footnotes'] = 'الحواشي';
 $string['premiumplugin:formatpainter'] = 'شكل الرسام';
 $string['premiumplugin:linkchecker'] = 'مدقق الارتباط';
+$string['premiumplugin:math'] = 'أداة الرياضيات';
 $string['premiumplugin:pageembed'] = 'تضمين الصفحة';
 $string['premiumplugin:permanentpen'] = 'القلم الدائم';
 $string['premiumplugin:powerpaste'] = 'Powerpaste';

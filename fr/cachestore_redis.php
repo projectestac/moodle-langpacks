@@ -33,6 +33,8 @@ $string['clustermodeunavailable'] = 'Le mode Redis Cluster n’est actuellement 
 $string['compressor_none'] = 'Pas de compression.';
 $string['compressor_php_gzip'] = 'Utiliser la compression gzip.';
 $string['compressor_php_zstd'] = 'Utiliser la compression Zstandard.';
+$string['connectiontimeout'] = 'Délai de connexion';
+$string['connectiontimeout_help'] = 'Ce réglage détermine le délai lors des tentatives de connexion au serveur Redis';
 $string['encrypt_connection'] = 'Utiliser le chiffrement TLS';
 $string['encrypt_connection_help'] = 'Utiliser le chiffrement TLS pour se connecter à Redis. Ne pas indiquer « tls:// » dans le nom d’hôte de Redis ; utiliser pour cela ce réglage.';
 $string['password'] = 'Mot de passe';
@@ -65,7 +67,7 @@ Si le mode cluster est activé, indiquer les serveurs chacun sur une nouvelle li
   172.23.0.13<br>
 
 Consulter <a href="https://redis.io/docs/reference/clients/#accepting-client-connections" target="_new">Accepting Client Connections</a> (en anglais) et <a href="https://redis.io/resources/clients/#php" target="_new">Redis PHP clients</a> (en anglais) pour plus d’informations.';
-$string['task_ttl'] = 'Libérer la mémoire utilisée par les caches Redis expirées';
+$string['task_ttl'] = 'Libérer la mémoire utilisée par les caches Redis expirés';
 $string['test_clustermode'] = 'Mode cluster';
 $string['test_clustermode_desc'] = 'Activer les tests dans Redis en mode cluster';
 $string['test_password'] = 'Tester le mot de passe';

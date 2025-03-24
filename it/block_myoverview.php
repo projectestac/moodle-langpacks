@@ -91,7 +91,7 @@ $string['sortbytitle'] = 'Ordina per titolo del corso';
 $string['summary'] = 'Sommario';
 $string['title'] = 'Titolo del corso';
 $string['viewquickstart'] = 'Visualizza la guida rapida';
-$string['zero_default_intro'] = 'I cosi ai quali sarai iscritto compariranno qui.';
+$string['zero_default_intro'] = 'I corsi ai quali sarai iscritto compariranno qui.';
 $string['zero_default_title'] = 'Non sei iscritto in nessun corso.';
 $string['zero_nocourses_intro'] = 'Servei aiuto per iniziare? Dai un\'occhiata alla <a href="{$a->doctarget}" title="{$a->doctitle}" target="{$a->doctarget}">Documentazione di Moodle</a> o muovi i primi passi con la nostra guida rapida.';
 $string['zero_nocourses_title'] = 'Crea il primo corso';

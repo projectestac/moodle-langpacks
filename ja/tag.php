@@ -153,6 +153,7 @@ $string['tagarea_blog_external'] = '外部ブログ記事';
 $string['tagarea_course'] = 'コース';
 $string['tagarea_course_modules'] = '活動およびリソース';
 $string['tagarea_post'] = 'ブログ記事';
+$string['tagarea_tag'] = '関連タグ';
 $string['tagarea_user'] = 'ユーザの興味のあること';
 $string['tagareaenabled'] = '有効';
 $string['tagareaname'] = '名称';

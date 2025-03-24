@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['achievinggrade'] = 'Erreichen der Bewertung';
-$string['achievingpassinggrade'] = 'Erreichen der Bestehensnote';
+$string['achievingpassinggrade'] = 'Bestehensgrenze erreichen';
 $string['activities'] = 'Aktivitäten';
 $string['activitiescompleted'] = 'Aktivitätsabschluss';
 $string['activitiescompletednote'] = 'Hinweis: Ein Aktivitätenabschluss muss gesetzt sein, bevor die Aktivität in der Liste angezeigt wird.';
@@ -111,9 +111,9 @@ $string['completionnotenabledforcourse'] = 'Abschluss ist für diesen Kurs nicht
 $string['completionnotenabledforsite'] = 'Abschluss ist für diese Website nicht aktiviert';
 $string['completionondate'] = 'Datum';
 $string['completionondatevalue'] = 'Datum, wann der Kurs als abgeschlossen markiert wird';
-$string['completionpassgrade'] = 'Bestehensnote erforderlich';
-$string['completionpassgrade_desc'] = 'Bestehensnote';
-$string['completionpassgrade_help'] = 'Wenn diese Option aktiviert ist, gilt die Aktivität als bestanden, wenn Teilnehmer/innen die Bestehensnote erreichen.';
+$string['completionpassgrade'] = 'Bestehensgrenze erforderlich';
+$string['completionpassgrade_desc'] = 'Bestehensgrenze erreichen';
+$string['completionpassgrade_help'] = 'Wenn diese Option aktiviert ist, gilt die Aktivität als bestanden, wenn Teilnehmer/innen die Bestehensgrenze erreichen.';
 $string['completionsettingslocked'] = 'Abschlusseinstellungen gesperrt';
 $string['completionupdated'] = 'Aktualisierter Abschluss für Aktivität <b>{$a}</b>';
 $string['completionusegrade'] = 'Bewertung notwendig';
@@ -156,7 +156,7 @@ $string['deletecompletiondata'] = 'Abschlussdaten löschen';
 $string['dependencies'] = 'Abhängigkeiten';
 $string['dependenciescompleted'] = 'Abschluss von anderen Kursen';
 $string['detail_desc:receivegrade'] = 'Eine Bewertung erhalten';
-$string['detail_desc:receivepassgrade'] = 'Bestehensnote erreichen';
+$string['detail_desc:receivepassgrade'] = 'Bestehensgrenze erreichen';
 $string['detail_desc:view'] = 'Anzeigen';
 $string['done'] = 'Erledigt';
 $string['editconditions'] = 'Bedingungen bearbeiten';

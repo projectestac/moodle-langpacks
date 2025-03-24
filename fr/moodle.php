@@ -222,6 +222,8 @@ $string['block'] = 'Bloc';
 $string['blockconfiga'] = 'Configuration du bloc « {$a} »';
 $string['blockconfigbad'] = 'Ce bloc n’a pas été implémenté correctement et ne fournit donc pas d’interface de configuration.';
 $string['blocks'] = 'Blocs';
+$string['blocks_main'] = 'Blocs du contenu principal';
+$string['blocks_supplementary'] = 'Blocs supplémentaires';
 $string['blocksaddedit'] = 'Ajouter/Modifier des blocs';
 $string['blockseditoff'] = 'Désactiver l’édition des blocs';
 $string['blocksediton'] = 'Activer l’édition des blocs';
@@ -1514,19 +1516,18 @@ $string['newuser'] = 'Nouvel utilisateur';
 $string['newusernewpasswordsubj'] = 'Nouveau compte utilisateur';
 $string['newusernewpasswordtext'] = 'Bonjour {$a->firstname},
 
-Un nouveau compte a été créé pour vous sur le site « {$a->sitename} » et un mot de passe temporaire vous a été délivré.
+Un compte a été créé pour vous sur le site « {$a->sitename} ».
 
-Les informations nécessaires à votre connexion sont :
    nom d’utilisateur : {$a->username}
    mot de passe : {$a->newpassword}
 
-Vous devrez changer votre mot de passe lors de votre première connexion.
+(Vous devrez changer votre mot de passe lors de votre première connexion.)
 
 Pour commencer à travailler sur « {$a->sitename} », connectez-vous sur
    {$a->link}
 
 Si vous avez besoin d’aide, vous pouvez contacter l’administrateur du site,
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'Nouveaux utilisateurs';
 $string['newwindow'] = 'Nouvelle fenêtre';
 $string['next'] = 'Suivant';
@@ -2126,40 +2127,40 @@ $string['statsmodegeneral'] = 'Vue d’ensemble';
 $string['statsnodata'] = 'Aucune donnée disponible pour ce cours et cette période.';
 $string['statsnodatauser'] = 'Aucune donnée disponible pour ce cours, cet utilisateur et cette période.';
 $string['statsoff'] = 'Les statistiques ne sont actuellement pas activées';
-$string['statsreads'] = 'Affichages';
+$string['statsreads'] = 'Consultations';
 $string['statsreport1'] = 'Connexions';
 $string['statsreport10'] = 'Activités des utilisateurs';
 $string['statsreport11'] = 'Cours les plus actifs';
 $string['statsreport12'] = 'Cours les plus actifs (pondérés)';
 $string['statsreport13'] = 'Cours avec le plus de participation (inscriptions)';
-$string['statsreport14'] = 'Cours avec le plus de participation (messages/affichages)';
-$string['statsreport2'] = 'Affichages (tous les rôles)';
-$string['statsreport3'] = 'Messages (tous les rôles)';
+$string['statsreport14'] = 'Cours avec le plus de participation (interactions/consultations)';
+$string['statsreport2'] = 'Consultations (tous les rôles)';
+$string['statsreport3'] = 'Interactions (tous les rôles)';
 $string['statsreport4'] = 'Toutes les activités (tous les rôles)';
-$string['statsreport5'] = 'Toutes les activités (consultations et messages)';
-$string['statsreport7'] = 'Activités des utilisateurs (consultations et messages)';
+$string['statsreport5'] = 'Toutes les activités (consultations et interactions)';
+$string['statsreport7'] = 'Activités des utilisateurs (consultations et  interactions)';
 $string['statsreport8'] = 'Toutes les activités';
 $string['statsreport9'] = 'Connexion (cours de site)';
 $string['statsreportactivity'] = 'Toutes les activités (tous les rôles)';
-$string['statsreportactivitybyrole'] = 'Toutes les activités (affichages et messages)';
+$string['statsreportactivitybyrole'] = 'Toutes les activités (consultations et interactions)';
 $string['statsreportforuser'] = 'pour';
 $string['statsreportlogins'] = 'Connexions';
-$string['statsreportreads'] = 'Affichages (tous les rôles)';
+$string['statsreportreads'] = 'Consultations (tous les rôles)';
 $string['statsreporttype'] = 'Type de rapport';
-$string['statsreportwrites'] = 'Messages (tous les rôles)';
+$string['statsreportwrites'] = 'Interactions (tous les rôles)';
 $string['statsstudentactivity'] = 'Activité des étudiants';
 $string['statsstudentreads'] = 'Consultations des étudiants';
-$string['statsstudentwrites'] = 'Messages des étudiants';
+$string['statsstudentwrites'] = 'Interactions des étudiants';
 $string['statsteacheractivity'] = 'Activité des enseignants';
 $string['statsteacherreads'] = 'Consultations des enseignants';
-$string['statsteacherwrites'] = 'Messages des enseignants';
+$string['statsteacherwrites'] = 'Interactions des enseignants';
 $string['statstimeperiod'] = 'Période :';
 $string['statsuniquelogins'] = 'Connexions distinctes';
 $string['statsuseractivity'] = 'Toutes activités';
 $string['statsuserlogins'] = 'Connexions';
 $string['statsuserreads'] = 'Consultations';
-$string['statsuserwrites'] = 'Messages';
-$string['statswrites'] = 'Messages';
+$string['statsuserwrites'] = 'Interactions';
+$string['statswrites'] = 'Interactions';
 $string['status'] = 'Statut';
 $string['statuschecks'] = 'Vérifications du statut';
 $string['statuscritical'] = 'Critique';

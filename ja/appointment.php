@@ -195,11 +195,11 @@ $string['placeholder:reminderperiod'] = '[リマインダー期間]';
 $string['placeholder:sessiondate'] = '[セッション日]';
 $string['placeholder:starttime'] = '開始時刻';
 $string['placeholdersdesc'] = 'プレースホルダー';
-$string['placeholdersdesc_help'] = 'プレースホルダーを使用すると、動的なコンテンツを追加できます。たとえば、[firstname] プレースホルダーは、ユーザーに送信される通知内でユーザーの名前に置き換えられます';
+$string['placeholdersdesc_help'] = 'プレースホルダーを使用すると、動的なコンテンツを追加できます。たとえば、[firstname] プレースホルダーは、ユーザに送信される通知内でユーザの名前に置き換えられます';
 $string['pluginadministration'] = 'アポイントメント管理';
 $string['pluginname'] = 'アポイントメント';
 $string['potentialattendees'] = '潜在的な参加者';
-$string['privacy:metadata:appointment_signups'] = 'アポイントメントセッションへのユーザーの登録';
+$string['privacy:metadata:appointment_signups'] = 'アポイントメントセッションへのユーザの登録';
 $string['privacy:metadata:appointment_signups:id'] = '登録ID';
 $string['privacy:metadata:appointment_signups:mailedreminder'] = 'リマインダーが最後に送信された時間';
 $string['privacy:metadata:appointment_signups:sessionid'] = 'セッションID';
@@ -343,7 +343,7 @@ $string['showoncalendar_help'] = '「サイト」を選択すると、アポイ�
 
  「コース」を選択すると、すべてのアポイントメント管理セッションがコースカレンダーに表示され、サイトレベルカレンダーにコースイベントとして表示され、そのコースに登録しているすべてのユーザが閲覧できます。
 
- 「なし」が選択されている場合、「ユーザのカレンダーに表示する」オプションが選択されている場合に限り、アポイントメント活動セッションは、確認済みの参加者のカレンダーにユーザーイベントとして表示されます。';
+ 「なし」が選択されている場合、「ユーザのカレンダーに表示する」オプションが選択されている場合に限り、アポイントメント活動セッションは、確認済みの参加者のカレンダーにユーザイベントとして表示されます。';
 $string['sign-ups'] = '登録';
 $string['signupforthissession'] = 'このアポイントメントセッションに登録';
 $string['split'] = '自動分割';
@@ -356,7 +356,7 @@ $string['status_fully_attended'] = '完全出席';
 $string['status_no_show'] = '表示なし';
 $string['status_partially_attended'] = '部分的に出席しました';
 $string['status_requested'] = 'リクエストされました';
-$string['status_user_cancelled'] = 'ユーザーがキャンセル';
+$string['status_user_cancelled'] = 'ユーザがキャンセル';
 $string['status_waitlisted'] = 'キャンセル待ち';
 $string['suppressemail'] = 'Eメール通知を停止';
 $string['suppressemail_help'] = 'このオプションは、アポイントメントセッションからユーザに気づかれずに、ユーザを追加/削除したい場合に使用してください。このオプションが設定されている場合、通常のEメールは選択されたユーザには送信されません。';
@@ -379,7 +379,7 @@ $string['unknowntime'] = '(時間不明)';
 $string['updatemessage'] = 'メッセージを更新';
 $string['updatemessage_help'] = 'このメッセージは、セッションが変更されるたびに送信されます。';
 $string['usercalentry'] = 'ユーザのカレンダーにエントリを表示';
-$string['usercalentry_help'] = 'この設定を有効にすると、予定セッションの出席者のカレンダーにユーザーイベントのエントリが追加されます。オフにすると、カレンダーの表示設定が「コース」または「サイト」に設定されているセッションの参加者のカレンダ ーに、イベントが重複して表示されるのを防ぐことができます。';
+$string['usercalentry_help'] = 'この設定を有効にすると、予定セッションの出席者のカレンダーにユーザイベントのエントリが追加されます。オフにすると、カレンダーの表示設定が「コース」または「サイト」に設定されているセッションの参加者のカレンダ ーに、イベントが重複して表示されるのを防ぐことができます。';
 $string['usercancelledon'] = '{$a} をキャンセルしたユーザ';
 $string['usernotsignedup'] = 'ステータス：登録していません';
 $string['usersignedup'] = 'ステータス：登録しました';

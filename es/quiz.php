@@ -125,7 +125,7 @@ $string['attempttitle'] = '{$a}';
 $string['attempttitlepaged'] = '{$a->name} (página {$a->currentpage} de {$a->totalpages})';
 $string['autosaveperiod'] = 'Retardo de guardado automático';
 $string['autosaveperiod_desc'] = 'Las respuestas de los estudiantes se pueden guardar automáticamente durante los intentos del cuestionario. Las respuestas se guardan cada vez que se cambie una, y entonces tras este lapso. Hay una contraprestación: un lapso menor aumenta la carga del servidor, pero reduce la probabilidad de que los estudiantes pierdan su trabajo.
-Si usted va a hacer este lapso mucho más breve, debería cambiarlo gradualmente y monitorizar la carga del servidor. Si la carga es demasiado alta, amplíe el lapso de nuevo. Ajustarlo a 0 lo deja en modo de guardado automático.';
+Si usted va a hacer este lapso mucho más breve, debería cambiarlo gradualmente y monitorizar la carga del servidor. Si la carga es demasiado alta, amplíe el lapso de nuevo. Ajustar el lapso a 0 desactiva el guardado automático.';
 $string['back'] = 'Volver a la vista previa de la pregunta';
 $string['backtocourse'] = 'Volver al curso';
 $string['backtoquestionlist'] = 'Volver a lista de preguntas';
@@ -583,6 +583,7 @@ $string['messageprovider:confirmation'] = 'Confirmación de su envío del cuesti
 $string['messageprovider:submission'] = 'Notificación del envío de cuestionarios de sus estudiantes';
 $string['min'] = 'Mín';
 $string['minutes'] = 'Minutos';
+$string['missingcategory'] = 'Categoría de preguntas no encontrada';
 $string['missingcorrectanswer'] = 'Debe especificar la respuesta correcta';
 $string['missingitemtypename'] = 'Nombre perdido';
 $string['missingquestion'] = 'Parece que no existe ya esta pregunta';
@@ -1009,6 +1010,7 @@ $string['saveandedit'] = 'Guardar cambios y editar preguntas';
 $string['saveattemptfailed'] = 'No se ha podido guardar el intento de resolver el cuestionario.';
 $string['savedfromdeletedcourse'] = 'Guardado del curso eliminado "{$a}"';
 $string['savegrades'] = 'Guardar calificaciones';
+$string['savemanualgradingfailed'] = 'No se ha guardado la modificación. Por favor, compruebe el siguiente mensaje y vuelva a probar.';
 $string['savemyanswers'] = 'Guardar mis respuestas';
 $string['savenosubmit'] = 'Guardar sin enviar';
 $string['saveoverrideandstay'] = 'Guardar e introducir otra excepción';

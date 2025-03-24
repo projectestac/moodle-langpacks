@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['browserepositories'] = 'Parcourir les dépôts…';
-$string['buttontitle'] = 'Configurer contenu H5P';
+$string['buttontitle'] = 'Insérer contenu H5P';
 $string['copyrightbutton'] = 'Bouton copyright';
 $string['downloadbutton'] = 'Permettre le téléchargement';
 $string['embedbutton'] = 'Bouton intégration';

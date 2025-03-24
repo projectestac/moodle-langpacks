@@ -112,7 +112,7 @@ $string['config_experimental_features_description'] = 'Конфігурація 
 $string['config_extended_capabilities'] = 'Розширені можливості';
 $string['config_extended_capabilities_description'] = 'Configuration for extended capabilities when the BigBlueButton server offers them.';
 $string['config_general'] = 'Загальні налаштування';
-$string['config_general_description'] = 'Ці параметри використовуються завжди.';
+$string['config_general_description'] = 'Щоб налаштувати BigBlueButton, ви можете використовувати власний сервер і облікові дані BigBlueButton або отримати облікові дані через <a href="https://registration-portal.blindsidenetworks.com/" target="_blank">портал реєстрації Blindside Networks (відкривається у новому вікні)</a>.';
 $string['config_guestaccess_enabled'] = 'Зовнішній гостьовий доступ';
 $string['config_guestaccess_enabled_description'] = 'Дозвольте користувачам без облікового запису на вашому сайті отримати доступ до кімнати.';
 $string['config_hideuserlist_default'] = 'Приховати список користувачів увімкнено за замовчуванням';

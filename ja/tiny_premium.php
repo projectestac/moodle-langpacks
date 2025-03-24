@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'エクスポート';
 $string['premiumplugin:footnotes'] = '脚注';
 $string['premiumplugin:formatpainter'] = 'フォーマットペインタ';
 $string['premiumplugin:linkchecker'] = 'リンクチェッカ';
+$string['premiumplugin:math'] = '数学ツール';
 $string['premiumplugin:pageembed'] = 'ページ埋め込み';
 $string['premiumplugin:permanentpen'] = '油性ペン';
 $string['premiumplugin:powerpaste'] = 'パワーペースト';

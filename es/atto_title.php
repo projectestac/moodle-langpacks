@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['h3'] = 'Encabezado (largo)';
-$string['h4'] = 'Encabezado (medio)';
+$string['h3'] = 'Encabezado (grande)';
+$string['h4'] = 'Encabezado (mediano)';
 $string['h5'] = 'Encabezado (pequeño)';
 $string['p'] = 'Párrafo';
 $string['pluginname'] = 'Estilos de párrafos';

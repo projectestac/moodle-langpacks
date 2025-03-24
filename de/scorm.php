@@ -89,12 +89,12 @@ $string['completed'] = 'Abgeschlossen';
 $string['completiondetail:allscos'] = 'Alle Teile dieser Aktivität ausführen';
 $string['completiondetail:completionscore'] = 'Eine Bewertung von {$a} oder mehr erhalten';
 $string['completiondetail:completionstatuscompleted'] = 'Aktivität abschließen';
-$string['completiondetail:completionstatuscompletedorpassed'] = 'Aktivität abschließen und bestehen';
+$string['completiondetail:completionstatuscompletedorpassed'] = 'Aktivität abschließen oder bestehen';
 $string['completiondetail:completionstatuspassed'] = 'Aktivität bestehen';
 $string['completionscorerequired'] = 'Mindestpunkte notwendig';
 $string['completionscorerequired_help'] = 'Wenn diese Option aktiviert ist, müssen Teilnehmer/innen neben anderen Anforderungen auch die angegebene Mindestpunkte erreichen, um dieses Lernpaket als \'abgeschlossen\' markieren zu können.';
 $string['completionscorerequireddesc'] = 'Die Mindestpunktzahl {$a} ist zum Abschluss erforderlich.';
-$string['completionstatus_completed'] = 'Vollständig angesehen';
+$string['completionstatus_completed'] = 'Bestanden';
 $string['completionstatus_passed'] = 'Erfolgreich bestanden';
 $string['completionstatusallscos'] = 'Alle SCOs müssen den Abschlussstatus zurückzugeben';
 $string['completionstatusallscos_help'] = 'Einige SCORM Pakete enthalten mehrere Komponenten oder "scos" - bei Aktivierung müssen alle scos innerhalb des Pakets den entsprechenden lesson_status für diese Aktivität zurücksenden um als abgeschlossen markiert zu werden.';
@@ -155,10 +155,10 @@ $string['firstaccess'] = 'Erster Zugang';
 $string['firstattempt'] = 'Erster Versuch';
 $string['floating'] = 'Umfliessen';
 $string['forceattemptalways'] = 'Immer';
-$string['forceattemptoncomplete'] = 'Wann vorherige Versuche abgeschlossen, bestätigt oder gescheitert sind';
-$string['forcecompleted'] = 'Abschluss einfordern';
-$string['forcecompleted_help'] = 'Mit dieser Einstellung \'Abschluss einfordern\' wird sicher gestellt, dass ein Versuch als \'abgeschlossen\' registriert wird. Dies funktioniert nur mit SCORM 1.2.';
-$string['forcecompleteddesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung \'Abschluss einfordern\'';
+$string['forceattemptoncomplete'] = 'Wenn vorherige Versuche abgeschlossen, bestanden oder gescheitert sind';
+$string['forcecompleted'] = 'Bestehen einfordern';
+$string['forcecompleted_help'] = 'Mit dieser Einstellung \'Abschluss einfordern\' wird sicher gestellt, dass ein Versuch als \'bestanden\' registriert wird. Dies funktioniert nur mit SCORM 1.2.';
+$string['forcecompleteddesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung \'Bestehen einfordern\'';
 $string['forcejavascript'] = 'Aktivierung von JavaScript einfordern';
 $string['forcejavascript_desc'] = 'Lernpakete erfordern JavaScript zur Kommunikation zwischen dem Lernpaket und Moodle, z.B. um Bewertungen zu übergeben. Mit dieser Funktion wird der Zugriff auf ein Lernpaket lesend möglich, wenn JavaScript im Browser nicht verfügbar ist. Es werden jedoch keine Bewertungen abgespeichert. Es wird empfohlen, diese Funktion zu aktivieren.';
 $string['forcejavascriptmessage'] = 'Um dieses Objekt anzuzeigen, ist JavaScript notwendig. Aktivieren Sie bitte JavaScript für Ihren Browser und versuchen Sie es nochmal.';
@@ -180,7 +180,7 @@ $string['gradehighest'] = 'Höchstnote';
 $string['grademethod'] = 'Bewertungsmethode';
 $string['grademethod_help'] = 'Die Bewertungsmethoden legen fest, wie ein Versuch ausgewertet wird:
 
-* Zahl der Lernobjekte - Zahl der abgeschlossenen bzw. erfolgreichen Lernobjekte
+* Zahl der Lernobjekte - Zahl der bestandenen bzw. erfolgreichen Lernobjekte
 * Höchstbewertung - Die höchste Bewertung der erfolgreichen Lernobjekte wird übernommen
 * Durchschnitt - Die Durchschnittswerte aller Bewertungen werden errechnet
 * Summe der Bewertungen - Alle erreichten Bewertungen werden summiert';
@@ -201,7 +201,7 @@ $string['hidetoc_help'] = 'Diese Einstellung legt fest, wie die Kursstruktur im 
 $string['hidetocdesc'] = 'Diese Einstellung legt fest, wie die Kursstruktur im Lernpaket angezeigt wird.';
 $string['highestattempt'] = 'Bester Versuch';
 $string['identifier'] = 'Fragen-ID';
-$string['incomplete'] = 'Unvollständig';
+$string['incomplete'] = 'Nicht bestanden';
 $string['indicator:cognitivedepth'] = 'Lernpaket kognitiv';
 $string['indicator:cognitivedepth_help'] = 'Dieser Indikator basiert auf der kognitiven Tiefe, die einPerson in einer Lernpaketaktivität erreicht hat.';
 $string['indicator:cognitivedepthdef'] = 'Lernpaket kognitiv';

@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'Exportation';
 $string['premiumplugin:footnotes'] = 'Notes de bas de page';
 $string['premiumplugin:formatpainter'] = '';
 $string['premiumplugin:linkchecker'] = 'Vérificateur de liens';
+$string['premiumplugin:math'] = 'Outil maths';
 $string['premiumplugin:pageembed'] = 'Insertion de page';
 $string['premiumplugin:permanentpen'] = 'Stylo permanent';
 $string['premiumplugin:powerpaste'] = 'Collage spécial';

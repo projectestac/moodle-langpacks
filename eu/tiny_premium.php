@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'Esportatu';
 $string['premiumplugin:footnotes'] = 'Orri-oineko oharrak';
 $string['premiumplugin:formatpainter'] = 'Formatu Margolaria';
 $string['premiumplugin:linkchecker'] = 'Esteka Egiaztatzailea';
+$string['premiumplugin:math'] = 'Matematika tresna (Math Tool)';
 $string['premiumplugin:pageembed'] = 'Enbotatutako Orria';
 $string['premiumplugin:permanentpen'] = 'Errotuladore Iraunkorra';
 $string['premiumplugin:powerpaste'] = 'Itsatsi Aurreratua';

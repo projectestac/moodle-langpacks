@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['branding'] = 'علامة TinyMCE';
 $string['branding_desc'] = 'إدعم TinyMCE عبر عرض الشعار في الزاوية السفلى من محرر النصوص. الشعار مرتبط بموقع TinyMCE.';
+$string['extended_valid_elements'] = 'العناصر الموسعة الصالحة';
+$string['extended_valid_elements_desc'] = 'هذا يسمح لك باستعمال عناصر HTML إضافية وسمات في المحرر.';
 $string['plugin_disabled'] = '{$a} قد تم تعطيله.';
 $string['plugin_enabled'] = '{$a} قد تم تمكينه.';
 $string['pluginname'] = 'محرر TinyMCE';

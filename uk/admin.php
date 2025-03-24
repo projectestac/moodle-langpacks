@@ -26,7 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['accessdenied'] = 'Доступ відхилено';
+$string['accountlocked'] = 'Ваш акаунт заблокований. Посилання на розблокування надіслано електронною поштою.';
 $string['accounts'] = 'Облікові записи';
+$string['accountunlocked'] = 'Ваш акаунт розблокований. Ви можете увійти.';
 $string['addcategory'] = 'Додати категорію';
 $string['additionalhtml'] = 'Додатковий HTML';
 $string['additionalhtml_desc'] = 'Ці налаштування дозволяють вказати HTML, який потрібно додати до кожної сторінки. Ви можете встановити HTML, який буде додано в тег HEAD для сторінки, відразу після відкриття тегу BODY або безпосередньо перед закриттям тегу body. Це дозволить вам додавати спеціальні колонтитули на кожну сторінку або додати Підтримка таких служб, як Google Analytics, дуже проста, незалежно від обраної вами теми.';
@@ -428,6 +430,7 @@ $string['configvisiblecourses'] = 'Показувати курси в схова
 $string['configwarning'] = 'Будьте уважні при зміні цих налаштувань, некоректні установки можуть призвести до проблем.';
 $string['configyuicomboloading'] = 'Ця опція дозволяє завантаження об\'єднаного файл у оптимізації для бібліотеки YUI. Цей параметр повинен бути включений на робочих сайтах для збільшення продуктивності.';
 $string['confirmation'] = 'Підтвердження';
+$string['confirmationpending'] = 'Підтвердження очікування';
 $string['confirmcontextlock'] = '{$a->contextname} наразі запущено. Якщо його зупинити, він стане доступним лише для читання та не дозволить користувачам вносити зміни. Ви впевнені, що хочете продовжити?';
 $string['confirmcontextunlock'] = '{$a->contextname} наразі зупинено. Запуск дозволить користувачам вносити зміни. Ви впевнені, що хочете продовжити?';
 $string['confirmdeletecomments'] = 'Ви впевнені, що бажаєте видалити вибрані коментарі?';
@@ -1086,7 +1089,7 @@ $string['profilesforenrolledusersonly'] = 'Профайли тільки для 
 $string['profileshortname'] = 'Коротка назва (має бути унікальна)';
 $string['profileshortnameinvalid'] = 'This short name can only contain alphanumeric characters (letters and numbers) or underscore (_).';
 $string['profileshortnamenotunique'] = 'Така коротка назва вже використовується';
-$string['profilesignup'] = 'Показати установки сторінки?';
+$string['profilesignup'] = 'Відображати на сторінці реєстрації?';
 $string['profilespecificsettings'] = 'Спеціальне налаштування';
 $string['profilevisible'] = 'Хто може бачити це поле?';
 $string['profilevisible_help'] = '* Не видно – для приватних даних, які можуть переглядати лише адміністратори та менеджери

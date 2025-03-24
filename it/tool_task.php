@@ -36,7 +36,7 @@ $string['adhoctasksdue'] = 'Elaborazioni ad hoc da svolgere';
 $string['adhoctasksfailed'] = 'Elaborazioni ad hoc in errore';
 $string['adhoctasksfuture'] = 'Elaborazioni ad hoc in future';
 $string['adhoctasksrunning'] = 'Elaborazioni ad hoc in esecuzione';
-$string['asap'] = 'ASAP';
+$string['asap'] = '<abbr title="As soon as possible">ASAP</abbr>';
 $string['backtoadhoctasks'] = 'Torna alle elaborazioni ad hoc';
 $string['backtoscheduledtasks'] = 'Torna alle elaborazioni pianificate';
 $string['blocking'] = 'Blocco';

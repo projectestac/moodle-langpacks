@@ -165,6 +165,7 @@ $string['showhidechecked'] = 'Показать/скрыть отмеченные
 $string['showmymoodle'] = 'Показывать контрольные списки на странице «Мой Moodle»';
 $string['showprogressbars'] = 'Показать индикатор выполнения';
 $string['showupdateablemymoodle'] = 'Показывать только обновляемые контрольные списки на странице профиля';
+$string['studentcomments'] = 'Пользователь может добавлять комментарии к пунктам контрольного списка';
 $string['teacheralongsidecheck'] = 'Студенты и преподаватели';
 $string['teachercomments'] = 'Преподаватели могут добавлять комментарии';
 $string['teacherdate'] = 'Дата последнего обновления этого пункта преподавателем';

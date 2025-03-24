@@ -35,3 +35,4 @@ $string['noattachments'] = '<strong>Cap fitxer adjunt</strong>';
 $string['save'] = 'Desa';
 $string['upload'] = 'Carrega i Suprimeix';
 $string['view'] = 'Visualitza';
+$string['wikinowikitext'] = 'Preformatat';

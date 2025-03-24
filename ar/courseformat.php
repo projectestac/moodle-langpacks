@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsection'] = 'إضافة مقطع';
+$string['addsection'] = 'إضافة قسم';
 $string['availability_hide'] = 'الإخفاء في صفحة المقرر';
 $string['availability_hide_help'] = 'غير متاح للطلاب.';
 $string['availability_show'] = 'الإظهار في صفحة المقرر';

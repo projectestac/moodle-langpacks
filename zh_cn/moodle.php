@@ -223,6 +223,8 @@ $string['block'] = '版块';
 $string['blockconfiga'] = '配置{$a}版块';
 $string['blockconfigbad'] = '由于此版块未正确实现，因此无法显示配置界面。';
 $string['blocks'] = '版块';
+$string['blocks_main'] = '主内容块';
+$string['blocks_supplementary'] = '补充内容块';
 $string['blocksaddedit'] = '添加/修改版块';
 $string['blockseditoff'] = '版块编辑关';
 $string['blocksediton'] = '版块编辑开';
@@ -372,7 +374,7 @@ $string['counteditems'] = '{$a->count}{$a->items}';
 $string['country'] = '国家或地区';
 $string['course'] = '课程';
 $string['courseadministration'] = '课程管理';
-$string['courseapprovedemail'] = '您申请的课程已获批准，<a href=“{$a->url}”>{$a->name}</a>，并且您是 {$a->teacher}。';
+$string['courseapprovedemail'] = '您申请的课程已获批准，<a href="{$a->url}">{$a->name}</a>，并且您是 {$a->teacher}。';
 $string['courseapprovedemail2'] = '您申请的课程已获得批准：<a href=“{$a->url}”>{$a->name}</a>。';
 $string['courseapprovedfailed'] = '‎未能将课程保存为已批准！';
 $string['courseapprovedsubject'] = '您的课程已经通过';
@@ -576,7 +578,7 @@ $string['deletecheck'] = '删除{$a}吗?';
 $string['deletecheckfiles'] = '您真的确定要彻底删除这些文件?';
 $string['deletecheckfull'] = '您真的确定要彻底删除{$a}吗，包括其注册信息，活动，以及其他用户信息？';
 $string['deletechecktype'] = '您确定要删除{$a->type}？';
-$string['deletechecktypename'] = '您确定要删除{$a->type}“{$a->name}”吗？';
+$string['deletechecktypename'] = '您确定要删除{$a->type}"{$a->name}"吗？';
 $string['deletecheckwarning'] = '您打算删除这些文件';
 $string['deletecommentbyon'] = '删除{$a->user}在{$a->time}发表的评论';
 $string['deletecompletely'] = '彻底删除';
@@ -747,7 +749,7 @@ $string['emailnotfound'] = '数据库中未找到此Email';
 $string['emailonlyallowed'] = '此电子邮件无法使用。允许的电子邮件域为：{$a}。';
 $string['emailpasswordchangeinfo'] = '{$a->firstname}，您好:
 
-有人(一般情况下是您自己)为您在“{$a->sitename}”上的帐号  \'{$a->username}\' 申请了新的密码。
+有人(一般情况下是您自己)为您在"{$a->sitename}"上的帐号  \'{$a->username}\' 申请了新的密码。
 
 要修改密码，请访问以下链接：
 
@@ -763,14 +765,14 @@ $string['emailpasswordchangeinfodisabled'] = '{$a->firstname}您好：
 但是很抱歉您的帐号已被禁用并且无法重置。请与管理员{$a->admin}联系。';
 $string['emailpasswordchangeinfofail'] = '{$a->firstname}，您好，
 
-有人（可能是您本人）为您在“{$a->sitename}”的账号请求换个新密码。
+有人（可能是您本人）为您在"{$a->sitename}"的账号请求换个新密码。
 
 但很遗憾，此网站上的密码不能重置。如果您需要其他帮助，请联系网站管理员，
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}：确定改变密码';
 $string['emailpasswordconfirmation'] = '{$a->firstname}，您好:
 
-有人(一般情况下是您自己)为您在“{$a->sitename}”上的帐号申请了新的密码。
+有人(一般情况下是您自己)为您在"{$a->sitename}"上的帐号申请了新的密码。
 
 如果您确认这是您做的，并想通过email获得新密码，请点击以下链接:
 
@@ -794,10 +796,10 @@ $string['emailpasswordsent'] = '谢谢，您已经确认了密码更改。
 这个新密码是自动生成的――您可能会想将它<a href="{$a->link}">更改<a>为一个更容易记住的密码。';
 $string['emailresetconfirmation'] = '嗨{$a->firstname}，
 
-在 {$a->sitename} 请求为您的帐户“{$a->username}”重置密码。
+在 {$a->sitename} 请求为您的帐户"{$a->username}"重置密码。
 
 要确认此请求并为您的帐户设置新密码，请转到以下网址：
-<a href=“{$a->link}”>{$a->link}</a>
+<a href="{$a->link}">{$a->link}</a>
 
 （此链接自首次请求此重置之日起 {$a->resetminutes} 分钟内有效。
 
@@ -1283,7 +1285,7 @@ $string['markallread'] = '全部标记为已读';
 $string['markedthistopic'] = '此节将作为当前节突出显示';
 $string['markthistopic'] = '标记该节为当前节';
 $string['match'] = '匹配';
-$string['matchingsearchandrole'] = '与“{$a->search}”匹配的{$a->role}';
+$string['matchingsearchandrole'] = '与"{$a->search}"匹配的{$a->role}';
 $string['matchofthefollowing'] = '以下各项:';
 $string['maxareabytesreached'] = '这个文件（或几个文件的总和）的大小超过了预留的空间';
 $string['maxfilesize'] = '新上传文件的最大体积：{$a}';
@@ -1499,7 +1501,7 @@ $string['newpassword_help'] = '输入一个新密码或留空以保留当前密�
 $string['newpasswordfromlost'] = '<strong>注意：</strong>您的<strong>当前密码</strong> 将在两封email的<strong>第二</strong>封里发送给您。这是恢复丢失密码流程的一部分。在从此屏幕继续之前，请确认您收到了新的密码。';
 $string['newpasswordtext'] = '{$a->firstname}，您好：
 
-您在“{$a->sitename}”上的帐号密码已被重设为一个新生成的临时密码。
+您在"{$a->sitename}"上的帐号密码已被重设为一个新生成的临时密码。
 
 现在您的登录信息是：
  用户名：{$a->username}

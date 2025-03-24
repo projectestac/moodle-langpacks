@@ -252,7 +252,6 @@ $string['imagedeletedfrom'] = 'Bild borttagen från "{$a}"';
 $string['imagesavedfor'] = 'Bild för "{$a}" sparad';
 $string['imagesize'] = 'Bildstorlek';
 $string['jsactivate'] = 'Slå på animerad navigering';
-$string['jsdeactivate'] = 'Stäng av animerad navigering';
 $string['jsdeactivated'] = 'Du har inaktiverat animerad navigering för ditt konto';
 $string['jsnavsettings'] = 'JavaScript-navigering';
 $string['jsreactivated'] = 'Du har aktiverat animerad navigering för ditt konto. Detta kan göra navigeringen snabbare. Detta kräver att JavaScript är aktiverat.';

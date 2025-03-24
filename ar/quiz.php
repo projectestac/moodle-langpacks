@@ -560,6 +560,7 @@ $string['messageprovider:confirmation'] = 'تأكيدات التسليم للا�
 $string['messageprovider:submission'] = 'إشعارات تسليمات الطلاب للاختبار';
 $string['min'] = 'ادنى';
 $string['minutes'] = 'دقائق';
+$string['missingcategory'] = 'صنف السؤال مفقود';
 $string['missingcorrectanswer'] = 'يجب تحدي الاجابة الصحيحة';
 $string['missingitemtypename'] = 'الاسم مفقود';
 $string['missingquestion'] = 'هذا السؤال يبدو أنه لم يعد موجوداً';
@@ -972,6 +973,7 @@ $string['saveandedit'] = 'حفظ التغييرات وتحرير الأسئلة'
 $string['saveattemptfailed'] = 'فشل حفظ المحاولة الحالية للاختبار.';
 $string['savedfromdeletedcourse'] = 'محفوظ من مساق محذوف "{$a}"';
 $string['savegrades'] = 'حفظ الدرجات';
+$string['savemanualgradingfailed'] = 'لم يتم حفظ التعديلات. يرجى الاطلاع على الرسالة أدناه ثم المحاولة مرة أخرى.';
 $string['savemyanswers'] = 'حفظ إجاباتي';
 $string['savenosubmit'] = 'أحفظ بدون تسليم';
 $string['saveoverrideandstay'] = 'إحفظ وأدخل تجاوزاً آخر';

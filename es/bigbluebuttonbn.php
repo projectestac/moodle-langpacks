@@ -113,7 +113,7 @@ $string['config_experimental_features_description'] = 'Configuración para carac
 $string['config_extended_capabilities'] = 'Compatibilidad extendida';
 $string['config_extended_capabilities_description'] = 'Configuración para compatibilidad extendida cuando el servidor BigBlueButton lo ofrezca';
 $string['config_general'] = 'Ajustes generales';
-$string['config_general_description'] = 'Para configurar BigBlueButton,usted puede o bien usar sus credenciales y servidor BigBlueButton o bien obtener credenciales mediante <a href="https://registration-portal.blindsidenetworks.com/" target="_blank">el portal de registro Blindside Networks Registration Portal (se abre en ventana nueva)</a>.';
+$string['config_general_description'] = 'Para configurar BigBlueButton, usted puede o bien usar sus credenciales y servidor BigBlueButton o bien obtener credenciales mediante <a href="https://registration-portal.blindsidenetworks.com/" target="_blank">el portal de registro Blindside Networks Registration Portal (se abre en ventana nueva)</a>.';
 $string['config_guestaccess_enabled'] = 'Acceso de invitado externo';
 $string['config_guestaccess_enabled_description'] = 'Permitir que usuarios sin cuenta en su sitio accededan a la sala.';
 $string['config_hideuserlist_default'] = 'Ocultar la lista de usuarios activada por defecto';
@@ -376,7 +376,7 @@ $string['mod_form_field_voicebridge'] = 'Puente de voz [####]';
 $string['mod_form_field_voicebridge_format_error'] = 'Error de formato. Debe introducir un número entre 1 y 9999.';
 $string['mod_form_field_voicebridge_help'] = 'Número de la conferencia de voz que los participantes introducen para unirse a la conferencia de voz cuando se utiliza la marcación. Debe introducirse un número entre 1 y 9999. Si el valor es 0, el número estático de voicebridge será ignorado y un número aleatorio será generado por BigBlueButton. Un número 7 precederá a los cuatro dígitos tecleados';
 $string['mod_form_field_voicebridge_notunique_error'] = 'No es un valor único. Este número ha sido usado por otra sala o conferencia.';
-$string['mod_form_field_wait'] = 'Esperar al moderaror';
+$string['mod_form_field_wait'] = 'Esperar al moderador';
 $string['mod_form_field_wait_help'] = '¿Deben esperar los observadores hasta que un moderador entre a la sesión antes de entrar en la sala?';
 $string['mod_form_field_welcome'] = 'Mensaje de bienvenida';
 $string['mod_form_field_welcome_default'] = 'Bienvenido a <b>%%CONFNAME%%.';

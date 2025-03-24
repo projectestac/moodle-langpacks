@@ -222,6 +222,8 @@ $string['block'] = 'Blocco';
 $string['blockconfiga'] = 'Configurazione del blocco {$a}';
 $string['blockconfigbad'] = 'Questo blocco non è stato implementato correttamente e pertanto non è possibile fornire un\'interfaccia di configurazione.';
 $string['blocks'] = 'Blocchi';
+$string['blocks_main'] = 'Blocchi di contenuto principale';
+$string['blocks_supplementary'] = 'Blocchi supplementari';
 $string['blocksaddedit'] = 'Aggiung/Modifica blocchi';
 $string['blockseditoff'] = 'Termina modifica blocchi';
 $string['blocksediton'] = 'Attiva modifica blocchi';
@@ -1542,7 +1544,7 @@ Per iniziare a usare \'{$a->sitename}\', accedi a
 {$a->link}
 
 Se hai bisogno di aiuto, puoi contattare l\'amministratore del sito,
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'Nuovi utenti';
 $string['newwindow'] = 'Nuova finestra';
 $string['next'] = 'Successivo';

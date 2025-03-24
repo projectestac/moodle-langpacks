@@ -153,6 +153,7 @@ $string['tagarea_blog_external'] = 'Kanpoko blog-sarrerak';
 $string['tagarea_course'] = 'Ikastaroak';
 $string['tagarea_course_modules'] = 'Jarduerak eta baliabideak';
 $string['tagarea_post'] = 'Blogetako mezuak';
+$string['tagarea_tag'] = 'Erlazionatutako etiketak';
 $string['tagarea_user'] = 'Erabiltzailearen interesak';
 $string['tagareaenabled'] = 'Gaituta';
 $string['tagareaname'] = 'Izena';

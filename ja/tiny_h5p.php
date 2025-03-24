@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['browserepositories'] = 'リポジトリを閲覧する ...';
-$string['buttontitle'] = 'H5Pコンテンツを設定する';
+$string['buttontitle'] = 'H5Pコンテンツを挿入する';
 $string['copyrightbutton'] = '著作権ボタン';
 $string['downloadbutton'] = 'ダウンロードを許可する';
 $string['embedbutton'] = '埋め込みボタン';

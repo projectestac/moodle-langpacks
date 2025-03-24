@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['branding'] = 'TinyMCEブランディング';
 $string['branding_desc'] = 'テキストエディタの下隅にロゴを表示してTinyMCEをサポートしてください。ロゴはTinyMCEウェブサイトにリンクされます。';
+$string['extended_valid_elements'] = '拡張有効要素';
+$string['extended_valid_elements_desc'] = 'これによりあなたはエディタで追加HTML要素および属性を使用できるようになります。';
 $string['plugin_disabled'] = '{$a} が無効にされました。';
 $string['plugin_enabled'] = '{$a} が有効にされました。';
 $string['pluginname'] = 'TinyMCEエディタ';

@@ -34,7 +34,7 @@ $string['auth_changepasswordhelp'] = 'Pasahitza aldatzeko laguntza';
 $string['auth_changepasswordhelp_expl'] = '{$a} pasahitza galdu duten erabiltzaileei laguntza erakusten die. Aukera hau erantsi daiteke edo <strong>Pasahitza aldaketaren URLa</strong>ren ordez erakutsi edo Moodleren barne pasahitza-aldaketa moduan azaldu.';
 $string['auth_changepasswordurl'] = 'Pasahitza aldatzeko URLa';
 $string['auth_changepasswordurl_expl'] = 'Beren {$a} pasahitza galdu duten erabiltzaileak zein URL helbidera bidaliko dituzun zehaztu.  Aukeratu <strong>Pasahitz aldaketa orri estandar erabili</strong> orrian <strong>Ez</strong>.';
-$string['auth_changingemailaddress'] = 'Helbide elektronikoa {$a->oldemail}-tik {$a->newemail}-ra aldatzeko eskaera egin duzu. Segurtasunagatik, helbide elektroniko berrira e-maila bidaltzen ari gara benetan zurea dela ziurtatzeko. Mezu honetan bidali dizugun URLa ireki bezain pronto eguneratuko da helbide elektronikoa. Berreste-esteka <b>10 minututan</b> iraungiko da.';
+$string['auth_changingemailaddress'] = 'Helbide elektronikoa aldatzeko eskaera egin duzu, {$a->oldemail}-tik {$a->newemail}-ra. Segurtasunagatik, helbide elektroniko berrira mezua bidali dugu benetan zurea dela ziurtatzeko. Mezu horretan bidali dizugun URLa ireki bezain pronto zure helbide elektronikoa eguneratuko da. Berreste-esteka 10 minututan iraungiko da.';
 $string['auth_common_settings'] = 'Ezarpen komunak';
 $string['auth_data_mapping'] = 'Datuen lotura';
 $string['auth_fieldlock'] = 'Blokeatu balioa';
@@ -55,9 +55,9 @@ $string['auth_passwordisexpired'] = 'Zure pasahitza iraungita dago. Mesedez alda
 $string['auth_passwordwillexpire'] = 'Zure pasahitza {$a} egun barru iraungiko da. Pasahitza orain aldatu nahi duzu?';
 $string['auth_remove_delete'] = 'Osorik ezabatu';
 $string['auth_remove_keep'] = 'Barruan gorde';
-$string['auth_remove_suspend'] = 'Barruan eten';
+$string['auth_remove_suspend'] = 'Eten barrukoa';
 $string['auth_remove_user'] = 'Zehaztu zer egin barruko erabiltzaile-kontuekin sinkronizazio masiboetan erabiltzailea kanpoko iturritik ezabatu bada. Etendako erabiltzaileak soilik kanpoko iturrian berriz agertzen badira berreskuratuko dira.';
-$string['auth_remove_user_key'] = 'Kanpoko erabiltzailea ezabatu da';
+$string['auth_remove_user_key'] = 'Ezabatutako kanpoko erabiltzailea';
 $string['auth_sync_script'] = 'Erabiltzaile-kontuaren sinkronizazioa';
 $string['auth_sync_suspended'] = 'Gaituz gero, etendako atributua erabiltzaile-kontu lokalen etete-egoera eguneratzeko erabiliko da';
 $string['auth_sync_suspended_key'] = 'Sinkronizatu erabiltzaile lokalen etete-egoera';
@@ -93,6 +93,7 @@ $string['emailupdatemessage'] = 'Kaixo, {$a->fullname}:
 Zure kontuko helbide elektronikoa aldatzeko eskaria egin duzu {$a->site} gunean. Aldaketa hau baieztatzeko joan mesedez ondorengo web helbidera:
 
 {$a->url}
+Berreste-esteka <b>10 minututan</b> iraungiko da.
 
 {$a->supportemail}';
 $string['emailupdatesuccess'] = '<em>{$a->fullname}</em> erabiltzailearean helbide elektronikoa ondo eguneratu da honetara: <em>{$a->email}</em>';

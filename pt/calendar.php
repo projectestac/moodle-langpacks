@@ -158,7 +158,7 @@ $string['export'] = 'Exportar';
 $string['exportbutton'] = 'Exportar';
 $string['exportcalendar'] = 'Exportar calendário';
 $string['exporthelp'] = '<p>O URL do calendário fornece uma hiperligação dinâmica para exportar eventos para outros calendários. Qualquer evento novo, alterado ou apagado no calendário de origem <strong>será</strong> refletido nos outros calendários.</p>
-<p>A exportação do calendário permite que crie uma cópia de segurança dos eventos, que podem ser importados em outros calendários. As atualizações feitas no calendário de origem <strong>não</strong> serão refletidas nos outros calendários.</p>';
+<p>A exportação do calendário permite criar uma cópia de segurança dos eventos, que podem ser importados em outros calendários. As atualizações feitas no calendário de origem <strong>não</strong> serão refletidas nos outros calendários.</p>';
 $string['forcecalendartype'] = 'Forçar calendário';
 $string['fri'] = 'Sex';
 $string['friday'] = 'Sexta';

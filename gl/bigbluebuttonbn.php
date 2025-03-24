@@ -113,7 +113,7 @@ $string['config_experimental_features_description'] = 'Configuración para funci
 $string['config_extended_capabilities'] = 'Capacidades ampliadas';
 $string['config_extended_capabilities_description'] = 'Configuración para capacidades estendidas cando o servidor BigBlueButton as ofrece.';
 $string['config_general'] = 'Axustes xerais';
-$string['config_general_description'] = 'Estes axustes úsanse sempre.';
+$string['config_general_description'] = 'Para configurar BigBlueButton, podes usar o teu propio servidor e credenciais de BigBlueButton ou obter credenciais a través do <a href="https://registration-portal.blindsidenetworks.com/" target="_blank">Portal de Rexistro de Blindside Networks (ábrese nunha nova xanela)</a>.';
 $string['config_guestaccess_enabled'] = 'Acceso de convidados externos';
 $string['config_guestaccess_enabled_description'] = 'Permitir que os usuarios sen conta no seu sitio accedan á sala.';
 $string['config_hideuserlist_default'] = 'Agochar a lista de usuarios activada e xeito predeterminado';

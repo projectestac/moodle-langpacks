@@ -47,7 +47,7 @@ $string['customwelcomemessage_help'] = 'Onartutako formatuak: Testu soila edo Mo
 <li>Erabiltzailearen abizenak {$a->lastname}</li>
 <li>Erabiltzailearen ikastaroko rola {$a->courserole}</li>
 </ul>';
-$string['customwelcomemessageplaceholder'] = 'Kaixo, {$a->fullname}: {$a->coursename} ikastaroan matrikulatua izan zara';
+$string['customwelcomemessageplaceholder'] = 'Kaixo, {$a->fullname}: {$a->coursename} ikastaroan matrikulatuta zaude.';
 $string['defaultenrol'] = 'Gehitu instantzia ikastaro berrietarako';
 $string['defaultenrol_desc'] = 'Plugin hau modu lehenetsian ikastaro berri guztiei gehi dakieke.';
 $string['deleteinstanceconfirm'] = '"{$a->name}" matrikulatzeko-metodoa ezabatzekotan zaude. Metodo hori erabilita dagoeneko matrikulatutako {$a->users} guztiak desmatrikulatuko dira eta erabiltzaileen kalifikazioak, taldeetako partaidetza eta foroetako harpidetzak bezalako ikastaroko datu guztiak ezabatuko dira.
@@ -136,7 +136,7 @@ $string['otheruserdesc'] = 'Ondorengo erabilzaileak ez daude matrikulatuta ikast
 $string['participationactive'] = 'Aktiboa';
 $string['participationnotcurrent'] = 'Ez aktiboa';
 $string['participationstatus'] = 'Egoera';
-$string['participationsuspended'] = 'Bertan behera utzia';
+$string['participationsuspended'] = 'Etenda';
 $string['periodend'] = 'noiz arte {$a}';
 $string['periodnone'] = '{$a} matrikulatuta';
 $string['periodstart'] = 'noiztik {$a}';

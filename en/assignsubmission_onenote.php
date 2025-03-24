@@ -49,7 +49,6 @@ $string['privacy:metadata:numfiles'] = 'Number of files';
 $string['privacy:metadata:submissionpurpose'] = 'The submission ID that links to submissions for the user';
 $string['privacy:metadata:tablepurpose'] = 'Stores the number of files used for the submission.';
 $string['privacy:path'] = 'Number of files';
-$string['signinhelp'] = 'Click on the button above to sign in to OneNote so you can work on the assignment there.';
 $string['signinhelp1'] = 'Click on the button above to sign in to OneNote if you want to work on the submission there.';
 $string['signinhelp2'] = 'Click on the button above to sign in to OneNote if you want to view the submission there.';
 $string['siteuploadlimit'] = 'Site upload limit';

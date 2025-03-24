@@ -69,6 +69,7 @@ $string['pluginname'] = 'Запись RTC';
 $string['privacy:metadata'] = 'Плагин «Запись RTC» не хранит никаких персональных данных.';
 $string['recordagain'] = 'Записать снова';
 $string['recordagain_desc'] = 'Вы уже записали некоторый контент. Повторная запись удалит этот контент. Вы уверены, что хотите сбросить запись?';
+$string['recordagain_title'] = 'Повторите подтверждение записи';
 $string['recordingfailed'] = 'Запись не удалась, попробуйте снова';
 $string['recordinguploaded'] = 'Запись загружена';
 $string['recordrtc:recordaudio'] = 'Записывать аудио прямо в текстовый редактор';

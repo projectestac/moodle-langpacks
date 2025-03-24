@@ -121,6 +121,6 @@ $string['privacy:metadata:auth_oauth2:timemodified'] = 'La marca de tiempo que i
 $string['privacy:metadata:auth_oauth2:userid'] = 'El ID de la cuenta de usuario a la que está vinculado el inicio de sesión OAuth 2.';
 $string['privacy:metadata:auth_oauth2:usermodified'] = 'El ID del usuario que modificó esta cuenta.';
 $string['privacy:metadata:auth_oauth2:username'] = 'El nombre de usuario externo que se asigna a esta cuenta';
-$string['testidplogin'] = 'Ingreso de prueba con:';
+$string['testidplogin'] = 'Probar acceso con:';
 $string['userinfo'] = 'Datos del usuario desde el proveedor:';
 $string['value'] = 'Valor';

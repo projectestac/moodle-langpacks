@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'Экспорт';
 $string['premiumplugin:footnotes'] = 'Сноски';
 $string['premiumplugin:formatpainter'] = 'Формат по образцу';
 $string['premiumplugin:linkchecker'] = 'Проверка ссылок';
+$string['premiumplugin:math'] = 'Математические инструменты';
 $string['premiumplugin:pageembed'] = 'Встроить страницу';
 $string['premiumplugin:permanentpen'] = 'Постоянное начертание';
 $string['premiumplugin:powerpaste'] = 'Улучшенная вставка';

@@ -40,7 +40,7 @@ $string['config_dpa_note'] = 'Nota: per complir amb les vostres obligacions de p
 $string['config_extended_capabilities'] = 'Configuració de les capacitats ampliades';
 $string['config_extended_capabilities_description'] = 'Configuració de les capacitats ampliades quan el servidor BigBlueButton les ofereix.';
 $string['config_general'] = 'Configuració general';
-$string['config_general_description'] = 'Aquesta configuració s\'utilitzarà <b>sempre</b>';
+$string['config_general_description'] = 'Per configurar el BigBlueButton, podeu optar per utilitzar el vostre propi servidor BigBlueButton i les credencials corresponents, o bé obtenir unes credencials mitjançant el <a href="https://registration-portal.blindsidenetworks.com/" target="_blank">portal de registre de Blindside Networks (s\'obre en una finestra nova)</a>.';
 $string['config_importrecordings'] = 'Configuració per a la característica «Importa enregistraments»';
 $string['config_importrecordings_description'] = 'Aquesta configuració és per a una característica específica';
 $string['config_importrecordings_enabled'] = 'S\'ha activat la importació d\'enregistraments';

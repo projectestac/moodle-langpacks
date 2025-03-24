@@ -222,6 +222,8 @@ $string['block'] = 'Bloco';
 $string['blockconfiga'] = 'Configuração do bloco "{$a}"';
 $string['blockconfigbad'] = 'Este bloco não tem uma interface de configuração, por não ter sido implementado corretamente.';
 $string['blocks'] = 'Blocos';
+$string['blocks_main'] = 'Blocos de conteúdo principal';
+$string['blocks_supplementary'] = 'Blocos adicionais';
 $string['blocksaddedit'] = 'Adicionar/Editar blocos';
 $string['blockseditoff'] = 'Desativar edição de blocos';
 $string['blocksediton'] = 'Ativar edição de blocos';
@@ -682,7 +684,7 @@ $string['edulevel_help'] = '* Ensino - ações realizadas por um professor, por 
 $string['edulevelother'] = 'Outro';
 $string['edulevelparticipating'] = 'Participar';
 $string['edulevelteacher'] = 'Ensinar';
-$string['email'] = 'Endereço de e-mail';
+$string['email'] = 'E-mail';
 $string['emailactive'] = 'E-mail ativo';
 $string['emailagain'] = 'E-mail (novamente)';
 $string['emailalreadysent'] = 'Já foi enviado um e-mail de reposição de senha. Por favor, verifique o seu e-mail.';
@@ -705,7 +707,7 @@ $string['emailconfirmationsubject'] = '{$a}: Confirmação da conta';
 $string['emailconfirmsent'] = '<p>Foi enviada uma mensagem para o seu endereço de e-mail <strong>{$a}</strong>, com instruções fáceis para completar a sua inscrição.</p><p>Se tiver alguma dificuldade em completar o seu registo, contacte o administrador do site.</p>';
 $string['emailconfirmsentfailure'] = 'Falhou o envio do e-mail de confirmação';
 $string['emailconfirmsentsuccess'] = 'E-mail de confirmação enviado com sucesso';
-$string['emaildigest'] = 'Tipo de sumário de fóruns';
+$string['emaildigest'] = 'Tipo de resumo de fóruns';
 $string['emaildigest_help'] = 'Esta é a configuração do resumo diário que os fóruns irão usar por predefinição.
 
 *Sem sumário: irá receber um e-mail por cada mensagem publicada no fórum;
@@ -975,7 +977,7 @@ $string['format'] = 'Formato';
 $string['format_help'] = 'O formato determina a estrutura da página principal da disciplina:
 
 * Atividade Única - A disciplina contém apenas uma atividade ou recurso.
-* Social - A disciplina é centrada num fórum principal na página da disciplina. Podem se adicionadas atividades e recursos adicionais através do bloco Atividades sociais.
+* Social - A disciplina é centrada num fórum principal na página da disciplina. Podem ser adicionadas atividades e recursos adicionais através do bloco Atividades sociais.
 * Secções personalizadas - A página da disciplina é dividida em secções personalizadas.
 * Secções semanais - A página da disciplina é organizada em secções semanais, em que a primeira semana começa na data de início da disciplina.';
 $string['formathtml'] = 'Formato HTML';
@@ -1516,24 +1518,25 @@ $string['newsitems'] = 'anúncios';
 $string['newsitemsnumber'] = 'Número de anúncios';
 $string['newsitemsnumber_help'] = 'O fórum \'Anúncios\' impõe a subscrição por predefinição. Apenas os professores e outros utilizadores com permissões apropriadas podem publicar.
 
-Se não for necessário um fórum \'Anúncios\' na disciplina, defina como zero.
+Se não for necessário um fórum \'Anúncios\' na disciplina, defina como 0 (zero).
 
 Esta configuração determina quantos anúncios mais recentes aparecem no bloco \'Últimos anúncios\'.';
 $string['newuser'] = 'Novo utilizador';
 $string['newusernewpasswordsubj'] = 'Nova conta de utilizador';
 $string['newusernewpasswordtext'] = 'Caro(a) {$a->firstname},
 
-Foi criada uma nova conta de utilizador em seu nome na plataforma de e-learning \'{$a->sitename}\' e foi-lhe atribuída uma senha temporária.
+Foi criada uma conta de utilizador para si em \'{$a->sitename}\'.
 
-Os seus dados de acesso são:
      Nome de utilizador: {$a->username}
      Senha: {$a->newpassword}
-     (terá de alterar a senha quando entrar pela primeira vez)
 
-Para começar a usar a plataforma de e-learning \'{$a->sitename}\', autentique-se em {$a->link}.
+(Ser-lhe-á solicitado que altere a sua palavra-passe quando entrar pela primeira vez.)
+
+Para começar a usar \'{$a->sitename}\', autentique-se em
+  {$a->link}.
 
 Se precisar de ajuda, contacte o administrador do site,
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'Novos utilizadores';
 $string['newwindow'] = 'Nova janela';
 $string['next'] = 'Seguinte';

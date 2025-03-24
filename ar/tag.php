@@ -153,6 +153,7 @@ $string['tagarea_blog_external'] = 'منشورات المدونة الخارجي
 $string['tagarea_course'] = 'المقررات الدراسية';
 $string['tagarea_course_modules'] = 'النشاطات والموارد';
 $string['tagarea_post'] = 'منشورات المدونة';
+$string['tagarea_tag'] = 'الوسوم ذات الصلة';
 $string['tagarea_user'] = 'إهتمامات المستخدم';
 $string['tagareaenabled'] = 'مُمَكَّنة';
 $string['tagareaname'] = 'الاسم';

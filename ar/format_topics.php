@@ -25,19 +25,19 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['currentsection'] = 'المقطع الحالي';
+$string['currentsection'] = 'القسم الحالي';
 $string['hidefromothers'] = 'إخفاء';
 $string['indentation'] = 'السماح بالتداخل في صفحة المقرر';
 $string['indentation_help'] = 'السماح للمعلمين وغيرهم من المستخدمين ذوي إمكانية إدارة النشاطات بمداخلة العناصر في صفحة المقرر.';
 $string['legacysectionname'] = 'الموضوع';
-$string['newsection'] = 'مقطع جديد';
+$string['newsection'] = 'قسم جديد';
 $string['page-course-view-topics'] = 'أي صفحة رئيسية لمساق بتنسيق المقاطع المخصصة';
 $string['page-course-view-topics-x'] = 'أي صفحة مساق بتنسيق المقاطع المخصصة';
 $string['plugin_description'] = 'المساق مقسم إلى مقاطع قابلة للتخصيص.';
 $string['pluginname'] = 'المقاطع المخصصة';
 $string['privacy:metadata'] = 'إن ملحق المقاطع المخصصة لا يخزن أي بيانات شخصية.';
 $string['section0name'] = 'عام';
-$string['section_highlight_feedback'] = 'المقطع {$a->name} تم إبرازه.';
-$string['section_unhighlight_feedback'] = 'الإبراز تمت إزالته من المقطع {$a->name}.';
-$string['sectionname'] = 'المقطع';
+$string['section_highlight_feedback'] = 'القسم {$a->name} تم إبرازه.';
+$string['section_unhighlight_feedback'] = 'الإبراز تمت إزالته من القسم {$a->name}.';
+$string['sectionname'] = 'القسم';
 $string['showfromothers'] = 'إظهار';

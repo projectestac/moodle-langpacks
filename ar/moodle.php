@@ -60,8 +60,8 @@ $string['addcondition'] = 'إضافة الشرط';
 $string['addcountertousername'] = 'أنشئ حساب مستخدم بإضافة رقم لاسم المستخدم';
 $string['addcreator'] = 'أضف منشئ مقرر';
 $string['adddots'] = 'أضفـ...';
-$string['added'] = 'أٌضِيف {$a}';
-$string['addedtogroup'] = 'أٌضِيف للمجموعة "{$a}"';
+$string['added'] = 'إضافة {$a}';
+$string['addedtogroup'] = 'إضافة للمجموعة "{$a}"';
 $string['addedtogroupnot'] = 'لم تتم إضِافته للمجموعة "{$a}"';
 $string['addedtogroupnotenrolled'] = 'لم تتم إضِافته للمجموعة "{$a}"، كونه غير مُسَجّل في المقرر';
 $string['addfilehere'] = 'إسحب الملفات وأفلتها هنا لإضافتها إلى نهاية هذا المقطع';
@@ -223,6 +223,8 @@ $string['block'] = 'كتلة';
 $string['blockconfiga'] = 'يتم إعداد كتلة الـ {$a}';
 $string['blockconfigbad'] = 'لم يتم تطبيق هذه الكتلة بشكل صحيح لهذا لا يمكن توفير واجهة للإعدادات.';
 $string['blocks'] = 'الكتل';
+$string['blocks_main'] = 'كُتل المحتوى الرئيسي';
+$string['blocks_supplementary'] = 'الكتل التكميلية';
 $string['blocksaddedit'] = 'إضافة/تحرير الكتل';
 $string['blockseditoff'] = 'تعطيل تحرير الكتل';
 $string['blocksediton'] = 'تمكين تحرير الكتل';
@@ -1545,18 +1547,16 @@ $string['newusernewpasswordsubj'] = 'حساب مستخدم جديد';
 $string['newusernewpasswordtext'] = 'مرحباً {$a->firstname}،
 
 لقد تم إنشاء حساب جديد لك في \'{$a->sitename}\'
-وتم اصدار كلمة مرور مؤقتة جديدة لك.
 
-معلومات دخولك إلي الموقع حالياً هي:
     اسم المستخدم: {$a->username}
    كلمة المرور: {$a->newpassword}
-                (سيكون مطلوباً منك تغيير كلمة المرور عند دخولك إلي الموقع للمرة الأولى)
+(سيكون مطلوباً منك تغيير كلمة المرور عند دخولك إلى الموقع للمرة الأولى).
 
 لتبدأ باستعمال \'{$a->sitename}\'، قم بالدخول عبر
           {$a->link}
 
 إذا كنت بحاجة إلى مساعدة يمكنك التواصل مع مشرف الموقع،
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'المستخدمون الجدد';
 $string['newwindow'] = 'نافذة جديدة';
 $string['next'] = 'التالي';

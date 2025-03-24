@@ -222,6 +222,8 @@ $string['block'] = 'Block';
 $string['blockconfiga'] = 'Block \'{$a}\' konfigurieren';
 $string['blockconfigbad'] = 'Dieser Block wurde nicht richtig implementiert, so dass die Konfigurationsseite nicht angezeigt werden kann.';
 $string['blocks'] = 'Blöcke';
+$string['blocks_main'] = 'Hauptinhaltsblöcke';
+$string['blocks_supplementary'] = 'Ergänzungsblöcke';
 $string['blocksaddedit'] = 'Blöcke hinzufügen/bearbeiten';
 $string['blockseditoff'] = 'Blockbearbeitung ausschalten';
 $string['blocksediton'] = 'Blockbearbeitung einschalten';
@@ -454,7 +456,7 @@ $string['courserequestsuccess'] = 'Der Kursantrag wurde übermittelt.';
 $string['courserequestsupport'] = 'Info für Administrator/innen, um diese Kursanfrage prüfen zu können';
 $string['courserequestwarning'] = 'Nutzer/innen, die einen Kurs beantragen, werden automatisch mit der Rolle \'{$a}\' dort eingeschrieben.';
 $string['courserestore'] = 'Kurswiederherstellung';
-$string['coursereuse'] = 'Kurse wiederverwenden';
+$string['coursereuse'] = 'Kurs wiederverwenden';
 $string['coursereusenavigationmenu'] = 'Navigation zur Kursweiterverwendung';
 $string['courses'] = 'Kurse';
 $string['coursesearch'] = 'Kurse suchen';
@@ -1527,18 +1529,15 @@ $string['newuser'] = 'Neues Nutzerprofil';
 $string['newusernewpasswordsubj'] = 'Neuer Nutzerzugang';
 $string['newusernewpasswordtext'] = 'Hallo {$a->firstname},
 
-für Sie wurde ein neuer Zugang auf \'{$a->sitename}\' angelegt. Gleichzeitig erhalten Sie ein neues vorläufiges Kennwort.
+für Sie wurde ein neuer Zugang auf \'{$a->sitename}\' angelegt. Für Sie gelten folgende Anmeldedaten:
 
-Für Sie gelten folgende Anmeldedaten:
    Anmeldename: {$a->username}
    Kennwort: {$a->newpassword}
 
 Sie werden aufgefordert, dieses Kennwort beim ersten Anmelden zu ändern. Rufen Sie {$a->sitename} auf und melden Sie sich auf der Seite {$a->link} an.
 
-In den meisten E-Mail-Programmen ist der Link aktiv und muss einfach angeklickt werden. Sollte das nicht funktionieren, kopieren Sie bitte die Webadresse in die Adresszeile des Browserfensters.
-
 Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
-{$a->admin}';
+{$a->signoff}';
 $string['newusers'] = 'Neue Nutzer/innen';
 $string['newwindow'] = 'Neues Fenster';
 $string['next'] = 'Weiter';
@@ -1713,7 +1712,7 @@ $string['pluginarea'] = 'Bereich';
 $string['plugincheck'] = 'Plugin-Prüfung';
 $string['plugindeletefiles'] = 'Alle mit dem Plugin \'{$a->name}\' verbundenen Daten wurden in der Datenbank gelöscht. Um zu verhindern, dass sich das Plugin selber neu installiert, sollten Sie nun folgendes Verzeichnis von Ihrem Server löschen:  {$a->directory}';
 $string['pluginitemid'] = 'Element-ID';
-$string['pluginmissingfromdisk'] = '{$a->name} (fehlt auf der Festplatte)';
+$string['pluginmissingfromdisk'] = '{$a->name} (fehlt auf dem Server)';
 $string['pluginsetup'] = 'Lege Plugin-Tabellen an';
 $string['policyaccept'] = 'Ich habe den Text gelesen und stimme ihm zu';
 $string['policyagree'] = 'Lesen Sie diese Infos zum Datenschutz sorgfältig. Sie müssen zustimmen, um die Website nutzen zu können. Stimmen Sie zu?';

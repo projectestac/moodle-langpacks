@@ -222,6 +222,8 @@ $string['block'] = 'ブロック';
 $string['blockconfiga'] = '{$a} ブロックの設定';
 $string['blockconfigbad'] = 'このブロックは正常に組み込まれていないため、設定インタフェースを表示できません。';
 $string['blocks'] = 'ブロック';
+$string['blocks_main'] = 'メインコンテンツブロック';
+$string['blocks_supplementary'] = '補助ブロック';
 $string['blocksaddedit'] = 'ブロックを追加/編集する';
 $string['blockseditoff'] = 'ブロック編集の終了';
 $string['blocksediton'] = 'ブロック編集の開始';
@@ -1516,16 +1518,18 @@ $string['newuser'] = '新しいユーザ';
 $string['newusernewpasswordsubj'] = '新しいユーザアカウント';
 $string['newusernewpasswordtext'] = '{$a->lastname} さん
 
-あなたの新しいアカウントが「 {$a->sitename} 」に作成されて新しい一時パスワードが発行されました。
+あなたの新しいアカウントが「 {$a->sitename} 」に作成されました。
 
-あなたのログイン情報は以下のとおりです:
-ユーザ名: {$a->username}
-パスワード: {$a->newpassword}
-(最初にログイン時にパスワードを変更してください)
+   ユーザ名: {$a->username}
+   パスワード: {$a->newpassword}
 
-{$a->sitename} の利用を始めるには {$a->link} にログインしてください。
+(初回ログイン時、あなたにパスワードを変更するよう指示が表示されます)
 
-サポートが必要な場合はサイト管理者 ( {$a->admin} ) にご連絡ください。';
+{$a->sitename} の利用を始めるにはに以下にログインしてください:
+ {$a->link}
+
+サポートが必要な場合、サイト管理者にご連絡ください。
+{$a->signoff}';
 $string['newusers'] = '新しいユーザ';
 $string['newwindow'] = '新しいウィンドウ';
 $string['next'] = '次へ';

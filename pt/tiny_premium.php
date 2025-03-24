@@ -41,6 +41,7 @@ $string['premiumplugin:export'] = 'Exportar';
 $string['premiumplugin:footnotes'] = 'Notas de rodapé';
 $string['premiumplugin:formatpainter'] = 'Pincel de formatação';
 $string['premiumplugin:linkchecker'] = 'Verificador de hiperligação';
+$string['premiumplugin:math'] = 'Ferramenta de matemática';
 $string['premiumplugin:pageembed'] = 'Página incorporada';
 $string['premiumplugin:permanentpen'] = 'Caneta permanente';
 $string['premiumplugin:powerpaste'] = 'Cópia avançada';

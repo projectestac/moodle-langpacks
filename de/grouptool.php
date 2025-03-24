@@ -515,6 +515,7 @@ $string['registrations_missing'] = '{$a} Anmeldungen fehlen';
 $string['regpresent'] = 'Teilnehmer/in ist bereits {$a}';
 $string['rename_failed'] = 'Umbenennung fehlgeschlagen!';
 $string['renamed_group'] = 'Umbenennung erfolgreich!';
+$string['report'] = 'Gruppenverwaltung Bericht';
 $string['require_registration'] = 'Anmeldungen notwendig';
 $string['require_registration_help'] = 'Die Aktivität wird als abgeschlossen markiert, wenn Teilnehmer/innen zumindest in der definierten Anzahl von Gruppen angemeldet sind. Registrierungen in Wartelisten werden von der Regel nicht berücksichtigt. Wenn die Zahl höher als 1 ist, muss "Mehrfache Anmeldungen zulassen" aktiviert sein und "Maximalanzahl zu wählender Gruppen" muss höher oder gleich diesem Wert sein.';
 $string['reset_agrps'] = 'Setze aktive Gruppen zurück';

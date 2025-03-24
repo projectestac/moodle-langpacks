@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['branding'] = 'Ссылка на сайт TinyMCE';
 $string['branding_desc'] = 'Поддержите TinyMCE, отобразив логотип в нижнем углу текстового редактора. Логотип ссылается на веб-сайт TinyMCE.';
+$string['extended_valid_elements'] = 'Дополнительные допустимые элементы';
+$string['extended_valid_elements_desc'] = 'Это позволяет использовать дополнительные элементы и атрибуты HTML в редакторе.';
 $string['plugin_disabled'] = '{$а} отключен';
 $string['plugin_enabled'] = '{$а} включен';
 $string['pluginname'] = 'Редактор TinyMCE';
