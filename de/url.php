@@ -73,10 +73,10 @@ Hinweis: Verlinkungen und URLs können mit dem Texteditor auch in jede andere Re
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'Links/URLs';
 $string['name'] = 'Name';
-$string['name_help'] = 'Dieser Linktext soll die URL prägnant beschreiben.
+$string['name_help'] = 'Dieser Linktext soll die URL beschreiben.
 Geben Sie einen aussagekräftigen Text.
 
-Vermeiden Sie in der Beschreibung die Verwendung des Wortes "Link". Dadurch können Screenreader die Links besser ankündigen (z.B. "Moodle.org, Link"), ohne das Wort "Link" noch einmal im Namensfeld zu haben.';
+Vermeiden Sie in der Beschreibung die Verwendung des Wortes "Link". Dadurch können Screenreader die Links besser ankündigen (z.B. "Moodle.org, Link"), ohne das Wort "Link" nochmal im Namensfeld zu haben.';
 $string['page-mod-url-x'] = 'Jede URL-Seite';
 $string['parameterinfo'] = '&amp;parameter=variable';
 $string['parametersheader'] = 'URL-Variablen';

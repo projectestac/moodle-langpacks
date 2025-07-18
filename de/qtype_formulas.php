@@ -334,9 +334,9 @@ $string['questiontext_help'] = 'Neben dem normalen Fragetext können Sie hier au
 
 Globale Variablen werden durch ihre Werte ersetzt und Platzhalter werden durch Antworten ersetzt.
 
-Ein einfaches Beispiel mit Variablen <tt> A, B, C </tt> und Platzhaltern <tt> #1, #2, #3 </tt> ist:
+Ein einfaches Beispiel mit Variablen <tt>A, B, C</tt> und Platzhaltern <tt>#1, #2, #3</tt> ist:
 
-<pre class="prettyprint">What is the result of {A} + {B}?<br>{#1}<br>What is the result of {A} - {B}?<br>{#2}<br>What is the result of {C} / {B}?<br>{#3}</pre>';
+<pre class="prettyprint">Was ist das Resultat von {A} + {B}?<br>{#1}<br>Was ist das Resultat von {A} - {B}?<br>{#2}<br>Was ist das Resultat von {C} / {B}?<br>{#3}</pre>';
 $string['relerror'] = 'Relativer Fehler';
 $string['renew'] = 'Update';
 $string['response_right'] = 'Richtig';
@@ -355,9 +355,9 @@ $string['subqtext_help'] = 'Hier können die Texte für den Frageteil und die An
 
 <pre class="prettyprint">{_0}<br>{_1}<br>{_2}<br>...<br>{_u}</pre>
 
-Das  <tt> {_0}, {_1}, {_2} </tt> sind verschiedene Input-Felder für Variablen und <tt> {_u} </tt> ist das Input-Feld für die Einheit.
+Das  <tt>{_0}, {_1}, {_2}</tt> sind verschiedene Input-Felder für Variablen und <tt>{_u}</tt> ist das Input-Feld für die Einheit.
 
-Alle fehlenden Felder werden automatisch an das Ende des Textes des Teils angehängt. Ein Sonderfall ist, wenn <tt> {_0}, {_u} </tt> nacheinander angegeben werden und es nur ein Antwortfeld und eine Einheit gibt, d. h. <tt> {_0}{_u} </tt>, dann werden sie zu einem einzigen langen Eingabeantwortfeld für Antwort und Einheit zusammengefasst.';
+Alle fehlenden Felder werden automatisch an das Ende des Textes des Teils angehängt. Ein Sonderfall ist, wenn <tt>{_0}, {_u}</tt> nacheinander angegeben werden und es nur ein Antwortfeld und eine Einheit gibt, d. h. <tt>{_0}{_u}</tt>, dann werden sie zu einem einzigen langen Eingabeantwortfeld für Antwort und Einheit zusammengefasst.';
 $string['uniquecorrectansweris'] = 'Die richtige Antwort ist: {$a}';
 $string['unit'] = 'Einheit';
 $string['unitpenalty'] = 'Abzug für falsche Einheit (0-1)*';

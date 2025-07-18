@@ -303,7 +303,7 @@ Els glossaris tenen molts usos, com ara:
 $string['modulename_link'] = 'mod/glossary/view';
 $string['modulenameplural'] = 'Glossaris';
 $string['newentries'] = 'Entrades noves del glossari';
-$string['newglossary'] = 'Nou glossari';
+$string['newglossary'] = 'Glossari nou';
 $string['newglossarycreated'] = 'S\'ha creat un nou glossari.';
 $string['newglossaryentries'] = 'Noves entrades del glossari:';
 $string['nocomment'] = 'No s\'ha trobat cap comentari';

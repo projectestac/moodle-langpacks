@@ -658,6 +658,7 @@ $string['enroladminnewcourse_help'] = 'عندما يضيف المشرف مقرر
 $string['enrolinstancedefaults'] = 'إفتراضيات عينة الانضمام';
 $string['enrolinstancedefaults_desc'] = 'إعدادات الانضمام الافتراضية في المقررات الدراسية الجديدة';
 $string['enrolmultipleusers'] = 'إلحاق المستخدمين';
+$string['ensureauroraversion'] = 'موقعك يعمل على محرك قاعدة بيانات Amazon Aurora. يُرجى التأكد من توافق إصدار MySQL في Amazon Aurora مع إصدار مودل الذي تقوم بتنصيبه أو الترقية إليه. يمكنك التحقق من التوافق في <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.Updates.30Updates.html" target="_blank">تحديثات محرك قاعدة البيانات لـ Amazon Aurora MySQL الإصدار 3</a>.';
 $string['entitytasklog'] = 'سجل وقوعات المهمة';
 $string['environment'] = 'البيئة';
 $string['environmenterrortodo'] = 'ينبغي عليك تصحيح كل المشاكل (الأخطاء) الموضحة أعلاه قبل الاستمرار في تنصيب هذا الإصدار من مودل!';

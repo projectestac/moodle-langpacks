@@ -168,9 +168,9 @@ $string['cliupgradecompletenomaintenanceupgrade'] = 'Per a purgar la memòria ca
   php admin/cli/purge_caches.php --other
 
 Hauríeu de realitzar aquestes purgues de forma aïllada, amb un espai entre les ordres, per reduir els pics de càrrega al servidor web.';
-$string['cliupgradedefault'] = 'Nou paràmetre: {$a}';
+$string['cliupgradedefault'] = 'Paràmetre nou: {$a}';
 $string['cliupgradedefaultheading'] = 'S\'estan establint nous valors per omissió';
-$string['cliupgradedefaultverbose'] = 'Nou paràmetre: {$a->name}, Valor predeterminat: {$a->defaultsetting}';
+$string['cliupgradedefaultverbose'] = 'Paràmetre nou: {$a->name}, Valor predeterminat: {$a->defaultsetting}';
 $string['cliupgradefinished'] = 'L\'actualització per línia d\'ordres de {$a->oldversion} a {$a->newversion} s\'ha completat de manera satisfactòria.';
 $string['cliupgrademaintenancenotrequired'] = 'Aquesta actualització no donarà lloc al mode de manteniment per als usuaris.';
 $string['cliupgrademaintenancerequired'] = 'Aquesta actualització donarà lloc al mode de manteniment per als usuaris.';
@@ -1575,7 +1575,7 @@ $string['upgradepluginsfirst'] = 'Es recomana que instal·leu abans totes les ac
 $string['upgradepluginsinfo'] = 'S\'estan actualitzant els connectors';
 $string['upgradepluginsinfo_help'] = 'Hi ha actualitzacions disponibles per a alguns dels vostres connectors. Hauríeu d\'instal·lar-los tots abans d\'actualitzar la base de dades de Moodle. Si el vostre lloc no admet el desplegament automàtic d\'actualitzacions, haureu de descarregar les noves versions dels connectors i instal·lar-les al vostre servidor de forma manual.';
 $string['upgradepluginsinfo_link'] = 'admin/upgradepluginsinfo';
-$string['upgradesettings'] = 'Nous paràmetres';
+$string['upgradesettings'] = 'Paràmetres nous';
 $string['upgradesettingsintro'] = 'Els paràmetres que es mostren a continuació han estat afegits en la darrera actualització de Moodle. Feu els canvis necessaris en els valors per defecte i tot seguit feu clic a «Desa els paràmetres» al capdavall de la pàgina.';
 $string['upgradestalefiles'] = 'S\'han detectat fitxers d\'instal·lació no vàlids, l\'actualització no pot continuar.';
 $string['upgradestalefilesinfo'] = 'El procés d\'actualització de Moodle s\'ha aturat perquè s\'han detectat scripts PHP d\'almenys dues versions diferents de Moodle al directori Moodle.

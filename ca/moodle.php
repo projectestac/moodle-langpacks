@@ -1309,8 +1309,10 @@ $string['messageprovider:coursecontentupdated'] = 'Canvis en el contingut del cu
 $string['messageprovider:courserequestapproved'] = 'Notificació d\'aprovació de sol·licitud de creació de curs';
 $string['messageprovider:courserequested'] = 'Notificació de sol·licitud de creació de curs';
 $string['messageprovider:courserequestrejected'] = 'Notificació de denegació de sol·licitud de creació de curs';
+$string['messageprovider:enrolcoursewelcomemessage'] = 'Missatge de benvinguda per a les inscripcions noves als cursos';
 $string['messageprovider:errors'] = 'Hi ha errors importants amb el lloc';
 $string['messageprovider:errors_help'] = 'Errors importants que l\'administració del lloc hauria de conèixer.';
+$string['messageprovider:failedtaskmaxdelay'] = 'La tasca arriba al seu màxim retard d\'error';
 $string['messageprovider:gradenotifications'] = 'Notificacions de les qualificacions';
 $string['messageprovider:infected'] = 'Notificacions de fallada de l\'antivirus.';
 $string['messageprovider:insights'] = 'Informació generada pels models de predicció';
@@ -1466,9 +1468,9 @@ Teniu en compte que els canvis no es desaran fins que la vostra connexió millor
 $string['never'] = 'Mai';
 $string['neverdeletelogs'] = 'No suprimeixis mai els registres';
 $string['new'] = 'Nou';
-$string['newaccount'] = 'Nou compte';
+$string['newaccount'] = 'Compte nou';
 $string['newactivityname'] = 'Nom nou per a l\'activitat {$a}';
-$string['newcourse'] = 'Nou curs';
+$string['newcourse'] = 'Curs nou';
 $string['newloginnotificationbodyfull'] = '<p>Ei {$a->userfullname},</p>
 <p>Algú acaba d\'accedir al vostre compte de {$a->sitename} des d\'un nou dispositiu.</p>
 <ul>
@@ -1512,7 +1514,7 @@ Aquest paràmetre determina quants anuncis recents apareixen al bloc de darrers 
 
 Si el curs no té cap fòrum d\'anuncis, és recomanable que el valor d\'aquest camp sigui 0.';
 $string['newuser'] = 'Usuari nou';
-$string['newusernewpasswordsubj'] = 'Nou compte d\'usuari';
+$string['newusernewpasswordsubj'] = 'Compte d\'usuari nou';
 $string['newusernewpasswordtext'] = 'Hola, {$a->firstname},
 
 Se us ha creat un compte d\'usuari nou a «{$a->sitename}» i se us ha assignat una contrasenya nova temporal.
@@ -1529,7 +1531,7 @@ En la majoria de programes de correu aquesta adreça hauria d\'aparèixer com un
 
 Salutacions de l\'administrador de {$a->sitename},
 {$a->signoff}';
-$string['newusers'] = 'Nous usuaris';
+$string['newusers'] = 'Usuaris nous';
 $string['newwindow'] = 'Finestra nova';
 $string['next'] = 'Següent';
 $string['nextpage'] = 'Pàgina següent';
@@ -2381,7 +2383,7 @@ $string['userselectorsearchanywhere'] = 'Cerca coincidències amb el criteri de 
 $string['userselectorsearchexactmatchonly'] = 'només coincidències exactes';
 $string['userselectorsearchfromstart'] = 'des de l\'inici';
 $string['userselectorsearchmatching'] = 'Coincidències:';
-$string['usersnew'] = 'Nous usuaris';
+$string['usersnew'] = 'Usuaris nous';
 $string['usersnoaccesssince'] = 'Usuaris inactius més de';
 $string['userswithfiles'] = 'Usuaris amb fitxers';
 $string['useruploadtype'] = 'L\'usuari carrega el tipus: {$a}';

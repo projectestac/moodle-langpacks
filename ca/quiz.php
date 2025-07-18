@@ -530,6 +530,7 @@ $string['matchanswerno'] = 'Resposta correcta {$a}';
 $string['max'] = 'Màx.';
 $string['maxmark'] = 'Nota màxima';
 $string['maxmarks'] = 'Notes màximes';
+$string['messageprovider:attempt_grading_complete'] = 'Notificació que l\'intent ha estat qualificat';
 $string['messageprovider:attempt_overdue'] = 'Avís quan el vostre intent del qüestionari arribi al termini de venciment';
 $string['messageprovider:confirmation'] = 'Confirmació de les vostres trameses de qüestionaris';
 $string['messageprovider:submission'] = 'Notificació de trameses de qüestionari';
