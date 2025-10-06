@@ -25,8 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['clientrequiresseb'] = 'Aquest qüestionari s\'ha configurat per emprar el Navegador d\'examen segur amb la configuració del client.';
 $string['filemanager_sebconfigfile'] = 'Carrega el fitxer de configuració del Navegador d\'examen segur';
 $string['filemanager_sebconfigfile_help'] = 'Carregueu el vostre propi fitxer de configuració del Navegador d\'examen segur per a aquest qüestionari.';
+$string['httplinkbutton'] = 'Baixa la configuració';
 $string['seb'] = 'Navegador d\'examen segur';
 $string['seb_activateurlfiltering'] = 'Habilita el filtratge d\'URL';
 $string['seb_activateurlfiltering_help'] = 'Si s\'habilita, els URL es filtraran quan es carreguin les pàgines web. El conjunt de filtres s\'ha de definir a sota.';
@@ -89,3 +91,6 @@ $string['seb_use_template'] = 'Sí. Utilitza una plantilla existent';
 $string['seb_use_upload'] = 'Sí. Carrega la meva pròpia configuració';
 $string['seb_userconfirmquit'] = 'Demana a l\'usuari que confirmi que vol sortir';
 $string['seb_userconfirmquit_help'] = 'Si s\'activa, quan es detecta un enllaç de sortida els usuaris han de confirmar que volen sortir del Navegador d\'examen segur.';
+$string['sebdownloadbutton'] = 'Baixa el Navegador d\'examen segur';
+$string['seblinkbutton'] = 'Executa el Navegador d\'examen segur';
+$string['sebrequired'] = 'El qüestionari s\'ha configurat de tal manera que l\'estudiant només pot intentar respondre\'l fent servir el Navegador d\'examen segur.';

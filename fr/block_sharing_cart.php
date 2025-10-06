@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['anonymize_user_data'] = 'Souhaitez-vous anonymiser les données utilisateur ?';
 $string['atleast_one_course_module_must_be_included'] = 'Au moins un module de cours doit être inclus, veuillez sélectionner au moins un module de cours à inclure.';
-$string['backup'] = 'Sauvegarder';
 $string['backup_failed'] = 'La sauvegarde a échoué. Vous pouvez supprimer l’élément du panier d’activités et essayer à nouveau.';
 $string['backup_item'] = 'Sauvegarder l’élément';
 $string['backup_settings'] = 'Paramètres de sauvegarde';

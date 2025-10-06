@@ -714,6 +714,8 @@ $string['fullnamedisplayprivate'] = 'Format d’affichage des noms complets – 
 $string['gdrequired'] = 'L’extension GD est désormais requise par Moodle pour modifier les images.';
 $string['generalsettings'] = 'Réglages généraux';
 $string['geoipfile'] = 'Base de données MaxMind GeoLite2 City';
+$string['geopluginapikey'] = 'Clef API GeoPlugin';
+$string['geopluginapikey_desc'] = 'La clef API utilisée pour accéder au service GeoPlugin. Obtenez votre propre clef sur la <a href="https://www.geoplugin.com/" target="_blank">page GeoPlugin</a>.';
 $string['getremoteaddrconf'] = 'Source de l’adresse IP enregistrée';
 $string['globalsearch'] = 'Recherche globale';
 $string['globalsearchmanage'] = 'Gérer la recherche globale';

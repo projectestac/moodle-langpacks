@@ -409,7 +409,7 @@ $string['type'] = 'Tipus de camp';
 $string['undefinedprocessactionmethod'] = 'No hi ha un mètode definit en Data_Preset per gestionar l\'acció "{$a}"';
 $string['updatefield'] = 'Actualitza un camp existent';
 $string['uploadfile'] = 'Penja un fitxer';
-$string['uploadrecords'] = 'Carrega entrades';
+$string['uploadrecords'] = 'Importa les entrades';
 $string['uploadrecords_help'] = 'Es poden carregar les entrades mitjançant un fitxer de text. El format del fitxer ha de ser el següent:
 
 

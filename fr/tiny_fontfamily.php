@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_sharing_cart', language 'nl', version '4.4'.
+ * Strings for component 'tiny_fontfamily', language 'fr', version '4.4'.
  *
- * @package     block_sharing_cart
+ * @package     tiny_fontfamily
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,9 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['copy_section'] = 'Kopieer sectie';
-$string['drop_here'] = 'Plaats hier..';
-$string['pluginname'] = 'Kopieermachine';
-$string['settings:show_copy_section_in_block'] = 'Toon de \'Kopieer sectie\' optie in het block';
-$string['settings:show_copy_section_in_block_desc'] = 'Toon de \'Kopieer sectie\' optie in het kopieermachine block, onder alle modules / activiteiten';
-$string['sharing_cart:addinstance'] = 'Voeg een nieuw Kopieermachine block toe';
+$string['button_fontfamily'] = 'Famille de polices';
+$string['fontfamily:use'] = 'Autoriser l\'utilisation du plugin';
+$string['fonts'] = 'Familles de polices';
+$string['fonts_desc'] = 'Liste des familles de polices disponibles séparées par une nouvelle ligne.';
+$string['menuitem_fontfamily'] = 'Famille de polices';
+$string['pluginname'] = 'Plugin de famille de polices';
+$string['privacy:metadata'] = 'Le plugin de famille de polices n’enregistre aucune donnée personnelle';
+$string['settings'] = 'Paramètres';

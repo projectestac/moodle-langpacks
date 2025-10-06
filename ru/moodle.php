@@ -146,7 +146,7 @@ $string['allow'] = 'Разрешить';
 $string['allowinternal'] = 'Разрешить также внутренние методы';
 $string['allownone'] = 'Запретить всё';
 $string['allownot'] = 'Не разрешать';
-$string['allowstealthmodules'] = 'Разрешить невидимые элементы курса';
+$string['allowstealthmodules'] = 'Разрешить доступ к скрытым элементам курса';
 $string['allowstealthmodules_help'] = 'При включенном параметре элементы курса могут быть доступны, но не отображаться в видимых секциях курса. Ссылки на такие элементы курса должны предоставляться другим способом, например, с помощью ресурса типа «Страница». Невидимые элементы курса по прежнему будут отображаться в журнале оценок и других отчетах.';
 $string['allparticipants'] = 'Все участники';
 $string['allteachers'] = 'Все преподаватели';
@@ -1395,6 +1395,7 @@ $string['moodlenet:columnsenddate'] = 'Дата отправки';
 $string['moodlenet:columnsendstatus'] = 'Статус отправки';
 $string['moodlenet:columntype'] = 'Тип';
 $string['moodlenet:configoauthservice'] = 'Выберите службу MoodleNet OAuth 2, чтобы включить общий доступ к этому сайту MoodleNet. Если служба еще не существует, необходимо <a href="{$a}">создать её</a>.';
+$string['moodlenet:deletedactivity'] = 'Удаленный элемент';
 $string['moodlenet:deletedcourse'] = 'Удаленный курс';
 $string['moodlenet:eventresourceexported'] = 'Ресурс экспортирован';
 $string['moodlenet:gotomoodlenet'] = 'Перейти к проектам MoodleNet';
@@ -1529,7 +1530,7 @@ $string['newusernewpasswordtext'] = 'Здравствуйте, {$a->firstname}!
 
 На сайте «{$a->sitename}» для вас была создана новая учетная запись:
  логин: {$a->username}
- лароль: {$a->newpassword}
+ пароль: {$a->newpassword}
 (Вам будет предложено сменить пароль при первом входе в систему.)
 
 Чтобы начать использование сайта «{$a->sitename}», пройдите по адресу {$a->link}
@@ -2026,7 +2027,7 @@ $string['sessiontimeoutsoon'] = 'Ваш сеанс истекает. Вы хот
 $string['setcategorytheme'] = 'Установить тему оформления категории';
 $string['setmode'] = 'Установить режим';
 $string['setpassword'] = 'Установить пароль';
-$string['setpasswordinstructions'] = 'Пожалуйста, введите новый пароль ниже, затем сохраните изменения.';
+$string['setpasswordinstructions'] = 'Ниже введите новый пароль, затем сохраните изменения.';
 $string['settings'] = 'Настройки';
 $string['share'] = 'Поделиться';
 $string['shortname'] = 'Краткое имя';

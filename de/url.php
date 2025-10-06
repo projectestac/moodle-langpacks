@@ -38,11 +38,13 @@ $string['createurl'] = 'Link/URL anlegen';
 $string['displayoptions'] = 'Mögliche Anzeigeoptionen';
 $string['displayselect'] = 'Anzeigen';
 $string['displayselect_help'] = 'Die Darstellung des verlinkten Inhalts hängt von verschiedenen Faktoren ab:
+
 * gewählte Einstellung
 * Dateityp, auf den verlinkt wird
 * Browser der Person, der die Seite aufruft
 
 Folgende Darstellungsoptionen sind möglich:
+
 * Automatisch - Die beste Anzeigeoption für die URL wird automatisch ausgewählt
 * Eingebettet - Die URL wird innerhalb der Seite unterhalb der Navigationsleiste angezeigt, zusammen mit der Beschreibung und allen Blöcken
 * Öffnen - Die URL wird alleine im Browserfenster angezeigt

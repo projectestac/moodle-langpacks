@@ -746,6 +746,8 @@ $string['fullnamedisplayprivate'] = 'Vollständiger Name - angepasst';
 $string['gdrequired'] = 'Die PHP-Extension GD wird zur Bildumwandlung benötigt.';
 $string['generalsettings'] = 'Grundeinstellungen';
 $string['geoipfile'] = 'GeoLite2 City MaxMind DB';
+$string['geopluginapikey'] = 'GeoPlugin API Key';
+$string['geopluginapikey_desc'] = 'Der API-Key für den Zugriff auf den GeoPlugin-Dienst. Holen Sie sich Ihren eigenen Schlüssel auf der <a href="https://www.geoplugin.com/" target="_blank">GeoPlugin-Seite</a>.';
 $string['getremoteaddrconf'] = 'Geloggte IP-Adressen Quelle';
 $string['globalsearch'] = 'Globale Suche';
 $string['globalsearchmanage'] = 'Globale Suche verwalten';
