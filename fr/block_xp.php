@@ -342,7 +342,7 @@ $string['ladderparticipationreset_help'] = 'Si cette case est cochée, le statut
 $string['laddersettingsmovednotice'] = 'Les paramètres du classement ont été déplacés vers la [page du classement] ({$a->url}).';
 $string['learnmore'] = 'En savoir plus';
 $string['leave'] = 'Quitter';
-$string['leaveleadeboardconfirmnote'] = 'Êtes-vous sûr de vouloir quitter le classement ?
+$string['leaveleadeboardconfirmnote'] = 'Voulez-vous vraiment quitter le classement ?
 
 Une fois que vous quittez le classement, vous n\'y avez plus accès, mais vous pouvez toujours le rejoindre plus tard si vous changez d\'avis.';
 $string['leaveleadeboardlockednote'] = 'Vous ne pouvez pas quitter le classement.';

@@ -279,7 +279,7 @@ $string['autosave:restore_content'] = 'Restaura el contingut desat automàticame
 $string['autosave:unload_msg'] = 'Els canvis que has fet es perdran si surts d\'aquesta pàgina.';
 $string['autosave:warning_message'] = 'Si restaureu el document desat, perdreu tot el contingut que teniu ara a l\'editor.
 
-Esteu segurs de voler restaurar el contingut desat ?';
+Confirmeu que voleu restaurar el contingut desat?';
 $string['availablebuttons'] = 'Botons disponibles';
 $string['colors:000000'] = 'Negre';
 $string['colors:000080'] = 'Blau marí';

@@ -923,7 +923,7 @@ $string['explanationdigitalminor'] = '需要此信息来确定您的年龄是否
 $string['extendperiod'] = '延长选课';
 $string['extendsession'] = '延长会话';
 $string['failedloginattempts'] = '从您上次登录后共有{$a->attempts}次失败的登录尝试。';
-$string['failedtaskbody'] = '<p>嗨{$a-&gt;firstname}，</p>
+$string['failedtaskbody'] = '<p>嗨，{$a->firstname}：</p>
 <p>该任务<b>{$a->taskname}</b>已失败多次，需要注意。</p>
 <p><a href="{$a->link}">参见任务</a></p>';
 $string['failedtaskcontexturlname'] = '状态报告';

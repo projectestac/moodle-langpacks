@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmquestionsaveasedited'] = '私は問題を編集済みとして保存することを承認します。';
-$string['confirmsave'] = '{$a} を確認して保存する';
+$string['confirmquestionsaveasedited'] = '私は問題を編集したとおりに保存することを承認します。';
+$string['confirmsave'] = '{$a} を確認してから保存してください';
 $string['correctanswer'] = '正解';
 $string['correctanswerandfeedback'] = '正解およびフィードバック';
 $string['corruptedquestion'] = 'この問題は破損しているため、あなたのシステムに存在しないサブ問題が含まれています';
@@ -61,7 +61,7 @@ $string['questioninquiz'] = '<ul>
 </ul>';
 $string['questionnotfound'] = '問題部分 #{$a} の問題が見つかりません。';
 $string['questionsadded'] = '問題追加';
-$string['questionsaveasedited'] = '問題を編集済みとして保存する';
+$string['questionsaveasedited'] = '問題を編集したとおりに保存する';
 $string['questionsless'] = 'データベースに保存されている穴埋め問題より {$a} 問少ない ';
 $string['questionsmissing'] = '問題テキストには少なくとも1つの埋め込まれた答えが必要です。';
 $string['questionsmore'] = 'データベースに保存されている穴埋め問題より {$a} 問多い';

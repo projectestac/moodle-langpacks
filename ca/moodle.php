@@ -1984,6 +1984,7 @@ $string['secs'] = 'segons';
 $string['section'] = 'Secció';
 $string['sectionactionnotsupported'] = 'L\'acció de secció «{$a}» no s\'admet aquí';
 $string['sectionname'] = 'Nom de la secció';
+$string['sectionoutline'] = 'Descripció general de la secció';
 $string['sections'] = 'Seccions';
 $string['seealsostats'] = 'Vg. també: estadístiques';
 $string['selctauser'] = 'Selecciona un usuari';
@@ -2037,14 +2038,14 @@ $string['share'] = 'Comparteix';
 $string['shortname'] = 'Nom curt';
 $string['shortnamecollisionwarning'] = '[*] = Aquest nom curt ja l\'utilitza un altre curs i caldrà canviar-lo quan s\'aprovi';
 $string['shortnamecourse'] = 'Nom curt del curs';
-$string['shortnamecourse_help'] = 'El nom curt del curs es mostra a la navegació i s\'utilitza a la línia de l\'assumpte dels missatges de correu electrònic del curs.';
+$string['shortnamecourse_help'] = 'El nom que es mostra en zones amb espai limitat. Ha de ser únic.';
 $string['shortnametaken'] = 'Aquest nom curt ja el fa servir un altre curs ({$a})';
 $string['shortnameuser'] = 'Nom curt de l\'usuari';
 $string['shortsitename'] = 'Nom curt del lloc (p. e. una paraula)';
 $string['show'] = 'Mostra';
 $string['showactions'] = 'Mostra accions';
 $string['showactivitydates'] = 'Mostra les dates de l\'activitat';
-$string['showactivitydates_help'] = 'Les dates de les activitats es mostren sempre a la pàgina de l\'activitat. Aquesta configuració determina si les dates de l\'activitat també es mostren a sota de cada activitat a la pàgina del curs.';
+$string['showactivitydates_help'] = 'Mostra les dates de l\'activitat a la pàgina del curs.';
 $string['showadvancededitor'] = 'Avançat';
 $string['showadvancedsettings'] = 'Mostra paràmetres avançats';
 $string['showall'] = 'Mostra\'ls tots ({$a})';
@@ -2071,19 +2072,13 @@ $string['showperpage'] = 'Mostra {$a} per pàgina';
 $string['showpopoverwindow'] = 'Mostra una finestra emergent';
 $string['showrecent'] = 'Mostra l\'activitat recent';
 $string['showreports'] = 'Mostra informes d\'activitat';
-$string['showreports_help'] = '<p>Hi ha informes d\'activitat de cada participant que mostren la seva activitat dins del curs. Aquests informes inclouen tant una llista de les seves aportacions com uns registres d\'accés detallats.</p>
-
-<p>Els professors sempre tenen accés a aquests informes per mitjà d\'un botó visible a la pàgina del perfil de cada usuari.</p>
-
-<p>El professor pot controlar l\'accés de l\'estudiant als seus informes per mitjà d\'un paràmetre del curs. En alguns cursos, aquests informes poden ser una eina útil perquè l\'estudiant reflexioni sobre la seva implicació i la seva imatge en l\'entorn virtual, mentre que en altres cursos pot resultar innecessari.</p>
-
-<p>Un altre motiu per a desactivar aquesta opció és que la generació de l\'informe pot carregar una mica el servidor. En classes grans per tant pot ser més eficient desactivar-lo.</p>';
+$string['showreports_help'] = 'Permet que els estudiants vegin els seus propis informes d\'activitat a través de la seva pàgina del perfil.';
 $string['showsettings'] = 'Mostra paràmetres';
 $string['showtheselogs'] = 'Mostra aquests registres';
 $string['showthishelpinlanguage'] = 'Mostra aquesta ajuda en l\'idioma: {$a}';
 $string['sidepanel'] = 'Panell lateral';
-$string['signoutofotherservices'] = 'Tanca la sessió a tot arreu';
-$string['signoutofotherservices_help'] = 'Si està marcada, la sessió es tancarà a tots els dispositius i sistemes que utilitzen serveis web, com ara l\'aplicació per a mòbils.';
+$string['signoutofotherservices'] = 'Tanca la sessió de totes les aplicacions web';
+$string['signoutofotherservices_help'] = 'Tanca la sessió de tots els dispositius i sistemes que utilitzen serveis web, com ara l\'aplicació mòbil. Les sessions del navegador romandran actives.';
 $string['since'] = 'Des de';
 $string['sincelast'] = 'des del darrer inici de sessió';
 $string['site'] = 'lloc';
@@ -2101,7 +2096,7 @@ $string['sitepartlist'] = 'No teniu els permisos necessaris per a veure la llist
 $string['sitepartlist0'] = 'Per a veure la llista de participants del lloc cal ser membre del professorat del lloc.';
 $string['sitepartlist1'] = 'Per a veure la llista de participants del lloc cal ser membre del professorat.';
 $string['sites'] = 'Llocs';
-$string['sitesection'] = 'Inclou una secció de tema';
+$string['sitesection'] = 'Afegeix contingut personalitzat';
 $string['sitesettings'] = 'Paràmetres del lloc';
 $string['siteteachers'] = 'Professors del lloc';
 $string['size'] = 'Mida';
@@ -2128,7 +2123,9 @@ $string['specifyname'] = 'Heu d\'especificar un nom.';
 $string['standard'] = 'Estàndard';
 $string['starpending'] = '([*] = curs pendent d\'aprovació)';
 $string['startdate'] = 'Data d\'inici del curs';
-$string['startdate_help'] = 'Aquest paràmetre determina el començament de la primera setmana per a un curs en format setmanal. També determina la data a partir de la qual estaran disponibles els registres d\'activitat del curs. Si es reinicia el curs i es canvia la seva data inicial, totes les dates del curs es mouran de forma relativa a la nova data inicial.';
+$string['startdate_help'] = 'Aquesta data determina l\'inici de la primera setmana d\'un curs en el format setmanal. També és la data d\'inici dels registres de les activitats del curs.
+
+Si reinicieu el curs i canvieu aquesta data, totes les dates del curs es mouran en relació amb la nova data d\'inici.';
 $string['startdatewithtaskenabled'] = 'Data d\'inici del curs';
 $string['startdatewithtaskenabled_help'] = 'La data en què el curs es fa visible per als estudiants. Abans d\'aquesta data, no podran accedir-hi.
 
@@ -2387,7 +2384,7 @@ $string['userpreferences'] = 'Preferències  de l\'usuari';
 $string['users'] = 'Usuaris';
 $string['userselectorautoselectunique'] = 'Si només un usuari coincideix amb la cerca, marca\'l automàticament.';
 $string['userselectorpreserveselected'] = 'Mantingues els usuaris seleccionats, encara que ja no concordin amb la cerca.';
-$string['userselectorsearchanywhere'] = 'Cerca coincidències amb el criteri de cerca a qualsevol dels camps que es mostren.';
+$string['userselectorsearchanywhere'] = 'a qualsevol lloc';
 $string['userselectorsearchexactmatchonly'] = 'només coincidències exactes';
 $string['userselectorsearchfromstart'] = 'des de l\'inici';
 $string['userselectorsearchmatching'] = 'Coincidències:';
@@ -2425,13 +2422,13 @@ $string['weekhide'] = 'Oculta aquesta setmana a {$a}';
 $string['weeklyoutline'] = 'Esquema per setmanes';
 $string['weeks'] = 'setmanes';
 $string['weekshow'] = 'Mostra aquesta setmana a {$a}';
-$string['welcomeback'] = 'Hola de nou, {$a->firstname}! 👋';
+$string['welcomeback'] = 'Hola, {$a->firstname}! 👋';
 $string['welcometocourse'] = 'Us donem la benvinguda a {$a}';
-$string['welcometocoursetext'] = 'Us donem la benvinguda a {$a->coursename}.
+$string['welcometocoursetext'] = 'Benvingut/da a {$a->coursename}!
 
-Una de les primeres coses que hauríeu de fer és editar el vostre perfil de manera que tothom us pugui conèixer una mica més:
+Si encara no ho heu fet, hauríeu d\'editar la vostra pàgina del perfil perquè puguem saber més sobre vós:
 
-{$a->profileurl}';
+<a href="{$a->profilurl}">{$a->profilurl}</a>';
 $string['welcometosite'] = 'Us donem la benvinguda, {$a->firstname}! 👋';
 $string['whatforlink'] = 'Què voleu fer amb l\'enllaç?';
 $string['whatforpage'] = 'Què voleu fer amb el text?';
