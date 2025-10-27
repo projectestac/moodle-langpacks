@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'ca', version '4.4'.
+ * Strings for component 'user', language 'ca', version '4.5'.
  *
  * @package     user
  * @category    string
@@ -25,25 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcondition'] = 'Afegeix una condició';
-$string['adverbfor_and'] = 'i';
-$string['adverbfor_andnot'] = 'i';
-$string['adverbfor_or'] = 'o';
-$string['applyfilters'] = 'Aplica filtres';
-$string['clearfilterrow'] = 'Suprimeix la fila de filtres';
-$string['clearfilters'] = 'Neteja els filtres';
-$string['clearfilterselection'] = 'Suprimeix «{$a}» del filtre';
 $string['countparticipantsfound'] = 'Nombre de participants que s\'han trobat: {$a}';
 $string['filterbykeyword'] = 'Paraula clau';
-$string['filterrowlegend'] = 'Filtre {$a}';
-$string['filtersetmatchdescription'] = 'La manera com s\'haurien de combinar els múltiples filtres';
-$string['filtertype'] = 'Tipus de filtre';
-$string['match'] = 'Coincideix';
-$string['matchofthefollowing'] = 'de les següents:';
 $string['moodlenetprofile'] = 'Perfil de MoodleNet';
 $string['moodlenetprofile_help'] = 'El vostre ID de perfil de MoodleNet enllaça el vostre perfil de MoodleNet amb aquest lloc.';
 $string['placeholdertype'] = 'Tipus...';
-$string['placeholdertypeorselect'] = 'Escriviu o seleccioneu...';
 $string['privacy:courserequestpath'] = 'Cursos sol·licitats';
 $string['privacy:descriptionpath'] = 'Descripció del perfil';
 $string['privacy:devicespath'] = 'Dispositius d\'usuari';
@@ -149,7 +135,6 @@ $string['privacy:passwordresetpath'] = 'Restabliments de contrasenya';
 $string['privacy:privatefilespath'] = 'Fitxers privats';
 $string['privacy:profileimagespath'] = 'Imatges de perfil';
 $string['privacy:sessionpath'] = 'Dades de la sessió';
-$string['selectfiltertype'] = 'Selecciona';
 $string['supportmessagealternative'] = 'En el seu lloc, podeu enviar un correu electrònic a {$a}.';
 $string['supportmessagenotsent'] = 'El vostre missatge no s\'ha pogut enviar.';
 $string['supportmessagesent'] = 'S\'ha enviat el vostre missatge.';

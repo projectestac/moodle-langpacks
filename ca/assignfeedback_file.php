@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_file', language 'ca', version '4.4'.
+ * Strings for component 'assignfeedback_file', language 'ca', version '4.5'.
  *
  * @package     assignfeedback_file
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['batchoperationconfirmuploadfiles'] = 'Voleu pujar un o més fitxers de retroalimentació per a tots els usuaris seleccionats?';
+$string['batchoperationuploadfiles'] = 'Puja els fitxers de retroacció';
 $string['batchuploadfiles'] = 'Penja fitxers de retroalimentació per a múltiples usuaris';
 $string['batchuploadfilesforusers'] = 'Envia fitxers de retroalimentació als {$a} usuaris  seleccionats.';
 $string['configmaxbytes'] = 'Mida màxima del fitxer';

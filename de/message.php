@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'de', version '4.4'.
+ * Strings for component 'message', language 'de', version '4.5'.
  *
  * @package     message
  * @category    string
@@ -139,6 +139,7 @@ $string['notificationdatahasnotbeenmigrated'] = 'Ihre Mitteilungen sind vorüber
 $string['notificationimage'] = 'Bild für Mitteilungen';
 $string['notificationpreferences'] = 'Systemnachrichten';
 $string['notifications'] = 'Systemnachrichten';
+$string['notificationsmarkedasread'] = 'Alle Benachrichtigungen sind als gelesen markiert.';
 $string['notificationwindow'] = 'Mitteilungsfenster';
 $string['notincontacts'] = 'Sie müssen {$a} zu Ihren Kontakten hinzufügen, um Mitteilungen senden zu können.';
 $string['notincontactsheading'] = '{$a} gehört nicht zu Ihren Kontakten.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'data', language 'ja', version '4.4'.
+ * Strings for component 'data', language 'ja', version '4.5'.
  *
  * @package     data
  * @category    string
@@ -29,8 +29,6 @@ $string['action'] = '操作';
 $string['actionsmenu'] = 'アクションメニュー';
 $string['add'] = 'エントリを追加する';
 $string['addcomment'] = 'コメントを追加する';
-$string['addedby'] = '追加:';
-$string['addentries'] = 'エントリを追加する';
 $string['addtemplate'] = 'エントリテンプレートを追加する';
 $string['advancedsearch'] = '高度な検索';
 $string['allowcomments'] = 'エントリへのコメントを許可する';
@@ -55,8 +53,6 @@ $string['availabletags_help'] = 'タグはエントリが編集または閲覧�
 現在のテンプレートでは「利用可能なタグ」一覧にあるタグのみ使用することができます。';
 $string['availabletodate'] = '終了日時';
 $string['availabletodatevalidation'] = '終了日時を開始日時の前にすることはできません。';
-$string['blank'] = 'ブランク';
-$string['buttons'] = '操作';
 $string['bynameondate'] = '{$a->date} - {$a->name} の投稿';
 $string['calendarend'] = '「{$a}」終了';
 $string['calendarstart'] = '「{$a}」開始';
@@ -126,13 +122,13 @@ $string['defaultfieldenclosure'] = '(デフォルト: なし)';
 $string['defaultsortfield'] = 'デフォルトのフィールド並べ替え順';
 $string['delcheck'] = 'バルク削除チェックボックス';
 $string['delete'] = '削除';
-$string['deleteallentries'] = 'すべてのエントリを削除する';
+$string['deleteallentries'] = 'すべてのエントリ';
 $string['deletecomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['deleteconfirm'] = 'プリセット {$a} を削除してもよろしいですか?';
 $string['deleted'] = '削除されました。';
 $string['deleteentry'] = 'エントリを削除する';
 $string['deletefield'] = 'フィールドを削除する';
-$string['deletenotenrolled'] = '登録されていないユーザのエントリを削除する';
+$string['deletenotenrolled'] = '登録されていないユーザのエントリ';
 $string['deletewarning'] = 'プリセットを削除した場合、すべてのコースで利用可能なプリセット一覧から削除されます。';
 $string['descending'] = '降順';
 $string['directorynotapreset'] = '{$a->directory} はプリセットではありません。不明のファイル: {$a->missing_files}';
@@ -333,7 +329,6 @@ $string['nomatch'] = '該当するエントリが見つかりませんでした!
 $string['nomaximum'] = '最大数なし';
 $string['nopreviewavailable'] = '{$a} で利用できるプレビューはありません。';
 $string['norecords'] = 'まだエントリはありません。';
-$string['nosingletemplate'] = '個別表示用テンプレートはまだ定義されていません。';
 $string['notapproved'] = '承認保留';
 $string['notapprovederror'] = 'エントリはまだ承認されていません。';
 $string['notemplates'] = 'まだテンプレートはありません。';
@@ -356,7 +351,6 @@ $string['page-mod-data-x'] = 'すべてのデータベース活動ページ';
 $string['pagesize'] = '1ページあたりのエントリ数';
 $string['participants'] = '参加者';
 $string['picture'] = '画像';
-$string['pleaseaddsome'] = '始めるには下で新しいフィールドを追加するか<a href="{$a}">定義済みフィールドセットを選択</a>してください。';
 $string['pluginadministration'] = 'データベース活動管理';
 $string['pluginname'] = 'データベース';
 $string['portfolionotfile'] = 'ファイル (csvおよびLeap2Aのみ) ではなくポートフォリオにエクスポートする';
@@ -391,7 +385,7 @@ $string['recorddeleted'] = 'エントリが削除されました。';
 $string['recorddisapproved'] = 'エントリ未承認';
 $string['recordsnotsaved'] = 'エントリは保存されませんでした。アップロードファイルのフォーマットをご確認ください。';
 $string['recordssaved'] = 'エントリが保存されました。';
-$string['removealldatatags'] = 'すべてのデータベースタグを削除する';
+$string['removealldatatags'] = 'すべてのデータベースタグ';
 $string['requireapproval'] = '要承認';
 $string['requireapproval_help'] = '誰でも閲覧できるようにするには教師が承認する必要があります。';
 $string['required'] = '必須';
@@ -427,7 +421,6 @@ $string['saveaspresetmissingcapability'] = 'ユーザにはデータベースを
 $string['savedataaspreset'] = 'すべてのフィールド、テンプレートおよび公開をプリセットとして保存する';
 $string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = 'プリセットが保存されました。<a href="{$a->url}">プリセットをプレビューする</a>';
-$string['savetemplate'] = 'テンプレートを保存する';
 $string['search'] = '検索';
 $string['search:activity'] = 'データベース - 活動情報';
 $string['search:entry'] = 'データベース - エントリ';
@@ -459,7 +452,6 @@ $string['text'] = 'テキスト';
 $string['textarea'] = 'テキストエリア';
 $string['timeadded'] = '追加日時';
 $string['timemodified'] = '修正日時';
-$string['todatabase'] = '>> データベース';
 $string['type'] = 'フィールドタイプ';
 $string['undefinedprocessactionmethod'] = 'アクション「 {$a} 」を処理するためのアクションメソッドがData_Presetに定義されていません。';
 $string['unknown'] = '不明なフィールド';

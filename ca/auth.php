@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'ca', version '4.4'.
+ * Strings for component 'auth', language 'ca', version '4.5'.
  *
  * @package     auth
  * @category    string
@@ -158,6 +158,10 @@ $string['selfregistration_help'] = 'Si seleccioneu un connector d\'autenticació
 $string['settingmigrationmismatch'] = 'S\'han detectat valors no coincidents mentre es corregien els noms de configuració del connector. El connector d\'autenticació «{$a->plugin}»  tenia el paràmetre «{$a->setting}» configurat a «{$a->legacy}» sota el nom antic i a «{$a->current}» sota el nom actual. Aquest últim valor s\'ha definit com a vàlid, però heu de verificar i confirmar que és el valor esperat.';
 $string['sha1'] = 'Resum SHA-1';
 $string['showguestlogin'] = 'Podeu ocultar o mostrar el botó d\'inici de sessió com a visitant a la pàgina d\'inici de sessió.';
+$string['showloginform'] = 'Mostra el formulari d\'inici de sessió predeterminat';
+$string['showloginform_desc'] = 'Si el vostre lloc utilitza mètodes d\'autenticació que no requereixen introduir l\'adreça de correu electrònic/nom d\'usuari i contrasenya, com ara OAuth2, és possible que vulgueu amagar el formulari d\'inici de sessió estàndard. Això no és compatible amb els comptes manuals.
+
+Si no podeu iniciar sessió i voleu mostrar el formulari d\'inici de sessió, podeu canviar aquesta configuració amb la comanda següent: php admin/cli/cfg.php --name=showloginform --set=1';
 $string['stdchangepassword'] = 'Utilitza la pàgina estàndard de canvi de contrasenya';
 $string['stdchangepassword_expl'] = 'Si el sistema extern d\'autenticació permet canvis de contrasenya per mitjà de Moodle, canvieu aquest paràmetre a Sí. Aquest paràmetre substitueix l\'«URL de canvi de contrasenya».';
 $string['stdchangepassword_explldap'] = 'NOTA: s\'aconsella que utilitzeu LDAP sobre un túnel xifrat SSL (ldaps://) si el servidor LDAP és remot.';

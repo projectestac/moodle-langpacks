@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodle', language 'nl', version '4.4'.
+ * Strings for component 'moodle', language 'nl', version '4.5'.
  *
  * @package     moodle
  * @category    string
@@ -44,6 +44,7 @@ $string['activityiscurrentlyhidden'] = 'Sorry, deze activiteit is nu verborgen';
 $string['activitymodule'] = 'Activiteitenmodule';
 $string['activitymodules'] = 'Activiteitenmodules';
 $string['activitynotready'] = 'Activiteit nog niet klaar';
+$string['activityorresource'] = 'Activiteit of bron';
 $string['activityreport'] = 'Activiteitenrapport';
 $string['activityreports'] = 'Activiteitenrapporten';
 $string['activityselect'] = 'Selecteer deze activiteit om ze te verplaatsen';
@@ -57,6 +58,7 @@ $string['addadmin'] = 'Voeg beheerder toe';
 $string['addblock'] = 'Blok toevoegen';
 $string['addcomment'] = 'Notitie toevoegen';
 $string['addcondition'] = 'Voorwaarde toevoegen';
+$string['addcontent'] = 'Inhoud toevoegen';
 $string['addcountertousername'] = 'Gebruiker toevoegen door een getal achter de gebruikersnaam te zetten';
 $string['addcreator'] = 'Voeg een cursus-aanmaker toe';
 $string['adddots'] = 'Voeg toe...';
@@ -292,6 +294,7 @@ $string['chooseuser'] = 'Kies een gebruiker';
 $string['city'] = 'Plaats';
 $string['cleaningtempdata'] = 'Schoon de tijdelijke data op';
 $string['clear'] = 'Wis';
+$string['clearall'] = 'Wis alles';
 $string['clearfilterrow'] = 'Verwijder filterrij';
 $string['clearfilters'] = 'Filter wissen';
 $string['clearsearch'] = 'Zoekopdracht wissen';
@@ -561,8 +564,8 @@ $string['delete'] = 'Verwijder';
 $string['deleteablock'] = 'Verwijder een blok';
 $string['deleteall'] = 'Verwijder alle';
 $string['deleteallcannotundo'] = 'Verwijder alles - kan niet ongedaan gemaakt worden';
-$string['deleteallcomments'] = 'Verwijder alle commentaren';
-$string['deleteallratings'] = 'Verwijder alle beoordelingen';
+$string['deleteallcomments'] = 'Alle commentaren';
+$string['deleteallratings'] = 'Alle beoordelingen';
 $string['deletecategory'] = 'Verwijder  categorie {$a}';
 $string['deletecategorycheck'] = 'Ben je er zeker van dat je heel de categorie <b>\'{$a}\'</b> wil verwijderen?<br /> Hierdoor zullen alle cursussen van die categorie verplaatst worden: indien mogelijk naar de bovenliggende categorie en indien niet mogelijk naar de categorie \'Diversen\'.';
 $string['deletecategorycheck2'] = 'Als je deze categorie verwijderd, moet je kiezen wat je doe met de cursussen en de subcategorieën die ze bevat.';
@@ -689,7 +692,7 @@ $string['emailagain'] = 'E-mail (nogmaals)';
 $string['emailalreadysent'] = 'Er is al een e-mail verstuurd om je wachtwoord te resetten. Controleer je e-mail.';
 $string['emailcharset'] = 'Tekenset voor e-mail';
 $string['emailconfirm'] = 'Bevestig je account';
-$string['emailconfirmation'] = 'Beste,
+$string['emailconfirmation'] = 'Beste {$a->firstname},
 
 Er is een nieuwe account aangevraagd bij \'{$a->sitename}\' met gebruik van dit e-mailadres.
 Ga naar onderstaande link om de account te bevestigen:
@@ -700,8 +703,7 @@ In de meeste e-mailprogramma\'s kun je op de bovenstaande link klikken. Als dat 
 
 Veel succes en met vriendelijke groet,
 
-{$a->admin}
-(Beheerder van \'{$a->sitename}\')';
+{$a->admin}';
 $string['emailconfirmationresend'] = 'Bevestigingsmail opnieuw versturen';
 $string['emailconfirmationsubject'] = '{$a}: Bevestiging van de account';
 $string['emailconfirmsent'] = '<p>Als het goed is, is er een e-mail verzonden naar <b>{$a}</b></p>
@@ -957,13 +959,13 @@ $string['force'] = 'Verplicht';
 $string['forcelanguage'] = 'Verplicht taal';
 $string['forceno'] = 'Verplicht niet';
 $string['forcepasswordchange'] = 'Verplicht het wijzigen van het wachtwoord';
-$string['forcepasswordchange_help'] = 'Vraag de gebruiker het wachtwoord te wijzigen bij de volgend login.';
+$string['forcepasswordchange_help'] = 'Indien aangevinkt zal de gebruiker het wachtwoord moeten wijzigen bij de volgend login.';
 $string['forcepasswordchangecheckfull'] = 'Ben je zeker dat je de wachtwoordswijziging wil afdwingen voor {$a} ?';
 $string['forcepasswordchangenot'] = 'Kon geen wachtwoordswijziging afdwingen voor {$a}';
 $string['forcepasswordchangenotice'] = 'Je moet je wachtwoord wijzigen om verder te kunnen gaan';
 $string['forcepasswordresetfailurenotice'] = 'Jouw huidige wachtwoord voldoet niet langer aan het ingestelde wachtwoordbeleid. Neem voor hulp contact op met ke Moodle-beheerder.
     {$a}';
-$string['forcepasswordresetnotice'] = 'Je huidige wachtwoord voldoet niet langer aan het ingestelde wachtwoordbeleid, je moet je wachtwoord opnieuw instellen om in te loggen.
+$string['forcepasswordresetnotice'] = 'Je huidige wachtwoord voldoet niet langer aan het wachtwoordbeleid. Je moet je wachtwoord wijzigen om in te loggen.
     {$a}';
 $string['forcetheme'] = 'Leg dit thema op';
 $string['forgotaccount'] = 'Wachtwoord vergeten?';
@@ -1010,6 +1012,7 @@ $string['general'] = 'Algemeen';
 $string['geolocation'] = 'breedtegraad - lengtegraad';
 $string['gettheselogs'] = 'Toon logs';
 $string['go'] = 'Start';
+$string['gobacktosite'] = 'Ga terug naar de site';
 $string['gpl'] = 'Copyright (C) 1999 en verder Martin Dougiamas
 (https://moodle.com)
 
@@ -1175,6 +1178,7 @@ $string['indicator:userforumstracking'] = 'Gebruiker volgt forums';
 $string['indicator:userforumstracking_help'] = 'Deze indicator geeft aan of een leerling het volgen van forums heeft ingeschakeld.';
 $string['info'] = 'Informatie';
 $string['inprogress'] = 'Bezig';
+$string['insertcontentbefore'] = 'Voeg inhoud toe vóór \'{$a->activityname}\'';
 $string['insertresourceoractivitybefore'] = 'Voeg een activiteit of bron in voor \'{$a->activityname}\'';
 $string['institution'] = 'Instituut';
 $string['instudentview'] = 'Als leerling';
@@ -1871,14 +1875,20 @@ $string['resendemail'] = 'Bevestigings-e-mail opnieuw versturen';
 $string['reset'] = 'Standaardinstellingen';
 $string['resetcomponent'] = 'Component';
 $string['resetcourse'] = 'Cursus opschonen';
-$string['resetinfo'] = 'Verwijder alle gebruikersgegevens en reset deze cursus naar de oorspronkelijke staat, waarbij activiteiten en instellingen intact blijven.';
-$string['resetnotimplemented'] = 'Reset niet geïmplementeerd';
+$string['resetcourseconfirm'] = 'Cursus naar standaardinstellingen?';
+$string['resetcoursewarning'] = 'Weet je zeker dat je de cursus \'{$a}\' op standaardinstellingen wil zetten?
+<br/><br/>
+Hiermee worden de geselecteerde gegevens verwijderd en wordt de cursus teruggezet naar de oorspronkelijke staat. Je kunt deze actie niet ongedaan maken.';
+$string['resetinfo'] = 'Met deze functie verwijder je alle gebruikersgegevens en zet je deze cursus terug naar de oorspronkelijke staat. Cursusactiviteiten en instellingen blijven ongewijzigd.';
+$string['resetinfoselect'] = 'Selecteer de gegevens die je wilt verwijderen of opnieuw wilt instellen in de onderstaande categorieën:';
+$string['resetnotimplemented'] = 'Reset niet ondersteund';
+$string['resetnotimplementedinfo'] = 'Deze activiteit kan niet teruggezet worden naar standaardinstellingen:';
 $string['resetrecordexpired'] = 'De link om je wachtwoord te resetten is meer dan {$a} minuten oud en is verlopen.
 Vraag opnieuw een nieuw wachtwoord aan.';
 $string['resetstartdate'] = 'Standaardwaarde datum';
 $string['resetstatus'] = 'Status';
 $string['resettable'] = 'Tabelvoorkeuren terug instellen';
-$string['resettask'] = 'Taak';
+$string['resettask'] = 'Reset';
 $string['resettodefaults'] = 'Herstel standaardinstellingen';
 $string['resortcourses'] = 'Sorteer cursussen';
 $string['resortsubcategoriesby'] = 'Sorteer subcategorieën oplopend op {$a}';
@@ -2045,6 +2055,9 @@ $string['senddetails'] = 'Stuur me mijn gebruikersnaam en een nieuw wachtwoord';
 $string['sent'] = 'Verstuurd';
 $string['separate'] = 'Gescheiden';
 $string['separateandconnected'] = 'Gescheiden en Verbonden/relationele manieren van kennen';
+$string['separateandconnected1'] = 'Vooral Separate Knowing';
+$string['separateandconnected2'] = 'Separate en Connected Knowing';
+$string['separateandconnected3'] = 'Vooral Connected Knowing';
 $string['separateandconnectedinfo'] = 'De schaal is gebaseerd op de theorie van gescheiden en relationele manieren van kennen. Deze theorie beschrijft twee verschillende manieren waarop we wat we zien en horen kunnen evalueren en leren.
 <ul>
 <li><strong>Gescheiden kenners</strong> blijven zo objectief mogelijk zonder gevoelens en emoties op te nemen. In een discussie met anderen zullen zij graag hun eigen ideeën verdedigen door het gebruik van logica en het vinden van fouten in de ideën van hun tegenstanders.</li><li><strong>Relationele kenners</strong> zijn meer gevoelig voor anderen. Zij zijn bedreven in de empathie en luisteren en stellen vragen tot ze verbondenheid voelen en de dingen "begrijpen vanuit hun standpunt". Zij leren door te proberen  ervaringen te delen die leiden tot de kennis die ze in anderen vinden.</li><ul>';
@@ -2202,6 +2215,7 @@ $string['statswrites'] = 'Berichten';
 $string['status'] = 'Status';
 $string['statuschecks'] = 'Statuscontroles';
 $string['statuscritical'] = 'Kritieke fout';
+$string['statusdone'] = 'Klaar';
 $string['statuserror'] = 'Fout';
 $string['statusinfo'] = 'Info';
 $string['statusna'] = 'N/A';
@@ -2217,6 +2231,7 @@ $string['subcategory'] = 'Subcategorie';
 $string['subcategoryof'] = 'Subcategorie van {$a}';
 $string['subject'] = 'Onderwerp';
 $string['submit'] = 'Insturen';
+$string['subsectionmoveerror'] = 'Kan deze subsectie niet verplaatsen naar een andere subsectie';
 $string['success'] = 'Succes';
 $string['successduration'] = 'Succes ({$a} seconds)';
 $string['summary'] = 'Beschrijving';

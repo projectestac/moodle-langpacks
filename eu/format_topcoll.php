@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'eu', version '4.4'.
+ * Strings for component 'format_topcoll', language 'eu', version '4.5'.
  *
  * @package     format_topcoll
  * @category    string
@@ -214,7 +214,6 @@ $string['markedthissection'] = 'Atal hau oraingo atal gisa nabarmenduta dago.';
 $string['markthissection'] = 'Nabarmendu atal hau oraingo atal gisa';
 $string['medium'] = 'Ertaina';
 $string['newsectionname'] = 'Izen berria {$a} atalarentzat';
-$string['numbersections'] = 'Atal kopurua';
 $string['off'] = 'Itzalita';
 $string['on'] = 'Piztuta';
 $string['one'] = 'Bat';

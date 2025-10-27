@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'admin', language 'ko', version '4.4'.
+ * Strings for component 'admin', language 'ko', version '4.5'.
  *
  * @package     admin
  * @category    string
@@ -741,7 +741,6 @@ $string['modulesecurity'] = '모듈 보안';
 $string['moodleapp'] = '무들 앱';
 $string['moodlepartners'] = '무들 파트너스';
 $string['moodleservices'] = '무들 서비스';
-$string['multilangforceold'] = '강제로 예전의 다중언어 문법 사용: &lt;span&gt; without the class="multilang" and &lt;lang&gt;';
 $string['mustenablestats'] = '아직 통계수집을 하도록 설정하지 않았습니다.';
 $string['mydashboard'] = '시스템 기본 강의 현황';
 $string['mymoodle'] = '강의 현황';

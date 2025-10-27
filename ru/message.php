@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ru', version '4.4'.
+ * Strings for component 'message', language 'ru', version '4.5'.
  *
  * @package     message
  * @category    string
@@ -139,6 +139,7 @@ $string['notificationdatahasnotbeenmigrated'] = 'Ваши уведомления
 $string['notificationimage'] = 'Уведомления в виде картинки';
 $string['notificationpreferences'] = 'Настройки уведомлений';
 $string['notifications'] = 'Уведомления';
+$string['notificationsmarkedasread'] = 'Все уведомления отмечены как прочитанные.';
 $string['notificationwindow'] = 'Окно уведомления';
 $string['notincontacts'] = 'Вам нужно добавить пользователя {$a} в список собеседников, чтобы иметь возможность отправлять ему(ей) сообщения.';
 $string['notincontactsheading'] = '{$a} не является вашим собеседником';

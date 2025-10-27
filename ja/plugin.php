@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'ja', version '4.4'.
+ * Strings for component 'plugin', language 'ja', version '4.5'.
  *
  * @package     plugin
  * @category    string
@@ -53,6 +53,8 @@ $string['err_response_format_version'] = '予期しないレスポンスフォ�
 $string['err_response_http_code'] = '利用可能なアップデートデータを取得できません - 不明なHTTPレスポンスコードです。';
 $string['filterall'] = 'すべてを表示する';
 $string['filtercontribonly'] = '追加プラグインのみ表示する';
+$string['filtermissingonly'] = 'ディスクから欠落しているもののみ表示する';
+$string['filternewpluginsonly'] = 'インストールするプラグインのみ表示する';
 $string['filterupdatesonly'] = '更新可能のみ表示する';
 $string['incompatibleversion'] = '互換性のないMoodleバージョン: {$a}';
 $string['isenabled'] = '有効にしますか?';
@@ -110,6 +112,10 @@ $string['status_uptodate'] = 'インストール';
 $string['supportedconversions'] = 'サポートされるドキュメントコンバージョン';
 $string['supportedmoodleversions'] = 'サポートされるMoodleバージョン';
 $string['systemname'] = '識別子';
+$string['type_aiplacement'] = 'AI配置プラグイン';
+$string['type_aiplacement_plural'] = 'AI配置プラグイン';
+$string['type_aiprovider'] = 'AIプロバイダプラグイン';
+$string['type_aiprovider_plural'] = 'AIプロバイダプラグイン';
 $string['type_antivirus'] = 'アンチウイルスプラグイン';
 $string['type_antivirus_plural'] = 'アンチウイルスプラグイン';
 $string['type_auth'] = '認証方法';
@@ -192,6 +198,8 @@ $string['type_repository'] = 'リポジトリ';
 $string['type_repository_plural'] = 'リポジトリ';
 $string['type_search'] = '検索エンジン';
 $string['type_search_plural'] = 'サーチエンジン';
+$string['type_smsgateway'] = 'SMSゲートウェイ';
+$string['type_smsgateway_plural'] = 'SMSゲートウェイ';
 $string['type_theme'] = 'テーマ';
 $string['type_theme_plural'] = 'テーマ';
 $string['type_tool'] = '管理ツール';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'en', version '4.4'.
+ * Strings for component 'format_topcoll', language 'en', version '4.5'.
  *
  * @package     format_topcoll
  * @category    string
@@ -110,7 +110,7 @@ $string['defaulttgfghvropacity_desc'] = 'Toggle foreground text on hover opacity
 $string['defaulttgfgopacity'] = 'Toggle foreground opacity';
 $string['defaulttgfgopacity_desc'] = 'Toggle foreground text opacity between 0 and 1 in 0.1 increments.';
 $string['defaulttogglealignment'] = 'Toggle text alignment';
-$string['defaulttogglealignment_desc'] = '\'Left\', \'Centre\' or \'Right\'.';
+$string['defaulttogglealignment_desc'] = '\'Start\', \'Centre\' or \'End\'.';
 $string['defaulttoggleallenabled'] = 'Toggle all enabled';
 $string['defaulttoggleallenabled_desc'] = 'States if the toggle all functionality should be enabled.';
 $string['defaulttoggleallhover'] = 'Toggle all icon hovers';
@@ -128,7 +128,7 @@ $string['defaulttoggleiconfontclosed_desc'] = 'When \'defaulttoggleiconset\' is 
 $string['defaulttoggleiconfontopen'] = 'Open toggle icon font';
 $string['defaulttoggleiconfontopen_desc'] = 'When \'defaulttoggleiconset\' is set to \'Icon font\', this states the default CSS classes to use for the open icon, i.e. see the FontAwesome icon classes.';
 $string['defaulttoggleiconposition'] = 'Icon position';
-$string['defaulttoggleiconposition_desc'] = 'States if the icon should be on the left or the right of the toggle text.';
+$string['defaulttoggleiconposition_desc'] = 'States if the icon should be on the start or the end of the toggle text.';
 $string['defaulttoggleiconset'] = 'Toggle icon set';
 $string['defaulttoggleiconset_desc'] = '<table><tbody><tr><td>Arrow</td><td>{$a->arrow}</td></tr><tr><td>Bulb</td><td>{$a->bulb}</td></tr><tr><td>Cloud</td><td>{$a->cloud}</td></tr><tr><td>Eye</td><td>{$a->eye}</td></tr><tr><td>Folder</td><td>{$a->folder}</td></tr><tr><td>Ground Signal</td><td>{$a->groundsignal}</td></tr><tr><td>Light Emitting Diode</td><td>{$a->led}</td></tr><tr><td>Point</td><td>{$a->point}</td></tr><tr><td>Power</td><td>{$a->power}</td></tr><tr><td>Radio</td><td>{$a->radio}</td></tr><tr><td>Smiley</td><td>{$a->smiley}</td></tr><tr><td>Square</td><td>{$a->square}</td></tr><tr><td>Sun / Moon</td><td>{$a->sunmoon}</td></tr><tr><td>Switch</td><td>{$a->switch}</td></tr><tr><td>Icon font</td><td>{$a->tif}</td></tr></tbody></table>';
 $string['defaulttoggleiconsize'] = 'Toggle icon size';
@@ -189,6 +189,7 @@ $string['em3_9'] = '3.9em';
 $string['em4_0'] = '4.0em';
 $string['enableadditionalmoddata'] = 'Enable additional information';
 $string['enableadditionalmoddatadesc'] = 'This is a \'Site level\' switch to turn the activity information on or off.  It needs to be \'on\' for the related settings that operate at a course level to take effect.  As this functionality can be computationally expensive, then it is strongly suggested that you undertake full testing before using on a production system.  Note: Purges the cache caches when changed.';
+$string['end'] = 'End';
 $string['eye'] = 'Eye';
 $string['feedbackavailable'] = 'Feedback available';
 $string['folder'] = 'Folder';
@@ -217,7 +218,6 @@ $string['markthissection'] = 'Highlight this section as the current section';
 $string['medium'] = 'Medium';
 $string['newsection'] = 'New section';
 $string['newsectionname'] = 'New name for section {$a}';
-$string['numbersections'] = 'Number of sections';
 $string['off'] = 'Off';
 $string['on'] = 'On';
 $string['one'] = 'One';
@@ -331,7 +331,7 @@ $string['settoggleiconfontclosed_help'] = 'When \'toggleiconset\' is set to \'Ic
 $string['settoggleiconfontopen'] = 'Open toggle icon font';
 $string['settoggleiconfontopen_help'] = 'When \'toggleiconset\' is set to \'Icon font\', this states the default CSS classes to use for the open icon, i.e. see the FontAwesome icon classes.  If set to \'-\' then the default is used.';
 $string['settoggleiconposition'] = 'Icon position';
-$string['settoggleiconposition_help'] = 'States that the icon should be on the left or the right of the toggle text.';
+$string['settoggleiconposition_help'] = 'States that the icon should be on the start or end of the toggle text.';
 $string['settoggleiconset'] = 'Icon set';
 $string['settoggleiconset_help'] = 'Sets the icon set of the toggle.';
 $string['setviewsinglesectionenabled'] = 'View single section enabled';
@@ -344,6 +344,7 @@ $string['sidepre'] = 'Pre';
 $string['small'] = 'Small';
 $string['smiley'] = 'Smiley';
 $string['square'] = 'Square';
+$string['start'] = 'Start';
 $string['sunmoon'] = 'Sun / Moon';
 $string['switch'] = 'Switch';
 $string['three'] = 'Three';

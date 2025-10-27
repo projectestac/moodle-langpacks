@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz', language 'ca', version '4.4'.
+ * Strings for component 'quiz', language 'ca', version '4.5'.
  *
  * @package     quiz
  * @category    string
@@ -547,6 +547,7 @@ $string['maxmarks_help'] = 'La qualificació màxima disponible per a cada pregu
 $string['messageprovider:attempt_grading_complete'] = 'Notificació que l\'intent ha estat qualificat';
 $string['messageprovider:attempt_overdue'] = 'Avís quan el vostre intent del qüestionari arribi al termini de venciment';
 $string['messageprovider:confirmation'] = 'Confirmació de les vostres trameses de qüestionaris';
+$string['messageprovider:quiz_open_soon'] = 'El qüestionari s\'obrirà aviat';
 $string['messageprovider:submission'] = 'Notificació de trameses de qüestionari';
 $string['min'] = 'Mín.';
 $string['minutes'] = 'minuts';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'es', version '4.4'.
+ * Strings for component 'scorm', language 'es', version '4.5'.
  *
  * @package     scorm
  * @category    string
@@ -116,7 +116,7 @@ $string['datadir'] = 'Error del sistema de archivos: No se puede crear el direct
 $string['defaultdisplaysettings'] = 'Configuración de pantalla predeterminada';
 $string['defaultgradesettings'] = 'Configuración de calificación predeterminada';
 $string['defaultothersettings'] = 'Otras configuraciones predeterminadas';
-$string['deleteallattempts'] = 'Eliminar todos los intentos SCORM';
+$string['deleteallattempts'] = 'Todos los intentos SCORM';
 $string['deleteattemptcheck'] = '¿Está totalmente seguro que quiere eliminar completamente estos intentos?';
 $string['deleteselected'] = 'Eliminar los intentos seleccionados';
 $string['deleteuserattemptcheck'] = '¿Está seguro que quiere eliminar completamente todos sus intentos?';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ca', version '4.4'.
+ * Strings for component 'workshop', language 'ca', version '4.5'.
  *
  * @package     workshop
  * @category    string
@@ -373,7 +373,7 @@ $string['userdatecreated'] = 'tramesa el <span>{$a}</span>';
 $string['userdatemodified'] = 'modificada el <span>{$a}</span>';
 $string['userplan'] = 'Planificador del taller';
 $string['userplan_help'] = 'El planificador del taller mostra totes les fases de l\'activitat i llista les tasques de cada fase. La fase actual es destaca i les tasques completades es marquen amb un senyal.';
-$string['userplanaccessibilitytitle'] = 'Línia temporal del taller, amb {$a} fases';
+$string['userplanaccessibilitytitle'] = 'Cronologia del taller, amb {$a} fases';
 $string['userplancurrentphase'] = 'Fase actual';
 $string['useselfassessment'] = 'Usa l\'autoavaluació';
 $string['useselfassessment_desc'] = 'Els estudiants poden avaluar les seves pròpies trameses';

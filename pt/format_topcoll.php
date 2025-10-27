@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topcoll', language 'pt', version '4.4'.
+ * Strings for component 'format_topcoll', language 'pt', version '4.5'.
  *
  * @package     format_topcoll
  * @category    string
@@ -224,7 +224,6 @@ $string['markthissection'] = 'Destacar esta secção como a secção atual';
 $string['medium'] = 'Médio';
 $string['newsection'] = 'Nova secção';
 $string['newsectionname'] = 'Novo nome da secção {$a}';
-$string['numbersections'] = 'Número de secções';
 $string['off'] = 'Desligado';
 $string['on'] = 'Ligado';
 $string['one'] = 'Uma';

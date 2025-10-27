@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'ja', version '4.4'.
+ * Strings for component 'scorm', language 'ja', version '4.5'.
  *
  * @package     scorm
  * @category    string
@@ -38,6 +38,7 @@ $string['aicchacptimeout_desc'] = '外部AICC HACPセッションをオープン
 $string['aiccuserid'] = 'AICC数字ユーザID渡し';
 $string['aiccuserid_desc'] = 'Moodleに比べてAICCスタンダードのユーザ名には制限が多く、半角英数字、ダッシュ (-) およびアンダースコア (_) のみ許可されます。ピリオド (.)、スペースおよびアットマーク (@) は許可されません。この設定を有効にした場合、ユーザ名の代わりにナンバIDナンバがAICCパッケージに渡されます。';
 $string['aliasonly'] = 'リポジトリからimsmanifest.xmlファイルを選択する場合、あなたはこのファイルのエイリアス/ショートカットを使用する必要があります。';
+$string['allattempts'] = 'すべてのSCORM受験';
 $string['allowapidebug'] = 'アクティブAPIデバッグおよびトレース (apidebugmaskでキャプチャマスクを設定する)';
 $string['allowtypeaicchacp'] = '外部AICC HACPを有効にする';
 $string['allowtypeaicchacp_desc'] = 'この設定を有効にした場合、外部AICCパッケージからユーザログインのポストリクエストを必要とせずにAICC HACP外部通信することができます。';
@@ -60,7 +61,7 @@ $string['attemptstatusmy'] = 'ダッシュボードのみ';
 $string['attemptsx'] = '受験 {$a}';
 $string['attr_error'] = 'タグ {$a->tag} のアトリビュート ({$a->attr}) に不適切な値が設定されています。';
 $string['autocommit'] = '自動コミット';
-$string['autocommit_help'] = 'この設定を有効にした場合、SCORMデータは自動的にデータベースに保存されます。定期的にデータを保存しないSCORMオブジェクトに有用です。';
+$string['autocommit_help'] = 'この設定を有効にした場合、SCORMデータは自動的にデータベースに保存されます。これは定期的にデータを保存しないSCORMオブジェクトに有用です。';
 $string['autocommitdesc'] = 'SCORMパッケージがSCORMデータを保存しない場合、自動的にSCORMデータを保存します。';
 $string['autocontinue'] = '自動継続';
 $string['autocontinue_help'] = 'この設定を有効にした場合、自動的に次の利用可能な学習オブジェクトが起動されます。そうでない場合、「続ける」ボタンを使用してください。';

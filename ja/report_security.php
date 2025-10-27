@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_security', language 'ja', version '4.4'.
+ * Strings for component 'report_security', language 'ja', version '4.5'.
  *
  * @package     report_security
  * @category    string
@@ -126,6 +126,7 @@ $string['check_unsecuredataroot_error'] = 'あなたのdatarootディレクト�
 $string['check_unsecuredataroot_name'] = '安全ではないdataroot';
 $string['check_unsecuredataroot_ok'] = 'datarootディレクトリはウェブからアクセスできないようにしてください。';
 $string['check_unsecuredataroot_warning'] = 'あなたのdatarootディレクトリ「 <code>{$a}</code> 」は正しくない場所に配置されウェブに晒された状態です。';
+$string['check_upgradefile_info'] = 'アップグレードノートファイルは公開すべきではありません。';
 $string['check_vendordir_details'] = '<p>ディレクトリ「 <code>{$a->path}</code> 」は様々なサードパーティライブラリおよび一般的にPHPコンポーザによってインストールされる依存関係を含みます。PHPUnitフレームワークのインストールのようなローカルのMoodle開発に必要であると思われます。これらのためにMoodleサイトを実運用する必要はありません。また、あなたのサイトをリモート攻撃にさらす潜在的に危険なコードを含むことができてしまいます。</p><p>サイトにパブリックURLからアクセスできる場合、ディレクトリを削除することを強くお勧めします。またはあなたのウェブサーバ設定で少なくともディレクトリへのウェブアクセスを禁止してください。</p>';
 $string['check_vendordir_info'] = 'vendorディレクトリはパブリックサイトに存在すべきではありません。';
 $string['check_vendordir_name'] = 'ベンダディレクトリ';

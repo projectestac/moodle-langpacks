@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'ja', version '4.4'.
+ * Strings for component 'cohort', language 'ja', version '4.5'.
  *
  * @package     cohort
  * @category    string
@@ -49,7 +49,10 @@ $string['currentusers'] = '現在のユーザ';
 $string['currentusersmatching'] = '既存ユーザとの合致';
 $string['defaultcontext'] = 'デフォルトコンテクスト';
 $string['delcohort'] = 'コーホートを削除する';
+$string['delcohortsconfirm'] = 'これでコホートおよび関連データすべてが削除されます。';
+$string['delcohortssuccess'] = '選択されたコーホートを削除する';
 $string['delconfirm'] = 'これでコホート「 {$a} 」および関連データすべてが削除されます。';
+$string['delsuccess'] = 'コーホートを削除する';
 $string['description'] = '説明';
 $string['displayedrows'] = '{$a->total} 行中 {$a->displayed} 行が表示されます。';
 $string['duplicateidnumber'] = '同一IDナンバのコーホートがすでに存在します。';

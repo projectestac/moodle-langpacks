@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'ja', version '4.4'.
+ * Strings for component 'message', language 'ja', version '4.5'.
  *
  * @package     message
  * @category    string
@@ -139,6 +139,7 @@ $string['notificationdatahasnotbeenmigrated'] = '通知機能のアップグレ�
 $string['notificationimage'] = '通知イメージ';
 $string['notificationpreferences'] = '通知プレファレンス';
 $string['notifications'] = '通知';
+$string['notificationsmarkedasread'] = 'すべての通知が既読マークされました。';
 $string['notificationwindow'] = '通知ウィンドウ';
 $string['notincontacts'] = 'メッセージを送信するにはあなたのコンタクトに {$a} を追加する必要があります。';
 $string['notincontactsheading'] = 'あなたのコンタクトに {$a} は登録されていません。';

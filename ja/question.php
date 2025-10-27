@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'question', language 'ja', version '4.4'.
+ * Strings for component 'question', language 'ja', version '4.5'.
  *
  * @package     question
  * @category    string
@@ -314,7 +314,6 @@ $string['nocate'] = 'カテゴリがありません  {$a} !';
 $string['noconditionspecified'] = '条件を指定してください。';
 $string['nopermissionadd'] = 'あなたには問題をここに追加するためのパーミッションがありません。';
 $string['nopermissionedit'] = 'あなたにはここから問題を編集するためのパーミッションがありません。';
-$string['nopermissionmove'] = 'あなたには問題をここから移動するためのパーミッションがありません。あなたはこのカテゴリに問題を保存するか、新しい問題として保存する必要があります。';
 $string['noprobs'] = 'あなたの問題データベースに問題は見つかりませんでした。';
 $string['noquestionbanks'] = '問題バンクプラグインが見つかりませんでした。';
 $string['noquestions'] = 'エクスポートできる問題が見つかりませんでした。あなたがエクスポートする問題が含まれるカテゴリを選択したかご確認ください。';
@@ -405,7 +404,11 @@ $string['questionbehavioursorderexplained'] = 'あなたがドロップダウン
 $string['questioncategories'] = '問題カテゴリ';
 $string['questioncategory'] = '問題カテゴリ';
 $string['questioncatsfor'] = '「 {$a} 」の問題カテゴリ';
+$string['questiondefaultssave'] = 'ユーザプレファレンスデフォルトとして問題オプションを保存する';
+$string['questiondefaultssave_desc'] = '「デフォルト評点」「単一または複数解答?」等の問題オプションをユーザの次回フォームアクセス時にデフォルトとして使用するために問題編集フォーム送信時にユーザ設定として保存するかどうか決定します。';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
+$string['questionediting'] = '問題編集';
+$string['questionediting_desc'] = 'これらの設定は問題フォームの編集に適用されます。';
 $string['questionformtagheader'] = '{$a} タグ';
 $string['questionidmismatch'] = '問題IDが一致しません。';
 $string['questionloaderror'] = '問題オプションを読み込めませんでした。';

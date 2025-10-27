@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forum', language 'ja', version '4.4'.
+ * Strings for component 'forum', language 'ja', version '4.5'.
  *
  * @package     forum
  * @category    string
@@ -501,7 +501,7 @@ $string['nonews'] = 'まだ新しいアナウンスメントは投稿されて�
 $string['noonecansubscribenow'] = '現在、購読は無効にされています。';
 $string['nopermissiontosubscribe'] = 'あなたには購読者を閲覧するためのパーミッションがありません。';
 $string['nopermissiontoview'] = 'あなたにはこの投稿を閲覧するためのパーミッションがありません。';
-$string['nopostforum'] = '申し訳ございません、あなたはこのフォーラムに投稿できません。';
+$string['nopostforum'] = 'あなたはこのフォーラムに投稿できません。';
 $string['noposts'] = '投稿はありません。';
 $string['nopostsmadebyuser'] = '{$a} の投稿はありません。';
 $string['nopostsmadebyyou'] = 'あなたの投稿はありません。';
@@ -510,14 +510,14 @@ $string['nosubscribers'] = 'このフォーラムにはまだ購読者はいま�
 $string['notexists'] = 'ディスカッションはすでに存在しません。';
 $string['notgraded'] = '未評定';
 $string['nothingnew'] = '{$a} に新しい投稿はありません。';
-$string['notingroup'] = '申し訳ございません、あなたがこのフォーラムを閲覧するにはグループに属している必要があります。';
+$string['notingroup'] = 'あなたがこのフォーラムを閲覧するにはグループに属している必要があります。';
 $string['notinstalled'] = 'フォーラムモジュールがインストールされていません。';
 $string['notlocked'] = 'ロックする';
 $string['notpartofdiscussion'] = 'この投稿はディスカッションの一部ではありません。';
 $string['notrackforum'] = '投稿を未読管理しない';
 $string['notsubscribed'] = '購読する';
 $string['nousersmatch'] = '与えられたクライテリアでユーザは見つかりませんでした。';
-$string['noviewdiscussionspermission'] = 'あなたにはこのフォーラムを閲覧するためのパーミッションがありません。';
+$string['noviewdiscussionspermission'] = 'あなたにはこのフォーラムのディスカッションを閲覧するためのパーミッションがありません。';
 $string['nowallsubscribed'] = 'あなたは {$a} のフォーラムすべてを購読しています。';
 $string['nowallunsubscribed'] = 'あなたは {$a} のフォーラムすべての購読を解除しました。';
 $string['nowgradinguser'] = '現在評定中 {$a}';
@@ -555,9 +555,6 @@ $string['postmailinfo'] = 'これはウェブサイト {$a} に投稿された�
 $string['postmailnow'] = '<p>この投稿はすべてのフォーラム購読者にすぐに送信されます。</p>';
 $string['postmailreply'] = '返信するにはこのリンクをクリックしてください: {$a}';
 $string['postmailsubject'] = '{$a->courseshortname}: {$a->subject}';
-$string['postrating1'] = '主に分離認識の傾向がある';
-$string['postrating2'] = '分離認識と関連認識を同等に持っている';
-$string['postrating3'] = '主に関連認識の傾向がある';
 $string['posts'] = '投稿';
 $string['postsfrom'] = '投稿開始';
 $string['postsmadebyuser'] = '{$a} による投稿';
@@ -644,7 +641,7 @@ $string['qandaforum'] = 'Q&Aフォーラム';
 $string['qandanotify'] = 'これはQ&Aフォーラムです。これらの質問に対する他の人の回答を読むにはまず最初にあなたの返信を投稿する必要があります。';
 $string['re'] = 'Re:';
 $string['readtherest'] = '残りのトピックを読む';
-$string['removeallforumtags'] = 'すべてのフォーラムタグを削除する';
+$string['removeallforumtags'] = 'すべてのフォーラムタグ';
 $string['removefromfavourites'] = 'このディスカッションの星を外す';
 $string['replies'] = '返信';
 $string['repliesmany'] = '現在の返信数: {$a}';
@@ -659,11 +656,11 @@ $string['replyplaceholder'] = 'あなたの返信を記述する ...';
 $string['replypostdiscussion'] = 'ディスカッションに返信する';
 $string['replytopostbyemail'] = 'あなたはこのフォーラム投稿にメールで返信することができます。';
 $string['replytouser'] = '返信にメールアドレスを使用する';
-$string['resetdigests'] = 'すべてのユーザのフォーラムダイジェストプレファレンスを削除する';
+$string['resetdigests'] = 'すべてのユーザのフォーラムダイジェストプレファレンス';
 $string['resetforums'] = '次のフォーラムから投稿を削除する';
-$string['resetforumsall'] = 'すべての投稿を削除する';
-$string['resetsubscriptions'] = 'すべてのフォーラムの購読を解除する';
-$string['resettrackprefs'] = 'すべてのフォーラム未読管理プレファレンスを削除する';
+$string['resetforumsall'] = 'すべての投稿';
+$string['resetsubscriptions'] = 'すべてのフォーラムの購読';
+$string['resettrackprefs'] = 'すべてのフォーラム未読管理プレファレンス';
 $string['rssarticles'] = '最近の記事のRSS数';
 $string['rssarticles_help'] = 'この設定ではRSSフィードに含まれる記事 (ディスカッションおよび投稿) 数を設定します。一般的に5から20の間が適切です。';
 $string['rsssubscriberssdiscussions'] = 'ディスカッションのRSSフィード';

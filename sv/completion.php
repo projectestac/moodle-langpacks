@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'completion', language 'sv', version '4.4'.
+ * Strings for component 'completion', language 'sv', version '4.5'.
  *
  * @package     completion
  * @category    string
@@ -142,6 +142,7 @@ $string['csvdownload'] = 'Ladda ned i kalkylbladsformat (UTF-8 .csv)';
 $string['datepassed'] = 'Datum för godkännande';
 $string['days'] = 'Dagar';
 $string['daysoftotal'] = '{$a->days} av {$a->total}';
+$string['daystakingcourse'] = 'Dagar på kurs';
 $string['daysuntilcompletion'] = 'Dagar till slutförande';
 $string['defaultcompletion'] = 'Standardinställningar för aktivitetsslutförande';
 $string['defaultcompletionupdated'] = 'Ändringar sparade';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cache', language 'eu', version '4.4'.
+ * Strings for component 'cache', language 'eu', version '4.5'.
  *
  * @package     cache
  * @category    string
@@ -34,6 +34,8 @@ $string['addstoresuccess'] = 'Ondo gehitu da {$a} biltegi berria.';
 $string['area'] = 'Eremua';
 $string['cacheadmin'] = 'Cachearen kudeaketa';
 $string['cacheconfig'] = 'Ezarpenak';
+$string['cachedef_ai_policy'] = 'Erabiltzaileen AA politiken onarpena.';
+$string['cachedef_ai_ratelimit'] = 'AA hornitzailearen dei-ratio muga';
 $string['cachedef_calculablesinfo'] = 'Analitiken kalkulagarrien informazioa';
 $string['cachedef_calendar_categories'] = 'Erabiltzaile batek sarbidea duen egutegiko ikastaro-kategoriak';
 $string['cachedef_calendar_subscriptions'] = 'Egutegiaren harpidetzak';
@@ -91,6 +93,7 @@ $string['cachedef_recommendation_favourite_course_content_items'] = 'Ikastaroko 
 $string['cachedef_reportbuilder_allowed_reports'] = 'Erabiltzaileentzat baimendutako txostenak audientziaren arabera';
 $string['cachedef_repositories'] = 'Biltegi-instantzien datuak';
 $string['cachedef_roledefs'] = 'Rolen definizioak';
+$string['cachedef_routes'] = 'Ibilbideen datuak';
 $string['cachedef_string'] = 'Hizkuntza-kateen cachea';
 $string['cachedef_suspended_userids'] = 'Kontua etenda duten erabiltzaile-zerrenda ikastaroko';
 $string['cachedef_tagindexbuilder'] = 'Etiketatutako elementuen bilaketen emaitzak';

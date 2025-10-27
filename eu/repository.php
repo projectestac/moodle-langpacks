@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'eu', version '4.4'.
+ * Strings for component 'repository', language 'eu', version '4.5'.
  *
  * @package     repository
  * @category    string
@@ -260,6 +260,7 @@ $string['unknownoriginal'] = 'Ezezaguna';
 $string['unknownsource'] = 'Iturburu ezezaguna';
 $string['unzipped'] = 'Ondo deskonprimatu da';
 $string['upload'] = 'Igo fitxategi hau';
+$string['uploaderror'] = 'Errorea fitxategi-igoeran';
 $string['uploading'] = 'Igotzen...';
 $string['uploadsucc'] = 'Fitxategia ondo igo da';
 $string['uselatestfile'] = 'Erabili azken fitxategia';

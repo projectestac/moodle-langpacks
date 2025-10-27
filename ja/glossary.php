@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'glossary', language 'ja', version '4.4'.
+ * Strings for component 'glossary', language 'ja', version '4.5'.
  *
  * @package     glossary
  * @category    string
@@ -113,7 +113,7 @@ $string['definitions'] = '定義';
 $string['deletecategory'] = 'カテゴリを削除する';
 $string['deleteentry'] = 'エントリを削除する';
 $string['deleteentrya'] = 'エントリを削除する: {$a}';
-$string['deletenotenrolled'] = '登録されていないユーザのエントリを削除する';
+$string['deletenotenrolled'] = '登録されていないユーザのエントリ';
 $string['deletingcomment'] = 'コメントの削除';
 $string['deletingnoneemptycategory'] = 'このカテゴリを削除する削除することにより、含まれるエントリは削除されずにカテゴリなしとマークされます。';
 $string['descending'] = '降順';
@@ -303,9 +303,9 @@ $string['privacy:metadata:glossary_entries:userid'] = 'この用語集エント�
 $string['question'] = '質問';
 $string['rejectedentries'] = '拒否されたエントリ';
 $string['rejectionrpt'] = '拒否レポート';
-$string['removeallglossarytags'] = 'すべての用語集タグを削除する';
+$string['removeallglossarytags'] = 'すべての用語集タグ';
 $string['resetglossaries'] = 'エントリ削除対象';
-$string['resetglossariesall'] = 'すべての用語集からエントリを削除する';
+$string['resetglossariesall'] = 'すべての用語集からエントリ';
 $string['rssarticles'] = '最近の記事のRSS数';
 $string['rssarticles_help'] = 'ここではRSSフィードに含まれる記事数を設定します。一般的に5から20の間が適切です。';
 $string['rssfeed'] = 'RSSフィード';

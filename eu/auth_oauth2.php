@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'eu', version '4.4'.
+ * Strings for component 'auth_oauth2', language 'eu', version '4.5'.
  *
  * @package     auth_oauth2
  * @category    string
@@ -47,7 +47,7 @@ Mesedez zure guneko kudeatzailearekin harremanetan jarri zaitez lehen bai lehen.
 $string['confirmaccountemailsubject'] = '{$a}: kontuaren berrespena';
 $string['confirmationinvalid'] = 'Berrespen-esteka baliogabea da edo iraungi da. Mesedez, hasi berriz sartzeko prozesua kontua berrespen e-mail berri bat sortzeko.';
 $string['confirmationpending'] = 'Kontu hau posta elektroniko bidezko berrespenaren zain dago.';
-$string['confirmlinkedloginemail'] = 'Kaixo, {$a->fullname}:
+$string['confirmlinkedloginemail'] = 'Kaixo, {$a->firstname}:
 
 Eskaera bat egin da {$a->issuername}(e)ko {$a->linkedemail} helbidea zure helbide elektronikoa erabiliz zure \'{$a->sitename}\' guneko kontuarekin lotzeko.
 

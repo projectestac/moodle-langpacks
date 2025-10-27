@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'course', language 'pt', version '4.4'.
+ * Strings for component 'course', language 'pt', version '4.5'.
  *
  * @package     course
  * @category    string
@@ -100,6 +100,10 @@ $string['downloadcoursecontent_help'] = 'Esta configuração determina se o cont
 $string['enabledownloadcoursecontent'] = 'Ativar descarregamento do conteúdo da disciplina';
 $string['errorendbeforestart'] = 'A data de fim ({$a}) é anterior à data de início da disciplina';
 $string['favourite'] = 'Disciplina com estrela';
+$string['filterbothactive'] = 'Primeiro ({$a->first}) Último ({$a->last})';
+$string['filterbyname'] = 'Filtrar por nome';
+$string['filterfirstactive'] = 'Primeiro ({$a->first})';
+$string['filterlastactive'] = 'Último ({$a->last})';
 $string['gotosection'] = 'Ir para a secção {$a}';
 $string['gradetopassnotset'] = 'Esta disciplina não tem nota de aprovação definida. Pode ser definida em Avaliação da disciplina (Configuração da pauta).';
 $string['hideendedcoursestask'] = 'Ocultação de disciplinas na data de fim';

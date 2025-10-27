@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usertours', language 'ca', version '4.4'.
+ * Strings for component 'tool_usertours', language 'ca', version '4.5'.
  *
  * @package     tool_usertours
  * @category    string
@@ -209,7 +209,7 @@ $string['tour3_content_starring'] = 'Podeu triar afegir-hi una estrela a un curs
 Aquestes accions només afecten la vostra visualització.
 
 També podeu triar mostrar els cursos en una llista, amb un resum de la informació o la vista per defecte de «targeta».';
-$string['tour3_content_timeline'] = 'El bloc Línia del temps mostra els vostres futurs esdeveniments importants.
+$string['tour3_content_timeline'] = 'El bloc «Cronologia» mostra els vostres esdeveniments futurs importants.
 
 Podeu triar mostrar les activitats de la pròxima setmana, mes o més tard en el futur.';
 $string['tour3_title_dashboard'] = 'El vostre Tauler';
@@ -217,7 +217,7 @@ $string['tour3_title_displayoptions'] = 'Mostra les opcions';
 $string['tour3_title_overview'] = 'Resum dels cursos';
 $string['tour3_title_recentcourses'] = 'Cursos visitats recentment';
 $string['tour3_title_starring'] = 'Destacant i amagant cursos';
-$string['tour3_title_timeline'] = 'Bloc línia del temps';
+$string['tour3_title_timeline'] = 'Bloc cronologia';
 $string['tour4_content_groupconvo'] = 'Si sou membre d\'un grup amb la missatgeria de grup habilitada, veureu les converses de grup aquí.
 
 Les converses de grup del curs us permeten interactuar amb els altres membres del vostre grup en un lloc privat i adequat.';

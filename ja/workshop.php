@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'ja', version '4.4'.
+ * Strings for component 'workshop', language 'ja', version '4.5'.
  *
  * @package     workshop
  * @category    string
@@ -323,11 +323,11 @@ $string['reassess'] = '再評価';
 $string['receivedgrades'] = '与えられた評点';
 $string['recentassessments'] = 'ワークショップ評価:';
 $string['recentsubmissions'] = 'ワークショップ提出:';
-$string['resetassessments'] = 'すべての評価を削除する';
+$string['resetassessments'] = 'すべての評価';
 $string['resetassessments_help'] = 'あなたは提出に影響を及ぼさずに割り当てられた評価のみ削除するよう選択することができます。提出が削除される場合、その評価は暗黙のうちに削除され、このオプションは無視されます。これには提出例の評価も含むことに留意してください。';
 $string['resetphase'] = 'セットアップフェーズにスイッチする';
 $string['resetphase_help'] = 'この設定を有効にした場合、すべてのワークショップは初期セットアップフェーズに入ります。';
-$string['resetsubmissions'] = 'すべての提出を削除する';
+$string['resetsubmissions'] = 'すべての提出';
 $string['resetsubmissions_help'] = 'すべての提出およびその評価が削除されます。これは提出例に影響を及ぼしません。';
 $string['saveandclose'] = '保存して閉じる';
 $string['saveandcontinue'] = '保存して編集を続ける';

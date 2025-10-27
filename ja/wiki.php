@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'ja', version '4.4'.
+ * Strings for component 'wiki', language 'ja', version '4.5'.
  *
  * @package     wiki
  * @category    string
@@ -62,7 +62,7 @@ $string['defaultformat_help'] = 'この設定ではWikiページの編集時に�
 * HTML - HTMLエディタを使用できます。
 * クレオール - 小さな編集ツールバーの一般的なWikiマークアップ言語を使用できます。
 * Nwiki - Nwikiモジュールで使用されるMediawikiのようなマークアップ言語です。';
-$string['deleteallpages'] = 'すべてのWikiページを削除する';
+$string['deleteallpages'] = 'すべてのWikiページ';
 $string['deletecomment'] = 'コメントを削除する';
 $string['deletecommentcheck'] = 'コメントを削除する';
 $string['deletecommentcheckfull'] = '本当にコメントを削除してもよろしいですか?';
@@ -250,7 +250,7 @@ $string['privacy:metadata:wiki_versions:version'] = 'バージョンナンバで
 $string['rated'] = 'このページに対するあなたの評価: {$a}';
 $string['rating'] = '評価';
 $string['ratingmode'] = '評価モード';
-$string['removeallwikitags'] = 'すべてのWikiタグを削除する';
+$string['removeallwikitags'] = 'すべてのWikiタグ';
 $string['removepages'] = 'ページを削除する';
 $string['reparsetimeout'] = '再解析デフォルトタイムアウト';
 $string['repeatedsection'] = 'Wikiエラー: セクション名を繰り返すことはできません ( {$a} )。';

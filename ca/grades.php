@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grades', language 'ca', version '4.4'.
+ * Strings for component 'grades', language 'ca', version '4.5'.
  *
  * @package     grades
  * @category    string
@@ -519,7 +519,9 @@ $string['missingitemtypeoreid'] = 'Falta la clau de la matriu (itemtype o eid) a
 $string['missingscale'] = 'Heu de seleccionar una escala';
 $string['mode'] = 'Moda';
 $string['modgrade'] = 'Qualificació';
-$string['modgrade_help'] = 'Seleccioneu el tipus de qualificació que s\'utilitzarà en aquesta activitat. Si trieu «escala», podreu escollir una escala en el menú desplegable. Si utilitzeu la qualificació per «puntuació», podreu introduir el valor màxim de la qualificació per a aquesta activitat.';
+$string['modgrade_help'] = '* Punt: un valor numèric
+* Cap: només retroacció
+* Escala: un element d\'una llista';
 $string['modgradecantchangegradetype'] = 'No podeu canviar el tipus, perquè ja existeixen qualificacions per a aquesta activitat.';
 $string['modgradecantchangegradetypemsg'] = 'Algunes qualificacions ja s\'han posat, de manera que el tipus de qualificació no es pot canviar. Si voleu canviar la qualificació màxima, primer heu de triar si voleu o no convertir l\'escala de les qualificacions existents.';
 $string['modgradecantchangegradetyporscalemsg'] = 'Algunes qualificacions ja s\'han posat, de forma que el tipus de qualificació i l\'escala no es poden canviar.';

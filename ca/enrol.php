@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'ca', version '4.4'.
+ * Strings for component 'enrol', language 'ca', version '4.5'.
  *
  * @package     enrol
  * @category    string
@@ -45,6 +45,7 @@ Els marcadors de posició següents poden ser inclosos en el missatge:
 * Enllaç a la pàgina de perfil de l\'usuari {$a->profileurl}
 *Adreça electrònica de l\'usuari {$a->email}
 *Nom complet de l\'usuari {$a->fullname}';
+$string['customwelcomemessageplaceholder'] = 'Hola, {$a->firstname}, esteu inscrit/a al curs {$a->coursename}.';
 $string['defaultenrol'] = 'Afegeix instància als nous cursos';
 $string['defaultenrol_desc'] = 'És possible afegir aquest mòdul a tots els nous cursos per defecte.';
 $string['deleteinstanceconfirm'] = 'Ara suprimireu el mètode d\'inscripció «{$a->name}». Les inscripcions de tots els {$a->users} usuaris inscrits mitjançant aquest mètode seran cancel·lades i se suprimiran totes les seves dades relatives a aquests cursos, com ara qualificacions, pertinença a grups o subscripcions a fòrums.

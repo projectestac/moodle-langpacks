@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'eu', version '4.4'.
+ * Strings for component 'message', language 'eu', version '4.5'.
  *
  * @package     message
  * @category    string
@@ -139,6 +139,7 @@ $string['notificationdatahasnotbeenmigrated'] = 'Zure jakinarazpenak behin behin
 $string['notificationimage'] = 'Jakinarazpenen irudia';
 $string['notificationpreferences'] = 'Jakinarazpenen hobespenak';
 $string['notifications'] = 'Jakinarazpenak';
+$string['notificationsmarkedasread'] = 'Jakinarazpen guztiak irakurritako gisa markatuta daude.';
 $string['notificationwindow'] = 'Jakinarazpenen leihoa';
 $string['notincontacts'] = '{$a} kontaktuetara gehitu behar duzu zuri mezuak bidali ahal izateko.';
 $string['notincontactsheading'] = '{$a} ez dago zure kontaktuetan';

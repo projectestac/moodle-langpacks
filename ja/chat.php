@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'ja', version '4.4'.
+ * Strings for component 'chat', language 'ja', version '4.5'.
  *
  * @package     chat
  * @category    string
@@ -145,7 +145,7 @@ $string['privacy:metadata:messages:timestamp'] = 'メッセージが送信され
 $string['privacy:metadata:messages:userid'] = 'メッセージの作成者のユーザIDです。';
 $string['refreshroom'] = 'ルームをリフレッシュする';
 $string['refreshuserlist'] = 'ユーザリストをリフレッシュする';
-$string['removemessages'] = 'すべてのメッセージを削除する';
+$string['removemessages'] = 'すべてのメッセージ';
 $string['repeatdaily'] = '毎日同じ時間に';
 $string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開する';
 $string['repeattimes'] = 'セッション時間の繰り返し/公開';
