@@ -157,7 +157,7 @@ $string['seb_requiresafeexambrowser_help'] = 'この設定を有効にした場�
 * No
 <br />小テストの受験にSafe Exam Browserは要求されません。
 * Yes –既存のテンプレートを使用する
-<br />Safe Exam Browserの設定テンプレートを使用できます。テンプレートはサイト管理者によって管理されます。あなたの手動設定はテンプレートの設定を上書きします。
+<br />Safe Exam Browserの設定テンプレートを使用できます。テンプレートはサイト管理者により管理されます。あなたの手動設定はテンプレートの設定を上書きします。
 * Yes – 手動設定する
 <br />Safe Exam Browserの設定テンプレートは使用されません。あなたはSafe Exam Browserブラウザを手動で設定できます。
 * Yes – 私の設定をアップロードする

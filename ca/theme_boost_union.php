@@ -238,7 +238,6 @@ $string['brandcolorsheading'] = 'Colors de marca';
 $string['breadcrumbsheading'] = 'Fil d\'Ariadna';
 $string['cachedef_flavours'] = 'Variants que s\'apliquen a la categoria de pàgina indicada per a l\'usuari actual';
 $string['cachedef_fontawesomeicons'] = 'Mapa d\'icones FontAwesome';
-$string['cachedef_hookoverrides'] = 'Sobreescriptura de ganxos';
 $string['cachedef_smartmenu_items'] = 'Elements del menú intel·ligent';
 $string['cachedef_smartmenus'] = 'Menús intel·ligents';
 $string['cachedef_touchiconsios'] = 'Fitxers d\'icones tàctils per a iOS';

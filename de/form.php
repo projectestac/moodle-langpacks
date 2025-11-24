@@ -90,6 +90,6 @@ $string['suggestions'] = 'Anregungen';
 $string['time'] = 'Zeit';
 $string['timeunit'] = 'Zeiteinheit';
 $string['timing'] = 'Zeitsteuerung';
-$string['togglesensitive'] = 'Umschaltempfindlich';
+$string['togglesensitive'] = 'Sensible Daten ein-/ausblenden';
 $string['unmaskpassword'] = 'Klartext';
 $string['year'] = 'Jahr';

@@ -26,7 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['placeholder'] = '何をする必要がありますか?';
-$string['placeholdermore'] = 'ここに何かを入力して「追加」ボタンを押してください。';
 $string['pluginname'] = 'マイToDoリスト';
 $string['privacy:metadata:db:blocktodo'] = 'ユーザToDoアイテムの保存';
 $string['privacy:metadata:db:blocktodo:done'] = 'アイテムの完了マークの有無';

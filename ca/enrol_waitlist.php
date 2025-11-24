@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmation'] = 'Si continueu se us inscriurà en aquest curs.<br><br>Esteu segurs de voler continuar?';
+$string['confirmation'] = 'Si continueu se us inscriurà en aquest curs.<br><br>Confirmeu que voleu continuar?';
 $string['confirmation_cancel'] = 'Cancel·la';
 $string['confirmation_no'] = 'No';
 $string['confirmation_yes'] = 'Sí';

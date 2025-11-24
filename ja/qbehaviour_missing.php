@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '不明動作';
 $string['privacy:metadata'] = 'タイプ不明問題動作プラグインはいかなる個人データも保存しません。';
-$string['questionusedunknownmodel'] = 'この問題は現在利用できない動作によって受験されました。問題を表示することはできましたが、いくつかの部分が欠けているか、正常ではありません。';
+$string['questionusedunknownmodel'] = 'この問題は現在利用できない動作により受験されました。問題を表示することはできましたが、いくつかの部分が欠けているか、正常ではありません。';

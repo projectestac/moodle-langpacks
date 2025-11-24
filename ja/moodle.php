@@ -210,7 +210,7 @@ $string['backuplogdetailed'] = '詳細実行ログ';
 $string['backuploglaststatus'] = '最新実行ログ';
 $string['backupmissinguserinfoperms'] = '注意: このバックアップにはユーザデータが含まれていません。また、このタイプのバックアップに互換性がないためエクササイズおよびワークショップ活動はバックアップに含まれません。';
 $string['backupnext'] = '次のバックアップ';
-$string['backupnonisowarning'] = '警告: このバックアップは非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすることにより文字化けが発生する可能性があります。このバックアップを正常化にするための詳細情報は<a href="https://docs.moodle.org/ja/バックアップFAQ">バックアップFAQ</a>をご覧ください。';
+$string['backupnonisowarning'] = '警告: このバックアップは非ユニコードバージョンのMoodle (1.6以前) により作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすることにより文字化けが発生する可能性があります。このバックアップを正常化にするための詳細情報は<a href="https://docs.moodle.org/ja/バックアップFAQ">バックアップFAQ</a>をご覧ください。';
 $string['backupnotyetrun'] = '自動バックアップ保留';
 $string['backuporiginalname'] = 'バックアップ名';
 $string['backuproleassignments'] = 'これらのロールに対するロール割り当てをバックアップする';
@@ -334,7 +334,7 @@ $string['content'] = 'コンテンツ';
 $string['contentbank'] = 'コンテンツバンク';
 $string['contentexport_aboutthiscourse'] = 'コース概要';
 $string['contentexport_coursesummary'] = 'このファイルは <a href="{$a->courselink}">{$a->coursename}</a> からダウンロードされたコンテンツの一部です。';
-$string['contentexport_footersummary'] = 'このファイルは <a href="{$a->courselink}">{$a->coursename}</a> から {$a->userfullname} によって {$a->date} にダウンロードされたコンテンツの一部です。';
+$string['contentexport_footersummary'] = 'このファイルは <a href="{$a->courselink}">{$a->coursename}</a> から {$a->userfullname} により {$a->date} にダウンロードされたコンテンツの一部です。';
 $string['contentexport_modulesummary'] = 'このページは <a href="{$a->modulelink}">{$a->modulename}</a> から {$a->date} にダウンロードされたコンテンツの一部です。一部のコンテンツおよび {$a->maxfilesize} より大きなファイルはダウンロードされていない点に留意してください。';
 $string['contentexport_viewfilename'] = 'ファイル {$a} を表示する';
 $string['context'] = 'コンテクスト';
@@ -1013,14 +1013,14 @@ $string['go'] = 'Go';
 $string['gobacktosite'] = 'サイトに戻る';
 $string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
-このプログラムはフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
+このプログラムはフリーソフトウェアです。あなたはこれを、フリーソフトウェア財団により発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によりそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが、*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
 詳細はMoodleライセンス情報をご覧ください: https://moodledev.io/general/license';
 $string['gpl3'] = 'Copyright (C) 1999 onwards Martin Dougiamas (https://moodle.com)
 
-このプログラムはフリーソフトウェアです。あなたはこれをフリーソフトウェア財団によって発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
+このプログラムはフリーソフトウェアです。あなたはこれをフリーソフトウェア財団により発行された GNU 一般公衆利用許諾契約書 (バージョン2か、希望によりそれ以降のバージョンのうちどれか) の定める条件の下で再頒布または改変することができます。
 
 このプログラムは有用であることを願って頒布されますが*全くの無保証*です。商業可能性の保証や特定の目的への適合性は言外に示されたものも含め全く存在しません。
 
@@ -2241,7 +2241,7 @@ $string['textediting_help'] = 'AttoまたはTinyMCEのようなHTMLエディタ�
 
 「プレインテキストエリア」が選択された場合、HTMLまたはマークダウンのようなフォーマットのテキスト入力エリアを選択することができます。
 
-利用可能なテキストエディタのリストはサイト管理者によって決定されます。';
+利用可能なテキストエディタのリストはサイト管理者により決定されます。';
 $string['texteditor'] = '標準ウェブフォームを使用します';
 $string['textellipsis'] = '{$a}...';
 $string['textformat'] = 'プレインテキストフォーマット';

@@ -71,7 +71,6 @@ $string['cachedef_groupdata'] = 'コースグループ情報';
 $string['cachedef_h5p_content_type_translations'] = 'H5Pコンテンツタイプライブラリ翻訳';
 $string['cachedef_h5p_libraries'] = 'H5Pライブラリ';
 $string['cachedef_h5p_library_files'] = 'H5Pライブラリファイル';
-$string['cachedef_hookcallbacks'] = 'フックコールバック';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - クリーニング済みコンテンツ';
 $string['cachedef_langmenu'] = '利用可能な言語一覧';
 $string['cachedef_license'] = 'ライセンス一覧';

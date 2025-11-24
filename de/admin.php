@@ -271,7 +271,7 @@ $string['configdeleteunconfirmed'] = 'Bei bestimmten Authentifizierungsmethoden,
 $string['configdenyemailaddresses'] = 'Um E-Mail-Adressen bestimmter Domains zu sperren, tragen Sie die Domainnamen hier in diese Liste ein. Alle anderen Domains werden akzeptiert. Um Subdomains zu sperren, wird der Domainname mit einem führenden Punkt (.) angegeben. <strong>hotmail.de yahoo.co.uk .live.com</strong>.';
 $string['configdisableuserimages'] = 'Nutzer/innen verbieten, ihre Profilbilder ändern zu können.';
 $string['configdisplayloginfailures'] = 'Erfolglose Anmeldeversuche anzeigen';
-$string['configdndallowtextandlinks'] = 'Mit dieser Option kann Drag-and-drop für Texte und Links auf eine Kursseite aktiviert werden. Beachten Sie, dass das Verschieben von Texten zwischen verschiedenen Browsern unzulässig ist. Daten könnten verloren gehen oder Texte beschädigt werden.';
+$string['configdndallowtextandlinks'] = 'Mit dieser Option kann das Einfügen von Texten und Links per Drag&drop auf eine Kursseite aktiviert werden. Beachten Sie, dass das Einfügen von Text per Drag&drop im Firefox oder zwischen verschiedenen Browsern unzuverlässig ist und dazu führen kann, dass keine oder beschädigte Daten hochgeladen werden.';
 $string['configdoclang'] = 'Diese Spracheinstellung wird in den Links zu Dokumentationsseiten verwendet.';
 $string['configdocroot'] = 'Pfad zu MoodleDocs. Über den Link \'MoodleDocs für diese Seite\' im Fußbereich wird eine kontextabhängige Dokumentation zu jeder Seite angeboten. Wenn das Feld leer ist, wird der Link nicht angezeigt.';
 $string['configdoctonewwindow'] = 'Wenn diese Option aktiviert ist, werden die Links zur Moodle-Dokumentation in einem neuen Fenster angezeigt';
@@ -594,7 +594,7 @@ fred(\\+.*)?@acme.com
 </pre>';
 $string['divertallemailsto'] = 'Alle E-Mails umleiten';
 $string['divertallemailsto_desc'] = 'Ist diese Option aktiviert, werden alle E-Mails stattdessen an diese eine E-Mail-Adresse umgeleitet.';
-$string['dndallowtextandlinks'] = 'Drag-and-drop für Text und Links';
+$string['dndallowtextandlinks'] = 'Drag&drop für Text und Links';
 $string['doclang'] = 'Sprache für Dokumentation';
 $string['docroot'] = 'Basisadresse zur Dokumentation';
 $string['doctonewwindow'] = 'In neuem Fenster öffnen';

@@ -26,5 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['modulename'] = 'Subsecció';
+$string['modulenameplural'] = 'Subseccions';
+$string['pluginadministration'] = 'Administració de la subsecció';
 $string['pluginname'] = 'Subsecció';
+$string['privacy:metadata'] = 'La subsecció no emmagatzema cap dada personal';
 $string['quickcreatename'] = 'Subsecció nova';
+$string['subsection:addinstance'] = 'Afegeix una subsecció';
+$string['subsection:view'] = 'Mostra la subsecció';

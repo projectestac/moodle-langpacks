@@ -115,9 +115,6 @@ $string['displaytitle_mod_ppt'] = 'PowerPoint-presentation';
 $string['displaytitle_mod_txt'] = 'Text';
 $string['displaytitle_mod_xls'] = 'Kalkylblad';
 $string['displaytitle_mod_zip'] = 'ZIP-fil';
-$string['documentation'] = 'Dokumentation';
-$string['documentationurl'] = 'URL till dokumentation';
-$string['documentationurl_descr'] = 'URL till platsen där dokumentationen för Paneler finns.';
 $string['download'] = 'Hämta';
 $string['editoradvicesubtiles'] = 'I den här versionen av pluginmodulen Panelformat visas aktiviteter som underpaneler endast om redigeringsläget är inaktiverat';
 $string['editsection'] = 'Redigera titel';
@@ -357,7 +354,5 @@ $string['usejsnavforsinglesection'] = 'Använd JavaScript-navigering för en-sek
 $string['usejsnavforsinglesection_desc'] = 'När detta är markerat kommer alla samtal för en enda avsnittssida (&section=xx) att hanteras med JavaScript, genom att starta animerad i kursens huvudsida, animerad för att öppna på det begärda avsnittet via JS, i stället för att ringa den gamla php-sidan med en sektion';
 $string['usesubtilesseczero'] = 'Använd underpaneler i översta sektionen';
 $string['usesubtilesseczero_help'] = 'Om det här alternativet är markerat kommer underpaneler naturligtvis att användas i det övre avsnittet och inom alla paneler. Endast tillgängligt om du använder underpaneler i kursen totalt sett.  Detta eftersom underplattorna tar upp mycket utrymme högst upp i kursen. Det kan vara bättre att lämna detta omarkerat, så att alla objekt i det övre avsnittet visas i standardlisteformat i stället.';
-$string['usetooltips'] = 'Använd JavaScript-verktygstips';
-$string['usetooltips_desc'] = 'Använda JavaScript-verktygstips när användaren hovrar över vissa objekt, t.ex. kompletteringsrutor, paneler för kakelinnehåll';
 $string['version'] = 'Version {$a}';
 $string['width'] = 'bredd';

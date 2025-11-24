@@ -92,7 +92,7 @@ $string['csstemplate'] = 'カスタムCSS';
 $string['csvfailed'] = 'CSVファイルから生データを読み込めません。';
 $string['csvfile'] = 'CSVまたはCSVファイルを含むZIP';
 $string['csvimport'] = 'CSVファイルインポート';
-$string['csvimport_help'] = 'エントリは最初の行にフィールド名の一覧そして1行あたり1レコードを含むテキストファイルによってインポートすることができます。';
+$string['csvimport_help'] = 'エントリは最初の行にフィールド名の一覧そして1行あたり1レコードを含むテキストファイルによりインポートすることができます。';
 $string['csvwithselecteddelimiter'] = '<abbr title="カンマ区切り値">CSV</abbr>';
 $string['data:addinstance'] = '新しいデータベースを追加する';
 $string['data:approve'] = 'エントリを承認または承認済みエントリを取り消す';

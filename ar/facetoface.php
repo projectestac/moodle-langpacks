@@ -131,6 +131,7 @@ $string['sessionfinishtime'] = 'وقت إنتهاء الجلسة';
 $string['sessioninprogress'] = 'الجلسة قيد التنفيذ';
 $string['sessionsoncoursepage'] = 'الجلسات المعروضة في صفحة المقرر';
 $string['sessionsoncoursepage_help'] = 'هذا هو عدد الجلسات لكل نشاط من أنشطة وجه لوجه التي سيتم إظهارها في صفحة المقرر الرئيسية.';
+$string['sessionstartdateandtimewithouttimezone'] = '{$a->startdate}، {$a->starttime} - {$a->endtime}';
 $string['sessionstarttime'] = 'وقت بدء الجلسة';
 $string['sessionvenue'] = 'مكان الجلسة';
 $string['setting:defaultcancellationmessagedefault'] = 'هذا إبلاغ لك بأن حجزك في المساق أدناه قد ألغي:

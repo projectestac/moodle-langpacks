@@ -71,7 +71,6 @@ $string['cachedef_groupdata'] = 'Ikastaroko taldeen informazioa';
 $string['cachedef_h5p_content_type_translations'] = 'H5P eduki-moten liburutegien itzulpenak';
 $string['cachedef_h5p_libraries'] = 'H5P Liburutegiak';
 $string['cachedef_h5p_library_files'] = 'H5P liburutegiko fitxategiak';
-$string['cachedef_hookcallbacks'] = 'Kakoaren itzulera-deiak';
 $string['cachedef_htmlpurifier'] = 'HTML Purifier - eduki garbitua';
 $string['cachedef_langmenu'] = 'Eskura dauden hizkuntzen zerrenda';
 $string['cachedef_license'] = 'Lizentzien zerrenda';

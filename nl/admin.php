@@ -655,6 +655,7 @@ $string['enroladminnewcourse_help'] = 'Wanneer een beheerder een nieuwe cursus m
 $string['enrolinstancedefaults'] = 'Aanmeldingsstandaarden';
 $string['enrolinstancedefaults_desc'] = 'Standaard aanmeldingsinstellingen in nieuwe cursussen.';
 $string['enrolmultipleusers'] = 'Gebruikers aanmelden';
+$string['ensureauroraversion'] = 'Je site draait op de Amazon Aurora-database-engine. De MySQL-versie in Amazon Aurora moet compatibel zijn met de Moodle-versie die je installeert of waarnaar je een upgrade uitvoert. Controleer de compatibiliteit in <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.Updates.30Updates.html">Database-engine-updates voor Amazon Aurora MySQL versie 3</a>.';
 $string['entitytasklog'] = 'Taak log';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
@@ -732,6 +733,8 @@ $string['geoipmaxmindaccid'] = 'MaxMind account ID';
 $string['geoipmaxmindaccid_desc'] = 'Het account ID van het account aangemaakt voor de MaxMind API service.';
 $string['geoipmaxmindlicensekey'] = 'MaxMind licentiesleutel';
 $string['geoipmaxmindlicensekey_desc'] = 'De licentiesleutel van het account aangemaakt voor de MaxMind API service.';
+$string['geopluginapikey'] = 'GeoPlugin API-sleutel';
+$string['geopluginapikey_desc'] = 'De API-sleutel die wordt gebruikt om toegang te krijgen tot de GeoPlugin-service. Haal uw sleutel op van <a href="https://www.geoplugin.com/" target="_blank">geoplugin.com</a>.';
 $string['getremoteaddrconf'] = 'IP-adres in de logs';
 $string['globalsearch'] = 'Globaal zoeken';
 $string['globalsearchmanage'] = 'Beheer globaal zoeken';

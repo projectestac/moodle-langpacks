@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdndmedia'] = 'Die Option erlaubt das Erstellen eines Text- und Medienfelds, wenn Mediendateien per Drag-and-drop in einen Kurs gezogen werden.';
-$string['configdndresizeheight'] = 'Beim Einfügen einer Mediendatei per Drag-and-drop in den Kurs wird  ein Text- und Medienfeld erzeugt. Die Größe wird automatisch reduziert, wenn die Höhe größer als die angegebene Pixelzahl ist.  (0 für keine Größenänderung)';
-$string['configdndresizewidth'] = 'Beim Einfügen einer Mediendatei per Drag-and-drop in den Kurs wird  ein Text- und Medienfeld erzeugt. Die Größe wird automatisch reduziert, wenn die Breite größer als die angegebene Pixelzahl ist.  (0 für keine Größenänderung)';
-$string['dndmedia'] = 'Drag-and-drop für Medien';
-$string['dndresizeheight'] = 'Drag-and-drop Höhe anpassen';
-$string['dndresizewidth'] = 'Drag-and-drop Beite anpassen';
+$string['configdndmedia'] = 'Die Option erlaubt das Erstellen eines Text- und Medienfelds, wenn Mediendateien per Drag&drop in einen Kurs gezogen werden.';
+$string['configdndresizeheight'] = 'Beim Einfügen einer Mediendatei per Drag&drop in den Kurs wird  ein Text- und Medienfeld erzeugt. Die Größe wird automatisch reduziert, wenn die Höhe größer als die angegebene Pixelzahl ist. (0 für keine Größenänderung)';
+$string['configdndresizewidth'] = 'Beim Einfügen einer Mediendatei per Drag&drop in den Kurs wird  ein Text- und Medienfeld erzeugt. Die Größe wird automatisch reduziert, wenn die Breite größer als die angegebene Pixelzahl ist. (0 für keine Größenänderung)';
+$string['dndmedia'] = 'Drag&drop für Medien';
+$string['dndresizeheight'] = 'Drag&drop Höhe anpassen';
+$string['dndresizewidth'] = 'Drag&drop Breite anpassen';
 $string['dnduploadlabel'] = 'In Text- und Medienfeld einbinden';
 $string['dnduploadlabeltext'] = 'Text- und Medienfeld zur Kursseite hinzufügen';
 $string['indicator:cognitivedepth'] = 'Text- und Medienfeld kognitiv';

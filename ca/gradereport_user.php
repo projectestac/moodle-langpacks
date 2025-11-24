@@ -35,3 +35,4 @@ $string['tablesummary'] = 'La taula està ordenada com una llista d\'elements in
 $string['user:view'] = 'Mostra l\'informe d\'usuari';
 $string['userreport_user'] = 'Informe d\'usuari';
 $string['userreportdesc'] = 'Els informes d\'usuari inclouen les seves qualificacions, retroaccions i el total del curs.';
+$string['userreports'] = 'Cerca un usuari per veure\'n l\'informe';

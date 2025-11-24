@@ -35,7 +35,7 @@ $string['action_generate_text_instruction'] = 'あなたはユーザからテキ
     1. 要約をプレインテキストのみで返してください。
     2. マークダウンの書式、挨拶および決まり文句は含めないでください。';
 $string['action_summarise_text'] = 'テキストを要約する';
-$string['action_summarise_text_desc'] = 'コースページのコンテンツに基づいてテキストを要約します。';
+$string['action_summarise_text_desc'] = 'コースページのテキストコンテンツを要約します。';
 $string['action_summarise_text_instruction'] = 'あなたはユーザからテキスト入力を受け取ります。あなたのタスクは提供されたテキストを要約することです。以下のガイドラインに従ってください:
     1. 要約する: 長い文章を要点をまとめて短くしてください。
     2. 単純化する: 複雑な情報を特に学習者にとって理解しやすくしてください。

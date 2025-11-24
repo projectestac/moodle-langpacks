@@ -93,7 +93,7 @@ $string['uploadcohorts'] = 'コーホートをアップロードする';
 $string['uploadcohorts_help'] = 'テキストファイルでコーホートをアップロードできます。ファイルのフォーマットは以下に従ってください:
 
 * それぞれの行に1レコードを含んでください。
-* それぞれのレコードは選択されたセパレータによって区切られた一連のデータです。
+* それぞれのレコードは選択されたセパレータにより区切られた一連のデータです。
 * 最初のレコードにはファイルの残りの部分のフォーマットを定義するフィールド名一覧を含んでください。
 * 必須フィールド名は「name」です。
 * 任意フィールド名は「idnumber」「description」「descriptionformat」「context」「category」「category_id」「category_idnumber」「category_path」です。';
@@ -101,4 +101,4 @@ $string['uploadedcohorts'] = '{$a} 件のコーホートがアップロードさ
 $string['useradded'] = 'ユーザがコーホート「 {$a} 」に追加されました。';
 $string['visible'] = '可視性';
 $string['visible_help'] = 'コーホートコンテクスト内で「moodle/cohort:view」ケイパビリティが割り当てられたユーザはすべてのコーホートを閲覧できます。<br />
-また、閲覧可能なコーホートはコース内のユーザによっても閲覧できます。';
+また、閲覧可能なコーホートはコース内のユーザでも閲覧できます。';

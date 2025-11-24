@@ -145,7 +145,7 @@ $string['usingccmethod'] = 'Inscriu mitjançant la  <a href="{$a->url}"><strong>
 $string['usingecheckmethod'] = 'Inscriu mitjançant el  <a href="{$a->url}"><strong>Txec electrònic</strong></a>';
 $string['verifyaccountresult'] = '<b>Resultat de la verificació:</b> {$a}';
 $string['void'] = 'Invalida';
-$string['voidyes'] = 'La transacció es cancel·larà. N\'esteu segurs ?';
+$string['voidyes'] = 'La transacció es cancel·larà. Confirmeu que voleu que es dugui a terme aquesta acció?';
 $string['welcometocoursesemail'] = 'Apreciat/da {$a->name},
 
 Moltes gràcies pel vostres pagaments. Heu estat inscrit/a en aquests cursos:

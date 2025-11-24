@@ -204,11 +204,11 @@ $string['discussionpinned'] = 'ピン留め';
 $string['discussionpinned_help'] = 'ピン留めディスカッションはフォーラムの最上部に表示されます。';
 $string['discussions'] = 'ディスカッション';
 $string['discussionsplit'] = 'ディスカッションが分割されました。';
-$string['discussionsstartedby'] = '{$a} によって開始されたディスカッション';
-$string['discussionsstartedbyrecent'] = '{$a} によって最近開始されたディスカッション';
-$string['discussionsstartedbyuserincourse'] = '{$a->fullname} によって {$a->coursename} で開始されたディスカッション';
+$string['discussionsstartedby'] = '{$a} により開始されたディスカッション';
+$string['discussionsstartedbyrecent'] = '{$a} により最近開始されたディスカッション';
+$string['discussionsstartedbyuserincourse'] = '{$a->fullname} により {$a->coursename} で開始されたディスカッション';
 $string['discussionsstartedincourse'] = 'ディスカッション開始: {$a}';
-$string['discussionstartedby'] = '{$a} によって開始されたディスカッション';
+$string['discussionstartedby'] = '{$a} により開始されたディスカッション';
 $string['discussionsubscribed'] = 'あなたはこのディスカッションを購読しています。';
 $string['discussionsubscribestart'] = 'このディスカッションの新しい投稿のコピーを私にメール送信してください';
 $string['discussionsubscribestop'] = 'このディスカッションの新しい投稿のコピーを私にメール送信しないでください';
@@ -459,7 +459,7 @@ $string['modulename_help'] = 'フォーラム活動モジュールにおいて�
 
 新しい投稿に関する通知を受信するできるよう参加者はフォーラムを購読することができます。教師は購読モードを任意、強制、自動、または停止に設定することができます。必要であれば設定された時間内に設定された投稿数以上を投稿できないよう学生をブロックすることができます。これは個人によるディスカッションの支配を防ぐことができます。
 
-フォーラム投稿は教師または学生 (ピア評価) によって評価することができます。評価は合計した後に最終評価として評定表に記録させることができます。
+フォーラム投稿は教師または学生 (ピア評価) により評価することができます。評価は合計した後に最終評価として評定表に記録させることができます。
 
 フォーラムは以下のように使用することができます:
 
@@ -583,7 +583,7 @@ $string['privacy:metadata:forum_discussion_subs:preference'] = '購読の開始�
 $string['privacy:metadata:forum_discussion_subs:userid'] = 'ディスカッション購読のユーザのIDです。';
 $string['privacy:metadata:forum_discussions'] = 'ユーザが作成した個別のフォーラムディスカッションに関する情報です。';
 $string['privacy:metadata:forum_discussions:assessed'] = 'TODOD - このフィールドに保存されるものです。';
-$string['privacy:metadata:forum_discussions:name'] = '投稿者によって選択されたディスカッション名です。';
+$string['privacy:metadata:forum_discussions:name'] = '投稿者により選択されたディスカッション名です。';
 $string['privacy:metadata:forum_discussions:timemodified'] = 'ディスカッションの最終更新日時です。';
 $string['privacy:metadata:forum_discussions:userid'] = 'ディスカッションを作成したユーザのIDです。';
 $string['privacy:metadata:forum_discussions:usermodified'] = '何らかの方法により最後にディスカッションを更新したユーザのIDです。';
@@ -606,7 +606,7 @@ $string['privacy:metadata:forum_queue:discussionid'] = 'フォーラムディス
 $string['privacy:metadata:forum_queue:postid'] = 'フォーラム投稿IDです。';
 $string['privacy:metadata:forum_queue:timemodified'] = 'オリジナル投稿の修正日時です。';
 $string['privacy:metadata:forum_queue:userid'] = '投稿の通知を必要とするユーザです。';
-$string['privacy:metadata:forum_read'] = 'ユーザによって読まれた投稿に関する情報です。';
+$string['privacy:metadata:forum_read'] = 'ユーザにより読まれた投稿に関する情報です。';
 $string['privacy:metadata:forum_read:discussionid'] = '投稿が含まれるディスカッションです。';
 $string['privacy:metadata:forum_read:firstread'] = '投稿が最初に読まれた日時です。';
 $string['privacy:metadata:forum_read:lastread'] = '投稿が読まれた最新日時です。';

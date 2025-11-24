@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['backup'] = 'Kopiera till resursvagnen';
 $string['copy_section'] = 'Kopiera sektion';
 $string['drop_here'] = 'Släpp här...';
 $string['pluginname'] = 'Resursvagn';

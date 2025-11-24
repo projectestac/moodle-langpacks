@@ -305,6 +305,7 @@ $string['lesson:manage'] = 'Gestió d\'activitats de tipus lliçó';
 $string['lesson:manageoverrides'] = 'Gestiona les excepcions de la lliçó';
 $string['lesson:view'] = 'Mostra l\'activitat de la lliçó';
 $string['lesson:viewreports'] = 'Mostra els informes de la lliçó';
+$string['lessonbeingpreviewed'] = 'La lliçó s’està previsualitzant.';
 $string['lessonclosed'] = 'La lliçó es va tancar el {$a}.';
 $string['lessoncloses'] = 'Es tanca la lliçó';
 $string['lessoneventcloses'] = '{$a} es tanca el';

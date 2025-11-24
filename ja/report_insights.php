@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actionsaved'] = 'あなたの「 {$a} 」のフィードバックが保存されました。';
 $string['confirmbulkaction'] = '本当に {$a->nitems} 件の選択済み予測に {$a->action} とフラグ付けしてもよろしいですか?';
-$string['disabledmodel'] = 'このモデルは管理者によって無効にされています。';
+$string['disabledmodel'] = 'このモデルは管理者により無効にされています。';
 $string['indicators'] = '指標';
 $string['insight'] = '洞察';
 $string['insights'] = '洞察';

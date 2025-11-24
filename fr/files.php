@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['contenthash'] = 'Hâchage du contenu';
-$string['eventfileaddedtodraftarea'] = 'Fichier ajouter à la zone brouillon';
+$string['eventfileaddedtodraftarea'] = 'Fichier ajouté à la zone brouillon';
 $string['eventfiledeletedfromdraftarea'] = 'Fichier supprimé de la zone de brouillon';
 $string['privacy:metadata:core_userkey'] = 'Un jeton privé est généré et enregistré. Ce jeton peut être utilisé pour accéder aux fichiers de Moodle sans nécessiter de connexion via mot de passe.';
 $string['privacy:metadata:file_conversion:usermodified'] = 'L’utilisateur qui a commencé la conversion du fichier.';

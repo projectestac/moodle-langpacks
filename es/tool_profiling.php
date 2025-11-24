@@ -30,6 +30,7 @@ $string['cannotfindanyrunforrunid'] = 'Lo sentimos, no se puede encontrar la eje
 $string['cannotfindanyrunforurl'] = 'Lo sentimos, no se puede encontrar ninguna ejecución de generación de perfiles para la URL \'{$a}\'';
 $string['comment'] = 'Comentario';
 $string['cputime'] = 'Tiempo de CPU';
+$string['detailview'] = 'Resumen de la ejecución';
 $string['differencesbetween2runsof'] = 'Diferencias entres 2 ejecuciones de {$a}';
 $string['executiontime'] = 'Tiempo de ejecución';
 $string['export'] = 'Exportar';

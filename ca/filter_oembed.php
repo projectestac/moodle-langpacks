@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['cachelifespan_daily'] = '1 dia';
 $string['cachelifespan_desc'] = 'L\'interval de temps d\'actualització de la llista de proveïdors.';
 $string['cachelifespan_weekly'] = '1 setmana';
-$string['deleteproviderconfirm'] = 'Esteu segur de voler eliminar el proveïdor «{$a}»?';
+$string['deleteproviderconfirm'] = 'Confirmeu que voleu eliminar el proveïdor «{$a}»?';
 $string['deleteprovidertitle'] = 'Elimina el proveïdor';
 $string['downloadproviders'] = 'Proveïdors descarregats';
 $string['enabled'] = 'Habilitat';

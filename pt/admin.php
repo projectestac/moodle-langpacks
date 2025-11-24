@@ -666,8 +666,7 @@ $string['extendedusernamechars'] = 'Permitir caracteres especiais no nome de uti
 $string['extramemorylimit'] = 'Limite extra de memória PHP';
 $string['fatalsessionautostart'] = '<p>Foi detetado um erro grave de configuração. Por favor, informe o administrador do site.</p><p> Para funcionar corretamente é necessário que o administrador altere as configurações do PHP.</p><p><code>session.auto_start</code> deve estar definido como <code>off</code>.</p><p>Esta configuração é alterada no ficheiro <code>php.ini</code>, no ficheiro de configuração do Apache/IIS <br /> ou no ficheiro <code>.htaccess</code> no servidor.</p>';
 $string['favicon'] = 'Favicon';
-$string['favicon_desc'] = 'Ficheiro favicon a ser exibido como ícone do site
-O favicon é exibido ao lado do título da página no separador do navegador. Será exibido um favicon do Moodle se não for fornecido um favicon personalizado.';
+$string['favicon_desc'] = 'Ficheiro favicon a ser exibido como ícone do site. O favicon é exibido ao lado do título da página no separador do navegador. Será exibido um favicon do Moodle se não for fornecido um favicon personalizado.';
 $string['feedbacksettings'] = 'Configurações do feedback';
 $string['fileconversioncleanuptask'] = 'Limpeza dos registos temporários das conversões de ficheiros';
 $string['filecreated'] = 'Criado um novo ficheiro';
