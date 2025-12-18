@@ -1640,6 +1640,7 @@ $string['oneitemfound'] = '1 アイテムが見つかりました。';
 $string['opendrawerblocks'] = 'ブロックドロワを開く';
 $string['opendrawerindex'] = 'コースインデックスを開く';
 $string['opensinnewwindow'] = '新しいウィンドウで開く';
+$string['opensinnewwindowbracketed'] = '(新しいウィンドウで開く)';
 $string['operator_and'] = 'and';
 $string['operator_andnot'] = 'and';
 $string['operator_or'] = 'or';

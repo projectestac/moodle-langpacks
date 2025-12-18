@@ -1636,6 +1636,7 @@ $string['oneitemfound'] = '1 élément trouvé.';
 $string['opendrawerblocks'] = 'Ouvrir le tiroir des blocs';
 $string['opendrawerindex'] = 'Ouvrir l’index du cours';
 $string['opensinnewwindow'] = 'S’ouvre dans une nouvelle fenêtre';
+$string['opensinnewwindowbracketed'] = '(s’ouvre dans une nouvelle fenêtre)';
 $string['operator_and'] = 'et';
 $string['operator_andnot'] = 'et';
 $string['operator_or'] = 'ou';

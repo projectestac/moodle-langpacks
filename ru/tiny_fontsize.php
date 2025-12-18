@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiny_html', language 'ru', version '4.5'.
+ * Strings for component 'tiny_fontsize', language 'ru', version '4.5'.
  *
- * @package     tiny_html
+ * @package     tiny_fontsize
  * @category    string
  * @copyright   1999 Martin Dougiamas and contributors
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['helplinktext'] = 'Помощник по формату HTML';
-$string['pluginname'] = 'HTML TinyMCE';
-$string['privacy:metadata'] = 'Плагин «HTML Tiny MCE» не хранит никаких личных данных.';
+$string['button_fontsize'] = 'Размер шрифта';
+$string['fontsize:use'] = 'Разрешить использование плагина';
+$string['menuitem_fontsize'] = 'Размер шрифта';
+$string['pluginname'] = 'Размер шрифта редактора TinyMCE';
+$string['privacy:metadata'] = 'Плагин размера шрифта редактора TinyMCE не хранит никаких личных данных';

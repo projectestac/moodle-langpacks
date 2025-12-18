@@ -1503,7 +1503,7 @@ $string['newloginnotificationbodysmall'] = 'A sua conta \'{$a}\' acabou de ser u
 $string['newloginnotificationtitle'] = 'Novo início de sessão com a sua conta \'{$a}\'';
 $string['newpassword'] = 'Nova senha';
 $string['newpassword_help'] = 'Insira uma nova senha ou deixe em branco para manter a atual.';
-$string['newpasswordfromlost'] = '<strong>Atenção</strong>: A sua <strong>senha atual</strong> deverá ter sido enviada para si na <strong>segunda</strong> de duas mensagens que lhe foram enviadas como parte do processo de recuperação de senha. Verifique que já recebeu a mensagem com a senha de substituição antes de continuar com esta página.';
+$string['newpasswordfromlost'] = '<strong>ATENÇÃO</strong>: A sua <strong>senha atual</strong> deverá ter sido enviada para si na <strong>segunda</strong> de duas mensagens que lhe foram enviadas como parte do processo de recuperação da senha. Verifique que já recebeu a mensagem com a senha de substituição antes de continuar com esta página.';
 $string['newpasswordtext'] = 'Caro(a) {$a->firstname},
 
 A senha da sua conta na plataforma de e-learning \'{$a->sitename}\' foi substituída por uma nova senha provisória.
@@ -1645,6 +1645,7 @@ $string['oneitemfound'] = 'Foi encontrado 1 item.';
 $string['opendrawerblocks'] = 'Abrir painel dos blocos';
 $string['opendrawerindex'] = 'Abrir índice da disciplina';
 $string['opensinnewwindow'] = 'Abre numa nova janela';
+$string['opensinnewwindowbracketed'] = '(Abrir numa nova janela)';
 $string['operator_and'] = 'e';
 $string['operator_andnot'] = 'e';
 $string['operator_or'] = 'ou';
