@@ -1251,6 +1251,7 @@ $string['loginalready'] = 'Dagoeneko saioa hasi duzu';
 $string['loginas'] = 'Sartu erabiltzaile hau bezala';
 $string['loginaspasswordexplain'] = '<p> "loginas password" berezia sartu behar duzu ezaugarri hau erabiltzeko.<br />Ez badakizu, galdetu zerbitzari-administratzaileari.</p>';
 $string['loginguest'] = 'Sartu gonbidatu gisa';
+$string['loginrequired'] = 'Saioa hastea beharrezkoa da';
 $string['loginsite'] = 'Sartu gunean';
 $string['loginsteps'] = 'Gune honetara sarbide osoa izateko, lehenik eta behin kontua sortu behar duzu.';
 $string['loginstepsnone'] = '<p>Kaixo!</p>

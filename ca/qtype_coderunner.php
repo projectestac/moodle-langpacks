@@ -1056,141 +1056,95 @@ per a cada estudiant. El preprocessament s\'ha de fer abans de poder mostrar una
 pregunta i, tret de per a Twig, es duu a terme al servidor de la zona de proves Jobe.
 Cada intent de cada estudiant a cada pregunta d\'aquest tipus farà que s\'enviï una tasca a aquest servidor. Això pot provocar milers de tasques a la vegada a
 l\'inici d\'una prova o un examen, la qual cosa probablement el sobrecarregui. Caveat Emptor!';
-$string['templateparamsevalpertry'] = 'Evalua per estudiant';
+$string['templateparamsevalpertry'] = 'Avalua per estudiant';
 $string['templateparamslang'] = 'Preprocessador';
 $string['templateparamsusingsandbox'] = 'Els preprocessadors diferents de Twig fan servir el servidor de la zona de proves.
-Si "Evalua per estudiant" també està seleccionat, quan un estudiant comenci un
-qüestionari, totes les preguntes iniciaran una execució a la zona de proves abans
-que la pregunta es pugui tan sols mostrar. En una prova o examen, això pot
+Si «Avalua per estudiant» també està seleccionat, quan un estudiant comenci un qüestionari totes les preguntes iniciaran una execució a la zona de proves abans
+que la pregunta es pugui tan sols mostrar. En una prova o un examen això pot
 sobrecarregar el servidor. Caveat emptor!';
-$string['testallincategory'] = 'Prova totes les preguntes d\'aquesta categoria';
-$string['testalltitle'] = 'Prova totes les preguntes d\'aquest context';
+$string['testallincategory'] = 'Comprova totes les preguntes d\'aquesta categoria';
+$string['testalltitle'] = 'Comprova totes les preguntes d\'aquest context';
 $string['testcase'] = 'Cas de prova {$a}';
 $string['testcasecontrols'] = 'Propietats del cas de prova:';
-$string['testcasecontrols_help'] = 'Si \'Fes servir com a exemple\' està seleccionat, aquest cas de prova s\'inclourà
-automàticament a la taula de resultats \'Per exemple:\'.
+$string['testcasecontrols_help'] = 'Si «Fes servir com a exemple» està seleccionat, aquest cas de prova s\'inclourà de manera automàtica a la taula de resultats «Per exemple:».
 
-La casella de selecció \'Mostra\' determina quan aquest cas de prova es mostra
-a l\'estudiant a la taula de resultats.
+La casella de selecció «Mostra» determina quan es mostra aquest cas de prova a l\'estudiant a la taula de resultats.
 
-Si \'Amaga la resta si falla\' està seleccionat i aquest cas de prova falla, tots els casos
-de prova s\'amagaran de l\'estudiant, independentment del valor de \'Mostra\'.
+Si «Amaga la resta si falla» està seleccionat i aquest cas de prova falla, tots els casos de prova s\'amagaran a l\'estudiant, independentment del valor de «Mostra».
 
-\'Puntuació\' estableix el valor d\'aquest cas de prova; només és útil si no és
-una pregunta \'Tot o res\'.
+«Puntuació» estableix el valor d\'aquest cas de prova; només és útil si no és una pregunta del tipus «Tot o res».
 
-\'Ordenació\' pot ser fet servir per canviar l\'ordre dels casos de prova quan la
-pregunta ja s\'ha desat: els casos s\'ordenen segons aquest camp.';
+«Ordenació» pot ser fet servir per canviar l\'ordre dels casos de prova quan la pregunta ja s\'ha desat: els casos s\'ordenen segons aquest camp.';
 $string['testcases'] = 'Casos de prova';
 $string['testcode'] = 'Codi de prova';
-$string['testcode_help'] = 'El codi per a aquest cas de prova. Disponible a la plantilla com {{TEST.testcode}}';
+$string['testcode_help'] = 'El codi per a aquest cas de prova. Disponible a la plantilla com a {{TEST.testcode}}';
 $string['testcolhdr'] = 'Prova';
-$string['testingquestion'] = 'Provant pregunta {$a}';
+$string['testingquestion'] = 'S’està comprovant la pregunta {$a}';
 $string['testsplitterre'] = 'Separador de casos de prova (expressió regular)';
 $string['testtype'] = 'Tipus de precomprovació del cas de prova';
 $string['testtype_both'] = 'Les dues';
-$string['testtype_help'] = 'Si la precomprovació s\'activa i s\'estableix a \'Seleccionat\', aquesta opció controla
-si el cas de prova es fa servir només en una execució normal, només en una
-execució de precomprovació o a les dues.
-Si la percomprovació s\'estableix a qualsevol altra cosa que no sigui \'Seleccionat\',
-aquesta opció és ignorada.';
+$string['testtype_help'] = 'Si la precomprovació s\'activa i s\'estableix a «seleccionat», aquesta opció controla si el cas de prova es fa servir només en una execució normal, només en una execució de precomprovació o a ambdues.
+Si la precomprovació s\'estableix a qualsevol altra cosa que no sigui «seleccionat», aquesta opció s’ignora.';
 $string['testtype_normal'] = 'Només comprovació';
 $string['testtype_precheck'] = 'Només precomprovació';
 $string['tooshort'] = 'La resposta és massa curta per tenir significat i s\'ha ignorat sense penalització';
 $string['twigall'] = 'Aplica Twig a tot';
 $string['twigcontrols'] = 'Control dels paràmetres de la plantilla';
-$string['twigcontrols_help'] = 'Tradicionalment, s\'ha fet referència als paràmetres de la plantilla durant l\'expansió
-del Twig en la forma {{QUESTION.parameters.algunparametre}} . Però, si la casella
-de selecció Fes \'hoisting\' dels paràmetres de la plantilla està seleccionada, els
-paràmetres s\'inclouen a l\'espai de noms global de Twig i es poden accedir amb
-{{algunparametre}}.
+$string['twigcontrols_help'] = 'Tradicionalment, s\'ha fet referència als paràmetres de la plantilla durant l\'expansió de Twig en la forma {{QUESTION.parameters.algunparametre}} . No obstant això, si la casella de selecció «Eleva els paràmetres de la plantilla» està seleccionada, els paràmetres s\'inclouen a l\'espai de noms global de Twig i es poden referenciar com a {{algunparametre}}.
 
-Satisfà Ace/Scratchpad permet assegurar el canvi transparent entre les IU Ace i
-Scratchpad. Deixeu-lo sense seleccionar si voleu poder editar amb l\'Ace un text
-JSON amb amb la clau "answer_code", que si no s\'enviaria a serialització de
-l\'Scratchpad.
+El compliment d’Ace/Scratchpad permet assegurar el canvi transparent entre les IU Ace i Scratchpad. Deixeu-lo marcat tret que vulgueu que Ace pugui editar una cadena de text JSON amb una clau «answer_code»", que s\'enviaria a una serialització de l\'Scratchpad.
 
-Si Aplica Twig a tot està seleccionat, l\'expansió de macros Twig s\'aplica al text de la pregunta, la resposta d\'exemple, la resposta precarregada, paràmetres de l\'IU i
-tots els camps dels casos de prova fent servir els paràmetres de la plantilla com a
-entorn. Habitualment haureu d\'activar Aplica Twig a tot si feu servir aleatorització
-en els paràmetres de la plantilla. Compte que aquesta expansió d\'Aplica Twig a tot
-ocorre quan la pregunta s\'inicialitza per primera vegada, mentre que l\'expansió Twig
-de la plantilla ocorre molt de temps després, quan l\'estudiant envia una resposta.
-L\'entorn per expandir la plantilla inclou la variable Twig QUESTION (un subconjunt
-de tot el registre de la pregunta), alguns camps del qual poden haver estat expandits
-com a resultat d\'Aplica Twig a tot.
 
-El text en el camp de paràmetres de la plantilla ha de ser o bé un text JSON o
-ha d\'avaluar a un text JSON quan és preprocessat pel preprocessador especificat.
-Aneu amb compte que si feu servir un preprocessador diferent de Twig, això
-farà que s\'enviï una tasca a la zona de proves Jobe abans que la pregunta pugui
-ser tan sols mostrada. Vegeu
+Si Aplica Twig a tot està seleccionat, l\'expansió de macros Twig s\'aplica al text de la pregunta, la resposta d\'exemple, la resposta precarregada, els paràmetres de la IU i tots els camps dels casos de prova fent servir els paràmetres de la plantilla com a entorn. Habitualment haureu d\'activar Aplica Twig a tot si feu servir aleatorització en els paràmetres de la plantilla. Tingueu en compte que aquesta expansió d\'Aplica Twig a tot ocorre quan la pregunta s\'inicialitza per primera vegada, mentre que l\'expansió Twig de la plantilla ocorre molt de temps després, quan l\'estudiant tramet una resposta.
+L\'entorn per expandir la plantilla inclou la variable Twig QUESTION (un subconjunt de tot el registre de la pregunta), alguns camps del qual poden haver estat expandits com a resultat d\'Aplica Twig a tot.
+
+El text al camp de paràmetres de la plantilla ha de ser o bé un text JSON o ha d\'avaluar un text JSON quan és preprocessat pel preprocessador especificat.
+Aneu amb compte perquè si feu servir un preprocessador diferent de Twig, això farà que s\'enviï una tasca a la zona de proves Jobe abans que la pregunta ni tan sols es pugui mostrar. Vegeu
 <a href="https://coderunner.org.nz/mod/url/view.php?id=199">la documentació</a>
 per saber com escriure un preprocessador diferent de Twig.
 
-Si feu servir un preprocessador diferent de Twig, normalment és necessari enviar
-una tasca a la zona de proves Jobe per cada pregunta per cada estudiant quan
-comencen el qüestionari. Si <i>Avalua per estudiant</i> està sense seleccionar,
-s\'enviarà una sola tasca quan la pregunta es desa; això és una operació amb un
-cost baix, però no és normalment útil, ja que essencialment impedeix fer servir
-cap classe d\'aleatorització per estudiant. Així i tot, pot ser útil per generar
-contingut de la pregunta en alguns casos.';
+Si feu servir un preprocessador diferent de Twig, normalment és necessari trametre una tasca a la zona de proves Jobe per a cada pregunta per a cada estudiant quan comencen el qüestionari. Si <i>Avalua per estudiant</i> està sense seleccionar, es trametrà una sola tasca quan la pregunta es desi; això és una operació amb un cost baix, però no és normalment útil, ja que essencialment impedeix fer servir cap classe d\'aleatorització per estudiant. Així i tot, pot ser útil per generar el contingut de la pregunta en alguns casos.';
 $string['twigerror'] = 'Error de Twig {$a}';
 $string['twigerrorintest'] = 'Error de Twig en processar aquesta prova {$a}';
 $string['type_header'] = 'Tipus de pregunta CodeRunner';
 $string['typename'] = 'Tipus de pregunta';
-$string['typerequired'] = 'Seleccioneu el tipus de pregunta (llenguatge, format, etc)';
-$string['ui_fallback'] = 'Fent servir alternativament una caixa de text en cru.';
-$string['uichanged'] = 'L\'IU ha canviat. Deseu i recarregueu la pàgina per veure i editar els paràmetres de l\'IU disponibles (si n\'hi ha cap).';
+$string['typerequired'] = 'Seleccioneu el tipus de pregunta (llenguatge, format, etc.)';
+$string['ui_fallback'] = 'S\'està fent servir un quadre de text en brut de manera alternativa.';
+$string['uichanged'] = 'La IU ha canviat. Deseu i recarregueu la pàgina per veure i editar els paràmetres de la IU disponibles (si n\'hi ha cap).';
 $string['uicontrols'] = 'IU d\'entrada';
-$string['uicontrols_help'] = 'Seleccioneu els controladors de la Interfície d\'Usuari per a la resposta de l\'estudiant
-i la plantilla de l\'autor de la pregunta.
+$string['uicontrols_help'] = 'Seleccioneu els controladors de la interfície d\'usuari per a la resposta de l\'estudiant i la plantilla de l\'autor de la pregunta.
 
-El quadre combinat de la resposta de l\'estudiant conté una llista dels connectors
-disponibles. Per a preguntes de programació, l\'editor Ace és habitualment utilitzat.
-El valor \'Cap\' pot seleccionar-se per fer servir una caixa de text en cru.
+El quadre combinat de la resposta de l\'estudiant conté una llista dels connectors disponibles. L\'editor Ace s’utilitza de manera habitual per a les preguntes de programació,.
+El valor «Cap» es pot seleccionar per fer servir un quadre de text en brut.
 
-El valor \'Graf\' fa que l\'usuari tingui disponible una interfície d\'usuari simple amb la
-qual dibuixar grafs per fer-se servir en preguntes que demanin a l\'estudiant que
-dibuixi un graf segons alguna especificació; com preguntes que habitualment tenen
-un únic cas de prova, amb una plantilla que analitza la representació serialitzada
-del graf i imprimeix un missatge com "OK" si la resposta és correcta o un
-missatge informatiu adient si no.
+El valor «Graf» proporciona a l\'usuari una interfície d\'usuari simple amb la qual pot dibuixar grafs que es poden emprar en aquelles preguntes que demanin a l\'estudiant que dibuixi un graf d’acord amb alguna especificació, com ara les preguntes que habitualment tenen un únic cas de prova, amb una plantilla que analitza la representació serialitzada
+del graf i imprimeix un missatge com ara «OK» si la resposta és correcta o, altrament, un missatge informatiu adient.
 
-L\'element d\'interfície d\'usuari \'Taula\', que mostra una taula de caixes de text perquè
-l\'estudiant les ompli. Es fa servir al tipus de pregunta \'python3_program_testing\',
-que està disponible a les preguntes d\'exemple a GitHub.
+L\'element d\'interfície d\'usuari «Taula», mostra una taula de quadres de text perquè l\'estudiant els empleni. Es fa servir al tipus de pregunta «python3_program_testing»,
+que es troba disponible a les preguntes d\'exemple a GitHub.
 
-Les interfícies d\'usuari \'Gapfiller\' i \'Html\' estan documentades a la documentació
-principal de CodeRunner a https://github.com/trampgeek/moodle-qtype_coderunner#code-runner.
+Les interfícies d\'usuari «Gapfiller» i «Html» es troben documentades a la documentació principal de CodeRunner a https://github.com/trampgeek/moodle-qtype_coderunner#code-runner.
 
-Els estudiants amb problemes de vista o els autors que vulguin inspeccionar les
-serialitzacions (per exemple, per entendre la representació feta servir per l\'IU Graf)
-poden activar i desactivar l\'ús de tots els connectors d\'IU a la pàgina actual amb
+Els estudiants amb problemes de visió o els autors que vulguin inspeccionar les serialitzacions (per exemple, per entendre la representació feta servir per la IU Graf) poden activar i desactivar l\'ús de tots els connectors d\'IU a la pàgina actual amb
 Ctrl-Alt-M.
 
-Sigui quin sigui el valor triat per la resposta de l\'estudiant també es farà servir
-al formulari d\'edició per als camps de la resposta d\'exemple i la resposta
-precarregada.
+Sigui quin sigui el valor triat per a la resposta de l\'estudiant, també es farà servir al formulari d\'edició per als camps de la resposta d\'exemple i la resposta precarregada.
 
-Si \'La plantilla fa servir Ace\' està seleccionat, l\'editor de codi Ace es farà servir tant
-a les caixes de la plantilla com a la dels paràmetres de la plantilla. Si no, es farà
-servir una caixa de text en cru.';
+Si «La plantilla fa servir Ace» s’ha seleccionat, l\'editor de codi Ace es farà servir tant als quadres de la plantilla com als dels paràmetres de la plantilla. Altrament, es farà servir un quadre de text en brut.';
 $string['uiparamdefault'] = 'Per defecte';
 $string['uiparamdesc'] = 'Descripció';
-$string['uiparametergroup'] = 'Paràmetres de l\'IU';
-$string['uiparametergroup_help'] = 'Un text JSON que defineix els valors dels paràmetres de la Interfície d\'Usuari
-que requereixen el connector de l\'IU o que sobreescriuen els valors per defecte.
+$string['uiparametergroup'] = 'Paràmetres de la IU';
+$string['uiparametergroup_help'] = 'Un text JSON que defineix els valors dels paràmetres de la interfície d\'usuari que requereixen el connector de la IU o que sobreescriuen els valors per defecte.
 Per exemple, per dibuixar nodes més grossos en fer servir la GraphUI: \'{"noderadius": 30}\'';
-$string['uiparameters'] = 'Paràmetres de l\'IU (JSON)';
-$string['uiparametertablehead'] = 'La IU {$a->uiname} pren els següents paràmetres:';
+$string['uiparameters'] = 'Paràmetres de la IU (JSON)';
+$string['uiparametertablehead'] = 'La IU {$a->uiname} admet els paràmetres següents:';
 $string['uiparamname'] = 'Nom';
 $string['unauthorisedbulktest'] = 'No teniu accés a cap pregunta CodeRunner';
 $string['unauthoriseddbaccess'] = 'No teniu permís per executar aquest script';
-$string['unknowncombinatorgraderfield'] = 'Nom de camp desconegut ({$a->fieldname}) en la sortida de la plantilla d\'avaluació';
-$string['unknownerror'] = 'Ha ocorregut un error inesperat. La zona de proves pot estar no disponible. Torneu-ho a provar d\'aquí a un poc de temps.';
-$string['unknownuiplugin'] = 'S\'ha demanat informació sobre un plugin desconegut ({$a->pluginname}).';
-$string['unserializefailed'] = 'Els resultats emmagatzemats no han pogut ser deserialitzats. Voleu provar de requalificar?';
+$string['unknowncombinatorgraderfield'] = 'Nom de camp desconegut ({$a->fieldname}) a la sortida de la plantilla d\'avaluació';
+$string['unknownerror'] = 'S\'ha produït un error inesperat. La zona de proves pot no estar disponible. Torneu a intentar-ho d\'aquí a una estona.';
+$string['unknownuiplugin'] = 'S\'ha demanat informació sobre el connector desconegut següent: ({$a->pluginname}).';
+$string['unserializefailed'] = 'No s\'han pogut desserialitzar els resultats emmagatzemats. Voleu provar de requalificar?';
 $string['useace'] = 'La plantilla fa servir Ace';
 $string['useasexample'] = 'Fes servir com a exemple';
 $string['validateonsave'] = 'Valida en desar';
@@ -1202,9 +1156,9 @@ $string['wsloggingenable'] = 'Registra l\'ús del servei web de la zona de prove
 $string['wsloggingenable_desc'] = 'Si aquesta opció està seleccionada, s\'enregistraran totes les execucions a través del servei web de la zona de proves. Aquesta opció ha d\'estar activada perquè funcioni la limitació per usuari.';
 $string['wsmaxcputime'] = 'Màxim temps de CPU (segons)';
 $string['wsmaxcputime_desc'] = 'Limita el temps màxim de CPU que l\'execució en un servei web pot fer servir, encara que estableixi el paràmetre de la zona de proves de temps de CPU.';
-$string['wsmaxhourlyrate'] = 'Quantitat màxima d\'enviaments per hora';
-$string['wsmaxhourlyrate_desc'] = 'Si un usuari intenta sobrepassar aquesta quantitat d\'enviaments en una hora, no es permetrà que en faci més. 0 per no limitar-les.';
-$string['wsnoaccess'] = 'Només usuaris registrats i no-visitants poden accedir a aquesta funcionalitat';
-$string['wsnolanguage'] = 'Llenguatge "{$a}" desconegut';
-$string['wssubmissionrateexceeded'] = 'Heu excedit la quantitat màxima d\'enviaments per hora \'Prova-ho!\'. Accés denegat.';
+$string['wsmaxhourlyrate'] = 'Quantitat màxima de trameses per hora';
+$string['wsmaxhourlyrate_desc'] = 'Si un usuari intenta sobrepassar aquesta quantitat de trameses en una hora, no es permetrà que en faci més. 0 per no limitar-les.';
+$string['wsnoaccess'] = 'Només els usuaris registrats i no-visitants poden accedir a aquesta funcionalitat';
+$string['wsnolanguage'] = 'El llenguatge «{$a}» no es coneix';
+$string['wssubmissionrateexceeded'] = 'Heu excedit la quantitat màxima de trameses per hora «Prova-ho!». Accés denegat.';
 $string['xmlcoderunnerformaterror'] = 'Error de format XML a la pregunta CodeRunner';

@@ -1248,6 +1248,7 @@ $string['loginalready'] = 'Já está autenticado como';
 $string['loginas'] = 'Entrar como';
 $string['loginaspasswordexplain'] = '<p>Para poder utilizar esta opção terá que inserir a senha especial para "Entrar como".<br />Se não souber essa senha, contacte o  administrador do servidor.</p>';
 $string['loginguest'] = 'Aceder como visitante';
+$string['loginrequired'] = 'Autenticação obrigatória';
 $string['loginsite'] = 'Entrar no site';
 $string['loginsteps'] = 'Para ter acesso completo a este site, primeiro tem de criar uma conta de utilizador.';
 $string['loginstepsnone'] = '<p>Viva!</p>

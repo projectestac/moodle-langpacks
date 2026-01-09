@@ -96,7 +96,7 @@ $string['assignmentoverduehtml'] = '<p>Kaixo, {$a->firstname}:</p>
 <p><strong>{$a->coursename} ikastaroko {$a->assignmentname}</strong> jardueraren entregatzen data <strong>{$a->duedate}</strong> zen.</p>
 <p>Baliteke zure zeregina {$a->cutoffsnippet} bidali ahal izatea, baina zure bidalketa berandu entregatu gisa markatua izango da.</p>
 <p><a href="{$a->url}">Joan jarduerara</a></p>';
-$string['assignmentoverduehtmlcutoffsnippet'] = '<strong>data honetan: {$a->cutoffdate}</strong>';
+$string['assignmentoverduehtmlcutoffsnippet'] = '<strong>data honetara arte: {$a->cutoffdate}</strong>';
 $string['assignmentoverduesubject'] = 'Atzeratuta: {$a->assignmentname}';
 $string['assignmentplugins'] = 'Zereginaren pluginak';
 $string['assignmentsperpage'] = 'Zereginak orriko';

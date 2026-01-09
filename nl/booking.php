@@ -398,7 +398,6 @@ $string['coursestarttime'] = 'Starttijd van de cursus';
 $string['courseurl'] = 'Cursus-URL';
 $string['createnewbookingoption'] = 'Nieuwe boekingsoptie';
 $string['csvfile'] = 'CSV-bestand';
-$string['customdownloadreport'] = 'Download rapportage';
 $string['customfield'] = 'Andere velden die ingesteld moeten worden in de boekingsoptie. Deze velden worden getoond in het boekingsoptieoverzicht.';
 $string['customfieldconfigure'] = 'Andere boekingsoptievelden';
 $string['customfielddef'] = 'Ander boekingsoptieveld';

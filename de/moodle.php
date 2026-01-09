@@ -1251,6 +1251,7 @@ $string['loginalready'] = 'Sie sind bereits angemeldet.';
 $string['loginas'] = 'Anmelden als';
 $string['loginaspasswordexplain'] = '<p>Sie müssen das spezielle \'Login als\'-Kennwort für diese Funktion verwenden. <br />Falls Ihnen dieses Kennwort nicht bekannt ist, wenden Sie sich an die Administrator/innen Ihrer Website.</p>';
 $string['loginguest'] = 'Anmelden als Gast';
+$string['loginrequired'] = 'Login notwendig';
 $string['loginsite'] = 'Hier können Sie sich anmelden';
 $string['loginsteps'] = 'Für den vollen Zugriff auf die Website brauchen Sie ein Nutzerkonto.';
 $string['loginstepsnone'] = '<p>Hallo,
