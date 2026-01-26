@@ -75,3 +75,4 @@ $string['unsaveddatawarning'] = 'Atenció: teniu dades sense desar';
 $string['userselect'] = 'Selecciona una activitat';
 $string['viewby'] = 'Visualitza per';
 $string['viewsinglegradeitem'] = 'Selecciona un element de qualificació de dalt';
+$string['viewsingleuser'] = 'Cerca un usuari per veure\'n totes les qualificacions';

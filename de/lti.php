@@ -109,8 +109,8 @@ $string['createdon'] = 'Erstellt am';
 $string['curllibrarymissing'] = 'PHP-Extension curl ist notwendig für das externe Tool.';
 $string['custom'] = 'Angepasste Parameter';
 $string['custom_config'] = 'Angepasste Tool-Konfiguration verwenden';
-$string['custom_help'] = 'Angepasste Parameter sind Einstellungen, die vom Tool Provider genutzt werden. Beispiel: eine Parameter kann die Nutzung einer Ressource des Providers sein.
-Jeder Parameter ist in einer eigenenZeile einzugeben. Die Eingabe erfolgt nach folgender Regel: "name=value"; z.B. "chapter=3".
+$string['custom_help'] = 'Angepasste Parameter sind Einstellungen, die vom Tool Provider genutzt werden. Beispiel: ein Parameter kann die Nutzung einer Ressource des Providers sein.
+Jeder Parameter ist in einer eigenen Zeile einzugeben. Die Eingabe erfolgt nach folgender Regel: "name=value"; z.B. "chapter=3".
 
 Wenn keine direkten Hinweise des Tool Providers vorliegen, ist es am sichersten das Feld leer zu lassen.';
 $string['custominstr'] = 'Angepasste Parameter';

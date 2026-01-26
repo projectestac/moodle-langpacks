@@ -574,9 +574,9 @@ $string['deletecategorycheck2'] = 'Si voleu suprimir aquesta categoria, heu de d
 $string['deletecategoryempty'] = 'Categoria buida';
 $string['deletecheck'] = 'Suprimiu {$a} ?';
 $string['deletecheckfiles'] = 'Esteu absolutament segur que voleu suprimir aquests fitxers?';
-$string['deletecheckfull'] = 'Esteu segur que voleu esborrar l\'usuari {$a}, incloent-hi dades com ara els detalls del perfil, les inscripcions, la pertinença a grups i cohorts i algunes dades d\'activitat de l\'usuari?';
+$string['deletecheckfull'] = 'Confirmeu que voleu esborrar l\'usuari {$a}, incloses dades com ara els detalls del perfil, les inscripcions, la pertinença a grups i cohorts i algunes dades d\'activitat de l\'usuari?';
 $string['deletechecktype'] = 'Confirmeu que voleu suprimir aquest {$a->type}?';
-$string['deletechecktypename'] = 'Confirmeu que voleu suprimir  {$a->type} «{$a->name}»?';
+$string['deletechecktypename'] = 'Confirmeu que voleu suprimir {$a->type} «{$a->name}»?';
 $string['deletecheckwarning'] = 'Ara suprimireu aquests fitxers';
 $string['deletecommentbyon'] = 'Suprimeix el comentari publicat per {$a->user} el {$a->time}';
 $string['deletecompletely'] = 'Suprimeix-los completament';
@@ -1888,7 +1888,7 @@ $string['reset'] = 'Reinicia';
 $string['resetcomponent'] = 'Component';
 $string['resetcourse'] = 'Reinicia curs';
 $string['resetcourseconfirm'] = 'Reiniciar el curs?';
-$string['resetcoursewarning'] = 'Esteu segur que voleu restablir el curs «{$a}»?
+$string['resetcoursewarning'] = 'Confirmeu que voleu restablir el curs «{$a}»?
 <br/><br/>
 Això esborrarà les dades seleccionades i restablirà el curs al seu estat original. Aquesta acció no es pot desfer.';
 $string['resetinfo'] = 'Aquesta funcionalitat permet esborrar totes les dades dels usuaris i restablir el curs al seu estat original. Les activitats i els paràmetres del curs no es modifiquen.';

@@ -850,7 +850,7 @@ $string['locationsettings'] = 'ロケーション設定';
 $string['locked'] = 'ロック';
 $string['lockoutduration'] = 'アカウントロックアウト継続時間';
 $string['lockoutduration_desc'] = 'この時間の後、ロックアウトされたアカウントが自動的にロック解除されます。';
-$string['lockoutemailbody'] = '{$a->fullname} さん
+$string['lockoutemailbody'] = 'こんにちは {$a->fullname} さん
 
 サーバ「 {$a->sitename} 」内のあなたのアカウント (ユーザ名: {$a->username}  )  は無効な複数回のログインによりロックアウトされました。
 
