@@ -717,7 +717,7 @@ $string['emaildigest_help'] = 'Numatytieji forumo skelbimų santraukos nustatyma
 * Santrauka – Viskas - Jūs gausite po  el. laišką su pilnu kiekvieno forumo skelbimo turiniu;
 * Santrauka - Temos - Jūs gausite vieną el. laišką per dieną su kiekvieno forumo skelbimo temomis.
 Taip pat, jei norite, Jūs galite parinkti skirtingus nustatymus kiekvienam forumui atskirai.';
-$string['emaildigestcomplete'] = 'Viskas (kasdienis el. laiškas su visais skelbimais)';
+$string['emaildigestcomplete'] = 'Viskas (kasdienis el. laiškas su visais įrašais)';
 $string['emaildigestoff'] = 'Be santraukos (atskiras el. laiškas kiekvienam forumo skelbimui)';
 $string['emaildigestsubjects'] = 'Temos (kasdienis el. laiškas tik su skelbimų temomis)';
 $string['emaildisable'] = 'Šis el. pašto adresas yra išjungtas';

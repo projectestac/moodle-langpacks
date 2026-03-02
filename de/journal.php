@@ -102,7 +102,7 @@ $string['mailsubject'] = 'Feedback zum Journal';
 $string['messageprovider:journal_feedback'] = 'Feedback zum Journal vom Trainer/von der Trainerin';
 $string['messageprovider:submission'] = 'Journaleintrag erstellt oder verändert';
 $string['modulename'] = 'Journal';
-$string['modulename_help'] = '###### Hauptfunktionen
+$string['modulename_help'] = '###### Hauptmerkmale
 - Sammeln von Online-Texteinträgen von Teilnehmer/innen zur Überprüfung und Bewertung.
 - Die Einträge sind privat zwischen Teilnehmer/innen und Trainer/innen (für andere Teilnehmer/innen nicht sichtbar).
 - Unterstützt Feedback in Textform und Bewertung durch Trainer/innen.

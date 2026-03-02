@@ -104,18 +104,18 @@ $string['messageprovider:journal_feedback'] = 'Egunkariaren irakaslearen feedbac
 $string['messageprovider:submission'] = 'Egunkari-sarrera sortuta ala eguneratuta';
 $string['modulename'] = 'Egunkaria';
 $string['modulename_help'] = '###### Funtzio nagusiak
-- Ikasleen online testuzko sarrerak biltzen ditu feedbacka eman edota kalifikatuak izan daitezen
-- Sarrerak pribatuak dira ikasle eta irakasleen artean (ikasle batek ezin du beste ikasleen sarrerarik ikusi)
-- Irakasleek testu bidezko feedbacka eman eta sarrerak kalifikatu ahal dituzte
-- Eskuragarritasun ezarpen bat dauka bidalketa epea zehaztu ahal izateko
-- Irakasleei partaide guztien ala talde bateko kideen sarrera guztiak orri bakarrean erakusten dizkio berrikusketa eraginkorra izan dadin
+* Ikasleen online testuzko sarrerak biltzen ditu feedbacka eman edota kalifikatuak izan daitezen
+* Sarrerak pribatuak dira ikasle eta irakasleen artean (ikasle batek ezin du beste ikasleen sarrerarik ikusi)
+* Irakasleek testu bidezko feedbacka eman eta sarrerak kalifikatu ahal dituzte
+* Eskuragarritasun ezarpen bat dauka bidalketa epea zehaztu ahal izateko
+* Irakasleei partaide guztien ala talde bateko kideen sarrera guztiak orri bakarrean erakusten dizkio berrikusketa eraginkorra izan dadin
 
 ###### Erabiltzeko moduak
-- Idatzizko gogoeta laburrak ala ikaste-egunkariak esleitzea
-- Etengabeko feedbacka eman eta ikasleen lana iterazio bidezko hobekuntzarako erabiltzea
-- Ikasleak ikasgaiak laburtu ala irakurketak euren hitzen adieraztera bultzatzea
-- Ikasleen aurrerapenaren jarraipena testuetan oinarritutako zeregin sinpleen bitartez egitea
-- Irakasle eta ikasleen arteko ebaluazio formatiborako komunikazio pribatua erraztea';
+* Idatzizko gogoeta laburrak ala ikaste-egunkariak esleitzea
+* Etengabeko feedbacka eman eta ikasleen lana iterazio bidezko hobekuntzarako erabiltzea
+* Ikasleak ikasgaiak laburtu ala irakurketak euren hitzen adieraztera bultzatzea
+* Ikasleen aurrerapenaren jarraipena testuetan oinarritutako zeregin sinpleen bitartez egitea
+* Irakasle eta ikasleen arteko ebaluazio formatiborako komunikazio pribatua erraztea';
 $string['modulename_link'] = 'mod/journal/view';
 $string['modulename_summary'] = 'Ikasleen online testu pribatuak biltzen ditu feedbacka eman edota kalifikatuak izan daitezen, eskuragarritasun-epe bat zehaztuta, eta fitxategi-igoerarik gabe.';
 $string['modulenameplural'] = 'Egunkariak';

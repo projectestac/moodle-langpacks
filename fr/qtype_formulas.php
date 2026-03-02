@@ -48,7 +48,7 @@ $string['answermulti'] = 'Réponse pour la partie {$a->part}';
 $string['answerno'] = 'Partie {$a}';
 $string['answernotacceptable'] = 'Cette réponse n\'est pas valide pour le type de réponse donné : {$a}.';
 $string['answernotunique'] = 'Il y a d\'autres réponses correctes.';
-$string['answernotunique_help'] = 'Si cette option est cochée, l\'étudiant verra « Une réponse correcte est : ... » au lieu de « La réponse correcte est : ... » lorsqu\'il examinera sa tentative.';
+$string['answernotunique_help'] = 'Si cette option est cochée, l\'étudiant verra « Une réponse correcte est : … » au lieu de « La réponse correcte est : … » lorsqu\'il examinera sa tentative.';
 $string['answersingle'] = 'Réponse';
 $string['answertype'] = 'Type de réponse';
 $string['answertype_help'] = 'Il existe quatre types de réponses.
@@ -369,7 +369,7 @@ $string['ruleid_help'] = 'Ce type de question dispose d\'un système de conversi
 La règle de base est celle des « unités SI  », qui convertit les unités standard telles que les unités de longueur,
 comme par exemple km, m, cm et mm. Cette option n’a aucun effet si aucune unité n’a été spécifiée.';
 $string['settingallowdecimalcomma'] = 'Séparateur décimal localisé';
-$string['settingallowdecimalcomma_desc'] = 'Autoriser tous les élèves à utiliser la virgule comme séparateur décimal dans leurs réponses.<br>Si cette option est activée, les nombres seront affichés conformément aux paramètres régionaux.';
+$string['settingallowdecimalcomma_desc'] = 'Autoriser tous les étudiants à utiliser la virgule comme séparateur décimal dans leurs réponses.<br>Si cette option est activée, les nombres seront affichés conformément aux paramètres régionaux.';
 $string['settingdebouncedelay'] = 'Délai avant validation à la volée';
 $string['settingdebouncedelay_desc'] = 'Le délai entre la dernière modification d\'un champ de réponse et la validation à la volée.';
 $string['settinglenientimport'] = 'Contrôle laxiste à l\'importation';

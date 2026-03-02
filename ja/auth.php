@@ -90,10 +90,13 @@ $string['emailnowexists'] = 'あなたのプロファイルに割り当てよう
 $string['emailupdate'] = 'メールアドレス更新';
 $string['emailupdatemessage'] = 'こんにちは {$a->fullname} さん
 
-あなたは {$a->site} のアカウントのメールアドレス変更をリクエストしました。この変更を確認するには次のウェブアドレスにアクセスしてください:
+あなたは {$a->site} のアカウントのメールアドレス変更をリクエストしました。
 
-{$a->url}
-確認リンクの有効期限は<b>10分</b>です。
+この変更を確認するには以下のリンクをクリックしてください:
+
+<a href="{$a->url}">メールアドレス変更を確認する</a>
+
+確認リンクは<strong>10分後</strong>に期限切れとなります。
 
 {$a->supportemail}';
 $string['emailupdatesuccess'] = 'ユーザ {$a->fullname} のメールアドレスが正常に {$a->email} に変更されました。';
