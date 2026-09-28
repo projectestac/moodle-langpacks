@@ -53,7 +53,6 @@ $string['addpricecategory'] = 'Voeg prijscategorie toe';
 $string['address'] = 'Adres';
 $string['addsemester'] = 'Voeg semester toe';
 $string['addtocalendar'] = 'Voeg toe aan cursuskalender';
-$string['addtocalendardesc'] = 'Cursuskalendergebeurtenissen zijn zichtbaar voor alle gebruikers in een cursus. Als je niet wil dat die gemaakt wordt, dan kun je deze instelling uitschakelen en standaard blokkeren. Er zullen wel altijd gebruikerskalendergebeurtenissen gemaakt worden voor elke boeking.';
 $string['addtogroup'] = 'Meld gebruikers automatisch aan in een groep.';
 $string['addtogroup_help'] = 'Meld gebruikers automatisch aan in een groep - er wordt automatisch een groep aangemaakt met de naam: Boeking naam - optie naam';
 $string['addusertogroup'] = 'Voeg gebruikers toe aan een groep';

@@ -103,14 +103,14 @@ $string['mailsubject'] = 'Egunkariaren feedbacka';
 $string['messageprovider:journal_feedback'] = 'Egunkariaren irakaslearen feedbacka';
 $string['messageprovider:submission'] = 'Egunkari-sarrera sortuta ala eguneratuta';
 $string['modulename'] = 'Egunkaria';
-$string['modulename_help'] = '###### Funtzio nagusiak
+$string['modulename_help'] = '#### Funtzio nagusiak
 * Ikasleen online testuzko sarrerak biltzen ditu feedbacka eman edota kalifikatuak izan daitezen
 * Sarrerak pribatuak dira ikasle eta irakasleen artean (ikasle batek ezin du beste ikasleen sarrerarik ikusi)
 * Irakasleek testu bidezko feedbacka eman eta sarrerak kalifikatu ahal dituzte
 * Eskuragarritasun ezarpen bat dauka bidalketa epea zehaztu ahal izateko
 * Irakasleei partaide guztien ala talde bateko kideen sarrera guztiak orri bakarrean erakusten dizkio berrikusketa eraginkorra izan dadin
 
-###### Erabiltzeko moduak
+#### Erabiltzeko moduak
 * Idatzizko gogoeta laburrak ala ikaste-egunkariak esleitzea
 * Etengabeko feedbacka eman eta ikasleen lana iterazio bidezko hobekuntzarako erabiltzea
 * Ikasleak ikasgaiak laburtu ala irakurketak euren hitzen adieraztera bultzatzea
@@ -137,6 +137,7 @@ $string['notifyteachers_default_help'] = 'Egunkari-jarduera berrietarako ezarpen
 $string['notifyteachers_help'] = 'Gaituz gero, irakasleek Moodleko mezularitza sistemaren bitartez jakinarazpen bat jasoko dute ikasle batek egunkari-sarrera bat sortu ala eguneratzen duenean.';
 $string['notopenuntil'] = 'Egunkaria ez da zabalduko ondoko datara arte:';
 $string['notstarted'] = 'Oraindik ez duzu egunkari hau hasi';
+$string['nousersyet'] = 'Oraindik ez dago erabiltzailerik';
 $string['numchars'] = '{$a} karaktere';
 $string['overallrating'] = 'Kalifikazio orokorrak';
 $string['pluginadministration'] = 'Egunkariaren kudeaketa';

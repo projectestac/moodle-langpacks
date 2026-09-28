@@ -483,7 +483,7 @@ $string['coursetitlebulkediting'] = 'Sammelbearbeitung im Kurs: {$a->course}';
 $string['coursetitleediting'] = 'Bearbeitung von Kurs: {$a->course}';
 $string['courseupdates'] = 'Kursaktualisierungen';
 $string['coursevisibility'] = 'Kurssichtbarkeit';
-$string['coursevisibility_help'] = '* Anzeigen: Der Kurs erscheint in der Kursliste und Teilnehmer/innen können darauf zugreifen.
+$string['coursevisibility_help'] = '* Sichtbar machen: Der Kurs erscheint in der Kursliste und Teilnehmer/innen können darauf zugreifen.
 * Verbergen: Der Zugriff ist auf Trainer/innen und Nutzer/innen beschränkt, die das Recht haben, verborgene Kurse anzuzeigen.';
 $string['create'] = 'Erstellen';
 $string['createaccount'] = 'Neues Nutzerkonto anlegen';

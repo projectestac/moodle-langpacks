@@ -115,6 +115,7 @@ $string['editscheduledetails'] = 'Editar detalhes do agendamento';
 $string['editschedulename'] = 'Editar nome do agendamento';
 $string['enablecustomreports'] = 'Ativar relatórios personalizados';
 $string['enablecustomreports_desc'] = 'Se ativar esta opção, os utilizadores poderão criar e visualizar relatórios personalizados no \'Construtor de relatórios\'.';
+$string['enabled'] = 'Ativado';
 $string['enableschedule'] = 'Ativar agendamento';
 $string['entitycourse'] = 'Disciplina';
 $string['entityuser'] = 'Utilizador';

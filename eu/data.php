@@ -46,7 +46,7 @@ $string['autogenallforms'] = 'Sortu lehenetsitako txantiloi guztiak';
 $string['autolinkurl'] = 'URLa automatikoki estekatu';
 $string['availablefromdate'] = 'Hasiera-data';
 $string['availabletags'] = 'Eskuragarri dauden etiketak';
-$string['availabletags_help'] = 'Markak txantiloian dauden gakoak dira. Sarrerak editatu edo ikusi ondoren eremu edo botoiek ordezkatuko dituzte.
+$string['availabletags_help'] = 'Markak txantiloian dauden hitz-gakoak dira. Sarrerak editatu edo ikusi ondoren eremu edo botoiek ordezkatuko dituzte.
 
 Eremuen formatua [[eremuaren izena]] da. Bestelako etiketen formatua ##etiketa## da.
 

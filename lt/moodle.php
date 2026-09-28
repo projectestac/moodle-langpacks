@@ -600,7 +600,7 @@ $string['deselectnos'] = 'Panaikinkite visų "Ne" pasirinkimą';
 $string['detailedless'] = 'Mažiau informacijos';
 $string['detailedmore'] = 'Daugiau informacijos';
 $string['details'] = 'Išsami informacija';
-$string['digitalminor'] = 'Skaitmeninis nepilnametis';
+$string['digitalminor'] = 'Nepilnametis';
 $string['digitalminor_desc'] = 'Paprašykite savo tėvo/globėjo susisiekti:';
 $string['directory'] = 'Katalogas';
 $string['disable'] = 'Išjungti';
@@ -706,8 +706,8 @@ Jei reikia pagalbos, susisiekite su svetainės administratoriumi,
 {$a->admin}';
 $string['emailconfirmationresend'] = 'Siųsti patvirtinimo el. laišką iš naujo';
 $string['emailconfirmationsubject'] = '{$a}: paskyros patvirtinimas';
-$string['emailconfirmsent'] = '<p>El. laiškas išsiųstas jūsų adresu <b>{$a}</b></p>
-<p>Jame pateikti paprasti nurodymai, kaip užbaigti registraciją.</p>
+$string['emailconfirmsent'] = '<p>Jūsų el. pašto adresu <b>{$a}</b> turėjo būti išsiųstas laiškas.</p>
+<p>Jame pateiktos paprastos instrukcijos, kaip užbaigti registraciją.</p>
 <p>Jei iškils kokių sunkumų, susisiekite su svetainės administratoriumi.</p>';
 $string['emailconfirmsentfailure'] = 'Nepavyko išsiųsti patvirtinimo el. laiško';
 $string['emailconfirmsentsuccess'] = 'Patvirtinimo el. laiškas išsiųstas sėkmingai';
@@ -902,7 +902,7 @@ $string['expand'] = 'Išskleisti';
 $string['expandall'] = 'Išskleisti viską';
 $string['expandcategory'] = 'Išskleisti {$a}';
 $string['explanation'] = 'Paaiškinimas';
-$string['explanationdigitalminor'] = 'Ši informacija reikalinga norint nustatyti, ar jūsų amžius viršija skaitmeninį sutikimo amžių. Tai amžius, kai asmuo gali sutikti, kad sąlygos ir jo duomenys būtų teisėtai saugomi ir tvarkomi.';
+$string['explanationdigitalminor'] = 'Ši informacija reikalinga norint nustatyti, ar jūsų amžius atitinka galimą sutikimo davimo amžių. Tai amžius, nuo kurio asmuo gali duoti sutikimą dėl naudojimosi sąlygų bei dėl to, kad jo duomenys būtų teisėtai saugomi ir tvarkomi.';
 $string['extendperiod'] = 'Pratęsimo laikotarpis';
 $string['extendsession'] = 'Tęsti sesiją';
 $string['failedloginattempts'] = 'Nepavykusių bandymų prisijungti skaičius nuo paskutinio prisijungimo: {$a->attempts}';
@@ -1230,6 +1230,7 @@ $string['loginalready'] = 'Jau esate prisijungę';
 $string['loginas'] = 'Prisijungti kaip';
 $string['loginaspasswordexplain'] = '<p>Norėdami naudoti šią funkciją turite įvesti specialų prisijungimo slaptažodį.<br />Jei jo nežinote, paklauskite savo serverio administratoriaus.</p>';
 $string['loginguest'] = 'Svečio prieiga';
+$string['loginrequired'] = 'Būtina prisijungti';
 $string['loginsite'] = 'Prisijungti prie svetainės';
 $string['loginsteps'] = 'Jei norite gauti visą prieigą prie svetainės, turite pirmiausiai sukurti savo paskyrą.';
 $string['loginstepsnone'] = '<p>Sveiki!</p> <p>Kad gautumėte visą prieigą prie kursų, turite sukurti savo paskyrą.</p> <p>Tam tereikia sukurti naudotojo vardą bei slaptažodį ir juos naudoti šio puslapio formoje.</p> <p>Jei kas nors kitas jau pasirinko jūsų naudotojo vardą, turėsite bandyti dar kartą, naudodami kitą naudotojo vardą.</p>';

@@ -550,6 +550,7 @@ $string['modulename'] = 'Testas';
 $string['modulename_help'] = 'Testo modulis leidžia dėstytojui kurti ir nustatyti testus, sudarytus iš klausimų su keliais pasirinktiniais atsakymais, teisinga / klaidinga tipo klausimų, gretinimo ir kitų tipų klausimų. Kiekvienas bandymas automatiškai įvertinamas, o dėstytojas gali pasirinkti palikti atsiliepimus ir (arba) rodyti teisingus atsakymus.';
 $string['modulename_link'] = 'mod/quiz/view';
 $string['modulenameplural'] = 'Testai';
+$string['movequestionnumber'] = 'Perkelti klausimą: {$a}';
 $string['moveselectedonpage'] = 'Perkelti pasirinktus klausimus į puslapį: {$a}';
 $string['multichoice'] = 'Keli pasirinkimai';
 $string['multipleanswers'] = 'Pasirinkite mažiausiai vieną atsakymą.';

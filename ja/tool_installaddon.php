@@ -61,4 +61,4 @@ $string['remoterequestnoninstallable'] = 'このサイトのMoodleプラグイ�
 $string['remoterequestpermcheck'] = 'このサイトにMoodleプラグインディレクトリからプラグイン <strong>{$a->name}</strong> ({$a->component}) バージョン {$a->version} をインストールするリクエストがあります。しかし、プラグインタイプロケーション <strong>{$a->typepath}</strong> に <strong>書き込むことができません</strong>。あなたはウェブサーバユーザにプラグインタイプロケーションへの書き込み権を与えて再度チェックするため、「続ける」ボタンをクリックする必要があります。';
 $string['remoterequestpluginfoexception'] = 'プラグイン {$a->name} ({$a->component}) バージョン {$a->version} の情報取得中にエラーが発生しました。プラグインをインストールすることはできません。エラー詳細を閲覧するにはデバッグモードを有効にしてください。';
 $string['typedetectionfailed'] = 'プラグインタイプを検出できませんでした。プラグインタイプを手動で選択してください。';
-$string['typedetectionmismatch'] = '選択されたプラグインタイプはプラグインで宣言されたものに合致しません: {$a}';
+$string['typedetectionmismatch'] = '選択されたプラグインタイプはプラグインで宣言されたものに一致しません: {$a}';

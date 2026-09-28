@@ -134,6 +134,7 @@ $string['configgeneralcalendarevents'] = 'Nustato numatytąją kalendoriaus įvy
 $string['configgeneralcomments'] = 'Nustato numatytąją komentarų įtraukimo į atsarginę kopiją reikšmę.';
 $string['configgeneralcompetencies'] = 'Nustato numatytąją kompetencijų įtraukimo į atsarginę kopiją reikšmę.';
 $string['configgeneralcontentbankcontent'] = 'Nustato numatytąjį turinio banko turinio įtraukimo į atsarginę kopiją vertę.';
+$string['configgeneralcustomfield'] = 'Nustato numatytąjį parametrą, pagal kurį į atsarginę kopiją įtraukiami pasirinktiniai laukai.';
 $string['configgeneralfiles'] = 'Nustato numatytąjį failų įtraukimą į atsarginę kopiją. Atkreipkite dėmesį: išjungus šį nustatymą bus sukurta atsarginė kopija, kurioje bus tik nuorodos į failus. Tai nėra problema, jei atsarginė kopija bus atkurta toje pačioje svetainėje, o failai nebuvo ištrinti pagal nustatymą „Išvalyti šiukšliadėžės failus“ (filescleanupperiod).';
 $string['configgeneralfilters'] = 'Nustato numatytąją filtrų įtraukimo į atsarginę kopiją reikšmę.';
 $string['configgeneralgroups'] = 'Nustato numatytąją grupių ir grupavimo įtraukimo į atsarginę kopiją reikšmę.';

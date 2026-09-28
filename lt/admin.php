@@ -44,10 +44,10 @@ $string['adminseesall'] = 'Administratoriai mato viską';
 $string['adminseesallevents'] = 'Administratoriai mato visus įvykius';
 $string['adminseesownevents'] = 'Administratoriai yra tokie pat naudotojai';
 $string['advancedfeatures'] = 'Išplėstinės funkcijos';
-$string['agedigitalconsentverification'] = 'Skaitmeninis amžiaus patvirtinimo sutikimas';
+$string['agedigitalconsentverification'] = 'Amžiaus duodant sutikimą patikrinimas';
 $string['agedigitalconsentverification_desc'] = 'Įgalinamas skaitmeninio sutikimo amžiaus patvirtinimas prieš pateikiant registracijos puslapį savarankiškai besiregistruojantiems naudotojams. Taip jūsų svetainė apsaugoma nuo nepilnamečių prisijungimo be tėvų/globėjų sutikimo. Jei reikia daugiau pagalbos, pateikiama išsami <a target="_blank" href="{$a}">palaikymo kontaktinė</a> informacija.';
-$string['ageofdigitalconsentmap'] = 'Skaitmeninis amžius sutikimas';
-$string['ageofdigitalconsentmap_desc'] = 'Čia gali būti nurodytas numatytasis skaitmeninis sutikimo amžius ir amžius bet kurioje šalyje, kur jis skiriasi nuo numatytojo. Įveskite kiekvieną amžių naujoje eilutėje su formatu: šalies kodas, amžius (atskirkite kableliu). Numatytasis amžius nurodomas * vietoje šalies kodo. Šalių kodai nurodyti ISO 3166-2.';
+$string['ageofdigitalconsentmap'] = 'Amžius duodant sutikimą';
+$string['ageofdigitalconsentmap_desc'] = 'Čia gali būti nurodytas numatytasis sutikimo davėjo amžius ir amžius bet kurioje šalyje, kur jis skiriasi nuo numatytojo. Įveskite kiekvieną amžių naujoje eilutėje su formatu: šalies kodas, amžius (atskirkite kableliu). Numatytasis amžius nurodomas * vietoje šalies kodo. Šalių kodai nurodyti ISO 3166-2.';
 $string['allcountrycodes'] = 'Visų šalių kodai';
 $string['allowattachments'] = 'Leisti priedus';
 $string['allowbeforeblock'] = 'Pirmiausia bus apdorojamas leidžiamas sąrašas';
@@ -414,7 +414,7 @@ $string['configstatsmaxruntime3'] = 'Tai nurodo maksimalų vienos dienos statist
 $string['configstatsruntimedays'] = 'Tai nurodo maksimalų kiekvieno statistinių duomenų vykdymo apdorojamų dienų skaičių. Kai statistiniai duomenys atnaujinti, bus apdorojama tik viena diena, todėl atsižvelgdami į savo serverio apkrovą koreguokite šią reikšmę ir sumažinkite ją, jei „Cron“ reikia vykdyti trumpiau.';
 $string['configstatsruntimestart'] = 'Kada turėtų būti paleistas cronjob, kurio metu apdorojama statistika? Jei viename serveryje yra kelios Moodle svetainės, rekomenduojama nurodyti skirtingą laiką.';
 $string['configstatsuserthreshold'] = 'Šis parametras nurodo minimalų į kursą įsiregistravusių naudotojų skaičių, įtrauktiną į statistinių duomenų skaičiavimą.';
-$string['configstrictformsrequired'] = 'Jei įgalinta, naudotojams draudžiama padėti tarpą arba naują eilutę tik reikalaujamose laukuose formose.';
+$string['configstrictformsrequired'] = 'Jei įgalinta, naudotojai negali įvesti tarpo ar eilutės tarpo tik formų privalomuose laukeliuose.';
 $string['configstripalltitletags'] = 'Panaikinkite šio parametro žymėjimą, kad leistumėte HTML žymes veiklos ir resursų pavadinimuose.';
 $string['configsupportavailability'] = 'Nustato, kas turi prieigą prie svetainės palaikymo iš poraštės.';
 $string['configsupportemail'] = 'Jei šioje svetainėje sukonfigūruotas SMTP, o palaikymo puslapis nenustatytas, šiuo el. pašto adresu bus gauti pranešimai, pateikti naudojant palaikymo formą. Jei siuntimas nepavyks, el. pašto adresas bus rodomas prisijungusiems naudotojams.';
@@ -771,7 +771,7 @@ $string['installhijacked'] = 'Apgailestaujame, diegimą būtina užbaigti iš pr
 $string['installsessionerror'] = 'Nepavyko inicijuoti PHP seanso. Patikrinkite, ar Jūsų naršyklė priima slapukus.';
 $string['intlrecommended'] = 'Intl plėtinys yra naudojamas norint pagerinti internacionalizavimo palaikymą, pvz., rūšiavimą atsižvelgiant į lokalę.';
 $string['intlrequired'] = 'Intl plėtinys reikalingas siekiant pagerinti internacionalizavimo palaikymą, pvz., rūšiavimą atsižvelgiant į lokalę ir tarptautinius domenų pavadinimus.';
-$string['invalidagedigitalconsent'] = 'Skaitmeninis sutikimo amžius negalioja: {$a}';
+$string['invalidagedigitalconsent'] = 'Sutikimo amžiaus riba netaikoma: {$a}';
 $string['invalidforgottenpasswordurl'] = 'Pamiršto slaptažodžio URL nėra galiojantis URL.';
 $string['invalidsection'] = 'Neleistina dalis.';
 $string['invalidthemepreset'] = 'Pasirinktas išankstinių nustatymų rinkinio failas nesuderinamas su šia tema. SCSS kompiliavimo klaida buvo: „{$a}“';
@@ -820,17 +820,14 @@ $string['lockoutduration_desc'] = 'Užrakinta paskyra automatiškai atrakinama p
 $string['lockoutemailbody'] = 'Sveiki, {$a->firstname},
 
 Jūsų paskyra su naudotojo vardu {$a->username} serveryje „{$a->sitename}“
-buvo užrakinta po kelių neteisingų bandymų prisijungti.
+buvo užblokuota po daugkartinių nesėkmingų prisijungimo bandymų.
 
-Norėdami atrakinti paskyrą, eikite šiuo adresu
+Norėdami nedelsiant atrakinti paskyrą, spustelėkite žemiau esančią nuorodą:
 
-{$a->link}
+<a href="{$a->link}">Atrakinti paskyrą</a>
 
-Daugumoje pašto programų tai turėtų būti rodoma kaip mėlyna nuoroda, kurią galite tiesiog spustelėti.
-Jei tai neveikia, tada nukopijuokite ir įklijuokite adresą į adreso
-eilutę interneto naršyklės lango viršuje.
 
-Jei reikia pagalbos, susisiekite su svetainės administratoriumi,
+Jei reikės pagalbos, kreipkitės į svetainės administratorių.
 {$a->admin}';
 $string['lockoutemailsubject'] = 'Jūsų paskyra {$a} buvo užrakinta';
 $string['lockouterrorunlock'] = 'Pateikta neteisinga paskyros atrakinimo informacija.';
@@ -1356,7 +1353,7 @@ $string['stickyblockscourseview'] = 'Kursų puslapis';
 $string['stickyblocksduplicatenotice'] = 'Jei bet kuris jūsų čia įtrauktas blokas jau yra tam tikrame puslapyje, bus sukurtas jo dublikatas.<br />Redaguoti negalima tik susegtų blokų, dublikatą vis tiek bus galima redaguoti.';
 $string['stickyblocksmymoodle'] = 'Mano „Moodle“';
 $string['stickyblockspagetype'] = 'Konfigūruotinas puslapio tipas';
-$string['strictformsrequired'] = 'Griežtas patvirtinimas privalomiems laukams';
+$string['strictformsrequired'] = 'Privalomų laukelių griežtas tikrinimas';
 $string['stripalltitletags'] = 'Pašalinti HTML žymes iš visų veiklų pavadinimų';
 $string['supportandservices'] = 'Parama ir paslaugos';
 $string['supportavailability'] = 'Palaikymo prieinamumas';

@@ -40,6 +40,7 @@ $string['addcourse'] = 'Įtraukti kursus';
 $string['addcourse_help'] = 'Pažymėti visus kursus, kurie turi būti įtraukti prie šio pasiekimo reikalavimų. Laikykite "CTRL" norėdami pažymėti keletą elementų.';
 $string['addcriteria'] = 'Įtraukti kriterijų';
 $string['addcriteriatext'] = 'Norėdami pradėti kriterijų įtraukimą, prašom pasirinkti vieną iš parinkčių išskleidžiamajame meniu.';
+$string['addcriterion'] = 'Pridėti kriterijų';
 $string['addedtobackpack'] = 'Pasiekimas įtrauktas į saugyklą';
 $string['addrelated'] = 'Įtraukti susijusį pasiekimą';
 $string['addtobackpack'] = 'Įtraukti į saugyklą';
