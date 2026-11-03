@@ -349,40 +349,197 @@ Com a part del curs {$a->courseid} {$a->coursefullname}, s\'ha avaluat la vostra
 El professorat del curs permet que us torneu a registrar a qualsevol franja horària disponible a l\'organitzador {$a->coursefullname}.
 
 Sistema de Missatgeria de Moodle';
+$string['eval_notify_newappointment:student:group:smallmessage'] = 'S\'ha avaluat la vostra cita de grup del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.';
+$string['eval_notify_newappointment:student:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: cita avaluada';
+$string['eval_notify_newappointment:student:smallmessage'] = 'S\'ha avaluat la vostra cita del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.';
+$string['eval_notify_newappointment:student:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: cita avaluada';
+$string['eval_notify_student:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, s\'ha avaluat la vostra cita amb {$a->sendername} el dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['eval_notify_student:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, s\'ha avaluat la vostra cita de grup amb {$a->sendername} el dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['eval_notify_student:group:smallmessage'] = 'S\'ha avaluat la vostra cita de grup del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.';
+$string['eval_notify_student:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: cita avaluada';
+$string['eval_notify_student:smallmessage'] = 'S\'ha avaluat la vostra cita del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.';
+$string['eval_notify_student:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: cita avaluada';
 $string['evaluate'] = 'Avalua';
+$string['event'] = 'Esdeveniment del calendari';
+$string['eventappointmentadded'] = 'L\'estudiant s\'ha registrat a una franja horària.';
+$string['eventappointmentassigned'] = 'El professor o la professora ha assignat la cita.';
+$string['eventappointmentcommented'] = 'S\'ha comentat la cita.';
+$string['eventappointmentdeleted'] = 'El professor o la professora ha suprimit la cita.';
+$string['eventappointmentevaluated'] = 'S\'ha avaluat la cita.';
+$string['eventappointmentlistprinted'] = 'S\'ha imprès la llista de cites.';
+$string['eventappointmentremindersent'] = 'S\'ha enviat un recordatori de cita';
+$string['eventappointmentremoved'] = 'L\'estudiant ha cancel·lat el seu registre a una franja horària.';
 $string['eventappwith:group'] = 'Cita de grup';
+$string['eventappwith:single'] = 'Cita';
 $string['eventnoparticipants'] = 'Sense participants';
+$string['eventqueueadded'] = 'S\'ha afegit a la llista d\'espera';
+$string['eventqueueremoved'] = 'S\'ha eliminat de la llista d\'espera';
+$string['eventregistrationsviewed'] = 'S\'ha visualitzat la pestanya de registres.';
+$string['eventslotcreated'] = 'S\'han creat franges horàries noves.';
+$string['eventslotdeleted'] = 'S\'ha suprimit la franja horària.';
+$string['eventslotupdated'] = 'S\'ha actualitzat la franja horària.';
+$string['eventslotviewed'] = 'S\'han visualitzat les franges horàries.';
 $string['eventteacheranonymous'] = 'un professor anònim';
+$string['eventtemplate'] = '{$a->courselink} / {$a->organizerlink}: {$a->appwith} {$a->with} {$a->participants}<br />Ubicació: {$a->location}<br />';
+$string['eventtemplatecomment'] = 'Comentari:<br />{$a}<br />';
+$string['eventtemplatewithoutlinks'] = '{$a->coursename} / {$a->organizername}: {$a->appwith} {$a->with} {$a->participants}<br />Ubicació: {$a->location}<br />';
+$string['eventtitle'] = '{$a->coursename} / {$a->organizername}: {$a->appwith}';
+$string['eventwith'] = 'amb';
+$string['eventwithout'] = 'sense';
 $string['exportics'] = 'Exporta ICS';
 $string['exporticsaction'] = 'exporta ICS';
 $string['exportsettings'] = 'Exporta els paràmetres';
 $string['filtertable'] = 'Aplica filtres a aquesta taula';
 $string['filtertable_help'] = 'Cerca aquí cadenes comunes en aquestes franges horàries.';
+$string['finalgrade'] = 'Aquest valor s\'ha definit al llibre de qualificacions i no es pot canviar amb l\'organitzador.';
 $string['font_large'] = 'gran';
 $string['font_medium'] = 'mitjana';
 $string['font_small'] = 'petita';
+$string['format'] = 'Format';
+$string['format_csv_comma'] = 'CSV (;)';
+$string['format_csv_tab'] = 'CSV (tabulació)';
+$string['format_ods'] = 'ODS';
+$string['format_pdf'] = 'PDF';
+$string['format_xls'] = 'XLS';
+$string['format_xlsx'] = 'XLSX';
+$string['fulldatelongtemplate'] = '%A %d. %B %Y';
+$string['fulldatetemplate'] = '%a %d.%m.%Y';
+$string['fulldatetimelongtemplate'] = '%A %d. %B %Y %H:%M';
+$string['fulldatetimetemplate'] = '%a %d.%m.%Y %H:%M';
+$string['fullname_template'] = '{$a->firstname} {$a->lastname}';
 $string['gap'] = 'Interval entre dues cites';
 $string['gap_help'] = 'Defineix l\'interval de temps lliure entre dues cites.';
 $string['grade'] = 'Qualificació màxima';
+$string['grade_help'] = 'Defineix la quantitat màxima de punts que es poden atorgar a qualsevol cita que es pugui qualificar.';
+$string['gradeaggregationmethod'] = 'Mètode d\'agregació';
+$string['gradeaggregationmethod_help'] = 'L\'agregació determina la manera com es combinen les qualificacions a una categoria; per exemple:
+
+* Mitjana de les qualificacions. La suma de totes les qualificacions divida pel nombre total de qualificacions.
+* Qualificació més baixa.
+* Qualificació més alta.
+* Natural. La suma de tots els valors de les qualificacions.';
 $string['grading_desc_grade'] = 'La qualificació està activada.';
 $string['grading_desc_nograde'] = 'La qualificació està desactivada.';
+$string['group_registration_notify:student:queue:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha afegit el vostre grup {$a->groupname} a la llista d\'espera de la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:queue:group:smallmessage'] = '{$a->sendername} ha afegit el vostre grup {$a->groupname} a la llista d\'espera de la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:queue:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: grup en llista d\'espera';
+$string['group_registration_notify:student:register:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha registrat el vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:register:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha registrat el vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:register:group:smallmessage'] = '{$a->sendername} ha registrat el vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:register:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: grup registrat';
+$string['group_registration_notify:student:register:smallmessage'] = '{$a->sendername} ha registrat el vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:register:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: grup registrat';
+$string['group_registration_notify:student:reregister:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha tornat a registrar el vostre grup {$a->groupname} a una franja horària nova el dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:reregister:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha tornat a registrar el vostre grup {$a->groupname} a una franja horària nova el dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:reregister:group:smallmessage'] = '{$a->sendername} ha tornat a registrar el vostre grup {$a->groupname} a una franja horària nova el dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:reregister:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: s\'ha tornat a registrar el grup';
+$string['group_registration_notify:student:reregister:smallmessage'] = '{$a->sendername} ha tornat a registrar el vostre grup {$a->groupname} a una franja horària nova el dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:reregister:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: s\'ha tornat a registrar el grup';
+$string['group_registration_notify:student:unqueue:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha eliminat el vostre grup {$a->groupname} de la llista d\'espera de la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:unqueue:group:smallmessage'] = '{$a->sendername} ha eliminat el vostre grup {$a->groupname} de la llista d\'espera de la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:unqueue:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: grup eliminat de la llista d\'espera';
+$string['group_registration_notify:student:unregister:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha cancel·lat el registre del vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:unregister:group:fullmessage'] = 'Hola, {$a->receivername},
+
+Com a part del curs {$a->courseid} {$a->coursefullname}, {$a->sendername} ha cancel·lat el registre del vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time} a la ubicació següent: {$a->location}.
+
+Sistema de Missatgeria de Moodle';
+$string['group_registration_notify:student:unregister:group:smallmessage'] = '{$a->sendername} ha cancel·lat el registre del vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:unregister:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: s\'ha cancel·lat el registre de grup';
+$string['group_registration_notify:student:unregister:smallmessage'] = '{$a->sendername} ha cancel·lat el registre del vostre grup {$a->groupname} a la franja horària del dia {$a->date} a les {$a->time}.';
+$string['group_registration_notify:student:unregister:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}]: s\'ha cancel·lat el registre de grup';
+$string['group_slot_available'] = 'Franja horària disponible';
+$string['group_slot_full'] = 'Franja horària ocupada';
 $string['groupmodeexistingcoursegroups'] = 'Utilitza els grups de curs existents';
 $string['groupmodenogroups'] = 'Sense cites de grup';
 $string['groupmodeslotgroups'] = 'Creació d\'un grup per a cada franja horària buida';
 $string['groupmodeslotgroupsappointment'] = 'Creació d\'un grup per a cada franja horària reservada';
+$string['groupoptions'] = 'Paràmetres del grup';
 $string['grouporganizer_desc'] = 'Aquest és un organizador de grup.';
+$string['grouporganizer_desc_novalidgroup'] = 'Aquest és un organitzador de grup. No sou membre d\'un grup inclòs en aquesta instància d\'organitzador.';
+$string['grouporganizer_desc_participant'] = 'Aquest és un organitzador de grup. En clicar el botó de registre, vós i també tots els membres del vostre grup {$a->groupname} us registrareu en aquesta franja horària. Tots els membres del grup poden canviar el registre i comentar-lo.';
+$string['grouppicker'] = 'Selector de grup';
+$string['groupwarning'] = 'Comproveu les opcions de grup a sota.';
 $string['headerfooter'] = 'Imprimeix la capçalera / el peu de pàgina';
 $string['headerfooter_help'] = 'Si es marca aquesta opció, s\'imprimeix la capçalera / el peu de pàgina';
 $string['hidecalendar'] = 'Amaga el calendari';
 $string['hidecalendar_help'] = 'Activeu aquesta opció per amagar el calendari en aquest organitzador';
+$string['hour'] = 'h';
+$string['hour_pl'] = 'h';
+$string['id'] = 'ID';
+$string['img_title_due'] = 'La franja horària es pot reservar';
+$string['img_title_evaluated'] = 'La franja horària està avaluada';
+$string['img_title_full'] = 'La franja horària està completa';
 $string['img_title_no_participants'] = 'La franja horària no té cap participant';
+$string['img_title_past_deadline'] = 'La data límit de la franja horària ja ha passat';
+$string['img_title_pending'] = 'La franja horària està pendent d\'avaluació';
 $string['includetraineringroups'] = 'Inclou el professor als grups';
 $string['includetraineringroups_help'] = 'Si activeu la casella de selecció, s\'inclouran als grups no només els participants de la franja horària sinó també els seus professors.';
-$string['infobox_appointmentsstatus_pl'] = 'Hi ha {$a->tooless} reserves pendents. Queden {$a->places} places lliures a {$a->slots} franges horàries pròximes.';
+$string['infobox_app_countdown'] = 'Temps restant per a la cita: {$a->days} dies, {$a->hours} hores, {$a->minutes} minuts, {$a->seconds} segons';
+$string['infobox_app_inprogress'] = 'La cita està en curs.';
+$string['infobox_app_occured'] = 'La cita ja ha tingut lloc.';
+$string['infobox_appointmentsstatus_pl'] = '{$a->tooless} reserves han vençut. Queden {$a->places} llocs lliures a {$a->slots} franges horàries pròximes.';
+$string['infobox_appointmentsstatus_sg'] = '{$a->tooless} reserves han vençut. Queden {$a->places} llocs lliures a {$a->slots} franges horàries pròximes.';
 $string['infobox_counter_slotrows'] = 'franges horàries mostrades.';
+$string['infobox_deadline_countdown'] = 'Temps restant per a la data límit: {$a->days} dies, {$a->hours} hores, {$a->minutes} minuts, {$a->seconds} segons';
+$string['infobox_deadline_passed'] = 'La data límit per registrar-se ha passat. Ja no podeu canviar els registres.';
+$string['infobox_deadline_passed_slot'] = 'No s\'han pogut crear xxx franges horàries perquè la data límit per registrar-se ha passat.';
+$string['infobox_deadline_passed_slotphp'] = 'No s\'han pogut crear {$a->slots} franges horàries perquè la data límit per registrar-se ha passat.';
+$string['infobox_deadlines_title'] = 'Dates límit';
+$string['infobox_description_title'] = 'Descripció de l\'organitzador';
+$string['infobox_feedback_title'] = 'Retroacció';
+$string['infobox_group'] = 'El meu grup: {$a->groupname}';
+$string['infobox_link'] = 'Mostra/Amaga';
+$string['infobox_messages_title'] = 'Missatges del sistema';
 $string['infobox_minmax'] = 'Reserves per usuari: mínim {$a->min} - màxim {$a->max}.';
+$string['infobox_mycomments_title'] = 'Els meus comentaris';
+$string['infobox_myslot_noslot'] = 'Ara com ara no us heu registrat a cap franja horària.';
 $string['infobox_myslot_title'] = 'Les meves franges horàries';
+$string['infobox_myslot_userslots_left'] = 'Us queden {$a->left} reserves.';
+$string['infobox_myslot_userslots_left_group'] = 'Al vostre grup li queden {$a->left} reserves.';
 $string['infobox_myslot_userslots_max_reached'] = 'Heu reservat la quantitat màxima de franges horàries següent: {$a->max}.';
+$string['infobox_myslot_userslots_max_reached_group'] = 'El vostre grup ha reservat la quantitat màxima de franges horàries següent: {$a->max}.';
+$string['infobox_myslot_userslots_min_not_reached'] = 'Encara no heu reservat la quantitat requerida de franges horàries següent: {$a->min}.';
+$string['infobox_myslot_userslots_min_not_reached_group'] = 'El vostre grup encara no ha reservat la quantitat requerida de franges horàries següent: {$a->min}.';
+$string['infobox_myslot_userslots_min_reached'] = 'Heu reservat correctament la quantitat requerida de franges horàries següent: {$a->min}.';
+$string['infobox_myslot_userslots_min_reached_group'] = 'El vostre grup ha reservat la quantitat requerida de franges horàries següent: {$a->min}.';
+$string['infobox_myslot_userslots_status'] = '{$a->booked} de {$a->max} franges horàries reservades.';
 $string['infobox_organizer_expired'] = 'Aquest organitzador va caducar el dia {$a->date} a l\'hora següent: {$a->time}';
 $string['infobox_organizer_expires'] = 'Aquest organitzador caducarà el dia {$a->date} a l\'hora següent: {$a->time}.';
 $string['infobox_organizer_never_expires'] = 'Aquest organitzador no caduca mai.';
@@ -394,21 +551,68 @@ $string['infobox_showmyslotsonly'] = 'Només les meves franges horàries';
 $string['infobox_showregistrationsonly'] = 'Només les franges horàries reservades';
 $string['infobox_showslots'] = 'També les franges horàries passades';
 $string['infobox_slotoverview_title'] = 'Vista general de la franja horària';
+$string['infobox_slotsviewoptions'] = 'Opcions especials del filtre';
+$string['infobox_slotsviewoptions_help'] = 'Aquestes opcions del filtre es combinen amb conjuncions «i» (AND).';
 $string['infobox_statistic_maxreached'] = '{$a->maxreached} de {$a->entries} participants van reservar la quantitat màxima de franges horàries següent:  {$a->max}.';
 $string['infobox_statistic_maxreached_group'] = '{$a->maxreached} de {$a->entries} grups han reservat la quantitat màxima de franges horàries següent: {$a->max}.';
 $string['infobox_statistic_minreached'] = '{$a->minreached} de {$a->entries} participants van reservar la quantitat requerida de franges horàries següent: {$a->min}.';
 $string['infobox_statistic_minreached_group'] = '{$a->minreached} de {$a->entries} grups van arribar a la quantitat requerida de franges horàries següent: {$a->min}.';
+$string['infobox_title'] = 'Quadre d\'informació';
+$string['introeditor_error'] = 'S\'ha de donar una descripció de l\'organitzador.';
+$string['invalidgrouping'] = 'Heu de seleccionar un agrupament vàlid.';
+$string['inwaitingqueue'] = 'Llista d\'espera';
 $string['isgrouporganizer'] = 'Cites de grup';
 $string['isgrouporganizer_help'] = 'Activeu aquesta opció si voleu que aquest organitzador treballi amb grups en lloc de fer-ho amb usuaris individuals. «Utilitza els grups de curs existents»: una sola persona del grup reserva una franja horària per a tot el grup. «Creació d\'un grup per a cada franja horària buida»: es crea un grup de curs per a cada franja horària nova. «Creació d\'un grup per a cada franja horària reservada»: es crea un grup de curs per a cada franja horària reservada.';
 $string['location'] = 'Ubicació';
 $string['location_help'] = 'El lloc en el qual es durà a terme la cita.';
 $string['locationlink'] = 'URL de l\'enllaç de la ubicació';
 $string['locationlink_help'] = 'Escriviu aquí l\'adreça completa del lloc web al qual voleu que es refereixi l\'enllaç d\'ubicació. Aquest lloc hauria de contenir, almenys, la informació sobre com arribar a la ubicació. Escriviu-ne l\'adreça completa (incloeu-hi http://)';
+$string['locationlinkenable'] = 'Enllaç automàtic d\'informació de la ubicació';
+$string['locationmandatory'] = 'És obligatori indicar la ubicació de la franja horària';
+$string['locationsettings'] = 'Paràmetres de la ubicació de la franja horària';
+$string['maillink'] = 'L\'organitzador està disponible <a href=\'{$a}\'>aquí</a>.';
 $string['maxparticipants'] = 'Nombre màxim de participants';
 $string['maxparticipants_help'] = 'Defineix el nombre màxim d\'estudiants que es poden registrar o inscriure en aquestes franges horàries. En el cas d\'un organitzador de grup aquest número sempre està limitat a un.';
+$string['message_autogenerated2'] = 'Missatge generat de manera automàtica';
+$string['message_custommessage'] = 'Missatge personalitzat';
+$string['message_custommessage_help'] = 'Utilitzeu aquest camp per introduir un text personalitzat al missatge generat de manera automàtica.';
+$string['message_error_action_notallowed'] = 'Aquesta acció ja no és factible. Navegueu cap enrere i actualitzeu el vostre navegador.';
+$string['message_error_groupsynchronization'] = 'Ha fallat la sincronització del grup de franja horària.';
+$string['message_error_noactionchosen'] = 'Trieu una acció abans de clicar el botó d’inici.';
+$string['message_error_slot_full_group'] = 'Aquesta franja horària ja està ocupada.';
+$string['message_error_slot_full_single'] = 'Aquesta franja horària no té cap lloc lliure.';
+$string['message_error_unknown_unqueue'] = 'La vostra entrada a la llista d\'espera no s\'ha pogut eliminar. Error desconegut.';
+$string['message_error_unknown_unregister'] = 'El vostre registre no s\'ha pogut eliminar. Error desconegut.';
+$string['message_info_appointment_deleted'] = 'S\'ha suprimit la cita. S\'ha tramès la notificació a la persona participant.';
+$string['message_info_appointment_deleted_group'] = 'S\'han suprimit les cites d\'un grup. S\'ha tramès la notificació a les persones participants.';
+$string['message_info_appointment_not_deleted'] = 'S\'ha produït un problema en suprimir les cites.';
+$string['message_info_queued'] = 'Us han afegit a la llista d\'espera d\'una franja horària';
+$string['message_info_queued_group'] = 'El vostre grup ha estat afegit a la llista d\'espera d\'una franja horària';
+$string['message_info_registered'] = 'Us heu registrat correctament a una franja horària.';
+$string['message_info_registered_group'] = 'El vostre grup s\'ha registrat correctament a una franja horària.';
+$string['message_info_reminders_sent_pl'] = 'S\'han enviat {$a->count} recordatoris.';
+$string['message_info_reminders_sent_sg'] = 'S\'ha enviat {$a->count} recordatori.';
+$string['message_info_reregistered'] = 'Us heu tornat a registrar correctament a una franja horària.';
+$string['message_info_reregistered_group'] = 'El vostre grup s\'ha tornat a registrar correctament a una franja horària.';
 $string['message_info_slots_added_pl'] = 'S\'han afegit {$a->count} franges horàries noves.';
+$string['message_info_slots_added_sg'] = 'S\'ha afegit {$a->count} franja horària nova.';
+$string['message_info_slots_deleted_pl'] = 'S\'han suprimit {$a->deleted} franges horàries. S\'ha tramès la notificació a {$a->notified} participants.';
+$string['message_info_slots_deleted_sg'] = 'S\'ha suprimit una franja horària. S\'ha tramès la notificació a {$a->notified} participants.';
+$string['message_info_slots_edited_pl'] = 'S\'han editat {$a->count} franges horàries.';
+$string['message_info_slots_edited_sg'] = 'S\'ha editat {$a->count} franja horària.';
 $string['message_info_slots_evaluated_pl'] = 'S\'ha qualificat el nombre de participants següent: {$a->count}.';
+$string['message_info_slots_evaluated_sg'] = 'S\'ha qualificat {$a->count} participant.';
+$string['message_info_unqueued'] = 'Us han eliminat de la llista d\'espera d\'una franja horària.';
+$string['message_info_unqueued_group'] = 'El vostre grup ha estat eliminat de la llista d\'espera d\'una franja horària.';
+$string['message_info_unregistered'] = 'Heu cancel·lat el vostre registre a una franja horària correctament.';
+$string['message_info_unregistered_group'] = 'El vostre grup ha cancel·lat el registre a una franja horària correctament.';
 $string['message_warning_no_slots_added'] = 'No s\'ha afegit cap franja horària nova.';
+$string['message_warning_no_slots_selected'] = 'Primer heu de seleccionar almenys una franja horària.';
+$string['message_warning_no_visible_slots_selected'] = 'Primer heu de seleccionar almenys una franja horària VISIBLE.';
+$string['messageprovider:appointment_reminder_student'] = 'Recordatori de cita de l\'organitzador';
+$string['messageprovider:appointment_reminder_teacher'] = 'Recordatori de cita de l\'organitzador (docent)';
+$string['messageprovider:appointmentdeleted_notify_student'] = 'S\'ha suprimit la cita de l\'organitzador';
+$string['messageprovider:assign_notify_student'] = 'El professor o la professora ha assignat una franja horària de l\'organitzador';
 $string['messages_all'] = 'Totes les inscripcions, reinscripcions i cancel·lacions';
 $string['messages_none'] = 'Sense notificacions d\'inscripcions';
 $string['messages_re_unreg'] = 'Només les reinscripcions i les cancel·lacions';
@@ -453,7 +657,7 @@ $string['reg_status'] = 'Estat dels registres';
 $string['relative_deadline_before'] = 'abans de la cita';
 $string['relative_deadline_now'] = 'Comença ara';
 $string['relativedeadline'] = 'Data límit relativa';
-$string['relativedeadline_help'] = 'Estableix la data límit per sol·licitar una franja horària determinada amb un temps d\'antelació concret. Els estudiants no podran canviar el seu registre o suprimir-lo una vegada que la data límit hagi vençut.';
+$string['relativedeadline_help'] = 'Estableix la data límit per sol·licitar una franja horària determinada amb un temps d\'antelació concret. Els estudiants no podran canviar el seu registre o cancel·lar-lo una vegada que la data límit hagi vençut.';
 $string['remindall_desc'] = 'Envia recordatoris a tots els participants que no tenen cap cita';
 $string['remindallmultiple_desc'] = 'Envia recordatoris a tots els participants que tinguin un nombre insuficient de cites';
 $string['searchfilter'] = 'Cerca / Filtra';

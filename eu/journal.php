@@ -157,7 +157,6 @@ $string['savechanges'] = 'Gorde aldaketak';
 $string['savefeedback'] = 'Gorde feedbacka';
 $string['search:activity'] = 'Egunkaria - jarduera-informazioa';
 $string['search:entry'] = 'Egunkaria - sarrerak';
-$string['showoverview'] = 'Erakutsi egunkarien ikuspegi orokorra aginte-panelean';
 $string['showrecentactivity'] = 'Erakutsi duela gutxiko aktibitatea';
 $string['started'] = 'Egunkari hau hasi duzu';
 $string['startoredit'] = 'Hasi edo editatu nire egunkari-sarrera';

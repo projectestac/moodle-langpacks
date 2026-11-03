@@ -332,7 +332,7 @@ $string['hidegrader_help'] = 'Si s\'activa, oculta la identitat de qualsevol usu
 
 Fixeu-vos que aquest paràmetre no té efectes en la caixa de comentaris de la pàgina de qualificació.';
 $string['hideshow'] = 'Mostra/Oculta';
-$string['inactiveoverridehelp'] = '* L\'estudiant no té el grup o el rol correcte per realitzar la tramesa.';
+$string['inactiveoverridehelp'] = '* Aquesta excepció no és efectiva perquè l\'usuari té l\'accés restringit a l\'activitat. Pot ser, per exemple, que no tingui el grup o el rol correctes, que hi hagi altres restriccions d\'accés o que l\'activitat estigui oculta.';
 $string['indicator:cognitivedepth'] = 'Tasca cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Aquest indicador es basa en la profunditat cognitiva assolida per l\'estudiant en una activitat del tipus tasca.';
 $string['indicator:cognitivedepthdef'] = 'Tasca cognitiva';

@@ -66,7 +66,7 @@ As minhas avaliações | https://someurl.xyz/local/mygrades/index.php | incorpor
 Este item apenas será visto em inglês | https: //someurl.xyz/english | browser | en_only
 </pre>';
 $string['darkmode'] = 'Modo escuro';
-$string['disabledfeatures'] = 'Desativar funcionalidades';
+$string['disabledfeatures'] = 'Funcionalidades desativadas';
 $string['disabledfeatures_desc'] = 'Selecione as funcionalidades do seu site que pretende desativar na Aplicação móvel. Tenha em atenção que algumas funcionalidades aqui listadas podem já estar desativadas por meio de outras configurações do site. Terá de terminar sessão e voltar a iniciar sessão na aplicação para ver as alterações.';
 $string['displayerrorswarning'] = 'Mostrar mensagens de depuração (debugdisplay) está ativado. Deve estar desativado.';
 $string['downloadcourse'] = 'Descarregar disciplina';

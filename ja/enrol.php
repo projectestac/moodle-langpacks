@@ -47,7 +47,7 @@ $string['customwelcomemessage_help'] = '使用可能フォーマット: プレ�
 <li>ユーザ名 {$a->firstname}</li>
 <li>ユーザコースロール {$a->courserole}</li>
 </ul>';
-$string['customwelcomemessageplaceholder'] = 'こんにちは {$a->fullname} さん、あなたはコース {$a->coursename} に登録されました。';
+$string['customwelcomemessageplaceholder'] = 'こんにちは {$a->firstname} さん、あなたはコース {$a->coursename} に登録されました。';
 $string['defaultenrol'] = '新しいコースにインスタンスを追加する';
 $string['defaultenrol_desc'] = 'このプラグインを新しいコースすべてにデフォルトで追加できます。';
 $string['deleteinstanceconfirm'] = 'あなたは登録方法「 {$a->name} 」を削除しようとしています。この登録方法を使用して登録している {$a->users} 名のユーザすべては登録解除されます。同時にユーザ評定、グループメンバシップ、フォーラム購読のようなコース関連データすべてが削除されます。

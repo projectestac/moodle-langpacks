@@ -52,7 +52,7 @@ Utilizar o GD do PHP para este fim pode degradar a qualidade da imagem.
 
 Para melhorar o desempenho do EXIF Remover, configure abaixo as configurações do ExifTool.
 
-Mais informações sobre a instalação do ExifTool, consulte {$a->link}';
+Para mais informações sobre a instalação do ExifTool, consulte {$a->link}';
 $string['redactor:exifremover:failedprocessexiftool'] = 'Redação do ficheiro';
 $string['redactor:exifremover:failedprocessgd'] = 'Redação do ficheiro';
 $string['redactor:exifremover:heading'] = 'Redação do ficheiro';

@@ -157,7 +157,6 @@ $string['savechanges'] = 'Änderungen speichern';
 $string['savefeedback'] = 'Feedback speichern';
 $string['search:activity'] = 'Journal - Aktivitätsinfo';
 $string['search:entry'] = 'Journal - Einträge';
-$string['showoverview'] = 'Journalübersicht im \'Dashboard\' anzeigen';
 $string['showrecentactivity'] = 'Aktuelle Aktivitäten anzeigen';
 $string['started'] = 'Sie haben dieses Journal begonnen.';
 $string['startoredit'] = 'Journaleintrag bearbeiten';

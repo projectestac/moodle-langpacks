@@ -113,6 +113,7 @@ $string['gotosection'] = 'Ga naar sectie {$a}';
 $string['gradetopassnotset'] = 'Deze cursus heeft geen cijfer om te slagen ingesteld. Het kan worden ingesteld in het cijfer van de cursus (cijferlijst-instelling).';
 $string['hideendedcoursestask'] = 'Verbergen cursussen na einddatum';
 $string['informationformodule'] = 'Informatie over de activiteit {$a}';
+$string['locked'] = 'Geblokkeerd';
 $string['module'] = 'Activiteit';
 $string['namewithlink'] = 'Categorienaam met link';
 $string['noaccesssincestartinfomessage'] = 'Hallo {$a->userfirstname},

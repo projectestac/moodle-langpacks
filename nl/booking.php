@@ -208,7 +208,6 @@ $string['bookedtextsubject'] = 'Boekingsbevestiging voor {$a->title}';
 $string['bookedtextsubjectbookingmanager'] = 'Nieuwe boeking voor {$a->title} door {$a->participant}';
 $string['bookedusers'] = 'Ingeschreven gebruikers';
 $string['booking'] = 'Inschrijving';
-$string['booking:addeditownoption'] = 'Voeg een nieuwe optie toe en wijzig eigen opties.';
 $string['booking:addinstance'] = 'Voeg een nieuwe inschrijving toe';
 $string['booking:bookforothers'] = 'Boek voor anderen';
 $string['booking:canseeinvisibleoptions'] = 'Bekijk onzichtbare opties.';

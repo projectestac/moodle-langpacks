@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['abouttobeinstalled'] = 'インストールされます';
+$string['abouttobeinstalled'] = 'インストール予定';
 $string['accept'] = '承認';
 $string['action'] = '操作';
 $string['actionchoice'] = 'このファイル「 {$a} 」で何をしますか?';
@@ -47,7 +47,7 @@ $string['activitynotready'] = '活動準備未完了';
 $string['activityorresource'] = '活動またはリソース';
 $string['activityreport'] = '活動レポート';
 $string['activityreports'] = '活動レポート';
-$string['activityselect'] = '他の場所に移動するため、この活動を選択する';
+$string['activityselect'] = 'この活動を選択して別の場所に移動する';
 $string['activitysince'] = '{$a} 以来の活動';
 $string['activitytypetitle'] = '{$a->activity} - {$a->type}';
 $string['activityweighted'] = 'ユーザごとの活動';
@@ -62,7 +62,7 @@ $string['addcontent'] = 'コンテンツを追加する';
 $string['addcountertousername'] = 'ユーザ名に番号を付加してユーザを作成する';
 $string['addcreator'] = 'コース作成者を追加する';
 $string['adddots'] = '追加 ...';
-$string['added'] = '{$a} が追加されました';
+$string['added'] = '{$a} が追加されました。';
 $string['addedtogroup'] = 'グループ「 {$a} 」に追加されました。';
 $string['addedtogroupnot'] = 'グループ「 {$a} 」に追加されませんでした。';
 $string['addedtogroupnotenrolled'] = 'コースに登録されていないため、グループ「 {$a} 」に追加されませんでした。';
@@ -93,7 +93,7 @@ $string['adminhelpaddnewuser'] = '新しいユーザアカウントを手動作�
 $string['adminhelpassignadmins'] = '管理者はサイト内ですべての作業および移動ができます。';
 $string['adminhelpassigncreators'] = 'コース作成者は新しいコースを作成できます。';
 $string['adminhelpassignsiteroles'] = '定義済みサイトロールを特定のユーザに適用します。';
-$string['adminhelpassignstudents'] = 'コースに入って管理メニューより学生を追加します。';
+$string['adminhelpassignstudents'] = 'コースに移動して管理者メニューから学生を追加します';
 $string['adminhelpauthentication'] = 'あなたは内部ユーザアカウントまたは外部データベースを使用できます。';
 $string['adminhelpbackup'] = '自動バックアップおよびそのスケジュールを設定します。';
 $string['adminhelpconfiguration'] = 'サイトのデザインおよび動作を設定します。';
@@ -101,10 +101,10 @@ $string['adminhelpconfigvariables'] = 'サイト全般の運用に影響する�
 $string['adminhelpcourses'] = 'コース・カテゴリの設定およびユーザの割り当て、承認審査中のコースを編集します。';
 $string['adminhelpeditorsettings'] = 'HTMLエディタの基本設定を定義します。';
 $string['adminhelpedituser'] = 'ユーザアカウントリストを表示および編集します。';
-$string['adminhelpenvironment'] = 'あなたのサーバが現在および将来のインストールのシステム要件を満たしているかチェックします。';
+$string['adminhelpenvironment'] = 'あなたのサーバが現在および将来のインストール要件にどのように適合しているか確認します。';
 $string['adminhelpfailurelogs'] = 'ログイン失敗のログを表示します。';
 $string['adminhelplanguage'] = '現在の言語パックを確認および編集します。';
-$string['adminhelplogs'] = 'サイトの活動すべてに関するログを表示します。';
+$string['adminhelplogs'] = 'このサイトのすべての活動のログを閲覧します。';
 $string['adminhelpmanageblocks'] = 'インストール済みブロックを管理および設定します。';
 $string['adminhelpmanagedatabase'] = 'データベースに直接アクセスします (注意してください!)。';
 $string['adminhelpmanagefilters'] = 'テキストフィルタおよび関連設定を選択します。';
@@ -112,10 +112,10 @@ $string['adminhelpmanagemodules'] = 'インストール済みモジュールお�
 $string['adminhelpmanageroles'] = 'ユーザに適用可能なロールを作成および定義します。';
 $string['adminhelpmymoodle'] = 'ユーザのマイMoodleブロックを設定します。';
 $string['adminhelpreports'] = 'サイトレベルレポート';
-$string['adminhelpsitefiles'] = '一般的なファイルの公開または外部バックアップファイルをアップロードします。';
-$string['adminhelpsitesettings'] = 'サイトホームのデザインを設定します。';
+$string['adminhelpsitefiles'] = '一般的なファイルの公開または外部バックアップのアップロード用です。';
+$string['adminhelpsitesettings'] = 'サイトホームのデザインを定義します。';
 $string['adminhelpstickyblocks'] = 'Moodle全体のスティッキーブロックを設定します。';
-$string['adminhelpthemes'] = 'サイトのデザイン (色、フォント等) を選択します。';
+$string['adminhelpthemes'] = 'サイトの外観 (色、フォント等) を選択します。';
 $string['adminhelpuploadusers'] = 'テキストファイルから新しいユーザをインポートします。';
 $string['adminhelpusers'] = 'あなたのユーザを定義して認証を設定します。';
 $string['adminhelpxmldbeditor'] = 'XMLDBファイルを編集するためのインタフェースです。開発者専用です。';
@@ -153,7 +153,7 @@ $string['allowstealthmodules_help'] = 'この設定を有効にした場合、�
 $string['allparticipants'] = 'すべての参加者';
 $string['allteachers'] = 'すべての教師';
 $string['alphanumerical'] = '半角英数字、ハイフン (-)、ピリオド (.) のみ使用できます。';
-$string['alreadyconfirmed'] = 'ユーザ登録はすでに承認されています。';
+$string['alreadyconfirmed'] = '登録はすでに承認されています。';
 $string['alternatename'] = '別名';
 $string['always'] = '常に';
 $string['and'] = '{$a->one} および {$a->two}';
@@ -177,7 +177,7 @@ $string['authenticateduserdescription'] = 'すべてのログイン済みユー�
 $string['authentication'] = '認証';
 $string['authenticationplugins'] = '認証プラグイン';
 $string['autosubscribe'] = 'フォーラム自動メール購読';
-$string['autosubscribeno'] = 'いいえ: フォーラムディスカッションをメール購読しません';
+$string['autosubscribeno'] = 'いいえ: 私はフォーラムディスカッションを自動的にはメール購読しません';
 $string['autosubscribeyes'] = 'はい: 私が投稿した場合、フォーラムディスカッションをメール購読します';
 $string['availability'] = '利用';
 $string['availablecourses'] = 'コース一覧';
@@ -189,16 +189,16 @@ $string['backtopageyouwereon'] = '元のページに戻る';
 $string['backup'] = 'バックアップ';
 $string['backupactivehelp'] = '自動バックアップを実行するかどうか選択してください。';
 $string['backupadhocpending'] = 'コースバックアップアドホックタスク保留';
-$string['backupcancelled'] = 'バックアップが中止されました。';
+$string['backupcancelled'] = 'バックアップがキャンセルされました。';
 $string['backupcoursefileshelp'] = 'この設定を有効にした場合、自動バックアップにコースファイルが含まれます。';
 $string['backupdate'] = 'バックアップ日付';
 $string['backupdatenew'] = '&nbsp; 現在の {$a->TAG} は {$a->weekday}, {$a->mday} {$a->month} {$a->year} です。<br />';
 $string['backupdateold'] = '{$a->TAG} は {$a->weekday}, {$a->mday} {$a->month} {$a->year} でした。';
 $string['backupdaterecordtype'] = '<br />{$a->recordtype} - {$a->recordname}<br />';
 $string['backupdetails'] = 'バックアップ詳細';
-$string['backuperrorinvaliddestination'] = 'バックアップ先フォルダが存在しないか、書き込み可能ではありません。';
-$string['backupexecuteathelp'] = '何時に自動バックアップを実行するか選択してください。';
-$string['backupfailed'] = 'あなたのいくつかのコースが保存されませんでした。';
+$string['backuperrorinvaliddestination'] = 'バックアップ先フォルダが存在しないか、書き込みできません。';
+$string['backupexecuteathelp'] = '自動バックアップを実行する時刻を選択してください。';
+$string['backupfailed'] = 'あなたの一部のコースが保存されませんでした。';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'バックアップが正常に完了しました。';
 $string['backupfromthissite'] = 'バックアップはこのサイトで作成されましたか?';
@@ -743,7 +743,7 @@ $string['emailmustbereal'] = '注意：メールアドレスは実際に使え�
 $string['emailnotallowed'] = 'これらのドメインのメールアドレスは許可されていません ({$a})';
 $string['emailnotfound'] = 'データベース内にメールアドレスが見つかりませんでした。';
 $string['emailonlyallowed'] = 'このメールアドレスは使用できません。許可されるメールドメインは次のとおりです: {$a}';
-$string['emailpasswordchangeinfo'] = 'こんにちは {$a->fullname} さん
+$string['emailpasswordchangeinfo'] = 'こんにちは {$a->firstname} さん
 
 誰か (おそらくあなた) が「 {$a->usitename} 」 のアカウント「 {$a->username} 」に対して新しいパスワードをリクエストしました。
 
@@ -755,18 +755,18 @@ $string['emailpasswordchangeinfo'] = 'こんにちは {$a->fullname} さん
 
 分からないことがある場合、サイト管理者にご連絡ください:
 {$a->admin}';
-$string['emailpasswordchangeinfodisabled'] = 'こんにちは {$a->fullname} さん
+$string['emailpasswordchangeinfodisabled'] = 'こんにちは {$a->firstname} さん
 
 「 {$a->sitename} 」のあなたのアカウントへ新しいパスワードのリクエストがありました。
 
 申し訳ありませんが、このサイトであなたのアカウントは無効にされているため、パスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
-$string['emailpasswordchangeinfofail'] = 'こんにちは {$a->fullname} さん
+$string['emailpasswordchangeinfofail'] = 'こんにちは {$a->firstname} さん
 
 「 {$a->sitename} 」のあなたのアカウントへ新しいパスワードのリクエストがありました。
 
 申し訳ありませんが、このサイトではパスワードをリセットすることができません。サイト管理者 {$a->admin} にご連絡ください。';
 $string['emailpasswordchangeinfosubject'] = '{$a}: パスワード変更情報';
-$string['emailpasswordconfirmation'] = 'こんにちは {$a->fullname} さん
+$string['emailpasswordconfirmation'] = 'こんにちは {$a->firstname} さん
 
 誰か (おそらくあなた) が「 {$a->usitename} 」 のアカウント「 {$a->username} 」に対して新しいパスワードをリクエストしました。
 
@@ -787,7 +787,7 @@ $string['emailpasswordconfirmsent'] = 'あなたの <b>{$a}</b> のメールア�
 <br />このパスワード変更に関して、確認および完了のための簡単な説明が記載されています。分からない場合、サイト管理者にご連絡ください。';
 $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうございます。
 <p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>{$a->email}</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href="{$a->link}">パスワードの変更</a> で覚えやすいものに変更できます。';
-$string['emailresetconfirmation'] = 'こんにちは {$a->fullname} さん
+$string['emailresetconfirmation'] = 'こんにちは {$a->firstname} さん
 
 {$a->sitename} であなたのアカウント「 {$a->username} 」のパスワードリセットがリクエストされました。
 
@@ -917,7 +917,7 @@ $string['explanationdigitalminor'] = 'この情報はあなたの年齢がデジ
 $string['extendperiod'] = '延長期間';
 $string['extendsession'] = 'セッションを延長する';
 $string['failedloginattempts'] = 'あなたの最終ログインより {$a->attempts} 回のログイン失敗がありました。';
-$string['failedtaskbody'] = '<p>こんにちは {$a->fullname} さん</p>
+$string['failedtaskbody'] = '<p>こんにちは {$a->firstname} さん</p>
 <p>タスク「 {$a->taskname} 」が複数回失敗したため注意が必要です。</p>
 <p><a href="{$a->link}">タスクを確認する</a></p>';
 $string['failedtaskcontexturlname'] = 'ステータスレポート';
@@ -1498,7 +1498,7 @@ $string['newloginnotificationtitle'] = 'あなたの {$a} アカウントへの�
 $string['newpassword'] = '新しいパスワード';
 $string['newpassword_help'] = '新しいパスワードを入力してください。現在のパスワードを使用する場合は空白にしてください。';
 $string['newpasswordfromlost'] = '<strong>注意:</strong> 喪失パスワードリカバリ処理の一環として送信される2通のメールの<strong>2番目</strong>にあなたの<strong>現在のパスワード</strong>が送信されます。この画面を続ける前にあなたの新しいパスワードが記載されたメールを受信したことをご確認ください。';
-$string['newpasswordtext'] = 'こんにちは {$a->fullname} さん
+$string['newpasswordtext'] = 'こんにちは {$a->firstname} さん
 
 「 {$a->sitename} 」のパスワードリセットおよび仮パスワードの作成が完了しました。
 
