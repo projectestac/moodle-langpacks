@@ -77,9 +77,9 @@ $string['coursecommunication_desc'] = 'De standaard communicatieservice voor nie
 $string['coursecontentnotification'] = 'Melding van inhoudswijziging verzenden';
 $string['coursecontentnotification_help'] = 'Je kunt een melding naar de cursusgebruikers sturen over elke nieuwe of bijgewerkte bron of activiteit. Enkel gebruikers met toegang tot de activiteit of bron zullen een melding krijgen.';
 $string['coursecontentnotifnew'] = '{$a->coursename} nieuwe inhoud';
-$string['coursecontentnotifnewbody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> is nieuw in de cursus <a href="{$a-> courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Wijzig je meldingsvoorkeuren</a></p>';
+$string['coursecontentnotifnewbody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> is nieuw in de cursus <a href="{$a->courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Wijzig je meldingsvoorkeuren</a></p>';
 $string['coursecontentnotifupdate'] = '{$a->coursename} inhoudswijziging';
-$string['coursecontentnotifupdatebody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> is gewijzigd in de cursus <a href="{$a- >courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Wijzig hier je meldingsvoorkeuren</a></p>';
+$string['coursecontentnotifupdatebody'] = '<p>{$a->moduletypename} <a href="{$a->link}">{$a->modulename}</a> is gewijzigd in de cursus <a href="{$a->courselink}">{$a->coursename}</a>.</p><p><a href="{$a->notificationpreferenceslink}">Wijzig hier je meldingsvoorkeuren</a></p>';
 $string['coursecount'] = 'Aantal cursussen';
 $string['coursenotyetfinished'] = 'De cursus is nog niet geëindigd';
 $string['coursenotyetstarted'] = 'De cursus is nog niet begonnen';
@@ -139,8 +139,8 @@ $string['privacy:metadata:favouritessummary'] = 'De cursus bevat informatie die 
 $string['privacy:perpage'] = 'Het aantal te tonen cursussen per pagina.';
 $string['recommend'] = 'Adviseren';
 $string['recommendcheckbox'] = 'Aanbevolen activiteit: {$a}';
-$string['relativedatessubmissionduedateafter'] = '{$a->dateiffstr} na het begin van de cursus';
-$string['relativedatessubmissionduedatebefore'] = '{$a->dateiffstr} voor het begin van de cursus';
+$string['relativedatessubmissionduedateafter'] = '{$a->datediffstr} na het begin van de cursus';
+$string['relativedatessubmissionduedatebefore'] = '{$a->datediffstr} voor het begin van de cursus';
 $string['searchactivitiesbyname'] = 'Zoek naar activiteiten op naam';
 $string['searchresults'] = 'Zoekresultaten: {$a}';
 $string['sectionlink'] = 'Permalink';

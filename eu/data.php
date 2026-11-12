@@ -54,7 +54,7 @@ Soilik "Eskuragarri dauden etiketak" zerrendan dauden etiketak erabil daitezke t
 $string['availabletodate'] = 'Amaiera-data';
 $string['availabletodatevalidation'] = 'Amaiera-data ezin da hasiera-data baino lehenagokoa izan.';
 $string['bynameondate'] = 'Egilea eta data: {$a->name} - {$a->date}';
-$string['calendarend'] = '{$a}(r)en itxiera-data:';
+$string['calendarend'] = '{$a}(r)en itxiera-data';
 $string['calendarstart'] = '{$a}(r)en hasiera-data';
 $string['cancel'] = 'Utzi';
 $string['cannotaccesspresentsother'] = 'Ez duzu beste erabiltzaile batzuen aurretiko ezarpenetara sartzeko baimenik';

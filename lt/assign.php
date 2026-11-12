@@ -112,7 +112,7 @@ $string['attemptreopenmethod_help'] = 'Parametras nurodo kaip besimokančiajam a
 
 *Niekada - galimas tik vienas bandymas.
 *Rankiniu būdu - dėstytojas gali leisti papildomus bandymus.
-*Automatiškai, kol negautas išlaikymo įvertinimas - papildomi bandymai yra leidžiami automatiškai kol besimokantysis pasieks išlaikymo įvertinimą, nurodytą įvertinimų knygelės nuostatose šiai užduočiai.';
+*Automatiškai, kol negautas išlaikymo įvertinimas - papildomi bandymai yra leidžiami automatiškai, kol besimokantysis pasieks išlaikymo įvertinimą, nurodytą įvertinimų knygelės nuostatose šiai užduočiai.';
 $string['attemptreopenmethod_manual'] = 'Rankiniu būdu';
 $string['attemptreopenmethod_manual_help'] = 'Po kiekvieno bandymo galite suteikti kitą bandymą naudodamiesi puslapiu „Pateikimai“ arba puslapiu „Vertintojas“.';
 $string['attemptreopenmethod_none'] = 'Niekada';
@@ -159,7 +159,7 @@ $string['changeuser'] = 'Keisti naudotoją';
 $string['choosegradingaction'] = 'Vertinimo  veiksmas';
 $string['choosemarker'] = 'Pasirinkti...';
 $string['chooseoperation'] = 'Pasirinkite operaciją';
-$string['clickexpandreviewpanel'] = 'Spragtelkite peržiūros skydelio išskleidimui';
+$string['clickexpandreviewpanel'] = 'Spragtelėkite peržiūros skydelio išskleidimui';
 $string['collapsegradepanel'] = 'Sutraukti vertinimo skydelį';
 $string['collapsereviewpanel'] = 'Sutraukti peržiūros skydelį';
 $string['comment'] = 'Komentuoti';
@@ -170,7 +170,7 @@ $string['confirmbatchgradingoperation'] = 'Ar Jūs tikrai norite {$a->count} bes
 $string['confirmstart'] = 'Turite {$a} atlikti šią užduotį. Kai pradėsite, laikmatis pradės skaičiuoti atgal ir jo nebus galima pristabdyti.';
 $string['confirmsubmission'] = 'Ar Jūs tikrai norite pateikti darbą vertinimui? Jūs nebegalėsite atlikti jokių pakeitimų.';
 $string['confirmsubmissionheading'] = 'Patvirtinti pateikimą';
-$string['conversionexception'] = 'Nepavyko konvertuoti užduotį. Buvo ši išimtis: {$a}';
+$string['conversionexception'] = 'Nepavyko konvertuoti užduoties. Buvo ši išimtis: {$a}';
 $string['couldnotconvertgrade'] = 'Nepavyko konvertuoti {$a} naudotojo užduoties įvertinimo.';
 $string['couldnotconvertsubmission'] = 'Nepavyko konvertuoti {$a} naudotojo pateiktos užduoties.';
 $string['couldnotcreatecoursemodule'] = 'Nepavyko sukurti kurso modulio.';
@@ -238,7 +238,7 @@ $string['eventmarkerupdated'] = 'Paskirtas vertintojas buvo atnaujintas.';
 $string['eventoverridecreated'] = 'Užduoties keitimas sukurtas';
 $string['eventoverridedeleted'] = 'Užduoties keitimas ištrintas';
 $string['eventoverrideupdated'] = 'Užduoties keitimas atnaujintas';
-$string['eventremovesubmissionformviewed'] = 'Pašalinti pateikimo patvritinimo peržiūrą.';
+$string['eventremovesubmissionformviewed'] = 'Pašalinti pateikimo patvirtinimo peržiūrą.';
 $string['eventrevealidentitiesconfirmationpageviewed'] = 'Peržiūrėtas tapatybės patvirtinimo puslapis.';
 $string['eventstatementaccepted'] = 'Naudotojas patvirtino pateiktą pateikimą.';
 $string['eventsubmissionconfirmationformviewed'] = 'Pateikimo patvirtinimo forma peržiūrėta.';
@@ -325,7 +325,7 @@ $string['gradeuser'] = 'Vertinti {$a}';
 $string['grading'] = 'Vertinama';
 $string['gradingchangessaved'] = 'Įvertinimo pakeitimai išsaugoti';
 $string['gradingduedate'] = 'Priminti man įvertinti iki';
-$string['gradingduedate_help'] = 'Tikėtina užbaigimo data, iki kurios turi būti pažymėtas užbaigimas. Pagal šią datą atitinkamai rodomi pranešimai dėstytojų „Mano pagrindinis" puslapyje.';
+$string['gradingduedate_help'] = 'Tikėtina užbaigimo data, iki kurios turi būti pažymėtas užbaigimas. Pagal šią datą atitinkamai rodomi pranešimai dėstytojų „Mano pagrindinis“ puslapyje.';
 $string['gradingdueduedatevalidation'] = '„Priminti man įvertinti iki“ data negali būti ankstesnė nei pristatymo data.';
 $string['gradingduefromdatevalidation'] = '„Priminti man įvertinti iki“ data negali būti ankstesnė nei „Leisti įkelti darbus nuo“ data.';
 $string['gradingmethodpreview'] = 'Vertinimo kriterijai';
@@ -556,14 +556,14 @@ $string['sendnotifications'] = 'Informuoti vertintojus apie įkeltus darbus';
 $string['sendnotifications_help'] = 'Jei įgalinta, vertintojai (dažniausiai mokytojai) gaus pranešimą, kuomet besimokantysis jį įkels darbą: anksčiau, laiku ar  vėluodamas. Pranešimo metodai yra konfigūruojami.';
 $string['sendstudentnotifications'] = 'Informuoti besimokantįjį';
 $string['sendstudentnotifications_help'] = 'Pažymėkite šį laukelį, jei norite išsiųsti pranešimą apie atnaujintą įvertinimą arba atsiliepimą. Jei atliekant užduotį naudojama vertinimo eiga arba įvertinimai yra paslėpti vertintojo ataskaitoje, pranešimas nebus siunčiamas, kol įvertinimas nebus pateiktas.';
-$string['sendstudentnotificationsdefault'] = 'Numatytasis nustatymas “Informuoti besimokantįjį"';
+$string['sendstudentnotificationsdefault'] = 'Numatytasis nustatymas „Informuoti besimokantįjį“';
 $string['sendstudentnotificationsdefault_help'] = 'Ar vertinant kiekvieną besimokantįjį pagal numatytuosius nustatymus turėtų būti pažymėta „Informuoti besimokantįjį“?';
 $string['sendsubmissionreceipts'] = 'Nusiųsti įkelto darbo patvirtinimą besimokantiesiems';
 $string['sendsubmissionreceipts_help'] = 'Ši parinktis įgalina įkelto darbo patvirtinimo siuntimą besimokantiesiems. Besimokantieji gaus pranešimą kiekvieną kartą, kai jie sėkmingai pateiks užduotį.';
-$string['setmarkerallocationforlog'] = 'Nustatyti vertinimo paskirstymą : (id={$a->id}, fullname={$a->fullname}, marker={$a->marker}).';
+$string['setmarkerallocationforlog'] = 'Nustatyti vertinimo paskirstymą: (id={$a->id}, fullname={$a->fullname}, marker={$a->marker}).';
 $string['setmarkingallocation'] = 'Priskirti vertintoją';
 $string['setmarkingworkflowstate'] = 'Nurodyti vertinimo būseną';
-$string['setmarkingworkflowstateforlog'] = 'Nustatyti vertinimo darbo eigos būseną : (id={$a->id}, fullname={$a->fullname}, state={$a->state}).';
+$string['setmarkingworkflowstateforlog'] = 'Nustatyti vertinimo darbo eigos būseną: (id={$a->id}, fullname={$a->fullname}, state={$a->state}).';
 $string['settings'] = 'Užduoties nuostatos';
 $string['showrecentsubmissions'] = 'Parodyti paskutinius darbus';
 $string['status'] = 'Būsena';
@@ -578,7 +578,7 @@ $string['submissioncopiedsmall'] = 'Jūs nukopijavote ankstesnės veiklos {$a->a
 $string['submissioncopiedtext'] = 'Jūs nukopijavote ankstesnės veiklos "{$a->assignment}" pateikimą
 Jūs galite peržiūrėti veiklos pateikimo būseną: {$a->url}';
 $string['submissiondrafts'] = 'Reikalauti besimokančiųjų spustelėti pateikimo mygtuką';
-$string['submissiondrafts_help'] = 'Jei įjungta, besimokantieji turės spustelėti pateikimo mygtuką, kad paskelbtų, kad jų pateikimas yra galutinis. Tai leidžia besimokantiesiems sistemoje išsaugoti pateikimo juodraštį. Jei šis nustatymas bus pakeistas iš „Ne“ į „Taip“, kai besimokantieji jau pateiks, tie pateikimai bus laikomi galutiniais.';
+$string['submissiondrafts_help'] = 'Ar besimokantiesiems turėtų būti pateiktas mygtukas „Pateikti“, kuriuo jie galėtų nurodyti, kad baigė taisyti savo darbą ir jis yra paruoštas vertinimui?';
 $string['submissioneditable'] = 'Besimokantysis gali keisti savo darbą';
 $string['submissionempty'] = 'Nebuvo pateikta darbų';
 $string['submissionlog'] = 'Besimokantysis: {$a->fullname}, Statusas: {$a->status}';

@@ -362,6 +362,7 @@ $string['norowsreturned'] = 'No rows returned';
 $string['nosemicolon'] = 'No semicolon';
 $string['nosqlpermissions'] = 'You do not have permission to manage SQL reports';
 $string['notallowedwords'] = 'Not allowed words';
+$string['notselectquery'] = 'Only queries that read data are allowed: the query has to start with SELECT or WITH';
 $string['operator'] = 'Operator';
 $string['ordering'] = 'Ordering';
 $string['others'] = 'Others';

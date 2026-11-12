@@ -458,7 +458,6 @@ $string['bookedtextsubjectbookingmanager'] = 'Nuova prenotazione per {$a->title}
 $string['bookedusers'] = 'Utenti prenotati';
 $string['bookelectivesbtn'] = 'Prenota corsi opzionali selezionati';
 $string['booking'] = 'Prenotazione';
-$string['booking:addeditownoption'] = 'Aggiungere una nuova opzione e modifica le tue opzioni.';
 $string['booking:addinstance'] = 'Aggiungere nuova prenotazione';
 $string['booking:bookanyone'] = 'Autorizzato a prenotare chiunque';
 $string['booking:bookforothers'] = 'Prenota per altri';

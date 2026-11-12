@@ -204,6 +204,7 @@ $string['enableasyncbackup_help'] = 'Jei įjungta, atsarginės kopijos kūrimo i
 $string['enterasearch'] = 'Įvesti iešką';
 $string['error_block_for_module_not_found'] = 'Pirmas vienišas bloko įvykis (id: {$a->bid}) kurso moduliui (id: {$a->mid})  rastas. Šiam blokui nebus daroma atsarginė kopija';
 $string['error_course_module_not_found'] = 'Vienišas kurso modulis (id: {$a}) rastas. Šis modulis nebus įtrauktas į atsarginę kopiją.';
+$string['error_delegate_section_not_found'] = 'Trūksta kurso modulio (ID {$a}) deleguotos dalies. Ši dalis nebus įtraukta į atsarginę kopiją.';
 $string['errorcopyingbackupfile'] = 'Nepavyko nukopijuoti atsarginės kopijos failo į laikiną aplanką prieš atkūrimą.';
 $string['errorfilenamemustbezip'] = 'Įvestas failo vardas turi būti ZIP failas, o jo plėtinys turi būti .mbz';
 $string['errorfilenamerequired'] = 'Turite įvesti galiojantį šios atsarginės kopijos failo vardą';
